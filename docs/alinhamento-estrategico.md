@@ -68,3 +68,4 @@ Este documento é a nossa **bússola**. Sempre que bater desânimo, dúvida ou s
    * Se você ficar mais de 10 minutos travado em um erro ou comando sem saber para onde ir: **PARE e me pergunte imediatamente**. O maior causador de desistência em tecnologia é perder 3 horas num erro bobo de digitação ou configuração.
 4. **Foco na Construção de Ativo (Portfólio):**
    * Lembre-se: você não está apenas "estudando". Você está **construindo um repositório no Git** que será o seu portfólio para mostrar ao seu chefe e ao mercado. Cada arquivo adicionado é patrimônio seu.
+

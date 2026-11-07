@@ -39,3 +39,4 @@ Esta metodologia foi adaptada especialmente para o perfil **Executor / Comunicad
   * O que funcionou bem?
   * O que me travou ou roubou energia?
   * O que ajustamos para a próxima Sprint?
+

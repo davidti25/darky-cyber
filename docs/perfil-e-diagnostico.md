@@ -33,3 +33,4 @@ Este documento consolida o mapeamento do seu perfil para calibrar a metodologia 
 1. **Linux CLI:** Foco em navegação, permissões e processos via OverTheWire Bandit.
 2. **Redes Práticas:** Análise de tráfego com Wireshark.
 3. **OWASP Web:** Laboratórios de SQL Injection e XSS na PortSwigger Academy.
+
