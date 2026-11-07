@@ -34,31 +34,62 @@
 <body class="text-gray-100 min-h-screen py-8 px-4 md:px-8">
   <div class="max-w-6xl mx-auto space-y-6">
 
-    <!-- Cabeçalho do Kanban -->
-    <header class="bg-[#111827] border border-gray-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+    <!-- Cabeçalho do Kanban com Pomodoro Integrado -->
+    <header class="bg-[#111827] border border-gray-800 rounded-2xl p-6 shadow-xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+      
+      <!-- Informações da Sprint -->
       <div>
         <div class="flex items-center gap-2">
           <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-            🏃 Sprint 01 Ativa (7 dias)
+            🏃 Sprint 01 (Experimento Ágil)
           </span>
           <span class="text-xs text-gray-500 font-mono">Personal Scrum</span>
         </div>
-        <h1 class="text-2xl font-bold mt-2 text-white">Quadro Ágil: Linux Operacional & Bandit</h1>
-        <p class="text-sm text-gray-400 mt-1">Metas atômicas de 15 a 20 minutos. Mova os cartões conforme avança.</p>
+        <h1 class="text-2xl font-bold mt-2 text-white">Quadro Ágil: Linux Operacional</h1>
+        <p class="text-sm text-gray-400 mt-1">1 Card = 1 Pomodoro (15 a 25 min). Foco em experimentar e adaptar.</p>
       </div>
 
-      <!-- Métricas / Progresso -->
-      <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4 w-full md:w-64">
-        <div class="flex justify-between text-xs text-gray-400 font-medium mb-1.5">
-          <span>Progresso da Sprint:</span>
-          <span id="progress-percent" class="text-cyan-400 font-bold">0%</span>
+      <!-- Bloco da Direita: Pomodoro Timer + Barra de Progresso -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
+        
+        <!-- Timer Pomodoro Embutido -->
+        <div class="bg-gray-900/80 border border-gray-800 rounded-xl p-3.5 flex items-center gap-4 w-full sm:w-auto shadow-inner">
+          <div>
+            <div class="flex items-center justify-between gap-2">
+              <span id="pomo-mode" class="text-[11px] font-semibold text-cyan-400 uppercase tracking-wider">🎯 Foco</span>
+              <span class="text-[10px] text-gray-500 font-mono">POMODORO</span>
+            </div>
+            <div id="pomo-display" class="text-2xl font-mono font-bold text-white tracking-widest mt-0.5">25:00</div>
+          </div>
+          <div class="flex flex-col gap-1.5">
+            <div class="flex gap-1">
+              <button id="pomo-btn-toggle" onclick="togglePomodoro()" class="px-2.5 py-1 text-xs font-medium rounded bg-cyan-600 hover:bg-cyan-500 text-white transition">
+                ▶ Iniciar
+              </button>
+              <button onclick="resetPomodoro()" class="px-2 py-1 text-xs font-medium rounded bg-gray-800 hover:bg-gray-700 text-gray-300 transition">
+                🔄
+              </button>
+            </div>
+            <button onclick="switchPomodoroMode()" class="text-[10px] text-gray-400 hover:text-cyan-300 text-center transition">
+              Alternar Pausa
+            </button>
+          </div>
         </div>
-        <div class="w-full bg-gray-800 h-2.5 rounded-full overflow-hidden">
-          <div id="progress-bar" class="bg-gradient-to-r from-cyan-500 to-emerald-400 h-2.5 rounded-full transition-all duration-300 w-0"></div>
+
+        <!-- Progresso da Sprint -->
+        <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-3.5 w-full sm:w-56">
+          <div class="flex justify-between text-xs text-gray-400 font-medium mb-1.5">
+            <span>Progresso Sprint:</span>
+            <span id="progress-percent" class="text-cyan-400 font-bold">0%</span>
+          </div>
+          <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+            <div id="progress-bar" class="bg-gradient-to-r from-cyan-500 to-emerald-400 h-2 rounded-full transition-all duration-300 w-0"></div>
+          </div>
+          <div class="text-[11px] text-gray-500 mt-1.5 text-right">
+            <span id="done-count" class="text-white font-semibold">0</span> de <span id="total-count">0</span> concluídas
+          </div>
         </div>
-        <div class="text-[11px] text-gray-500 mt-2 text-right">
-          <span id="done-count" class="text-white font-semibold">0</span> de <span id="total-count">0</span> concluídas
-        </div>
+
       </div>
     </header>
 
@@ -109,10 +140,10 @@
 
     </div>
 
-    <!-- Dica do Scrum Master -->
-    <footer class="bg-gray-900/40 border border-gray-800 rounded-xl p-4 text-xs text-gray-400 flex items-center justify-between">
-      <span>💡 <strong>Dica do Scrum Master:</strong> Arraste ou clique nas setas dos cartões para mudar de coluna. Foque em apenas 1 cartão por vez no "Em Andamento"!</span>
-      <button onclick="resetBoard()" class="text-gray-500 hover:text-gray-300 underline text-xs">Resetar padrão</button>
+    <!-- Dica e Rodapé -->
+    <footer class="bg-gray-900/40 border border-gray-800 rounded-xl p-4 text-xs text-gray-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <span>💡 <strong>Experimento:</strong> Teste 1 Pomodoro por dia. Se cansar, pare. A meta é sentir como o seu cérebro reage sem cobrança.</span>
+      <button onclick="resetBoard()" class="text-gray-500 hover:text-gray-300 underline text-xs">Resetar padrão das tarefas</button>
     </footer>
 
   </div>
@@ -121,82 +152,64 @@
     const INITIAL_TASKS = [
       {
         id: "task-1",
-        title: "Conexão SSH no Bandit 0",
-        desc: "Rodar: ssh bandit0@bandit.labs.overthewire.org -p 2220 e autenticar com senha 'bandit0'.",
-        tag: "Rede/SSH",
+        title: "Passo 0: Ativar Linux Leve (WSL2)",
+        desc: "Instalar Debian ou Ubuntu no notebook para ter um ambiente Linux local e isolado.",
+        tag: "Ambiente",
         tagColor: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-        time: "10 min",
+        time: "15 min",
         status: "todo"
       },
       {
         id: "task-2",
-        title: "Bandit 0 ➔ 1: Ler o readme",
-        desc: "Usar 'ls -la' para listar e 'cat readme' para extrair a senha do usuário bandit1.",
+        title: "Desafio 1: Navegação no Terminal",
+        desc: "Praticar comandos de navegação: pwd, ls -la, cd e entender a raiz do Linux (/).",
         tag: "Linux Básico",
         tagColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-        time: "10 min",
+        time: "15 min",
         status: "todo"
       },
       {
         id: "task-3",
-        title: "Salvar a senha no README",
-        desc: "Anotar a senha encontrada na tabela em sprints/sprint-01-linux/README.md.",
-        tag: "Documentação",
+        title: "Desafio 2: Leitura e Manipulação",
+        desc: "Criar arquivos com echo e cat, ler arquivos de texto e usar o comando file.",
+        tag: "Arquivos",
         tagColor: "bg-purple-500/10 text-purple-400 border-purple-500/20",
-        time: "5 min",
+        time: "15 min",
         status: "todo"
       },
       {
         id: "task-4",
-        title: "Bandit 1 ➔ 2: Arquivo com traço '-'",
-        desc: "Aprender como o cat lida com o arquivo nomeado '-' usando 'cat ./-'.",
-        tag: "Linux CLI",
-        tagColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-        time: "15 min",
-        status: "todo"
-      },
-      {
-        id: "task-5",
-        title: "Bandit 2 ➔ 3: Arquivo com espaços",
-        desc: "Ler arquivo com espaços no nome usando aspas ou barra invertida de escape.",
-        tag: "Linux CLI",
-        tagColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-        time: "15 min",
-        status: "todo"
-      },
-      {
-        id: "task-6",
-        title: "Bandit 3 ➔ 4: Arquivo oculto",
-        desc: "Encontrar arquivo oculto dentro da pasta 'inhere' usando 'ls -a'.",
-        tag: "Linux CLI",
-        tagColor: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
-        time: "15 min",
-        status: "todo"
-      },
-      {
-        id: "task-7",
-        title: "Bandit 4 ➔ 5: Identificar com 'file'",
-        desc: "Descobrir qual dos arquivos é legível por humanos usando o comando 'file ./*'.",
+        title: "Desafio 3: Arquivos Ocultos",
+        desc: "Aprender como o Linux oculta arquivos com '.' e como localizá-los com ls -a.",
         tag: "Investigação",
         tagColor: "bg-amber-500/10 text-amber-400 border-amber-500/20",
         time: "15 min",
         status: "todo"
       },
       {
-        id: "task-8",
-        title: "Bandit 5 ➔ 6: Filtros com 'find'",
-        desc: "Localizar arquivo usando propriedades: tamanho exato (1033 bytes) e não executável.",
-        tag: "Busca/Filtros",
-        tagColor: "bg-rose-500/10 text-rose-400 border-rose-500/20",
+        id: "task-5",
+        title: "Desafio 4: Busca com grep e pipes",
+        desc: "Filtrar saídas de comandos e buscar palavras dentro de arquivos usando | grep.",
+        tag: "Filtros",
+        tagColor: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
         time: "20 min",
+        status: "todo"
+      },
+      {
+        id: "task-6",
+        title: "Desafio 5: Inspeção de Portas (ss)",
+        desc: "Rodar o comando ss -tulpn para entender o que são portas abertas e processos.",
+        tag: "Redes/SOC",
+        tagColor: "bg-rose-500/10 text-rose-400 border-rose-500/20",
+        time: "15 min",
         status: "todo"
       }
     ];
 
-    let tasks = JSON.parse(localStorage.getItem('darky_cyber_kanban_s1')) || INITIAL_TASKS;
+    let tasks = JSON.parse(localStorage.getItem('darky_cyber_kanban_s1_v2')) || INITIAL_TASKS;
 
     function saveState() {
-      localStorage.setItem('darky_cyber_kanban_s1', JSON.stringify(tasks));
+      localStorage.setItem('darky_cyber_kanban_s1_v2', JSON.stringify(tasks));
       render();
     }
 
@@ -286,7 +299,95 @@
       document.getElementById('progress-bar').style.width = `${pct}%`;
     }
 
+    // --- Lógica do Pomodoro Timer Integrado ---
+    let pomoMinutes = 25;
+    let pomoSeconds = 0;
+    let pomoInterval = null;
+    let isPomoRunning = false;
+    let isBreakMode = false;
+
+    function updatePomoDisplay() {
+      const minStr = String(pomoMinutes).padStart(2, '0');
+      const secStr = String(pomoSeconds).padStart(2, '0');
+      document.getElementById('pomo-display').innerText = `${minStr}:${secStr}`;
+    }
+
+    function togglePomodoro() {
+      const btn = document.getElementById('pomo-btn-toggle');
+      if (isPomoRunning) {
+        clearInterval(pomoInterval);
+        isPomoRunning = false;
+        btn.innerText = "▶ Continuar";
+        btn.className = "px-2.5 py-1 text-xs font-medium rounded bg-emerald-600 hover:bg-emerald-500 text-white transition";
+      } else {
+        isPomoRunning = true;
+        btn.innerText = "⏸ Pausar";
+        btn.className = "px-2.5 py-1 text-xs font-medium rounded bg-amber-600 hover:bg-amber-500 text-white transition";
+        pomoInterval = setInterval(() => {
+          if (pomoSeconds === 0) {
+            if (pomoMinutes === 0) {
+              clearInterval(pomoInterval);
+              isPomoRunning = false;
+              btn.innerText = "▶ Iniciar";
+              btn.className = "px-2.5 py-1 text-xs font-medium rounded bg-cyan-600 hover:bg-cyan-500 text-white transition";
+              playBeep();
+              alert(isBreakMode ? "Hora de voltar ao foco!" : "Pomodoro concluído! Hora de levantar e descansar 5 minutos.");
+              switchPomodoroMode();
+              return;
+            }
+            pomoMinutes--;
+            pomoSeconds = 59;
+          } else {
+            pomoSeconds--;
+          }
+          updatePomoDisplay();
+        }, 1000);
+      }
+    }
+
+    function resetPomodoro() {
+      clearInterval(pomoInterval);
+      isPomoRunning = false;
+      pomoMinutes = isBreakMode ? 5 : 25;
+      pomoSeconds = 0;
+      const btn = document.getElementById('pomo-btn-toggle');
+      btn.innerText = "▶ Iniciar";
+      btn.className = "px-2.5 py-1 text-xs font-medium rounded bg-cyan-600 hover:bg-cyan-500 text-white transition";
+      updatePomoDisplay();
+    }
+
+    function switchPomodoroMode() {
+      isBreakMode = !isBreakMode;
+      const modeEl = document.getElementById('pomo-mode');
+      if (isBreakMode) {
+        modeEl.innerText = "☕ Pausa";
+        modeEl.className = "text-[11px] font-semibold text-emerald-400 uppercase tracking-wider";
+        pomoMinutes = 5;
+      } else {
+        modeEl.innerText = "🎯 Foco";
+        modeEl.className = "text-[11px] font-semibold text-cyan-400 uppercase tracking-wider";
+        pomoMinutes = 25;
+      }
+      pomoSeconds = 0;
+      resetPomodoro();
+    }
+
+    function playBeep() {
+      try {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.frequency.setValueAtTime(587.33, audioCtx.currentTime); // D5
+        gain.gain.setValueAtTime(0.3, audioCtx.currentTime);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.4);
+      } catch (e) {}
+    }
+
     render();
+    updatePomoDisplay();
   </script>
 </body>
 </html>
