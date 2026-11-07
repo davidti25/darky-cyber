@@ -1,18 +1,32 @@
 # 🛡️ Darky Cyber: Laboratório Prático de Cibersegurança & Portfólio de Engenharia
 
+<p align="center">
+  <img src="assets/mascote-nyx.jpg" alt="Nyx - A Coruja Sentinela" width="750" style="border-radius: 14px; box-shadow: 0 0 30px rgba(16, 185, 129, 0.25); border: 1px solid rgba(16, 185, 129, 0.4);" />
+</p>
+
 ```text
-                  ___             ___
-                /     \         /     \
-               |  ()   \       /   ()  |
-                \   \   \     /   /   /
-       __        \   \   '---'   /   /        __
-      /  \________\   \  (o,o)  /   /________/  \
-     /             \   \ {___} /   /             \
-    |   D A R K Y   \   \ -"- /   /   C Y B E R   |
-     \               \   \   /   /               /
-      \______/\_______)   \_/   (_______/\______/
-                 [ MASCOTE: NYX - A SENTINELA ]
-              "Vigilância Silenciosa no Escuro"
+         +-------------------------------------------------------------+
+         |                      [ TARGET LOCKED ]                      |
+         |      _/\_                                             _/\_  |
+         |     /    \       .---.                   .---.       /    \ |
+         |    /  /\  \     /     \                 /     \     /  /\  \|
+         |   |  /  \  \___/       \   /\_____/\   /       \___/  /  \ ||
+         |   | |    \              \ (  \   /  ) /              /    |||
+         |    \ \    \   CYBER      \ \_ \ / _/ /     SENTINEL /    / /|
+         |     \ \    \   RADAR      \  \ V /  /     RADAR    /    / / |
+         |      \ \    \___           \ (o.o) /           ___/    / /  |
+         |       \ \       \__         \ >o< /         __/       / /   |
+         |        \ \         \______   /'-'\   ______/         / /    |
+         |         \ \_              \ (  ^  ) /              _/ /     |
+         |          \__''--..._______ \ \---/ / _______...--''__/      |
+         |                           \ \ | | / /                       |
+         |                            \ \| |/ /                        |
+         |                       --==(( \ V / ))==--                   |
+         |                             ( \|/ )                         |
+         |                              \ | /   [ TALONS ENGAGED ]     |
+         |                               \|/                           |
+         +-------------------------------------------------------------+
+                      NYX : VIGILÂNCIA & RESPOSTA ARMADA
 ```
 
 > **Repositório oficial de formação técnica, experimentação prática e portfólio em Cibersegurança.**  
@@ -22,11 +36,12 @@
 
 ## 🦉 O Mascote: Nyx, a Coruja Sentinela
 
-A **Coruja** foi escolhida como símbolo supremo do **Darky Cyber** por representar exatamente os três pilares do projeto:
+A imagem de **Nyx** em modo de ataque e rastreamento reflete o espírito deste ecossistema:
 
-* **Visão 360° (O Analista):** Consegue enxergar ameaças em todas as direções no escuro absoluto, sem deixar passar nenhum pacote ou log anômalo.
-* **Voo Silencioso (A Segurança):** Suas asas são projetadas pela natureza para não emitir som — simbolizando o ambiente isolado (*Sandbox*), a discrição e a proteção contra ataques.
-* **Ataque Cirúrgico (O Executor):** Paciente na observação, mas rápida e certeira na hora de neutralizar a ameaça.
+* **Radar e Retículo de Alvo (*Target Locked*):** O **Analista** nunca atira no escuro; mapeia a topologia da rede, rastreia os pacotes e identifica anomalias com precisão cirúrgica.
+* **Asas Abertas em Varredura:** Cobertura completa de perímetro, proteção de estações de trabalho e contenção de movimentação lateral de ameaças.
+* **Garras Prontas para o Ataque (*Talons Engaged*):** O **Executor** que não hesita na resposta a incidentes. Isola hosts comprometidos, aplica patches e neutraliza ameaças no SOC.
+* **Aura Verde Matrix / Cyber:** A estética clássica dos terminais Unix e consoles defensivos de alta tecnologia.
 
 ---
 
@@ -68,6 +83,9 @@ O repositório está estruturado de forma modular e expansível para refletir pa
 
 ```
 c:\dev\darky-cyber\
+│
+├── 📁 assets/                       # Identidade Visual e Mídia
+│   └── 🖼️ mascote-nyx.jpg           # Arte oficial de Nyx (Coruja Sentinela)
 │
 ├── 📁 docs/                         # Governança, Metodologia e Planejamento
 │   ├── 📄 alinhamento-estrategico.md # Bússola do projeto, perfil e regras antidesistência
