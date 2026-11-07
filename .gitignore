@@ -1,0 +1,17 @@
+# Logs e temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Chaves e credenciais sensíveis (segurança em primeiro lugar!)
+*.pem
+*.key
+*.id_rsa
+*.env
+secrets/
+
+# IDE e editores
+.idea/
+*.swp
+*.bak

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnóstico de Cibersegurança - Antigravity</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    /* Estilos de contingência caso o Tailwind CDN demore para carregar */
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --accent: #2ea043;
+      --accent-hover: #3fb950;
+      --cyan: #38bdf8;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .question-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      transition: all 0.2s ease;
+    }
+
+    .option-label {
+      background-color: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .option-label:hover {
+      background-color: rgba(56, 189, 248, 0.08);
+      border-color: var(--cyan);
+    }
+
+    .option-input:checked+.option-box {
+      border-color: #38bdf8;
+      background-color: rgba(56, 189, 248, 0.15);
+    }
+  </style>
+</head>
+
+<body class="bg-[#0b0f19] text-gray-100 min-h-screen py-10 px-4">
+  <div class="max-w-3xl mx-auto space-y-8">
+
+    <!-- Cabeçalho -->
+    <header class="bg-[#111827] border border-gray-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+      <div class="absolute -right-10 -top-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="flex items-center justify-between">
+        <div>
+          <span
+            class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+            🛡️ Copiloto de Carreira Antigravity
+          </span>
+          <h1 class="text-2xl font-bold mt-2 text-white">Teste Diagnóstico de Cibersegurança</h1>
+          <p class="text-sm text-gray-400 mt-1">Identifique seus pontos fortes e áreas de oportunidade técnica para
+            estruturar seu plano de carreira.</p>
+        </div>
+      </div>
+
+      <!-- Barra de Progresso -->
+      <div class="mt-6">
+        <div class="flex justify-between text-xs text-gray-400 font-medium mb-1.5">
+          <span>Progresso: <span id="answered-count" class="text-cyan-400 font-semibold">0</span> de 10
+            respondidas</span>
+          <span id="progress-percent" class="text-gray-400">0%</span>
+        </div>
+        <div class="w-full bg-gray-800 h-2.5 rounded-full overflow-hidden">
+          <div id="progress-bar"
+            class="bg-gradient-to-r from-cyan-500 to-emerald-400 h-2.5 rounded-full transition-all duration-300 w-0">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Formulário com as Questões -->
+    <form id="quiz-form" class="space-y-6">
+
+      <!-- Questão 1 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">Redes
+            & Protocolos</span>
+          <span class="text-xs text-gray-500 font-mono">Q01</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          1. Você está analisando uma captura no Wireshark e nota uma máquina interna enviando centenas de requisições
+          do tipo <code class="bg-gray-800 text-cyan-300 px-1.5 py-0.5 rounded text-xs font-mono">TXT</code> para
+          subdomínios aleatórios de um domínio externo desconhecido (ex.: <code
+            class="bg-gray-800 text-gray-300 px-1 py-0.5 rounded text-xs">x8f9a2.malicious.com</code>). Isso é indício
+          de:
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q1" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Ataque de SYN Flood (DDoS)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q1" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Exfiltração de dados ou C2 via Túnel DNS (DNS Tunneling)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q1" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Envenenamento de tabela ARP (ARP Poisoning)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q1" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Tentativa de força bruta em SSH</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q1" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 2 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Sistemas
+            & Linux</span>
+          <span class="text-xs text-gray-500 font-mono">Q02</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          2. Em um servidor <strong>Linux</strong>, qual dos seguintes comandos exibe todas as portas de rede abertas em
+          estado de escuta (<code class="bg-gray-800 text-cyan-300 px-1 py-0.5 rounded text-xs font-mono">LISTEN</code>)
+          juntamente com o nome do processo e PID associado a cada uma?
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q2" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) <code
+                class="bg-gray-800 px-1.5 py-0.5 rounded text-xs font-mono text-cyan-300">ss -tulpn</code> (ou <code
+                class="bg-gray-800 px-1 py-0.5 rounded text-xs font-mono text-cyan-300">netstat -tulpn</code>)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q2" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) <code
+                class="bg-gray-800 px-1.5 py-0.5 rounded text-xs font-mono">ps aux --network</code></span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q2" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) <code
+                class="bg-gray-800 px-1.5 py-0.5 rounded text-xs font-mono">iptables -L --listen</code></span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q2" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) <code
+                class="bg-gray-800 px-1.5 py-0.5 rounded text-xs font-mono">cat /etc/services -a</code></span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q2" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 3 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">Windows
+            & Active Directory</span>
+          <span class="text-xs text-gray-500 font-mono">Q03</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          3. Em uma rede Windows com Active Directory, quando um invasor compromete uma estação, extrai da memória
+          (LSASS) o hash da senha de um usuário administrador e o utiliza para se autenticar diretamente em outros
+          servidores da rede sem precisar quebrar a senha original, essa técnica é chamada de:
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q3" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Brute Force de Kerberos</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q3" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Pass-the-Hash (PtH)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q3" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Phishing reverso</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q3" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Man-in-the-Middle (MitM)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q3" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 4 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">Criptografia
+            & Fundamentos</span>
+          <span class="text-xs text-gray-500 font-mono">Q04</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          4. Qual é a principal diferença conceitual entre <strong>Criptografia Simétrica</strong> (ex.: AES) e
+          <strong>Criptografia Assimétrica</strong> (ex.: RSA)?
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q4" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) A simétrica usa duas chaves diferentes; a assimétrica usa uma chave
+              única para cifrar e decifrar.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q4" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) A simétrica é usada apenas para assinaturas digitais; a assimétrica é
+              usada para cifrar arquivos grandes.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q4" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) A simétrica utiliza a mesma chave secreta para cifrar e decifrar; a
+              assimétrica utiliza um par de chaves (pública e privada).</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q4" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) A criptografia simétrica não é mais considerada segura contra
+              computadores convencionais.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q4" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 5 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20">Segurança
+            Web (OWASP)</span>
+          <span class="text-xs text-gray-500 font-mono">Q05</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          5. Um invasor insere <code
+            class="bg-gray-800 text-amber-300 px-1 py-0.5 rounded text-xs font-mono">' OR '1'='1</code> no campo de
+          usuário da tela de login de uma aplicação web e consegue acessar o sistema sem credenciais. Qual é o nome
+          dessa falha e a forma recomendada de correção?
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q5" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Cross-Site Scripting (XSS) — correção via criptografia de
+              cookies.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q5" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) SQL Injection (SQLi) — correção via consultas parametrizadas
+              (Prepared Statements).</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q5" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Cross-Site Request Forgery (CSRF) — correção via tokens
+              antifalsificação.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q5" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Broken Access Control — correção via bloqueio de IP.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q5" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 6 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20">Segurança
+            Web (Client-Side)</span>
+          <span class="text-xs text-gray-500 font-mono">Q06</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          6. Se um invasor injeta um script JavaScript no campo "Sobre mim" de um fórum e esse código é armazenado no
+          banco de dados e executado no navegador de qualquer usuário que visite a página de perfil dele, isso
+          caracteriza:
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q6" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Stored (Persistent) XSS</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q6" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Reflected XSS</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q6" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Buffer Overflow</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q6" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Server-Side Request Forgery (SSRF)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q6" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 7 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">SOC
+            & Resposta a Incidentes</span>
+          <span class="text-xs text-gray-500 font-mono">Q07</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          7. Você é analista de SOC e recebe um alerta crítico: uma máquina interna começou a disparar conexões SMB
+          (porta 445) em massa para toda a rede interna e vários arquivos da máquina receberam a extensão <code
+            class="bg-gray-800 text-rose-300 px-1 py-0.5 rounded text-xs font-mono">.locked</code>. Qual deve ser a sua
+          <strong>primeira ação prioritária de contenção</strong>?
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q7" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Abrir um chamado no suporte para formatar a máquina ao fim do
+              expediente.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q7" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Isolar imediatamente a máquina da rede (desconectar cabo/rede sem
+              desligar o computador).</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q7" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Desligar o computador imediatamente puxando da tomada para parar a
+              criptografia.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q7" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Tentar abrir os arquivos afetados para descobrir o algoritmo do
+              ransomware.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q7" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 8 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Governança
+            & IAM</span>
+          <span class="text-xs text-gray-500 font-mono">Q08</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          8. No modelo de segurança defensiva e controle de acesso (IAM), o <strong>Princípio do Menor
+            Privilégio</strong> (<em>Least Privilege</em>) estabelece que:
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q8" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Administradores devem ter senhas mais curtas para agilizar a resposta
+              a incidentes.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q8" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Usuários e sistemas devem ter apenas as permissões estritamente
+              necessárias para desempenhar sua função, e nada além.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q8" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Apenas o CISO e o CEO podem ter acesso a servidores de
+              produção.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q8" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Dispositivos móveis nunca devem ter acesso a dados da empresa.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q8" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 9 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Cloud
+            Security</span>
+          <span class="text-xs text-gray-500 font-mono">Q09</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          9. No <strong>Modelo de Responsabilidade Compartilhada</strong> de nuvem pública (AWS, Azure, GCP) no modelo
+          <strong>IaaS</strong> (ex.: máquina virtual EC2 ou VM), de quem é a responsabilidade por aplicar patches e
+          atualizações no Sistema Operacional da VM?
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q9" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Do Provedor de Nuvem (Cloud Provider).</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q9" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Do Cliente / Administrador da empresa.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q9" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Do fabricante do hardware físico.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q9" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) É uma responsabilidade 100% automatizada e terceirizada pela ISO
+              27001.</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q9" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Questão 10 -->
+      <div class="question-card rounded-xl p-6 shadow-sm border border-gray-800 bg-[#111827]">
+        <div class="flex items-center justify-between mb-3">
+          <span
+            class="text-xs font-semibold px-2.5 py-0.5 rounded bg-orange-500/10 text-orange-400 border border-orange-500/20">Engenharia
+            Social</span>
+          <span class="text-xs text-gray-500 font-mono">Q10</span>
+        </div>
+        <h2 class="text-base font-medium text-gray-100 mb-4">
+          10. Um funcionário recebe uma ligação telefônica de alguém fingindo ser do suporte de TI interno solicitando
+          confirmação de um código SMS para autorizar uma "atualização de antivírus". Essa técnica de engenharia social
+          por telefone é chamada de:
+        </h2>
+        <div class="space-y-2.5">
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q10" value="A" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">A) Phishing</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q10" value="B" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">B) Vishing (Voice Phishing)</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q10" value="C" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">C) Smishing</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800 hover:border-gray-700 bg-gray-900/40 cursor-pointer transition">
+            <input type="radio" name="q10" value="D" class="option-input accent-cyan-500" onchange="updateProgress()">
+            <span class="text-sm text-gray-300">D) Shoulder Surfing</span>
+          </label>
+          <label
+            class="flex items-center gap-3 p-3 rounded-lg border border-gray-800/60 bg-gray-900/20 hover:border-gray-700 cursor-pointer transition">
+            <input type="radio" name="q10" value="Não sei" class="option-input accent-gray-500"
+              onchange="updateProgress()">
+            <span class="text-sm text-gray-400 italic">❓ Não sei / Não tenho certeza</span>
+          </label>
+        </div>
+      </div>
+
+    </form>
+
+    <!-- Barra Flutuante / Painel de Envio -->
+    <div
+      class="sticky bottom-6 bg-[#161f30]/95 backdrop-blur-md border border-cyan-500/30 p-5 rounded-2xl shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="text-sm font-semibold text-white">Pronto para enviar?</p>
+        <p class="text-xs text-gray-400">Você pode baixar o arquivo <code class="text-cyan-300">respostas.json</code> ou
+          copiar com 1 clique.</p>
+      </div>
+      <div class="flex items-center gap-3 w-full sm:w-auto">
+        <button id="btn-save" type="button" onclick="downloadJSON()"
+          class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-medium text-sm bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center justify-center gap-2 shadow-lg shadow-cyan-900/40">
+          💾 Baixar respostas.json
+        </button>
+        <button id="btn-copy" type="button" onclick="copyToClipboard()"
+          class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-medium text-sm bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 transition flex items-center justify-center gap-2">
+          📋 Copiar para o Chat
+        </button>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast"
+      class="fixed top-6 right-6 hidden bg-emerald-600 text-white px-4 py-3 rounded-xl shadow-2xl text-sm font-medium items-center gap-2 border border-emerald-400 transition-all z-50">
+      <span id="toast-msg">Respostas copiadas com sucesso!</span>
+    </div>
+
+  </div>
+
+  <script>
+    function getAnswers() {
+      const answers = {};
+      for (let i = 1; i <= 10; i++) {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        answers[`q${i}`] = selected ? selected.value : "Não respondida";
+      }
+      return answers;
+    }
+
+    function updateProgress() {
+      let count = 0;
+      for (let i = 1; i <= 10; i++) {
+        if (document.querySelector(`input[name="q${i}"]:checked`)) count++;
+      }
+      document.getElementById('answered-count').innerText = count;
+      document.getElementById('progress-percent').innerText = `${count * 10}%`;
+      document.getElementById('progress-bar').style.width = `${count * 10}%`;
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-msg').innerText = msg;
+      toast.classList.remove('hidden');
+      toast.classList.add('flex');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+        toast.classList.remove('flex');
+      }, 3500);
+    }
+
+    function downloadJSON() {
+      const answers = getAnswers();
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(answers, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", "respostas.json");
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+      showToast("Arquivo respostas.json baixado! Mova para a pasta do projeto ou avise no chat.");
+    }
+
+    function copyToClipboard() {
+      const answers = getAnswers();
+      const formatted = Object.entries(answers)
+        .map(([k, v]) => `${k.toUpperCase()}: ${v}`)
+        .join(', ');
+
+      const payload = JSON.stringify(answers, null, 2);
+
+      navigator.clipboard.writeText(payload).then(() => {
+        showToast("Copiado para a área de transferência! Só colar no chat.");
+      }).catch(() => {
+        // Fallback
+        prompt("Copie suas respostas abaixo:", formatted);
+      });
+    }
+  </script>
+</body>
+
+</html>
