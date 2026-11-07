@@ -4,31 +4,6 @@
   <img src="assets/mascote-nyx.jpg" alt="Nyx - A Coruja Sentinela" width="750" style="border-radius: 14px; box-shadow: 0 0 30px rgba(16, 185, 129, 0.25); border: 1px solid rgba(16, 185, 129, 0.4);" />
 </p>
 
-```text
-         +-------------------------------------------------------------+
-         |                      [ TARGET LOCKED ]                      |
-         |      _/\_                                             _/\_  |
-         |     /    \       .---.                   .---.       /    \ |
-         |    /  /\  \     /     \                 /     \     /  /\  \|
-         |   |  /  \  \___/       \   /\_____/\   /       \___/  /  \ ||
-         |   | |    \              \ (  \   /  ) /              /    |||
-         |    \ \    \   CYBER      \ \_ \ / _/ /     SENTINEL /    / /|
-         |     \ \    \   RADAR      \  \ V /  /     RADAR    /    / / |
-         |      \ \    \___           \ (o.o) /           ___/    / /  |
-         |       \ \       \__         \ >o< /         __/       / /   |
-         |        \ \         \______   /'-'\   ______/         / /    |
-         |         \ \_              \ (  ^  ) /              _/ /     |
-         |          \__''--..._______ \ \---/ / _______...--''__/      |
-         |                           \ \ | | / /                       |
-         |                            \ \| |/ /                        |
-         |                       --==(( \ V / ))==--                   |
-         |                             ( \|/ )                         |
-         |                              \ | /   [ TALONS ENGAGED ]     |
-         |                               \|/                           |
-         +-------------------------------------------------------------+
-                      NYX : VIGILÂNCIA & RESPOSTA ARMADA
-```
-
 > **Repositório oficial de formação técnica, experimentação prática e portfólio em Cibersegurança.**  
 > Projetado sob a metodologia **Personal Scrum**, abordagem **Lab-First** e acompanhado pelo copiloto de IA **Antigravity**.
 
