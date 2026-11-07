@@ -1,7 +1,32 @@
 # 🛡️ Darky Cyber: Laboratório Prático de Cibersegurança & Portfólio de Engenharia
 
+```text
+                  ___             ___
+                /     \         /     \
+               |  ()   \       /   ()  |
+                \   \   \     /   /   /
+       __        \   \   '---'   /   /        __
+      /  \________\   \  (o,o)  /   /________/  \
+     /             \   \ {___} /   /             \
+    |   D A R K Y   \   \ -"- /   /   C Y B E R   |
+     \               \   \   /   /               /
+      \______/\_______)   \_/   (_______/\______/
+                 [ MASCOTE: NYX - A SENTINELA ]
+              "Vigilância Silenciosa no Escuro"
+```
+
 > **Repositório oficial de formação técnica, experimentação prática e portfólio em Cibersegurança.**  
 > Projetado sob a metodologia **Personal Scrum**, abordagem **Lab-First** e acompanhado pelo copiloto de IA **Antigravity**.
+
+---
+
+## 🦉 O Mascote: Nyx, a Coruja Sentinela
+
+A **Coruja** foi escolhida como símbolo supremo do **Darky Cyber** por representar exatamente os três pilares do projeto:
+
+* **Visão 360° (O Analista):** Consegue enxergar ameaças em todas as direções no escuro absoluto, sem deixar passar nenhum pacote ou log anômalo.
+* **Voo Silencioso (A Segurança):** Suas asas são projetadas pela natureza para não emitir som — simbolizando o ambiente isolado (*Sandbox*), a discrição e a proteção contra ataques.
+* **Ataque Cirúrgico (O Executor):** Paciente na observação, mas rápida e certeira na hora de neutralizar a ameaça.
 
 ---
 
