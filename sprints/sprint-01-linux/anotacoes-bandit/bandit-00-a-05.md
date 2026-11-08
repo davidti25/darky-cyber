@@ -77,3 +77,4 @@
   ```
 * **Conceito Aprendido:** Identificação de tipos reais de arquivo com o comando `file` baseado no cabeçalho binário (magic bytes).
 * **Flag / Senha Bandit 5:** *(Aguardando resolução)*
+

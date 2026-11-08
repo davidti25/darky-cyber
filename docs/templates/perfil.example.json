@@ -1,0 +1,19 @@
+{
+  "_instrucoes": "Copie este arquivo para 'private/meu_perfil.json' e preencha com seus dados pessoais. O Git nunca enviará o arquivo da pasta private para o GitHub.",
+  "usuario": {
+    "nome_ou_alias": "Seu Nome ou Codinome",
+    "email_contato": "seu-email@dominio.com",
+    "cargo_atual": "Sua função atual",
+    "meta_carreira": "Ex: Analista de SOC Júnior / Pentester / Cloud Security",
+    "prazo_meta_meses": 6
+  },
+  "perfil_comportamental": {
+    "tracos_principais": ["Executor", "Comunicador", "Analista"],
+    "estrategia_estudo": "Lab-First com Pomodoro (25 min)"
+  },
+  "diagnostico_inicial": {
+    "pontos_fortes": ["Defesa e Contenção de Incidentes", "Governança e IAM", "Cloud Security"],
+    "gargalos_a_desenvolver": ["Linux CLI", "Análise de Tráfego Wireshark", "OWASP Web"]
+  }
+}
+

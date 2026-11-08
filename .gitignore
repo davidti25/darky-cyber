@@ -16,3 +16,12 @@ secrets/
 *.swp
 *.bak
 
+# Cofre privado local e scripts de publicação
+private/
+vault/
+*.local.*
+.profile.*
+publicar.ps1
+sync.ps1
+
+
