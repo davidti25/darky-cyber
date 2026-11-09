@@ -1,0 +1,290 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori chega cedo ao trabalho para fazer uma chamada de videoconferência no computador da estação de enfermagem. Ela entra na sessão sobre o protocolo de máscara no hospital. Ao ouvir atentamente o apresentador, ela percebe algumas palavras descartadas. Ela se pergunta se há algum problema com a rede. Isso é semelhante ao tablet perder a conexão por um momento? Mas ela se lembra de que está usando um computador conectado à rede.\nImediatamente após a chamada, ela envia um e-mail para Madhav no departamento de TI. Madhav vem até a mesa de Kishori. Ela está confusa porque todos os dispositivos parecem estar conectados. Madhav explica que UDP e TCP são protocolos de camada de transporte que operam um pouco diferente. Ele diz a ela que o UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento. O UDP é preferível para aplicações como a transmissão de áudio e vídeo ao vivo, e Voz sobre IP (VoIP). O UDP é usado para chamadas de videoconferência.\nKishori nunca tinha ouvido falar nisso. E você, já? Neste módulo, você comparará esses protocolos. Continue lendo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 TCP e UDP",
+      "content": "{{_moduleNumber}}.1 TCP e UDP"
+    },
+    {
+      "type": "text",
+      "title": ".1 TCP e UDP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2 Números de porta",
+      "content": "{{_moduleNumber}}.2 Números de porta"
+    },
+    {
+      "type": "text",
+      "title": ".2 Números de porta",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Números de porta TCP e UDP",
+      "content": "São muitos os serviços que acessamos pela Internet ao longo do dia. DNS, Web, E-mail, FTP, Mensagem instantânea e VoIP são apenas alguns desses serviços que são disponibilizados por sistemas cliente/servidor em todo o mundo. Eles podem ser fornecidos por um único servidor ou por vários servidores em grandes datacenters.\nQuando uma mensagem é entregue usando o TCP ou o UDP, os protocolos e os serviços são identificados por um número de porta. Uma porta é um identificador numérico dentro de cada segmento que é usado para rastrear conversas específicas entre um cliente e um servidor. Cada mensagem que um host envia contém uma porta origem e destino.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Algumas aplicações podem usar tanto TCP quanto UDP. Por exemplo, o DNS usa o protocolo UDP quando os clientes enviam requisições a um servidor DNS. Contudo, a comunicação entre dois servidores DNS sempre usa TCP.\nPesquise no site da IANA o registro de portas para visualizar a lista completa de números de portas e aplicativos associados."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Pares de Soquetes",
+      "content": "As portas origem e destino são colocadas no segmento. Os segmentos são encapsulados em um pacote IP. O pacote IP contém o endereço IP de origem e destino. A combinação do endereço IP de origem e o número de porta de origem, ou do endereço IP de destino e o número de porta de destino é conhecida como um socket.\nNo exemplo na figura, o PC está solicitando simultaneamente serviços FTP e Web do servidor de destino.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "No exemplo, a solicitação FTP gerada pelo PC inclui os endereços MAC da Camada 2 e os endereços IP da Camada 3. A solicitação também identifica o número da porta de origem 1305 (ou seja, gerado dinamicamente pelo host) e a porta de destino, identificando os serviços de FTP na porta 21. O host também solicitou uma página da Web do servidor usando os mesmos endereços de Camada 2 e Camada 3. No entanto, ele está usando o número da porta de origem 1099 (ou seja, gerado dinamicamente pelo host) e a porta de destino identificando o serviço Web na porta 80.\nO socket é usado para identificar o servidor e o serviço que está sendo solicitado pelo cliente. Um socket do cliente pode ser assim, com 1099 representando o número da porta de origem: 192.168.1.5:1099\nO soquete em um servidor da web pode ser 192.168.1.7:80\nJuntos, esses dois sockets se combinam para formar um par de sockets: 192.168.1.5:1099, 192.168.1.7:80\nOs sockets permitem que vários processos em execução em um cliente se diferenciem uns dos outros, e várias conexões com um processo no servidor sejam diferentes umas das outras.\nEste número de porta age como um endereço de retorno para a aplicação que faz a solicitação. A camada de transporte rastreia essa porta e a aplicação que iniciou a solicitação, de modo que quando uma resposta é retornada, ela pode ser encaminhada para a aplicação correta."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Por padrão, o comando netstat tentará resolver os endereços IP para os nomes de domínio e os números de porta para aplicações bem conhecidas. A opção n pode ser usada para exibir endereços IP e números de porta em sua forma numérica."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da TCP e UDP",
+      "content": "{{_moduleNumber}}.3 Resumo da TCP e UDP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da TCP e UDP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**TCP e UDP:** O UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento. O UDP é preferível para aplicações como a transmissão de áudio e vídeo ao vivo, e Voz sobre IP (VoIP). Confirmações retardariam a entrega e retransmissões são indesejáveis. Os pacotes seguem um caminho da origem até um destino. Alguns pacotes podem ser perdidos, mas isso geralmente não é percebido.\nOs pacotes TCP seguem um caminho da origem até o destino. No entanto, cada um dos pacotes tem um número de sequência. O TCP divide uma mensagem em pequenos pedaços conhecidos como segmentos. Os segmentos são numerados em sequência e passados para o processo IP para montagem em pacotes. O TCP monitora o número de segmentos que foram enviados a um host específico de um aplicativo específico. Quando o remetente não recebe uma confirmação dentro de um certo período, ele supõe que os segmentos foram perdidos e transmite-os novamente. Somente a parte da mensagem perdida é reenviada, e não toda a mensagem.\n\n**Números de porta:** Quando uma mensagem é entregue usando o TCP ou o UDP, os protocolos e os serviços são identificados por um número de porta. Uma porta é um identificador numérico dentro de cada segmento que é usado para rastrear conversas específicas entre um cliente e um servidor. Cada mensagem que um host envia contém uma porta origem e destino.\nQuando uma mensagem é recebida por um servidor, é necessário que o servidor consiga determinar qual serviço está sendo solicitado pelo cliente. Os clientes são pré-configurados para usar uma porta de destino que foi registrada na Internet para cada serviço.\nAs portas são atribuídas e gerenciadas por uma organização conhecida como ICANN (Corporação da Internet para Atribuição de Nomes e Números). As portas foram divididas em três categorias e variam em número de 1 a 65.535.\nPortas bem conhecidas – As portas de destino que estão associadas a aplicativos de rede comuns são identificadas como portas bem conhecidas. Elas estão no intervalo de 1 a 1.023.\nPortas registradas – As portas 1.024 a 49.151 podem ser usadas como portas de destino ou de origem. Elas podem ser usadas por empresas para registrar aplicativos específicos, como os de mensagem instantânea.\nPortas privadas – As portas de 49.152 a 65.535 são  geralmente utilizadas como portas de origem. Elas podem ser usadas por qualquer aplicativo.\nO número da porta de origem é gerado dinamicamente pelo dispositivo de envio para identificar uma conversação entre dois dispositivos. Este processo permite que várias conversações ocorram simultaneamente. É comum que um dispositivo envie várias solicitações de serviço HTTP para um servidor Web ao mesmo tempo. Cada conversa HTTP separada é rastreada com base em portas origem.\nO cliente preenche um número de porta destino no segmento para informar o servidor destino qual serviço está sendo solicitado. Um servidor pode oferecer mais de um serviço simultaneamente como serviços Web na porta 80, ao mesmo tempo que oferece o estabelecimento de uma conexão FTP na porta 21.\nConexões TCP desconhecidas podem representar uma grande ameaça à segurança. Elas podem indicar que algo ou alguém está conectado ao host local. Às vezes é necessário conhecer quais conexões TCP ativas estão abertas e sendo executadas em um host de rede. O netstat é um utilitário de rede importante que pode ser usado para verificar essas conexões. O comando netstat é usado para listar os protocolos em uso, o endereço e os números de porta locais, o endereço e os números de porta externos, e o estado da conexão."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Uma vez, pedi móveis de uma dessas lojas online. Foi enviado para mim em três caixas diferentes, ao longo de duas semanas Não estava preocupado com a falta de algo, pois recebi atualizações por e-mail que detalhavam a localização de cada caixa ao longo de sua rota desde a loja até minha casa. Esse exemplo é como o TCP. Durante todo o percurso, há verificações integradas para garantir que o que precisa ser entregue seja entregue e na ordem certa.\nAinda há uma  necessidade de UDP na rede. Eu não gostaria de transmitir um filme onde ele para por minutos a fio, esperando que a rede envie a próxima cena. Você consegue pensar em uma boa analogia para o UDP?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual camada do modelo TCP / IP é responsável por garantir que os pacotes sejam enviados de forma confiável e que os pacotes ausentes sejam reenviados?",
+      "options": [
+        "Camada de aplicação",
+        "camada de transporte",
+        "camada de inter-redes",
+        "camada de acesso à rede"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA camada de transporte nos modelos TCP / IP e OSI é responsável por garantir que os pacotes sejam enviados de forma confiável e que os pacotes ausentes sejam reenviados.",
+      "raw_id": "7c16ffd779464000b4da04237e78ada4"
+    },
+    {
+      "question": "Verdadeiro ou falso: O Transport Control Protocol (TCP) não controla os segmentos enviados para o destino.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nFalso. O TCP monitora o número de segmentos que foram enviados a um host específico de um aplicativo específico.",
+      "raw_id": "dc8bfcab4fb9446bb05d7f02977179a8"
+    },
+    {
+      "question": "Verdadeiro ou falso: O User Datagram Protocol (UDP) não usa confirmações para rastrear o recebimento de segmentos.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nVerdadeiro. O UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento.",
+      "raw_id": "79d9a2ac4c3448239a5cd5b67888affa"
+    },
+    {
+      "question": "Suponha que um host com endereço IP 10.1.1.10 deseja solicitar serviços Web de um servidor em 10.1.1.254. Qual das opções a seguir exibe o par de soquetes correto?",
+      "options": [
+        "1099:10 .1.1.10, 80:10 .1.1.254",
+        "10.1.1. 10:80, 10.1.1. 254:1099",
+        "10.1.1. 10:1099, 10.1.1. 254:80",
+        "80:10 .1.1.10, 1099:10 .1.1.254"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO par de soquetes para um host com endereço IP 10.1.1.10 solicitando serviços Web de um servidor em 10.1.1.254 seria 10.1.1. 10:1099, 10.1.1. 254:80.",
+      "raw_id": "6faaaba76ad14c7290c4b7bd5466465b"
+    },
+    {
+      "question": "Qual grupo de portas inclui números de porta para aplicativos FTP, HTTP e TFTP?",
+      "options": [
+        "portas dinâmicas",
+        "portas privadas",
+        "portas registradas",
+        "portas bem conhecidas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs números de porta de aplicativos FTP, HTTP e TFTP são definidos no grupo de números de porta bem conhecido.",
+      "raw_id": "4702228e32f54767839015a58f18c340"
+    },
+    {
+      "question": "Qual comando do Windows exibirá os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão?",
+      "options": [
+        "ipconfig/all",
+        "ping",
+        "netstat",
+        "traceroute"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO comando netstat do  windows exibe protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão.",
+      "raw_id": "93c3ca712ad0426eb8e972b5449553b3"
+    },
+    {
+      "question": "Quais protocolos operam na camada da aplicação do modelo TCP/IP?",
+      "options": [
+        "IP",
+        "TCP",
+        "HTTP",
+        "ICMP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os protocolos estão associados às seguintes camadas TCP/IP:\nHTTP> camada de aplicação\nTCP> camada de transporte\nIP e ICMP> camada de Internet.",
+      "raw_id": "d14706ebb65d4aa3a73fcda5a20f7fd1"
+    },
+    {
+      "question": "Qual é a característica do UTP?",
+      "options": [
+        "Ele estabelece sessões com um handshake de três vias.",
+        "Ele usa números de sequência para remontar segmentos.",
+        "Ele adiciona 20 bytes de sobrecarga aos dados da camada do aplicativo.",
+        "Ele oferece entrega não confiável de segmentos."
+      ],
+      "correctIndex": 3,
+      "explanation": "O UDP é um protocolo sem conexão que oferece  entrega não confiável de segmentos.",
+      "raw_id": "881e2461b43b407c9cd6cf145a3367cb"
+    },
+    {
+      "question": "Quais tipos de aplicações são mais adequados para usar o UDP como protocolo da camada de transporte?",
+      "options": [
+        "aplicações que precisam de controle de fluxo de dados",
+        "aplicações que exigem que os dados sejam remontados em um pedido específico",
+        "aplicações que exigem um atraso mínimo de transmissão",
+        "aplicações que exigem sessões stateful"
+      ],
+      "correctIndex": 2,
+      "explanation": "O UDP é um protocolo leve sem conexão, adequado para aplicações suscetíveis a atraso ou que não precisam dos recursos fornecidos pelo TCP (entrega garantida, controle de fluxo ou sequenciamento).",
+      "raw_id": "a58a6f86165844178bb772df1b12bdb7"
+    },
+    {
+      "question": "Um aluno está enviando arquivos de um telefone para um computador pela rede. Qual camada do modelo TCP / IP é responsável pela remontagem dessas mensagens quando elas são recebidas no computador?",
+      "options": [
+        "Aplicação",
+        "Transporte",
+        "internet",
+        "Acesso à rede"
+      ],
+      "correctIndex": 1,
+      "explanation": "A camada de transporte do modelo TCP / IP é responsável pelo seguinte:\nFornecer mecanismos de confiabilidade para garantir que toda a mensagem seja recebida\nRemontagem de uma mensagem à medida que é recebida\nIdentificação de quais aplicações de rede estão enviando e recebendo dados",
+      "raw_id": "9e5fb73d74664c428d489241704bb44e"
+    },
+    {
+      "question": "Em que camada do modelo TCP/IP ocorre o TCP?",
+      "options": [
+        "transporte",
+        "aplicação",
+        "internet",
+        "accesso à rede"
+      ],
+      "correctIndex": 0,
+      "explanation": "TCP é o Transmission Control Protocol e opera na camada de transporte do modelo TCP/IP. O TCP garante a transmissão confiável dos pacotes IP.",
+      "raw_id": "94ef5a6d0ffa472c9fd985c6b5fa11a9"
+    },
+    {
+      "question": "Quais informações de cabeçalho de protocolo são usadas na camada de transporte para identificar um aplicativo de destino?",
+      "options": [
+        "número da porta",
+        "Endereço IP",
+        "Número sequencial",
+        "Endereço MAC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A camada de transporte TCP/IP usa números de porta para identificar aplicativos de destino. Cada aplicativo de rede (servidor ou cliente) tem um número de porta atribuído ao aplicativo.",
+      "raw_id": "244f35d518fc448f9c9b525bd5a14627"
+    },
+    {
+      "question": "Que tipo de número de porta é atribuído pela IANA para serviços e aplicações usadas com frequência?",
+      "options": [
+        "portas bem conhecidas",
+        "portas registradas",
+        "portas dinâmicas",
+        "portas privadas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portas bem conhecidas (0 a 1023) são reservadas para aplicações e serviços comuns. As portas registradas (1024 a 49151) são atribuídas aos processos e aplicativos do usuário. Portas dinâmicas, privadas ou efêmeras (49152 a 65535) são atribuídas a aplicativos cliente ao iniciar uma conexão.",
+      "raw_id": "72f0fedaa52e4cd79c47dfeb85afb96f"
+    },
+    {
+      "question": "Qual é o propósito de usar um número de porta de origem em uma comunicação TCP?",
+      "options": [
+        "Para notificar o dispositivo remoto de que a conversa acabou",
+        "Para montar os segmentos que chegaram fora de ordem",
+        "Para manter o controle de várias conversas entre dispositivos",
+        "Para pesquisar um segmento não recebido"
+      ],
+      "correctIndex": 2,
+      "explanation": "O número da porta de origem em um cabeçalho de segmento é usado para manter o controle de várias conversas entre dispositivos. Também usado para manter uma entrada aberta para a resposta do servidor. As opções incorretas estão mais relacionadas ao controle de fluxo e entrega garantida.",
+      "raw_id": "361712b1bfb6489c9eb6ef63a5ee4c41"
+    },
+    {
+      "question": "O que é uma vantagem do UDP sobre TCP?",
+      "options": [
+        "A comunicação UDP requer menos sobrecarga.",
+        "A comunicação UDP é mais confiável.",
+        "O UDP reordena os segmentos recebidos fora de ordem.",
+        "O UDP confirma os dados recebidos."
+      ],
+      "correctIndex": 0,
+      "explanation": "O TCP é um protocolo mais confiável e usa números de sequência para realinhar pacotes que chegam fora de ordem ao destino. O UDP e o TCP usam números de porta para identificar as aplicações. O UDP tem menos sobrecarga do que o TCP porque o cabeçalho do UDP tem menos bytes e o UDP não confirma o recebimento de pacotes.",
+      "raw_id": "6f6377ab029f415d82080186654f8da1"
+    },
+    {
+      "question": "Quando o UDP  é preferível ao TCP?",
+      "options": [
+        "quando um cliente envia um segmento para um servidor",
+        "quando todos os dados devem ser totalmente recebidos antes de qualquer parte ser considerada útil",
+        "quando uma aplicação pode tolerar a perda de dados durante a transmissão",
+        "quando  segmentos precisam chegar em uma sequência específica para serem processadas corretamente."
+      ],
+      "correctIndex": 2,
+      "explanation": "O UDP pode ser usado quando uma aplicação pode tolerar a perda de dados. O UDP é o protocolo preferido para aplicações que oferecem voz ou vídeo que não toleram atrasos.",
+      "raw_id": "6c9a232d5c864daba3456590e206b034"
+    },
+    {
+      "question": "Qual afirmação descreve corretamente a transmissão de dados na camada de transporte?",
+      "options": [
+        "A retransmissão de pacotes perdidos é fornecida pelo TCP e pelo UDP.",
+        "A segmentação é fornecida pelo campo de tamanho da janela quando o protocolo TCP é usado.",
+        "Um único datagrama pode incluir um cabeçalho TCP e UDP.",
+        "Tanto o UDP quanto o TCP usam números de porta.",
+        "A segmentação é fornecida pelos números de sequência quando o UDP é usado."
+      ],
+      "correctIndex": 3,
+      "explanation": "A segmentação é tratada na Camada 4 pelos números de sequência TCP. O UDP não tem números de sequência no cabeçalho, deixando assim que o aplicativo manipule a reordenação, se necessário. Somente o TCP fornece dados confiáveis e retransmite os dados. Cada segmento tem um cabeçalho TCP ou UDP; não pode conter os dois.",
+      "raw_id": "dfbb7a8d31344007a79bc11f2c855d65"
+    }
+  ],
+  "images": []
+}

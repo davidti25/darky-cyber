@@ -1,0 +1,2800 @@
+[
+  {
+    "_id": "3d589fa3967b447a9539d5126d807a29",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução </span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "3d589fa3967b447a9539d5126d807a29",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0e0f3b8da7714f6bac1e2260e86ae554",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cb140d89-b50c-4036-badc-037808226bd8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0e0f3b8da7714f6bac1e2260e86ae554",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "2d8c838f-488f-43e6-8f81-fc69702fb672",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "01e4ec6913454bfda39ad85abad8221d",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução ",
+    "_oldId": "01e4ec6913454bfda39ad85abad8221d",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a4ab91d55db04834ae838f03092e7b61",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9fc4a6c5-ce55-450c-8c7e-450566b30f61",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a4ab91d55db04834ae838f03092e7b61",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "52ce4c12-8ead-4650-9846-5f956d730ace",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4d72959ef71c4387a5eae59408555184",
+    "body": "<p>Kishori sabe que os dispositivos de 15 a 20 no quarto de um paciente se conectam sem fio à rede. Ela também usa um tablet sem fio. Enquanto trabalhava no posto de enfermeiros, ela percebeu que a rede sem fio em seu computador desktop estava desativada. No entanto, ela ainda tem acesso aos prontuários dos pacientes. Como a área de trabalho é conectada?</p><p>Como a comunicação transmite através de uma rede? A resposta é mídia de rede. A mídia fornece o canal sobre o qual a mensagem viaja da origem ao destino. Nas redes modernas, há basicamente três tipos de mídia usados. Você sabe o que são? Aproveite este módulo para saber mais sobre os tipos de mídia.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "4d72959ef71c4387a5eae59408555184",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b25f5331bd3d4f52bfc7d118c9d491a4",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "bc8ed8d3-f13a-41d0-8c07-60452af7a028",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b25f5331bd3d4f52bfc7d118c9d491a4",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "051d9a4b-7d31-4ea7-ac62-b1e8c97b5bb6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0715577ec1bd435381f52335b7bfe149",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "0715577ec1bd435381f52335b7bfe149",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/6834ecb174ce4a0cbfcc7be1adc8d1ff.png",
+      "small": "pt-BR/assets/6834ecb174ce4a0cbfcc7be1adc8d1ff.png",
+      "attribution": ""
+    },
+    "_parentId": "b25f5331bd3d4f52bfc7d118c9d491a4",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "0b6ebeb6-0276-43b1-be63-d4660de32958",
+    "instruction": "",
+    "_oldParentId": "b25f5331bd3d4f52bfc7d118c9d491a4",
+    "displayTitle": "",
+    "_activityParentId": "051d9a4b-7d31-4ea7-ac62-b1e8c97b5bb6",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "551d6cde0cb54ed19b55db5f90668f94",
+    "body": "<p><strong>Título do Módulo:</strong> Mídias de Rede</p><p> <strong>Objetivo do módulo: </strong>Descrever a mídia de rede comum.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Tipos de Mídia de Rede",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Descrever os tipos comuns de cabos de rede.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "551d6cde0cb54ed19b55db5f90668f94",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "fd2e31a9b9f543f8adc4ec67a4a56d1f",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "6793de1e-8647-4516-9726-6f1dbca1e4fd",
+    "_oldParentId": "fd2e31a9b9f543f8adc4ec67a4a56d1f",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "be1b757f-780c-405e-a3d3-165481077b97",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "7f89122191754682b74de322ebdb369b",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "7f89122191754682b74de322ebdb369b",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "7b652a6a188b479f9d541fbcd5172154",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "3c604985-0fc7-4bdf-a8d4-41a60a22c47a",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "7b652a6a188b479f9d541fbcd5172154",
+    "displayTitle": "",
+    "_activityParentId": "0e4f20e9-30fd-4c80-a324-5a2ac46d0865"
+  },
+  {
+    "_id": "ee7548c2275a45e2bcf1bc187ffe48a3",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Tipos de Mídia de Rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Tipos de Mídia de Rede",
+    "_oldId": "ee7548c2275a45e2bcf1bc187ffe48a3",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "22f8e99db65a4dc6b413292e4ef9e956",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b308bbe0-5be0-4754-a3cf-b10f4e418d00",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "22f8e99db65a4dc6b413292e4ef9e956",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "5d4f944f-1852-4343-b0bb-dbea666f7b9f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e5d5c2a3dd3d46e7b783eaddb8d0cea4",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Tipos de mídia de rede",
+    "_oldId": "e5d5c2a3dd3d46e7b783eaddb8d0cea4",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ab7f510b53c64a52ab87acf0b0ee1007",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2fca0545-e710-4daf-aed4-18cb9bc5e933",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ab7f510b53c64a52ab87acf0b0ee1007",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "33f1051d-9284-4740-aeab-18443396846b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "8eba7d677069402a8ac5cefdca5c20b5",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Tipos de Midia de Rede",
+    "_oldId": "8eba7d677069402a8ac5cefdca5c20b5",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249859962001",
+    "videoIds": [
+      "87fc0c5f-7918-483b-894d-31137ea9be07"
+    ],
+    "_parentId": "fa82e58596a84cf6a9d65f654b1c19f8",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "carimbos de data/hora (Timestamps) ",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "cab3506a-94c4-4635-804c-ac52a8e9e0e7",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "fa82e58596a84cf6a9d65f654b1c19f8",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "f34d428a-0d1d-4192-a8ef-acd0dedd12f3",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "4ed4877e55064ba2a3c3e3f3af3d7a46",
+    "body": "<p>Os dados são transmitidos através de uma rede na mídia. A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.</p><p>As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos, como mostrado na figura:</p><ul><li><strong>Fios de metal dentro de cabos</strong>- Os dados são codificados em impulsos elétricos.</li><li><strong>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)</strong>- Os dados são codificados em pulsos de luz.</li><li><strong>Transmissão sem fio</strong>- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Três tipos de Mídia",
+    "_oldId": "4ed4877e55064ba2a3c3e3f3af3d7a46",
+    "details": {
+      "uuid": "2d84b160-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Cobre",
+          "class": "ID_s1_txt01"
+        },
+        {
+          "text": "Fibra ótica",
+          "class": "ID_s1_txt02"
+        },
+        {
+          "text": "Sem Fio",
+          "class": "ID_s1_txt03"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84b162-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4A--UUID"
+        },
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84b163-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4B--UUID"
+        },
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84b164-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4C--UUID"
+        },
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84d870-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4D--UUID"
+        },
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84d871-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4E--UUID"
+        },
+        {
+          "url": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84d872-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "image-4F--UUID"
+        }
+      ],
+      "caption": "<p>Os quatro critérios principais para a escolha da mídia de rede são estes:</p>\n<ul>\n<li>Qual é a distância máxima pela qual o meio físico consegue carregar um sinal com êxito?</li>\n<li>Qual é o ambiente em que a mídia será instalada?</li>\n<li>Qual é a quantidade de dados e a que velocidade deve ser transmitida?</li>\n<li>Qual é o custo do meio físico e da instalação?</li>\n</ul>\n",
+      "imageStack": "beforeend",
+      "stylesheet": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84b161-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "611/422",
+      "primary_image": "media/2d84b160-1c25-11ea-a010-eb2108469056/2d84d873-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "9caf151ea9ba4f77b64338fdd817e6e0",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "4d5f9699-9e15-4c9f-8ee0-de84f7c51632",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "9caf151ea9ba4f77b64338fdd817e6e0",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Há três imagens de mídia de rede comum seguidas de critérios a serem usados ao escolher mídia de rede. A imagem superior mostra fios de par trançado e conectores usados com mídia de cobre. A imagem do meio é um cabo de fibra óptica multi-strand e conectores de fibra óptica. A imagem inferior mostra dispositivos sem fio, incluindo um roteador e uma câmera. Diferentes tipos de meio físico de rede oferecem características e benefícios diferentes. Nem todos os tipos de mídia de rede têm as mesmas características ou são apropriados para as mesmas finalidades. The four main criteria for choosing network media are these: What is the maximum distance that the media can successfully carry a signal? Qual é o ambiente em que a mídia será instalada? Qual é a quantidade de dados e a que velocidade deve ser transmitida? Qual é o custo do meio físico e da instalação?",
+    "_activityParentId": "6dcf3746-d7b1-4a17-b4fe-c0400acdd584",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "54acb5daf23846179d68b1594c256eed",
+    "body": "<p>Os quatro critérios principais para a escolha da mídia de rede são estes: <ul><li>Qual é a distância máxima pela qual o meio físico consegue carregar um sinal com êxito?</li><li>Qual é o ambiente em que a mídia será instalada?</li><li>Qual é a quantidade de dados e a que velocidade deve ser transmitida?</li><li>Qual é o custo do meio físico e da instalação?</li></ul></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "54acb5daf23846179d68b1594c256eed",
+    "_layout": "full",
+    "_classes": "",
+    "_isHidden": true,
+    "_parentId": "d8c1c3d2836c4d70ac8df802eee3567a",
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "8024b197-7ef8-4559-b16a-84331bc7e331",
+    "_isOptional": true,
+    "instruction": "",
+    "_isAvailable": false,
+    "_oldParentId": "d8c1c3d2836c4d70ac8df802eee3567a",
+    "displayTitle": "",
+    "_activityParentId": "1a2d8a1a-b6e8-438b-b9d6-61b27afa5330",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "54a98326f39441c894a55d7d46674ecf",
+    "body": "<p>Os três cabos de rede mais comuns são par trançado, cabo coaxial e cabo de fibra óptica.</p><p><strong>Clique abaixo para obter mais informações sobre cada tipo de cabo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Cabos de Rede Comuns ",
+    "_items": [
+      {
+        "body": "<p><strong>Cabo de Par-trançado</strong></p><p>A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Como a Ethernet é a base da maioria das redes locais, o par trançado é o tipo de cabeamento de rede mais comumente encontrado.</p><p>No par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência. Os pares de fios são coloridos para que você possa identificar o mesmo fio em cada extremidade. Normalmente, em cada par, um dos fios é de cor sólida e seu parceiro é da mesma cor listrada em um fundo branco.</p>",
+        "title": "Cabo de Par-trançado",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The image shows a cable with 4 pairs of twisted cable sticking out of the sleeve. Each pair is color coded from left to right: green, blue, orange, brown. Also, a cable end is shown with the tang showing with the cables inside the clear connector. Another cable end is shown with the tang not shown and the colored cables showing inside the clear connector.",
+          "src": "media/ce159560-e3dd-11ea-a2cf-05cabc561422/193dee70-f0fe-11ea-91e1-7d592ff21bb5.jpg",
+          "useGlobalAssetsDir": true
+        }
+      },
+      {
+        "body": "<p><strong>Cabo Coaxial</strong></p><p>O cabo coaxial foi um dos primeiros tipos de cabo de rede desenvolvido. O cabo coaxial é um tipo de cabo de cobre usado por empresas de TV a cabo. Também serve para conectar os diversos componentes que constituem os sistemas de comunicação via satélite. O cabo coaxial tem um único núcleo de cobre rígido que conduz o sinal. Esse núcleo é normalmente cercado por uma camada de isolamento, blindagem de metal trançado e uma capa protetora. É usado como uma linha de transmissão de alta frequência para transportar sinais de alta frequência ou banda larga.</p>",
+        "title": "Cabo Coaxial",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The image shows a copper cable with the protective jacket cut away, thus exposing a copper core surrounded by insulation that is surrounded by the braided metal shielding.",
+          "src": "media/ce1c9a40-e3dd-11ea-a2cf-05cabc561422/2dd82891-1c25-11ea-81a0-ffc2c49b96bc.png",
+          "useGlobalAssetsDir": true
+        }
+      },
+      {
+        "body": "<p><strong>Cabo de Fibra-óptica</strong></p><p>O cabo de fibra óptica pode ser de vidro ou plástico com diâmetro aproximadamente igual ao de um cabelo humano e pode transportar informações digitais em velocidades muito altas por longas distâncias. Como a luz é usada em vez de eletricidade, a interferência elétrica não afeta o sinal. Os cabos de fibra óptica têm muitas utilidades e muitas possibilidades de comunicação. Eles também são usados em imagens médicas, tratamento médico e inspeção de engenharia mecânica.</p><p>Eles têm uma largura de banda muito alta, o que permite que transmitam grandes quantidades de dados. A fibra é usada em redes de backbone, grandes ambientes corporativos e grandes data centers. Ela também é muito usada por companhias telefônicas.</p>",
+        "title": "Cabo de Fibra-óptica",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The image shows two fiber optic cables with a b n c connector and an approximate one inch white core sticking outward.",
+          "src": "media/ce215530-e3dd-11ea-a2cf-05cabc561422/2ddd58b3-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "useGlobalAssetsDir": true
+        }
+      }
+    ],
+    "_oldId": "54a98326f39441c894a55d7d46674ecf",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "setCompletionOn = inview | allItems",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "552dee38876c4740a23eababc6158034",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "adf13121-9b90-4faf-9228-bae466034e7d",
+    "instruction": "",
+    "_oldParentId": "552dee38876c4740a23eababc6158034",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "5efcb438-d5d8-4fdd-b196-60f7fda965e2",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "bd0606ede81a489ca78a3b0b782e62e8",
+    "body": "Qual das seguintes opções NÃO é um critério para escolher uma mídia de rede?",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "O tipo de dados que pode ser transmitido",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A distância máxima que a mídia pode transportar com sucesso um sinal",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O custo da instalação da mídia",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O ambiente no qual a mídia foi instalada",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "bd0606ede81a489ca78a3b0b782e62e8",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Os critérios para escolher uma mídia de rede incluem a distância máxima de transmissão, o ambiente, a quantidade e a velocidade dos dados a serem transmitidos e o custo da mídia e da instalação.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Os critérios para escolher uma mídia de rede incluem a distância máxima de transmissão, o ambiente, a quantidade e a velocidade dos dados a serem transmitidos e o custo da mídia e da instalação.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "Este feedback aparecerá se você respondeu a pergunta corretamente.",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "6218ac2af3a04ac0887e872bf417cba3",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "4fc565b4-4e35-46fd-b838-cc9a66168299",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Meios físicos de rede",
+      "_isEnabled": true,
+      "_onCorrectValue": 25,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "6218ac2af3a04ac0887e872bf417cba3",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "bd0606ede81a489ca78a3b0b782e62e8",
+    "_activityParentId": "25dda574-6a12-480b-bd48-82c50c3c4d12",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "7b0ef6183a41412cb90ec2917b9eca1d",
+    "body": "Qual é o tipo mais comum de mídia com fio usada pelas empresas de TV para conectar e transmitir sinais para um decodificador em uma residência?",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "cabo de par trançado",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo coaxial",
+        "feedback": "Resposta incorreta da opção dois",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "7b0ef6183a41412cb90ec2917b9eca1d",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>O cabo coaxial é o tipo mais comum de mídia usado pelas empresas de TV a cabo.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>O cabo coaxial é o tipo mais comum de mídia usado pelas empresas de TV a cabo.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "Este feedback aparecerá se você respondeu a pergunta corretamente.",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "22c224a90d8d491a8f4a7caf09b6d3e7",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "3757f110-b80f-41f1-afbf-fe6bf928de1b",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Decodificador com fio",
+      "_isEnabled": true,
+      "_onCorrectValue": 25,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "22c224a90d8d491a8f4a7caf09b6d3e7",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "7b0ef6183a41412cb90ec2917b9eca1d",
+    "_activityParentId": "fb4e00d8-5b72-4205-a0a8-db227102cc01",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "e4b0c0184b48463d8945fba1ef6fccfc",
+    "body": "Que tipo de mídia com fio é usada para transportar informações digitais em velocidades muito altas por longas distâncias?",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "cabo de par trançado",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo coaxial",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "e4b0c0184b48463d8945fba1ef6fccfc",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>O cabo de fibra óptica é usado para transportar informações digitais em velocidades muito altas em longas distâncias.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>O cabo de fibra óptica é usado para transportar informações digitais em velocidades muito altas em longas distâncias.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "Este feedback aparecerá se você respondeu a pergunta corretamente.",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "095c493df5784a2a9be817d9bc1dc939",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "620b1db2-9c76-4e8c-98d2-15a19e2299f7",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Alta velocidade, longa distância",
+      "_isEnabled": true,
+      "_onCorrectValue": 25,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "095c493df5784a2a9be817d9bc1dc939",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "e4b0c0184b48463d8945fba1ef6fccfc",
+    "_activityParentId": "89970d82-d931-46fe-9d9e-66607e081a48",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "021da227084d4e68a61d7575264e6b0e",
+    "body": "Qual é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet?",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "cabo de par trançado",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cabo coaxial",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "021da227084d4e68a61d7575264e6b0e",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>O cabo de par trançado é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>O cabo de par trançado é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "Este feedback aparecerá se você respondeu a pergunta corretamente.",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "6dd5319bc83d495e9bb43d646dc8df0c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "9868a005-adf5-4776-b71c-7d6a0fd089c6",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "LAN (Local Area Network)",
+      "_isEnabled": true,
+      "_onCorrectValue": 25,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "6dd5319bc83d495e9bb43d646dc8df0c",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "021da227084d4e68a61d7575264e6b0e",
+    "_activityParentId": "58084352-93ff-4975-9a14-284fffef2d48",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "8198f4b5fe2c47adb4407446b28cf0a1",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "8198f4b5fe2c47adb4407446b28cf0a1",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "f5e3cb1ca61943ccb852b34bbb4256c9",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "1c2824be-7c9c-4244-9ff2-8258b427bc49",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "f5e3cb1ca61943ccb852b34bbb4256c9",
+    "displayTitle": "",
+    "_activityParentId": "12ba6364-8cd5-4fa2-9789-77aa5b92bb78"
+  },
+  {
+    "_id": "0933ec50d054489182653ae95af45446",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Resumo - Mídia de rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Resumo - Mídia de rede",
+    "_oldId": "0933ec50d054489182653ae95af45446",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5b70de06f92b45349d2a2c2c9406496b",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2f162013-8695-42f5-8bf3-11de7fda986f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5b70de06f92b45349d2a2c2c9406496b",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e83e9a76-7b34-495d-8663-ff71a3dec185",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e65df7f084d345b981afbd23ad13018b",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "Resumo - Mídia de rede",
+    "_oldId": "e65df7f084d345b981afbd23ad13018b",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eee780a3bad84c2e8898f864eed38fc7",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d42c6ada-aed3-4f8f-afd8-9834cffa038c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "eee780a3bad84c2e8898f864eed38fc7",
+    "displayTitle": "",
+    "_activityParentId": "0a3d0f57-8626-46a2-b77b-7925c5c40ba8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3a3a7c34ed464facb59742b231f2989c",
+    "body": "<p><strong>Tipos de Mídia de Rede</strong><br>A comunicação é transmitida através de uma rede na mídia. A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino. </p><p>As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:  </p><ul><li><strong>Fios de metal dentro de cabos</strong>- Os dados são codificados em impulsos elétricos. </li><li><strong>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)</strong>- Os dados são codificados em pulsos de luz. </li><li><strong>Transmissão sem fio</strong>- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas. </li></ul><p>Os quatro critérios principais para a escolha da mídia de rede são estes:  </p><ul><li>Qual é a distância máxima pela qual o meio físico consegue carregar um sinal com êxito? </li><li>Qual é o ambiente em que a mídia será instalada? </li><li>Qual é a quantidade de dados e a que velocidade deve ser transmitida? </li><li>Qual é o  custo da instalação da mídia? </li></ul><p>Os três cabos de rede mais comuns são par trançado, cabo coaxial e cabo de fibra óptica. A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. O cabo coaxial é um tipo de cabo de cobre usado por empresas de TV a cabo. Também serve para conectar os diversos componentes que constituem os sistemas de comunicação via satélite. O cabo de fibra óptica pode ser de vidro ou plástico com diâmetro aproximadamente igual ao de um cabelo humano e pode transportar informações digitais em velocidades muito altas por longas distâncias. Como a luz é usada em vez de eletricidade, a interferência elétrica não afeta o sinal.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 O que eu aprendi neste módulo?",
+    "_oldId": "3a3a7c34ed464facb59742b231f2989c",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "a5f6a128cb294052835c93773272223f",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "d20d9be6-4245-40fd-91a7-f0f550fc5ad5",
+    "instruction": "",
+    "_oldParentId": "a5f6a128cb294052835c93773272223f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "af1243ce-acfe-46bf-979c-57d782ee68ac",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "64ac949d35c3430794f66409bfc6d13b",
+    "body": "<p>Eu não fazia ideia de que uma rede precisava ter cabos diferentes para usos diferentes, e você? Eu pensei que todos os cabos eram iguais e que todos eles carregavam o mesmo tipo de sinal. E a interferência elétrica? Agora entendo por que minha conexão com o smartphone às vezes cai se eu ficar muito perto do microondas! Você conhece todos os cabos usados na rede da sua escola ou escritório?</p> ",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Webster - Questões para Reflexão ",
+    "_oldId": "64ac949d35c3430794f66409bfc6d13b",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ccce648a447b435082393239718bcde3",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d81e4082-0202-42cd-9431-09893860153a",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ccce648a447b435082393239718bcde3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "49355a1a-ce09-4a50-a494-7509ce8babe8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5bc88383250b4728b215d2920deab11d",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "5bc88383250b4728b215d2920deab11d",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/6834ecb174ce4a0cbfcc7be1adc8d1ff.png",
+      "small": "pt-BR/assets/6834ecb174ce4a0cbfcc7be1adc8d1ff.png",
+      "attribution": ""
+    },
+    "_parentId": "ccce648a447b435082393239718bcde3",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "ffdeaca1-219f-47c9-abe7-c2d37d2093f8",
+    "instruction": "",
+    "_oldParentId": "ccce648a447b435082393239718bcde3",
+    "displayTitle": "",
+    "_activityParentId": "49355a1a-ce09-4a50-a494-7509ce8babe8",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "c6a80883f194406b9aaab12f9ef9549c",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "c6a80883f194406b9aaab12f9ef9549c",
+    "_classes": "",
+    "_parentId": "a8dfad5051414c74b708280437d8c7e3",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "ea6b70bd-af49-47a5-86f7-d7a88b391740",
+    "_isOptional": true,
+    "_oldParentId": "a8dfad5051414c74b708280437d8c7e3",
+    "_activityParentId": "0e3350c5-6dad-42c0-97c2-3a31f7320993"
+  },
+  {
+    "_id": "7696103126fd496a9a6b7bfa599188b3",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "7696103126fd496a9a6b7bfa599188b3",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário  Mídias de Rede",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "a43497f97a314d60896076e3a2b1f4e5",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d58991d5-1523-410a-87e7-f48f683988d2",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "a43497f97a314d60896076e3a2b1f4e5",
+    "displayTitle": "",
+    "_activityParentId": "725e009b-2f67-47fb-820d-e2b9d02580ad",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "13ab72bbef0045e8b7becce131132919",
+    "body": "Um técnico de rede está estendendo a rede do edifício principal por várias centenas de metros até uma nova estação de segurança. A estação de segurança precisa de uma conexão de alta velocidade para oferecer suporte à vigilância por vídeo do edifício principal. Que tipo de cabo é mais adequado para conectar a estação de segurança ao restante da rede do escritório principal?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "coaxial",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Fibra Óptica",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "par trançado blindado (STP)",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "par trançado não blindado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "13ab72bbef0045e8b7becce131132919",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O cabo de fibra óptica pode transmitir sinais a distâncias de vários quilômetros. Como usa luz, a fibra é imune a RFI e EMI e é superior a sinais enviados por fiação de cobre ou alumínio.",
+      "_incorrect": {
+        "final": "O cabo de fibra óptica pode transmitir sinais a distâncias de vários quilômetros. Como usa luz, a fibra é imune a RFI e EMI e é superior a sinais enviados por fiação de cobre ou alumínio.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0c1906eabbaa44de9f7163d9041d9e02",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2ef34231-e1f6-4172-807d-872f4d8ad28c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0c1906eabbaa44de9f7163d9041d9e02",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "267345",
+    "_activityParentId": "6a9bbf0a-b4e0-4eea-93b8-87c071f6d127",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3e698d396b7042f3ac42afffef9a0ec4",
+    "body": "Quais são as duas mídias comuns usadas nas redes? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cobre",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "água",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "nylon",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "fibra",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "madeira",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "3e698d396b7042f3ac42afffef9a0ec4",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "As mídias comuns usadas em redes incluem cobre, fibra ótica de plástico ou vidro e sem fio.",
+      "_incorrect": {
+        "final": "As mídias comuns usadas em redes incluem cobre, fibra ótica de plástico ou vidro e sem fio.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "283f1d3d2d354915aaf8391c8a5a28a3",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4f272a52-d22f-4df4-a531-79872aff9b62",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "283f1d3d2d354915aaf8391c8a5a28a3",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282226",
+    "_activityParentId": "22ea28f8-c574-438a-aebe-064863d47195",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2cbfa17496f543bf90c909100759ff1e",
+    "body": "Que tipo de cabo de rede normalmente é usado para conectar computadores de escritório à rede local?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cabo coaxial",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de par trançado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cabo de fibra ótica de vidro",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica de plástico",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2cbfa17496f543bf90c909100759ff1e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O par trançado é um tipo de cabo de cobre usado para interconectar dispositivos em uma rede local.",
+      "_incorrect": {
+        "final": "O par trançado é um tipo de cabo de cobre usado para interconectar dispositivos em uma rede local.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d85a003960514d2eb9d9c186cec49df9",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4333bb1d-5865-448d-a5eb-2bb56285dd52",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d85a003960514d2eb9d9c186cec49df9",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "285555",
+    "_activityParentId": "163171e9-1750-4fc1-a957-489ae0638bee",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "da757bc2008d421e8ddba2ed0d6f1745",
+    "body": "Quais são os três fatores que devem ser considerados ao escolher mídias de rede adequadas? (Escolha três.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "a velocidade da CPU e a quantidade de memória nos servidores",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o ambiente no qual a mídia foi instalada",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "o requisito de segurança de dados e de tolerância a falhas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o volume de dados e a taxa de transferência de dados desejada",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "a distância entre os hosts que a mídia conectará",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "os sistemas operacionais usados em dispositivos de rede na rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "da757bc2008d421e8ddba2ed0d6f1745",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Vários critérios devem ser considerados ao selecionar a mídia de rede:<ul><li>O custo da mídia e instalação</li><li>O ambiente no qual a mídia foi instalada</li><li>O volume de dados e a taxa de transferência de dados desejada</li><li>A distância entre os hosts que a mídia conectará</li></ul>",
+      "_incorrect": {
+        "final": "Vários critérios devem ser considerados ao selecionar a mídia de rede:<ul><li>O custo da mídia e instalação</li><li>O ambiente no qual a mídia foi instalada</li><li>O volume de dados e a taxa de transferência de dados desejada</li><li>A distância entre os hosts que a mídia conectará</li></ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6bb7e37618de4fac98079c342ae22ad9",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f95da750-195b-401a-910c-2e48ba094ce2",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6bb7e37618de4fac98079c342ae22ad9",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286755",
+    "_activityParentId": "fb02bfe8-3d59-4190-8ca5-0957ed10d897",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e0e0cd4ea37841618acfe69e25555143",
+    "body": " <p><img loading=\"eager\" src=\"pt-BR/assets/195c88a271aa4855bd20b4a821135fb2.png\" style=\"min-width: 50%;\"></p><p>Consulte o gráfico. Que tipo de cabeamento é mostrado?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "STP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "UTP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "coaxial",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "fibra",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "e0e0cd4ea37841618acfe69e25555143",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O cabeamento de rede inclui diferentes tipos de cabos:<br /><ul><li>O cabo UTP consiste em quatro pares de fios codificados por cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível.</li><li>O cabo STP usa quatro pares de fios, cada um enrolado em uma blindagem de alumínio, que é então enrolada em uma trança ou folha metálica geral.</li><li>O cabo coaxial usa um condutor de cobre e uma camada de isolamento plástico flexível envolve o condutor de cobre.</li><li>O cabo de fibra é um fio de vidro flexível, extremamente fino e transparente cercado por isolamento plástico.</li></ul>",
+      "_incorrect": {
+        "final": "O cabeamento de rede inclui diferentes tipos de cabos:<br /><ul><li>O cabo UTP consiste em quatro pares de fios codificados por cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível.</li><li>O cabo STP usa quatro pares de fios, cada um enrolado em uma blindagem de alumínio, que é então enrolada em uma trança ou folha metálica geral.</li><li>O cabo coaxial usa um condutor de cobre e uma camada de isolamento plástico flexível envolve o condutor de cobre.</li><li>O cabo de fibra é um fio de vidro flexível, extremamente fino e transparente cercado por isolamento plástico.</li></ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6ef627e3fae6459e99a9d62780f3c494",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6902a973-a6a0-468c-945f-34e55d001725",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6ef627e3fae6459e99a9d62780f3c494",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410603",
+    "_activityParentId": "02b35cc8-733a-4e84-9993-81c441744689",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e2c4eba80bdc4fba826d50c8ed137dc8",
+    "body": "O que torna a fibra preferível ao cabeamento de cobre para interconexão de edifícios? (Escolha três.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "distâncias maiores por cabo",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "menor custo de instalação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "susceptibilidade limitada ao IME/RFI",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "conexões duráveis",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "maior potencial de largura de banda",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "terminada facilmente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "e2c4eba80bdc4fba826d50c8ed137dc8",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. Diferentemente dos fios de cobre, o cabo de fibra óptica pode transmitir sinais com menos atenuação e é completamente imune à interferência de EMI e RFI.</p>",
+      "_incorrect": {
+        "final": "<p>O cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. Diferentemente dos fios de cobre, o cabo de fibra óptica pode transmitir sinais com menos atenuação e é completamente imune à interferência de EMI e RFI.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bd86466d333c4c7589f91887841fbe8d",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "fb86ff87-804c-4ab8-a07b-46e2025e007d",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bd86466d333c4c7589f91887841fbe8d",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "350265",
+    "_activityParentId": "092d6007-d694-4e77-ae96-e7e0a7176432",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "a0e35b2b9bcf40eabde8ca9d79e68569",
+    "body": "Que tipo de mídia de rede transporta dados codificados em impulsos elétricos?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Cabo de cobre",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Mídia Sem Fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "meios de comunicação celular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a0e35b2b9bcf40eabde8ca9d79e68569",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+      "_incorrect": {
+        "final": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ee48d7093d804532b770986fa6d8e3e9",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "0a80211a-7aba-42ef-9279-858ff59ef17a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ee48d7093d804532b770986fa6d8e3e9",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410446",
+    "_activityParentId": "658d4106-cb7a-4a6a-857d-0a938110dfd7",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2d261c63d6eb4b5290afb95dc9bb64c9",
+    "body": "Quais dois tipos de mídia de rede transportam dados codificados em impulsos elétricos? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cabo coaxial",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Mídia Sem Fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de par trançado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cabo de fibra ótica de vidro",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica de plástico",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2d261c63d6eb4b5290afb95dc9bb64c9",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet de par trançado e o cabo coaxial são dois tipos de cabos de cobre.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+      "_incorrect": {
+        "final": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet de par trançado e o cabo coaxial são dois tipos de cabos de cobre.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1295027597224b6095aa2f42006f8db0",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "590819a7-dfd8-4d20-a7aa-2cb6409c6548",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1295027597224b6095aa2f42006f8db0",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410447",
+    "_activityParentId": "44d899ea-386d-49d7-8996-4b0eb1f67b72",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "55b4d046e0054c6880477c73c0a2a6d9",
+    "body": "Que tipo de mídia de rede transporta dados codificados em impulsos de luz?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cabo coaxial",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mídia Sem Fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cabo de par trançado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "55b4d046e0054c6880477c73c0a2a6d9",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet trançado e o cabo coaxial são dois tipos de cabo de cobre.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+      "_incorrect": {
+        "final": "<p>Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:</p>\n<ul>\n<li>Fios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet trançado e o cabo coaxial são dois tipos de cabo de cobre.</li>\n<li>Fibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.</li>\n<li>Transmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.</li>\n</ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8c9bdbeea2c445039afed5d84ed20f0d",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7d30511e-fe9c-4969-a816-acaf4ae8425f",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8c9bdbeea2c445039afed5d84ed20f0d",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410448",
+    "_activityParentId": "2c758422-52f4-4d5a-9f0a-0d14e5765dfc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3e5cd0dd05dd428aac3c2b995c5007fd",
+    "body": "Um administrador de rede em um pequeno escritório está atualizando a rede local dentro do edifício. Novos cabos de rede são necessários para conectar computadores de escritório e dispositivos de rede. Qual mídia de rede o administrador deve usar?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cabo coaxial",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "solução sem fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de fibra ótica",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cabo de par trançado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "3e5cd0dd05dd428aac3c2b995c5007fd",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os cabos Ethernet de par trançado são usados com mais frequência para conectar fisicamente dispositivos locais em um pequeno escritório à rede local em um edifício.</p>",
+      "_incorrect": {
+        "final": "<p>Os cabos Ethernet de par trançado são usados com mais frequência para conectar fisicamente dispositivos locais em um pequeno escritório à rede local em um edifício.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6aef6daa8799459eb34715ee58f19685",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "101d72d6-5484-4a33-a719-9e5d0a8143a5",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6aef6daa8799459eb34715ee58f19685",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410449",
+    "_activityParentId": "e744479e-d931-4e5c-8743-636cacbec6b3",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "497456f18edf4876a9e2422098ea4a27",
+    "body": "Qual é a finalidade de usar pares trançados de fios em um cabo Ethernet?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "para reduzir a interferência",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "para oferecer maior largura de banda",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "identificar caminhos de fluxo de dados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "para garantir que a transmissão de sinais elétricos se estenda a uma distância maior",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "497456f18edf4876a9e2422098ea4a27",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Em um cabo de par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência.</p>",
+      "_incorrect": {
+        "final": "<p>A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Em um cabo de par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a45061274b00424382076f46b07f2293",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1b583fb0-39e5-468b-9a74-d14fa4f07469",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a45061274b00424382076f46b07f2293",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410450",
+    "_activityParentId": "39ba26dd-12b4-4d0c-ae4e-a62a0d739cff",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "45dc6bf229154f4db57c4aeb9768b1cf",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste!</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "45dc6bf229154f4db57c4aeb9768b1cf",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "842fb7207f5f49c984ddba50ce117de2",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "cd2875f7-7971-4a60-aa21-06d66522f8f1",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "842fb7207f5f49c984ddba50ce117de2",
+    "displayTitle": "",
+    "_assessmentId": "a147d59f2c32400893c36ab1bdd99783",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "0f9eb8fc-2779-4a49-bf23-edf5ce9a9810",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "1a895ee8431b4122ad23c42ecd564d7c",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "1a895ee8431b4122ad23c42ecd564d7c",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "015a2da4c65340e597c35cb4db4efc78",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "865a21e0-90da-4807-95aa-696f07270e66",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "015a2da4c65340e597c35cb4db4efc78",
+    "displayTitle": "",
+    "_activityParentId": "2c804310-7134-4181-9f44-67f433913d68"
+  }
+]

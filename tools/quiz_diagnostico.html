@@ -540,18 +540,63 @@
 
     </form>
 
-    <!-- Barra Flutuante / Painel de Envio -->
+    <!-- Painel de Resultados do Diagnóstico (Aparece após Avaliar) -->
+    <div id="results-panel" class="hidden bg-[#111827] border-2 border-cyan-500/40 rounded-2xl p-6 shadow-2xl space-y-6">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pb-4 border-b border-gray-800">
+        <div>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+            📊 Relatório Oficial de Desempenho
+          </span>
+          <h2 class="text-2xl font-bold text-white mt-1">Seu Diagnóstico Técnico</h2>
+          <p class="text-xs text-gray-400">Análise de competências para sua transição para Cibersegurança / SOC.</p>
+        </div>
+        <div class="text-center sm:text-right">
+          <div id="score-text" class="text-4xl font-black text-cyan-400 font-mono">0%</div>
+          <div id="score-fraction" class="text-xs text-gray-400 font-mono">0 de 10 acertos</div>
+        </div>
+      </div>
+
+      <!-- Grid de Pontos Fortes e Lacunas a Melhorar -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Pontos Fortes -->
+        <div class="bg-emerald-950/20 border border-emerald-500/30 rounded-xl p-4">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+            <h3 class="text-sm font-bold text-emerald-300">🟢 Seus Pontos Fortes (Dominados)</h3>
+          </div>
+          <ul id="strong-points-list" class="space-y-1.5 text-xs text-emerald-200">
+            <!-- Injetado via JS -->
+          </ul>
+        </div>
+
+        <!-- O Que Precisa Melhorar -->
+        <div class="bg-rose-950/20 border border-rose-500/30 rounded-xl p-4">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-3 h-3 rounded-full bg-rose-400"></span>
+            <h3 class="text-sm font-bold text-rose-300">🔴 O Que Você Precisa Melhorar (Gargalos)</h3>
+          </div>
+          <ul id="weak-points-list" class="space-y-1.5 text-xs text-rose-200">
+            <!-- Injetado via JS -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4 text-xs text-gray-300 flex items-center justify-between">
+        <span>💡 <strong>Dica do Copiloto:</strong> As questões abaixo foram coloridas em <strong class="text-emerald-400">verde (acertos)</strong> e <strong class="text-rose-400">vermelho (erros)</strong> com a explicação técnica de cada uma!</span>
+      </div>
+    </div>
+
+    <!-- Barra Flutuante / Painel de Envio e Avaliação -->
     <div
       class="sticky bottom-6 bg-[#161f30]/95 backdrop-blur-md border border-cyan-500/30 p-5 rounded-2xl shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
       <div>
-        <p class="text-sm font-semibold text-white">Pronto para enviar?</p>
-        <p class="text-xs text-gray-400">Você pode baixar o arquivo <code class="text-cyan-300">respostas.json</code> ou
-          copiar com 1 clique.</p>
+        <p class="text-sm font-semibold text-white">Pronto para testar seu conhecimento?</p>
+        <p class="text-xs text-gray-400">Clique para ver a correção instantânea das questões, seus pontos fortes e onde melhorar.</p>
       </div>
       <div class="flex items-center gap-3 w-full sm:w-auto">
-        <button id="btn-save" type="button" onclick="downloadJSON()"
-          class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-medium text-sm bg-cyan-600 hover:bg-cyan-500 text-white transition flex items-center justify-center gap-2 shadow-lg shadow-cyan-900/40">
-          💾 Baixar respostas.json
+        <button id="btn-evaluate" type="button" onclick="avaliarDesempenho()"
+          class="flex-1 sm:flex-none px-5 py-2.5 rounded-xl font-bold text-sm bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white transition flex items-center justify-center gap-2 shadow-lg shadow-cyan-900/40">
+          🎯 Avaliar Meu Desempenho
         </button>
         <button id="btn-copy" type="button" onclick="copyToClipboard()"
           class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-medium text-sm bg-gray-800 hover:bg-gray-700 text-gray-200 border border-gray-700 transition flex items-center justify-center gap-2">
@@ -569,6 +614,19 @@
   </div>
 
   <script>
+    const GABARITO = {
+      q1: { answer: "B", topic: "Redes & Wireshark (DNS Tunneling)", exp: "Centenas de consultas TXT para subdomínios aleatórios são o padrão clássico de Exfiltração de dados ou canais de Comando & Controle (C2) usando Túnel DNS." },
+      q2: { answer: "A", topic: "Linux Operacional (Inspeção de Portas)", exp: "O comando 'ss -tulpn' (ou netstat) filtra sockets TCP (-t), UDP (-u), em escuta (-l), exibindo o processo/PID (-p) em formato numérico (-n)." },
+      q3: { answer: "B", topic: "Windows & Active Directory (Pass-the-Hash)", exp: "Pass-the-Hash (PtH) permite que o invasor use o hash NTLM extraído da memória (LSASS) para autenticar sem precisar quebrar a senha original." },
+      q4: { answer: "C", topic: "Criptografia & Fundamentos", exp: "A criptografia simétrica usa uma chave compartilhada única; a assimétrica usa um par de chaves complementares (chave pública para cifrar, chave privada para decifrar)." },
+      q5: { answer: "B", topic: "Segurança Web (OWASP - SQL Injection)", exp: "O payload '' OR '1'='1' força uma condição sempre verdadeira em queries SQL. A defesa inegociável é o uso de Prepared Statements (consultas parametrizadas)." },
+      q6: { answer: "A", topic: "Segurança Web (OWASP - Stored XSS)", exp: "Quando o script JavaScript é armazenado no banco de dados e executado no navegador de todos que visitam a página, trata-se de Stored (Persistent) XSS." },
+      q7: { answer: "B", topic: "Defesa & SOC (Resposta a Incidentes)", exp: "A primeira ação mandatória de contenção de ransomware é isolar o host da rede (cortar cabo/Wi-Fi) sem desligar a máquina para preservar a memória RAM para a perícia forense." },
+      q8: { answer: "B", topic: "Governança & IAM (Least Privilege)", exp: "O Princípio do Menor Privilégio determina que contas e serviços só devem ter os privilégios estritamente necessários para desempenhar sua função operacional." },
+      q9: { answer: "B", topic: "Cloud Security (Modelo Compartilhado IaaS)", exp: "No modelo IaaS (como EC2/VMs), a nuvem cuida do hardware e datacenter físico; o cliente é o responsável exclusivo por atualizar o SO e aplicar patches." },
+      q10: { answer: "B", topic: "Engenharia Social (Vishing)", exp: "Ataques de engenharia social conduzidos por chamadas de voz telefônicas são classificados tecnicamente como Vishing (Voice Phishing)." }
+    };
+
     function getAnswers() {
       const answers = {};
       for (let i = 1; i <= 10; i++) {
@@ -588,6 +646,73 @@
       document.getElementById('progress-bar').style.width = `${count * 10}%`;
     }
 
+    function avaliarDesempenho() {
+      const answers = getAnswers();
+      let correctCount = 0;
+      const strongPoints = [];
+      const weakPoints = [];
+
+      // Avalia cada questão
+      for (let i = 1; i <= 10; i++) {
+        const key = `q${i}`;
+        const userAns = answers[key];
+        const correctAns = GABARITO[key].answer;
+        const topic = GABARITO[key].topic;
+        const exp = GABARITO[key].exp;
+
+        const card = document.querySelector(`input[name="${key}"]`).closest('.question-card');
+        
+        // Remove caixas de feedback anteriores se houver
+        const oldFeedback = card.querySelector('.feedback-box');
+        if (oldFeedback) oldFeedback.remove();
+
+        const feedbackDiv = document.createElement('div');
+        feedbackDiv.className = 'feedback-box mt-4 p-3.5 rounded-xl text-xs space-y-1.5 transition-all';
+
+        if (userAns === correctAns) {
+          correctCount++;
+          strongPoints.push(topic);
+          card.classList.remove('border-gray-800', 'border-rose-500/60');
+          card.classList.add('border-emerald-500/60', 'bg-emerald-950/10');
+
+          feedbackDiv.className += ' bg-emerald-950/30 border border-emerald-500/40 text-emerald-200';
+          feedbackDiv.innerHTML = `<div><strong class="text-emerald-400">✅ Resposta Correta!</strong> Você marcou alternativa <strong>${userAns}</strong>.</div><div class="text-gray-300 mt-1">${exp}</div>`;
+        } else {
+          weakPoints.push(topic);
+          card.classList.remove('border-gray-800', 'border-emerald-500/60');
+          card.classList.add('border-rose-500/60', 'bg-rose-950/10');
+
+          feedbackDiv.className += ' bg-rose-950/30 border border-rose-500/40 text-rose-200';
+          feedbackDiv.innerHTML = `<div><strong class="text-rose-400">❌ Resposta Incorreta!</strong> Você marcou: <strong>${userAns}</strong> | Correta: <strong class="text-emerald-300">Alternativa ${correctAns}</strong>.</div><div class="text-gray-300 mt-1"><strong>Por que você errou / Explicação técnica:</strong> ${exp}</div>`;
+        }
+
+        card.appendChild(feedbackDiv);
+      }
+
+      // Atualiza o Painel de Resultados
+      const percent = Math.round((correctCount / 10) * 100);
+      document.getElementById('score-text').innerText = `${percent}%`;
+      document.getElementById('score-fraction').innerText = `${correctCount} de 10 acertos`;
+
+      const strongList = document.getElementById('strong-points-list');
+      strongList.innerHTML = strongPoints.length > 0 
+        ? strongPoints.map(t => `<li class="flex items-center gap-1.5"><span class="text-emerald-400 font-bold">✔</span> ${t}</li>`).join('')
+        : '<li class="text-gray-400 italic">Nenhum domínio com 100% de acerto ainda.</li>';
+
+      const weakList = document.getElementById('weak-points-list');
+      weakList.innerHTML = weakPoints.length > 0
+        ? weakPoints.map(t => `<li class="flex items-center gap-1.5"><span class="text-rose-400 font-bold">✖</span> ${t}</li>`).join('')
+        : '<li class="text-emerald-300 italic">Parabéns! Nenhuma lacuna detectada! 100% de aproveitamento!</li>';
+
+      const resultsPanel = document.getElementById('results-panel');
+      resultsPanel.classList.remove('hidden');
+
+      // Scroll suave para o painel de resultados
+      resultsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      showToast(`Diagnóstico concluído: ${percent}% de acerto!`);
+    }
+
     function showToast(msg) {
       const toast = document.getElementById('toast');
       document.getElementById('toast-msg').innerText = msg;
@@ -599,31 +724,13 @@
       }, 3500);
     }
 
-    function downloadJSON() {
-      const answers = getAnswers();
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(answers, null, 2));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "respostas.json");
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-      showToast("Arquivo respostas.json baixado! Mova para a pasta do projeto ou avise no chat.");
-    }
-
     function copyToClipboard() {
       const answers = getAnswers();
-      const formatted = Object.entries(answers)
-        .map(([k, v]) => `${k.toUpperCase()}: ${v}`)
-        .join(', ');
-
       const payload = JSON.stringify(answers, null, 2);
-
       navigator.clipboard.writeText(payload).then(() => {
         showToast("Copiado para a área de transferência! Só colar no chat.");
       }).catch(() => {
-        // Fallback
-        prompt("Copie suas respostas abaixo:", formatted);
+        prompt("Copie suas respostas abaixo:", payload);
       });
     }
   </script>

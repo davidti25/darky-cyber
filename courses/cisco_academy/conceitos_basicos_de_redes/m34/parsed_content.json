@@ -1,0 +1,350 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Webster aqui!\nHalimah ainda está investigando a rede de sua empresa. Ela está impressionada com a forma como a equipe de TI o estruturou. Ela sabe sobre descoberta de vizinho (ND) IPv6 e, neste módulo, você aprenderá sobre isso também.\nIPv6 ND é como dispositivos endereçados IPv6 resolvem endereços MAC. O IPv6 ND permite que dispositivos com endereços IPv6 se comuniquem com outros dispositivos em uma rede, o que é, convenhamos, todo o motivo de ter uma rede.\nEntão, dada a importância desse assunto, vamos começar!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Operação de descoberta de vizinho",
+      "content": "{{_moduleNumber}}.1 Operação de descoberta de vizinho"
+    },
+    {
+      "type": "text",
+      "title": ".1 Operação de descoberta de vizinho",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Mensagens de descoberta de vizinhos IPv6",
+      "content": "O protocolo de descoberta de vizinhos IPv6 às vezes é chamado de ND ou NDP. Neste curso, vamos nos referir a ele como ND. O ND fornece serviços de resolução de endereço, descoberta de roteador e redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para executar estes serviços:\nMensagens de solicitação de vizinho\nMensagens de anúncio vizinho\nMensagens de solicitação de roteador\nMensagens de anúncio do roteador\nRedirecionar mensagem.\nAs mensagens de solicitação de vizinho e anúncio de vizinho são usadas para mensagens de dispositivo a dispositivo, como resolução de endereço (semelhante ao ARP para IPv4). Os dispositivos incluem computadores host e roteadores.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "As mensagens de solicitação de roteador e anúncio de roteador são para mensagens entre dispositivos e roteadores. Normalmente, a descoberta de roteador é usada para alocação de endereços dinâmicos e autoconfiguração de endereço sem estado (SLAAC).",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: A quinta mensagem ICMPv6 ND é uma mensagem de redirecionamento que é usada para uma melhor seleção do próximo salto. Isso está além do escopo deste curso.\nIPv6 ND é definido no IETF RFC 4861."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Descoberta de Vizinhos IPv6 - Resolução de Endereço",
+      "content": "Assim como ARP para IPv4, os dispositivos IPv6 usam IPv6 ND para determinar o endereço MAC de um dispositivo que tem um endereço IPv6 conhecido.\nAs mensagens de solicitação de vizinho ICMPv6 e de anúncio de vizinho são usadas para resolução de endereço MAC. Isso é semelhante às Solicitações ARP e Respostas ARP usadas pelo ARP para IPv4. Por exemplo, suponha que PC1 queira fazer ping em PC2 no endereço IPv6 2001:db8:acad: :11. Para determinar o endereço MAC para o endereço IPv6 conhecido, o PC1 envia uma mensagem de solicitação de vizinho ICMPv6 conforme ilustrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "As mensagens de solicitação de vizinho ICMPv6 são enviadas usando endereços multicast Ethernet e IPv6 especiais. Isso permite que o NIC Ethernet do dispositivo receptor determine se a mensagem de solicitação de vizinho é para si mesmo sem precisar enviá-la ao sistema operacional para processamento.\nO PC2 responde à solicitação com uma mensagem de anúncio de vizinho ICMPv6 que inclui seu endereço MAC."
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo da descoberta de vizinhos IPv6",
+      "content": "{{_moduleNumber}}.2 Resumo da descoberta de vizinhos IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo da descoberta de vizinhos IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 O que eu aprendi neste módulo?",
+      "content": "A operação de descoberta de vizinhos\nIPv6 não usa ARP, usa o protocolo ND para resolver endereços MAC. O ND fornece serviços de resolução de endereço, descoberta de roteador e redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para executar esses serviços: solicitação de vizinhos, propaganda de vizinhos, solicitação de roteador, anúncio de roteador e redirecionamento. Assim como ARP para IPv4, os dispositivos IPv6 usam IPv6 ND para resolver o endereço MAC de um dispositivo para um endereço IPv6 conhecido."
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Webster - Questões para Reflexão",
+      "content": "Webster aqui!\nEu não sabia que o IPv6 não usa ARP. Você sabia disso? Bem, você sabe agora! Neste módulo, eu aprendi sobre a descoberta de vizinhos e espero que você também.\nQual é o objetivo do ND?\nVocê pode listar as cinco mensagens de ICMPv6 que o ND usa?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Descoberta de vizinhos IPv6 Rede local\nParte 2: Descoberta de vizinhos IPv6 Rede remota\nSegundo plano\nPara que um dispositivo se comunique com outro dispositivo, o endereço MAC do destino deve ser conhecido. Com o IPv6, um processo chamado Descoberta de Vizinhos (Neighbor Discovery) usando o protocolo NDP ou ND é responsável por determinar o endereço MAC de destino. Você coletará informações de PDU no modo de simulação para entender melhor o processo. Não há pontuação no Packet Tracer para esta atividade.\nInstruções\nParte 1: Descoberta de vizinhos IPv6 Rede local\nNesta parte, você obterá o endereço MAC de um dispositivo de destino na mesma rede.\nEtapa 1: Verifique se há vizinhos que ele descobriu no roteador.\na.     Clique no RTA Router. Selecione a guia CLI e emita o comando show ipv6 neighbors do modo EXEC privilegiado. Se houver entradas exibidas, remova-as usando o comando clear ipv6 neighbors.\nb.     Clique em PCA1, selecione a guia Área de Trabalho e clique no ícone Prompt Command.\nEtapa 2: Alterne para o Modo de Simulação para capturar eventos.\na.     Clique no botão Simulação no canto inferior direito da janela Topologia do Packet Tracer.\nb.     Clique no botão Mostrar Tudo/Nenhumno Painel de Simulação até que Filtros da Lista de Eventos – Eventos Visíveisexiba Nenhum.\nc.     Clique em Edit Filters. Selecione a guia IPv6 na parte superior e marque as caixas para ICMPv6 e NDP . Feche a janela Editar Filtros ACL. Agora os Filtros da Lista de Eventos exibem ICMPv6 e NDP.\nd.     No prompt de comando em PCA1, execute o comando ping —n 1 2001:db8:acad:1: :b. Isso iniciará o processo de ping PCA2.\ne.     Clique em Reproduzir (Hands Free) em PLAY CONTROLS fora do Painel de simulação. Se solicitado, clique em View Previous Eventsna janela Buffer Full - Packet Tracer. Você deve ter aproximadamente 12 entradas na janela.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.      Clique no quadrado na coluna Tipo para o primeiro evento, que deve ser ICMPv6.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observe que não há endereçamento de Camada 2. Clique no botão Próxima Camada >> para obter uma explicação sobre o processo ND (Descoberta de Vizinhos).\ng.     Clique no quadrado ao lado do próximo evento no Painel de simulação. Deve estar no dispositivo PCA1 e o tipo deve ser NDP.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Quando um host não sabe o endereço MAC do destino, um endereço MAC de multicast especial é usado pelo IPv6 Neighbor Discovery como o endereço de destino da Camada 2.\nh.     Volte para a lista de eventos. Selecione o primeiro evento NDP no SwitchA.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "i.      Selecione o primeiro evento NDP no PCA2 . Clique na guia Detalhes da PDU de Saída.\nPergunta:\nQuais endereços são exibidos para o seguinte?\nObservação: os endereços nos campos podem ser quebrados, ajuste o tamanho da janela da PDU para facilitar a leitura das informações de endereço."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "k.     Clique no botão Próxima Camada >> até o final e leia as etapas 4 a 7 para obter mais explicações.\nl.      Clique no próximo evento ICMPv6 em PCA1 .\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "m.   Clique no último evento ICMPv6 em PCA1 . Observe que esta é a última comunicação listada.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "n.     Clique em Reset Simulation (Redefinir Simulação) no Simulation Panel (Painel de Simulação). No prompt de comando do PCA1, repita o ping para o PCA2. (Dica: você deve ser capaz de pressionar a seta para cima para trazer o comando anterior de volta.)\no.     Clique em Reproduzir (Hands Free) para concluir o processo de ping. Clique em Exibir eventos anteriores, se solicitado.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Descoberta de vizinhos IPv6 Rede remota\nNa Parte 2 desta atividade, você executará etapas semelhantes às da parte anterior, exceto que, neste caso, o host de destino está em outra LAN. Observe como o processo de descoberta de vizinhos difere do processo observado na parte anterior. Preste muita atenção a algumas das etapas de endereçamento adicionais que ocorrem quando um dispositivo se comunica com um dispositivo que está em uma rede diferente.\nEtapa 1: Capturar eventos para comunicação remota.\na.     Clique no botão Reset Simulation para limpar os eventos anteriores. Exiba e limpe todas as entradas na tabela de dispositivos vizinhos IPv6 como foi feito na parte anterior.\nb.     Verifique se apenas ICMPv6e NDP estão listados em Event List Filters - Visible Events.\nc.     No prompt de comando no PCA1, emita o comando ping –n 1 2001:db8:acad:2::a para pingar o host PCB1.\nd.     Clique em Reproduzir (Hands Free) em PLAY CONTROLS fora do Painel de simulação. Se solicitado, clique em Exibir eventos anteriores na janela Buffer cheio -- Packet Tracer.\ne.     Quando o processo de ping estiver concluído, clique no quadrado na Coluna Tipo para o primeiro evento, que deve ser ICMPv6. Como a mensagem começa com este evento, existe apenas uma PDU de saída. Observe que está faltando as informações da Camada 2 como fazia no cenário anterior.\nf.      Clique no primeiro evento NDP no dispositivo PCA1 .\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O IPv6 Neighbor Discovery determinará o próximo destino para encaminhar a mensagem ICMPv6.\ng.     Clique no segundo evento ICMPv6 para PCA1. O PCA1 agora tem informações suficientes para criar uma solicitação de eco ICMPv6.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "h.     Clique no próximo evento ICMPv6 no dispositivo RTA. Observe que a PDU de saída do RTA não possui o endereço de destino da camada 2, isso significa que o RTA mais uma vez precisa realizar uma descoberta de vizinho para a interface que possui a rede 2001:db8:acad:2:: porque não conhece os endereços MAC dos dispositivos na LAN G0/0/1.\ni.      Ir para o primeiro evento ICMPv6 para o dispositivo PCB1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "j.      Os próximos eventos NDP estão associando os endereços IPv6 restantes a endereços MAC. Os eventos NDP anteriores associados endereços MAC com endereços de Link Local.\nk.     Pule para o último conjunto de eventos ICMPv6 e observe que todos os endereços foram aprendidos. As informações necessárias agora são conhecidas, então PCB1 pode enviar mensagens de resposta de eco para PCA1.\nl.      Clique em Reset Simulation (Redefinir Simulação) no Simulation Panel (Painel de Simulação). No prompt de comando do PCA1 repita o comando para ping PCB1.\nm.   Clique em Reproduzir (Hands Free) para concluir o processo de ping. Clique em Exibir eventos anteriores se solicitado na janela Buffer cheio.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "n.     Clique no único evento PCB1 na nova lista.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Examine as saídas do roteador.\na.     Volte ao modo de Realtime.\nb.     Clique em RTA e selecione a guia CLI. No prompt do roteador, digite o comando show ipv6 neighbors.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.     Ping PCA2 a partir do roteador.\nd.     Emita o comando show ipv6 neighbours.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Perguntas para reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Quais duas mensagens ICMPv6 são usadas no SLAAC?",
+      "options": [
+        "anúncio de vizinho",
+        "solicitação de vizinho",
+        "anúncio de roteador",
+        "solicitação de roteador"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nAs duas mensagens ICMPv6 usadas no SLAAC são a solicitação do roteador e o anúncio do roteador.",
+      "raw_id": "a6f634b293b243df8e8a55d55e0b4c28"
+    },
+    {
+      "question": "Em quais duas mensagens ICMPv6 são usadas para determinar o endereço MAC de um endereço IPv6 conhecido?",
+      "options": [
+        "anúncio de vizinho",
+        "solicitação de vizinho",
+        "anúncio de roteador",
+        "solicitação de roteador"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAs duas mensagens ICMPv6 usadas na determinação do endereço MAC de um endereço IPv6 conhecido são a solicitação de vizinho e o anúncio de vizinho.",
+      "raw_id": "5f8f1fb1bbed4886962ee997271bcee2"
+    },
+    {
+      "question": "Para que tipo de endereço são enviadas mensagens de solicitação de vizinho ICMPv6?",
+      "options": [
+        "unicast",
+        "multicast",
+        "broadcast"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAs mensagens de solicitação de vizinho ICMPv6 são enviadas como um multicast.",
+      "raw_id": "34fa545a0db74fe7b3174e5d1ee26cab"
+    },
+    {
+      "question": "Quais duas mensagens ICMPv6 são usadas durante o processo de resolução de endereço MAC Ethernet? (Escolha duas.)",
+      "options": [
+        "solicitação de roteador",
+        "anúncio de roteador",
+        "solicitação de vizinho",
+        "anúncio de vizinho",
+        "solicitação de eco"
+      ],
+      "correctIndex": 3,
+      "explanation": "O IPv6 usa mensagens ICMPv6 de solicitação de vizinho (NS) e anúncio de vizinho (NA) para resolução de endereço MAC.",
+      "raw_id": "f5df7e8a2a9642f983c8b521028fd079"
+    },
+    {
+      "question": "Qual escopo de endereço é usado no quadro IPv6 para garantir que uma mensagem de solicitação de vizinho IPv6 não seja encaminhada pelos roteadores?",
+      "options": [
+        "escopo de site-local",
+        "escopo de link local",
+        "escopo de subnet local",
+        "escopo de interface local"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uma mensagem de solicitação de vizinho IPv6 é enviada via multicast. O endereço multicast é definido com o escopo de link-local para que a mensagem possa transmitir apenas no mesmo link.",
+      "raw_id": "2b656c1d2a794f329139daf3861d00f7"
+    },
+    {
+      "question": "Que tipo de transmissão de dados um host IPv6 usa para enviar uma mensagem de solicitação de vizinho?",
+      "options": [
+        "unicast",
+        "anycast",
+        "multicast",
+        "broadcast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um host IPv6 precisa iniciar o processo de resolução de endereço, ele envia uma mensagem de solicitação de vizinho multicast.",
+      "raw_id": "06adc5c0eb2746e687af81d833d5927a"
+    },
+    {
+      "question": "Que tipo de quadro Ethernet um host IPv6 usa para enviar uma mensagem em resposta a uma solicitação de resolução de endereço?",
+      "options": [
+        "unicast",
+        "anycast",
+        "multicast",
+        "broadcast"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um host IPv6 enviará um quadro Ethernet unicast quando o host receber uma mensagem de solicitação de vizinho.",
+      "raw_id": "54eff38902814a0a8d5b8deb33128c42"
+    },
+    {
+      "question": "Quantas mensagens são usadas no protocolo de descoberta de vizinhos ICMPv6?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para realizar esses serviços. Eles são solicitação de vizinho, anúncio de vizinho, solicitação de roteador, anúncio de roteador e redirecionamento.",
+      "raw_id": "db1d9a7ff5e143b889ccbfc11ca951b1"
+    },
+    {
+      "question": "Qual protocolo fornece mensagens para dar suporte à resolução de endereços IPv6?",
+      "options": [
+        "DNS",
+        "ARP",
+        "ICMPv6",
+        "DHCPv6"
+      ],
+      "correctIndex": 2,
+      "explanation": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6.",
+      "raw_id": "6bca5812fa964827a2938807c9f672b1"
+    },
+    {
+      "question": "Qual camada OSI fornece operação de descoberta de vizinhos IPv6?",
+      "options": [
+        "rede",
+        "enlace de dados",
+        "transporte",
+        "aplicação"
+      ],
+      "correctIndex": 0,
+      "explanation": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 é um protocolo de camada de rede OSI.",
+      "raw_id": "c4d6fa470ddb41cc91c013a4b4a431d2"
+    },
+    {
+      "question": "Qual método um host habilitado para IPv6 usando SLAAC empregaria para saber o endereço do gateway padrão?",
+      "options": [
+        "mensagens de anúncio de roteador recebidas do roteador de link",
+        "mensagens de solicitação de vizinho enviadas para conectar vizinhos",
+        "mensagens de anúncio de vizinho recebidas de vizinhos de link",
+        "mensagens de solicitação do roteador recebidas do roteador de link"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ao usar o SLAAC, um host aprenderá com o anúncio do roteador enviado pelo roteador de link o endereço a ser usado como gateway padrão.",
+      "raw_id": "7e95c0ffb54247f59858db853c28993b"
+    },
+    {
+      "question": "Qual mensagem um host IPv6 deve enviar em resposta a uma solicitação de seu endereço MAC?",
+      "options": [
+        "Mensagem de solicitação de roteador",
+        "Mensagem de solicitação de vizinhos",
+        "Mensagem de anúncio de roteador",
+        "Mensagem de anúncio de vizinhos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um host IPv6 recebe uma mensagem de solicitação de vizinho ICMPv6 para resolução de endereço MAC, o host retorna uma mensagem de anúncio de vizinho para fornecer o endereço MAC.",
+      "raw_id": "ccacd0c90b874631b07a752b5d81ddd9"
+    },
+    {
+      "question": "Qual declaração descreve as mensagens de solicitação de vizinho e anúncio de vizinho usadas no protocolo IPv6 de descoberta de vizinhos?",
+      "options": [
+        "Eles são usados apenas entre dois roteadores.",
+        "Eles são usados apenas entre dois computadores.",
+        "Eles são usados para enviar mensagens para todos os dispositivos na mesma rede.",
+        "Eles são usados para mensagens de dispositivo para dispositivo e os dispositivos incluem computadores e roteadores."
+      ],
+      "correctIndex": 3,
+      "explanation": "As mensagens de Solicitação de Vizinho e Anúncio de Vizinho são usadas para mensagens de dispositivo para dispositivo, como resolução de endereço. Os dispositivos incluem computadores host e roteadores.",
+      "raw_id": "909366a040134264980d2a9fa7378a37"
+    },
+    {
+      "question": "O host IPv6 A está enviando uma mensagem de solicitação de vizinho para o host IPv6 B na mesma rede Ethernet. Que tipo de endereço é usado no campo Destination MAC do cabeçalho do quadro Ethernet?",
+      "options": [
+        "endereço MAC unicast",
+        "endereço MAC anycast",
+        "endereço MAC multicast",
+        "endereço MAC de broadcast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um host IPv6 envia uma mensagem de solicitação de vizinho para outro host IPv6 na mesma rede Ethernet, o host remetente cria um quadro Ethernet e adiciona um endereço MAC de multicast no campo Endereço de destino MAC.",
+      "raw_id": "d9c57c4677ff4362851f6a4d65555f1e"
+    },
+    {
+      "question": "Um host IPv6 precisa iniciar a comunicação com outro host IPv6. Qual é o primeiro passo que o host de envio deve fazer?",
+      "options": [
+        "Transmitir uma mensagem de broadcast ARP para a rede.",
+        "Enviar uma mensagem de solicitação de vizinho para o host de destino.",
+        "Determinar se o host de destino está na mesma rede IPv6.",
+        "Enviar uma mensagem de anúncio de vizinho para o host de destino."
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um host precisa iniciar uma comunicação com outro host, a primeira coisa que o host remetente precisa fazer é determinar se o host de destino está na mesma rede. Isso levará à decisão se o pacote deve ser enviado diretamente para o host de destino ou para o dispositivo de gateway padrão.",
+      "raw_id": "969efe7db9724fe3a418d184f6381b3c"
+    }
+  ],
+  "images": []
+}

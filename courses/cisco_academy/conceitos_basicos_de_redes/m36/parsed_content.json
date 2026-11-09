@@ -1,0 +1,612 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Olá novamente e parabéns! Você alcançou o módulo final deste curso!\nHalimah concluiu sua tarefa de projetar e configurar uma nova rede de filiais. Ela precisará testá-la e, se houver problemas, ela os diagnosticará e corrigirá. Eu também quero saber como testar, diagnosticar e corrigir problemas de rede. Ser capaz de fazer isso é um sinal claro de que você está pronto para se tornar um profissional de rede.\nVamos fazer isso juntos!"
+    },
+    {
+      "type": "text",
+      "title": ".1 O Processo de Solução de Problemas",
+      "content": "{{_moduleNumber}}.1 O Processo de Solução de Problemas"
+    },
+    {
+      "type": "text",
+      "title": ".1 O Processo de Solução de Problemas",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Visão geral da solução de problemas de rede",
+      "content": "A resolução de problemas é o processo de identificar, localizar e corrigir problemas. Os indivíduos experientes confiam no instinto para solucionar problemas. Entretanto, há técnicas estruturadas que podem ser usadas para determinar a causa mais provável e a solução.\nNa solução de problemas, a documentação apropriada deve ser mantida. Esta documentação deve incluir o máximo de informações possível sobre o seguinte:\nO problema encontrado\nAs etapas seguidas para determinar a causa do problema\nAs etapas para corrigir o problema e garantir que ele não ocorra novamente\nDocumente todas as etapas seguidas na solução de problemas, até mesmo as etapas que não resolveram o problema. Essa documentação torna-se uma referência importante quando o mesmo problema ou um problema semelhante ocorre novamente. Mesmo em uma rede residencial pequena, uma documentação adequada pode ajudar a economizar tempo e lembrar como um problema foi corrigido no passado.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.3 Reunir Informações",
+      "content": "Quando um problema é detectado pela primeira vez na rede, é importante verificá-lo e determinar a dimensão da rede afetada pelo problema. Quando o problema é confirmado, a primeira etapa na solução de problemas é coletar informações. O checklist a seguir apresenta algumas informações importantes que você deve verificar.\nNatureza do problema\nRelatórios do usuário final\nRelatório de verificação do problema\nEquipamento\nFabricante\nMarca/modelo\nVersão de firmware\nVersão do sistema operacional\nInformações sobre propriedade/garantia\nConfiguração e topologia\nTopologia física e lógica\nArquivos de configuração\nArquivos de log\nSolução de problemas anterior\nPassos dados\nResultados alcançados\nUma das primeiras formas de coletar informações é fazer perguntas a todos os usuários que reportaram o problema, bem como a outros usuários afetados. As perguntas podem incluir a experiência do usuário final, sintomas observados, mensagens de erro e informações sobre mudanças recentes de configuração em dispositivos ou aplicativos.\nEm seguida, reúna informações sobre todos os equipamentos que podem ser afetados. Essas informações podem ser obtidas na documentação. Também são necessárias uma cópia de todos os arquivos de log e uma lista de todas as alterações recentes nas configurações de equipamentos. Os arquivos de log são gerados pelo próprio equipamento e normalmente são fornecidos pelo software de gerenciamento. Outras informações sobre o equipamento incluem o fabricante, a marca e o modelo dos dispositivos afetados, além de informações de propriedade e garantia. A versão do firmware ou software no dispositivo também é importante porque pode haver problemas de compatibilidade com plataformas de hardware específicas.\nAs informações sobre a rede também podem ser obtidas com as ferramentas de monitoramento de rede. As ferramentas de monitoramento de rede são aplicativos complexos muito usados em redes grandes para coletar continuamente informações sobre o estado e os dispositivos de rede. Essas ferramentas podem não estar disponíveis para redes menores.\nQuando todas as informações necessárias forem coletadas, inicie o processo de solução de problemas."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.5 Diretrizes para selecionar um método de solução de problemas",
+      "content": "Para resolver rapidamente problemas de rede, selecione o método de identificação e solução de problemas de rede mais eficaz.\nA figura ilustra qual método pode ser usado quando um determinado tipo de problema é descoberto.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Por exemplo, problemas de software geralmente são resolvidos usando uma abordagem de cima para baixo, enquanto problemas baseados em hardware são resolvidos usando a abordagem de baixo para cima. Novos problemas podem ser resolvidos por um técnico experiente usando o método dividir e conquistar. Caso contrário, pode ser utilizada a abordagem ascendente.\nSolução de problemas é uma habilidade que é desenvolvida ao fazê-lo. Cada problema de rede que você identifica e resolve aumenta seu conjunto de habilidades."
+    },
+    {
+      "type": "text",
+      "title": ".2 Problemas da camada física",
+      "content": "{{_moduleNumber}}.2 Problemas de camada física"
+    },
+    {
+      "type": "text",
+      "title": ".2 Problemas da camada física",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 LEDs de Roteadores sem fio",
+      "content": "Independentemente da falha estar na rede sem fio ou com fio, uma das primeiras etapas em uma estratégia ascendente de solução de problemas deve ser examinar os LEDs, que indicam o estado ou a atividade atual de um equipamento ou de uma conexão. LEDs podem mudar de cor ou piscar para transmitir informações. A configuração exata e o significado dos LEDs variam entre fabricantes e dispositivos. A figura mostra um roteador sem fio típico com LEDs, incluindo os de energia, sistema, WLAN, portas com fio e Internet (rotulada como WAN na figura), USB e Quick Security Setup (QSS, também conhecido como Configuração de Wi-Fi Protegida [WPS]).\nNota: O WPS ou o QSS têm vulnerabilidades conhecidas que permitem que um agente de ameaças obtenha acesso à sua rede. Portanto, é uma prática recomendada de segurança desabilitar esse recurso. Consulte a documentação para saber como desabilitar o WPS ou QSS.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Em alguns dispositivos, um único LED pode transmitir várias informações dependendo do status atual do dispositivo. É importante verificar a documentação do equipamento para o significado exato de todos os indicadores, mas existem alguns pontos em comum.\nA maioria dos dispositivos terá LEDs de atividade, que geralmente são chamados de luzes de link. Uma condição normal é que esses LEDs pisquem indicando que o tráfego está fluindo pela porta. Uma luz verde sólida normalmente indica que um dispositivo está conectado à porta, mas nenhum tráfego está fluindo. Nenhuma luz indica normalmente um ou mais dos seguintes itens:\nNada está conectado à porta.\nHá um problema com a conexão com ou sem fio.\nUm dispositivo ou uma porta falhou.\nHá um problema de cabeamento.\nO roteador sem fio está configurado incorretamente, por exemplo, uma porta foi desligada administrativamente.\nO roteador sem fio tem uma falha de hardware.\nO dispositivo não tem energia.\nSe for uma rede com fio ou sem fio, verifique se o dispositivo e as portas estão funcionando para não perder tempo com tentativas de solução de problemas."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Problemas de cabeamento",
+      "content": "Se o cliente com fio não puder se conectar ao roteador sem fio, será necessário verificar a conectividade física e o cabeamento. O cabeamento é o sistema central de redes com fio e um dos problemas mais comuns quando há inatividade.\nExistem diversos problemas relacionados ao cabeamento:\nUtilize o tipo de cabo correto. Dois tipos de cabos UTP são geralmente encontrados em redes: cabos diretos (straight-through) e cabos cruzados. O uso do tipo de cabo incorreto pode impedir a conectividade.\nA terminação de cabo inadequada é um dos principais problemas encontrados em redes. Para evitar isso, os cabos devem ser terminados de acordo com os padrões. Termine cabos com o padrão de terminação T568A ou T568B. Evite destrançar os pares de fios na terminação. Comprima os conectores no cabo de revestimento para fornecer o alívio de tensão.\nOs comprimentos máximos de cabo são definidos pelas características de diferentes cabos. Exceder esses comprimentos pode causar um impacto negativo no desempenho da rede.\nSe há problema na conectividade, verifique se as portas corretas estão sendo usadas entre os dispositivos de rede.\nProteja cabos e conectores de danos físicos. Use suporte de cabos para evitar a sobrecarga em conectores e coloque os cabos em áreas que não fiquem no caminho.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Solucionar problemas de redes sem fio",
+      "content": "{{_moduleNumber}}.3 Solucionar problemas de redes sem fio"
+    },
+    {
+      "type": "text",
+      "title": ".3 Solucionar problemas de redes sem fio",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.1 Causas de problemas sem fio",
+      "content": "Devido a problemas de conectividade sem fio, o cliente sem fio não pode se conectar ao AP. A comunicação sem fio depende dos sinais de radiofrequência (RF) para transportar dados. Diversos fatores podem afetar nossa capacidade de conexão com hosts que utilizam RF:\nNem todos os padrões sem fio são compatíveis. O 802.11ac (banda de 5 GHz) não é compatível com os padrões 802.11b/g/n (banda de 2,4 GHz). Na banda de 2,4 GHz, cada padrão usa uma tecnologia diferente. A menos que seja especificamente configurado, o equipamento que está em conformidade com um padrão talvez não funcione com um equipamento que está em conformidade com outro padrão. Na figura, a rede de 2,4 GHz está configurada para oferecer suporte a dispositivos antigos.\nCada conversação sem fio deve ocorrer em um canal separado sem sobreposição. Alguns dispositivos AP podem ser configurados para selecionar o canal menos congestionado ou o de mais alta produtividade. Embora as configurações automáticas funcionem, a configuração manual do canal AP fornece maior controle e pode ser necessária em alguns ambientes.\nA intensidade de um sinal RF diminui com a distância. Se a intensidade do sinal for muito baixa, os dispositivos não serão capazes de associar e mover dados de maneira confiável. O sinal pode ser removido. O utilitário de cliente NIC pode ser usado para exibir a intensidade do sinal e a qualidade da conexão.\nOs sinais RF são suscetíveis a interferências de fontes externas, inclusive de outros dispositivos que operam na mesma frequência. Uma pesquisa no local deve ser feita para detectar essas interferências.\nAPs compartilham a largura de banda disponível entre dispositivos. Quanto mais dispositivos forem associados ao AP, a largura de banda para cada dispositivo individual diminuirá, causando problemas de desempenho de rede. A solução é reduzir o número de clientes sem fio que usa cada canal.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Erros de autenticação e associação",
+      "content": "As WLANs modernas incorporam várias tecnologias para ajudar a proteger os dados na WLAN. A configuração incorreta de qualquer um deles pode impedir a comunicação. Algumas das configurações mais comuns definidas de forma incorreta incluem: SSID, autenticação e criptografia.\nO SSID é uma string alfanumérica que diferencia maiúsculas e minúsculas até 32 caracteres. Deve corresponder ao AP e ao cliente. Se o SSID for transmitido e detectado, isso não será um problema. Se o SSID não for transmitido, deverá ser inserido manualmente no campo do cliente. Caso o cliente esteja configurado com o SSID incorreto, ele não será associado ao AP. Além disso, quando outro AP está presente e transmite o SSID, o cliente pode se associar automaticamente a esse AP.\nNa maioria dos APs, a autenticação aberta é configurada por padrão, permitindo que todos os dispositivos sejam conectados. Se uma forma mais segura de autenticação for configurada, uma chave será necessária. O cliente e o AP devem ser configurados com a mesma chave. Se as chaves não coincidirem, haverá falha na autenticação e os dispositivos não serão associados.\nCriptografia é o processo que modifica os dados de forma que não sejam usados por qualquer pessoa sem a chave de criptografia adequada. Se a criptografia for ativada, a mesma chave de criptografia deverá ser configurada no AP e no cliente. Caso o cliente seja associado ao AP, mas não puder enviar ou receber dados, a chave de criptografia pode ser o problema.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4 Problemas comuns de conectividade com a Internet",
+      "content": "{{_moduleNumber}}.4 Problemas comuns de conectividade com a Internet"
+    },
+    {
+      "type": "text",
+      "title": ".4 Problemas comuns de conectividade com a Internet",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 Erros de configuração do servidor DHCP",
+      "content": "Se a conexão física com o host com fio ou sem fio parecer estar se conectando conforme o esperado, mas o host não puder se comunicar em redes remotas ou na Internet, verifique a configuração de IP do cliente.\nA configuração de IP pode ter um grande impacto na capacidade de conexão de um host com a rede. Um roteador sem fio atua como um servidor DHCP para clientes locais com e sem fio e fornece configuração de IP, incluindo o endereço IP, máscara de sub-rede, gateway padrão e, geralmente, os endereços IP dos servidores DNS. O servidor DHCP vincula o endereço IP a um endereço MAC do cliente e armazena essas informações em uma tabela de clientes. Geralmente, é possível visualizar essa tabela com a GUI de configuração incluída no roteador.\nAs informações da tabela do cliente devem corresponder às informações do host local, que você pode ver usando o comando ipconfig /all. Além disso, o endereço IP no cliente deve estar na mesma rede que a interface LAN do roteador sem fio. A interface da LAN do roteador sem fio deve ser definida como o gateway padrão. Se as informações de configuração do cliente não estiverem de acordo com as informações da tabela do cliente, o endereço deve ser liberado (ipconfig /release) e renovado (ipconfig /renew) para formar uma nova ligação.\nNa maioria dos casos, o roteador sem fio recebe seu próprio endereço IP pelo DHCP no ISP. Verifique se o roteador tem um endereço IP e tente liberar e renovar o endereço com o utilitário da GUI.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Há muitas maneiras de verificar a conectividade entre o roteador e o ISP. Usando a GUI, uma forma de verificar a conectividade é examinar a página de status do roteador. Como mostrado na figura, ele deve mostrar o endereço IP atribuído pelo ISP (64.100.0.11 neste exemplo).",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Se esta página mostrar a ausência de conexão, o roteador sem fio não poderá ser conectado. Verifique todas as conexões físicas e os indicadores LED. Se o DSL ou o modem a cabo for um dispositivo separado, verifique também as conexões e os indicadores. Caso o ISP solicite um nome de login ou uma senha, verifique se coincidem com os dados fornecidos pelo ISP. Usando a GUI, as configurações de senha podem aparecer na página de configuração. Em seguida, tente restabelecer a conectividade ao clicar no botão para conectar ou renovar o endereço IP na página de status. Se o roteador sem fio ainda não estiver conectado, entre em contato com o ISP para saber se o problema é do próprio ISP."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.3 Verifique as configurações do Firewall",
+      "content": "Se as Camadas 1 a 3 estiverem funcionando normalmente e você puder fazer ping com êxito no endereço IP do servidor remoto, verifique as camadas superiores. Por exemplo, caso um firewall de rede seja usado ao longo do caminho, é importante verificar se a porta TCP ou UDP do aplicativo está aberta e nenhuma lista de filtros está bloqueando o tráfego nessa porta.\nQuando todos os clientes têm a configuração de IP correta e podem se conectar ao roteador sem fio, mas não conseguem fazer ping entre eles nem acessar um servidor remoto ou aplicativo, talvez exista um problema nas regras do roteador. Verifique todas as configurações no roteador para garantir que nenhuma restrição de segurança está causando o problema. Verifique se os firewalls locais nos dispositivos clientes não estão impedindo a funcionalidade de rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.5 Dividir-e-Conquistar com ping",
+      "content": "Os problemas de conectividade ocorrem em redes sem fio, em redes com fio e em redes que usam ambas as conexões. Na solução de problemas de uma rede que tem conexões com e sem fio, é melhor usar uma técnica dividir-para-conquistar para isolar o problema na rede cabeada ou na rede sem fio. A maneira mais fácil de determinar se o problema está na rede com fio ou sem fio é a seguinte:\nFaça um ping do cliente sem fio para o gateway padrão. Isso verifica se o cliente sem fio está se conectando conforme o esperado.\nFaça um ping do cliente com fio para o gateway padrão. Isso verifica se o cliente com fio está se conectando conforme o esperado.\nFaça ping do cliente sem fio para um cliente com fio. Isso verifica se o roteador sem fio está funcionando conforme o esperado.\nDepois de isolado, o problema pode ser corrigido.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5 Suporte ao cliente",
+      "content": "{{_moduleNumber}}.5 Suporte ao cliente"
+    },
+    {
+      "type": "text",
+      "title": ".5 Suporte ao cliente",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".5.1 Fontes de Ajuda",
+      "content": "Se, durante o processo de solução de problemas, você não conseguir determinar o problema e sua resolução, talvez seja necessário obter assistência de fontes externas. Estas são algumas das fontes mais comuns de ajuda:\nDocumentação - Uma boa documentação pode economizar muito tempo e esforço ao direcionar o solucionador de problemas para a causa mais provável do problema. Ela também pode fornecer as informações técnicas necessárias para isolar, verificar e corrigir o problema. A documentação de muitos dispositivos de rede, entretanto, nem sempre apresenta informações suficientes para a solução de problemas mais complexos.\nPerguntas frequentes on-line (FAQs) - A maioria dos fabricantes fornece uma série de perguntas frequentes sobre seu produto ou tecnologia em seu site. Definidas, em geral, por solicitações anteriores de ajuda, as Perguntas frequentes são uma excelente fonte de informações atuais e devem ser consultadas sempre que possível.\nPesquisas na Internet - Com o aumento da disponibilidade de fóruns de suporte, os solucionadores de problemas agora podem obter assistência de pessoas de todo o mundo em tempo real.\nColegas - Colegas são muitas vezes uma riqueza de informações; não há substituto para a experiência de solução de problemas."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.2 Quando Pedir Ajuda",
+      "content": "Às vezes, não conseguimos resolver sozinhos os problemas de rede. Para obter assistência, talvez seja necessário entrar em contato com o fornecedor ou o suporte do ISP. A linha de atendimento ao cliente ou o suporte desk é a primeira parada do usuário final para obter assistência. O suporte é um grupo de pessoas com o conhecimento e as ferramentas necessárias para ajudar a diagnosticar e corrigir problemas comuns. O suporte oferece ajuda para o usuário final determinar se existe um problema, a natureza do problema e a solução.\nMuitas empresas e ISPs disponibilizam suporte para ajudar os usuários nos problemas de rede. A maioria das grandes empresas de TI oferece suporte para produtos ou tecnologias individuais. Por exemplo, a Cisco Systems oferece suporte quando há problemas relacionados a um equipamento da Cisco em uma rede ou problemas que podem ocorrer após a instalação.\nHá muitas formas de contato com a equipe de suporte, como e-mail, bate-papo ao vivo e telefone. Quando o problema for urgente, entre em contato por telefone ou bate-papo ao vivo. Para problemas com menos urgência, envie um e-mail. Isso é muito importante em bancos, por exemplo, onde pequenos períodos de inatividade podem ter um alto custo.\nSe necessário, o suporte pode assumir o controle de um host local através de software de acesso remoto. Isso permite que os técnicos do suporte executem programas de diagnóstico e interajam com o host e a rede sem precisar se deslocar fisicamente para um local de trabalho. Isso reduz muito o tempo de espera para a resolução de problemas e permite que a equipe de suporte ajude mais usuários.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.3 Interação da Central de Suporte",
+      "content": "Como usuário final, é importante fornecer ao suporte técnico o máximo de informações possível, conforme mostrado na figura. A equipe de suporte solicitará informações sobre qualquer plano de serviço ou suporte, além de detalhes do equipamento afetado. Isso pode incluir marca, modelo e número de série junto com a versão do firmware ou sistema operacional em execução no dispositivo. O suporte também pode pedir os endereços IP e MAC do dispositivo com defeito. A central de suporte solicitará informações específicas para o problema:\nQuais sintomas foram encontrados?\nQuem encontrou o problema?\nQuando o problema se manifestou?\nQue medidas foram tomadas para identificar o problema?\nQuais foram os resultados das medidas tomadas?\nSe for uma chamada de acompanhamento, esteja preparado para informar a data e a hora da chamada anterior, o número do tíquete e o nome do técnico. Fique próximo do equipamento afetado e ofereça à equipe de suporte acesso a esse equipamento, se solicitado.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.4 Resolução de Problemas",
+      "content": "Uma equipe de suporte é organizada em vários níveis de experiência e conhecimento. Se a equipe de primeiro nível não puder resolver o problema, o problema será encaminhado para um nível mais alto. Normalmente, a equipe de nível mais alto é mais experiente e tem acesso a recursos e ferramentas que a equipe de suporte de primeiro nível não tem.\nRegistre todas as informações sobre a interação com a equipe de suporte, como:\nHora/data da chamada\nNome/ID do técnico\nProblema reportado\nPlano de ação seguido\nResolução/encaminhamento\nPróximas etapas (acompanhamento)\nAo trabalhar com a equipe de suporte, muitos problemas podem ser resolvidos de modo rápido e fácil. Quando os problemas são resolvidos, certifique-se de atualizar corretamente toda a documentação para referência futura.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.5 Tíquetes de Suporte e Ordens de Serviço",
+      "content": "Quando um técnico de suporte de Nível 1 recebe uma chamada, há um processo para coletar informações. Também existem sistemas específicos para armazenar e recuperar informações relevantes. É extremamente importante coletar as informações corretamente no caso de uma chamada precisar ser escalada para um técnico de Nível 2 ou exigir uma visita ao local.\nO processo de coleta e registro de informações começa no momento em que o técnico atende o telefone. Após a identificação do cliente, o técnico acessa as informações relevantes do cliente. Normalmente, um aplicativo de banco de dados é usado para gerenciar as informações do cliente.\nAs informações são transferidas para um tíquete de problema ou um relatório de incidentes. Este documento pode ser uma folha de papel em um sistema de preenchimento de documentos ou pode ser um sistema de monitoramento eletrônico elaborado para acompanhar o processo de solução de problemas do início ao fim. Cada pessoa que trabalha no problema deve registrar o que foi feito nos tíquetes de problema. Quando uma chamada no local é necessária, as informações de tíquete de problema podem ser convertidas em uma ordem de serviço que o técnico pode levar até a instalação do cliente.\nQuando um problema é resolvido, a solução é documentada na ordem de serviço ou no tíquete de problema do cliente e em um documento da base de conhecimento para referência futura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo Solução de Problemas Comuns de Rede",
+      "content": "{{_moduleNumber}}.6 Resumo Solução de Problemas Comuns de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo Solução de Problemas Comuns de Rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".6.1 O que aprendi neste módulo?",
+      "content": "**Tipos de Rede:** A internet não é de propriedade de nenhum indivíduo ou grupo. A Internet é um conjunto mundial de redes interconectadas (inter-rede ou Internet), que cooperam entre si para trocar informações usando padrões comuns. Através de fios de telefone, cabos de fibra óptica, transmissões sem fio e links de satélite, os usuários da Internet podem trocar informações de várias formas\nAs redes domésticas pequenas conectam alguns computadores entre si e com a Internet. A rede SOHO permite que computadores em um escritório em casa ou em um escritório remoto se conectem a uma rede corporativa, ou acessem recursos compartilhados centralizados. Redes de médio a grande porte, como as usadas por empresas e escolas, podem ter muitos locais com centenas ou milhares de hosts interconectados. A internet é uma rede de redes que conecta centenas de milhões de computadores em todo o mundo.\nExistem dispositivos em seu entorno com os quais você pode interagir diariamente que também estão conectados à Internet. Isso inclui dispositivos móveis, como smartphones, tablets, smartwatches e óculos inteligentes. Coisas em sua casa podem ser conectadas à Internet, como um sistema de segurança, aparelhos, sua TV inteligente e seu console de jogos. Fora de casa, há carros inteligentes, etiquetas RFID, sensores e atuadores e até dispositivos médicos que podem ser conectados.\n\n**Transmissão de Dados:** As seguintes categorias são usadas para classificar tipos de dados pessoais:\nDados voluntários - São criados e compartilhados explicitamente por indivíduos, como perfis de redes sociais. Esses tipos de dados podem incluir arquivos de vídeo, texto, imagem ou áudio.\nDados observados - São capturados quando indivíduos registram suas atividades, como dados de localização de celulares.\nDados inferidos - São baseados na análise de dados voluntários ou observados, como uma pontuação de crédito.\nO termo bit é uma abreviação de \"dígito binário\" e representa a menor unidade de informação. Cada bit pode ter apenas dois valores possíveis: 0 ou 1.\nExistem três métodos comuns de transmissão de sinal usados em redes:\nSinais elétricos - A transmissão é obtida pela representação de dados como pulsos elétricos em fio de cobre.\nSinais ópticos - A transmissão é conseguida convertendo os sinais elétricos em pulsos de luz.\nSinais sem fio - A transmissão é feita usando infravermelho, microondas ou ondas de rádio através do ar.\n\n**Largura de banda e Taxa de transferência:** Largura de banda é a capacidade de um meio de transportar dados. A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para outro durante um determinado tempo. A largura de banda costuma ser medida pelo número de bits que (teoricamente) podem ser enviados através da mídia em um segundo. Estas são as medidas comuns de largura de banda:\nMilhares de bits por segundo (Kbps)\nMilhões de bits por segundo (Mbps)\nBilhões de bits por segundo (Gbps)\nA taxa de transferência geralmente não corresponde à largura de banda especificada. Diversos fatores influenciam a taxa de transferência:\nA quantidade de dados enviados e recebidos através da conexão\nOs tipos de dados transmitidos\nA latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino\nO termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Webster - Questões para Reflexão",
+      "content": "Talvez você não trabalhe em um hospital, mas se você está aqui agora é porque, como Kishori, você usa computadores e quer saber mais sobre redes.\nVocê sabia que a Internet é uma enorme rede de redes que são conectadas, direta ou indiretamente, entre si? É como a Rede na qual que eu vivo. Uma parte pode ser quebrada, mas a minha Rede não se desfaz; Posso corrigi-la e até fortalecê-la.\nVocê gostaria de fazer isso pela sua rede?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=   Interprete a saída dos utilitários da linha de comando mais usados na rede.\n=   Determine o utilitário de rede que pode fornecer as informações necessárias para realizar atividades de solução de problemas em uma estratégia bottom-up.\nHistórico / cenário\nAlguns problemas podem estar relacionados à conectividade de rede. Neste laboratório, você usará utilitários de rede que podem ajudar a identificar problemas de conectividade em redes sem fio. Os utilitários da linha de comando também são úteis para detectar problemas em uma rede com fio.\nRecursos necessários\n=   1 PC (Windows 10 com uma NIC com e sem fio instalada)\n=   Um roteador sem fio\n=   Conectividade com a Internet\nInstruções\nParte 1: Conexões de rede\nEtapa 1: Conecte-se a uma rede sem fio.\na.     Desconecte o cabo Ethernet do seu computador. Um “triângulo laranja” aparece sobre o ícone Conexões na bandeja do sistema.\nb.     Clique no ícone Conexão na bandeja do sistema.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.     Clique em uma das conexões sem fio disponíveis. Conecte-se à rede. Insira as informações de login, se necessário. Confirme se a conexão foi bem-sucedida.\nd.     Confirme se a conexão foi bem-sucedida.\nEtapa 2: Verifique se o adaptador de rede está operacional.\nQuando um problema de conectividade é reportado, a primeira etapa em uma estratégia bottom-up de solução de problemas é determinar se as configurações de NIC e do sistema operacional no computador estão funcionando corretamente.\na.     Abra o Painel de Controle, selecione Central de Rede e Compartilhamento. Clique com o botão direito do mouse em Iniciar e selecione Painel de controle. Clique em Central de rede e compartilhamento. Clique em Alterar as configurações do adaptador.\nb.     Selecione a Conexão de rede sem fio. Clique com o botão direito do mouse no adaptador e selecione Status no menu. Caso a opção Status esteja acinzentada, isso indica que o adaptador não está ativado ou não está conectado a um SSID sem fio.\nc.     Na janela de status, verifique se a conexão está habilitada e se o SSID da conexão está correto. Clique em Detalhes para abrir a janela de detalhes do adaptador.\nd.     A janela de detalhes mostra a atual configuração de IP ativa no adaptador de rede. Mostra as configurações de IPv4 e IPv6. Se o DHCP estiver ativo, as informações de concessão serão exibidas.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 3: Confirme a configuração de rede correta.\na.     Abra um promptde comando.\nb.     Digite ping 127.0.0.1. O endereço  IP 127.0.0.1 também é conhecido como o endereço “localhost”. Um ping bem-sucedido no endereço localhost indica que a pilha de protocolos TCP/IP é operacional no computador. Se o endereço localhost não responder a um comando ping, talvez exista um problema com o driver de dispositivo ou a placa de interface de rede.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.     Use o comando ipconfig. Identifique o endereço IP, a máscara de sub-rede e o gateway padrão configurados no computador.\nSe o endereço IPv4 local for um endereço de host na rede 169.254.0.0/16, o computador recebeu sua configuração de endereço IP por meio do recurso APIPA (Automatic Private IP Addressing) do sistema operacional Windows.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Se um endereço APIPA estiver atribuído ao computador, talvez exista um problema com o servidor DHCP. Se o roteador sem fio estiver fornecendo os serviços DHCP, confirme se o serviço DHCP está configurado corretamente e se o intervalo de endereços IP é grande o suficiente para acomodar todos os dispositivos que possam estar conectados à rede sem fio.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.     Para testar se o PC pode acessar o gateway padrão pela rede, pingue o endereço IP do gateway padrão.\nUm ping bem sucedido indica que há uma conexão entre o computador e o gateway padrão.\nSe o comando ping não for concluído com sucesso, verifique se o endereço IP do gateway foi digitado corretamente e se a conexão sem fio está ativa.\ne.     Digite net view. O comando net view, quando enviado em um PC com Windows, exibe os nomes de computadores de outros dispositivos do Windows no grupo de trabalho ou no domínio do Windows. Quando o net view exibe os nomes de outros computadores, isso indica que seu computador pode enviar mensagens com êxito pela rede.\nC:\\\\Users\\\\Student> net view\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: Dependendo da configuração dos PCs em seu laboratório, o net view pode não retornar nenhum nome de computadorou pode exibir uma mensagem de erro. Se este for o caso, vá para a próxima etapa.\nParte 2: Conectividade Externa\nEtapa 1: Teste a conectividade externa.\nSe você tiver uma conexão externa, use os métodos a seguir para verificar a operação do gateway padrão e do serviço DNS.\nNota: A saída pode variar.\na.     O comando tracert do Windows desempenha a mesma função do comando traceroute usado no Cisco IOS. Use o comando tracert para o URL do site da sua escola ou da Cisco Networking Academy.  Por exemplo, digite tracert www.netacad.com.\nC:\\\\Users\\\\Student> tracert www.netacad.com\nTracing route to Liferay-Prod-1009279580.us.-east-1.elb.amazonaws.com [52.5.233.103]\nover a maximum of 30 hops:\n1     1 ms    57 ms     3 ms  192.168.1.1\n2     *       12 ms    12 ms  10.39.176.1\n3    14 ms    28 ms    11 ms  100.127.65.248\n4    10 ms    26 ms    21 ms  70.169.73.90\n5    35 ms    32 ms    36 ms  68.1.2.109\n<output omitted>\nTrace complete.\nO comando tracert exibe o caminho que o pacote percorre entre os endereços IP de origem e destino.Cada roteador pelo qual o pacote percorre para acessar o endereço de destino aparece como um salto na saída tracert. Se houver um problema de rede no caminho, a saída tracert será interrompida depois do último salto bem-sucedido. O primeiro salto na saída é o gateway padrão do PC de origem. A última entrada será o endereço de destino quando o comando tracert for concluído com êxito.\nb.     O comando tracert usa o servidor DNS configurado para resolver o nome de domínio totalmente qualificado para um endereço IP antes de começar a rastrear o roteador até o destino. Usar traceroute ou ping com um nome de domínio em vez de um endereço IP pode confirmar que o servidor DNS está fornecendo serviços de resolução de nomes.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.     Use o comando nslookup com o endereço IP que você acabou de descobrir. O comando nslookup é um utilitário que pode ser usado para solucionar problemas de DNS.\nDigite nslookup 72.163.6.233.O endereço IP neste exemplo está atribuído a um servidor na Cisco Systems.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.     Quando o servidor DNS configurado não pode resolver nomes de domínio ou endereços IP, é possível definir nslookup para tentar resolver os nomes com um servidor DNS diferente. Quando um servidor DNS diferente do configurado resolve os endereços, pode haver um problema com a configuração de servidor DNS. Digite nslookup /? para visualizar as opções que podem ser usadas para testar e solucionar problemas de DNS.\nC:\\\\Users\\\\Student> nslookup /?\nUsage:\nnslookup [-opt ...]             # interactive mode using default server\nnslookup [-opt ...] - server    # interactive mode using 'server'\nnslookup [-opt ...] host        # just look up 'host' using default server\nnslookup [-opt ...] host server # just look up 'host' using 'server'\nEtapa 2: Teste a conectividade de camada da aplicação.\nAbra um navegador web. Insira www.cisco.com no campo Address (endereço ).\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Medhat não consegue se conectar a um site na internet. Para iniciar a solução de problemas, ele primeiro testa a conectividade de rede. Se isso falhar, ele descerá as camadas até o meio físico. Se os testes de conectividade de rede forem bem-sucedidos, ele trabalhará para solucionar os problemas do software do aplicativo. Qual método de solução de problemas estruturado a Medhat está usando?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO Medhat está usando o método de solução de problemas de dividir-e-conquistar na camada 3.",
+      "raw_id": "87726be1f45c4c6880fbab292fa88581"
+    },
+    {
+      "question": "Patti está solucionando um problema na rede. Com base em sua experiência anterior com situações semelhantes, ela supõe que o problema é uma configuração de IP incorreta e começa a solução do problema com isso. Qual método de solução de problemas estruturado a Patti está usando?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 6,
+      "explanation": "Está certo.\nPatti tem experiência anterior com problemas semelhantes; portanto, ela está usando o método de solução de problemas fundamentado.",
+      "raw_id": "d7b117ec2622451ba2823c7d5b6221b9"
+    },
+    {
+      "question": "Allan entra em contato com o provedor de serviços de Internet para reclamar de problemas de conexão. Ele não sabe qual é problema. O provedor de serviços de Internet envia um novo modem pré-configurado para Allan na esperança de resolver a situação. Qual método de solução de problemas estruturado o ISP está usando?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nAo enviar um novo modem e esperar que ele resolva o problema, o ISP está usando o método de solução de problemas de substituição.",
+      "raw_id": "3ccefe7eb8934ed2805d38e0cdc621f7"
+    },
+    {
+      "question": "Qual método estruturado de solução de problemas deve ser usado quando ocorre um problema orientado por software?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA abordagem de solução de problemas de cima para baixo deve ser usada quando ocorre um problema orientado por software.",
+      "raw_id": "551cfb57b7f347a087c78311de0bce8d"
+    },
+    {
+      "question": "Qual método estruturado de solução de problemas deve ser usado quando um problema de cabeamento é suspeito?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA abordagem ascendente deve ser utilizada quando se suspeita de um problema de cabeamento.",
+      "raw_id": "f2739564c869407b8badd2e47ddc982f"
+    },
+    {
+      "question": "Qual método de solução de problemas estruturado tenta localizar o problema em um dispositivo ou link entre a origem e o destino?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA abordagem de seguir-o-caminho descobre o caminho de tráfego real entre a origem e o destino e, em seguida, tenta eliminar os links e dispositivos que são irrelevantes para a tarefa de solução de problemas em Pergunta.",
+      "raw_id": "43d482144e844d33a3ba0770068dc7a6"
+    },
+    {
+      "question": "Qual método estruturado de solução de problemas tenta resolver o problema alterando elementos no dispositivo ou configuração com problema para ser consistente com um em funcionamento?",
+      "options": [
+        "Bottom-Up",
+        "Top-Down",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Siga o caminho",
+        "Substituição",
+        "Por Pequenas e Médias Empresas",
+        "Adivinhe Educado"
+      ],
+      "correctIndex": 5,
+      "explanation": "Está certo.\nO método de comparação tenta usar um dispositivo ou configuração em funcionamento como modelo para corrigir um problema no dispositivo ou configuração com problema.",
+      "raw_id": "4164f69f4c0447a6b7c2edaa004ce7db"
+    },
+    {
+      "question": "O que NÃO é considerado um problema da camada física?",
+      "options": [
+        "energia do dispositivo desligada ou desconectada",
+        "cabo solto ou incorreto",
+        "configuração Sem Fio",
+        "falha no cabo de rede",
+        "falha no access point sem fio"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA configuração sem fio é normalmente feita em software, o que não é um problema da camada física.",
+      "raw_id": "181932850775433d9ed7003fb4ba8e54"
+    },
+    {
+      "question": "Quais sentidos normalmente alertam os técnicos de que os componentes estão superaquecendo? (Escolha três.)",
+      "options": [
+        "Visão",
+        "Olfato",
+        "Paladar",
+        "Tato",
+        "Audição"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO olfato e tato podem alertar os solucionadores de problemas sobre componentes que estão superaquecendo.",
+      "raw_id": "b8ce903ca4464a8b924084d5d1ccca23"
+    },
+    {
+      "question": "Verdadeiro ou falso? Uma luz de LED que não está acesa em uma porta significa que não há tráfego.",
+      "options": [
+        "verdadeiro",
+        "false"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA resposta correta é verdadeira. Uma luz de LED que não está acesa pode indicar vários problemas diferentes. Mas em uma porta, isso significa que não há tráfego.",
+      "raw_id": "fe4457649aaf4e658ea803f96c8ab017"
+    },
+    {
+      "question": "Se sua conexão física estiver funcionando conforme o esperado, mas ainda houver um problema, qual seria o próximo passo?",
+      "options": [
+        "Verifique a configuração de IP.",
+        "Ligue para seu ISP.",
+        "Reinicie todos os dispositivos na rede.",
+        "Desconecte os cabos e conecte-os novamente."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nCaso a conexão física com o host (com fio ou sem fio) seja estabelecida conforme o esperado, verifique a configuração de IP do cliente.",
+      "raw_id": "3ac4af63162a4958a36493341ef8e038"
+    },
+    {
+      "question": "Qual comando você pode usar para pedir ao servidor DHCP para atualizar sua configuração de endereçamento IP?",
+      "options": [
+        "ping",
+        "netstat",
+        "ipconfig /renew",
+        "tracert",
+        "nslookup"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUse os comandos ipconfig /release  e ipconfig /renew para liberar e atualizar sua configuração de endereçamento IP.",
+      "raw_id": "36cdd59ad46e4d3faae4b841598f905a"
+    },
+    {
+      "question": "Qual é a causa mais provável se você conseguir fazer ping em vários sites na Internet, mas não conseguir abrir páginas da Web?",
+      "options": [
+        "Configuração do DHCP",
+        "Configuração de endereçamento IP",
+        "Configuração do servidor da Web",
+        "Configuração do firewall"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nSe todas as Camadas 1 a 3 parecem estar operando normalmente e você pode executar ping com sucesso no endereço IP do servidor remoto, verifique a configuração do firewall. Também pode haver um problema de DNS.",
+      "raw_id": "348b6457ede64a8c87ba171af3aeba35"
+    },
+    {
+      "question": "Quais das duas fontes de ajuda a seguir normalmente oferecem experiência em solução de problemas? (Escolha duas.)",
+      "options": [
+        "documentação",
+        "perguntas frequentes",
+        "pesquisa na internet",
+        "colegas",
+        "familiares"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nPesquisas na Internet e outros colegas podem oferecer o conhecimento necessário para a solução de problemas.",
+      "raw_id": "7233aafe47c441fca4632e5b28804461"
+    },
+    {
+      "question": "Verdadeiro ou falso? Depois que um problema for resolvido, você não precisará executar nenhuma ação adicional.",
+      "options": [
+        "verdadeiro",
+        "false"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falsa. Quando o problema é resolvidos, certifique-se de atualizar corretamente toda a documentação para referência futura.",
+      "raw_id": "54d2690dd1254fd490e0143d097f8f1e"
+    },
+    {
+      "question": "Um usuário chama o help desk para reportar um problema na estação de trabalho. Quais as três perguntas que podem gerar as informações mais úteis sobre a solução de problemas? (Escolha três.)",
+      "options": [
+        "Se você recebeu uma mensagem de erro, qual foi?",
+        "Que alterações você fez na estação de trabalho?",
+        "Você tem a garantia da estação de trabalho?",
+        "Qual é a versão do sistema operacional que está em execução na sua estação de trabalho?",
+        "Você usou uma ferramenta de monitoramento da rede na estação de trabalho?",
+        "Fez um backup recentemente?"
+      ],
+      "correctIndex": 3,
+      "explanation": "Na solução de problemas, a primeira etapa é reunir informações relacionadas ao problema. Uma forma de coletar informações é fazer perguntas a todos os usuários que reportaram o problema. As perguntas devem estar relacionadas a experiências do usuário, sintomas observados, mensagens de erro e informações sobre mudanças recentes de configuração em dispositivos ou aplicativos.",
+      "raw_id": "43aa839750d44d58947a865c11113283"
+    },
+    {
+      "question": "Os usuários estão reclamando que são conseguem navegar em determinados sites na Internet. Um administrador pode fazer um ping bem-sucedido em um servidor da Web através do seu endereço IP, mas não pode pesquisar o nome do domínio do site. Qual ferramenta de solução de problemas seria mais útil para determinar onde está o problema?",
+      "options": [
+        "netstat",
+        "tracert",
+        "nslookup",
+        "ipconfig"
+      ],
+      "correctIndex": 2,
+      "explanation": "O comando nslookup  pode ser usado para pesquisar informações sobre um nome DNS específico no servidor DNS. As informações incluem o endereço IP do servidor DNS que está sendo usado e o endereço IP associado ao nome DNS especificado. Esse comando pode ajudar a verificar o DNS usado e se o nome do domínio para a resolução de endereços IP funciona.",
+      "raw_id": "83123b5f760246249fcd8bca0311cd2c"
+    },
+    {
+      "question": "Quais são duas causas comuns de um problema de conectividade de rede da camada física? (Escolha duas.)",
+      "options": [
+        "um monitor desconectado",
+        "um cabo Ethernet conectado a uma porta errada",
+        "um gateway padrão incorreto",
+        "um endereço IP não atribuído",
+        "um cabo de Ethernet com falha"
+      ],
+      "correctIndex": 4,
+      "explanation": "Um cabo Ethernet conectado a uma porta errada e um cabo Ethernet com falha são duas causas possíveis de problemas físicos de conectividade de rede. Uma configuração incorreta de gateway padrão e a falta de um endereço IP causarão problemas lógicos de conectividade.",
+      "raw_id": "b4f62f6a7718416895d4b1c160da8c8c"
+    },
+    {
+      "question": "O computador doméstico de um usuário está funcionando corretamente. No entanto, o usuário não consegue acessar a Internet. A conexão com a Internet é fornecida através de uma empresa de cabo. O usuário não consegue identificar a causa do problema. Com quem o usuário deve entrar em contato para receber ajuda adicional?",
+      "options": [
+        "o fornecedor do sistema operacional",
+        "a central de atendimento da empresa de cabo",
+        "a central de atendimento do fabricante do computador",
+        "o site de suporte do fornecedor do computador"
+      ],
+      "correctIndex": 1,
+      "explanation": "Considerando que o computador estava funcionando corretamente antes, a causa mais provável para o problema é a conexão com a Internet fornecida pela empresa de cabo. Os fornecedores e fabricantes de computador não podem ajudar, porque o computador está funcionando corretamente.",
+      "raw_id": "6738185c595743c2912edf13799729b5"
+    },
+    {
+      "question": "Que método de identificação e solução de problemas começa examinando problemas de conexões de cabos e de cabeamento?",
+      "options": [
+        "top-down",
+        "bottom-up",
+        "substituição",
+        "divide-and-conquer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Na solução de problemas com o método de baixo para cima, um técnico começaria com os componentes físicos de rede e passaria pelas camadas do modelo OSI até que a causa do problema seja identificada.",
+      "raw_id": "78e87a8103c742ccb902221f1734f565"
+    },
+    {
+      "question": "Um usuário não consegue se conectar à Internet. O administrador de rede decide usar a abordagem de identificação e solução de problemas top-down. Que ação ele deve executar primeiro?",
+      "options": [
+        "Executar o comando tracert  para identificar o dispositivo com defeito.",
+        "Verificar a conexão do cabo de fibra óptica do computador para a parede.",
+        "Inserir um endereço IP na barra de endereços do navegador para determinar se o DNS falhou.",
+        "Executar o comando ipconfig para verificar o endereço IP, máscara de sub-rede e o gateway no PC."
+      ],
+      "correctIndex": 2,
+      "explanation": "O método de solução de problemas de cima para baixo começa com as aplicações e move-se para baixo pelas camadas do modelo OSI, até que a causa do problema seja identificada. Usar um navegador da Web para testar a resolução DNS é uma etapa da solução de problemas na camada de aplicativos.",
+      "raw_id": "256566169e834cc983adc828ba0adb8f"
+    },
+    {
+      "question": "Se um administrador estiver solucionando problemas de uma WLAN usando uma abordagem de baixo para cima, que medidas seriam tomadas primeiro?",
+      "options": [
+        "Atualizar o firmware no AP.",
+        "Verifique se todos os dispositivos estão ligados.",
+        "Faça ping no AP.",
+        "Verifique se a interface GUI está acessível a partir de um cliente."
+      ],
+      "correctIndex": 1,
+      "explanation": "A solução de baixo para cima começa com a camada física. Cabos e energia seriam um lugar lógico para iniciar o processo. O ICMP (ping) é um utilitário de camada de rede. As configurações de canal fazem parte do software do cliente. Firmware é o software de sistema operacional usado pelo AP.",
+      "raw_id": "f5c5a216f20d4024aefb37af69cdbc77"
+    },
+    {
+      "question": "Um laptop não pode se conectar a um ponto de acesso sem fio. Quais etapas de solução de problemas devem ser tomadas primeiro? (Escolha duas.)",
+      "options": [
+        "Verifique se o driver sem fio está ativado.",
+        "Verifique se a antena do laptop está conectada.",
+        "Verifique se o SSID sem fio está escolhido.",
+        "Verifique se a rede correta está selecionada.",
+        "Verifique se o driver está configurado para a frequência adequada."
+      ],
+      "correctIndex": 2,
+      "explanation": "Um laptop sem fio normalmente não possui uma antena conectada, a menos que um reparo tenha sido implementado recentemente. Se a NIC sem fio estiver ativada, a mídia correta, rádio, será usada. Quando a NIC detecta um ponto de acesso, a frequência correta é usada automaticamente.",
+      "raw_id": "5e5fd1de91bb40b6a98e21ebf8d558d9"
+    },
+    {
+      "question": "Pela segunda vez em uma semana, as estações de trabalho em uma LAN não conseguem fazer login em um servidor específico. O técnico corrigiu o problema na primeira vez, mas não se lembra das etapas tomadas para resolvê-lo. Que aspecto do processo de solução de problemas o técnico negligenciou?",
+      "options": [
+        "identificando o Problema",
+        "fazendo perguntas aos usuários finais",
+        "documentando o processo de solução de problemas",
+        "usando técnicas estruturadas para resolver um problema"
+      ],
+      "correctIndex": 2,
+      "explanation": "A documentação adequada é uma etapa muito importante na solução de problemas. Ela pode ajudar a solucionar os mesmos problemas ou problemas semelhantes no futuro.",
+      "raw_id": "7ae528ab18cd4f0382255a80dd196f9a"
+    },
+    {
+      "question": "Um técnico suspeita que um novo switch seja a origem de um problema de rede. Durante a solução de problemas, o técnico percebe um LED verde piscando em algumas das portas. O que isso indica?",
+      "options": [
+        "Não há cabos conectados às portas.",
+        "A fonte de alimentação é a origem do problema.",
+        "As portas estão operacionais e estão recebendo tráfego.",
+        "As portas estão operacionais, mas nenhum tráfego está fluindo."
+      ],
+      "correctIndex": 2,
+      "explanation": "A maioria dos dispositivos terá LEDs de atividade, que geralmente são chamados de luzes de link. Uma condição normal é que esses LEDs pisquem indicando que o tráfego está fluindo pela porta.  Uma luz sólida normalmente indica que um dispositivo está conectado, mas não há tráfego fluindo.  Nenhuma luz pode indicar que nada está conectado à porta, que não há energia para o dispositivo ou há um problema de cabeamento.",
+      "raw_id": "109a6a888bda46ca891c5961ee251b79"
+    },
+    {
+      "question": "Um cliente ligou para a empresa de cabo para informar que a conexão com a Internet está instável. Após tentar diversas alterações de configuração, o técnico decidiu enviar ao cliente um novo modem a cabo para testar. Que técnica de solução de problemas isso representa?",
+      "options": [
+        "top-down",
+        "bottom-up",
+        "substituição",
+        "divide-and-conquer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Durante a solução de problemas, quando o problema parecer ser causado por um hardware defeituoso, uma abordagem é substituir o hardware suspeito por um em bom funcionamento. Embora não necessariamente localize o problema, essa técnica pode economizar tempo e restaurar rapidamente a funcionalidade do sistema.",
+      "raw_id": "e46927c18f8e4b0d8dc1f5d16ee51f21"
+    },
+    {
+      "question": "Qual etapa deve ser executada após um problema ser resolvido durante o processo de solução de problemas?",
+      "options": [
+        "Consultar as Perguntas frequentes.",
+        "Escalonar o problema.",
+        "Atualizar a documentação.",
+        "Executar o software de acesso remoto."
+      ],
+      "correctIndex": 2,
+      "explanation": "A documentação correta pode ajudar a solucionar os mesmos problemas ou problemas semelhantes no futuro. Ela deve incluir o tipo de erro encontrado, as etapas realizadas para determinar a causa do problema e as etapas seguidas para corrigir o problema.",
+      "raw_id": "2be04bd537854c0ab967a4a467ca0c91"
+    },
+    {
+      "question": "Um técnico instalou um adaptador de rede em um computador e deseja testar a conectividade de rede. O comando ping pode receber respostas de estações de trabalho na mesma sub-rede, mas não de estações de trabalho remotas. O quê poderia estar causando o problema?",
+      "options": [
+        "O driver da NIC está desatualizado.",
+        "O sistema operacional não é compatível com os sites remotos.",
+        "A pilha de protocolo TCP/IP não está carregada.",
+        "O gateway padrão está incorreto."
+      ],
+      "correctIndex": 3,
+      "explanation": "O gateway padrão é o endereço IP da interface do roteador que está conectado à rede local. A função do roteador é permitir a comunicação entre redes diferentes. Se o gateway padrão não estiver definido ou estiver incorreto, os pacotes destinados a outras redes não conseguirão alcançar o roteador e, portanto, não haverá comunicação com os hosts localizados em outras redes.",
+      "raw_id": "b08eaf1afd864dc3a47080bccfb2ae37"
+    }
+  ],
+  "images": []
+}

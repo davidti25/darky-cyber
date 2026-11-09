@@ -1,0 +1,366 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Oi. Enquanto Olcay e Abay estão trabalhando juntos, Olcay precisa usar o comando nslookup para verificar o status atual dos servidores de nomes. Olcay aproveita a oportunidade para ver o que o Abay sabe sobre serviços DNS e DHCP. Abay explica que o protocolo DNS define um serviço automatizado que combina os nomes dos recursos com o endereço de rede numérico necessário. Ele também explica o DHCP. Em vez de usar endereçamento estático para cada conexão, é mais eficiente ter endereços IPv4 atribuídos automaticamente usando DHCP. Olcay está impressionado com o conhecimento de Abay! Ele realmente tem feito sua lição de casa.\nVocê consegue explicar como os serviços DNS e DCHP operam? Aposto que este módulo vai ajudar. Continue lendo!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Serviços DNS",
+      "content": "{{_moduleNumber}}.1 Serviços DNS"
+    },
+    {
+      "type": "text",
+      "title": ".1 Serviços DNS",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Hierarquia DNS",
+      "content": "O protocolo DNS usa um sistema hierárquico para criar um banco de dados para fornecer resolução de nomes, conforme mostrado na figura. O DNS usa os nomes de domínio para formar a hierarquia.\nA estrutura de nomenclatura é dividida em zonas pequenas, gerenciáveis. Cada servidor DNS mantém um arquivo de banco de dados específico e só é responsável por gerenciar os mapeamentos de nome para IP para essa pequena parte da estrutura DNS. Quando um servidor DNS recebe uma requisição para a conversão de um nome que não faça parte da sua zona DNS, o servidor DNS a encaminha para outro servidor DNS na zona apropriada para a tradução. O DNS é escalável porque a resolução do nome do host está espalhada por vários servidores.\nOs diferentes domínios de nível superior representam o tipo de organização ou país de origem. Exemplos de domínios de nível superior são os seguintes:\n.com - uma empresa ou indústria\n.org - uma organização sem fins lucrativos\n.au - Australia\n.co - Colombia",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Serviços DHCP",
+      "content": "{{_moduleNumber}}.2 Serviços DHCP"
+    },
+    {
+      "type": "text",
+      "title": ".2 Serviços DHCP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Protocolo de Configuração Dinâmica de Host (DHCP)",
+      "content": "O serviço DHCP para IPv4 torna automática a atribuição de endereços IPv4, máscaras de sub-rede, gateways e outros parâmetros de rede IPv4. Isso é conhecido como o endereçamento dinâmico. A alternativa para o endereçamento dinâmico é o endereçamento estático. Ao usar o endereçamento estático, o administrador de redes insere manualmente informações de endereço IP em hosts.\nQuando um host está conectado à Internet, o servidor DHCP é contatado e um endereço é requisitado. O servidor DHCP escolhe um endereço de uma lista configurada de endereços chamada pool e o atribui (aloca) ao host.\nEm redes maiores, ou onde a população de usuários muda frequentemente, o DHCP é preferido para atribuição de endereços. Novos usuários podem chegar e precisar de uma conexão; outros podem ter novos computadores que devem ser conectados. Em vez usar endereçamento estático para cada conexão, é mais eficiente ter endereços IPv4 atribuídos automaticamente usando o DHCP.\nO DHCP pode alocar endereços IP por um período de tempo configurável, chamado período de concessão. O período de concessão é uma configuração DHCP importante, quando o período de concessão expira ou o servidor DHCP recebe uma mensagem DHCPRELEASE, o endereço é retornado ao pool DHCP para reutilização. Os usuários podem se mover livremente de um local para outro e restabelecer com facilidade conexões de rede com o DHCP.\nComo a figura mostra, diversos tipos de dispositivos podem ser servidores DHCP. O servidor DHCP na maioria das redes médias a grandes normalmente é um computador PC com um servidor dedicado. Em redes residenciais, o servidor DHCP é normalmente localizado no roteador local que conecta a rede residencial ao ISP.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.8 Protocolo de Configuração Dinâmica de Host (DHCP)",
+      "content": "Muitas redes utilizam DHCP e endereçamento estático. O DHCP é usado para hosts de uso geral, como dispositivos de usuário final. O endereçamento estático é usado para dispositivos de rede, como roteadores de gateway, comutadores, servidores e impressoras.\nO DHCP para IPv6 (DHCPv6) fornece serviços semelhantes para clientes IPv6. Uma diferença importante é que o DHCPv6 não fornece o endereço do gateway padrão. Isso só pode ser obtido dinamicamente a partir da mensagem Anúncio do roteador do roteador."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Mensagens DHCP",
+      "content": "Como mostra a figura, quando um dispositivo IPv4 configurado com DHCP inicia ou se conecta à rede, o cliente transmite uma mensagem de descoberta DHCP (DHCPDISCOVER) para identificar qualquer servidor DHCP disponível na rede. Um servidor DHCP responde com uma mensagem de oferta DHCP (DHCPOFFER), que oferece uma locação ao cliente. A mensagem de oferta contém o endereço IPv4 e a máscara de sub-rede a serem atribuídos, o endereço IPv4 do servidor DNS e o endereço IPv4 do gateway padrão. A oferta de locação também inclui a duração da locação.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.3 Mensagens DHCP",
+      "content": "O cliente pode receber várias mensagens DHCPOFFER, caso exista mais de um servidor DHCP na rede local. Portanto, deve escolher entre eles e transmitir uma mensagem de requisição de DHCP (DHCPREQUEST) que identifique o servidor explícito e a oferta de locação que o cliente está aceitando. Um cliente também pode decidir requisitar um endereço que já havia sido alocado pelo servidor.\nPresumindo que o endereço IPv4 requisitado pelo cliente, ou oferecido pelo servidor, ainda seja válido, o servidor retornará uma mensagem de confirmação DHCP (DHCPACK) que confirma para o cliente que a locação foi finalizada. Se a oferta não é mais válida, o servidor selecionado responde com uma mensagem de confirmação negativa DHCP (DHCPNAK). Se uma mensagem DHCPNAK for retornada, o processo de seleção deverá recomeçar com a transmissão de uma nova mensagem DHCPDISCOVER. Quando o cliente tiver a locação, ela deverá ser renovada por outra mensagem DHCPREQUEST antes do vencimento.\nO servidor DHCP garante que todos os endereços IP sejam exclusivos (um mesmo endereço IP não pode ser atribuído a dois dispositivos de rede diferentes simultaneamente). A maioria dos ISPs usa o DHCP para alocar endereços para seus clientes.\nO DHCPv6 possui um conjunto de mensagens semelhantes às do DHCPv4. As mensagens DHCPv6 são SOLICIT, ADVERTISE, INFORMATION REQUEST, e REPLY."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo dos Serviços de endereçamento IP",
+      "content": "{{_moduleNumber}}.3 Resumo dos serviços de endereçamento IP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo dos Serviços de endereçamento IP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "Serviçosde endereçamento IP\nEm redes de dados, os dispositivos são rotulados com endereços IP numéricos para enviar e receber dados pelas redes. Os nomes de domínio foram criados para converter o endereço numérico em um nome simples e reconhecível. O protocolo DNS define um serviço automatizado que compara nomes de recursos com o endereço de rede numérico requisitado. As comunicações do protocolo DNS utilizam um único formato, chamado de mensagem. Este formato de mensagem é utilizado para todos os tipos de consultas de cliente e respostas de servidor, mensagens de erro e transferência de informações de registro de recursos entre servidores.\nO servidor DNS armazena diferentes tipos de registros de recursos usados \\u200b\\u200bpara resolver nomes. Esses registros contêm o nome, endereço e tipo de registro. O DNS usa o mesmo formato de mensagem entre servidores, consistindo em uma pergunta, resposta, autoridade e informações adicionais para todos os tipos de consultas de clientes e respostas de servidores, mensagens de erro e transferência de informações de registros de recursos.\nO DNS usa os nomes de domínio para formar a hierarquia. A estrutura de nomenclatura é dividida em zonas. Cada servidor DNS mantém um arquivo de banco de dados específico e só é responsável por gerenciar os mapeamentos de nome para IP para essa pequena parte da estrutura DNS. Quando um servidor DNS recebe uma requisição para a conversão de um nome que não faça parte da sua zona DNS, o servidor DNS a encaminha para outro servidor DNS na zona apropriada para a tradução. O DNS é escalável porque a resolução do nome do host está espalhada por vários servidores.\nOs sistemas operacionais de computador têm um utilitário chamado Nslookup que permite ao usuário consultar manualmente os servidores de nomes usado para resolver um determinado nome de host.  Este utilitário também pode ser usado para corrigir problemas de resolução de nomes e verificar o status atual dos servidores de nomes. Quando o comando nslookup é emitido, o servidor DNS padrão configurado para seu host é exibido. O nome de um host ou domínio pode ser inserido no prompt do nslookup.\nEm redes maiores, o DHCP é preferido para atribuição de endereço. Em vez usar endereçamento estático para cada conexão, é mais eficiente ter endereços IPv4 atribuídos automaticamente usando o DHCP. O DHCP pode alocar endereços IP por um período de tempo configurável, chamado período de concessão. Quando o período de concessão expira ou o servidor DHCP recebe uma mensagem DHCPRELEASE, o endereço é devolvido ao pool DHCP para reutilização. Os usuários podem se mover livremente de um local para outro e restabelecer com facilidade conexões de rede com o DHCP.\nO DHCPv6 fornece serviços semelhantes para clientes IPv6. Uma diferença importante é que o DHCPv6 não fornece o endereço do gateway padrão. Isso só pode ser obtido dinamicamente a partir da mensagem Anúncio do roteador do roteador.\nQuando um dispositivo configurado para DHCP IPv4 é inicializado ou conectado à rede, o cliente transmite uma mensagem DHCPDISCOVER para identificar quaisquer servidores DHCP disponíveis na rede.\nUm servidor DHCP responde com uma mensagem DHCPOFFER, que oferece uma concessão ao cliente. O cliente envia uma mensagem DHCPREQUEST que identifica o servidor explícito e a oferta de aluguel que o cliente está aceitando.\nSupondo que o endereço IPv4 solicitado pelo cliente ou oferecido pelo servidor ainda esteja disponível, o servidor retorna uma mensagem DHCPACK que reconhece ao cliente que a concessão foi finalizada. Se a oferta não for mais válida, o servidor selecionado responde com uma mensagem DHCPNAK. Se uma mensagem DHCPNAK for retornada, o processo de seleção deverá recomeçar com a transmissão de uma nova mensagem DHCPDISCOVER.\nO DHCPv6 possui um conjunto de mensagens semelhantes às do DHCPv4. As mensagens DHCPv6 são SOLICIT, ADVERTISE, INFORMATION REQUEST, e REPLY."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Mais um módulo pronto! O que você aprendeu neste módulo sobre serviços de endereçamento IP? Antes de fazer este módulo, você pensou no protocolo DNS definindo um serviço automatizado que corresponda aos nomes dos recursos com o endereço de rede numérico necessário? Você sabia a diferença entre o endereçamento estático e o DHCP? Eu realmente aprendi muito e espero que você também!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Observar a conversão DNS de uma URL para um Endereço IP\nParte 2: Observar a Pesquisa DNS Usando o Comando nslookup em um Site\nParte 3: Observar a Pesquisa DNS Usando o Comando nslookup em Servidores de E-mail\nHistórico/cenário\nO Sistema de Nomes de Domínio (DNS) é executado quando você digita um Localizador Uniforme de Recursos (URL), como http://www.cisco.com em um navegador. A primeira parte da URL descreve que protocolo é usado. Os protocolos comuns são HTTP, HTTP sobre SSL (HTTPS) e FTP.\nO DNS usa a segunda parte da URL, que neste exemplo é www.cisco.com. O DNS converte o nome de domínio (www.cisco.com) em um endereço IP para permitir que o host de origem alcance o servidor de destino. Neste laboratório, você observará o DNS em ação e usará o comando nslookup (pesquisa de servidores de nomes) para obter informações adicionais de DNS.\nRecursos necessários\n1 PC (Windows com acesso à Internet e prompt de comando)\nInstruções\nParte 1: Observar a conversão DNS de uma URL para um Endereço IP\na.  Abra um prompt de comando do Windows.\nb.  No prompt de comando, efetue ping na URL do Internet Corporation for Assigned Names and Numbers (ICANN) em www.icann.org. O ICANN coordena o DNS, endereços IP, gerenciamento do sistema de nomes de domínio de nível superior e as funções de gerenciamento do sistema dos servidores raiz. O computador deve converter www.icann.org em um endereço IP para saber para onde enviar os pacotes do protocolo ICMP.\nA primeira linha da saída exibe www.icann.org convertido em um endereço IP pelo DNS. Você poderá ver o efeito do DNS, mesmo se a instituição tiver um firewall que impeça a execução de ping, ou se o servidor de destino impedir que você efetue ping no servidor Web.\nObservação: se o nome de domínio for resolvido para um endereço IPv6, use o comando ping -4 www.icann.org se desejar a tradução para um endereço IPv4.\nC:\\\\> ping www.icann.org\nPinging www.vip.icann.org [2620:0:2d0:200::7] with 32 bytes of data:\nReply from 2620:0:2d0:200::7: time=43ms\nReply from 2620:0:2d0:200::7: time=41ms\nReply from 2620:0:2d0:200::7: time=44ms\nReply from 2620:0:2d0:200::7: time=39ms\nPing statistics for 2620:0:2d0:200::7:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 39ms, Maximum = 44ms, Average = 41ms\nC:\\\\> ping -4 www.icann.org\nPinging www.vip.icann.org [192.0.32.7] with 32 bytes of data:\nReply from 192.0.32.7: bytes=32 time=41ms TTL=241\nReply from 192.0.32.7: bytes=32 time=42ms TTL=241\nReply from 192.0.32.7: bytes=32 time=42ms TTL=241\nReply from 192.0.32.7: bytes=32 time=43ms TTL=241\nPing statistics for 192.0.32.7:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 41ms, Maximum = 43ms, Average = 42ms"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Digite o endereço IPv4 da etapa b em um navegador Web, em vez da URL. Digite https://192.0.32.7 no navegador da Web. Se o computador tiver um endereço IPv6, você poderá inserir o endereço IPv6. https://[2620:0:2d0:200::7] no navegador da Web.\nd.  Observe que a página inicial da ICANN na web é exibida sem o uso do DNS."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  No prompt de linha de comando, digite ping www.cisco.com.\nNota: Se o nome do domínio for resolvido para um endereço IPv6, use o comando ping -4 www.cisco.com para converter em um endereço IPv4, se desejado.\nC:\\\\> ping www.cisco.com\nPinging origin-www.cisco.com [2600:1408:7:1:9300::90] with 32 bytes of data:\nReply from 2600:1408:7:1:9300::90: time=70ms\nReply from 2600:1408:7:1:9300::90: time=74ms\nReply from 2600:1408:7:1:9300::90: time=72ms\nReply from 2600:1408:7:1:9300::90: time=71ms\nPing statistics for 2600:1408:7:1:9300::90:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 70ms, Maximum = 74ms, Average = 71ms\nC:\\\\> ping -4 www.cisco.com\nPinging e2867.dsca.akamaiedge.net [172.230.155.162] with 32 bytes of data:\nReply from 172.230.155.162: bytes=32 time=7ms TTL=54\nReply from 172.230.155.162: bytes=32 time=6ms TTL=54\nReply from 172.230.155.162: bytes=32 time=7ms TTL=54\nReply from 172.230.155.162: bytes=32 time=6ms TTL=54\nPing statistics for 172.230.155.162:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 6ms, Maximum = 7ms, Average = 6ms"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Observar a Pesquisa DNS Usando o Comando nslookup em um Site\na.  No prompt de comando, digite o comando nslookup.\nC:\\\\> nslookup"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "a.  Observe como o prompt de comando mudou para um símbolo de maior que (>). Este é o prompt do nslookup. Nesse prompt, você poderá inserir os comandos relacionados ao DNS.\nNo prompt, digite o símbolo ? para ver uma lista de todos os comandos disponíveis que você pode usar no modo nslookup.\nb.  No prompt do nslookup, digite www.cisco.com.\n> www.cisco.com\nDefault Server:  one.one.one.one\nAddress:  1.1.1.1\nNon-authoritative answer:\nName:    e2867.dsca.akamaiedge.net\nAddresses:  2600:1404:a:395::b33\n2600:1404:a:38e:::b33\n172.230.155.162\nAliases:  www.cisco.com\nwww.cisco.com.akadns.net\nwwwds.cisco.com.edgekey.net\nwwwds.cisco.com.edgekey.net.globalredir.akadns.net\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: o endereço IP do local provavelmente será diferente, porque a Cisco usa servidores espelho em vários locais em todo o mundo."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  No prompt nslookup, digite o endereço IP do servidor web da Cisco que você acabou de encontrar. Você pode usar o nslookup para obter o nome de domínio de um endereço IP, se você não souber a URL.\n> 172.230.155.162\nDefault Server:  one.one.one.one\nAddress:  1.1.1.1\nName:    a172-230-155-162.deploy.static.akamaitechnologies.com\nAddress:  172.230.155.162\nVocê pode usar a ferramenta de nslookup para converter nomes de domínio em endereços IP. Você também pode utilizá-la para converter endereços IP em nomes de domínio."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 3: Observe a pesquisa de DNS usando o comando nslookup nos servidores de email\na.  No prompt, digite set type=mx para usar o nslookup para identificar servidores de e-mail.\n> set type=mx\nb.  No prompt do nslookup, digite cisco.com.\n> cisco.com\nServer:  one.one.one.one\nAddress:  1.1.1.1\nNon-authoritative answer:\ncisco.com       MX preference = 20, mail exchanger = rcdn-mx-01.cisco.com\ncisco.com       MX preference = 30, mail exchanger = aer-mx-01.cisco.com\ncisco.com       MX preference = 10, mail exchanger = alln-mx-01.cisco.com\nUm princípio fundamental de projeto de redes é a redundância (mais de um servidor de e-mail é configurado). Dessa forma, se um dos servidores de e-mail estiver inacessível, o computador que faz a consulta tenta o segundo servidor de e-mail. Os administradores de e-mail determinam qual servidor de e-mail é contatado primeiro usando a preferência MX (consulte a imagem acima). O servidor de e-mail com a menor preferência MX é contatado primeiro.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  No prompt nslookup, digite exit para voltar ao prompt de comando regular do PC.\nd.  No prompt de comando do PC, digite ipconfig /all."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Perguntas para reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual dos seguintes tipos de registro DNS é usado para resolver endereços IPv6?",
+      "options": [
+        "A",
+        "NS",
+        "AAAA",
+        "MX"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nRegistros DNS AAAA são usados para resolver nomes para endereços IPv6.",
+      "raw_id": "86243d6586d34706b32c161661415fc5"
+    },
+    {
+      "question": "Verdadeiro ou falso? Um servidor DNS que recebe uma solicitação para uma resolução de nome que não esteja dentro de sua zona DNS enviará uma mensagem de falha para o cliente solicitante.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falso. Quando um servidor DNS recebe uma solicitação de resolução de nome para um nome não dentro de sua zona, o serviço encaminhará a solicitação para outro servidor DNS.",
+      "raw_id": "042daa06182e444d87d7f3f3398531b6"
+    },
+    {
+      "question": "Qual dos seguintes itens é exibido pelo utilitário nslookup?",
+      "options": [
+        "O servidor DNS padrão configurado",
+        "O endereço IP do dispositivo final",
+        "Todas as entradas DNS armazenadas em cache"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nEmitindo o comando nslookup , o servidor DNS padrão configurado é exibido.",
+      "raw_id": "b336847eecc843b5b4f2290b2ff54b31"
+    },
+    {
+      "question": "Qual dos seguintes tipos de registro de recurso DNS resolve servidores de nomes autoritativos?",
+      "options": [
+        "NS",
+        "A",
+        "MX",
+        "AAAA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs registros NS resolvem servidores de nomes autoritativos. Os registros DNS A resolvem endereços IPv4. Os registros AAAA resolvem endereços IPv6 e os registros MX resolvem servidores de troca de e-mail.",
+      "raw_id": "226340daaa4e4c5daae9005b4d5c6530"
+    },
+    {
+      "question": "Verdadeiro ou falso? Os clientes DHCP iniciam o processo DHCP enviando uma mensagem DHCPREQUEST aos servidores DHCP disponíveis.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falso. Há quatro mensagens DHCP trocadas entre clientes e servidores. O cliente inicia o processo DHCP com uma mensagem de descoberta DHCP para servidores DHCP disponíveis.",
+      "raw_id": "e9d8bd9fc0434f38bfca9c98219dc6g45634"
+    },
+    {
+      "question": "Qual das opções a seguir melhor descreve o DHCP?",
+      "options": [
+        "O DHCP automatiza o processo de descoberta do endereço MAC do destino.",
+        "O DHCP automatiza o processo para descobrir o endereço IP de um nome de domínio.",
+        "O DHCP automatiza a atribuição de endereços IP, máscaras de sub-rede, gateways e outros parâmetros de rede IPv4.",
+        "O DHCP automatiza a conversão de endereços IP privados e públicos."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO DHCP automatiza a atribuição de endereços IP, máscaras de sub-rede, gateways e outros parâmetros de rede IPv4.  O ARP automatiza o processo para descobrir o endereço MAC do destino.  O DNS automatiza o processo de descoberta do endereço IP de um nome de domínio. O NAT automatiza a tradução de endereços IP privados e públicos.",
+      "raw_id": "e9d8bd9fc0434f38bfca9c98219dc6g45d32"
+    },
+    {
+      "question": "Qual é a ordem correta das mensagens na operação DHCP?",
+      "options": [
+        "DHCPDISCOVER, DHCPOFFER, DHCPNAK, DHCPREQUEST",
+        "DHCPREQUEST, DHCPOFFER, DHCPDISCOVER, DHCPACK",
+        "DHCPREQUEST, DHCPOFFER, DHCPDISCOVER, DHCPACK",
+        "DHCPREQUEST, DHCPOFFER, DHCPDISCOVER, DHCPACK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA ordem correta das mensagens para a operação DHCP é DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, DHCPNAK.",
+      "raw_id": "e9d8bd9fc0434f38bfca9c98219dc6g45d88"
+    },
+    {
+      "question": "Que serviço de rede atribui automaticamente endereços IP aos dispositivos na rede?",
+      "options": [
+        "DHCP",
+        "Telnet",
+        "DNS",
+        "traceroute"
+      ],
+      "correctIndex": 0,
+      "explanation": "O Protocolo DHCP pode ser usado para permitir que os dispositivos finais configurem automaticamente as informações de IP, como seu endereço IP, máscara de sub-rede, servidor DNS e gateway padrão. O serviço DNS é usado para proporcionar resolução de nomes de domínio, mapeando nomes de host para endereços IP. Telnet é um método para acessar uma sessão de CLI remotamente de um switch ou roteador. Traceroute é um comando usado para determinar o caminho de um pacote, quando ele atravessa a rede.",
+      "raw_id": "c9378df0b12d482b9dc6cfb3de25e2a0"
+    },
+    {
+      "question": "Um PC host acabou de inicializar e está tentando conseguir um endereço por meio do DHCP.Quais duas mensagens o cliente normalmente transmitirá na rede?  (Escolha duas.)",
+      "options": [
+        "DHCPDISCOVER",
+        "DHCPOFFER",
+        "DHCPREQUEST",
+        "DHCPACK",
+        "DHCPNACK"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um host usa DHCP para configurar automaticamente um endereço IP, normalmente envia duas mensagens: a mensagem DHCPDISCOVER e a mensagem DHCPREQUEST. Essas duas mensagens geralmente são enviadas como broadcasts para garantir que todos os servidores DHCP irão recebê-las. Os servidores respondem a essas mensagens usando mensagens DHCPOFFER, DHCPACK, e DHCPNACK, dependendo da circunstância.",
+      "raw_id": "734c030a2ddc4a5fbfb5a11b4d9b7857"
+    },
+    {
+      "question": "Consulte a figura. O Host A está tentando resolver o nome www.internal.cisco.com em um endereço IP. Quando a solicitação de resolução de nome é recebida por um servidor DNS raiz, qual servidor será incluído na resposta para resolução adicional?",
+      "options": [
+        "Servidor DNS A",
+        "Servidor DNS B",
+        "Servidor DNS C",
+        "Servidor web D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os servidores DNS raiz só carregam registros dos domínios de nível superior (como.com ou.org). Se um host solicitar a resolução de um servidor DNS raiz para o domínio www.cisco.com, por exemplo, o servidor DNS raiz encaminhará o cliente para o servidor DNS responsável pelo domínio .com. Esse servidor DNS encaminharia o cliente para o servidor DNS do cisco.com. Finalmente, o servidor DNS para cisco.com é autoritativo para aquele domínio e retornaria o endereço IP do registro do host \"www\", completando a resolução de www.cisco.com.",
+      "raw_id": "cf421168f15340538d77403e8a83cea9"
+    },
+    {
+      "question": "Qual afirmação é verdadeira sobre a operação do DHCP?",
+      "options": [
+        "Se o cliente receber várias mensagens DHCPOFFER de servidores diferentes, ele envia uma mensagem DHCPREQUEST de unicast para o servidor do qual ele escolhe para obter as informações de IP.",
+        "Um cliente deve aguardar a expiração da concessão antes de enviar outra mensagem DHCPREQUEST.",
+        "Quando um dispositivo configurado para usar DHCP é inicializado, o cliente transmite um broadcast DHCPDISCOVER para identificar quaisquer servidores DHCP disponíveis na rede.",
+        "A mensagem DHCPDISCOVER contém o endereço IP e a máscara de sub-rede a serem atribuídos, o endereço IP do servidor DNS e o endereço IP do gateway padrão."
+      ],
+      "correctIndex": 2,
+      "explanation": "O cliente transmite um broadcast DHCPDISCOVER para identificar quaisquer servidores DHCP disponíveis na rede. Um servidor DHCP responde com uma mensagem DHCPOFFER. Essa mensagem oferece ao cliente uma concessão que contém informações como o endereço IP e a máscara de sub-rede a ser atribuída, o endereço IP do servidor DNS e o endereço IP do gateway padrão. Após o cliente receber a concessão, as informações recebidas devem ser renovadas por meio de outra mensagem DHCPREQUEST antes da expiração da concessão.",
+      "raw_id": "c10a63525b884b588625db0070e39298"
+    },
+    {
+      "question": "Qual mensagem DHCPv4 um cliente enviará para aceitar um endereço IPv4 oferecido por um servidor DHCP?",
+      "options": [
+        "DHCPACK unicast",
+        "DHCPACK broadcast",
+        "DHCPREQUEST unicast",
+        "DHCPREQUEST Broadcast"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um cliente DHCP recebe mensagens DHCPOFFER, ele enviará um broadcast DHCPREQUEST, em broadcast, para duas finalidades. Primeiro, ele indica ao servidor DHCP da oferta que gostaria de aceitar a oferta e vincular o endereço IP. Em segundo lugar, ele notifica outros servidores DHCP que suas ofertas foram recusadas.",
+      "raw_id": "4622fe53b78041b9839738a28898525e"
+    },
+    {
+      "question": "Qual protocolo converte o nome de um site, como www.cisco.com, em um  endereço de rede?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "DHCP",
+        "DNS"
+      ],
+      "correctIndex": 3,
+      "explanation": "O Domain Name Service converte nomes em endereços numéricos e associa os dois. O DHCP fornece endereços IP dinamicamente para pools de dispositivos. O HTTP oferece páginas da Web para os usuários. O FTP gerencia transferências de arquivos.",
+      "raw_id": "ac7b38d9c9ec4246bbcd872424db0acd"
+    },
+    {
+      "question": "Que tipo de informação está contida em um registro DNS MX?",
+      "options": [
+        "o FQDN do alias usado para identificar um serviço",
+        "o endereço IP de uma entrada FQDN",
+        "o nome de domínio mapeado para servidores de troca de e-mail",
+        "o endereço IP de um servidor de nomes autoritativo"
+      ],
+      "correctIndex": 2,
+      "explanation": "MX ou mensagens de troca de e-mail são usadas para mapear um nome de domínio para vários servidores de troca de e-mail que pertencem ao mesmo domínio.",
+      "raw_id": "31cfa7cb3b4349aeae978f3191bdb841"
+    },
+    {
+      "question": "Um técnico está adicionando um novo computador a uma LAN. Depois de desembalar os componentes e fazer todas as conexões, o técnico inicia o computador. Depois do carregamento do SO, o técnico abre um navegador web e verifica se o computador está conectado à Internet. Por que razão o computador conseguiu se conectar à rede sem nenhuma configuração adicional?",
+      "options": [
+        "O PC não requer nenhuma informação adicional para funcionar na rede",
+        "O computador veio pré-configurado de fábrica com a informação de endereçamento IP.",
+        "O computador foi pré-configurado usando DHCP.",
+        "O computador usou o DNS para receber automaticamente a informação de endereçamento IP de um servidor.",
+        "A interface virtual do computador é compatível com qualquer rede."
+      ],
+      "correctIndex": 2,
+      "explanation": "O novo computador foi pré-configurado para usar DHCP.  Quando o computador é conectado a uma rede que usa DHCP, ele obtém as configurações do endereço IP do servidor DHCP, o que permitirá que ele funcione na rede. Todos os dispositivos requerem pelo menos um endereço IP e uma máscara de sub-rede para funcionar em uma LAN. O DNS não configura endereços em hosts automaticamente. Interfaces virtuais de PC não são universalmente compatíveis com LANs e não necessariamente fornecem um endereço IP a um host. Neste ponto do curso, são usadas interfaces virtuais em switches de rede.",
+      "raw_id": "82eb02ad61aa471bbee2cb135b3a5fa7"
+    },
+    {
+      "question": "Qual servidor de rede está funcionando de forma incorreta se um usuário conseguir fazer ping no endereço IP de um servidor web mas não conseguir fazer ping no nome de host do servidor web?",
+      "options": [
+        "o servidor DNS",
+        "o servidor DHCP",
+        "o servidor FTP",
+        "o servidor HTTP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Se for possível fazer ping em um endereço IP mas não em um nome de host, então o problema pode ser que um servidor DNS não pode ser acessado.",
+      "raw_id": "0c850d7eab93481fac2e5f9c16d09093"
+    },
+    {
+      "question": "Consulte a figura. Que protocolo permite que um usuário digite www.cisco.com em vez de um endereço IP para acessar o servidor da Web?",
+      "options": [
+        "DNS",
+        "FTP",
+        "HTML",
+        "HTTP",
+        "SNMP"
+      ],
+      "correctIndex": 0,
+      "explanation": "São atribuídos endereços IP estáticos aos servidores da Web. Eles também estão registrados com nomes de domínio para que as pessoas possam lembrá-los facilmente. No entanto, os servidores da Web são conectados por meio de seus endereços IP. O DNS oferece o serviço para mapear o nome de domínio para seu endereço IP.",
+      "raw_id": "a471748363254267be1829d6a44e1407"
+    },
+    {
+      "question": "Qual ação um servidor DNS realiza se não há uma entrada para uma URL solicitada?",
+      "options": [
+        "O servidor remove a solicitação.",
+        "O servidor retorna uma resposta “página não encontrada” ao cliente.",
+        "O servidor verifica com outro servidor DNS se há uma entrada.",
+        "O servidor atribui um endereço IP temporário ao nome e envia esse endereço IP ao cliente."
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um cliente digita uma URL para acessar um servidor da Web, o navegador envia uma solicitação ao servidor DNS com o endereço IP configurado no computador. Quando o servidor DNS recebe a solicitação, ele verifica sua tabela para determinar o endereço IP associado ao servidor da Web. Se o servidor DNS local não tem uma entrada para o nome solicitado, ele consulta outro servidor DNS de upstream. Quando o servidor DNS reconhece o endereço IP, essas informações são enviadas para o cliente.",
+      "raw_id": "080ad46139bd4a279d8ad4c137f9c0c6"
+    }
+  ],
+  "images": []
+}

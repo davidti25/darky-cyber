@@ -1,0 +1,619 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Estou de volta! Halimah me contou que recebeu sua primeira missão. Ela ajudará a projetar e configurar uma nova rede de filiais. Ela está muito animada com essa oportunidade!\nSe eu tivesse essa tarefa, não sei se saberia por onde começar. Eu sei sobre os dispositivos e a mídia necessários e sobre os esquemas de endereçamento. Mas nunca configurei um switch, muito menos  mais de um switch. Configurei meu roteador de rede doméstica, mas um roteador corporativo é provavelmente um pouco mais complexo.\nAcho que esse módulo é exatamente o que preciso. E você?"
+    },
+    {
+      "type": "text",
+      "title": ".1 Switches Cisco",
+      "content": "{{_moduleNumber}}.1 Switches  Cisco"
+    },
+    {
+      "type": "text",
+      "title": ".1 Switches Cisco",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Conectar mais dispositivos",
+      "content": "Além dos switches e roteadores, há outras opções de conectividade disponíveis para LANs. Os pontos de acesso  sem fio que são implantados em empresas permitem que computadores e outros dispositivos, como telefones IP, estabeleçam uma conexão sem fio à rede ou compartilhem a conectividade de banda larga. Os firewalls protegem contra ameaças de rede e fornecem segurança, controle de rede e contenção."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Cisco Catalyst 9300 24 UPOE Switch",
+      "content": "O switch Cisco Catalyst 9300 mostrado na figura é adequado para redes de pequeno e médio porte. Ele fornece 24 portas de dados de 1 Gbps com Power over Ethernet (PoE) para que alguns tipos de dispositivos possam ser alimentados diretamente pelo switch. Ele também tem duas portas de uplink modulares de 40 Gbps. Os LEDs indicam o status da porta e do sistema para o switch. O switch tem uma porta de console e uma de armazenamento para  gerenciamento de dispositivos.\nSwitch Cisco Catalyst 9300 24 UPOE",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Velocidades do Switch e Métodos de Encaminhamento",
+      "content": "{{_moduleNumber}}.2 Velocidades do Switch e Métodos de Encaminhamento"
+    },
+    {
+      "type": "text",
+      "title": ".2 Velocidades do Switch e Métodos de Encaminhamento",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Comutação corte direto",
+      "content": "Há duas formas de comutação corte direto:\nComutação avanço rápido -  A comutação avanço rápido oferece o menor nível de latência e encaminha imediatamente um pacote depois de ler o endereço de destino. Como a comutação avanço rápido começa o encaminhamento antes de receber todo o pacote, alguns pacotes podem ser retransmitidos com erros. Isso ocorre com pouca freqüência e a NIC de destino descarta o pacote com defeito após o recebimento. No modo avanço rápido, a latência é medida do primeiro bit recebido até o primeiro bit transmitido. Comutação avanço rápido é o método corte direto típico de comutação.\nComutação livre de fragmentos - Na comutação livre de fragmentos, o switch armazena os primeiros 64 bytes do quadro antes de encaminhar. Esse tipo de comutação pode ser encarado como um compromisso entre o switching armazenar e encaminhar e o switching avanço rápido. O motivo da comutação  livre de fragmentos armazenar somente os primeiros 64 bytes do quadro é que a maioria dos erros e das colisões de rede ocorre durante os primeiros 64 bytes. A comutação livre de fragmentos tenta melhorar a comutação avanço rápido executando uma pequena verificação de erros nos primeiros 64 bytes do quadro para garantir que não ocorra uma colisão antes de encaminhar o quadro. A comutação  livre de fragmentos é um compromisso entre a alta latência e a alta integridade da comutação  armazenar e encaminhar e a baixa latência e a integridade reduzida da comutação avanço rápido.\nAlguns switches são configurados para executar a comutação corte direto por porta até que um limite de erro definido pelo usuário seja atingido e, depois, mudam automaticamente para armazenar e encaminhar. Quando a taxa de erros fica abaixo do limite, a porta retorna automaticamente para a comutação  corte direto."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O buffer de memória compartilhada também resulta na capacidade de armazenar quadros maiores com potencialmente menos quadros descartados. Isso é importante com a comutação assimétrica, que permite taxas de dados diferentes em portas diferentes, como ao conectar um servidor a uma porta de switch de 10 Gbps e PCs a portas de 1 Gbps."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.4 Configurações de Velocidade e Duplex",
+      "content": "Duas das configurações mais básicas em um switch são as configurações de largura de banda (às vezes denominada \"velocidade\") e duplex para cada porta do switch individual. É fundamental a correspondência dessas configurações na porta do switch e nos dispositivos conectados, como um computador ou outro switch.\nHá dois tipos de configurações duplex usadas para comunicação em uma rede Ethernet:\nduplex completo – As duas extremidades da conexão podem enviar e receber ao mesmo tempo.\nMeio duplex - Somente uma das extremidades da conexão pode enviar e receber por vez.\nA negociação automática é uma função opcional encontrada na maioria dos switches Ethernet e das placas de interface de rede (NICs). Ela permite que dois dispositivos negociem automaticamente as melhores capacidades de velocidade e duplex. duplex completo será escolhido se os dois dispositivos  tiverem essa capacidade e com a largura de banda mais alta em comum entre eles.\nNa figura, a NIC Ethernet para PC-A pode operar em duplex completo ou Meio duplex e em 10 Mbps ou 100 Mbps.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "O PC-A está conectado ao switch S2 na porta 1, que pode operar em duplex completo ou Meio duplex e em 10 Mbps, 100 Mbps ou 1000 Mbps (1 Gbps). Se os dois dispositivos estiverem usando negociação automática, o modo operacional será duplex completo e 100 Mbps.\nNota: A maioria dos switches Cisco e das NICs Ethernet faz a negociação automática por padrão para velocidade e duplex. Portas Gigabit Ethernet só operam em duplex completo.\nA incompatibilidade duplex é uma das causas mais comuns de problemas de desempenho nos links Ethernet 10/100 Mbps. Ocorre quando uma porta no link opera em Meio duplex, enquanto a outra porta opera em duplex completo, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "S2 continuará a detectar colisões porque S1 continua mandando quadros sempre que tem algo para enviar.\nA incompatibilidade duplex ocorre quando uma ou ambas as portas em um link são redefinidas e o processo de negociação automática não resulta nos dois parceiros de link com a mesma configuração. Também pode ocorrer quando os usuários reconfiguram um lado de um link e esquecem de reconfigurar o outro. Os dois lados de um link devem estar ambos com a negociação automática ligada ou desligada. A prática recomendada é configurar ambas as portas de switch Ethernet como duplex completo."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.5 MDIX automático",
+      "content": "As conexões entre dispositivos exigiram uma vez o uso de um cabo cruzado ou direto. O tipo de cabo necessário dependia do tipo de dispositivos de interconexão.\nPor exemplo, a figura identifica o tipo de cabo correto necessário para interconectar dispositivos switch para switch, switch para roteador, switch para host ou roteador para host. Um cabo cruzado é usado ao conectar dispositivos semelhantes, e um cabo direto é usado para conectar dispositivos diferentes.\nNota: Uma conexão direta entre um roteador e um host requer uma conexão cruzada.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "A maioria dos dispositivos de switch agora suporta o recurso de (Auto-MDIX) interface dependente automática. Quando ativado, o switch detecta automaticamente o tipo de cabo conectado à porta e configura as interfaces de acordo. Com isso, você pode utilizar um cabo cruzado ou direto para conexões a uma porta 10/100/1000 de cobre no switch, seja qual for o tipo de dispositivo na outra extremidade da conexão.\nO recurso auto-MDIX é ativado por padrão em switches que executam o Cisco IOS Release 12.2 (18) SE ou posterior. No entanto, o recurso pode ser desativado. Por esse motivo, você sempre deve usar o tipo de cabo correto e não confiar no recurso Auto-MDIX. O Auto-MDIX pode ser reativado usando o comando mdix auto no modo de configuração da interface ."
+    },
+    {
+      "type": "text",
+      "title": ".3 Processo de inicialização do switch",
+      "content": "{{_moduleNumber}}.3 Processo de inicialização do switch"
+    },
+    {
+      "type": "text",
+      "title": ".3 Processo de inicialização do switch",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.3 Arquivos de inicialização do IOS",
+      "content": "Como mostrado na figura, um dispositivo da Cisco carrega estes dois arquivos na RAM quando é iniciado:\nArquivo de imagem do IOS - O IOS facilita a operação básica dos componentes de hardware do dispositivo. A imagem do IOS geralmente é armazenada na memória flash.\nArquivo de configuração de inicialização - Contém os comandos utilizados para configurar inicialmente um roteador e criar o arquivo de configuração de execução armazenado na RAM. O arquivo de configuração de inicialização é armazenado na NVRAM. Todas as alterações de configuração são armazenadas no arquivo de configuração em execução e são implementadas imediatamente pelo IOS.\nO arquivo de configuração de execução é modificado quando o administrador de rede desempenha a configuração do dispositivo. Quando as alterações são feitas no arquivo running-config, ele deve ser salvo na NVRAM como  arquivo de configuração de inicialização, caso o roteador seja reinicializado ou perca energia.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4 Roteadores Cisco",
+      "content": "{{_moduleNumber}}.4 Roteadores Cisco"
+    },
+    {
+      "type": "text",
+      "title": ".4 Roteadores Cisco",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Componentes do roteador",
+      "content": "Independentemente de função, tamanho ou complexidade, todos os modelos de roteador são basicamente computadores. E assim como computadores, tablets e dispositivos inteligentes, o roteador também exige:\nSistema operacional (SO)\nUnidade central de processamento (CPU)\nRAM (memória de acesso aleatório)\nROM (memória somente de leitura)\nNVRAM (memória de acesso aleatório não volátil)\nComo todos os computadores, tablets e dispositivos inteligentes, os roteadores da Cisco exigem uma CPU para executar instruções do sistema operacional, como a inicialização do sistema, as funções de roteamento e as funções de switching.\nA CPU precisa de um sistema operacional para prover funções de roteamento e switching. O Cisco IOS (Internetwork Operating System) é o software de sistema usado para a maioria dos dispositivos Cisco, independentemente do tamanho e tipo. Ele é usado para roteadores, switches LAN, pequenos access points sem fio, grandes roteadores com dezenas de interfaces e muitos outros dispositivos."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.3 Portas das interfaces dos roteadores",
+      "content": "Embora existam vários tipos e modelos diferentes de roteadores, cada roteador Cisco tem os mesmos componentes gerais de hardware.\nA figura mostra um Roteador de Serviços Integrado (ISR) do modelo Cisco 4321. O roteador inclui as seguintes conexões:\nPortas console - Duas portas console da configuração inicial e interface de linha de comando (CLI) usando uma porta RJ-45 regular e um novo conector USB do Tipo-B (USB mini-b).\nDuas interfaces LAN - Duas interfaces Gigabit Ethernet para acesso LAN  GE 0/0/0 e GE 0/0/1. A porta GE 0/0/0 pode ser acessada por uma conexão RJ-45 ou usando uma conexão SFP (tamanho pequeno) para fornecer uma conexão de fibra óptica.\nMódulo de Interface de Redes (NIMs) - Dois slots de expansão NIM que proporcionam modularidade e flexibilidade ao habilitar o roteador para dar suporte aos tipos diferentes de módulos de interface, incluindo serial, a linha digital de assinante (DSL),  porta do switch e sem fio.\nO Cisco 4321 ISR também tem uma porta USB, uma interface de gerenciamento e uma porta auxiliar. A porta USB pode ser usada para transferências de arquivos. A porta de gerenciamento pode ser usada para acesso de gerenciamento remoto quando as duas interfaces Gigabit Ethernet estiverem indisponíveis. A porta auxiliar fornece suporte antigo para um método de conexão de um modem dial-up ao roteador para acesso remoto. A porta auxiliar é hoje raramente usada em redes.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5 Processo de inicialização do roteador",
+      "content": "{{_moduleNumber}}.5 Processo de inicialização do roteador"
+    },
+    {
+      "type": "text",
+      "title": ".5 Processo de inicialização do roteador",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".5.1 Ligar o roteador",
+      "content": "**Etapa 1:** Etapa 1. Monte o dispositivo no rack com segurança.\nNota: A figura mostra um cenário típico de montagem do chassi em um rack.\n\n**Etapa 2:** Etapa 2. Aterrar o dispositivo\n\n**Etapa 3:** Etapa 3. Conecte o cabo de alimentação.\n\n**Etapa 4:** Etapa 4. Conecte um cabo console.\nConfigure o software de emulação de terminal no PC e conecte o PC à porta console.\n\n**Etapa 5:** Etapa 5. Ligue o roteador.\n\n**Etapa 6:** Etapa 6. Observe as mensagens de inicialização no PC quando o roteador for inicializado.\nMensagens de inicialização do roteador"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Management Configuration Access",
+      "content": "Semelhante a um switch Cisco, existem várias maneiras de acessar a interface de linha de comando em um roteador Cisco. Os métodos mais comuns são os seguintes:\nConsole - Usa uma conexão serial de baixa velocidade ou USB  para fornecer conexão direta, acesso de gerenciamento fora de banda a um dispositivo Cisco.\nSSH - Método para acessar remotamente uma sessão CLI através de uma interface de rede ativa, incluindo a interface de gerenciamento.\nPorta AUX - Usado para o gerenciamento remoto do roteador usando uma linha telefônica e um modem de discagem.\nA porta console é uma porta física localizada no roteador. Quando o SSH é usado, deve haver uma interface de rede ativa configurada com um endereço IP válido para a rede. Pode ser uma das interfaces de rede ativas usadas para o tráfego de rede ou a interface de gerenciamento.\nAcesso à configuração de gerenciamento",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "LAN and WAN Interfaces",
+      "content": "Além dessas portas de gerenciamento, os roteadores também têm interfaces de rede para receber e enviar pacotes IP. A maioria dos roteadores possui interfaces usadas para se conectarem a diversas redes. Geralmente, as interfaces se conectam a vários tipos de redes, conforme aparece na figura, o que significa que os diferentes tipos de meio físico e conectores são necessários.\nInterfaces LAN e WAN",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo Switches e roteadores Cisco",
+      "content": "{{_moduleNumber}}.6 Resumo Switches e roteadores Cisco"
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo Switches e Roteadores Cisco",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".6.1 O que aprendi neste módulo?",
+      "content": "**Switches  Cisco:** Um switch é usado para conectar dispositivos na mesma rede. Um roteador serve para conectar várias redes entre si. Ao selecionar um switch para a LAN, é essencial escolher o número e o tipo apropriados de portas. A maioria dos switches mais baratos são compatíveis apenas com as portas de interface de par trançado de cobre. Os switches mais caros podem ter conexões de fibra óptica. Esses são utilizados para conectar o switch a outros switches mais distantes\nSemelhantes a uma porta de switch, as NICs Ethernet operam em larguras de banda específicas, como 10/100 ou de 10/100/1000 Mbps. A largura de banda real do dispositivo conectado será a largura de banda comum mais alta entre a NIC do dispositivo e a porta do switch. Os dispositivos de rede são fornecidos tanto em configurações físicas fixas quanto modulares. Um switch gerenciado que usa um sistema operacional da Cisco permite o controle de portas individuais ou do switch como um todo. Os switches Ethernet Cisco Catalyst 2960 Series são adequados para redes de pequeno e médio porte.\n\n**Métodos de encaminhamento e velocidades de switches:** Os switches usam um dos seguintes métodos de encaminhamento para comutar dados entre portas de rede: comutação armazenar e encaminhar ou comutação corte direto. Duas variantes da comutação corte direto  são avanço rápido e livre de fragmentos. Dois métodos de armazenamento em buffer de memória são memória baseada em porta e memória compartilhada. Existem dois tipos de configurações duplex usadas para comunicações em uma rede Ethernet: duplex completo e Meio duplex.\nA negociação automática é uma função opcional encontrada na maioria dos switches Ethernet e das placas de interface de rede (NICs). Ele permite que dois dispositivos negociem automaticamente as melhores capacidades de velocidade e duplex. duplex completo será escolhido se os dois dispositivos o tiverem para a largura de banda mais alta comum entre eles. A maioria dos dispositivos de switch agora suporta o recurso de (Auto-MDIX) interface dependente automática. Quando ativado, o switch detecta automaticamente o tipo de cabo conectado à porta e configura as interfaces de acordo.\n\n**Processo de inicialização do switch:** Os switches Cisco são pré-configurados para operar em uma LAN quando são inicializados. Defina as configurações básicas de segurança antes de colocar o switch na rede. As três etapas básicas para ligar um switch são as seguintes: 1) Verifique os componentes, 2) Conecte os cabos ao switch e 3) Ligue o switch. Quando o switch está ativado, o Power On Self Test (POST) é iniciado.\nHá dois métodos para conectar um PC a um dispositivo de rede para realizar as tarefas de configuração e de monitoramento: gerenciamento fora da banda e gerenciamento em banda. O gerenciamento fora de banda requer que um computador seja conectado diretamente à porta de console do dispositivo de rede que está sendo configurado. Use o gerenciamento em banda para monitorar e fazer alterações na configuração de um dispositivo de rede em uma conexão de rede.\nUm dispositivo da Cisco carrega estes dois arquivos na RAM quando é inicializado: o arquivo de imagem do IOS e o arquivo de configuração de inicialização. A imagem do IOS geralmente é armazenada na memória flash. O arquivo de configuração de inicialização é armazenado na NVRAM.\n\n**Roteadores Cisco:** Os roteadores precisam de um sistema operacional, CPU, RAM, ROM e NVRAM. Cada roteador Cisco tem os mesmos componentes de hardware geral: portas console, interfaces de LAN, slots de expansão para diferentes tipos de módulos de interface (por exemplo, EHWIC, Serial, DSL, portas de switch, sem fio), slots de armazenamento para recursos expandidos (por exemplo, memória flash compacta , Portas USB).\n\n**Processo de inicialização do roteador:** Siga estas etapas para ligar um roteador Cisco.\nEtapa 1. Monte o dispositivo no rack com segurança.\nEtapa 2. Aterrar o dispositivo\nEtapa 3. Conecte o cabo de alimentação.\nEtapa 4. Conecte um cabo console.\nEtapa 5. Ligue o roteador.\nEtapa 6. Observe as mensagens de inicialização no PC quando o roteador for inicializado.\nDuas formas mais comuns de acessar a interface de linha de comando em um roteador Cisco são o console, SSH e porta Aux Roteadores também têm interfaces de rede para receber e enviar pacotes IP."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Webster - Questões para Reflexão",
+      "content": "Achei este módulo muito útil e espero que você também. Agora, quero voltar à rede do escritório e visitá-la novamente. Saber configurar vários switches e roteadores me ajudará a entender melhor por que nossa rede está configurada da maneira que é.\nAgora que você já sabe como configurar uma rede de vários switches e vários roteadores, veja se consegue acessar a rede do escritório ou da escola.\nQuais são as vantagens de configurar a rede da maneira que ela é?\nComo isso mudaria se a rede dobrasse de tamanho?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Verdadeiro ou falso? Quanto mais baixo o dispositivo estiver no modelo OSI, mais inteligente ele será.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falsa. Quanto mais alto o dispositivo estiver no modelo OSI, mais inteligente ele será. Um dispositivo de nível mais alto pode analisar melhor o tráfego de dados e encaminhá-lo baseado em informações não disponíveis em camadas inferiores.",
+      "raw_id": "7c92d12143cd44009e3810d3da42c079"
+    },
+    {
+      "question": "Verdadeiro ou falso? Os switches normalmente oferecem conectividade LAN e os roteadores interconectam redes locais.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA resposta correta é verdadeira. Um switch é usado para conectar dispositivos na mesma rede. Um roteador serve para conectar várias redes entre si.",
+      "raw_id": "ce6b6979959d4274a65c8210fa9aaaa4"
+    },
+    {
+      "question": "Qual fator de seleção de switch você normalmente considera ao decidir que deseja que o switch seja configurável?",
+      "options": [
+        "Tipo de portas",
+        "Velocidade necessária",
+        "Capacidade de expansão",
+        "Gerenciabilidade"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA capacidade de gerenciamento depende da seleção de um switch que possa ser configurado.",
+      "raw_id": "c7a93949bb464e49af68a7de5cab62a8"
+    },
+    {
+      "question": "Qual fator de seleção de switch você normalmente considera ao decidir sobre o tipo de portas de uplink?",
+      "options": [
+        "Tipo de portas",
+        "Velocidade necessária",
+        "Capacidade de expansão",
+        "Gerenciabilidade"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA velocidade necessária para o switch incluirá uma determinação da velocidade das portas de uplink.",
+      "raw_id": "c88061b75c3b43f3b39798d68190ba3d"
+    },
+    {
+      "question": "Qual fator de seleção de switch você normalmente considera ao decidir sobre interfaces que suportam conexões de par trançado?",
+      "options": [
+        "Tipo de portas",
+        "Velocidade necessária",
+        "Capacidade de expansão",
+        "Gerenciabilidade"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO tipo de porta usada para acesso com fio à LAN normalmente será a Ethernet de par trançado. Você também deve considerar o número de portas necessárias.",
+      "raw_id": "626a04d9bd92471cba04def5b3a09f96"
+    },
+    {
+      "question": "Qual fator de seleção de switch você normalmente considera ao decidir entre configurações modulares ou fixas?",
+      "options": [
+        "Tipo de portas",
+        "Velocidade necessária",
+        "Capacidade de expansão",
+        "Gerenciabilidade"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA capacidade de expansão depende de vários outros fatores, inclusive a modularidade do switch.",
+      "raw_id": "6e7c5634b40c4284a8c9699ab42954a8"
+    },
+    {
+      "question": "Um cabo console  também é chamado de ?",
+      "options": [
+        "cabo Ethernet",
+        "cabo cruzado",
+        "cabo rollover",
+        "cabo straight-through"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nComo discutido no vídeo, o cabo  console também é chamado de cabo rollover.",
+      "raw_id": "912d8386726744cd802cd728ebba96d4"
+    },
+    {
+      "question": "Ao conectar pela primeira vez a um switch para configurá-lo, você deve responder \"não\" à pergunta inicial do diálogo. Depois de responder \"não\", qual é o prompt?",
+      "options": [
+        "Switch#",
+        "Switch>",
+        "Switch(config)#",
+        "Switch(config-if)#"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nComo mostrado no vídeo, o prompt de comando após responder \"no\" à pergunta inicial do diálogo é Switch>.",
+      "raw_id": "4464660c195e41f3a14b7928b55332c6"
+    },
+    {
+      "question": "Quais são as duas portas normalmente usadas para gerenciamento de dispositivos? (Escolha duas.)",
+      "options": [
+        "porta console",
+        "porta de armazenamento",
+        "porta de uplink",
+        "porta de acesso LAN",
+        "porta de adaptador de energia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO gerenciamento de dispositivos normalmente usa a porta console e a porta de armazenamento.",
+      "raw_id": "8e5a9c01ead4475e8caef5bb884c0015"
+    },
+    {
+      "question": "Quais são os dois métodos para comutar dados entre portas em um switch? (Escolha duas.)",
+      "options": [
+        "comutação corte fora",
+        "comutação corte direto",
+        "comutação  armazenar e encaminhar",
+        "comutação armazenar e fornecer",
+        "comutação armazenar e restaurar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs dois métodos para comutar dados entre portas em um switch são comutação corte direto e comutação armazenar e encaminhar.",
+      "raw_id": "d86aab4699904b06829d1affacbcd363"
+    },
+    {
+      "question": "Qual método de comutação pode ser implementado usando comutação rápida ou comutação sem fragmentos?",
+      "options": [
+        "comutação corte fora",
+        "comutação corte direto",
+        "comutação armazenar e encaminhar",
+        "comutação armazenar e restaurar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA comutação corte direto é implementada usando comutação rápida ou comutação sem fragmentos.",
+      "raw_id": "5270c94cb50f42eb815f13f2052f336c"
+    },
+    {
+      "question": "Quais dois tipos de técnicas de buffer de memória são usadas por switches? (Escolha duas.)",
+      "options": [
+        "buffer de memória de longo prazo",
+        "buffer de memória baseado em porta",
+        "buffer de memória compartilhada",
+        "buffer de memória de curto prazo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs switches usam duas técnicas de buffer de memória: buffer de memória baseado em porta e buffer de memória compartilhada.",
+      "raw_id": "7f64822a689b45ee94771d7fd0b2b81a"
+    },
+    {
+      "question": "Qual recurso negocia automaticamente a melhor velocidade e configuração duplex entre dispositivos de interconexão?",
+      "options": [
+        "MDIX Automático",
+        "Autobots",
+        "Negociação automática",
+        "Auto-tune"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA negociação automática é uma tecnologia que negocia automaticamente a velocidade e o duplex entre dois dispositivos conectados.",
+      "raw_id": "4cf36ade7f224379a862067cf8fd9713"
+    },
+    {
+      "question": "Qual das alternativas a seguir é a ordem correta das três etapas básicas para ligar um switch?",
+      "options": [
+        "verifique os componentes, conecte os cabos ao switch, ligue o switch",
+        "ligar o switch, verificar os componentes, conectar os cabos ao switch",
+        "conectar os cabos ao switch, verificar os componentes, ligar o switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nAs três etapas básicas para inicializar um switch são:\nPasso 1. Verifique os componentes.\nEtapa 2. Conecte os cabos ao switch.\nEtapa 3. Inicialize o switch.",
+      "raw_id": "c1bf7410de4e4efcaf439c4093018fd3"
+    },
+    {
+      "question": "Quando um switch é conectado a uma tomada, o POST começa. Como você sabe que o POST foi concluído?",
+      "options": [
+        "Os LEDs de porta piscam rapidamente em verde.",
+        "Os LEDs de porta piscam rapidamente em âmbar.",
+        "Os LEDs SYS piscam rapidamente em verde.",
+        "Os LEDs SYS piscam rapidamente na cor âmbar."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO POST é concluído quando o SYST LED está verde e pisca rapidamente. Se o POST falhar, o SYST LED fica na cor âmbar.",
+      "raw_id": "6c642f2d65e54a90b919c66ade8aca35"
+    },
+    {
+      "question": "Verdadeiro ou falso? O gerenciamento fora da banda exige que as conexões de rede local no dispositivo estejam ativas.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falsa. O gerenciamento fora de banda requer que um computador seja conectado diretamente à porta de console do dispositivo de rede que está sendo configurado. Contudo, ele não exige que as conexões de rede local no dispositivo estejam ativas.",
+      "raw_id": "5af01b25672242228a8dac36c66cfd09"
+    },
+    {
+      "question": "Verdadeiro ou falso? Uma conexão de gerenciamento em banda requer que pelo menos uma interface de rede no dispositivo esteja conectada à rede e tenha um endereço IP configurado nela.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA resposta correta é verdadeira. Para que um computador se conecte-se ao dispositivo e realize as tarefas de gerenciamento em banda, pelo menos uma interface de rede no dispositivo deve estar conectada à rede e ter um endereço IP configurado.",
+      "raw_id": "17e6fdc31c3f4da89899870ebf02e7d1"
+    },
+    {
+      "question": "Onde o arquivo de imagem do IOS normalmente é armazenado?",
+      "options": [
+        "RAM",
+        "NVRAM",
+        "Unidade USB",
+        "Memória flash"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA imagem do IOS geralmente é armazenada na memória flash.",
+      "raw_id": "d451b23e984c4c3ba78e424643dae95b"
+    },
+    {
+      "question": "Verdadeiro ou falso? Um roteador tem muitas portas Ethernet para fornecer acesso aos dispositivos na rede.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falsa. Um roteador normalmente tem apenas algumas portas Ethernet para conectar redes. Um switch fornece muitas portas Ethernet para acesso ao dispositivo.",
+      "raw_id": "f6a834f1c9764e5bbad5bb1622630b80"
+    },
+    {
+      "question": "Qual das seguintes interfaces pode ser usada para gerenciar o roteador? (Escolha três.)",
+      "options": [
+        "Portas console",
+        "Slots NIM",
+        "Porta Auxiliar",
+        "Porta USB",
+        "Interface de gerenciamento"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nAs portas console, a interface de gerenciamento e a porta auxiliar podem ser usadas para gerenciar o roteador.",
+      "raw_id": "5b180db27f964b75ae8a05f13e9271ae"
+    },
+    {
+      "question": "Verdadeiro ou falso? Com a porta de fibra óptica baseada em SFP, o roteador 4321 tem três interfaces Gigabit Ethernet que podem ser usadas para tráfego de dados.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falsa. A porta baseada em SFP pode ser usada como uma opção de fibra óptica para a porta RJ-45 GE 0/0/0.",
+      "raw_id": "e8c5b51e12924bccbacf4942844a06ab"
+    },
+    {
+      "question": "Qual interface se conecta a redes externas, geralmente a uma grande distância?",
+      "options": [
+        "Porta Auxiliar",
+        "Porta do console",
+        "Acesso SSH",
+        "Interface LAN",
+        "Interface WAN"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nInterfaces WAN conecta redes externas, geralmente a uma grande distância.",
+      "raw_id": "78f6b546c6a843c5b3c9aec3b17528d8"
+    },
+    {
+      "question": "Qual  é uma maneira de acessar remotamente a interface da linha de comando (CLI) por uma interface de rede?",
+      "options": [
+        "Porta Auxiliar",
+        "Porta do console",
+        "Acesso SSH",
+        "Interface LAN",
+        "Interface WAN"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO acesso SSH é uma forma de acessar remotamente a interface da linha de comandos (CLI) por uma interface de rede.",
+      "raw_id": "eac4137b0fd7498c8aa38e410385c9bc"
+    },
+    {
+      "question": "Qual interface conecta computadores, switches e roteadores para redes internas?",
+      "options": [
+        "Porta Auxiliar",
+        "Porta do console",
+        "Acesso SSH",
+        "Interface LAN",
+        "Interface WAN"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nInterface LAN conecta computadores, switches e roteadores de redes internas.",
+      "raw_id": "14da18130ff342579a0462ff8505e331"
+    },
+    {
+      "question": "Qual interface usa USB ou uma conexão serial de baixa velocidade para gerenciar dispositivos de rede?",
+      "options": [
+        "Porta Auxiliar",
+        "Porta do console",
+        "Acesso SSH",
+        "Interface LAN",
+        "Interface WAN"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAs portas console usam USB ou uma conexão serial de baixa velocidade para gerenciar dispositivos de rede.",
+      "raw_id": "41c47ec47c0b4a0db908ca32d7f824b9"
+    },
+    {
+      "question": "Qual interface usa linhas telefônicas e modems para gerenciar remotamente um roteador?",
+      "options": [
+        "Porta Auxiliar",
+        "Porta do console",
+        "Acesso SSH",
+        "Interface LAN",
+        "Interface WAN"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nAs portas auxiliares usam linhas telefônicas e modems para gerenciar remotamente um roteador.",
+      "raw_id": "95f09f25984a4f6fa0f9cccc8c8b060d"
+    },
+    {
+      "question": "Escolher a ordem correta do processo de inicialização do roteador.",
+      "options": [
+        "carregar o bootstrap, carregar o IOS, executar o POST, carregar o arquivo de configuração",
+        "executar o POST, carregar o IOS, carregar o arquivo de configuração, carregar o bootstrap",
+        "carregar o autoinicializador, executar o POST, carregar o IOS, carregar o arquivo de configuração",
+        "executar o POST, carregar o bootstrap, carregar o IOS, carregar o arquivo de configuração"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA ordem correta para o processo de inicialização do roteador é: executar o POST, carregar a inicialização, carregar o IOS e carregar o arquivo de configuração.",
+      "raw_id": "f6cce45bee6c49719e7e5cd94ecb3d95"
+    },
+    {
+      "question": "Um técnico está configurando uma nova rede em uma nova sala. Qual é o melhor dispositivo para conectar os PCs entre si e com o resto da LAN?",
+      "options": [
+        "gateway",
+        "firewall",
+        "switch",
+        "roteador"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um gateway é um roteador usado para interconectar redes e não é necessário nessa situação. Um hub não segmenta uma rede e permite que colisões ocorram no segmento de rede. Um switch interconectará todos os dispositivos em uma LAN.",
+      "raw_id": "a6d4c26789eb4863a6044aee495ed221"
+    },
+    {
+      "question": "Qual é uma característica do gerenciamento de dispositivos em banda?",
+      "options": [
+        "Usa um cliente de emulação de terminal.",
+        "É usado para a configuração inicial ou quando uma conexão de rede não está disponível.",
+        "Usa uma conexão direta a uma console ou uma porta AUX.",
+        "É usado para monitorar e fazer alterações de configuração para um dispositivo de rede em uma conexão de rede."
+      ],
+      "correctIndex": 3,
+      "explanation": "O gerenciamento de dispositivos em banda é usado para monitorar e fazer mudanças na configuração para um dispositivo de rede em uma conexão de rede. A configuração usando o gerenciamento em banda requer, pelo menos, uma interface de rede no dispositivo a ser conectado e exige o uso de Telnet, SSH ou HTTP para acessar o dispositivo.",
+      "raw_id": "d181a5446e2247e09f27e1bb907d41b2"
+    },
+    {
+      "question": "Qual é a vantagem do método de switching “armazenar e encaminhar” se comparado ao método corte direto?",
+      "options": [
+        "detecção de colisões",
+        "verificação de erros no quadro",
+        "encaminhamento mais rápido de quadros",
+        "encaminhamento de quadros com as informações das Camadas 3 e 4 de IPv4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um switch que usa o método de comutação “armazenar e encaminhar” realiza uma busca por erros em um novo quadro. Para fazer isso, ele compara o valor FCS desse novo quadro com os seus próprios cálculos de FCS assim que o quadro é recebido. Em comparação, um switch que usa o método de comutação corte direto toma decisões rápidas e inicia o processo de encaminhamento sem ter que esperar pelo recebimento do quadro inteiro. Assim, um switch que utiliza comutação corte direto pode enviar quadros inválidos à rede. O desempenho da comutação armazenar e encaminhar é mais lento, se comparado ao desempenho da comutação corte direto. A detecção de colisão é monitorada pelo dispositivo de envio. A comutação  “armazenar e encaminhar” não usa a Camada 3 e 4 de IPv4 em suas decisões de encaminhamento.",
+      "raw_id": "9c8390d05be64dc9a22abae539ca595c"
+    },
+    {
+      "question": "Quais são duas das funções da NVRAM? (Escolha duas.)",
+      "options": [
+        "armazenar a tabela de roteamento",
+        "guardar conteúdos quando o dispositivo for desligado",
+        "armazenar o arquivo de configuração inicial",
+        "guardar o arquivo de configuração atual",
+        "armazenar a tabela ARP"
+      ],
+      "correctIndex": 2,
+      "explanation": "A NVRAM é uma memória de armazenamento permanente, portanto o arquivo de configuração inicial é preservado mesmo que o roteador seja desligado.",
+      "raw_id": "26f58b105c694bb88b227427e7878ff5"
+    },
+    {
+      "question": "Seguindo as configurações padrão, quais duas tarefas são executadas primeiro na sequência de inicialização do roteador? (Escolha duas.)",
+      "options": [
+        "Executa a rotina POST.",
+        "Localiza e carrega o arquivo startup-config a partir da NVRAM.",
+        "Carrega o programa de bootstrap da ROM.",
+        "Carrega o arquivo running-config da RAM.",
+        "Localiza e carrega o sistema operacional."
+      ],
+      "correctIndex": 2,
+      "explanation": "Existem três etapas importantes na sequência de inicialização do roteador:\nExecução do Power-On-Self-Test (POST) e carregamento do programa bootstrap.\nCarregamento do IOS a partir da Flash ou do servidor TFTP.\nCarregamento do arquivo de configuração de inicialização a partir da NVRAM.",
+      "raw_id": "091d4d342361495b9db07ab0c4cefba6"
+    },
+    {
+      "question": "Quando um roteador é ligado, onde o roteador primeiro procurará uma imagem IOS válida para carregar por padrão?",
+      "options": [
+        "RAM",
+        "ROM",
+        "Memória flash",
+        "NVRAM"
+      ],
+      "correctIndex": 2,
+      "explanation": "Por padrão, se nenhum comando  boot system estiver na configuração, um roteador carregará a primeira imagem válida do Cisco IOS que estiver na memória flash e a executará. RAM é a memória ativa que não é usada para armazenar arquivos de imagem. A NVRAM armazena arquivos de configuração. A ROM armazena uma versão mínima da imagem do Cisco IOS que pode ser usada para fornecer funções limitadas se uma imagem do IOS válida não estiver disponível na memória flash.",
+      "raw_id": "3e2d0955506d43e0830788f4d9671c23"
+    },
+    {
+      "question": "Quais os dois requisitos que sempre devem ser atendidos para usar o gerenciamento em banda para configurar um dispositivo de rede? (Escolha duas.)",
+      "options": [
+        "uma conexão direta com a porta de console",
+        "uma conexão direta com a porta auxiliar",
+        "um cliente de emulação de terminal",
+        "pelo menos uma interface de rede que esteja conectada e operacional",
+        "acesso Telnet, SSH ou HTTP ao dispositivo"
+      ],
+      "correctIndex": 4,
+      "explanation": "As conexões diretas às portas de console e auxiliares permitem gerenciamento fora da banda. O software de emulação de terminal nem sempre é necessário, pois o gerenciamento em banda pode ser executado usando um navegador.",
+      "raw_id": "c1ceeaace2b5489fbf9bf1d048a9fda8"
+    },
+    {
+      "question": "Quais são os dois arquivos que são carregados na RAM de um switch da Cisco quando ele é iniciado? (Escolha duas.)",
+      "options": [
+        "tabela de roteamento",
+        "arquivo de imagem do IOS",
+        "arquivo que contém configurações do cliente",
+        "arquivo de configuração inicial",
+        "arquivo de configuração de execução"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um dispositivo da Cisco é iniciado, ele carrega os arquivos de configuração de inicialização e o IOS na RAM.",
+      "raw_id": "96fcef17cce046b39f7c0a497c92d4d2"
+    },
+    {
+      "question": "Um roteador inicializa e entra no modo de configuração. Qual é o motivo para isso?",
+      "options": [
+        "A imagem do IOS está corrompida.",
+        "O Cisco IOS está ausente da memória flash.",
+        "O arquivo de configuração está ausente da NVRAM.",
+        "O processo POST detectou falha de hardware."
+      ],
+      "correctIndex": 2,
+      "explanation": "Se um roteador não conseguir localizar o arquivo startup-config na NVRAM, ele entrará no modo de configuração para permitir que a configuração seja inserida a partir do dispositivo de console.",
+      "raw_id": "b7d208a8aa1b4b1db7bdce1b54a35819"
+    },
+    {
+      "question": "Quais das duas afirmações descrevem o gerenciamento de rede fora da banda? (Escolha duas.)",
+      "options": [
+        "não requer uma conexão física",
+        "usa os protocolos Telnet, HTTP ou SSH",
+        "é usado para a configuração inicial do dispositivo",
+        "é usado quando a conectividade de rede com o dispositivo não está disponível",
+        "requer uma conexão de rede ativa para o dispositivo"
+      ],
+      "correctIndex": 3,
+      "explanation": "Uma conexão fora de banda pode ser usada para a configuração inicial de um dispositivo antes que exista qualquer conectividade de rede com o dispositivo.  Ao contrário das conexões em banda, o gerenciamento fora de banda requer uma conexão direta ao console ou porta auxiliar no dispositivo e o uso de um programa de emulação de terminal para acessar a CLI do IOS.",
+      "raw_id": "0c03639a1cad4b4c94eaae60fda1475b"
+    }
+  ],
+  "images": []
+}

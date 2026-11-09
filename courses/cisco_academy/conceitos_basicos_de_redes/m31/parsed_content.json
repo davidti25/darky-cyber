@@ -1,0 +1,362 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Webster, ao seu dispor!\nComo a Halimah vai se familiarizar com a rede na sede?\nEla examinará algumas topologias criadas pelo departamento de TI. Isso a ajudará a entender como os vários dispositivos intermediários e finais estão conectados e que mídia é usada para conectá-los. As topologias lógicas a ajudarão a entender o tipo de enquadramento de rede e controle de acesso à mídia que está sendo usado. As topologias físicas servem como uma espécie de mapa que informa a Halimah quais dispositivos são encontrados em quais salas de cada edifício no campus.\nAprender a ler topologias é uma parte muito importante para se tornar um profissional de TI.\nVamos indo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Topologias",
+      "content": "{{_moduleNumber}}.1 Topologias"
+    },
+    {
+      "type": "text",
+      "title": ".1 Topologias",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Topologia Física",
+      "content": "Como você aprendeu no tópico anterior, a camada de enlace de dados prepara os dados da rede para a rede física. Ela deve conhecer a topologia lógica de uma rede para poder determinar o que é necessário para transferir quadros de um dispositivo para outro. Este tópico explica as maneiras pelas quais a camada de enlace de dados funciona com diferentes topologias de rede lógica.\nA topologia de uma rede é a organização, ou o relacionamento, dos dispositivos de rede e as interconexões entre eles.\nExistem dois tipos de topologias usadas ao descrever redes LAN e WAN:\nTopologia física  - Identifica as conexões físicas e como os dispositivos finais e intermediários (ou seja, roteadores, switches e pontos de acesso sem fio) são interconectados. A topologia também pode incluir a localização específica do dispositivo, como o número do quarto e a localização no rack do equipamento. As topologias físicas são geralmente ponto a ponto ou estrela.\nTopologia lógica - Refere-se ao modo como uma rede transfere quadros de um nó para o seguinte. Esta topologia identifica conexões virtuais usando interfaces de dispositivo e esquemas de endereçamento IP da Camada 3.\nA camada de enlace de dados “vê” a topologia lógica da rede quando controla o acesso de dados ao meio físico. É a topologia lógica que influencia o tipo de enquadramento de rede e o controle de acesso ao meio usado.\nA figura exibe um exemplo de topologia física   para uma rede pequena.\nTopologia Física",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Topologia Lógica",
+      "content": "A próxima figura exibe um exemplo de   topologia lógica  para a mesma rede.\nTopologia Lógica",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Um híbrido é uma variação ou combinação de qualquer topologia. Por exemplo, uma malha parcial é uma topologia híbrida em que alguns dispositivos finais, mas não todos, são interconectados."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Topologia de WAN ponto a ponto",
+      "content": "As topologias ponto a ponto físicas conectam diretamente dois nós, como mostrado na figura. Nessa organização, dois nós não têm de compartilhar o meio físico com outros hosts. Além disso, ao usar um protocolo de comunicação serial como o protocolo ponto a ponto (PPP), um nó não precisa determinar se um quadro de entrada é destinado a ele ou a outro nó. Portanto, os protocolos de enlace de dados podem ser muito simples, assim como todos os quadros no meio físico podem trafegar apenas para os dois nós ou a partir deles. O nó coloca os quadros na mídia em uma extremidade e esses quadros são retirados da mídia pelo nó na outra extremidade do circuito ponto a ponto.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: Uma conexão ponto a ponto via Ethernet requer que o dispositivo determine se o quadro de entrada está destinado a esse nó."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Topologia WAN ponto a ponto",
+      "content": "Um nó de origem e destino pode ser indiretamente conectado entre si por alguma distância geográfica, usando vários dispositivos intermediários. No entanto, o uso de dispositivos físicos na rede não afeta a topologia lógica, conforme ilustrado na figura. Na figura, adicionar conexões físicas intermediárias pode não alterar a topologia lógica. A conexão lógica ponto a ponto é a mesma. A imagem mostra um exemplo de rede ponto a ponto que consiste em dois roteadores, rotulados Nó de Origem e Nó de Destino, cada um conectado a uma nuvem de rede através de links WAN. Os dois roteadores são mostrados enviando quadros para a nuvem de rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Topologias Físicas",
+      "content": "Em LANs multiacesso, os dispositivos finais (isto é, nós) são interligados usando topologias estrela ou estrela estendida, como mostrado na figura. Neste tipo de topologia, os dispositivos finais são conectados a um dispositivo intermediário central, neste caso, um switch Ethernet. A topologia estrela estendida  interconecta vários switches Ethernet. As topologias em estrela e estendidas são fáceis de instalar, muito escalonáveis (fáceis de adicionar e remover dispositivos finais) e fáceis de solucionar problemas. As primeiras topologias em estrela interconectavam dispositivos finais usando hubs Ethernet.\nÀs vezes, pode haver apenas dois dispositivos conectados na LAN Ethernet. Um exemplo são dois roteadores interconectados. Este seria um exemplo de Ethernet usado em uma topologia ponto a ponto.\nTopologias LAN legadas\nAs primeiras tecnologias Ethernet e Token Ring LAN legadas incluíam dois outros tipos de topologias:\nBarramento - todos os sistemas finais são encadeados entre si e terminados de alguma forma em cada extremidade. Os dispositivos de infraestrutura, como switches, não são necessários para interconectar os dispositivos finais. As redes Ethernet herdadas costumavam ser topologias de barramento usando cabos coaxiais, porque era barato e fácil de configurar.\nAnel - os sistemas finais são conectados ao seu respectivo vizinho formando um anel. O anel não precisa ser terminado, ao contrário da topologia de barramento. As redes de interface de dados distribuídos de fibra herdada (FDDI) e Token Ring usavam topologias em anel.\nAs figuras ilustram como os dispositivos finais são interconectados nas LANs. Nos desenhos de rede, é comum ter uma linha reta representando uma LAN Ethernet, inclusive estrela simples e estrela estendida.\nTopologias Físicas",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Métodos de Controle de Acesso ao Meio",
+      "content": "{{_moduleNumber}}.2 Métodos de Controle de Acesso ao Meio"
+    },
+    {
+      "type": "text",
+      "title": ".2 Métodos de Controle de Acesso ao Meio",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".2.1 Comunicação Half e Full duplex",
+      "content": "**Comunicação meio duplex:** Ambos os dispositivos podem transmitir e receber no meio físico, mas não podem fazer isso simultaneamente. WLANs e topologias de barramento herdadas com hubs Ethernet usam o modo meio duplex. O meio duplex permite que apenas um dispositivo envie ou receba por vez na mídia compartilhada. Clique em reproduzir na figura para ver a animação mostrando a comunicação meio duplex.\n\n**Comunicação duplex completo:** Ambos os dispositivos podem transmitir e receber simultaneamente na mídia compartilhada. A camada de enlace de dados supõe que o meio físico está disponível para transmissão para ambos os nós a qualquer momento. Os comutadores Ethernet operam no modo duplex completo por padrão, mas podem operar no modo meio duplex se estiverem conectados a um dispositivo como um hub Ethernet. Clique em reproduzir na figura para ver a animação mostrando a comunicação duplex completo."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Em resumo, as comunicações meio duplex restringem a troca de dados a uma direção de cada vez. O modo duplex completo permite o envio e o recebimento simultâneos de dados.\nÉ importante que duas interfaces interconectadas, como uma NIC de host e uma interface em um comutador Ethernet, operem usando o mesmo modo duplex. Caso contrário, haverá uma incompatibilidade de duplex que criará ineficiência e latência no link."
+    },
+    {
+      "type": "accordion",
+      "title": ".2.2 Métodos de controle de acesso",
+      "content": "**Acesso Baseado em Contenção:** Em redes multiacesso baseadas em contenção, todos os nós estão operando em meio duplex, competindo pelo uso do meio. No entanto, apenas um dispositivo pode enviar por vez. Portanto, há um processo se mais de um dispositivo transmitir ao mesmo tempo. Exemplos de métodos de acesso baseados em contenção incluem o seguinte:\nAcesso múltiplo com detecção de colisão (CSMA/CD) usado em LANs Ethernet de topologia de barramento herdada\nAcesso múltiplo por operadora com prevenção de colisão (CSMA/CA) usado em LANs sem fio\n\n**Acesso Controlado:** Em uma rede multiacesso controlada, cada nó tem seu próprio tempo para usar o meio. Esses tipos determinísticos de redes herdadas são ineficientes porque um dispositivo deve aguardar sua vez para acessar o meio. Exemplos de redes multiacesso que usam acesso controlado incluem o seguinte:\nToken Ring legada\nARCNET legada"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: Atualmente, as redes Ethernet operam em duplex completo e não exigem um método de acesso."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.4 Acesso Baseado em Contenção – CSMA/CA",
+      "content": "Outra forma de CSMA usada pelas WLANs IEEE 802.11 é o acesso múltiplo por detecção de portadora/prevenção de colisão (CSMA/CA).\nO CMSA/CA usa um método semelhante ao CSMA/CD para detectar se a mídia está livre. O CMSA/CA usa técnicas adicionais. Em ambientes sem fio pode não ser possível para um dispositivo detectar uma colisão. O CMSA/CA não detecta colisões, mas tenta evitá-las esperando antes de transmitir. Cada dispositivo que transmite inclui o tempo necessário para a transmissão. Todos os outros dispositivos sem fio recebem essas informações e sabem quanto tempo a mídia ficará indisponível.\nNa figura, se o host A estiver recebendo um quadro sem fio do ponto de acesso, os hosts B e C também verão o quadro e por quanto tempo a mídia ficará indisponível.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Acesso Baseado em Contenção – CSMA/CA",
+      "content": "Depois que um dispositivo sem fio enviar um quadro 802.11, o receptor retornará uma confirmação para que o remetente saiba que o quadro chegou.\nQuer se trate de uma LAN Ethernet que use hubs, ou uma WLAN, os sistemas baseados em contenção não escalam bem sob uso intenso.\nNota: As LANs Ethernet que usam switches não utilizam um sistema baseado em contenção porque o switch e a NIC do host operam no modo duplex completo."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da Camada de Enlace de dados",
+      "content": "{{_moduleNumber}}.3 Resumo da Camada de Enlace de dados"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da Camada de Enlace de dados",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "Topologias\nOs dois tipos de topologias usados em redes LAN e WAN são físicos e lógicos. A camada de enlace de dados “vê” a topologia lógica da rede quando controla o acesso de dados ao meio físico. A topologia lógica influencia o tipo de enquadramento da rede e controle de acesso à mídia usado. Três tipos comuns de topologias WAN físicas são: ponto a ponto, hub e spoke e malha. As topologias ponto a ponto físicas conectam diretamente dois dispositivos finais (nós). A adição de conexões físicas intermediárias pode não alterar a topologia lógica. Em LANs de acesso múltiplo, os nós são interligados usando topologias em estrela ou estrela estendida. Neste tipo de topologia, os nós são conectados a um dispositivo intermediário central.\nAs topologias de LAN físicas incluem: estrela, estrela estendida, barramento e anel. As comunicações meio duplex trocam dados em uma direção de cada vez. duplex completo envia e recebe dados simultaneamente. Duas interfaces interconectadas devem usar o mesmo modo duplex ou haverá uma incompatibilidade duplex criando ineficiência e latência no link. LANs Ethernet e WLANs são exemplos de redes multiacesso. Uma rede multiacesso é uma rede que pode ter vários nós acessando a rede simultaneamente.\nAlgumas redes multiacesso requerem regras para controlar como os dispositivos compartilham a mídia física. Existem dois métodos básicos de controle de acesso para mídia compartilhada: acesso baseado em contenção e acesso controlado. Em redes multiacesso baseadas em contenção, todos os nós estão operando em meio duplex. Existe um processo se mais de um dispositivo transmitir ao mesmo tempo. Exemplos de métodos de acesso baseados em contenção incluem: CSMA/CD para LANs Ethernet de topologia barramento e CSMA/CA para WLANs."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Eu de novo!\nHalimah teve que examinar a rede em sua sede na Nigéria. Ela tem muita experiência na criação de topologias. Os dois tipos de topologias usados em redes LAN e WAN são físicos e lógicos. O Halima pode facilmente criar e interpretar topologias.\nVocê consegue desenhar uma topologia da sua rede doméstica? Isso pode ser um pouco mais simples do que a topologia em seu prédio de escritórios.\nQue tipo de topologia você acha que seu prédio tem? Considere perguntar a alguém do seu departamento de TI se você pode analisar a topologia."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual topologia exibe endereços IP da camada de dispositivo de rede?",
+      "options": [
+        "Topologia de endereço IP",
+        "Topologia lógica",
+        "Topologia física"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA topologia lógica mostra os endereços IP atribuídos às interfaces de dispositivo.",
+      "raw_id": "94341cee4c5b4fdf93e9758eaeea3a40"
+    },
+    {
+      "question": "Que tipo de redes físicas são comumente usadas em WANs? (Escolha três.)",
+      "options": [
+        "anel",
+        "malha",
+        "hub and spoke",
+        "barramento (bus)",
+        "ponto a ponto",
+        "estrela estendida (extended star)"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nAs redes de longa distância (WANs) geralmente incluem topologias físicas ponto a ponto, hub-and-spoke e malha.",
+      "raw_id": "0353c0c5615a4eeb89239c8182181640"
+    },
+    {
+      "question": "Qual topologia LAN é uma topologia híbrida?",
+      "options": [
+        "Barramento (bus)",
+        "Estrela estendida (extended star)",
+        "Anel",
+        "Estrela"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA topologia estrela estendida é considerada uma topologia híbrida porque combina várias topologias em estrelas.",
+      "raw_id": "e4d6921e00c744249a523619ab540ab8"
+    },
+    {
+      "question": "Qual topologia de LAN tem todos os sistemas finais interligados e terminados no final?",
+      "options": [
+        "Barramento (bus)",
+        "Estrela estendida (extended star)",
+        "Anel",
+        "Estrela"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm barramento tem todos os sistemas finais encadeados entre si e terminados no final.",
+      "raw_id": "1e13e30ee1444d5ba11d9013110c0e27"
+    },
+    {
+      "question": "Qual método de comunicação duplex é usado em WLANs?",
+      "options": [
+        "duplex completo",
+        "Meio duplex",
+        "Simplex"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAs LANs sem fio (WLANs) suportam apenas meio duplex porque apenas um dispositivo pode acessar a mídia de cada vez.",
+      "raw_id": "5006526a4138444da38f474f563347fb"
+    },
+    {
+      "question": "Quais métodos de controle de acesso à mídia são baseados em contenção? (Escolha duas.)",
+      "options": [
+        "CSMA/CD",
+        "CSMA/CA",
+        "Token Ring",
+        "ARCNET"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO acesso múltiplo com detecção de portadora e detecção de colisão (CSMA/CD) e o acesso múltiplo com detecção portadora com prevenção de colisão (CSMA/CA) são métodos de acesso baseados em contenção.",
+      "raw_id": "5cb9b7c6ee03496e8cc79fcbfa6c4ed7"
+    },
+    {
+      "question": "Qual método de controle de acesso requer que o destino envie uma confirmação para que o remetente saiba que o quadro chegou?",
+      "options": [
+        "CSMA/CD",
+        "CSMA/CA",
+        "Token Ring",
+        "ARCNET"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO método de acesso CSMA/CA exige que o destinatário retorne uma confirmação para que o remetente saiba que o quadro chegou.",
+      "raw_id": "2a029c619d2b4fa19cdc23994ccead82"
+    },
+    {
+      "question": "Uma escola está adicionando 10 computadores à sala de aula. Qual é a topologia de rede física mais comum usada em uma sala de aula?",
+      "options": [
+        "Barramento (bus)",
+        "Anel",
+        "Estrela",
+        "Estrela estendida (extended star)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A topologia física em estrela é comum em redes menores. É fácil solucionar problemas, e os problemas de conexão são limitados ao cabo e ao host afetados. As topologias de barramento e anel são mais difíceis de solucionar. As topologias em estrela estendida são mais adequadas para redes maiores e mais complexas.",
+      "raw_id": "3521172fcbae4957a30b22d9098596f1"
+    },
+    {
+      "question": "Qual método de acesso à mídia exige que um dispositivo final envie uma notificação pela mídia antes de enviar dados?",
+      "options": [
+        "CSMA/CA​",
+        "CSMA/CD​",
+        "Determinístico",
+        "Passagem de token"
+      ],
+      "correctIndex": 0,
+      "explanation": "Usando o CSMA/CA como o método de controle de acesso à mídia, um dispositivo examinará a mídia de rede. Se não houver portadora, o dispositivo envia uma notificação e, se nenhum outro dispositivo usa a mídia, ele começa a enviar seus dados. Esse método difere do CSMA/CD, no qual um dispositivo envia dados quando detecta que a mídia está livre, sem enviar uma notificação.",
+      "raw_id": "3e2641bcdc064291915dd3976bb2ca4b"
+    },
+    {
+      "question": "Uma empresa tem quatro filiais. A sede precisa de conectividade total com todas as filiais. As filiais não precisam ser conectadas diretamente uns aos outros. Qual topologia WAN é mais adequada?",
+      "options": [
+        "Barramento (bus)",
+        "Malha completa",
+        "Hub and spoke",
+        "Malha",
+        "Ponto a ponto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uma topologia ponto a ponto conecta apenas dois nós. Um barramento é uma topologia herdada para LANs. As topologias de malha e malha completa têm mais conectividade do que o necessário (todas ou a maioria das ramificações serão conectadas umas às outras). Um design hub and spoke conectará a matriz a todos as suas filiais, conforme desejado.",
+      "raw_id": "ddc5f73cfade4a9db53c1ac6d43afa5f"
+    },
+    {
+      "question": "O que é uma característica do CSMA/CA diferente do CSMA/CD?",
+      "options": [
+        "O CSMA/CA é adequado para redes com topologia de anel de token.",
+        "Um dispositivo final envia uma notificação pela mídia antes de enviar um quadro de dados.",
+        "Nenhuma colisão pode existir em uma rede local CSMA/CA.",
+        "O CSMA CA é um método determinístico de acesso que controla o uso da rede."
+      ],
+      "correctIndex": 1,
+      "explanation": "O CSMA/CD e o CSMA/CA são métodos de controle de acesso baseados em contenção. Com CSMA/CD, cada dispositivo final monitora se há presença de um sinal de dados na mídia. Se a mídia estiver livre, o dispositivo transmite dados. Com o CSMA/CA, cada dispositivo final também examina a mídia em busca da presença de um sinal de dados. Se a mídia estiver livre, o dispositivo envia uma notificação sobre a intenção de usá-la. O dispositivo então envia os dados. Com esse método, o CSMA/CA evita possíveis colisões, mas não as detém completamente.",
+      "raw_id": "3c1e506bf97d4d059a2f6e99d666a7a5"
+    },
+    {
+      "question": "Qual afirmação descreve corretamente a operação do CSMA/CD?",
+      "options": [
+        "O dispositivo final aguarda até receber um token e depois transmitir os dados.",
+        "O dispositivo final espera até que não haja sinal de portadora, transmite um token e transmite os dados.",
+        "O dispositivo final espera até que não haja sinais de dados e depois transmite os dados enquanto escuta colisões.",
+        "O dispositivo final aguarda até que não haja sinais de dados, envia uma notificação de que vai usar a mídia e depois transmite os dados."
+      ],
+      "correctIndex": 2,
+      "explanation": "Os nós que usam portadora detectam vários acessos com detecção de colisão (CSMA / CD) aguardam até que a mídia não seja usada antes de enviar dados. Eles ouvirão sinais de outros nós que podem indicar que ocorreu uma colisão. Se um nó estiver usando a prevenção de colisão (CSMA / CA), ele notificará os outros nós sobre sua intenção de transmitir dados para evitar uma colisão. As técnicas de acesso controlado, como passagem de token, não enfrentam colisões.",
+      "raw_id": "b7df76cdadd14c1cb886a47a92f9b9ae"
+    },
+    {
+      "question": "Qual tipo de topologia descreve o processo que os hosts usam para acessar e se comunicar em uma rede?",
+      "options": [
+        "estrela",
+        "lógica",
+        "física",
+        "barramento"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uma topologia física define a maneira que computadores, impressoras  e outros dispositivos de rede são conectados a uma rede. Uma topologia em estrela é um tipo de topologia física e tem um ponto de conexão central, que é um dispositivo como um hub, switch ou roteador. Uma topologia de barramento é outro tipo de topologia física em que cada computador se conecta a um cabo comum.",
+      "raw_id": "7b6b7218a93846aab35ed8548d663f87"
+    },
+    {
+      "question": "Como um dispositivo usa a tecnologia CSMA/CA para evitar colisões?",
+      "options": [
+        "Ele monitora a mídia e só começa a transmitir quando a mídia está livre.",
+        "Ele envia uma notificação antes de transmitir quando a mídia está livre.",
+        "Ele usa um canal duplex completo para comunicação.",
+        "Ele espera um token antes de transmitir."
+      ],
+      "correctIndex": 1,
+      "explanation": "No CSMA/CA, o dispositivo examina a mídia quanto à presença de um sinal de dados. Se a mídia estiver livre, o dispositivo envia uma notificação sobre a intenção de usá-la. O dispositivo envia os dados. Esse método é usado por tecnologias de rede sem fio 802.11.",
+      "raw_id": "70fef40c049d4faeb7603e594e61e3ae"
+    },
+    {
+      "question": "Em uma rede ponto a ponto, qual tipo de comunicação é usado quando dois dispositivos podem transmitir e receber, mas não ao mesmo tempo?",
+      "options": [
+        "Acesso controlado",
+        "Determinístico",
+        "Duplex completo",
+        "Half duplex"
+      ],
+      "correctIndex": 3,
+      "explanation": "A comunicação meio duplex ocorre quando dois dispositivos podem transmitir e receber no meio, mas não podem ser ativados simultaneamente. Comunicação duplex completo ocorre quando  ambos os dispositivos podem transmitir e receber no meio físico ao mesmo tempo. A comunicação meio duplex geralmente é baseada em contenção, enquanto o acesso controlado (determinístico) é aplicado em tecnologias onde os dispositivos se revezam para acessar o meio.",
+      "raw_id": "9538494208ae47a7af0be0964bebee59"
+    },
+    {
+      "question": "Um consultório odontológico oferece uma WLAN na área de espera para que os pacientes acessem a Internet. A WLAN é equipada com um roteador sem fio que se conecta à Internet através de uma conexão por cabo. Qual modo de transmissão de dados é usado pelos dispositivos sem fio?",
+      "options": [
+        "simplex",
+        "meio duplex",
+        "duplex completo",
+        "multi-duplex"
+      ],
+      "correctIndex": 1,
+      "explanation": "As WLANs usam Acesso Múltiplo com  Detecção de Portadora e com Prevenção de Colisões (CSMA/CA). Cada dispositivo wireless  que transmite dados inclui no quadro o tempo de duração que ele necessita para a transmissão. Todos os outros dispositivos sem fio recebem essas informações e sabem quanto tempo o meio ficará indisponível. Isso significa que os dispositivos sem fio operam no modo meio duplex.",
+      "raw_id": "e588755a130d43daa29d37a82bf8e2e7"
+    },
+    {
+      "question": "Qual topologia de LAN exige que um dispositivo intermediário central conecte os dispositivos finais?",
+      "options": [
+        "Barramento (bus)",
+        "Anel",
+        "Malha",
+        "Estrela"
+      ],
+      "correctIndex": 3,
+      "explanation": "Em uma topologia em rede em estrela, os dispositivos finais são conectados a um dispositivo intermediário central, como um hub ou um switch.",
+      "raw_id": "06befeedab744166886686b964c61d7e"
+    },
+    {
+      "question": "O que é usado em WLANs para evitar colisões de pacotes?",
+      "options": [
+        "CSMA/CA",
+        "STP",
+        "VLANs",
+        "SVIs"
+      ],
+      "correctIndex": 0,
+      "explanation": "WLANs são redes meio duplex, o que significa que apenas um cliente pode transmitir ou receber em um determinado momento. As WLANs usam acesso múltiplo com detecção de portadora com prevenção de colisão (CSMA/CA) para determinar quando enviar dados na rede para evitar colisões de pacotes.",
+      "raw_id": "926959e968194373909040030de0863e"
+    },
+    {
+      "question": "Qual é a primeira etapa no processo CSMA/CA quando um cliente sem fio está tentando se comunicar na rede sem fio?",
+      "options": [
+        "O cliente escuta o tráfego no canal.",
+        "O cliente envia uma mensagem RTS ao AP.",
+        "O AP envia uma mensagem CTS para o cliente.",
+        "O cliente envia um quadro de teste para o canal."
+      ],
+      "correctIndex": 0,
+      "explanation": "Quando um cliente sem fio está tentando se comunicar na rede, ele primeiro ouve o canal para ter certeza de que ele está ocioso. Em seguida, o cliente envia uma mensagem RTS (Request to Send - Pedido para Enviar)  ao AP para solicitar acesso dedicado à rede. O AP enviará uma mensagem CTS (Clear to Send) concedendo acesso ao cliente. O cliente irá então transmitir dados.",
+      "raw_id": "611893a0543445c5b008dc8047504d9d"
+    }
+  ],
+  "images": []
+}

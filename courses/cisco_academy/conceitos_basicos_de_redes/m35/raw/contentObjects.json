@@ -1,0 +1,614 @@
+[
+  {
+    "_id": "a406738d35464fc19660394b1be49a3b",
+    "body": "<p><span>Entendendo os Switches e Roteadores Cisco.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "a406738d35464fc19660394b1be49a3b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "81598302-734a-49b3-9271-e43aca52665f",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg",
+        "_small": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg",
+        "_medium": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg",
+        "_small": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg",
+        "_medium": "pt-BR/assets/ecabd05dca3545ad95c12191b3dda502.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d9774d48740c4b25a26b424f27d47be2",
+    "body": "<p><span>Descrever os switches de LAN da Cisco.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Switches  Cisco",
+    "_oldId": "d9774d48740c4b25a26b424f27d47be2",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "21ffa569-2f08-4542-a80f-eb36bfcab707",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg",
+        "_small": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg",
+        "_medium": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg",
+        "_small": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg",
+        "_medium": "pt-BR/assets/e72b7ea43ae94db083d318091a75c442.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.1. Switches  Cisco",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c80f46a5342549b98d2a5a8011836476",
+    "body": "<p><span>Descrever os métodos de encaminhamento de switch e as configurações da porta disponíveis nas portas de switch de camada 2.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Velocidades do Switch e Métodos de Encaminhamento",
+    "_oldId": "c80f46a5342549b98d2a5a8011836476",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "87e4b348-718a-4fe3-9b20-2f382dbb0e65",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg",
+        "_small": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg",
+        "_medium": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg",
+        "_small": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg",
+        "_medium": "pt-BR/assets/67c58b6dfbcb40a9bb0f05319d4ae6ad.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.2. Velocidades do Switch e Métodos de Encaminhamento",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1a12d768a26547ac89e105484ecacc54",
+    "body": "<p><span>Descrever o processo de inicialização do switch de LAN da Cisco.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Processo de inicialização do switch",
+    "_oldId": "1a12d768a26547ac89e105484ecacc54",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "421ee331-0f04-4d66-8744-0b9a4f0aed3d",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg",
+        "_small": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg",
+        "_medium": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg",
+        "_small": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg",
+        "_medium": "pt-BR/assets/ce888b0ce9fb4c95815f9f4976766556.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.3. Processo de inicialização do switch",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "163ac22561c64f38a8c78420cea7faae",
+    "body": "<p><span>Descrever os roteadores da Cisco para empresas de pequeno porte.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Roteadores Cisco",
+    "_oldId": "163ac22561c64f38a8c78420cea7faae",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "0917ef71-64d6-494d-a250-bed3a076e1bd",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg",
+        "_small": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg",
+        "_medium": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg",
+        "_small": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg",
+        "_medium": "pt-BR/assets/2bb3be01bb254374aa1aefe6d6b67ff9.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.4. Roteadores Cisco",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "52e00d289d3d433fb39fd4d0f88966ea",
+    "body": "<p><span>Descrever o processo de inicialização do roteador da Cisco.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Processo de inicialização do roteador",
+    "_oldId": "52e00d289d3d433fb39fd4d0f88966ea",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "372701b2-a321-4fd1-9111-d8a3525a64df",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg",
+        "_small": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg",
+        "_medium": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg",
+        "_small": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg",
+        "_medium": "pt-BR/assets/d04cdcc51d4e45ba9188b07f2c0d00d0.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.5. Processo de inicialização do roteador",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1bd615cb7d794f53b17bcd07676f5a4f",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.6. Resumo Switches e roteadores Cisco",
+    "_oldId": "1bd615cb7d794f53b17bcd07676f5a4f",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "eaf153627a0b498db1d170bee30f2139",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "4daf0575-39f5-4b4d-bd85-4e514cf69df1",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg",
+        "_small": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg",
+        "_medium": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg",
+        "_small": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg",
+        "_medium": "pt-BR/assets/2a0cfd20eeda40eb9c8af6562a60a056.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "eaf153627a0b498db1d170bee30f2139",
+    "displayTitle": "{{_moduleNumber}}.6. Resumo Switches e roteadores Cisco",
+    "_isPageTracer": false,
+    "_activityParentId": "498b85c3-1992-4d53-abc5-3863cd16dd42",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

@@ -1,0 +1,409 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Oi, é Webster novamente.\nHalimah está tendo uma boa visão da rede na sede e nas outras filiais. Ela entende melhor como essas redes são, na verdade, apenas uma rede conectada.\nÉ na camada de rede que ocorre a conectividade de ponta a ponta.  A conectividade permite enviar um e-mail a um amigo, acessar um site, transmitir um podcast e recuperar um documento de um local central. Gosto de saber sobre redes, protocolos e serviços que estão envolvidos.\nVocê está intrigado? Eu sei que eu estou!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Como um Host Roteia",
+      "content": "{{_moduleNumber}}.1 Como um Host Roteia"
+    },
+    {
+      "type": "text",
+      "title": ".1 Como um Host Roteia",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Decisão de Encaminhamento do Host",
+      "content": "Com IPv4 e IPv6, os pacotes são sempre criados no host de origem. O host de origem deve ser capaz de direcionar o pacote para o host de destino. Para fazer isso, os dispositivos finais (host) criam sua própria tabela de roteamento. Este tópico discute como os dispositivos finais usam tabelas de roteamento.\nOutra função da camada de rede é direcionar pacotes entre hosts. Um host pode enviar um pacote para o seguinte:\nEle mesmo - Um host pode executar ping em si mesmo enviando um pacote para um endereço IPv4 especial  127.0.0.1 ou um endereço IPv6 :: / 1, conhecido como interface de loopback. O ping na interface de loopback testa a pilha de protocolos do TCP/IP no host.\nHost local - este é um host de destino que está na mesma rede local que o host de envio. Os hosts de origem e destino compartilham o mesmo endereço de rede.\nHost remoto - este é um host de destino em uma rede remota. Os hosts de origem e destino não compartilham o mesmo endereço de rede.\nA figura ilustra a conexão PC1 a um host local na mesma rede e a um host remoto localizado em outra rede.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Decisão de Encaminhamento do Host",
+      "content": "Se um pacote é destinado a um host local ou a um host remoto é determinado pelo dispositivo final de origem. O dispositivo final de origem determina se o endereço IP de destino está na mesma rede em que o próprio dispositivo de origem está. O método de determinação varia de acordo com a versão IP:\nEm IPv4 - o dispositivo de origem usa sua própria máscara de sub-rede junto com seu próprio endereço IPv4 e o endereço IPv4 de destino para fazer essa determinação.\nEm IPv6 - o roteador local anuncia o endereço da rede local (prefixo) para todos os dispositivos da rede.\nEm uma rede doméstica ou comercial, você pode ter vários dispositivos com e sem fio interconectados usando um dispositivo intermediário, como um switch LAN ou um ponto de acesso sem fio (WAP). Este dispositivo intermediário fornece interconexões entre hosts locais na rede local. Os hosts locais podem interagir entre si e compartilhar informações sem a necessidade de dispositivos adicionais. Se um host estiver enviando um pacote para um dispositivo configurado com a mesma rede IP que o dispositivo host, o pacote será simplesmente encaminhado para fora da interface do host, através do dispositivo intermediário e diretamente ao dispositivo de destino.\nObviamente, na maioria das situações, queremos que nossos dispositivos possam se conectar além do segmento de rede local, como em outras residências, empresas e na Internet. Os dispositivos que estão além do segmento de rede local são conhecidos como hosts remotos. Quando um dispositivo de origem envia um pacote a um dispositivo de destino remoto, é necessária a ajuda de roteadores e do roteamento. O roteamento é o processo de identificação do melhor caminho até um destino. O roteador conectado ao segmento de rede local é conhecido como gateway padrão."
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Gateway Padrão",
+      "content": "O gateway padrão é o dispositivo de rede (ou seja, roteador ou switch da Camada 3) que pode rotear o tráfego para outras redes. Comparando a rede com uma sala, o gateway padrão é a porta. Se você quiser ir para outra sala (rede), vai precisar encontrar essa porta.\nEm uma rede, um gateway padrão geralmente é um roteador com esses recursos:\nEle possui um endereço IP local no mesmo intervalo de endereços que outros hosts na rede local.\nEle pode aceitar dados na rede local e encaminhar dados para fora da rede local.\nEle direciona o tráfego para outras redes.\nUm gateway padrão é necessário para enviar tráfego fora da rede local. O tráfego não pode ser encaminhado para fora da rede local se não houver gateway padrão, o endereço de gateway padrão não estiver configurado ou o gateway padrão estiver inativo."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Um host encaminha para o gateway padrão",
+      "content": "Uma tabela de roteamento de host normalmente inclui um gateway padrão. No IPv4, o host recebe o endereço IPv4 do gateway padrão dinamicamente do DHCP (Dynamic Host Configuration Protocol) ou configurado manualmente. No IPv6, o roteador anuncia o endereço de gateway padrão ou o host pode ser configurado manualmente.\nNa figura, PC1 e PC2 são configurados com o endereço IPv4 de 192.168.10.1 como o gateway padrão.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "A configuração do gateway padrão cria uma rota padrão na tabela de roteamento do computador. Uma rota padrão é a rota ou o caminho que o computador usa quando tenta entrar em contato com uma rede remota.\nTanto PC1 quanto PC2 terão uma rota padrão para enviar todo o tráfego destinado a redes remotas para R1."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Em um host do Windows, o comando route print ou o comando netstat-r pode ser usado para exibir a tabela de roteamento do host. Os dois comandos geram o mesmo resultado. O resultado pode parecer confuso no começo, mas é bastante simples de entender.\nA figura exibe uma topologia e a saída gerada pelo comando netstat –r.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: A saída exibe apenas a tabela de rotas IPv4.\nAo inserir o comando netstat-r  ou o comando equivalente route print três seções relacionadas às conexões de rede TCP/IP atuais são exibidas:\nLista de interface - lista o endereço de controle de acesso à mídia (MAC) e o número de interface atribuído de cada interface com capacidade de rede no host, incluindo adaptadores Ethernet, Wi-Fi e Bluetooth.\nTabela de rotas IPv4 - lista todas as rotas IPv4 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais.\nTabela de rotas IPv6 - lista todas as rotas IPv6 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais."
+    },
+    {
+      "type": "text",
+      "title": ".2 Tabelas de roteamento",
+      "content": "{{_moduleNumber}}.2 Tabelas de Roteamento"
+    },
+    {
+      "type": "text",
+      "title": ".2 Tabelas de roteamento",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Decisão de Encaminhamento de Pacotes no Roteador",
+      "content": "O tópico anterior discutiu tabelas de roteamento de host. A maioria das redes também contém roteadores, que são dispositivos intermediários. Os roteadores também contêm tabelas de roteamento. Este tópico aborda as operações do roteador na camada de rede. Quando um host envia um pacote para outro host, ele consulta sua tabela de roteamento para determinar para onde enviar o pacote. Se o host de destino estiver em uma rede remota, o pacote será encaminhado para o gateway padrão, que geralmente é o roteador local.\nO que acontece quando um pacote chega na interface do roteador?\nO roteador examina o endereço IP de destino do pacote e pesquisa sua tabela de roteamento para determinar para onde encaminhar o pacote. A tabela de roteamento contém uma lista de todos os endereços de rede conhecidos (prefixos) e para onde encaminhar o pacote. Essas entradas são conhecidas como entradas de rota ou rotas. O roteador encaminhará o pacote usando a melhor (mais longa) entrada de rota correspondente.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Tabela de Roteamento do Roteador IP",
+      "content": "A tabela de roteamento do roteador contém entradas de rota de rede listando todos os possíveis destinos de rede conhecidos.\nA tabela de roteamento armazena três tipos de entradas de rota:\nRedes conectadas diretamente - Essas entradas de rota de rede são interfaces de roteador ativas. Os roteadores adicionam uma rota diretamente conectada quando uma interface está configurada com um endereço IP e está ativada. Cada interface do roteador está conectada a um segmento de rede diferente. Na figura, as redes diretamente conectadas na tabela de roteamento IPv4 R1 seriam 192.168.10.0/24 e 209.165.200.224/30.\nRedes remotas - Essas entradas de rotas de rede são conectadas a outros roteadores. Os roteadores aprendem sobre redes remotas sendo explicitamente configurados por um administrador ou trocando informações de rota usando um protocolo de roteamento dinâmico. Na figura, a rede remota na tabela de roteamento IPv4 R1 seria 10.1.1.0/24.\nRota padrão - Como um host, a maioria dos roteadores também inclui uma entrada de rota padrão, um gateway de último recurso. A rota padrão é usada quando não há correspondência melhor (mais) na tabela de roteamento IP. Na figura, a tabela de roteamento IPv4 R1 provavelmente incluiria uma rota padrão para encaminhar todos os pacotes para o roteador R2.\nA figura identifica as redes remotas e diretamente conectadas ao roteador R1.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Um roteador pode aprender sobre redes remotas de duas maneiras:\nManualmente – As redes remotas são inseridas manualmente na tabela de roteamento usando rotas estáticas.\nDinamicamente - As rotas remotas são aprendidas automaticamente usando um protocolo de roteamento dinâmico."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Roteamento estático",
+      "content": "Rotas estáticas são entradas de rota configuradas manualmente. A figura mostra um exemplo de uma rota estática configurada manualmente no roteador R1. A rota estática inclui o endereço de rede remota e o endereço IP do roteador de salto seguinte.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Roteamento estático",
+      "content": "O R1 é configurado manualmente com uma rota estática para alcançar a rede 10.1.1.0/24. Se esse caminho mudar, R1 exigirá uma nova rota estática.\nSe houver uma alteração na topologia da rede, a rota estática não será atualizada automaticamente e deverá ser reconfigurada manualmente. Por exemplo, na figura R1 tem uma rota estática para alcançar a rede 10.1.1.0/24 via R2. Se esse caminho não estiver mais disponível, R1 precisaria ser reconfigurado com uma nova rota estática para a rede 10.1.1.0/24 via R3. Portanto, o roteador R3 precisaria ter uma entrada de rota em sua tabela de roteamento para enviar pacotes destinados a 10.1.1.0/24 para R2.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.3 Roteamento estático",
+      "content": "Se a rota de R1 via R2 não estiver mais disponível, uma nova rota estática via R3 precisaria ser configurada. Uma rota estática não se ajusta automaticamente para alterações de topologia.\nO roteamento estático tem as seguintes características:\nUma rota estática deve ser configurada manualmente.\nO administrador precisa reconfigurar uma rota estática se houver uma alteração na topologia e a rota estática não for mais viável.\nUma rota estática é apropriada para uma rede pequena e quando há poucos ou nenhum vínculo redundante."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Um protocolo de roteamento dinâmico permite que os roteadores aprendam automaticamente sobre redes remotas, incluindo uma rota padrão, de outros roteadores. Os roteadores que usam protocolos de roteamento dinâmico compartilham automaticamente informações de roteamento com outros roteadores e compensam qualquer alteração de topologia sem envolver o administrador da rede. Se houver uma alteração na topologia de rede, os roteadores compartilham essas informações usando o protocolo de roteamento dinâmico e atualizam automaticamente suas tabelas de roteamento.\nOs protocolos de roteamento dinâmico incluem OSPF e Enhanced Interior Gateway Routing Protocol (EIGRP). A figura mostra um exemplo de roteadores R1 e R2 compartilhando automaticamente informações de rede usando o protocolo de roteamento OSPF.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.3 Roteamento estático",
+      "content": "R1 está usando o protocolo de roteamento OSPF para informar R2 sobre a rede 192.168.10.0/24.\nR2 está usando o protocolo de roteamento OSPF para deixar R1 saber sobre a rede 10.1.1.0/24."
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "A configuração básica requer apenas que o administrador de rede habilite as redes conectadas diretamente dentro do protocolo de roteamento dinâmico. O protocolo de roteamento dinâmico fará automaticamente o seguinte:\nDescobrir redes remotas\nManter as informações de roteamento atualizadas\nEscolha o melhor caminho para as redes de destino\nTentar encontrar um novo melhor caminho se o caminho atual não estiver mais disponível\nQuando um roteador é configurado manualmente com uma rota estática ou aprende sobre uma rede remota dinamicamente usando um protocolo de roteamento dinâmico, o endereço de rede remota e o endereço de próximo salto são inseridos na tabela de roteamento IP. Conforme mostrado na figura, se houver uma alteração na topologia de rede, os roteadores ajustarão automaticamente e tentarão encontrar um novo melhor caminho.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.3 Roteamento estático",
+      "content": "R1, R2 e R3 estão usando o protocolo de roteamento dinâmico OSPF. Se houver uma alteração na topologia de rede, eles poderão ajustar automaticamente para encontrar um novo caminho melhor.\nNota: É comum que alguns roteadores usem uma combinação de rotas estáticas e um protocolo de roteamento dinâmico."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.6 Introdução a uma tabela de roteamento IPv4",
+      "content": "Observe na figura que R2 está conectado à internet. Portanto, o administrador configurou R1 com uma rota estática padrão enviando pacotes para R2 quando não há nenhuma entrada específica na tabela de roteamento que corresponda ao endereço IP de destino. R1 e R2 também estão usando roteamento OSPF para anunciar redes conectadas diretamente.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O comando de modo EXEC privilegiado show ip route  é usado para exibir a tabela de roteamento IPv4 em um roteador Cisco IOS O exemplo mostra a tabela de roteamento IPv4 do roteador R1. No início de cada entrada de tabela de roteamento é um código que é usado para identificar o tipo de rota ou como a rota foi aprendida. As fontes comuns de rotas (códigos) incluem:\nL - Endereço IP da interface local diretamente conectado\nC - Rede diretamente conectada\nS - A rota estática foi configurada manualmente por um administrador\nO - OSPF\nD - EIGRP\nA tabela de roteamento exibe todas as rotas de destino IPv4 conhecidas para R1.\nUma rota diretamente conectada é criada automaticamente quando uma interface do roteador é configurada com informações de endereço IP e é ativada. O roteador adiciona duas entradas de rota com os códigos C (ou seja, a rede conectada) e L (ou seja, o endereço IP da interface local da rede conectada). As entradas de rota também identificam a interface de saída a ser usada para alcançar a rede. As duas redes diretamente conectadas neste exemplo são 192.168.10.0/24 e 209.165.200.224/30.\nOs roteadores R1 e R2 também estão usando o protocolo de roteamento dinâmico OSPF para trocar informações do roteador. Na tabela de roteamento de exemplo, R1 tem uma entrada de rota para a rede 10.1.1.0/24 que aprendeu dinamicamente do roteador R2 por meio do protocolo de roteamento OSPF.\nUma rota padrão tem um endereço de rede de todos os zeros. Por exemplo, o endereço de rede IPv4 é 0.0.0.0. Uma entrada de rota estática padrão na tabela de roteamento começa com um código de S*, conforme destacado no exemplo."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da Roteamento na camada de rede",
+      "content": "{{_moduleNumber}}.3 Resumo da Roteamento na camada de rede"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da Roteamento na camada de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 O Que Eu Aprendi Neste Módulo?",
+      "content": "Como um host roteia\nUm host pode enviar um pacote para si mesmo, outro host local e um host remoto. No IPv4, o dispositivo de origem usa sua própria máscara de sub-rede juntamente com seu próprio endereço IPv4 e o endereço IPv4 de destino para determinar se o host de destino está na mesma rede. No IPv6, o roteador local anuncia o endereço de rede local (prefixo) para todos os dispositivos na rede, para fazer essa determinação. O gateway padrão é o dispositivo de rede (ou seja, roteador) que pode rotear o tráfego para outras redes. Em uma rede, um gateway padrão geralmente é um roteador que tem um endereço IP local no mesmo intervalo de endereços que outros hosts na rede local, pode aceitar dados na rede local e encaminhar dados para fora da rede local e rotear o tráfego para outras redes. Uma tabela de roteamento do host normalmente inclui um gateway padrão. No IPv4, o host recebe o endereço IPv4 do gateway padrão dinamicamente via DHCP ou é configurado manualmente. No IPv6, o roteador anuncia o endereço de gateway padrão ou o host pode ser configurado manualmente. Em um host do Windows, o comando route print ou o comando netstat-r pode ser usado para exibir a tabela de roteamento do host.\nTabela de Roteamento\nQuando um host envia um pacote para outro host, ele consulta sua tabela de roteamento para determinar para onde enviar o pacote. Se o host de destino estiver em uma rede remota, o pacote será encaminhado para o gateway padrão, que geralmente é o roteador local. O que acontece quando um pacote chega na interface do roteador? O roteador examina o endereço IP de destino do pacote e pesquisa sua tabela de roteamento para determinar para onde encaminhar o pacote. A tabela de roteamento contém uma lista de todos os endereços de rede conhecidos (prefixos) e para onde encaminhar o pacote. Essas entradas são conhecidas como entradas de rota ou rotas. O roteador encaminhará o pacote usando a melhor (mais longa) entrada de rota correspondente.\nA tabela de roteamento de um roteador armazena três tipos de entradas de rota: redes conectadas diretamente, redes remotas e uma rota padrão. Os roteadores aprendem sobre redes remotas manualmente ou dinamicamente usando um protocolo de roteamento dinâmico. Rotas estáticas são entradas de rota configuradas manualmente. As rotas estáticas incluem o endereço de rede remota e o endereço IP do roteador de salto seguinte. OSPF e EIGRP são dois protocolos de roteamento dinâmico. O comando de modo EXEC privilegiado show ip route  é usado para exibir a tabela de roteamento IPv4 em um roteador Cisco IOS No início de uma tabela de roteamento IPv4 é um código que é usado para identificar o tipo de rota ou como a rota foi aprendida. As fontes comuns de rotas (códigos) incluem:\nL - Endereço IP da interface local diretamente conectada\nC - Rede conectada diretamente\nS - A rota estática foi configurada manualmente por um administrador\nO - Abra o caminho mais curto primeiro (OSPF)\nD - Protocolo de roteamento de gateway interior aprimorado (EIGRP)"
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Talvez você não trabalhe em um hospital, mas se você está aqui agora é porque, como Kishori, você usa computadores e quer saber mais sobre redes.\nVocê sabia que a Internet é uma enorme rede de redes que são conectadas, direta ou indiretamente, entre si? É como a Rede na qual que eu vivo. Uma parte pode ser quebrada, mas a minha Rede não se desfaz; Posso corrigi-la e até fortalecê-la.\nVocê gostaria de fazer isso pela sua rede?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual declaração sobre decisões de encaminhamento de host é verdadeira?",
+      "options": [
+        "Um host não pode fazer ping em si mesmo.",
+        "Um host de destino remoto está na mesma rede local que o host de envio.",
+        "Os hosts locais podem se alcançar sem a necessidade de um roteador.",
+        "O roteamento é habilitado em switches para descobrir o melhor caminho para um destino."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nNão é necessário um roteador para encaminhar pacotes entre hosts locais na rede.",
+      "raw_id": "b207e86ad8f44962b24137803c4025db"
+    },
+    {
+      "question": "Qual instrução de gateway padrão é verdadeira?",
+      "options": [
+        "Um gateway padrão é necessário para enviar pacotes para outros hosts na rede local.",
+        "O endereço de gateway padrão é o endereço IP de um switch em uma rede remota.",
+        "O endereço de gateway padrão é o endereço IP do roteador na rede local.",
+        "O tráfego só pode ser encaminhado para fora da rede local se não houver gateway padrão."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO gateway padrão é o endereço IP de um roteador na rede local.",
+      "raw_id": "9c9e9d07a0704bd4b9033705af9dc563"
+    },
+    {
+      "question": "Quais dois comandos podem ser inseridos em um host Windows para exibir sua tabela de roteamento IPv4 e IPv6? (Escolha duas.)",
+      "options": [
+        "netroute -l",
+        "route",
+        "print route",
+        "route print",
+        "netstat - r"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs comandos netastat-r e route print  exibirá a tabela de roteamento de um host do Windows.",
+      "raw_id": "8e21fce11366453e8804598fdd6eb8dc"
+    },
+    {
+      "question": "Qual é o comando usado em um roteador Cisco IOS para exibir a tabela de roteamento?",
+      "options": [
+        "netstart -r",
+        "route print",
+        "show ip route",
+        "show routing table"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO comando  show ip route  é usado para exibir a tabela de roteamento  em um roteador Cisco IOS",
+      "raw_id": "976d0ece01be410a8ed3bfdf8b2761a2"
+    },
+    {
+      "question": "O que um código de “O” indica ao lado de uma rota na tabela de roteamento?",
+      "options": [
+        "uma rota diretamente conectada",
+        "uma rota com uma distância administrativa de 0",
+        "um portal de último recurso",
+        "uma rota aprendida dinamicamente do OSPF"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs códigos no início de cada entrada da tabela de roteamento são usados para identificar o tipo de rota ou como a rota foi aprendida. Um código \"O\" indica que a rota foi aprendida no OSPF.",
+      "raw_id": "1b0ceaf24c4c4100bdfd5a7a7a486bed"
+    },
+    {
+      "question": "Esse tipo de rota também é conhecido como gateway de último recurso.",
+      "options": [
+        "rota estática",
+        "rota remota",
+        "rota padrão",
+        "rota diretamente conectada"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUma rota padrão também é conhecida como gateway de último recurso.",
+      "raw_id": "75b9e23ba4924cd09ae0073d4ca28a3e"
+    },
+    {
+      "question": "Qual é uma característica das rotas estáticas?",
+      "options": [
+        "Eles são configurados manualmente.",
+        "Eles são anunciados para vizinhos diretamente conectados.",
+        "Eles são apropriados quando há muitos links redundantes.",
+        "Eles se ajustam automaticamente a uma alteração na topologia de rede."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nAs rotas estáticas são configuradas manualmente e não se ajustam às alterações na topologia da rede e não são anunciadas para roteadores vizinhos.",
+      "raw_id": "ac629a98b62f4acf90c4063606c9e85c"
+    },
+    {
+      "question": "Verdadeiro ou falso? Um roteador pode ser configurado com uma combinação de rotas estáticas e um protocolo de roteamento dinâmico.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA resposta correta é verdadeira. Os roteadores podem ser configurados com rotas estáticas e com um protocolo de roteamento dinâmico.",
+      "raw_id": "cf5d162251d6415590f54dd40cbf86e0"
+    },
+    {
+      "question": "Um computador pode acessar dispositivos na mesma rede, mas não pode acessar dispositivos em outras redes. Qual é a provável causa desse problema?",
+      "options": [
+        "O cabo não está conectado corretamente à NIC.",
+        "O computador tem um endereço IP inválido.",
+        "O computador tem uma máscara de sub-rede incorreta.",
+        "O computador tem um endereço de gateway padrão inválido."
+      ],
+      "correctIndex": 3,
+      "explanation": "O gateway padrão é o endereço do dispositivo que um host usa para acessar a Internet ou outra rede. Se o gateway padrão estiver ausente ou incorreto, esse host não poderá se comunicar para fora da rede local. Como o host pode acessar outros hosts na rede local, o cabo de rede e as outras partes da configuração de IP estão funcionando.",
+      "raw_id": "0860cdf512734e1893b26e9f9a837ced"
+    },
+    {
+      "question": "Quais informações o teste de loopback fornece?",
+      "options": [
+        "A pilha de TCP/IP no dispositivo está funcionando corretamente.",
+        "O dispositivo tem conectividade de ponta a ponta.",
+        "O DHCP está funcionando corretamente.",
+        "O cabo Ethernet está funcionando corretamente.",
+        "O dispositivo tem o endereço IP correto na rede."
+      ],
+      "correctIndex": 0,
+      "explanation": "Como o teste de loopback envia os pacotes de volta para o dispositivo host, ele não fornece informações sobre a conectividade de rede para outros hosts. O teste de loopback verifica se a NIC do host, os drivers e a pilha de TCP/IP estão funcionando.",
+      "raw_id": "7a4403a290b54a81bd6185fd41a89206"
+    },
+    {
+      "question": "Qual dois comandos pode ser usado em um host Windows para exibir a tabela de roteamento? (Escolha duas.)",
+      "options": [
+        "netstat -s",
+        "route print",
+        "show ip route",
+        "netstat -r",
+        "tracert"
+      ],
+      "correctIndex": 3,
+      "explanation": "Em um host do Windows, os comandos route print ou netstat -r podem ser usados para exibir a tabela de roteamento do host. Ambos os comandos geram a mesma saída. Em um roteador, o comando show ip route é usado para exibir a tabela de roteamento. O comando netstat – s é usado para exibir estatísticas por protocolo. O comando tracert é usado para exibir o caminho que um pacote percorre até seu destino.",
+      "raw_id": "ea91372ff4c34f44b51eecc0a6219884"
+    },
+    {
+      "question": "Durante o processo de encaminhamento de  tráfego , o que o roteador fará imediatamente depois de fazer a correspondência do endereço IP destino com uma rede conectada diretamente pela entrada da tabela?",
+      "options": [
+        "descartar o tráfego após consultar a tabela de rota",
+        "procurar o endereço de próximo salto do pacote",
+        "comutar o pacote para a interface conectada diretamente",
+        "analisar o endereço IP de destino"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um roteador recebe um pacote em uma interfacee vê o endereço IP destino. Ele consulta sua tabela de roteamento e combina o endereço IP de destino com uma entrada da tabela de roteamento. O roteador descobre que precisa enviar o pacote para o endereço de próximo salto ou para uma interface diretamente conectada. Quando o endereço de destino está em uma interface diretamente conectada, o pacote é comutado para essa interface.",
+      "raw_id": "2b4d07dd55cb45139739736f22b55022"
+    },
+    {
+      "question": "Um roteador recebe um pacote da interface Gigabit 0/0 e determina que o pacote precisa ser encaminhado para fora da interface Gigabit 0/1. O que o roteador fará a seguir?",
+      "options": [
+        "Rotear o pacote para fora da interface Gigabit 0/1",
+        "Criar um novo quadro Ethernet de camada 2 a ser enviado para o destino",
+        "Procurar no cache ARP para determinar o endereço IP de destino",
+        "Procurar na tabela de roteamento para determinar se a rede de destino está na tabela de roteamento"
+      ],
+      "correctIndex": 1,
+      "explanation": "Depois que um roteador recebe um pacote e olha dentro do cabeçalho para determinar a rede de destino, o roteador compara a rede de destino com a tabela de roteamento para determinar se o pacote deve ser roteado ou descartado. Se roteado, o roteador anexará um novo cabeçalho de Camada 2 com base na tecnologia usada pela porta de saída usada. O pacote é então roteado para fora da porta de destino conforme designado pela tabela de roteamento. O cache ARP é usado para corresponder um endereço IP com um endereço MAC.",
+      "raw_id": "a2ed91ff2c5543ec845710e0a5826cb5"
+    },
+    {
+      "question": "Que tipo de rota é indicada pelo código C em uma tabela de roteamento IPv4 em um roteador da Cisco?",
+      "options": [
+        "rota estática",
+        "rota padrão",
+        "rota diretamente conectada",
+        "rota dinâmica aprendida por EIGRP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alguns dos códigos da tabela de roteamento IPv4 incluem o seguinte:\nC - conectado diretamente\nS - estático\nD – EIGRP\n* - candidata padrão",
+      "raw_id": "d1637b161c814b48825c5a5dddcfa47c"
+    },
+    {
+      "question": "Quando um roteador recebe um pacote, quais informações devem ser analisadas para que o pacote seja encaminhado a um destino remoto?",
+      "options": [
+        "Endereço MAC de destino",
+        "Endereço IP de origem",
+        "Endereço IP destino",
+        "Endereço MAC origem"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um roteador recebe um pacote, ele examina o endereço destino do pacote e usa a tabela de roteamento para procurar o melhor caminho para essa rede.",
+      "raw_id": "b349ce16391a49bfb20fbaee0610340b"
+    },
+    {
+      "question": "Que tipo de rota é criado quando um administrador de rede configura manualmente uma rota que tem uma interface de saída ativa?",
+      "options": [
+        "estática",
+        "diretamente conectada",
+        "local",
+        "dinâmico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma rota estática é configurada manualmente pelo administrador de rede.",
+      "raw_id": "eae495c617ff49c49a3310a2b93b6e60"
+    },
+    {
+      "question": "Se uma empresa decidiu não usar o roteamento estático para os quatro roteadores dentro da empresa, qual seria uma solução alternativa?",
+      "options": [
+        "Utilizar DHCP.",
+        "Habilitar um protocolo de roteamento.",
+        "Usar etiquetas de fluxo automáticas.",
+        "Permitir que o provedor de Internet faça o roteamento."
+      ],
+      "correctIndex": 1,
+      "explanation": "Existem dois tipos básicos de roteamento: estático e dinâmico. O roteamento estático ocorre quando as rotas são inseridas manualmente. O roteamento dinâmico utiliza um protocolo de roteamento que é configurado e mantido pela empresa.",
+      "raw_id": "dfc6897cce40487fa106b64681346c8f"
+    },
+    {
+      "question": "Quais duas instruções descrevem recursos de uma tabela de roteamento IPv4 em um roteador? (Escolha duas.)",
+      "options": [
+        "O comando  netstat -r   pode ser usado para exibir a tabela de roteamento de um roteador.",
+        "As interfaces conectadas diretamente terão dois códigos-fonte de rota na tabela de roteamento: C  e S.",
+        "A tabela de roteamento armazena informações sobre rotas derivadas das interfaces do roteador ativo.",
+        "Se uma rota estática padrão for configurada no roteador, uma entrada será incluída na tabela de roteamento com o código-fonte S.",
+        "A tabela de roteamento lista os endereços MAC de cada interface ativa."
+      ],
+      "correctIndex": 3,
+      "explanation": "O comando show ip route é usado para exibir a tabela de roteamento IP do roteador. No IPv4, interfaces diretamente conectadas terão um código-fonte: C.  A tabela de roteamento armazena informações sobre rotas diretamente conectadas e rotas remotas. Uma entrada na tabela de roteamento com um código-fonte S   é incluída se uma rota estática padrão estiver configurada no roteador.",
+      "raw_id": "ad41354b2bb34518b21ec7c6fb629686"
+    },
+    {
+      "question": "Um roteador está recebendo um fluxo de pacotes de entrada e não contém uma rota para a rede de destino remoto. Qual configuração um administrador de rede pode aplicar para encaminhar com êxito os pacotes de entrada?",
+      "options": [
+        "Adicionar um rota padrão.",
+        "Habilitar um protocolo de roteamento dinâmico.",
+        "Compartilhar a tabela de roteamento com os hosts na rede local.",
+        "Alterar o endereço IP da interface de entrada para corresponder à rede de destino."
+      ],
+      "correctIndex": 0,
+      "explanation": "Um roteador contém uma tabela de rotamento com todas as redes diretamente conectadas e as interfaces que se conectam a essas redes. As tabelas de roteamento também podem conter as rotas que o roteador usa para acessar redes remotas. As entradas podem ser feitas na tabela de roteamento de duas maneiras. A primeira é que o roteador, usando um protocolo de roteamento, pode ser atualizado dinamicamente por meio de informações recebidas de outros roteadores na rede. A segunda é que as entradas podem ser inseridas manualmente por um administrador de rede. Se o roteador não puder determinar para onde encaminhar um pacote, ele o descartará. Os administradores de rede podem configurar uma rota padrão para evitar que um pacote seja descartado pelo fato do caminho para a rede de destino não estar na tabela de roteamento. Uma rota padrão é a interface através da qual o roteador encaminha um pacote contendo um endereço de rede IP de destino que é desconhecido.",
+      "raw_id": "96047d3f6f844435b20e54775413062d"
+    },
+    {
+      "question": "Qual endereço deve ser configurado como o endereço de gateway padrão de um dispositivo cliente?",
+      "options": [
+        "o endereço de camada 2 da interface de gerenciamento do switch",
+        "o endereço de camada 2 da porta do switch que está conectada à estação de trabalho",
+        "o endereço IPv4 da interface do roteador conectada à mesma LAN",
+        "o endereço IPv4 da interface do roteador conectada à Internet"
+      ],
+      "correctIndex": 2,
+      "explanation": "O gateway padrão é usado quando um host precisa enviar mensagens para destinos localizados em redes remotas. O endereço do gateway padrão é configurado no host como sendo o endereço IPv4 da interface do roteador que está conectada à mesma rede local desse host",
+      "raw_id": "3a984d6a6777484d889f8f25fd8965c3"
+    }
+  ],
+  "images": []
+}

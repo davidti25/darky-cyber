@@ -1,0 +1,598 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Tenho uma amiga que gostaria que você conhecesse. O nome dela é Halimah. Ela começou a trabalhar como membro júnior do departamento de TI de uma grande empresa de petróleo e gás especializada em exploração e produção. Sua empresa tem uma sede com vários edifícios e várias filiais em toda a Nigéria.\nNeste módulo, você aprenderá sobre a camada física de redes. Halimah já conhece essas informações e precisa usá-las para entender melhor a forma como a rede na sede é construída.\nVocê está pronto para começar?"
+    },
+    {
+      "type": "text",
+      "title": ".1 Propósito da Camada Física",
+      "content": "{{_moduleNumber}}.1 Propósito da Camada Física"
+    },
+    {
+      "type": "text",
+      "title": ".1 Propósito da Camada Física",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 A Conexão Física",
+      "content": "Seja na conexão com uma impressora local em casa ou em um site em outro país, antes que ocorra qualquer comunicação em rede, é necessário estabelecer uma conexão física com uma rede local. Uma conexão física pode ser uma conexão com fio usando um cabo ou uma conexão sem fio usando ondas de rádio.\nO tipo de conexão física usada depende da configuração da rede. Por exemplo, em muitos escritórios corporativos, os funcionários têm computadores de mesa ou laptops conectados fisicamente, via cabo, a um switch compartilhado. Esse tipo de configuração é uma rede conectada. Os dados são transmitidos por meio de um cabo físico.\nAlém das conexões com fio, muitas empresas também oferecem conexões sem fio para notebooks, tablets e smartphones. Com dispositivos sem fio, os dados são transmitidos usando ondas de rádio. A conectividade sem fio é comum, pois indivíduos e empresas descobrem suas vantagens. Os dispositivos em uma rede sem fio devem estar conectados a um ponto de acesso sem fio (AP) ou roteador sem fio como o mostrado na figura.\nRoteador Sem Fio",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.2 A Conexão Física",
+      "content": "Estes são os componentes de um ponto de acesso:\nAs antenas sem fio (Elas estão incorporadas dentro da versão do roteador mostrada na figura acima.)\nVárias portas de switch Ethernet;\nUma porta de internet"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Semelhante a um escritório corporativo, a maioria das casas oferece conectividade com fio e sem fio para a rede. As figuras mostram um roteador doméstico e um laptop conectando-se à rede local (LAN).\nConexão com fio ao roteador sem fio",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Placas de Interface de Rede\nAs placas de interface de rede (NICs) conectam um dispositivo à rede. As NICs Ethernet são usadas para uma conexão com fio, como mostrado na figura, enquanto as NICs da rede local sem fio (WLAN) são usadas para a conexão sem fio. Um dispositivo de usuário final pode incluir um ou os dois tipos de NICs. Uma impressora de rede, por exemplo, pode só ter uma NIC Ethernet e, portanto, deve ser conectada à rede com um cabo Ethernet. Outros dispositivos, como tablets e smartphones, só contém uma NIC WLAN e devem usar uma conexão sem fio.\nConexão com fio usando uma NIC Ethernet",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nem todas as conexões físicas são iguais, em termos de nível de desempenho, durante uma conexão com uma rede."
+    },
+    {
+      "type": "text",
+      "title": ".2 Características da camada física",
+      "content": "{{_moduleNumber}}.2 Características da Camada Física"
+    },
+    {
+      "type": "text",
+      "title": ".2 Características da camada física",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Padrões da Camada Física",
+      "content": "No tópico anterior, você obteve uma visão geral de alto nível da camada física e seu lugar em uma rede. Este tópico mergulha um pouco mais fundo nas especificidades da camada física. Isso inclui os componentes e a mídia usada para construir uma rede, bem como os padrões necessários para que tudo funcione em conjunto.\nOs protocolos e operações das camadas OSI superiores são executados usando software desenvolvido por engenheiros de software e cientistas da computação. Os serviços e protocolos na suíte TCP/IP são definidos pela Internet Engineering Task Force (IETF).\nA camada física consiste em circuitos eletrônicos, meios físicos e conectores desenvolvidos pelos engenheiros. Portanto, é aconselhável que os padrões que regem esse hardware sejam definidos pelas organizações de engenharia de comunicações e elétrica relevantes.\nHá muitas organizações nacionais e internacionais diferentes, organizações reguladoras de governo e empresas privadas envolvidas no estabelecimento e na manutenção de padrões da camada física. Por exemplo, os padrões de hardware, mídia, codificação e sinalização da camada física são definidos e governados por essas organizações de padrões:\nOrganização Internacional para Padronização (ISO)\nInstituto Nacional de Padrões Americano (ANSI) / Associação da Indústria de Telecomunicações (TIA)\nUnião Internacional de Telecomunicações (ITU)\nInstituto de Engenheiros Elétricos e Eletrônicos (IEEE)\nAutoridades reguladoras de telecomunicações nacionais, incluem Comissão Federal de Comunicação (FCC) nos EUA e Instituto Europeu de Padrões de Telecomunicações (ETSI)\nAlém desses, geralmente existem grupos regionais de padrões de cabeamento, como CSA (Associação Canadense de Padrões), CENELEC (Comitê Europeu de Padronização Eletrotécnica) e JSA / JIS (Associação Japonesa de Padrões), que desenvolvem especificações locais.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Componentes Físicos",
+      "content": "Os padrões da camada física abordam três áreas funcionais:\nComponentes Físicos\nCodificação\nSinalização\nComponentes Físicos\nOs componentes físicos são os dispositivos de hardware eletrônico, mídia e outros conectores que transmitem os sinais que representam os bits. Os componentes de hardware, como NICs, interfaces e conectores, materiais de cabo e projetos de cabo são especificados nos padrões associados à camada física. As várias portas e interfaces em um roteador Cisco 1941 também são exemplos de componentes físicos com conectores e conexões específicos decorrentes de padrões."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Codificação",
+      "content": "Codificação ou codificação de linha é um método de conversão de um fluxo de bits de dados em um \"código\" predefinido. Os códigos são agrupamentos de bits usados para fornecer um padrão previsível que pode ser reconhecido tanto pelo emissor quanto pelo receptor. Em outras palavras, a codificação é o método ou o padrão usado para representar as informações digitais. É semelhante a como o código Morse codifica uma mensagem usando uma série de pontos e traços.\nPor exemplo, a codificação Manchester representa um bit 0 por uma transição de alta para baixa voltagem, e um bit 1 é representado como uma transição de baixa para alta voltagem. Um exemplo de codificação Manchester é ilustrado na figura. A transição ocorre no meio de cada período de bit. Esse tipo de codificação é usado na Ethernet de 10 Mbps. Taxas de dados mais rápidas exigem uma codificação mais complexa. A codificação Manchester é usada em padrões Ethernet mais antigos, como o 10BASE-T. A Ethernet 100BASE-TX usa codificação 4B/5B e 1000BASE-T usa codificação 8B/10B.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.7 Terminologia de largura de banda",
+      "content": "Os termos usados para medir a qualidade da largura de banda incluem:\nLatência\nRendimento\nGoodput\nLatência\nO termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos.\nEm uma internetwork ou em uma rede com vários segmentos, a taxa de transferência não pode ser mais rápida que o link mais lento no caminho da origem ao destino. Mesmo que todos ou a maioria dos segmentos tenham alta largura de banda, será necessário apenas um segmento no caminho com baixa taxa de transferência para criar um gargalo na taxa de transferência de toda a rede.\nTaxa de Transferência\nTaxa de transferência é a medida da transferência de bits através da mídia durante um determinado período.\nDevido a alguns fatores, geralmente a taxa de transferência não corresponde à largura de banda especificada nas implementações da camada física. A taxa de transferência geralmente é menor que a largura de banda. Existem muitos fatores que influenciam a taxa de transferência:\nA quantidade de tráfego\nO tipo de tráfego\nA latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino\nExistem muitos testes de velocidade on-line que podem revelar a taxa de transferência de uma conexão com a Internet. A figura fornece exemplos de resultados de um teste de velocidade.\nGoodput\nHá uma terceira medida para avaliar a transferência de dados utilizáveis; é conhecido como goodput. Goodput é a medida de dados usáveis transferidos em um determinado período. Goodput é a taxa de transferência menos a sobrecarga de tráfego para estabelecer sessões, reconhecimentos, encapsulamento e bits retransmitidos. O goodput é sempre menor que a taxa de transferência, que geralmente é menor do que a largura de banda.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Cabeamento de cobre",
+      "content": "{{_moduleNumber}}.3 Cabeamento de Cobre"
+    },
+    {
+      "type": "text",
+      "title": ".3 Cabeamento de Cobre",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.1 Características do Cabeamento de Cobre",
+      "content": "O cabeamento de cobre é o tipo mais comum de cabeamento usado nas redes hoje em dia. Na verdade, o cabeamento de cobre não é apenas um tipo de cabo. Existem três tipos diferentes de cabeamento de cobre que são usados em situações específicas.\nAs redes usam mídia de cobre porque é barata, fácil de instalar e tem baixa resistência à corrente elétrica. Entretanto, ela é limitada pela distância e interferência de sinal.\nOs dados são transmitidos por cabos de cobre como pulsos elétricos. Um detector na interface de rede de um dispositivo destino tem que receber um sinal que poderá ser decodificado com êxito para corresponder ao sinal enviado. No entanto, quanto mais o sinal viaja, mais ele se deteriora. Isso se chama atenuação de sinal. Por isso, todas as mídias de cobre devem seguir limitações de distância rigorosas, conforme especificado nos padrões de orientação.\nA temporização e a voltagem dos pulsos elétricos também são suscetíveis à interferência de duas fontes:\nInterferência eletromagnética (EMI) ou interferência de radiofrequência (RFI) – os sinais EMI e RFI podem distorcer e corromper os sinais de dados transportados pelo meio físico de cobre. Possíveis fontes de EMI e RFI são dispositivos de ondas de rádio e eletromagnéticos, como luzes fluorescentes ou motores elétricos.\nCrosstalk - Crosstalk é um distúrbio causado pelos campos elétricos ou magnéticos de um sinal em um fio para o sinal em um fio adjacente. Nos circuitos de telefone, a diafonia pode fazer com que parte de outra conversa de voz de um circuito adjacente seja ouvida (linha cruzada). Especificamente, quando uma corrente elétrica flui através de um cabo, ela cria um pequeno campo magnético circular ao redor do cabo, que pode ser captado por um cabo adjacente.\nA figura mostra como a transmissão de dados pode ser afetada pela interferência.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3.1 Características do Cabeamento de Cobre",
+      "content": "Para contrabalançar os efeitos negativos da EMI e da RFI, alguns tipos de cabos de cobre têm proteção metálica e exigem conexões devidamente aterradas.\nPara contrabalançar os efeitos negativos do crosstalk, alguns tipos de cabos de cobre têm pares de cabos de circuitos opostos juntos, o que efetivamente cancela o crosstalk.\nA suscetibilidade dos cabos de cobre ao ruído eletrônico também pode ser limitada usando estas recomendações:\nSelecionar o tipo ou categoria de cabo mais adequado para um determinado ambiente de rede\nProjetar uma infraestrutura de cabos para evitar fontes conhecidas e potenciais de interferência na estrutura do edifício\nUsar técnicas de cabeamento que incluem o manuseio e a terminação adequados dos cabos"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Tipos de Cabeamento de Cobre",
+      "content": "Há três tipos principais de mídias de cobre usadas em redes.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.3 Par trançado não blindado (UTP)",
+      "content": "O cabeamento de par trançado não blindado (UTP) é o meio físico de rede mais comum. O cabeamento UTP, terminado com conectores RJ-45, é usado para interconectar hosts de rede com dispositivos de rede intermediários, como switches e roteadores.\nNas LANs, o cabo UTP consiste em quatro pares de cabos codificados por cores que foram trançados e depois colocados em uma capa plástica flexível que protege contra danos físicos menores. O processo de trançar cabos ajuda na proteção contra interferência de sinais de outros cabos.\nConforme visto na figura, os códigos de cores identificam os pares e fios individuais para auxiliar na terminação do cabo.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.4 Par Trançado Blindado (STP)",
+      "content": "O par trançado blindado (STP) oferece maior proteção contra ruído do que o cabeamento UTP. No entanto, em comparação com o cabo UTP, o cabo STP é significativamente mais caro e difícil instalação. Assim como o cabo UTP, o STP usa um conector RJ-45.\nOs cabos STP combinam as técnicas de blindagem para contrabalançar a EMI e a RFI, e são trançados para conter o crosstalk. Para aproveitar totalmente a blindagem, os cabos STP são terminados com conectores de dados STP blindados especiais. Se o cabo não estiver devidamente aterrado, a blindagem poderá atuar como uma antena e captar sinais indesejados.\nO cabo STP mostrado usa quatro pares de cabo, envolvidos em blindagens, que são colocados em uma proteção ou revestimento geral metálico.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.5 Cabo Coaxial",
+      "content": "O cabo coaxial, ou coax para abreviar, recebeu seu nome porque tem dois condutores que compartilham o mesmo eixo. Conforme mostrado na figura, o cabo coaxial consiste no seguinte:\nUm condutor de cobre é usado para transmitir os sinais eletrônicos.\nUma camada de isolamento plástico flexível envolve um condutor de cobre.\nO material de isolamento é envolvido em uma malha de cobre com tecido, ou uma folha metálica, que atua como o segundo cabo no circuito e uma proteção para o condutor interno. Essa segunda camada, ou blindagem, também reduz a quantidade de interferência eletromagnética externa.\nTodo o cabo é coberto com um revestimento para evitar danos físicos menores.\nHá tipos diferentes de conectores utilizados com o cabo coax. Os conectores Bayonet Neill-Concelman (BNC), tipo N e tipo F são mostrados na figura.\nEmbora o cabo UTP tenha substituído essencialmente o cabo coaxial nas modernas instalações Ethernet, o design do cabo coaxial é usado nas seguintes situações:\nInstalações sem fio - Cabos coaxiais conectam antenas aos dispositivos sem fio. O cabo coaxial transporta a energia de radiofrequência (RF) entre as antenas e o equipamento de rádio.\nInstalações de Internet a cabo - Os provedores de serviços a cabo fornecem conectividade à Internet para seus clientes, substituindo partes do cabo coaxial e suportando elementos de amplificação por cabo de fibra óptica. No entanto, o cabeamento dentro das instalações do cliente ainda é coaxial.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4  Cabeamento UTP",
+      "content": "{{_moduleNumber}}.4 Cabeamento UTP"
+    },
+    {
+      "type": "text",
+      "title": ".4 Cabeamento UTP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 Propriedades do Cabo UTP",
+      "content": "No tópico anterior, você aprendeu um pouco sobre o cabeamento de cobre de par trançado não blindado (UTP). Como o cabeamento UTP é o padrão para uso em LANs, este tópico entra em detalhes sobre suas vantagens e limitações e o que pode ser feito para evitar problemas.\nQuando usado como meio de rede, o cabeamento UTP consiste em quatro pares de fios de cobre com código de cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível. Seu tamanho reduzido pode ser vantajoso durante a instalação.\nO cabo UTP não usa blindagem para contrabalançar os efeitos de EMI e RFI. Em vez disso, os projetistas de cabos descobriram outras maneiras de limitar o efeito negativo da diafonia:\nCancelamento - Os designers agora dispõe os fios em um circuito em pares. Quando dois fios de um circuito elétrico são colocados próximos um do outro, seus campos magnéticos serão opostos. Assim, os dois campos magnéticos cancelam um ao outro e também podem cancelar sinais externos de EMI e RFI.\nVariando o número de torções por par de fios - Para aumentar ainda mais o efeito de cancelamento de fios de circuitos pareados, os projetistas variam o número de torções de cada par de fios em um cabo. O cabo UTP deve seguir especificações precisas que orientam quantas tranças são permitidas por metro (3,28 pés) do cabo. Observe na figura que o par laranja/laranja e branco é menos trançado do que o par azul/azul e branco. Cada par colorido é trançado um número de vezes diferente.\nO cabo UTP depende exclusivamente do efeito de cancelamento produzido pelos pares de fios trançados para limitar a degradação de sinal e fornecer efetivamente a autoblindagem para cabos trançados na mídia de rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Padrões de Cabeamento e Conectores UTP",
+      "content": "O cabeamento UTP está em conformidade com os padrões estabelecidos conjuntamente pela ANSI/TIA. Especificamente, o ANSI/TIA-568 estipula os padrões de cabeamento comercial para instalações de LAN e é o padrão mais comumente usado em ambientes de cabeamento de LAN. Alguns dos elementos definidos são os seguintes:\nTipos de cabo\nComprimento do cabo\nConectores\nTerminação do cabo\nMétodos de teste de cabo\nAs características elétricas do cabeamento de cobre são definidas pelo Instituto de Engenharia Elétrica e Eletrônica (IEEE). O IEEE classifica o cabeamento UTP de acordo com o desempenho. Os cabos são colocados nas categorias, com base na capacidade de transportar taxas de largura de banda mais altas. Por exemplo, o cabo Categoria 5 é usado normalmente em instalações 100BASE-TX Fast Ethernet. Outras categorias incluem cabo Categoria 5 aprimorado (5e), Categoria 6 e Categoria 6a.\nOs cabos em categorias mais altas são desenvolvidos e construídos para suportar taxas de dados mais elevadas. À medida que novas tecnologias Ethernet de velocidade de gigabit estão sendo desenvolvidas e adotadas, a Categoria 5e é agora o tipo de cabo minimamente aceitável, com a Categoria 6 sendo o tipo recomendado para novas instalações prediais.\nA figura mostra três categorias de cabo UTP:\nA categoria 3 foi originalmente usada para comunicação de voz por linhas de voz, mas posteriormente usada para transmissão de dados.\nAs categorias 5 e 5e são usadas para transmissão de dados. A Categoria 5 suporta 100Mbps e a Categoria 5e suporta 1000 Mbps.\nA categoria 6 tem um separador adicionado entre cada par de fios para suportar velocidades mais altas. Categoria 6 suporta até 10 Gbps.\nCategoria 7 também suporta 10 Gbps.\nCategoria 8 suporta 40 Gbps.\nAlguns fabricantes produzem cabos que excedem as especificações da Categoria ANSI/TIA 6a e os classificam como Categoria 7.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Plugues UTP RJ-45",
+      "content": "O cabo UTP geralmente é terminado com um conector RJ-45. O padrão ANSI/TIA-568 descreve os códigos de cores dos fios, para atribuições de pinos (pinagem), para cabos Ethernet.\nConforme mostrado na figura, o conector RJ-45 é o componente macho, prensado na extremidade do cabo.\nPlugues RJ-45 para UTP",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Sockets UTP RJ-45",
+      "content": "O soquete, mostrado na figura, é o componente fêmea de um dispositivo de rede, tomada de parede, tomada de conduíte ou painel de conexões. Quando terminado incorretamente, o cabo é uma fonte potencial de degradação do desempenho da camada física.\nSockets UTP RJ-45",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Cabo UTP mal terminado",
+      "content": "Esta figura mostra um exemplo de um cabo UTP mal terminado. Esse conector defeituoso possui fios expostos, sem torção e não totalmente cobertos pela bainha.\nCabo UTP mal terminado",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Cabo UTP devidamente encerrado",
+      "content": "A figura seguinte mostra um cabo UTP devidamente terminado. É um bom conector com fios que não são torcidos apenas na extensão necessária para conectar o conector.\nCabo UTP devidamente encerrado",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4 Cabeamento UTP",
+      "content": "Nota: A terminação inadequada do cabo pode afetar o desempenho da transmissão."
+    },
+    {
+      "type": "graphic_text",
+      "title": "T568A and T568B Standards",
+      "content": "Situações diversas podem exigir que os cabos UTP sejam conectados de acordo com diferentes convenções de fiação. Isso significa que os fios individuais do cabo precisam ser conectados em ordem diferente para conjuntos diferentes de pinos nos conectores RJ-45.\nEstes são os principais tipos de cabo obtidos com o uso de convenções de cabeamento específicas:\nEthernet direto - o tipo mais comum de cabo de rede. Geralmente é usado para interconectar um host a um switch e um switch a um roteador.\nEthernet Cruzado (Crossover)  - Um cabo usado para interconectar dispositivos semelhantes. Por exemplo, para conectar um switch a um switch, um host a um host ou um roteador a um roteador. No entanto, os cabos cruzados agora são considerados legados, pois as NICs usam o cruzamento de interface dependente médio (Auto-MDIX) para detectar automaticamente o tipo de cabo e fazer a conexão interna.\nNota: Outro tipo de cabo é o cabo rollover, que é proprietário da Cisco. É usado para conectar uma estação de trabalho a uma porta do console do roteador ou do switch.\nO uso incorreto de um cabo crossover ou direto entre dois dispositivos não danifica os dispositivos, mas a conectividade e comunicação entre os dispositivos não será realizada. Este é um erro comum e verificar se as conexões do dispositivo estão corretas deve ser a primeira ação de solução de problemas se a conectividade não for alcançada.\nA figura identifica os pares de fios individuais para os padrões T568A e T568B.\nPadrõesT568A e T568B",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5 Cabeamento de Fibra Óptica",
+      "content": "{{_moduleNumber}}.5 Cabeamento de Fibra Óptica"
+    },
+    {
+      "type": "text",
+      "title": ".5 Cabeamento de Fibra Óptica",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.1 Propriedades do cabeamento de fibra óptica",
+      "content": "Como você aprendeu, o cabeamento de fibra óptica é o outro tipo de cabeamento usado em redes. Por ser caro, não é tão comumente usado quanto os vários tipos de cabeamento de cobre. Mas o cabeamento de fibra óptica tem certas propriedades que o tornam a melhor opção em certas situações, que você descobrirá neste tópico.\nO cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. Diferentemente dos fios de cobre, o cabo de fibra óptica pode transmitir sinais com menos atenuação e é completamente imune à interferência de EMI e RFI. A fibra óptica é comumente usada para interconectar dispositivos de rede.\nA fibra óptica é um fio flexível, extremamente fino e transparente de vidro muito puro, não muito mais espesso do que um fio de cabelo humano. Os bits são codificados na fibra como pulsos de luz. O cabo de fibra óptica atua como um guia de onda, ou “tubo de luz”, para transmitir luz entre as duas extremidades com o mínimo de perda do sinal.\nComo uma analogia, considere um rolo de papel toalha vazio com o interior revestido como um espelho. Ele tem mil metros de comprimento e um pequeno ponteiro laser é usado para enviar sinais de código Morse na velocidade da luz. Basicamente, é assim que o cabo de fibra óptica funciona, só que tem um diâmetro menor e usa tecnologias de luz sofisticadas.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5.2 Tipos de Fibra",
+      "content": "Uma das diferenças destacadas entre MMF e SMF é a quantidade de dispersão. O termo dispersão se refere ao espalhamento do pulso de luz com o tempo. Maior dispersão significa aumento da perda de força do sinal. MMF tem uma dispersão maior do que SMF. É por isso que o MMF só pode viajar até 500 metros antes da perda de sinal."
+    },
+    {
+      "type": "text",
+      "title": ".5.3 Uso de cabeamento de fibra óptica",
+      "content": "Agora, o cabeamento de fibra óptica é usado em quatro setores:\nRedes Corporativas - Isso é usado para aplicativos de cabeamento de backbone e dispositivos de infraestrutura de interconexão.\nFiber-to-the-Home (FTTH) - Isso é usado para fornecer serviços de banda larga sempre ativos para residências e pequenas empresas.\nRedes de longa distância -  Isso é usado por provedores de serviços para conectar países e cidades.\nRedes de Cabos Submarinos - São usadas para fornecer soluções confiáveis de alta velocidade e alta capacidade, capazes de sobreviver em ambientes submarinos hostis em distâncias transoceânicas. Pesquise na internet por “mapa de telegeografia de cabos submarinos” para visualizar vários mapas on-line.\nNosso foco neste curso é o uso de fibra dentro da empresa."
+    },
+    {
+      "type": "text",
+      "title": ".5.4 Conectores de Fibra Optica",
+      "content": "Até recentemente, a luz só podia viajar em uma direção sobre fibra óptica. Duas fibras eram necessárias para suportar a operação full duplex.  Portanto, os cabos de conexão de fibra óptica agrupam dois cabos de fibra óptica e os terminam com um par de conectores padrão de fibra única. Alguns conectores de fibra aceitam fibras de transmissão e de recepção em um único conector, conhecido como conector duplex, conforme mostrado no Conector LC Duplex Multimodo na Figura. Padrões BX, como 100BASE-BX, usam comprimentos de onda diferentes para enviar e receber através de uma única fibra."
+    },
+    {
+      "type": "text",
+      "title": ".5.5 Patch Cords de Fibra",
+      "content": "Nota: Os cabos de fibra devem ser protegidos com uma pequena tampa plástica quando não estiverem em uso."
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo da Camada Física",
+      "content": "{{_moduleNumber}}.6 Resumo da Camada Física"
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo da Camada Física",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".6.1 O que aprendi neste módulo?",
+      "content": "**Propósito da Camada Física:** Antes que qualquer comunicação de rede possa ocorrer, é necessário estabelecer uma conexão física com uma rede local. Uma conexão física pode ser uma conexão com fio usando um cabo ou uma conexão sem fio usando ondas de rádio. As placas de interface de rede (NICs) conectam um dispositivo à rede. As NICs Ethernet são usadas para uma conexão com fio, enquanto as NICs WLAN (Rede Local Sem Fio) são usadas para conexão sem fio. A camada física do modelo OSI fornece os meios para transportar os bits que formam um quadro da camada de enlace de dados no meio físico de rede. Ela aceita um quadro completo da camada de enlace de dados e o codifica como uma série de sinais que são transmitidos para o meio físico local. Os bits codificados que compreendem um quadro são recebidos por um dispositivo final ou um dispositivo intermediário.\n\n**Características da Camada Física:** A camada física consiste em circuitos eletrônicos, meios físicos e conectores desenvolvidos pelos engenheiros. Os padrões da camada física abordam três áreas funcionais: componentes físicos, codificação e sinalização. Largura de banda é a capacidade na qual um meio pode transportar dados. A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para outro durante um determinado tempo. A taxa de transferência é a medida da transferência de bits pela mídia durante um determinado período de tempo e geralmente é menor que a largura de banda. O termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos. Goodput é a medida de dados usáveis transferidos em um determinado período. A camada física produz a representação e os agrupamentos de bits para cada tipo de mídia da seguinte maneira:\nCabo de cobre - Os sinais são padrões de pulsos elétricos.\nCabo de fibra óptica - Os sinais são padrões de luz.\nSem fio - Os sinais são padrões de transmissões por microondas.\n\n**Cabeamento de Cobre:** As redes usam mídia de cobre porque é barata, fácil de instalar e tem baixa resistência à corrente elétrica. Entretanto, ela é limitada pela distância e interferência de sinal. Os valores de tempo e tensão dos pulsos elétricos também são suscetíveis à interferência de duas fontes: EMI e diafonia. Três tipos de cabeamento de cobre são: UTP, STP e cabo coaxial (coaxial). UTP tem uma jaqueta externa para proteger os fios de cobre contra danos físicos, pares torcidos para proteger o sinal de interferência e isolamento plástico codificado por cores que isolam eletricamente os fios uns dos outros e identifica cada par. O cabo STP usa quatro pares de fios, cada um enrolado em uma blindagem de alumínio, que é enrolada em uma trança ou folha metálica geral. O cabo coaxial recebe esse nome pelo fato de haver dois condutores que compartilham o mesmo eixo. Coax é usado para conectar antenas a dispositivos sem fio. Os provedores de internet por cabo usam coaxial dentro das instalações de seus clientes.\n\n**Cabeamento UTP:** O cabeamento UTP consiste em quatro pares de fios de cobre com código de cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível. O cabo UTP não usa blindagem para contrabalançar os efeitos de EMI e RFI. Em vez disso, os projetistas de cabos descobriram outras maneiras de limitar o efeito negativo da diafonia: cancelamento e variação do número de torções por par de fios. O cabeamento UTP está em conformidade com os padrões estabelecidos conjuntamente pela ANSI/TIA. As características elétricas do cabeamento de cobre são definidas pelo Instituto de Engenharia Elétrica e Eletrônica (IEEE). O cabo UTP geralmente é terminado com um conector RJ-45. Os principais tipos de cabos que são obtidos usando convenções de fiação específicas são Ethernet Direto (Straight-through) e Ethernet Cruzado (Crossover). A Cisco tem um cabo UTP proprietário chamado rollover que conecta uma estação de trabalho a uma porta de console do roteador.\n\n**Cabeamento de Fibra Óptica:** O cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. O cabo de fibra óptica pode transmitir sinais com menos atenuação que o fio de cobre e é completamente imune a EMI e RFI. A fibra óptica é um fio flexível, extremamente fino e transparente de vidro muito puro, não muito mais espesso que um fio de cabelo humano. Os bits são codificados na fibra como pulsos de luz. O cabeamento de fibra óptica está sendo utilizado agora em quatro tipos de indústria: redes empresariais, FTTH, redes de longo curso e redes de cabos submarinos. Existem quatro tipos de conectores de fibra óptica: ST, SC, LC e LC multimodo duplex. Os cabos de patch de fibra óptica incluem multimodo SC-SC, monomodo LC-LC, multimodo ST-LC e monomodo SC-ST. Na maioria dos ambientes empresariais, a fibra óptica é usada principalmente como cabeamento de backbone para conexões ponto a ponto de alto tráfego entre instalações de distribuição de dados e para a interconexão de edifícios em campi de vários edifícios."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Webster - Questões para Reflexão",
+      "content": "Halimah já sabia sobre a camada física na rede. E você?\nNeste módulo, você aprendeu que uma conexão física pode ser uma conexão com fio usando um cabo ou uma conexão sem fio usando ondas de rádio. Os tipos de mídia também foram discutidos.\nFaça a si mesmo estas perguntas de reflexão:\nJá pensou na diferença entre cabo de cobre, cabo de fibra óptica e rede sem fio?\nQue tipos de mídia são usados em sua casa?\nQuais são as vantagens e desvantagens desses tipos de mídia que você tem em sua casa? Onde você pode encontrar cabos de fibra óptica sendo usados?\nQuais vantagens os cabos de fibra óptica oferecem?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Verdadeiro ou falso? A camada física está relacionada apenas às conexões de rede com fio.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA camada física fornece os meios para transportar bits através da rede, quer a rede esteja com ou sem fio.",
+      "raw_id": "707bc8963bb140baa0b6f248c16d304d"
+    },
+    {
+      "question": "Verdadeiro ou falso? Quando um quadro é codificado pela camada física, todos os bits são enviados pela mídia ao mesmo tempo.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nQuando codificados, os bits que compõem um quadro são transmitidos pela mídia um de cada vez.",
+      "raw_id": "4506d1d7ee3f41dda9df1df38765b313"
+    },
+    {
+      "question": "A camada física do dispositivo receptor passa bits até qual camada de nível superior?",
+      "options": [
+        "Aplicação",
+        "Apresentação",
+        "Captura de dados",
+        "Enlace de Dados"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA camada física recebe quadros da camada de Enlace de Dados e os converte em bits para transmissão. No dispositivo de envio, a camada física passa os bits transmitidos até a camada de Enlace de Dados como um quadro completo.",
+      "raw_id": "08a3e9ca82e54a3b894d77edc65ea789"
+    },
+    {
+      "question": "Qual PDU é recebida pela camada física para codificação e transmissão?",
+      "options": [
+        "Quadro",
+        "Segmento",
+        "Pacote"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA camada física recebe quadros da camada de enlace de Dados para codificação e transmissão.",
+      "raw_id": "2b9397bfd18849d98a3d2787729bfd2f"
+    },
+    {
+      "question": "Que mídia usa padrões de microondas para representar bits?",
+      "options": [
+        "cobre",
+        "sem fio",
+        "fibra óptica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nEm redes sem fio, os dados são representados por padrões de transmissões de microondas.",
+      "raw_id": "4c8a14c70738483696367c33392d49a1"
+    },
+    {
+      "question": "Que mídia usa padrões de luz para representar bits?",
+      "options": [
+        "cobre",
+        "sem fio",
+        "fibra óptica"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nCabos de fibra óptica usam padrões de luz para representar bits.",
+      "raw_id": "c3fea5688af04f2fac58fab1bd0c4b6a"
+    },
+    {
+      "question": "Que mídia usa pulsos elétricos para representar bits?",
+      "options": [
+        "cobre",
+        "sem fio",
+        "fibra óptica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs pulsos elétricos são usados para representar bits em redes usando mídia de cabo de cobre.",
+      "raw_id": "19e7474e5e574b098c72f1f1f24c68a4"
+    },
+    {
+      "question": "Qual deles é o nome para a capacidade de um meio para transportar dados?",
+      "options": [
+        "largura de banda",
+        "taxa de transferência",
+        "goodput"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nLargura de banda é a capacidade de um meio de rede para transportar dados.",
+      "raw_id": "e81281af574c41b8945b5dd9acfcaa55"
+    },
+    {
+      "question": "Qual destes é uma medida da transferência de bits pela mídia?",
+      "options": [
+        "largura de banda",
+        "taxa de transferência",
+        "goodput"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA transferência de bits pela mídia da rede durante um período de tempo é conhecida como taxa de transferência.",
+      "raw_id": "5e56f4e7754b4ab6be54a0e78c4150ef"
+    },
+    {
+      "question": "Qual das seguintes opções conecta antenas a dispositivos sem fio? Também pode associado a cabeamento de fibra óptica para transmissão de dados bidirecionais.",
+      "options": [
+        "UTP",
+        "STP",
+        "coaxial"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO cabo coaxial, que é usado para TV a cabo e serviço de internet, também é usado para conectar antenas a dispositivos sem fio.",
+      "raw_id": "cbfa008144dd4d5cbbb8b055d7121864"
+    },
+    {
+      "question": "Qual dos seguintes opções evita EMI e RFI usando técnicas de blindagem e conectores especiais?",
+      "options": [
+        "UTP",
+        "STP",
+        "coaxial"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO cabo de par trançado blindado (STP) incorpora blindagem e conectores especiais para evitar interferência de sinal de outros fios, EMI e RFI.",
+      "raw_id": "7e23eeb655254812b6cf1827e56985aa"
+    },
+    {
+      "question": "Qual dos seguintes é a mídia de rede mais comum?",
+      "options": [
+        "UTP",
+        "STP",
+        "coaxial"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO cabo de par trançado (UTP) não blindado é o tipo mais comum de mídia de rede com fio.",
+      "raw_id": "ace60337551c452e8c8353b32fe7d6f7"
+    },
+    {
+      "question": "Qual das alternativas a seguir termina com conectores BNC, tipo N e tipo F?",
+      "options": [
+        "UTP",
+        "STP",
+        "coaxial"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO cabo coaxial, que é usado para TV a cabo e serviço de internet e para conectar antenas a dispositivos sem fio, usa vários tipos de conectores para incluir conectores BNC, tipo N e tipo F.",
+      "raw_id": "a89f589005e64ede9131f99d67909729"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabos de fibra óptica pode ajudar os dados a percorrer aproximadamente 500 metros?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA fibra multimodo tem uma limitação de distância mais curta do que a fibra monomodo. Comumente usado em LANs com uma distância de algumas centenas de metros, mas pode ser de até 2 km.",
+      "raw_id": "464067a857e74098b8b1f00c599762d9"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabos de fibra óptica usa diodos emissores de luz (LEDs) como fonte de luz para transmissão de dados?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA fibra multimodo usou LEDs como fonte de luz.",
+      "raw_id": "4d1e0f749ce1413a92a421bc3adb6626"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabos de fibra óptica usa lasers em um único fluxo como fonte de luz para transmissão de dados?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA fibra monomodo usa a tecnologia laser como fonte de luz.",
+      "raw_id": "2e40b8a66a3d4ffea7d8fac575b37f79"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabo de fibra óptica é usado para conectar aplicativos de telefonia de longa distância e TV a cabo?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA fibra monomodo é comumente usada para aplicações de TV e telefonia de longo curso.",
+      "raw_id": "3562456e5c0542e299f3d7451150367b"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabos de fibra óptica pode percorrer aproximadamente 100 km?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA fibra monomodo é usada para aplicações de longo curso até 100 km.",
+      "raw_id": "b3c2bd5da6074eb19d7ed402c96494e6"
+    },
+    {
+      "question": "Qual dos seguintes tipos de cabos de fibra óptica é usado em uma rede de campus?",
+      "options": [
+        "Monomodo",
+        "Multimodo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA fibra multimodo tem uma limitação de distância mais curta do que a fibra monomodo. Comumente usado em LANs dentro de uma rede de campus.",
+      "raw_id": "327b2d40462a43108f77846cc8850467"
+    },
+    {
+      "question": "O que é uma função importante da camada física do modelo OSI?",
+      "options": [
+        "Ele aceita quadros da mídia física.",
+        "Ele encapsula dados da camada superior em quadros.",
+        "Define o método de acesso ao meio físico executado pela interface de hardware.",
+        "Ele codifica quadros em sinais elétricos, ópticos ou de ondas de rádio."
+      ],
+      "correctIndex": 3,
+      "explanation": "A camada física do modelo OSI aceita quadros da camada de enlace de dados e os codifica para transporte como bits pela mídia da rede.",
+      "raw_id": "c5b0c2d9120a47068134b4abd1dbd9e1"
+    },
+    {
+      "question": "Um administrador de rede está a resolver problemas de conectividade num servidor. Usando um testador, o administrador observa que os sinais gerados pela NIC do servidor estão distorcidos e não utilizáveis. Em que camada do modelo OSI é o erro categorizado?",
+      "options": [
+        "Camada de apresentação",
+        "Camada de rede",
+        "Camada física",
+        "Camada de enlace de dados"
+      ],
+      "correctIndex": 2,
+      "explanation": "A placa de rede tem responsabilidades nas camadas 1 e 2. A NIC codifica o quadro como uma série de sinais transmitidos para a mídia local. Esta é a responsabilidade da camada física do modelo OSI. O sinal pode ser na forma de ondas elétricas, ópticas ou de rádio.",
+      "raw_id": "be37995f5870402e8d36a5d301003458"
+    },
+    {
+      "question": "Qual é a finalidade da camada física do modelo OSI?",
+      "options": [
+        "controle de acesso ao meio",
+        "transmissão de bits no meio físico local",
+        "detecção de erros nos quadros recebidos",
+        "troca de quadros entre nós no meio físico de rede física"
+      ],
+      "correctIndex": 1,
+      "explanation": "A camada física é responsável por transmitir os sinais reais através do meio físico em forma de bits. Troca de quadros, controle de acesso ao meio e detecção de erros são funções da camada de Enlace de Dados.",
+      "raw_id": "f1867bf5f7eb47e6b1470c5a7595aefb"
+    },
+    {
+      "question": "Qual afirmativa descreve corretamente a codificação de quadro?",
+      "options": [
+        "Usa a característica de uma onda para modificar outra onda.",
+        "Transmite sinais de dados junto com um sinal de clock que ocorre em espaços de tempo uniformes.",
+        "Gera os sinais elétricos, óticos ou sem fio que representam os números binários do quadro.",
+        "Converte bits em um código pré-definido a fim de fornecer um padrão previsível que ajude a diferenciar os bits de dados dos bits de controle."
+      ],
+      "correctIndex": 3,
+      "explanation": "A codificação de quadro converte um fluxo de bits de dados em um código pré-definido que possa ser reconhecido pelo transmissor e pelo receptor. Esses códigos são usados para vários fins, como para diferenciar os bits de dados dos bits de controle e identificar o início e o fim de um quadro.",
+      "raw_id": "47f4bb7adbe2495c95e0e0397d1c5e94"
+    },
+    {
+      "question": "Qual é a vantagem de utilizar cabeamento de fibra ótica em vez de cabeamento de cobre?",
+      "options": [
+        "Geralmente é mais barato do que o cabeamento de cobre.",
+        "Pode ser instalado em curvas fechadas.",
+        "É mais fácil terminar e instalar do que o cabeamento de cobre.",
+        "Ele é capaz de transportar sinais muito mais longe do que o cabeamento de cobre."
+      ],
+      "correctIndex": 3,
+      "explanation": "O cabeamento de cobre geralmente é mais barato e mais fácil de instalar do que o cabeamento de fibra óptica. No entanto, os cabos de fibra geralmente têm uma faixa de sinalização muito maior do que o cobre.",
+      "raw_id": "0cb1dec726624c1bb00c9529629bf199"
+    },
+    {
+      "question": "Quais pares de fios mudam a ordem de terminação entre os padrões 568A e 568B?",
+      "options": [
+        "verde e laranja",
+        "verde e marrom",
+        "azul e marrom",
+        "marrom e laranja"
+      ],
+      "correctIndex": 0,
+      "explanation": "A diferença entre os padrões 568A e 568B é a ordem na qual os pares de fios coloridos são sequenciados. São os pares de fios verde e laranja que são trocados entre os dois padrões.",
+      "raw_id": "76d46f3545e64b508cf57b61772957a3"
+    },
+    {
+      "question": "Qual é o atraso no tempo em que os dados trafegam entre dois pontos em uma rede?",
+      "options": [
+        "largura de banda",
+        "taxa de transferência",
+        "latência",
+        "goodput"
+      ],
+      "correctIndex": 2,
+      "explanation": "Latência é um termo usado para indicar o atraso ao obter um pacote de um ponto a outro. As conexões de rede com pequenos atrasos são chamadas de redes de baixa latência, enquanto as conexões de rede com atrasos longos são chamadas de redes de alta latência. A latência alta cria gargalos em todas as comunicações de rede.",
+      "raw_id": "fd07020620804c90b205b457ac3c387c"
+    },
+    {
+      "question": "Que termos representam a velocidade máxima e a velocidade real que podem ser utilizadas por um dispositivo para transferir dados?",
+      "options": [
+        "largura de banda; throughput",
+        "throughput; largura de banda",
+        "largura de banda; goodput",
+        "throughput; goodput"
+      ],
+      "correctIndex": 0,
+      "explanation": "A largura de banda mede a taxa máxima na qual um dispositivo pode transferir dados. No entanto, na prática, a velocidade real para transferência de dados pode ser reduzida devido a vários fatores como congestionamento de rede, sobrecarga etc. Essa taxa real de transferência é conhecida como produtividade.",
+      "raw_id": "9b29e632c98b4917807d8af15fcccbf5"
+    },
+    {
+      "question": "Que tipo de cabo de rede contêm vários fios de cobre e usa proteção extra para evitar a interferência?",
+      "options": [
+        "STP",
+        "UTP",
+        "Fibra óptica",
+        "Coaxial"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os cabos de par trançado blindado (STP) contêm blindagem adicional e são comumente usados quando a interferência eletromagnética (EMI) ou a interferência de radiofrequência (RFI) afetariam negativamente a comunicação de dados que cruza um cabo de rede.",
+      "raw_id": "6070d3c6b94740bfb1c530380918d05d"
+    },
+    {
+      "question": "O que é codificação de linha?",
+      "options": [
+        "um método para representar informações digitais",
+        "um método de segurança usado para proteger os dados que estão sendo transmitidos",
+        "um método para representar bits na mídia",
+        "um método para alterar o nível de um sinal elétrico ou de um pulso óptico na mídia"
+      ],
+      "correctIndex": 0,
+      "explanation": "A codificação de linha é um método de conversão de um fluxo de bits de dados em um \"código\" predefinido. Em outras palavras, a codificação é o método ou o padrão usado para representar as informações digitais.",
+      "raw_id": "b2d006b9e0b646ab8f13d539854b3f01"
+    },
+    {
+      "question": "Qual é um fator que determina a largura de banda prática de uma rede?",
+      "options": [
+        "propriedades de mídia física",
+        "tipo de tráfego",
+        "quantidade de tráfego",
+        "latência causada por todos os dispositivos intermediários"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma combinação de fatores influencia a largura de banda prática de uma rede, incluindo as propriedades da mídia física, bem como as tecnologias escolhidas para sinalização e detecção de sinais de rede.",
+      "raw_id": "46f0af3dd6f348d296d9b461d44c2102"
+    },
+    {
+      "question": "Quais são as três opções para transmissão de sinal em uma rede? (Escolha três.)",
+      "options": [
+        "ondas de rádio",
+        "pulsos vibratórios",
+        "ondas sonoras",
+        "pulsos elétricos",
+        "pulsos de luz"
+      ],
+      "correctIndex": 4,
+      "explanation": "Existem três métodos comuns de transmissão de sinal usados em redes:\nSinais elétricos – A transmissão é obtida pela representação dos dados como pulsos elétricos em fios de cobre.\nSinais ópticos – A transmissão é obtida pela conversão dos sinais elétricos em pulsos de luz.\nSinais sem fio –  A transmissão é obtida pelo uso de infravermelho, micro-ondas ou ondas de rádio pelo ar.",
+      "raw_id": "1459334daefe4c80be72346ac2470de0"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,351 @@
+[
+  {
+    "_id": "16a05cb8227c4ea691ff1939315bf5cb",
+    "body": "<p><span>Entendendo a descoberta de vizinhos IPv6.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "16a05cb8227c4ea691ff1939315bf5cb",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "15ad51c651a346829f23faf16afe95c9",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "ade53f01-c614-4063-88d7-4859cb758e0d",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png",
+        "_small": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png",
+        "_medium": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png",
+        "_small": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png",
+        "_medium": "pt-BR/assets/8163e322845c48928b6e825b0a1fce12.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "15ad51c651a346829f23faf16afe95c9",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "8f735f6e-d3b8-44ef-883c-afd0c9e2a415",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1a58f96ba740434aab788a14f6c91cd4",
+    "body": "<p><span>Descrever a operação de descoberta de vizinho IPv6.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Operação de descoberta de vizinho",
+    "_oldId": "1a58f96ba740434aab788a14f6c91cd4",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "15ad51c651a346829f23faf16afe95c9",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "89751d26-c294-4957-95d5-53aff45063d1",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png",
+        "_small": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png",
+        "_medium": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png",
+        "_small": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png",
+        "_medium": "pt-BR/assets/70bdd1fee81f40f09d4144e47ec84b98.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "15ad51c651a346829f23faf16afe95c9",
+    "displayTitle": "{{_moduleNumber}}.1. Operação de descoberta de vizinho",
+    "_isPageTracer": false,
+    "_activityParentId": "8f735f6e-d3b8-44ef-883c-afd0c9e2a415",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "02e1d690aab7426ab15ab6598a9d49a9",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Resumo da descoberta de vizinhos IPv6",
+    "_oldId": "02e1d690aab7426ab15ab6598a9d49a9",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "15ad51c651a346829f23faf16afe95c9",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "86e823c6-95fc-408a-9d4a-0a9adc8a4386",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png",
+        "_small": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png",
+        "_medium": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png",
+        "_small": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png",
+        "_medium": "pt-BR/assets/a5f55d8dc71447d1bfeb6065b9b8eaa8.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "15ad51c651a346829f23faf16afe95c9",
+    "displayTitle": "{{_moduleNumber}}.2. Resumo da descoberta de vizinhos IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "8f735f6e-d3b8-44ef-883c-afd0c9e2a415",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a40be0d0-c6d1-4a1b-be77-a0e0dbd1fbb0",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Descoberta de Vizinhos IPv6",
+    "_oldId": "a40be0d0-c6d1-4a1b-be77-a0e0dbd1fbb0",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "15ad51c651a346829f23faf16afe95c9",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "3fb40b05-5a21-4ab3-9676-2483ef343a22",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "15ad51c651a346829f23faf16afe95c9",
+    "displayTitle": "Packet Tracer - Descoberta de Vizinhos IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "8f735f6e-d3b8-44ef-883c-afd0c9e2a415",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

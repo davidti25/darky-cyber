@@ -1,0 +1,4663 @@
+[
+  {
+    "_id": "9c966fd5f25b49938ca884a04d1b7bbb",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução </span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução ",
+    "_oldId": "9c966fd5f25b49938ca884a04d1b7bbb",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "398de7257d144fb7b6a3bf6213620462",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cde58afa-965e-410c-b860-739e66e65db4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "398de7257d144fb7b6a3bf6213620462",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "6d06d758-6855-48f5-84fc-c880cf35b7f5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b244ecb186134bca821e2df66739ed9a",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução ",
+    "_oldId": "b244ecb186134bca821e2df66739ed9a",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "72bfa35d8292492ba6a21ac5b70a4c0c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "140b3b51-8b4e-4c8e-9547-a9708669b95f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "72bfa35d8292492ba6a21ac5b70a4c0c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "9603a85d-e048-4e2f-bd09-b2924f6f08ae",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "041e720bdf434470baf52ea4853e5cd4",
+    "body": "<p>Deixe-me apresentá-lo ao meu amigo Bob! Bob trabalha na área de TI em Vancouver, no Canadá, e tem alguma experiência em redes. Ele está prestando consultoria para seus amigos, Marcy e Vincent, que compraram uma loja de móveis. Eles querem expandir suas operações físicas e se estabelecer na loja online também. Atualmente, a rede interna da loja lida com transações e estoque na loja. Marcy e Vincent querem adicionar câmeras de segurança, telefones VoIP e também expandi-la para incluir comércio eletrônico e remessa. Bob explica que isso vai ser mais caro do que seus amigos tinham previsto. Ele está pensando em projetar a futura rede para a loja de móveis. Ele explica que deve considerar a tolerância a falhas, a escalabilidade, o QoS e a segurança. Além disso, a rede atualmente é plana, não hierárquica. As redes hierárquicas são bem dimensionadas e acomodarão melhor esse negócio em crescimento.</p><p>Uau! Isso é muito para Marcy e Vincent entenderem. Eles não estão familiarizados com esses problemas de rede. E você? Aproveite este módulo para saber mais sobre redes confiáveis e design de rede hierárquica! </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "041e720bdf434470baf52ea4853e5cd4",
+    "_layout": "left",
+    "_classes": "",
+    "_parentId": "fdf2acd4dd1d474281e1471b7f165d24",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "1bd97284-bdf8-4578-94ee-76c0e1a2e2fb",
+    "instruction": "",
+    "_oldParentId": "fdf2acd4dd1d474281e1471b7f165d24",
+    "displayTitle": "",
+    "_activityParentId": "e67515c5-b847-4996-b7ad-ff22a64ea415",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "eff95a736c1d46179a6c12fbbb37b75d",
+    "body": " ",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "eff95a736c1d46179a6c12fbbb37b75d",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/07c2d6966212441d8e35728fbc481732.png",
+      "small": "pt-BR/assets/07c2d6966212441d8e35728fbc481732.png",
+      "attribution": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "fdf2acd4dd1d474281e1471b7f165d24",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "9b368ac4-808c-4f8b-a59e-ab89d2526ab2",
+    "instruction": "",
+    "_oldParentId": "fdf2acd4dd1d474281e1471b7f165d24",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e67515c5-b847-4996-b7ad-ff22a64ea415",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "32bf45eaeca14cd7b876def21abe4e20",
+    "body": "<p><strong>Título do módulo:</strong> Design de rede </p><p> <strong>Módulo Objetivo:</strong> Explicar os componentes de um projeto de rede hierárquica.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Redes confiáveis ",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Descrever os quatro requisitos básicos de uma rede confiável.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Projeto de rede hierárquica ",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar a função em cada camada do modelo de design de rede de 3 camadas.\n",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "32bf45eaeca14cd7b876def21abe4e20",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "9a5b6860d80f43d6a3ae6be715c35b64",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "d6267fe0-871e-4d04-9a96-c30eda27a9ab",
+    "instruction": "",
+    "_oldParentId": "9a5b6860d80f43d6a3ae6be715c35b64",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "8c389bc2-332b-4852-ac36-729f3887e04f",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d280d7bab32e4e28b349a629135bc900",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "d280d7bab32e4e28b349a629135bc900",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "2bf4b671c0e1415dbd6847220d3bcee6",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "b91a6b5b-9967-417c-8100-0b74cd48c35d",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "2bf4b671c0e1415dbd6847220d3bcee6",
+    "displayTitle": "",
+    "_activityParentId": "7ac8ee40-48e8-477a-b4e4-efb39fff894e"
+  },
+  {
+    "_id": "cbc050ad8d6f48eebf9042e11769ee41",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Redes confiáveis</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Redes confiáveis",
+    "_oldId": "cbc050ad8d6f48eebf9042e11769ee41",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "30becad776b94b57b4ef9855090ff018",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "df910139-e534-4b6a-9fac-419d58f25aed",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "30becad776b94b57b4ef9855090ff018",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "a8b159e8-8e4b-43cb-baf6-d70ea8b16f67",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9e7051d9ab2b446da57dd80c7f830c81",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Redes confiáveis",
+    "_oldId": "9e7051d9ab2b446da57dd80c7f830c81",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1660910c3b324e5bb6e880baa9d46f30",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a0fc0d03-e0b9-4874-950a-2038a4fd2aa5",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1660910c3b324e5bb6e880baa9d46f30",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e57d0f06-9f6f-4f19-8113-5939a95fe426",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d11e7fd462a7430bbca0566229881b10",
+    "body": "<p>Você já esteve ocupado trabalhando on-line, e achou que \"a internet caiu\" ? Como você sabe até agora, a internet não caiu, você acabou de perder sua conexão com ela. Isso é muito frustrante. Com tantas pessoas no mundo confiando no acesso à rede para trabalhar e aprender, é imperativo que as redes sejam confiáveis. Nesse contexto, confiabilidade significa mais do que sua conexão à Internet. Este tópico se concentra nos quatro aspectos da confiabilidade da rede.</p><p>O papel da rede mudou de uma rede somente de dados para um sistema que permite a conexão de pessoas, dispositivos e informações em um ambiente de rede convergente rico em mídia. Para que as redes funcionem com eficiência e cresçam nesse tipo de ambiente, a rede deve ser construída sobre uma arquitetura de rede padrão.</p><p>As redes também suportam uma ampla gama de aplicativos e serviços. Elas devem operar sobre muitos tipos diferentes de cabos e dispositivos, que compõem a infraestrutura física. O termo arquitetura de redes, neste contexto, refere-se às tecnologias que apoiam a infraestrutura e os serviços programados e as regras, ou protocolos, que movimentam os dados na rede.</p><p>À medida que as redes evoluem, aprendemos que há quatro características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário:</p><ul><li>Tolerância a falhas</li><li>Escalabilidade</li><li>Qualidade de serviço (QoS)</li><li>Segurança</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Arquitetura de Rede",
+    "_oldId": "d11e7fd462a7430bbca0566229881b10",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "680d64f45b1f427a95a01b8b23721307",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "53b172d6-23dd-457d-955b-7bbcc18738c1",
+    "instruction": "",
+    "_oldParentId": "680d64f45b1f427a95a01b8b23721307",
+    "displayTitle": "",
+    "_activityParentId": "726693c3-8623-47ff-acb2-67a564071c5f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "2d315a7f99304ad68f7bdf4b9cb8988c",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Vídeo - Tolerância a falhas",
+    "_oldId": "2d315a7f99304ad68f7bdf4b9cb8988c",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6298725110001",
+    "videoIds": [
+      "55661298-e7c7-47dd-9356-42de8e3cd2f7"
+    ],
+    "_parentId": "664fa17490c84f26a1c6d658c6246200",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "e2c105a6-18e2-46a4-b61e-9ebf07c13ac3",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "664fa17490c84f26a1c6d658c6246200",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "839178eb-05b7-4090-b2bb-012ade461c87",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "f2267d5c39a7491db70fe9f7e30ad57a",
+    "body": "<p>Uma rede tolerante a falhas é aquela que limita o número de dispositivos afetados durante uma falha. Ela foi desenvolvida para permitir uma recuperação rápida quando ocorre uma falha. Essas redes dependem de vários caminhos entre a origem e o destino de uma mensagem. Se um caminho falhar, as mensagens serão instantaneamente enviadas por um link diferente. Ter vários caminhos para um destino é conhecido como redundância.</p><p>A implementação de uma rede comutada por pacotes é uma das maneiras pelas quais redes confiáveis fornecem redundância. A comutação de pacotes divide os dados do tráfego em pacotes que são roteados por uma rede compartilhada. Uma única mensagem, como um e-mail ou stream de vídeo, é dividido em vários blocos, chamados pacotes. Cada pacote tem as informações de endereço necessárias da origem e do destino da mensagem. Os roteadores na rede alternam os pacotes com base na condição da rede no momento. Isso significa que todos os pacotes em uma única mensagem podem seguir caminhos muito diferentes para o mesmo destino. Na figura, o usuário desconhece e não é afetado pelo roteador que está alterando dinamicamente a rota quando um link falha.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Tolerância a Falhas",
+    "_oldId": "f2267d5c39a7491db70fe9f7e30ad57a",
+    "details": {
+      "uuid": "2d929410-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "As conexões redundantes oferecem caminhos alternativos se um dispositivo ou link falhar. A experiência do usuário não é afetada.",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d929410-1c25-11ea-a010-eb2108469056/2d929411-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "645/375",
+      "primary_image": "media/2d929410-1c25-11ea-a010-eb2108469056/2d929412-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "5a32d849a6104fef8f01b957ec95acbf",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "934948b4-148a-49d2-af3f-c7a097802127",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "5a32d849a6104fef8f01b957ec95acbf",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A topologia de rede consiste em quatro roteadores com links redundantes. Na parte superior do diagrama está a nuvem da Internet com duas conexões na parte inferior, cada uma levando a um roteador. Abaixo desses roteadores há uma conexão com outro roteador. Cada roteador inferior se conecta de volta a ambos os roteadores que se conectam à Internet. O roteador na parte inferior esquerda está conectado a um switch com três desktops e três telefones IP. O roteador no canto inferior direito está conectado a um switch com três desktops.  O roteador superior esquerdo possui um círculo vermelho com uma linha diagonal. O roteador superior direito tem uma seta verde que leva à Internet. Uma caixa de texto diz: conexões redundantes permitem caminhos alternativos se um dispositivo falhar; a exeriência do usuário não é afetada.",
+    "_activityParentId": "00869b59-9af2-4b96-8c73-2f4025e64597",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "30511657addf4cd9aa25d18a5e714ce6",
+    "body": "<p>Uma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos. Ela faz isso sem degradar o desempenho dos serviços que estão sendo acessados por usuários existentes. A figura mostra como uma nova rede é facilmente adicionada a uma rede existente. Essas redes são escaláveis porque os projetistas seguem padrões e protocolos aceitos. Isso permite que os fornecedores de software e hardware se concentrem em melhorar produtos e serviços sem precisar criar um novo conjunto de regras para operar na rede.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Escalabilidade",
+    "_oldId": "30511657addf4cd9aa25d18a5e714ce6",
+    "details": {
+      "uuid": "2d92bb20-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_s2_txt01"
+        },
+        {
+          "text": "Usuários adicionais e redes inteiras podem ser conectados à Internet sem reduzir o desempenho para usuários atuais.",
+          "class": "ID_s2_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d92bb20-1c25-11ea-a010-eb2108469056/2d92e231-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "643/415",
+      "primary_image": "media/2d92bb20-1c25-11ea-a010-eb2108469056/2d92e232-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "3ee11c7e314c4f718626e8e2656f9758",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "a297487b-14ee-48f9-a664-8809a2df2bb7",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "3ee11c7e314c4f718626e8e2656f9758",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A topologia de rede consiste em quatro roteadores com links redundantes, incluindo duas conexões com a nuvem da Internet. Existem três LANs, uma das quais foi recentemente adicionada. Uma caixa de texto diz: usuários adicionais e redes inteiras podem ser conectadas à Internet sem prejudicar o desempenho dos usuários existentes.",
+    "_activityParentId": "4ac85118-b5a9-4bda-9cf6-e3bf8a72bd5e",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "feef0ddd5e5e4b49a03fcb7229bf8a90",
+    "body": "<p>A qualidade do serviço (QoS) é um requisito crescente das redes atualmente. Novos aplicativos disponíveis para usuários em redes, como transmissões de voz e vídeo ao vivo, criam expectativas mais altas em relação à qualidade dos serviços entregues. Você já tentou assistir a um vídeo com intervalos e pausas constantes? Conforme o conteúdo de vídeo, voz e dados convergem na mesma rede, o QoS se torna um mecanismo essencial para gerenciar os congestionamentos e garantir a entrega confiável do conteúdo para todos os usuários.</p><p>O congestionamento acontece quando a demanda por largura de banda excede a quantidade disponível. A largura de banda é medida pelo número de bits que podem ser transmitidos em um único segundo, ou bits por segundo (bps). Ao tentar uma comunicação simultânea pela rede, a demanda pela largura de banda pode exceder sua disponibilidade, criando um congestionamento na rede.</p><p>Quando o volume de tráfego é maior do que o que pode ser transportado pela rede, os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los. Na figura, um usuário está solicitando uma página da Web e outro está em uma ligação. Com uma política de QoS configurada, o roteador é capaz de gerenciar o fluxo do tráfego de voz e de dados, priorizando as comunicações por voz se a rede ficar congestionada. O foco do QoS é priorizar o tráfego sensível ao tempo. O tipo de tráfego, e não o conteúdo, é o que é importante.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.5 Qualidade de Serviço",
+    "_oldId": "feef0ddd5e5e4b49a03fcb7229bf8a90",
+    "details": {
+      "uuid": "2d930940-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "A qualidade de serviço, controlada pelo roteador, garante que as prioridades sejam correspondentes ao tipo de comunicação e à sua importância para a empresa.",
+          "class": "ID_s3_txt02"
+        },
+        {
+          "text": "Geralmente, as páginas Web podem receber uma prioridade mais baixa.",
+          "class": "ID_s3_txt03"
+        },
+        {
+          "text": "Uma chamada de voz sobre IP (VoIP) precisará de prioridade para manter uma experiência suave e ininterrupta do usuário.",
+          "class": "ID_s3_txt04"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_s3_txt01"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d930940-1c25-11ea-a010-eb2108469056/2d930942-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "661/410",
+      "primary_image": "media/2d930940-1c25-11ea-a010-eb2108469056/2d930943-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "3c98dbf714ec49e293fd4d076e32250f",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "557fc324-f325-4840-b40d-1a33f098e0bd",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "3c98dbf714ec49e293fd4d076e32250f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "topologia de rede com PCs e telefones IP conectados a um switch conectado a um roteador que gerencia a qualidade de serviço, priorizando o tráfego",
+    "_activityParentId": "e84053d9-4c55-43f4-8fc6-a7e82b869cd8",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "5d1eae22b15a450e86a8a9af3e5683ce",
+    "body": "<p>A infraestrutura da rede, os serviços e os dados contidos nos dispositivos conectados à rede são recursos pessoais e comerciais críticos. Os administradores de rede devem abordar dois tipos de preocupações de segurança de rede: segurança da infraestrutura de rede e segurança da informação.</p><p>Proteger a infraestrutura de rede inclui proteger fisicamente os dispositivos que fornecem conectividade de rede e impedir o acesso não autorizado ao software de gerenciamento que reside neles, conforme mostrado na figura.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.6 Segurança de rede",
+    "_oldId": "5d1eae22b15a450e86a8a9af3e5683ce",
+    "details": {
+      "uuid": "2d935760-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Os administradores podem proteger a rede com segurança de software e hardware e impedindo o acesso físico aos dispositivos de rede.",
+          "class": "ID_s1_txt02"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_s1_txt01"
+        },
+        {
+          "text": "Medidas de segurança protegem a rede de acessos não autorizados.",
+          "class": "ID_s1_txt04"
+        },
+        {
+          "text": "Login: ?<br/>Senha: ?",
+          "class": "ID_s1_txt17"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d935760-1c25-11ea-a010-eb2108469056/2d935762-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "684/410",
+      "primary_image": "media/2d935760-1c25-11ea-a010-eb2108469056/2d935763-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "77704f98a1b44ca7a2cd6813ad3d12fb",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f6898645-785a-4fd2-ae78-b951cf7c633b",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "77704f98a1b44ca7a2cd6813ad3d12fb",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "topologia de rede com PCs e telefones IP conectados a um switch conectado a um roteador que pode proteger a rede com segurança de software e hardware e impedir o acesso físico a dispositivos de rede.",
+    "_activityParentId": "eddbd5b6-3341-4044-aaaa-85dc00d52fac",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8e94a7a3c5b648e790a3cd629ad58984",
+    "body": "<p>Os administradores de rede também devem proteger as informações contidas nos pacotes transmitidos pela rede e as informações armazenadas nos dispositivos conectados à rede. Para atingir os objetivos de segurança de rede, existem três requisitos principais.</p><ul><li><strong>Confidencialidade</strong> - A confidencialidade dos dados significa que apenas os destinatários pretendidos e autorizados podem acessar e ler os dados.</li><li><strong>Integridade</strong> - A integridade dos dados garante aos usuários que as informações não foram alteradas na transmissão, da origem ao destino.</li><li><strong>Disponibilidade</strong> - A disponibilidade de dados garante aos usuários acesso oportuno e confiável aos serviços de dados para usuários autorizados.</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.6 Segurança de rede",
+    "_oldId": "8e94a7a3c5b648e790a3cd629ad58984",
+    "_layout": "full",
+    "_classes": "",
+    "_parentId": "88ff760d990c49f38bf904a9420e14af",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "884028f6-b36f-4d08-a3f4-8bdeed3ce954",
+    "instruction": "",
+    "_oldParentId": "88ff760d990c49f38bf904a9420e14af",
+    "displayTitle": "",
+    "_activityParentId": "ec9d70ce-0659-46b6-b4ad-4ab0eaa2b53a",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "e689d599595646b883195e38b3459827",
+    "body": "Quando os designers seguem padrões e protocolos aceitos, qual das quatro características básicas da arquitetura de rede é alcançado?",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Tolerância a falhas",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Escalabilidade",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "QoS",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Segurança",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "e689d599595646b883195e38b3459827",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>A escalabilidade ocorre quando os designers seguem padrões e protocolos aceitos.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>A escalabilidade ocorre quando os designers seguem padrões e protocolos aceitos.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "f612ec0bc5304957b50f8af9308b82a0",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "665af1ef-1454-441f-b79a-bce973ffc320",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "f612ec0bc5304957b50f8af9308b82a0",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "e689d599595646b883195e38b3459827",
+    "_activityParentId": "f762fe76-56a3-466f-b872-28ac5e74e98f",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "3721f4a59e15451fb829fb80de6424b5",
+    "body": "Confidencialidade, integridade e disponibilidade são requisitos de qual das quatro características básicas da arquitetura de rede?",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Tolerância a falhas",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Escalabilidade",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "QoS",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Segurança",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "3721f4a59e15451fb829fb80de6424b5",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Confidencialidade, integridade e disponibilidade são requisitos de segurança.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Confidencialidade, integridade e disponibilidade são requisitos de segurança.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "dbd939fd9ff44c448572628e3320091c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "5521e45b-9eba-4d2f-a804-e6686cb2745d",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "dbd939fd9ff44c448572628e3320091c",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "3721f4a59e15451fb829fb80de6424b5",
+    "_activityParentId": "08205eb8-b8b3-4700-8210-5d632f134b3e",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "8c57555a9a67475abc2ee25e1e6f5268",
+    "body": "Com qual tipo de política, um roteador pode gerenciar o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz se a rede sofrer congestionamento?",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "Tolerância a falhas",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Escalabilidade",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "QoS",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Segurança",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "8c57555a9a67475abc2ee25e1e6f5268",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>QoS significa que um roteador gerenciará o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>QoS significa que um roteador gerenciará o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "ad204047f75e4c3c88797209cf427379",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "f9490afc-6144-4489-aa2d-e83a47ae5333",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "ad204047f75e4c3c88797209cf427379",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "8c57555a9a67475abc2ee25e1e6f5268",
+    "_activityParentId": "46edf781-b813-479e-9565-166c3fb9f437",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "1a70c6e17f5d4143b068e08965d3fe74",
+    "body": "Ter vários caminhos para um destino é conhecido como redundância. Este é um exemplo de qual característica da arquitetura de rede?",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "Tolerância a falhas",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Escalabilidade",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "QoS",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Segurança",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "1a70c6e17f5d4143b068e08965d3fe74",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Redundância é um exemplo de arquitetura de rede tolerante a falhas.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Redundância é um exemplo de arquitetura de rede tolerante a falhas.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "767eecf4a3334ff4bc94b2f6d29234c2",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "3f698eba-6e0a-44a4-96f7-4bde8d3a6dad",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "767eecf4a3334ff4bc94b2f6d29234c2",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "1a70c6e17f5d4143b068e08965d3fe74",
+    "_activityParentId": "d071d3f7-7c9a-4840-ba25-86c219f4853c",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "6002e78385f1463ab7dfe507da8615f8",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "6002e78385f1463ab7dfe507da8615f8",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "08a652715a664786994abb1bacf405e9",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "011ed102-67e1-4c9b-8e18-63ff7fc6f3d0",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "08a652715a664786994abb1bacf405e9",
+    "displayTitle": "",
+    "_activityParentId": "8f00be2b-3ade-4cba-a7f8-8a5f448ea277"
+  },
+  {
+    "_id": "6b499719d1ba4781acbb1902b302a3ad",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Projeto de rede hierárquica </span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Projeto de rede hierárquica",
+    "_oldId": "6b499719d1ba4781acbb1902b302a3ad",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6098821d54f2422494c1747b48cc8c78",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ad401264-8b6b-4169-b49e-b6fc57fdd4ec",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6098821d54f2422494c1747b48cc8c78",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "95e81f70-a9c2-4107-904c-d8b1a0599655",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "18c52f3eaf6d4b60a6659bcbbaf9921b",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Projeto de rede hierárquica",
+    "_oldId": "18c52f3eaf6d4b60a6659bcbbaf9921b",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6bc39fa9938a4566a9ce381c0b62ccf4",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "eb4f0a20-36ee-410b-8d98-e3e704da1b18",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6bc39fa9938a4566a9ce381c0b62ccf4",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "9555ef3c-48d5-4958-8f78-621fdfaf98d1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "87f78e5734d7440585719a6997a270e5",
+    "body": "<p>O nome de uma pessoa normalmente não muda. O endereço de uma pessoa, por outro lado, refere-se a onde a pessoa mora e pode mudar. Em um host, o endereço MAC não muda; ele é atribuído fisicamente à NIC do host e é conhecido como endereço físico. O endereço físico permanece o mesmo, independentemente de onde o host está localizado na rede.</p><p>O endereço IP é semelhante ao endereço de uma pessoa. Ele é conhecido como endereço lógico porque é atribuído logicamente com base na localização do host. O endereço IP (ou endereço de rede) é atribuído a cada host por um administrador de rede com base na rede local.</p><p>Os endereços IP contêm duas partes. Uma parte identifica a porção de rede. A porção de rede do endereço IP será a mesma para todos os hosts conectados à mesma rede local. A segunda parte do endereço IP identifica o host individualmente nesta rede Dentro da mesma rede local, a porção de host do endereço IP é exclusiva para cada host como mostrado na figura.</p><p>Os endereços MAC físico e IP lógico são necessários para que um computador se comunique em uma rede hierárquica, assim como o nome e o endereço de uma pessoa são necessários para enviar uma carta.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Endereços Físicos e Lógicos",
+    "_oldId": "87f78e5734d7440585719a6997a270e5",
+    "details": {
+      "uuid": "8bfb44a0-e625-11ea-bddd-5127370b77b7",
+      "texts": [
+        {
+          "text": "Rede<br/>192.168.200.0",
+          "class": "text1"
+        },
+        {
+          "text": "Rede<br/>192.168.1.0",
+          "class": "text2"
+        },
+        {
+          "text": "192.168.200.<span class=\"highlight\"><strong>2</strong></span>",
+          "class": "text3"
+        },
+        {
+          "text": "192.168.200.<span class=\"highlight\"><strong>3</strong></span>",
+          "class": "text4"
+        },
+        {
+          "text": "192.168.200.<span class=\"highlight\"><strong>4</strong></span>",
+          "class": "text5"
+        },
+        {
+          "text": "192.168.200.<span class=\"highlight\"><strong>1</strong></span>",
+          "class": "text6"
+        },
+        {
+          "text": "192.168.1.<span class=\"highlight\"><strong>4</strong></span>",
+          "class": "text7"
+        },
+        {
+          "text": "192.168.1.<span class=\"highlight\"><strong>3</strong></span>",
+          "class": "text8"
+        },
+        {
+          "text": "192.168.1.<span class=\"highlight\"><strong>2</strong></span>",
+          "class": "text9"
+        },
+        {
+          "text": "192.168.1.<span class=\"highlight\"><strong>1</strong></span>",
+          "class": "text10"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/8bfb44a0-e625-11ea-bddd-5127370b77b7/818aff3b-5f7c-47e5-9830-b4a4dc3a8333.css",
+      "aspect_ratio": "680/490",
+      "primary_image": "media/8bfb44a0-e625-11ea-bddd-5127370b77b7/785643ad-91bb-4175-9281-99b056f6c4b2.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "d7ca655f67124472b63983894817d4c7",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "db2a542c-de71-4045-ba98-3f153ec1cd58",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "d7ca655f67124472b63983894817d4c7",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A figura mostra duas redes conectadas por um roteador. A rede esquerda é 192 ponto 168 ponto 200 ponto 0. A rede certa é 192 ponto 168 ponto 1 ponto 0. Cada rede tem 4 hosts conectados por um switch, H1 192 pontos 168 pontos 200 pontos 1, H2 192 pontos 168 pontos 200 pontos 2, H3 192 pontos 168 pontos 200 pontos 3 e H4 192 pontos 168 pontos 200 pontos 4 na rede esquerda e H5 192 pontos 168 pontos 1 ponto 1, H6 192 pontos 168 pontos 1 ponto 2, H7 192 pontos 168 pontos 1 ponto 3 e H8 192 pontos 168 pontos 1 ponto 4 na rede certa. O número final de cada endereço de host está em vermelho. ",
+    "_activityParentId": "980c1378-c57b-4881-b716-19c5e54f806b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "abb2c1a7c6244135912eb1cbd8bd21f7",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Vídeo - Visualizar Informações de Rede em Meus Dispositivos",
+    "_oldId": "abb2c1a7c6244135912eb1cbd8bd21f7",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249900047001",
+    "videoIds": [
+      "46524230-afab-4ecd-84da-3ef7176ce8d4"
+    ],
+    "_parentId": "dc653abe784341a484ef97a00ea51e56",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "d91c87c5-d9ac-45f6-bb8d-615b8b479e80",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "dc653abe784341a484ef97a00ea51e56",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "c32e55f8-6b30-4525-9072-cd00e9cc3fcf",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "05943d8f190243b488b83519638cf2ff",
+    "body": "<p>Neste laboratório, você completará os seguintes objetivos:</p><ul><li>Identificar e trabalhar com as placas de rede do PC.</li><li>Identificar e usar os ícones de rede da barra de tarefas.</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Laboratório - Visualizando informações das placas de redes com e sem fio",
+    "_items": [
+      {
+        "url": "",
+        "_classes": "",
+        "_buttonText": "Visualizando informações das placas de redes com e sem fio",
+        "fileExtension": "",
+        "_closeButtonText": "Fechar",
+        "downloadFileName": "Visualizando informações das placas de redes com e sem fio",
+        "articleRenderingID": "5b02b394-10ba-4d18-8715-0048157c754a",
+        "_downloadHtmlButton": "Baixar HTML",
+        "downloadLinkButtonText": "Visualizando informações das placas de redes com e sem fio",
+        "isPageTracerPopupBtnEnable": true,
+        "isPacketTracerDownloadEnable": false
+      }
+    ],
+    "_oldId": "05943d8f190243b488b83519638cf2ff",
+    "_layout": "full",
+    "_search": {
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds hide-download-button",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "d119baf3876b43adad4be022ef372027",
+    "_component": "pageTracer",
+    "_isDeleted": false,
+    "_activityId": "36a96a25-a0d5-4008-9240-cc91b0ff4714",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d119baf3876b43adad4be022ef372027",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "11fbc04e-2f8f-4987-90cd-ba49085fcbfa",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "body": "<p>Imagine como a comunicação seria difícil se a única forma de enviar uma mensagem para alguém fosse usar o nome da pessoa. Se não houvesse limites de endereço, cidade ou país, entregar uma mensagem a uma pessoa específica no mundo inteiro seria quase impossível.</p><p><strong>Clique em cada botão abaixo para ver um exemplo de uma maneira hierárquica de localizar um local.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.4 Analogia hierárquica",
+    "_items": [
+      {
+        "body": "",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "América do Norte",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "8c1b4fc0-e625-11ea-bddd-5127370b77b7"
+        }
+      },
+      {
+        "body": "",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Canadá",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "8c216a40-e625-11ea-bddd-5127370b77b7"
+        }
+      },
+      {
+        "body": "",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Nova Escócia",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "8c2736a0-e625-11ea-bddd-5127370b77b7"
+        }
+      },
+      {
+        "body": "",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Halifax",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "8c2b7c60-e625-11ea-bddd-5127370b77b7"
+        }
+      }
+    ],
+    "_oldId": "982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "363a592b2af34ef8b0edd0bac11c0d84",
+    "_component": "tabs",
+    "_isDeleted": false,
+    "_minHeight": "500px",
+    "_tabLayout": "horizontal",
+    "_activityId": "abf1bed0-35a1-4b60-9543-7cf4c698c126",
+    "instruction": "",
+    "_oldParentId": "363a592b2af34ef8b0edd0bac11c0d84",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_activityParentId": "0176e011-9b85-412b-9ff4-a033ff32c934",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "e969995a4cd745a4bcecc4bcf8b07fe3",
+    "body": "<p>Em uma rede Ethernet, o endereço MAC do host é semelhante ao nome de uma pessoa. Um endereço MAC exibe a identidade individual de um host específico, mas não indica onde ele está localizado na rede. Se cada um dos hosts na Internet (milhões e milhões deles) fosse identificado apenas por seu endereço MAC exclusivo, imagine como seria difícil localizar um host específico.</p><p>Além disso, a tecnologia Ethernet gera uma grande quantidade de tráfego de broadcast para que os hosts se comuniquem. Os broadcasts são enviados para todos os hosts dentro de uma única rede. Eles consomem largura de banda e reduzem o desempenho da rede. O que aconteceria se todos milhões de hosts conectados à Internet estivessem em uma única rede Ethernet e usassem broadcasts?</p><p>Por essas duas razões, grandes redes Ethernet com vários hosts não são eficientes. É melhor dividir redes maiores em redes menores e mais gerenciáveis. Uma forma de fazer isso é usar um modelo de design hierárquico.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.4 Laboratório - Analogia Hierárquica",
+    "_oldId": "e969995a4cd745a4bcecc4bcf8b07fe3",
+    "_layout": "full",
+    "_classes": "",
+    "_parentId": "33c8c4c03f1745cdaa2378cd71f842e6",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "8f20f154-e285-4701-9146-080f432c82b4",
+    "instruction": "",
+    "_oldParentId": "33c8c4c03f1745cdaa2378cd71f842e6",
+    "displayTitle": "",
+    "_activityParentId": "f2347d8d-b400-4bdb-aecb-d4e238b872fe",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "895411921535495db751a1d54a04c772",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.5 Vantagens de um Design Hierárquico",
+    "_oldId": "895411921535495db751a1d54a04c772",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249900786001",
+    "videoIds": [
+      "9e2e4697-b44b-4d57-86fe-09cd31734a5e"
+    ],
+    "_parentId": "8ea9a12ec9d74e40ac5a070aa9a11a8c",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "de168097-07f0-4759-98ad-7926fa1a76fd",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "8ea9a12ec9d74e40ac5a070aa9a11a8c",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "7850e9f7-a083-476d-8252-e0629ca9ec6a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "6d80994f4a064c5e814bef7a30c91725",
+    "body": "<p>O tráfego IP é gerenciado de acordo com as características e os dispositivos associados a cada uma das três camadas do modelo de design hierárquico na rede: acesso, distribuição e núcleo.</p><p><strong>Clique abaixo  para obter uma descrição de cada camada.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.6 Acesso, Distribuição e Núcleo",
+    "_items": [
+      {
+        "body": "<p><strong>Camada de Acesso</strong></p><p>A camada de acesso fornece um ponto de conexão à rede para dispositivos de usuário final e permite que vários hosts se conectem a outros hosts por um dispositivo de rede, geralmente um switch ou um access point. Normalmente, todos os dispositivos dentro de uma única camada de acesso terão a mesma porção de rede do endereço IP.</p><p>Se uma mensagem é destinada a um host local, com base na porção de rede do endereço IP, a mensagem permanece local. Caso ela seja destinada a uma rede diferente, será passada para a camada de distribuição. Os switches fornecem a conexão para os dispositivos da camada de distribuição, geralmente um dispositivo layer 3 tal como um roteador ou um switch layer 3.</p><p><strong>Cisco 2960-XR</strong></p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The access layer image shows a Cisco switch that has two rows of ports across the front.",
+          "src": "media/8c3f5280-e625-11ea-bddd-5127370b77b7/997e61f0-fc3e-11ea-8100-b54a256e2995.png",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Camada de Acesso"
+      },
+      {
+        "body": "<p><strong>Camada de distribuição</strong></p><p>A camada de distribuição fornece um ponto de conexão para redes separadas e controla o fluxo de informações entre as redes. Normalmente, ela contém switches mais eficientes do que a camada de acesso, além de roteadores para fazer o roteamento entre redes. Os dispositivos da camada de distribuição controlam o tipo e a quantidade de tráfego que flui da camada de acesso para a camada do núcleo.</p><p><strong>Cisco C9300 Series</strong></p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The distribution layer image shows four switches that include more gigabit Ethernet ports.",
+          "src": "media/8c47b6f0-e625-11ea-bddd-5127370b77b7/72c69ea0-fc3f-11ea-a910-49d39f46e1eb.jpg",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Camada de distribuição"
+      },
+      {
+        "body": "<p><strong>Camada de Núcleo</strong></p><p>A camada do núcleo é uma camada de backbone de alta velocidade com conexões (de backup) redundantes. Ela é responsável por transmitir grandes quantidades de dados entre várias redes finais. Os dispositivos da camada de núcleo normalmente incluem roteadores e switches de alta velocidade e muito eficientes,tais como um Cisco Catalyst 9600 mostrado na figura. O objetivo principal da camada do núcleo é transportar dados rapidamente.</p><p><strong>Cisco Catalyst 9600 Series</strong></p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "The core layer switch has a large switch that has modules contained horizontally within it and one module along the left that is pulled slightly out.",
+          "src": "media/8c50deb0-e625-11ea-bddd-5127370b77b7/e535d0f0-fc3f-11ea-9c2e-ab88220a5e9f.png",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Camada de Núcleo"
+      }
+    ],
+    "_oldId": "6d80994f4a064c5e814bef7a30c91725",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f9cbf13375d1456bbc845aee4e8584fb",
+    "_component": "tabs",
+    "_isDeleted": false,
+    "_minHeight": "500px",
+    "_tabLayout": "horizontal",
+    "_activityId": "5d4aa5bc-e8de-48de-8aa4-0c5a56534ae3",
+    "instruction": "",
+    "_oldParentId": "f9cbf13375d1456bbc845aee4e8584fb",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "netacad-media"
+    },
+    "_activityParentId": "23d3e56c-72ab-4dab-a424-61da7cffc6c7",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "8c1b4fc0-e625-11ea-bddd-5127370b77b7",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "_oldId": "8c1b4fc0-e625-11ea-bddd-5127370b77b7",
+    "details": {
+      "uuid": "8c1b4fc0-e625-11ea-bddd-5127370b77b7",
+      "texts": [
+        {
+          "text": "Groenlândia",
+          "class": "text1"
+        },
+        {
+          "text": "Canadá",
+          "class": "text2"
+        },
+        {
+          "text": "Estados Unidos",
+          "class": "text3"
+        },
+        {
+          "text": "México",
+          "class": "text4"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/02572ff0-f2a7-11ea-86ec-01dcf970d4ae.png",
+          "class": "north-america-map--UUID"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/24e0fbd5-331e-406d-b085-72392a126a5a.css",
+      "aspect_ratio": "680/450",
+      "primary_image": "media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/2784abc0-5193-42f5-b69c-86d509c0f62a.svg"
+    },
+    "_parentId": "94df5e63-9ff2-48a0-b6b1-d154e7e87197",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "848d73d7-fc3f-4b44-b7a9-5a04b882ef7d",
+    "_oldParentId": "94df5e63-9ff2-48a0-b6b1-d154e7e87197",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "A figura mostra um mapa da América do Norte de cima para baixo: Gronelândia, Canadá, Estados Unidos da América e México.",
+    "_activityParentId": "29e20580-17e1-49d8-aa4f-176f7152d528",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8c216a40-e625-11ea-bddd-5127370b77b7",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "_oldId": "8c216a40-e625-11ea-bddd-5127370b77b7",
+    "details": {
+      "uuid": "8c216a40-e625-11ea-bddd-5127370b77b7",
+      "texts": [
+        {
+          "text": "Território Yukon",
+          "class": "text1"
+        },
+        {
+          "text": "Territórios do Noroeste",
+          "class": "text2"
+        },
+        {
+          "text": "British Columbia",
+          "class": "text3"
+        },
+        {
+          "text": "Alberta",
+          "class": "text4"
+        },
+        {
+          "text": "Nunavut",
+          "class": "text5"
+        },
+        {
+          "text": "Manitoba",
+          "class": "text6"
+        },
+        {
+          "text": "Ontário",
+          "class": "text7"
+        },
+        {
+          "text": "Terra Nova e Labrador",
+          "class": "text8"
+        },
+        {
+          "text": "Quebec",
+          "class": "text9"
+        },
+        {
+          "text": "Nova Brunswick",
+          "class": "text10"
+        },
+        {
+          "text": "Nova Escócia",
+          "class": "text11"
+        },
+        {
+          "text": "Saskatchewan",
+          "class": "text12"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/8c216a40-e625-11ea-bddd-5127370b77b7/2f5e2260-f2a7-11ea-9a69-f385de9d3217.png",
+          "class": "canada-map--UUID"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/8c216a40-e625-11ea-bddd-5127370b77b7/6169255f-6040-4613-95f1-eddf1fd1dcef.css",
+      "aspect_ratio": "680/450",
+      "primary_image": "media/8c216a40-e625-11ea-bddd-5127370b77b7/9223b4d2-2a70-4a8e-8922-9282c17b271c.svg"
+    },
+    "_parentId": "0da082ae-8733-4d68-bcbd-93d4e68592c8",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "b11a66a1-05e5-4f79-9982-9ea0eeaf228c",
+    "_oldParentId": "0da082ae-8733-4d68-bcbd-93d4e68592c8",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "A figura mostra um mapa do Canadá: na parte superior, da esquerda para a direita, estão o Território de Yukon, os Territórios do Noroeste, Nunavut, Nefoundland e Labrador. Abaixo das teses da esquerda para a direita estão British Columbia, Alberta, Saskatchewan, Manitoba, Ontário, Quebec, New Brunswitch, Nova Escócia.",
+    "_activityParentId": "1899b312-3f55-4326-a5ba-90b12988ce41",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8c2736a0-e625-11ea-bddd-5127370b77b7",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "_oldId": "8c2736a0-e625-11ea-bddd-5127370b77b7",
+    "details": {
+      "uuid": "8c2736a0-e625-11ea-bddd-5127370b77b7",
+      "texts": [
+        {
+          "text": "Inverness",
+          "class": "text1"
+        },
+        {
+          "text": "Amherst",
+          "class": "text2"
+        },
+        {
+          "text": "Sherbrooke",
+          "class": "text3"
+        },
+        {
+          "text": "Halifax",
+          "class": "text4"
+        },
+        {
+          "text": "Shelburne",
+          "class": "text5"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/8c2736a0-e625-11ea-bddd-5127370b77b7/41aa1ff0-f2a7-11ea-88d7-c3bbfa45b017.png",
+          "class": "nova-scotia-map--UUID"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/8c2736a0-e625-11ea-bddd-5127370b77b7/5d124253-c928-4bda-9b97-fdf5bdb778c7.css",
+      "aspect_ratio": "680/450",
+      "primary_image": "media/8c2736a0-e625-11ea-bddd-5127370b77b7/e562b598-b445-447a-ab82-32bcf7b4448b.svg"
+    },
+    "_parentId": "a0a9a124-f235-4212-b784-cf5785155434",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "63bf3ede-9e1e-40b9-88d3-232d96426212",
+    "_oldParentId": "a0a9a124-f235-4212-b784-cf5785155434",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "A figura mostra um mapa da Nova Escócia de cima para baixo: Inverness, Amherst, Sherbrooke, Halifx e Shelburne.",
+    "_activityParentId": "2c9a7645-3fbd-4fc7-b57e-d13f944d3538",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8c2b7c60-e625-11ea-bddd-5127370b77b7",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+    "_oldId": "8c2b7c60-e625-11ea-bddd-5127370b77b7",
+    "details": {
+      "uuid": "8c2b7c60-e625-11ea-bddd-5127370b77b7",
+      "texts": [
+        {
+          "text": "Robie St.",
+          "class": "text1"
+        },
+        {
+          "text": "Quinpool Rd.",
+          "class": "text2"
+        },
+        {
+          "text": "Robie St.",
+          "class": "text3"
+        },
+        {
+          "text": "Bell Rd.",
+          "class": "text4"
+        },
+        {
+          "text": "Cogswell St.",
+          "class": "text5"
+        },
+        {
+          "text": "Prince St.",
+          "class": "text6"
+        },
+        {
+          "text": "Bell Rd.",
+          "class": "text7"
+        },
+        {
+          "text": "101 Hollis St.",
+          "class": "text8"
+        },
+        {
+          "text": "South St.",
+          "class": "text9"
+        },
+        {
+          "text": "Lower Water St.",
+          "class": "text10"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/8c2b7c60-e625-11ea-bddd-5127370b77b7/5079a0f0-f2a7-11ea-ab2d-45ce9e0f8884.png",
+          "class": "Halifax-map--UUID"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/8c2b7c60-e625-11ea-bddd-5127370b77b7/da2079c6-9f44-4066-a7ff-b20898632c9b.css",
+      "aspect_ratio": "680/450",
+      "primary_image": "media/8c2b7c60-e625-11ea-bddd-5127370b77b7/0ff753e9-2cac-4374-bf68-20b3919573fe.svg"
+    },
+    "_parentId": "8705ab98-e711-46ed-9515-e5a875772843",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "4ffbeb93-e8f8-4c40-a855-85697fceac19",
+    "_oldParentId": "8705ab98-e711-46ed-9515-e5a875772843",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "A figura mostra um mapa detalhado de ruas dentro de parte de Halifax.",
+    "_activityParentId": "01831e7f-584d-4d40-adc5-12af48097a74",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "622973fc1a8f43869a650658b5913a8d",
+    "body": "Um endereço IP é considerado que tipo de endereço:",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "físico",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "lógica",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "622973fc1a8f43869a650658b5913a8d",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Um endereço IP é um endereço lógico.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Um endereço IP é um endereço lógico.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "57480c0f06c543e4854e03f5234d25f0",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "bc2144ed-c880-4f57-9200-316fd094f1af",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço IP",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "57480c0f06c543e4854e03f5234d25f0",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "622973fc1a8f43869a650658b5913a8d",
+    "_activityParentId": "63d71d7d-5e10-4e1b-915b-e512fdc4c133",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "ac7c22b259634f499e3e79de32516323",
+    "body": "Um endereço MAC Ethernet é considerado que tipo de endereço:",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "físico",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "lógica",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ac7c22b259634f499e3e79de32516323",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Um endereço MAC Ethenret é um endereço físico.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Um endereço MAC Ethenret é um endereço físico.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "4b920bd54dc24e35a3cb443b159a21b4",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "118ac4b3-7813-4375-b3de-17971539990d",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Ethernet MAC",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "4b920bd54dc24e35a3cb443b159a21b4",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "ac7c22b259634f499e3e79de32516323",
+    "_activityParentId": "86d4194a-15c6-492e-bbfc-63a583dd477a",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "5e9524ce70be47c8aeabe317f7cf1c27",
+    "body": "Qual endereço não muda quando um dispositivo está conectado a uma nova rede?",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "físico",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "lógica",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5e9524ce70be47c8aeabe317f7cf1c27",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>O endereço físico não muda quando o dispositivo está conectado a uma nova rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>O endereço físico não muda quando o dispositivo está conectado a uma nova rede.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "9ba58748d50a4ca19f9a83ca0341cd99",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "86896c37-6df7-4129-b6c9-2f51ab369db0",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Nova rede",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "9ba58748d50a4ca19f9a83ca0341cd99",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "5e9524ce70be47c8aeabe317f7cf1c27",
+    "_activityParentId": "9ad88894-0a1d-41f2-aa07-027a26249a5c",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "3ffec96034784226b8d3bb9f5d032b16",
+    "body": "Qual parte de um endereço IP identifica exclusivamente esse dispositivo na rede?",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "físico",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "lógica",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rede",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "host",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "3ffec96034784226b8d3bb9f5d032b16",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>A parte Host  de um endereço IP identifica um dispositivo em uma rede local</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>A parte Host  de um endereço IP identifica um dispositivo em uma rede local</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "a053782b4c1843dd984fddd8da481690",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "d547c777-bcde-4272-b20a-9660301fec69",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço único",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "a053782b4c1843dd984fddd8da481690",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "3ffec96034784226b8d3bb9f5d032b16",
+    "_activityParentId": "2f81bf41-c0b7-4136-b47c-924a1095e545",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "a13ad46560034f8da5bc1d9afdafb0f1",
+    "body": "Qual camada de projeto oferece conectividade para dispositivos em uma LAN Ethernet?",
+    "_type": "component",
+    "title": "Pergunta 5",
+    "_items": [
+      {
+        "text": "núcleo",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "distribuição",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "acesso",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "físico",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a13ad46560034f8da5bc1d9afdafb0f1",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Tentar Novamente"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>A camada de acesso oferece conectividade para dispositivos em uma LAN Ethernet</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>A camada de acesso oferece conectividade para dispositivos em uma LAN Ethernet</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "7d49c1d828b44d13a5bafabb0f63395f",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "b1f741b1-28e1-4d97-8f70-62fcc8675e98",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Camadas de projeto",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "7d49c1d828b44d13a5bafabb0f63395f",
+    "displayTitle": "Pergunta 5",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "a13ad46560034f8da5bc1d9afdafb0f1",
+    "_activityParentId": "ec25c497-b6ee-49db-aaf8-32f4aeb5c2e8",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "6107ae91cc9a45fba6722017add7bef4",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "6107ae91cc9a45fba6722017add7bef4",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "feaa42f10b414cbc9f00a860482c8a69",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "8f61a78e-8c48-4c8d-aaa8-456770c222fc",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "feaa42f10b414cbc9f00a860482c8a69",
+    "displayTitle": "",
+    "_activityParentId": "990c888c-9df2-425c-9fe8-f67c8aa79a1d"
+  },
+  {
+    "_id": "15baf7c9033f4bff859b0f0360aa9090",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo de Design de Rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo de Design de Rede",
+    "_oldId": "15baf7c9033f4bff859b0f0360aa9090",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "237bcfc85b5543a3aca177d292339b22",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "29868a93-4110-40e5-926b-595385ffb336",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "237bcfc85b5543a3aca177d292339b22",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "d4036d1c-a732-4912-b0c1-b12148acbd96",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d99a74922c8d48958a11e6c08499c13e",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo de Design de Rede",
+    "_oldId": "d99a74922c8d48958a11e6c08499c13e",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7dbc95f2e7214fdf9c7dade5e5ff4d12",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "42f2b541-3173-43af-aa39-38243a3d658e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7dbc95f2e7214fdf9c7dade5e5ff4d12",
+    "displayTitle": "",
+    "_activityParentId": "f2a60280-ce50-4f0e-b1cc-6623fade5454",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ccb2ad5bfa8942269789de613587125a",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>À medida que as redes evoluem, aprendemos que existem quatro características básicas que os arquitetos de rede devem abordar para atender às expectativas dos usuários: tolerância a falhas, escalabilidade, QoS e segurança.</p><p>Uma rede tolerante a falhas é aquela que limita o número de dispositivos afetados durante uma falha. Isso permite uma recuperação rápida quando ocorre uma falha. Essas redes dependem de vários caminhos entre a origem e o destino de uma mensagem. Se um caminho falhar, as mensagens serão instantaneamente enviadas por um link diferente.</p><p>Uma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos. Ela faz isso sem degradar o desempenho dos serviços que estão sendo acessados por usuários existentes. As redes podem ser escaláveis porque os projetistas seguem padrões e protocolos aceitos. </p><p>Atualmente, o QoS é um requisito cada vez maior das redes. Conforme o conteúdo de vídeo, voz e dados converge na mesma rede, o QoS se torna um mecanismo essencial para gerenciar os congestionamentos e garantir a entrega confiável do conteúdo para todos os usuários. A largura de banda da rede é medida em bps. Ao tentar uma comunicação simultânea pela rede, a demanda pela largura de banda pode exceder sua disponibilidade, criando um congestionamento na rede. O foco do QoS é priorizar o tráfego sensível ao tempo. O tipo de tráfego, e não o conteúdo, é o que é importante.</p><p>Os administradores de rede devem abordar dois tipos de preocupações de segurança de rede: segurança da infraestrutura de rede e segurança da informação. Os administradores de rede também devem proteger as informações contidas nos pacotes transmitidos pela rede e as informações armazenadas nos dispositivos conectados à rede. Para atingir os objetivos de segurança da rede, existem três requisitos principais: Confidencialidade, Integridade e Disponibilidade.</p>",
+        "title": "<strong>Redes Confiáveis</strong>",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      },
+      {
+        "body": "<p>Os endereços IP contêm duas partes. Uma parte identifica a porção de rede. A porção de rede do endereço IP será a mesma para todos os hosts conectados à mesma rede local. A segunda parte do endereço IP identifica o host individualmente nesta rede. Os endereços IP lógicos e MAC físicos são necessários para que um computador se comunique em uma rede hierárquica. </p><p>A Central de Rede e Compartilhamento em um PC mostra suas informações básicas de rede e configura conexões, incluindo suas redes ativas e se você está conectado com ou sem fio à Internet e em sua LAN. Você pode ver as propriedades das conexões aqui. </p><p>Em uma rede Ethernet, o endereço MAC do host é semelhante ao nome de uma pessoa. Um endereço MAC exibe a identidade individual de um host específico, mas não indica onde ele está localizado na rede. Se cada um dos hosts na Internet (milhões e milhões deles) fosse identificado apenas por seu endereço MAC exclusivo, imagine como seria difícil localizar um host específico. É melhor dividir redes maiores em redes menores e mais gerenciáveis. Uma forma de fazer isso é usar um modelo de design hierárquico. </p><p>As redes hierárquicas são bem dimensionadas. A camada de acesso fornece um ponto de conexão para dispositivos de usuário final à rede e permite que vários hosts se conectem a outros hosts por meio de um dispositivo de rede, geralmente um switch ou um ponto de acesso sem fio. Normalmente, todos os dispositivos dentro de uma única camada de acesso terão a mesma porção de rede do endereço IP. A camada de distribuição fornece um ponto de conexão para redes separadas e controla o fluxo de informações entre as redes. Os dispositivos da camada de distribuição controlam o tipo e a quantidade de tráfego que flui da camada de acesso para a camada do núcleo. A camada de núcleo é uma camada de backbone de alta velocidade com conexões redundantes. Ela é responsável por transmitir grandes quantidades de dados entre várias redes finais. O objetivo principal da camada do núcleo é transportar dados rapidamente.</p>",
+        "title": "<strong>Projeto de Rede Hierárquica</strong>",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "_oldId": "ccb2ad5bfa8942269789de613587125a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2d16b0e7df6046f5a7bd798f9b5c0efb",
+    "_ariaLevel": 0,
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f6286b16-f125-49c2-bb4b-04532c06df6c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2d16b0e7df6046f5a7bd798f9b5c0efb",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "c93b1822-91cf-41eb-b8cd-3664385fb3e9",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fd08ea717f7248148571ab8cc61d030c",
+    "body": "<p>Marcy e Vincent têm a sorte de ter a consultoria de Bob a respeito da rede em sua loja. Muitas pequenas empresas têm redes que crescem ao longo do tempo, mas não são projetadas para escalar de forma confiável ou segura. Marcy e Vincent entendem que, se dedicarem algum tempo e gastarem algum dinheiro agora, evitarão muitos problemas à medida que sua rede continue a crescer. Sabendo o que você sabe agora sobre redes confiáveis e escaláveis, há algo que você gostaria de fazer para atualizar sua própria rede em casa, na escola ou no trabalho?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Perguntas para reflexão",
+    "_oldId": "fd08ea717f7248148571ab8cc61d030c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "edede827ee2d4cb8adc72998fe52d27f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "153bd426-f66f-432f-8b4d-d02c1d7fea83",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "edede827ee2d4cb8adc72998fe52d27f",
+    "displayTitle": "",
+    "_activityParentId": "76b59016-d6da-45fb-9bfb-79f5b8ebb980",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "632af051223649a9b3cbb73b969a83ae",
+    "body": " ",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Perguntas para reflexão",
+    "_oldId": "632af051223649a9b3cbb73b969a83ae",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/07c2d6966212441d8e35728fbc481732.png",
+      "small": "pt-BR/assets/07c2d6966212441d8e35728fbc481732.png",
+      "attribution": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "edede827ee2d4cb8adc72998fe52d27f",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "16cd8bf0-f4f5-4414-9265-0cf379fb7a30",
+    "instruction": "",
+    "_oldParentId": "edede827ee2d4cb8adc72998fe52d27f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "76b59016-d6da-45fb-9bfb-79f5b8ebb980",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "b44426aaf2124f38b816b8f32f1c27fd",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "b44426aaf2124f38b816b8f32f1c27fd",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cb19aaf835c54f07923441448bf30e17",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "42dd27c3-d0e9-4ef9-b01f-2a191b4e1885",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_oldParentId": "cb19aaf835c54f07923441448bf30e17",
+    "displayTitle": "",
+    "_activityParentId": "0cb61ba6-b5c0-41fd-9fe2-ad5b695d2fe7",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "012b45fcd6284a288ab5fbc22818d994",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "012b45fcd6284a288ab5fbc22818d994",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Teste sobre Design de Rede",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "9d2b9692b4a04c4abdeee3bbe1be018c",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "886bfc5f-b01c-41ae-94c1-d05c971ed0e9",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "9d2b9692b4a04c4abdeee3bbe1be018c",
+    "displayTitle": "",
+    "_activityParentId": "6325682b-dd63-49aa-be8d-ccb8ddee0080",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6ac583880d804615a76e7d95446b0480",
+    "body": "Quais dois dispositivos seriam normalmente encontrados na camada de acesso do modelo hierárquico de design de LAN corporativa? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "ponto de acesso",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "firewall",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "switch de Camada 2",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "dispositivo de camada 3",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "⁪switch modular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6ac583880d804615a76e7d95446b0480",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Enquanto alguns projetos roteiam na camada de acesso, os dois dispositivos que devem sempre ser colocados na camada de acesso do modelo de projeto hierárquico são um ponto de acesso e um switch de camada 2. Um switch modular é comumente usado na camada de núcleo. Rroteamento por um dispositivo de Camada 3 é comumente usado na camada de distribuição. O firewall é um dispositivo no design de rede de borda da Internet.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Enquanto alguns projetos roteiam na camada de acesso, os dois dispositivos que devem sempre ser colocados na camada de acesso do modelo de projeto hierárquico são um ponto de acesso e um switch de camada 2. Um switch modular é comumente usado na camada de núcleo. Rroteamento por um dispositivo de Camada 3 é comumente usado na camada de distribuição. O firewall é um dispositivo no design de rede de borda da Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5199f68cd12f433a9ad082c099006a83",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c6ba0aff-31ea-4447-9a22-35d8689035f1",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5199f68cd12f433a9ad082c099006a83",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "220061",
+    "_activityParentId": "be95f082-f3ab-4cbd-9017-960e01754407",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d03da3317e4c4531b166186e6b3678b4",
+    "body": "Que característica de uma rede permite que ela cresça rapidamente para comportar novos usuários e aplicações sem prejudicar o desempenho do serviço fornecido aos usuários atuais?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "confiabilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "escalabilidade",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "qualidade de serviço",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "acessibilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d03da3317e4c4531b166186e6b3678b4",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">As redes precisam ter a capacidade de crescer rapidamente para comportar novos usuários e serviços sem prejudicar os usuários e os serviços atuais. Essa capacidade de crescer chama-se escalabilidade.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">As redes precisam ter a capacidade de crescer rapidamente para comportar novos usuários e serviços sem prejudicar os usuários e os serviços atuais. Essa capacidade de crescer chama-se escalabilidade.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ab3a97ae1b244f20bd72948545165ab7",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "30fe2215-c9f9-427b-9e52-2f8400230ca6",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ab3a97ae1b244f20bd72948545165ab7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "265293",
+    "_activityParentId": "3ac98b86-1e9b-4dc0-ba8b-531c75fea53b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "406527082ce449f291e0da79c1abcb41",
+    "body": "<p>Associe a definição à meta de segurança.</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "answer": "apenas os destinatários pretendidos podem acessar e ler os dados",
+        "question": "garantindo confidencialidade",
+        "questionBGColor": "#D6CDEA"
+      },
+      {
+        "answer": "a garantia de que as informações não foram alteradas durante a transmissão",
+        "question": "mantendo integridade",
+        "questionBGColor": "#CBE4F9"
+      },
+      {
+        "answer": "a garantia de acesso oportuno e confiável aos dados",
+        "question": "garantindo disponibilidade",
+        "questionBGColor": "#CDF5F6"
+      }
+    ],
+    "_oldId": "406527082ce449f291e0da79c1abcb41",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Reset"
+      },
+      "_submit": {
+        "ariaLabel": "Select here to submit your answer.",
+        "buttonText": "Submit"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Show feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "My Answer"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Correct Answer"
+      },
+      "remainingAttemptText": "final attempt",
+      "remainingAttemptsText": "attempts remaining"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_attempts": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr> <td>garantindo confidencialidade</td><td>apenas os destinatários pretendidos podem acessar e ler os dados</td></tr><tr> <td>mantendo integridade</td><td>a garantia de que as informações não foram alteradas durante a transmissão</td></tr><tr> <td>garantindo disponibilidade</td><td> a garantia de acesso oportuno e confiável aos dados</td></tr></table>",
+      "_incorrect": {
+        "final": " <p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr> <td>garantindo confidencialidade</td><td>apenas os destinatários pretendidos podem acessar e ler os dados</td></tr><tr> <td>mantendo integridade</td><td>a garantia de que as informações não foram alteradas durante a transmissão</td></tr><tr> <td>garantindo disponibilidade</td><td> a garantia de acesso oportuno e confiável aos dados</td></tr></table>",
+        "notFinal": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr> <td>garantindo confidencialidade</td><td>apenas os destinatários pretendidos podem acessar e ler os dados</td></tr><tr> <td>mantendo integridade</td><td>a garantia de que as informações não foram alteradas durante a transmissão</td></tr><tr> <td>garantindo disponibilidade</td><td> a garantia de acesso oportuno e confiável aos dados</td></tr></table>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr> <td>garantindo confidencialidade</td><td>apenas os destinatários pretendidos podem acessar e ler os dados</td></tr><tr> <td>mantendo integridade</td><td>a garantia de que as informações não foram alteradas durante a transmissão</td></tr><tr> <td>garantindo disponibilidade</td><td> a garantia de acesso oportuno e confiável aos dados</td></tr></table>",
+        "notFinal": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr> <td>garantindo confidencialidade</td><td>apenas os destinatários pretendidos podem acessar e ler os dados</td></tr><tr> <td>mantendo integridade</td><td>a garantia de que as informações não foram alteradas durante a transmissão</td></tr><tr> <td>garantindo disponibilidade</td><td> a garantia de acesso oportuno e confiável aos dados</td></tr></table>"
+      }
+    },
+    "_parentId": "47a9e6a69b244607be50c5b69a2bd29d",
+    "_component": "objectMatching",
+    "_isDeleted": false,
+    "_activityId": "e18c2978-8d40-4676-b149-b827aff30db2",
+    "instruction": "",
+    "placeholder": "Selecione uma opção",
+    "_oldParentId": "47a9e6a69b244607be50c5b69a2bd29d",
+    "_optionTitle": "Opções:",
+    "displayTitle": "Pergunta",
+    "_categoryTitle": "Categorias:",
+    "_canShowMarking": true,
+    "_isAnswerRandom": false,
+    "_questionWeight": 1,
+    "_smvWiseScoring": {
+      "ident": "it_235106",
+      "outcomes": {
+        "decvar": [
+          {
+            "title": "correctness of response",
+            "_varname": "obs0",
+            "_maxvalue": 2
+          }
+        ],
+        "interpretvar": [
+          {
+            "_view": "All",
+            "_varname": "obs0",
+            "interpret": "Click on the question mark at the bottom of the item for the correct answer.There is no partial credit."
+          }
+        ]
+      }
+    },
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "274562",
+    "_activityParentId": "e5023fd1-fc17-47e9-a6b6-28f9154187c8",
+    "_isQuestionRandom": true,
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_defaultAnswerBGColor": "#F2F2F2",
+    "_shouldDisplayAttempts": false,
+    "_shouldResetAllAnswers": true
+  },
+  {
+    "_id": "f75912ede3174326aec51161e099a373",
+    "body": "Um aluno está transmitindo um filme para o computador, mas o filme fica parando. Qual serviço daria maior prioridade ao tráfego de streaming e evitaria a interrupção do filme?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "HTTPS",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "segurança",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "tolerância a falhas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Qualidade do serviço (QoS)",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "f75912ede3174326aec51161e099a373",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Os dados de vídeo precisam ser transmitidos em um fluxo contínuo. O QoS pode ser usado para dar aos dados de vídeo alta prioridade durante a transmissão de dados, para que o tráfego de vídeo seja enviado primeiro.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Os dados de vídeo precisam ser transmitidos em um fluxo contínuo. O QoS pode ser usado para dar aos dados de vídeo alta prioridade durante a transmissão de dados, para que o tráfego de vídeo seja enviado primeiro.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5c590f58e25a43eebe906ec1b936e4d4",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4cf9635c-bfc6-434e-899d-9fbddbdc7063",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5c590f58e25a43eebe906ec1b936e4d4",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282773",
+    "_activityParentId": "d94c4764-a765-4685-a85c-3943a7b0ef06",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "30b9ece869394a4a92050c0d38bd3ae2",
+    "body": "Verdadeiro ou falso?<br />O impacto da falha de um importante dispositivo de rede pode ser limitado por um recurso chamado tolerância a falhas.",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "verdadeiro",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "falso",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "30b9ece869394a4a92050c0d38bd3ae2",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Uma rede tolerante a falhas limita o impacto de uma falha. Sua implementação cria a rede de uma maneira que permite a recuperação rápida se um dispositivo de rede essencial falhar.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Uma rede tolerante a falhas limita o impacto de uma falha. Sua implementação cria a rede de uma maneira que permite a recuperação rápida se um dispositivo de rede essencial falhar.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a0d6b46b252f4363a1deedbcced2651a",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d8a1879c-61f3-47c2-91da-c0e3ee233c4c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a0d6b46b252f4363a1deedbcced2651a",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282778",
+    "_activityParentId": "e43f5136-4cc5-47e6-9c1c-7cf2edac2a26",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5e0789cdb3964b6bb0d305f70caccef1",
+    "body": "Que tipo de endereço nunca muda em um dispositivo e é semelhante a um nome da pessoa?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Endereço MAC",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Endereço IP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereço de rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereço lógico",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5e0789cdb3964b6bb0d305f70caccef1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Um endereço de controle de acesso de mídia (MAC) é exclusivo em cada dispositivo. Um endereço IP (Internet Protocol) é usado para se comunicar com dispositivos em outra LAN ou na Internet. Um endereço de broadcast permite que um único dispositivo se comunique com todos os outros dispositivos. Um endereço multicast permite que um único dispositivo se comunique com um grupo de dispositivos.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Um endereço de controle de acesso de mídia (MAC) é exclusivo em cada dispositivo. Um endereço IP (Internet Protocol) é usado para se comunicar com dispositivos em outra LAN ou na Internet. Um endereço de broadcast permite que um único dispositivo se comunique com todos os outros dispositivos. Um endereço multicast permite que um único dispositivo se comunique com um grupo de dispositivos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9d0b660594154e9d976dc88cdf098479",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "418500e8-ecff-43f9-b113-121c583722b0",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9d0b660594154e9d976dc88cdf098479",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282823",
+    "_activityParentId": "2104c145-8142-4d82-925b-19b7a451b59e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "39282af161ec4a05b3a899668c896ff1",
+    "body": "Quais são as três camadas do modelo de design hierárquico do switch? (Escolha três.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "acesso",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Enlace de dados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "núcleo",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Acesso à rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "empresa",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "distribuição",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "39282af161ec4a05b3a899668c896ff1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">A camada de acesso é a mais baixa e oferece acesso de rede aos usuários. A camada de distribuição tem muitas funções, mas agrega dados da camada de acesso, fornece filtragem, controle de política e define os limites de roteamento da camada 3. A camada de núcleo oferece conectividade de alta velocidade.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">A camada de acesso é a mais baixa e oferece acesso de rede aos usuários. A camada de distribuição tem muitas funções, mas agrega dados da camada de acesso, fornece filtragem, controle de política e define os limites de roteamento da camada 3. A camada de núcleo oferece conectividade de alta velocidade.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b29279addd2445e488ffbfbb74a17228",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "091c2317-3efb-4439-98ee-0a23e11e96c7",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b29279addd2445e488ffbfbb74a17228",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410525",
+    "_activityParentId": "871edceb-1fd2-4779-b57d-39ebf93e1b6e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ef45ef334ed34985bafea38912c3d9cd",
+    "body": "Qual recurso de rede usa a redundância como forma de limitar o número de usuários afetados no caso de uma falha?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "tolerância a falhas",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "escalabilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "qualidade de serviço",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "segurança",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ef45ef334ed34985bafea38912c3d9cd",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">A redundância no design da rede oferece tolerância a falhas para limitar o número de usuários afetados se houver uma falha.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">A redundância no design da rede oferece tolerância a falhas para limitar o número de usuários afetados se houver uma falha.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "01f0e8442bf64b2a821d253b0920ad7f",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c67c0132-77b8-4778-a026-f12fc1435e92",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "01f0e8442bf64b2a821d253b0920ad7f",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410537",
+    "_activityParentId": "186a1a81-f5d5-4b12-a64d-fae3b64abfb1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ac6d5ccbc4f940ef93a4b5bf649f0b27",
+    "body": "Que característica de uma rede permitiria que o tráfego de vídeo tivesse prioridade sobre o tráfego de um aplicativo de e-mail?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "qualidade de serviço",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "tolerância a falhas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "escalabilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "confiabilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ac6d5ccbc4f940ef93a4b5bf649f0b27",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Qualidade de serviço (QoS) é implementada em redes para priorizar o tráfego. O tráfego para serviços em tempo real, como voz e vídeo, requer uma prioridade mais alta do que o tráfego de dados. Isso ajuda a garantir a entrega confiável de conteúdo de voz e vídeo aos usuários.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Qualidade de serviço (QoS) é implementada em redes para priorizar o tráfego. O tráfego para serviços em tempo real, como voz e vídeo, requer uma prioridade mais alta do que o tráfego de dados. Isso ajuda a garantir a entrega confiável de conteúdo de voz e vídeo aos usuários.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "99693567794a44ab9561cb09b5d3e5ec",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8671c193-613e-4b20-80e5-3b0770f33db2",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "99693567794a44ab9561cb09b5d3e5ec",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410538",
+    "_activityParentId": "f1bc2bd0-1e7a-41cb-ad50-48e628685800",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ab9a366fea3443cf8b0276a91a8bc7c1",
+    "body": "Qual é a responsabilidade da camada de distribuição em um projeto de rede hierárquica?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Ele controla os fluxos de tráfego entre as outras camadas.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ele fornece acesso à rede para usuários finais.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele fornece um backbone de alta velocidade para fluxos de tráfego.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele controla quais dispositivos têm permissão para se comunicar na rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ab9a366fea3443cf8b0276a91a8bc7c1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">A camada de distribuição controla o tipo e a quantidade de tráfego que flui da camada de acesso para a camada de núcleo.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">A camada de distribuição controla o tipo e a quantidade de tráfego que flui da camada de acesso para a camada de núcleo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "83d64ad8eed745e9973c08ba44e828b8",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ba214127-9237-4f29-9c90-4ff1c80f73c0",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "83d64ad8eed745e9973c08ba44e828b8",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410539",
+    "_activityParentId": "45b655e8-b9a1-4ab1-b4d9-c3afc3547773",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "884bd367aca346a28936578bbdba3720",
+    "body": "Qual modelo de design de rede melhora a eficiência dividindo a rede em partes menores.",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Hierárquica",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "redundante",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "tolerância a falhas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "soluções de SMB confiáveis",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "884bd367aca346a28936578bbdba3720",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Um design de rede hierárquico divide a rede em partes menores para melhorar a eficiência. O design hierárquico da Cisco divide a rede em três camadas: núcleo, distribuição, e acesso.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Um design de rede hierárquico divide a rede em partes menores para melhorar a eficiência. O design hierárquico da Cisco divide a rede em três camadas: núcleo, distribuição, e acesso.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "969f7b72d5b1454c8d1a91f1590a0a1c",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "faf48c0a-edbe-4dff-8bbe-9b988a91ddc4",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "969f7b72d5b1454c8d1a91f1590a0a1c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410540",
+    "_activityParentId": "691bbb6f-11f4-41f6-a902-d48fe4ce5dda",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "449a4f471a3f49b0a2f9c65330d1d205",
+    "body": "<p>Combine o recurso com a descrição</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "answer": "permite que a rede cresça ",
+        "question": "tolerância a falhas",
+        "questionBGColor": "#D6CDEA"
+      },
+      {
+        "answer": "prioriza o tráfego",
+        "question": "escalabilidade ",
+        "questionBGColor": "#CBE4F9"
+      },
+      {
+        "answer": "proporciona confiabilidade",
+        "question": "qualidade de serviço",
+        "questionBGColor": "#CDF5F6"
+      }
+    ],
+    "_oldId": "449a4f471a3f49b0a2f9c65330d1d205",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Reset"
+      },
+      "_submit": {
+        "ariaLabel": "Select here to submit your answer.",
+        "buttonText": "Submit"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Show feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "My Answer"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Correct Answer"
+      },
+      "remainingAttemptText": "final attempt",
+      "remainingAttemptsText": "attempts remaining"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>tolerância a falhas</td><td>permite que a rede cresça </td></tr><tr><td>escalabilidade </td><td>prioriza o tráfego</td></tr><tr><td>qualidade de serviço</td><td>proporciona confiabilidade</td></tr></table></td></tr></table>",
+      "_incorrect": {
+        "final": " <p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>tolerância a falhas</td><td>permite que a rede cresça </td></tr><tr><td>escalabilidade </td><td>prioriza o tráfego</td></tr><tr><td>qualidade de serviço</td><td>proporciona confiabilidade</td></tr></table></td></tr></table>",
+        "notFinal": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>tolerância a falhas</td><td>permite que a rede cresça </td></tr><tr><td>escalabilidade </td><td>prioriza o tráfego</td></tr><tr><td>qualidade de serviço</td><td>proporciona confiabilidade</td></tr></table></td></tr></table>"
+      },
+      "_partlyCorrect": {
+        "final": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>tolerância a falhas</td><td>permite que a rede cresça </td></tr><tr><td>escalabilidade </td><td>prioriza o tráfego</td></tr><tr><td>qualidade de serviço</td><td>proporciona confiabilidade</td></tr></table></td></tr></table>",
+        "notFinal": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>tolerância a falhas</td><td>permite que a rede cresça </td></tr><tr><td>escalabilidade </td><td>prioriza o tráfego</td></tr><tr><td>qualidade de serviço</td><td>proporciona confiabilidade</td></tr></table></td></tr></table>"
+      }
+    },
+    "_parentId": "a89932b9bf404094815b0155be58fad6",
+    "_component": "objectMatching",
+    "_isDeleted": false,
+    "_activityId": "03726e01-767b-46df-8714-1ca86cd7db91",
+    "instruction": "",
+    "placeholder": "Selecione uma opção",
+    "_oldParentId": "a89932b9bf404094815b0155be58fad6",
+    "_optionTitle": "Opções:",
+    "displayTitle": "Pergunta",
+    "_categoryTitle": "Categorias:",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_isAnswerRandom": false,
+    "_questionWeight": 1,
+    "_smvWiseScoring": {
+      "ident": "it_235106",
+      "outcomes": {
+        "decvar": [
+          {
+            "title": "correctness of response",
+            "_varname": "obs0",
+            "_maxvalue": 2
+          }
+        ],
+        "interpretvar": [
+          {
+            "_view": "All",
+            "_varname": "obs0",
+            "interpret": "Click on the question mark at the bottom of the item for the correct answer.There is no partial credit."
+          }
+        ]
+      }
+    },
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410541",
+    "_activityParentId": "2bdd52c2-6b0c-41f5-9a6d-38f23548af75",
+    "_isQuestionRandom": true,
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_defaultAnswerBGColor": "#F2F2F2",
+    "_shouldDisplayAttempts": false,
+    "_shouldResetAllAnswers": true
+  },
+  {
+    "_id": "d2687d86ddb94fe59f54dfa1e21b764e",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do quiz",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><strong><span style=\"color:#000000\">Parabéns, você passou no teste!</span></strong></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "d2687d86ddb94fe59f54dfa1e21b764e",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "729fd12eead64233a91eee846be2e41c",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "c72bc3e3-be33-479e-809b-5524ef949182",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "729fd12eead64233a91eee846be2e41c",
+    "displayTitle": "",
+    "_assessmentId": "6694d2777a8b4aad8fb070079c71517d",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "ff911baf-fced-461e-8c72-77c65db1690a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "85e4b34b82574028a699be89d07d1328",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "85e4b34b82574028a699be89d07d1328",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "3e504b7dfb864e47acf53de9f6ecd153",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "4769f180-aded-4e17-b7b5-ffeb73462923",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "3e504b7dfb864e47acf53de9f6ecd153",
+    "displayTitle": "",
+    "_activityParentId": "2afe53db-1152-4179-bef7-a67122dd92e5"
+  },
+  {
+    "_id": "2b8a0959-012f-4aa3-b16f-b437629adb86",
+    "body": "<h2><span lang=\"PT-BR\">Objetivos</span></h2> <p class=\"BodyTextL25Bold\"><span lang=\"PT-BR\">Parte 1: Identificar e trabalhar com placas de rede do PC</span></p> <p class=\"BodyTextL25Bold\"><span lang=\"PT-BR\">Parte 2: Identificar e usar os ícones de rede da barra de tarefas</span></p> <h2><span lang=\"PT-BR\">Histórico / Cenário</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Este laboratório requer que você determine a existência e o status das placas de rede (NICs) no PC. O Windows fornece diversas formas de ver e trabalhar com os suas placas de rede.</span></p> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Neste laboratório, você terá acesso às informações da placa de rede do PC e alterará o status dessas placas.</span></p> <h2><span lang=\"PT-BR\">Recursos Necessários</span></h2> <p class=\"Bulletlevel1\" ><span lang=\"PT-BR\" style=\"font-size: 7.0pt;line-height:115%;font-family:Webdings\">=</span><span>&nbsp;&nbsp;</span><span lang=\"PT-BR\">1 PC (Windows 10 com duas placas de rede, com e sem fio, e uma conexão sem fio)</span></p> <p class=\"Bulletlevel1\" ><span lang=\"PT-BR\" style=\"font-size: 7.0pt;line-height:115%;font-family:Webdings\">=</span><span>&nbsp;&nbsp;</span><span lang=\"PT-BR\">Um roteador sem fio</span></p> <h2><span lang=\"PT-BR\">Instruções</span></h2> <h3><span lang=\"PT-BR\">Parte 1: </span><span lang=\"PT-BR\">Identificar e trabalhar com placas de rede do PC</span></h3> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Na Parte 1, você identificará os tipos de placa de rede no PC. Você irá explorar formas diferentes de extrair informações sobre essas placas de rede e como ativá-las e desativá-las.</span></p> <p class=\"BodyTextL25\"><b><span lang=\"PT-BR\">Nota</span></b><span lang=\"PT-BR\">: Este laboratório foi realizado usando um PC em execução no sistema operacional Windows 10. Você deve conseguir realizar o laboratório com outras versões de sistemas operacionais Windows. Entretanto, as telas e seleções de menu podem variar.</span></p> <h3><span lang=\"PT-BR\">Etapa 1: </span><span lang=\"PT-BR\">Use as conexões de rede.</span></h3> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Você verificará quais conexões de rede estão disponíveis.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique com o botão direito do mouse em <b>Iniciar</b> e selecione <b>Conexões de Rede</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">A janela Conexões de Rede exibirá a lista das placas de rede disponíveis neste PC. Procure os adaptadores de Conexão local e Conexão de Rede sem Fio nesta janela.</span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação:</span></b><span lang=\"PT-BR\"> se a página Status da rede for exibida, clique em <b>Alterar opções do adaptador</b> para navegar até a janela Conexões de rede. </span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação: </span></b><span lang=\"PT-BR\">Outros tipos de adaptadores de rede, como os de conexões de rede Bluetooth e de rede privada virtual (VPN), também podem aparecer nessa janela.</span></p> <h3><span lang=\"PT-BR\">Etapa 2: </span><span lang=\"PT-BR\">Trabalhar com placas de rede sem fio.</span></h3> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Verifique as configurações de conexão de rede sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique com o botão direito do mouse na <b>Conexão de rede sem fio.</b> A primeira opção mostrará se sua placa de rede sem fio está ativada ou desativada. Se sua placa de rede sem fio estiver desativada, você terá uma opção para <b>Ativá -la</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Verifique se a rede sem fio está conectada. Caso contrário, clique em <b>Connect/Disconnect</b> para conectar-se à rede desejada. Clique em <b>Status</b> para abrir a janela Status da Conexão de Rede sem Fio.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Perguntas:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "2b8a0959-012f-4aa3-b16f-b437629adb86",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c0d1049e-52b8-4819-95e1-eaff36772e71",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "025472b4-caee-4046-8003-08875454cd57",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c0d1049e-52b8-4819-95e1-eaff36772e71",
+    "displayTitle": "",
+    "_activityParentId": "3dadbfc4-1348-453d-9981-b170b6036b04",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bb7dfb34-16ff-4a03-9137-d46fffd81852",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "bb7dfb34-16ff-4a03-9137-d46fffd81852",
+    "preText": "<p class=\"BodyTextL50\" ><span lang=\"PT-BR\">O que é o Identificador do Conjunto de Serviços (SSID - Service Set Identifier) para o roteador sem fio de sua conexão?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "c4a88401-64ca-42b6-99e2-7e33270bd0f9",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"color:black; border:none\"><span style=\"border:none\">As respostas variam. O SSID é o nome principal associado à rede local sem fio (WLAN). Essas WLANs podem ser uma rede sem fio doméstica ou hotspots públicos. O SSID é usado para identificar o nome da rede sem fio.</span></span></span></p>",
+    "_activityId": "4b12c304-9cd0-40bc-84a0-6fc81a4022fa",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "c4a88401-64ca-42b6-99e2-7e33270bd0f9",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "12d4d1b4-6ded-4cdf-a4ab-e93f01a50075",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e0ff5f25-d8de-4697-873a-e49aafb2d753",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "e0ff5f25-d8de-4697-873a-e49aafb2d753",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Qual é a velocidade de sua conexão sem fio?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "c3642b93-5891-40e9-887a-f335844a1980",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"color:black; border:none\"><span style=\"border:none\">As respostas variam. Essa velocidade de conexão sem fio indica a velocidade entre <span style=\"border:none\">o roteador sem fio e a NIC no seu PC, e não a velocidade fornecida pelo provedor de serviços de Internet (ISP).</span></span></span></span></p>",
+    "_activityId": "c585f581-c8dd-4b9e-932b-d1240d1b2ab8",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "c3642b93-5891-40e9-887a-f335844a1980",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "d7734563-2a0d-4e1e-b8dc-60bebfb6de16",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "af9f571f-0e18-4540-ac8e-75f113025d59",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique em <b>Detalhes</b> para exibir a janela Detalhes da Conexão de Rede.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "af9f571f-0e18-4540-ac8e-75f113025d59",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2ba534c9-1a2e-4c85-a71b-664f9c277047",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "43ec5205-8774-4e67-bd69-690ee1b66c06",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2ba534c9-1a2e-4c85-a71b-664f9c277047",
+    "displayTitle": "",
+    "_activityParentId": "ca4a360f-e9a3-4ca2-aca1-77e4c3c91071",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4b36c89d-5b5e-4ed4-9f22-94566f34d7ea",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "4b36c89d-5b5e-4ed4-9f22-94566f34d7ea",
+    "preText": "<p class=\"BodyTextL50\" ><span lang=\"PT-BR\">Qual é o endereço MAC de sua placa de rede sem fio?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "3db08380-2c6d-4704-a7c1-534efd10f57b",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"color:black; border:none\"><span style=\"border:none\">As respostas variam. O endereço MAC é o identificador exclusivo atribuído à NIC sem fio.</span></span></span></p>",
+    "_activityId": "9e11ab93-5342-4cd1-9e5a-6ea7d70e8e41",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "3db08380-2c6d-4704-a7c1-534efd10f57b",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "c988ead1-ea13-4205-8534-2328fa9a3020",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "df780471-077f-44cd-b2c2-ac3ef6e0b3d9",
+    "body": "<p class=\"SubStepAlpha\" style=\"page-break-after:avoid\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Abra um prompt de comando e digite <b>ipconfig /all</b>.</span></p> <p class=\"CMD\"><span lang=\"PT-BR\">C:&#92;Users&#92;Bob&gt; <b>ipconfig /all</b></span></p> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">Observe que as informações exibidas são parecidas com as informações na janela Detalhes de Conexão de Rede. Quando tiver analisado os detalhes, clique em <b>Fechar</b> para retornar à janela Status da Conexão de Rede sem Fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Retorne para a janela Status da Conexão de Rede sem Fio. Clique em <b>Propriedades sem Fio</b> para abrir a janela <b>Propriedades da Rede sem Fio</b> na rede Home-Net.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Sempre use a segurança sem fio quando ela estiver disponível. Para verificar (ou configurar) as opções de segurança sem fio, clique na guia <b>Segurança</b>. </span></p> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">A janela exibirá o tipo de segurança e o método de criptografia ativados. Também é possível digitar (ou alterar) a security key (chave de segurança) nesta janela.&nbsp; Feche todas as janelas.</span></p> <h3><span lang=\"PT-BR\">Etapa 3: </span><span lang=\"PT-BR\">Trabalhar com placas de rede cabeada.</span></h3> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Agora, vamos verificar as configurações de conexão de rede com fio. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Abra a janela <b>Conexões de Rede</b> ao clicar com o botão direito em <b>Iniciar</b> &gt; <b>Conexões de Rede</b> no Windows.</span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação:</span></b><span lang=\"PT-BR\"> se a página Status da rede for exibida, clique em <b>Alterar opções do adaptador</b> para navegar até a janela Conexões de rede. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Selecione e clique com o botão direito na opção <b>Conexão de Área Local </b>para exibir a lista suspensa. Se a placa de rede estiver desativada, ative-a.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique na opção <b>Status</b> para abrir a janela Status da Conexão Local. Essa janela exibe as informações sobre a conexão cabeada à LAN.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique em <b>Detalhes...</b> para visualizar as informações de endereço da sua conexão LAN.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Abra um prompt de comando e digite <b>ipconfig /all</b>. Localize as informações de Conexão Local e compare com as informações exibidas na janela Detalhes da Conexão de Rede.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Feche todas as janelas no desktop.</span></p> <h2><span lang=\"PT-BR\">Parte 2: </span><span lang=\"PT-BR\">Identificar e usar os ícones rede da notificação do sistema</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Na Parte 2, você usará os ícones de rede na bandeja do sistema para exibir as redes disponíveis na rede.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">O canto inferior direito da tela do Windows 10 contém a bandeja do sistema. Mova o mouse para exibir a bandeja do sistema.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Se você passar o mouse sobre o ícone de rede na bandeja do sistema, ele exibirá as redes conectadas no momento.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique no ícone de rede sem fio para ver os SSIDs da rede com e sem fio que estão ao alcance da placa de rede sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique com o botão direito no ícone da rede sem fio para ver uma opção de solução de problemas e abrir a janela Central de Rede e Compartilhamento.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp</span></span><span lang=\"PT-BR\">Clique na opção <b>Abrir Central de Rede e Compartilhamento.</b></span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">A janela Central de Rede e Compartilhamento é uma janela central que exibe as informações sobre a rede ou as redes ativas, o tipo de rede e o tipo de acesso.</span></p> <h2><span lang=\"PT-BR\">Reflexão</span></h2>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "df780471-077f-44cd-b2c2-ac3ef6e0b3d9",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8a6b5f5b-371b-4f2f-93b1-45e897e4f8d2",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1f0dd4d9-5671-4398-ab79-d903047cdcf1",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8a6b5f5b-371b-4f2f-93b1-45e897e4f8d2",
+    "displayTitle": "",
+    "_activityParentId": "0a4d7605-4d06-4a2e-9c46-6ea456b70992",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f6e2ef15-a2e0-4bf0-9ba7-4f5fa1b6e31f",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "f6e2ef15-a2e0-4bf0-9ba7-4f5fa1b6e31f",
+    "preText": "<p class=\"BodyTextL25\"><span lang=\"PT-BR\">Por que você ativaria mais de uma placa de rede em um PC?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "9fa6cc02-44f6-4607-bedc-29e8e0c6d4df",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"color:black; border:none\"><span style=\"border:none\">As respostas podem variar. Várias placas de rede podem ser usadas se for necessário mais de um caminho para o PC. Um exemplo disso seria se o PC estivesse sendo utilizado como servidor proxy.</span></span></span></p>",
+    "_activityId": "cf89484f-62a4-437e-b8a8-c0c3997d424e",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "9fa6cc02-44f6-4607-bedc-29e8e0c6d4df",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "5adb8c4b-80f3-49d2-8698-019f6147acde",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  }
+]

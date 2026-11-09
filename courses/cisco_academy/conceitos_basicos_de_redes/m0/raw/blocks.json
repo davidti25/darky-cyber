@@ -1,0 +1,340 @@
+[
+  {
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "increase-padding-bottom",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "ca3d82d7fda24e018095863c62e83066",
+    "_parentId": "e58350b8af2840df86db4bd10d1a8170",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 0
+  },
+  {
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "remove-padding-top",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "0d8a088b43774f1e811f9d54c2cd0938",
+    "_parentId": "e58350b8af2840df86db4bd10d1a8170",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 1
+  },
+  {
+    "title": "Primeira vez neste curso",
+    "displayTitle": "Primeira vez neste curso",
+    "body": "",
+    "_classes": "background-color-gray item-color-green remove-bottom-padding",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "86f1756695af4119bca7facfc3e80b73",
+    "_parentId": "132c1bb86e874a02b7d389363e2cac02",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 2,
+    "_menuTOC": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "Primeira vez neste curso",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-color-gray item-color-green remove-top-padding",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "bc8f60f157984efeb1f5a6d2458c4d7e",
+    "_parentId": "132c1bb86e874a02b7d389363e2cac02",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 3
+  },
+  {
+    "title": "Recursos do Aluno",
+    "displayTitle": "Recursos do Aluno",
+    "body": "",
+    "_classes": "background-color-white item-color-green remove-bottom-padding",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "b1e35ce3c6dc441a8e109194b076b423",
+    "_parentId": "132c1bb86e874a02b7d389363e2cac02",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 4,
+    "_menuTOC": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "title": "Recursos do Aluno",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-color-white item-color-green remove-top-padding",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "47d8bde5bec443f6ab1b7c770258dbb6",
+    "_parentId": "132c1bb86e874a02b7d389363e2cac02",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 5
+  },
+  {
+    "title": "Télécharger Cisco Packet Tracer",
+    "displayTitle": "Télécharger Cisco Packet Tracer",
+    "body": "",
+    "_classes": "background-color-gray item-color-green",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "8ad0e407f9814505b785c98c7aebebdf",
+    "_parentId": "132c1bb86e874a02b7d389363e2cac02",
+    "_type": "block",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "keywords": ""
+    },
+    "_assessment": {
+      "_quizBankID": 1
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": true,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuer",
+        "startText": "Débuter",
+        "finalText": "Terminer",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    },
+    "_trackingId": 6,
+    "_menuTOC": {
+      "_isEnabled": true
+    }
+  }
+]

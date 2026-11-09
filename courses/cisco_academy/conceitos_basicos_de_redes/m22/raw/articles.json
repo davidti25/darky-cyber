@@ -1,0 +1,2774 @@
+[
+  {
+    "_id": "c02f819f146941239a16cf6cf9b05f6a",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "c02f819f146941239a16cf6cf9b05f6a",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "page-heading remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 0,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b48c4e0d69c64a6ba78b0200ef092491",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "3d4082b3-6219-445a-aadf-bc4d6df47602",
+    "_assessment": {
+      "_id": "b48c4e0d69c64a6ba78b0200ef092491",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "b48c4e0d69c64a6ba78b0200ef092491",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "47ab997a-dc14-4a76-9c17-324ec39c1ab1",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "09704d3d092245c8b5c1e389fd23c9ef",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "09704d3d092245c8b5c1e389fd23c9ef",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 1,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b48c4e0d69c64a6ba78b0200ef092491",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "bd9e10ae-42aa-424d-b334-bb7cddb62726",
+    "_assessment": {
+      "_id": "b48c4e0d69c64a6ba78b0200ef092491",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "b48c4e0d69c64a6ba78b0200ef092491",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "47ab997a-dc14-4a76-9c17-324ec39c1ab1",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "e3b26808365f4db39c97fe811b36037e",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "e3b26808365f4db39c97fe811b36037e",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "page-heading remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 0,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "987c9d6ddc3a42c7a095030222eba452",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "50d90a70-2426-4f92-b91f-a3ba28586d8c",
+    "_assessment": {
+      "_id": "987c9d6ddc3a42c7a095030222eba452",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "987c9d6ddc3a42c7a095030222eba452",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "79125b1a78c648618f6f408ed5e7a50f",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "79125b1a78c648618f6f408ed5e7a50f",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 1,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "987c9d6ddc3a42c7a095030222eba452",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "c4fb89fe-7f44-4a68-99b0-346b6825ca51",
+    "_assessment": {
+      "_id": "987c9d6ddc3a42c7a095030222eba452",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "987c9d6ddc3a42c7a095030222eba452",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "a0a6093a715e484cba2e289649603e4e",
+    "body": "",
+    "_type": "article",
+    "title": "{{_moduleNumber}}.1.2 A Camada de Rede",
+    "_oldId": "a0a6093a715e484cba2e289649603e4e",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-white",
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "987c9d6ddc3a42c7a095030222eba452",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "8d889400-090d-4872-b6ca-7894ad7bb2cd",
+    "_assessment": {
+      "_id": "987c9d6ddc3a42c7a095030222eba452",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "987c9d6ddc3a42c7a095030222eba452",
+    "displayTitle": "{{_moduleNumber}}.1.2 A Camada de Rede",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "965a7339559a472d831ffeff4164d95e",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "965a7339559a472d831ffeff4164d95e",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 3,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "987c9d6ddc3a42c7a095030222eba452",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "9ba636b7-7871-45b8-b9fc-c05eb38c6bb2",
+    "_assessment": {
+      "_id": "987c9d6ddc3a42c7a095030222eba452",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "987c9d6ddc3a42c7a095030222eba452",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "452a52d91ad640ed8de118328c953b1a",
+    "body": "<p><strong>Verifique sua compreensão das características de IP escolhendo a resposta correta para as seguintes perguntas.</strong></p>",
+    "_type": "article",
+    "title": "{{_moduleNumber}}.1.8 Verifique sua compreensão - Características de IP",
+    "_oldId": "452a52d91ad640ed8de118328c953b1a",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-white",
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "987c9d6ddc3a42c7a095030222eba452",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "cadc7871-deb8-4635-b8f0-4627b83b997c",
+    "_assessment": {
+      "_id": "987c9d6ddc3a42c7a095030222eba452",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "987c9d6ddc3a42c7a095030222eba452",
+    "displayTitle": "{{_moduleNumber}}.1.8 Verifique sua compreensão - Características de IP",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "bc3542ac37624d43a4e204b0b6e1085d",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "bc3542ac37624d43a4e204b0b6e1085d",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "page-heading remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 0,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "c7c9729a-2748-4af8-8f11-883631c3df54",
+    "_assessment": {
+      "_id": "1584c01b36d5493dad9f8d4f3743ebd3",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "01305157-a39e-4a46-a9ac-dc6d85ad1939",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "e5294fe819a741babdc5930f8a701c6f",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "e5294fe819a741babdc5930f8a701c6f",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 1,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "8b1c721e-c595-4c38-a40a-429147aaad72",
+    "_assessment": {
+      "_id": "1584c01b36d5493dad9f8d4f3743ebd3",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "01305157-a39e-4a46-a9ac-dc6d85ad1939",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "08110e1a7fde4f8681d274c266b347e1",
+    "body": "<p><strong>Verifique sua compreensão do pacote IPv4 escolhendo a resposta correta para as seguintes perguntas.</strong></p>",
+    "_type": "article",
+    "title": "{{_moduleNumber}}.2.4 Verifique sua compreensão - Pacote IPv4",
+    "_oldId": "08110e1a7fde4f8681d274c266b347e1",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-gray",
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "91e91bb6-830d-456c-87cc-b70eaf5b17bf",
+    "_assessment": {
+      "_id": "1584c01b36d5493dad9f8d4f3743ebd3",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "displayTitle": "{{_moduleNumber}}.2.4 Verifique sua compreensão - Pacote IPv4",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "01305157-a39e-4a46-a9ac-dc6d85ad1939",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "ca3cf6c188074c99acba8057109260b3",
+    "body": "",
+    "_type": "article",
+    "title": "Título do Artigo",
+    "_oldId": "ca3cf6c188074c99acba8057109260b3",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "page-heading remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 0,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aebef9886c0144aea8b7efaecad518cb",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "61bafab6-b3e1-411a-90ec-1339c867bd29",
+    "_assessment": {
+      "_id": "aebef9886c0144aea8b7efaecad518cb",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "aebef9886c0144aea8b7efaecad518cb",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "9238c37d-1f14-405b-812e-ab304471ee31",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "0fa3fe0d82404327bfd462be68c7504e",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "0fa3fe0d82404327bfd462be68c7504e",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 1,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aebef9886c0144aea8b7efaecad518cb",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "210871cf-bc25-4baf-bfc7-85e80aa74725",
+    "_assessment": {
+      "_id": "aebef9886c0144aea8b7efaecad518cb",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "aebef9886c0144aea8b7efaecad518cb",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "9238c37d-1f14-405b-812e-ab304471ee31",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "86cf7d04dce94b159cc650c0ae2d6b16",
+    "body": "<p><strong>Verifique sua compreensão do pacote IPv6 escolhendo a resposta correta para as seguintes perguntas.</strong></p>",
+    "_type": "article",
+    "title": "{{_moduleNumber}}.3.6 Verifique sua compreensão - Pacote IPv6",
+    "_oldId": "86cf7d04dce94b159cc650c0ae2d6b16",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-gray",
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aebef9886c0144aea8b7efaecad518cb",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "6bf0a642-6e4f-4107-94c6-db86808a4e71",
+    "_assessment": {
+      "_id": "aebef9886c0144aea8b7efaecad518cb",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "aebef9886c0144aea8b7efaecad518cb",
+    "displayTitle": "{{_moduleNumber}}.3.6 Verifique sua compreensão - Pacote IPv6",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "9238c37d-1f14-405b-812e-ab304471ee31",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "45f450556e85462691922ea402b25248",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "45f450556e85462691922ea402b25248",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "page-heading remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 0,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "be4faf61-00a3-4eef-9ff5-d2541dc526a8",
+    "_assessment": {
+      "_id": "4137ec1a63a0405fa984f848117cfc6d",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "80710d445538483aa4035b6641288b78",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "80710d445538483aa4035b6641288b78",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 1,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "5a9b191f-c69f-499e-ab3f-fb85098d2944",
+    "_assessment": {
+      "_id": "4137ec1a63a0405fa984f848117cfc6d",
+      "_banks": {
+        "_split": "",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowMarking": false,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 60,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "genérico"
+    }
+  },
+  {
+    "_id": "a7abaffdae36412c9b9f3fe52b198453",
+    "body": "",
+    "_type": "article",
+    "title": "{{_moduleNumber}}.4.3 Teste de Camada de Rede",
+    "_oldId": "a7abaffdae36412c9b9f3fe52b198453",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-white",
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": false,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": true,
+      "_autoScroll": true,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "5375c08a-8733-4363-a49e-ed295e269424",
+    "_assessment": {
+      "_id": "4137ec1a63a0405fa984f848117cfc6d",
+      "_type": "1q@time",
+      "timer": {
+        "timeLimit": 75,
+        "_isEnabled": true
+      },
+      "_banks": {
+        "_split": "2,2,2,2,2,1",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isSticky": true,
+      "_isSurvey": false,
+      "_isEnabled": true,
+      "_questions": {
+        "_resetType": "hard",
+        "_canShowMarking": true,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_isIltSurvey": false,
+      "_scoreToPass": 70,
+      "_hideArticles": [],
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": 10
+      },
+      "allowNumbering": true,
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_assessmentReview": {
+      "_isEnabled": true,
+      "buttonLable": "Avaliação de revisão"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Pular tudo",
+        "_brightcoveLabel": "Conclusão",
+        "_mobileSkipLabel": "Ignorar",
+        "_skipQuestionLabel": "Ignorar pergunta",
+        "_submitQuestionLabel": {
+          "text": "Enviar",
+          "ariaLabel": "Enviar",
+          "_backToReview": "Voltar à revisão"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_requireCompletionOf": -1,
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "<p>Você falhou. Tente de novo.</p>",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": true,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "submitAnyWayLabel": "Você quer enviar o questionário de qualquer maneira?",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "onSubmitInstruction": "Você enviou suas respostas!",
+      "_shouldDisplayAttempts": false,
+      "unAnsweredQuestionsLabel": "Número de pergunta sem resposta:",
+      "resetCorrectAnswersOnReset": true,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "specific"
+    }
+  },
+  {
+    "_id": "c6e1e92deb934582ae09eae7833d9a64",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "c6e1e92deb934582ae09eae7833d9a64",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-white remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 3,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": true,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "c0175400-ddd2-40a4-94d2-1456635e2362",
+    "_assessment": {
+      "_id": "4137ec1a63a0405fa984f848117cfc6d",
+      "_banks": {
+        "_split": "2,2,2,2,2,1",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "hard",
+        "_canShowMarking": true,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 70,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": 10
+      },
+      "allowNumbering": true,
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "<p>Você falhou. Tente de novo.</p>",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "onSubmitInstruction": "You've submitted your answers!",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": true,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "específico"
+    }
+  },
+  {
+    "_id": "8efe15f700164d7eb6d800f5e1700413",
+    "body": "",
+    "_type": "article",
+    "title": "Section",
+    "_oldId": "8efe15f700164d7eb6d800f5e1700413",
+    "_mentor": {
+      "_text": "",
+      "labels": {
+        "_closeButton": "Close mentor",
+        "mentorDialog": "Mentor"
+      },
+      "_classes": "",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      },
+      "_isEnabled": false
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    " _search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-color-white remove-padding-top",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 4,
+    "_trickle": {
+      "_button": {
+        "text": "Continuar",
+        "_hasIcon": false,
+        "_autoHide": false,
+        "finalText": "Concluir",
+        "startText": "Iniciar",
+        "_className": "",
+        "_component": "trickle-button",
+        "_isEnabled": false,
+        "_isFullWidth": true,
+        "_styleAfterClick": "hidden",
+        "_styleBeforeCompletion": "hidden"
+      },
+      "_scrollTo": "@block +1",
+      "_isEnabled": false,
+      "_autoScroll": true,
+      "_onChildren": false,
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isLockedOnRevisit": false,
+        "_isCompletionRequired": true
+      },
+      "_scrollDuration": 500
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_submitAll": {
+      "_isEnabled": false,
+      "_insertAfterBlock": ""
+    },
+    "_activityId": "fd269198-2eef-41e4-a06e-9f4c55b6f7db",
+    "_assessment": {
+      "_id": "4137ec1a63a0405fa984f848117cfc6d",
+      "_banks": {
+        "_split": "2,2,2,2,2,1",
+        "_isEnabled": false,
+        "_randomisation": false
+      },
+      "_attempts": -1,
+      "_isEnabled": false,
+      "_questions": {
+        "_resetType": "hard",
+        "_canShowMarking": true,
+        "_canShowFeedback": false,
+        "_canShowModelAnswer": false
+      },
+      "_scoreToPass": 70,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": 10
+      },
+      "allowNumbering": true,
+      "_suppressMarking": false,
+      "_assessmentWeight": 1,
+      "_isResetOnRevisit": false,
+      "_isPercentageBased": true,
+      "_allowResetIfPassed": false,
+      "_includeInTotalScore": true
+    },
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4137ec1a63a0405fa984f848117cfc6d",
+    "displayTitle": "",
+    "_blockNavigator": {
+      "_isEnabled": false
+    },
+    "_activityParentId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_assessmentReview": {
+      "_isEnabled": false,
+      "buttonLable": "Review Assessment"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    " _pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_articleBlockSlider": {
+      "_labels": {
+        "_skipAllLabel": "Skip All",
+        "_brightcoveLabel": "Conclusion",
+        "_mobileSkipLabel": "Skip",
+        "_skipQuestionLabel": "Skip Question",
+        "_submitQuestionLabel": {
+          "text": "Submit",
+          "ariaLabel": "submit",
+          "_backToReview": "Back to Review"
+        }
+      },
+      "_hasTabs": false,
+      "_hasArrows": false,
+      "_isEnabled": false,
+      "_startIndex": 0,
+      "_hasUniformHeight": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_isDisabledWhenAccessibilityActive": false
+    },
+    "_assessmentSingleSubmit": {
+      "_feedback": {
+        "fail": {
+          "attemptsRemaining": "<p>Você falhou. Tente de novo.</p>",
+          "noAttemptsRemaining": ""
+        },
+        "pass": "",
+        "correctness": ""
+      },
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "onSubmitInstruction": "You've submitted your answers!",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": true,
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "questionComponentFeedbackType": "específico"
+    }
+  }
+]

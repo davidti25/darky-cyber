@@ -1,0 +1,1184 @@
+{
+  "id": "63aae6ea68236c09227907f7",
+  "_id": "course",
+  "body": "<p>Demonstrar metodologias eficazes para solução de problemas e práticas recomendadas de suporte técnico.</p><p><span><strong>Role para  baixo <i class=\"fa fa-arrow-circle-down\"></i> e selecione 'Introdução' para começar.</strong></span></p>",
+  "_menu": {
+    "_cinnamonMenu": {
+      "_menuInstructionText": ""
+    }
+  },
+  "_type": "course",
+  "title": "Módulo {{_moduleNumber}}: Suporte de Redes",
+  "_close": {
+    "_button": {
+      "_isEnabled": true,
+      "_closeViaLMSFinish": false,
+      "_hideCloseOnDesktop": true,
+      "_notifyPromptIfComplete": {
+        "body": "Tem certeza que deseja sair desse curso?",
+        "title": "Aviso",
+        "cancel": "Não",
+        "confirm": "Sim",
+        "_isEnabled": true
+      },
+      "_notifyPromptIfIncomplete": {
+        "body": "Tem certeza que deseja sair desse curso?",
+        "title": "Aviso",
+        "cancel": "Não",
+        "confirm": "Sim",
+        "_isEnabled": true
+      }
+    },
+    "_isEnabled": true,
+    "navigatonOrder": "0",
+    "browserPromptIfComplete": "",
+    "browserPromptIfIncomplete": ""
+  },
+  "_oldId": "course",
+  "_start": {
+    "_force": false,
+    "_startIds": [],
+    "_isEnabled": false,
+    "_isMenuDisabled": false
+  },
+  "_mentor": {
+    "_classes": "",
+    "_isEnabled": true,
+    "_globalMessages": [],
+    "_mentorGraphics": [
+      {
+        "_name": "Mentor 1",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ],
+    "_canScrollToDismiss": true
+  },
+  "_search": {
+    "title": "Pesquisar",
+    "_matchOn": {
+      "_contentWordBeginsPhraseWord": false,
+      "_contentWordEqualsPhraseWord": true,
+      "_phraseWordBeginsContentWord": true,
+      "_contentWordContainsPhraseWord": false
+    },
+    "_isEnabled": true,
+    "description": "Digite os critérios de pesquisa",
+    "placeholder": "",
+    "_drawerOrder": 0,
+    "_ignoreWords": "a,an,and,are,as,at,be,by,for,from,has,he,in,is,it,its,of,on,that,the,to,was,were,will,wish",
+    "_previewWords": 10,
+    "_showFoundWords": true,
+    "_showHighlights": true,
+    "noResultsMessage": "Nenhum resultado encontrado",
+    "_minimumWordLength": 2,
+    "_previewCharacters": 30,
+    "_frequencyImportance": 5,
+    "awaitingResultsMessage": "Formulando resultados ...",
+    "_shouldExcludeFromSearch": true
+  },
+  "_buttons": {
+    "_help": {
+      "ariaLabel": "Ajuda",
+      "buttonText": "Ajuda"
+    },
+    "_next": {
+      "ariaLabel": "Avançar",
+      "buttonText": "Avançar"
+    },
+    "_check": {
+      "ariaLabel": "Verificar",
+      "buttonText": "Verificar"
+    },
+    "_reset": {
+      "ariaLabel": "Tentar Novamente",
+      "buttonText": "Tentar Novamente"
+    },
+    "_showMe": {
+      "ariaLabel": "Mostrar passo a passo",
+      "buttonText": "Mostrar passo a passo"
+    },
+    "_submit": {
+      "ariaLabel": "Enviar",
+      "buttonText": "Enviar"
+    },
+    "_showAll": {
+      "ariaLabel": "Mostrar tudo",
+      "buttonText": "Mostrar tudo"
+    },
+    "_newNumber": {
+      "ariaLabel": "Novo Número",
+      "buttonText": "Novo Número"
+    },
+    "_newProblem": {
+      "ariaLabel": "Novo problema",
+      "buttonText": "Novo problema"
+    },
+    "_showFeedback": {
+      "ariaLabel": "Mostrar feedback",
+      "buttonText": "Mostrar feedback"
+    },
+    "disabledAriaLabel": "Este botão está desativado no momento",
+    "_hideCorrectAnswer": {
+      "ariaLabel": "Ocultar a resposta correta",
+      "buttonText": "Ocultar a resposta correta"
+    },
+    "_showCorrectAnswer": {
+      "ariaLabel": "Mostrar Resposta Correta",
+      "buttonText": "Mostrar Resposta Correta"
+    },
+    "remainingAttemptText": "Tentativa final",
+    "remainingAttemptsText": "Tentativas restantes"
+  },
+  "_classes": "",
+  "_globals": {
+    "_menu": {
+      "_ciscoMenu": {
+        "durationLabel": "Duração:"
+      }
+    },
+    "_components": {
+      "_mcq": {
+        "ariaRegion": "Questão de múltipla escolha"
+      },
+      "_gmcq": {
+        "ariaRegion": "Questão de múltipla escolha"
+      },
+      "_tabs": {
+        "ariaRegion": "Um contêiner de conteúdo com guias. O conteúdo pode ser texto, gráfico ou ambos."
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_media": {
+        "ariaRegion": "Reprodutor de mídia {{#any _transcript._inlineTranscript _transcript._externalTranscript}} e transcrição {{/any}}.",
+        "skipToTranscript": "Ir para a transcrição",
+        "_signedUrlTranscriptMedia": {
+          "noResult": "Nenhum resultado encontrado.",
+          "clearSearch": " Limpar pesquisa ",
+          "defaultFontSize": "padrão",
+          "searchPlaceholder": "Pesquisar transcrição...",
+          "transcriptBodyText": " Acompanhe usando a transcrição.",
+          "transcriptButtonLabel": " Transcrição",
+          "transcriptNotAvailable": " Nenhuma transcrição disponível para este vídeo.",
+          "transcriptOpenButtonLabel": " Exibir transcrição ",
+          "transcriptCloseButtonLabel": " Ocultar transcrição "
+        }
+      },
+      "_table": {
+        "ariaRegion": ""
+      },
+      "_yesNo": {
+        "ariaRegion": "Pergunta de múltipla escolha"
+      },
+      "_blinds": {
+        "ariaRegion": ""
+      },
+      "_expose": {
+        "ariaRegion": ""
+      },
+      "_iframe": {
+        "ariaRegion": "",
+        "_iframeGraphics": ""
+      },
+      "_likert": {
+        "ariaRegion": ""
+      },
+      "_reveal": {
+        "ariaLabel": "Revele o botão de alternância."
+      },
+      "_simMcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_slider": {
+        "labelEnd": "Fim da escala",
+        "ariaRegion": "Controle deslizante Responda à pergunta selecionando um valor na escala e depois envie.",
+        "labelStart": "Início da escala"
+      },
+      "_flipper": {
+        "ariaRegion": ""
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_hotgrid": {
+        "ariaRegion": "Componente de imagem selecionável. Selecione cada item para mostrar mais informações.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_simgmcq": {
+        "ariaRegion": "Multiple choice question"
+      },
+      "_stacker": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie."
+      },
+      "_flipcard": {
+        "ariaRegion": "Este componente é um flipcard composto por cartões flippable contendo imagem de exibição. Selecione a imagem da face frontal para virar para a face posterior desses cartões para exibir o texto associado."
+      },
+      "_matching": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie.",
+        "ariaUserAnswer": "A resposta que você escolheu para  {{{itemText}}} foi {{{userAnswer}}}",
+        "ariaCorrectAnswer": "A resposta correta para  {{{itemText}}} é {{{correctAnswer}}}"
+      },
+      "_accordion": {
+        "ariaRegion": "Lista de seções expansíveis. Selecione cada botão para expandir o conteúdo."
+      },
+      "_dragwords": {
+        "ariaRegion": "Pergunta de múltipla escolha"
+      },
+      "_narrative": {
+        "next": "{{#if title}}Forward to {{title}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}",
+        "previous": "{{#if title}}Voltar para{{title}} (item {{itemNumber}} de {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "ariaRegion": "Apresentação de slides Selecione o próximo botão para avançar.",
+        "_webComponentContentBase": "https://hub-dev.netacad.com/asset/netacad-media/"
+      },
+      "_stacklist": {
+        "ariaRegion": "Este componente stacklist apresenta uma lista de itens. Selecione o botão para acessar cada item sucessivamente.",
+        "ariaButtonLabel": "Selecione este botão para acessar o próximo item na lista de pilhas."
+      },
+      "_textinput": {
+        "ariaRegion": "Inserção de texto Digite sua resposta e depois envie."
+      },
+      "_brightcove": {
+        "ariaRegion": "Este é um componente do reprodutor de mídia.  Selecione o botão de reproduzir / pausar para assistir ou ouvir.",
+        "transcriptButton": "Como alternativa, você pode selecionar o link abaixo para a transcrição.",
+        "_brightcovePlayerSetting": {
+          "_pauseVideoOnScroll": true,
+          "_saveVideoCurrentTime": true
+        }
+      },
+      "_codeWindow": {
+        "ariaRegion": ""
+      },
+      "_fillBlanks": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie."
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Imagem com áreas selecionáveis. Selecione cada botão para mostrar mais informações.",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_pageTracer": {
+        "ariaRegion": ""
+      },
+      "_openTextBox": {
+        "ariaRegion": ""
+      },
+      "_packetTracer": {
+        "ariaRegion": ""
+      },
+      "_selectchoice": {
+        "ariaRegion": "Selectchoice. Select from input options and then submit.",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}"
+      },
+      "_surveyRating": {
+        "ariaRegion": "Questão de múltipla escolha"
+      },
+      "_clickAndLearn": {
+        "ariaRegion": "Este componente é um tipo de componente clique e aprenda onde temos alguns cartões clicáveis, depois de clicar em um desses cartões eles revelam o texto associado a eles."
+      },
+      "_commandWindow": {
+        "ariaRegion": ""
+      },
+      "_storylineTest": {
+        "ariaRegion": ""
+      },
+      "_iframeGraphics": {
+        "ariaRegion": "",
+        "_netessAnimationsBaseUrl": "https://dmazqqf7fxgsj.cloudfront.net/netacad-media/"
+      },
+      "_objectMatching": {
+        "ariaRegion": "Este componente de pergunta exige que você selecione a opção correspondente. Depois de selecionar suas respostas, selecione o botão enviar."
+      },
+      "_adaptiveStacker": {
+        "ariaRegion": "Matching. Select from lists and then submit."
+      },
+      "_asciiTranslator": {
+        "ariaRegion": ""
+      },
+      "_iframeanimation": {
+        "ariaRegion": "",
+        "_netessAnimationsBaseUrl": "https://dmazqqf7fxgsj.cloudfront.net/netacad-media/"
+      },
+      "_matchingGraphic": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie.",
+        "ariaUserAnswer": "A resposta que você escolheu para  {{{itemText}}} foi {{{userAnswer}}}",
+        "ariaCorrectAnswer": "A resposta correta para  {{{itemText}}} é {{{correctAnswer}}}"
+      },
+      "_textinputinline": {
+        "ariaRegion": "Esta pergunta requer que você digite sua resposta na caixa de texto fornecida. Quando terminar, selecione o botão Enviar abaixo."
+      },
+      "_confidenceSlider": {
+        "ariaRegion": "Responda à pergunta selecionando um valor no intervalo. Depois de fazer isso, selecione o botão Enviar abaixo."
+      },
+      "_openTableTextBox": {
+        "ariaRegion": ""
+      },
+      "_sentenceOrdering": {
+        "ariaRegion": "Este é um componente de pergunta para solicitar sentenças."
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Resultados da avaliação"
+      },
+      "_inlineFeedbackMcq": {
+        "ariaRegion": "Questão de múltipla escolha",
+        "ariaUserAnswer": "A resposta que você escolheu foi {{{userAnswer}}}",
+        "ariaUserAnswers": "As respostas que você escolheu foram {{{userAnswer}}}",
+        "ariaCorrectAnswer": "A resposta correta é {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "As respostas corretas são {{{correctAnswer}}}"
+      },
+      "_natlantisQuestion": {
+        "ariaRegion": ""
+      },
+      "_tabsWithAnimation": {
+        "ariaRegion": "Um contêiner de conteúdo com guias. O conteúdo pode ser texto, gráfico ou ambos.",
+        "_webComponentContentBase": "https://hub-dev.netacad.com/asset/netacad-media/"
+      },
+      "_webComponentMedia": {
+        "_webComponentContentBase": "https://hub-dev.netacad.com/asset"
+      },
+      "_dragndropwithimage": {
+        "ariaRegion": "Esse componente é uma questão de múltipla escolha. Depois de selecionar uma opção, selecione o botão Enviar abaixo"
+      },
+      "_inlinefeedbackgmcq": {
+        "ariaRegion": "Questão de múltipla escolha"
+      },
+      "_adaptiveFinalScreen": {
+        "ariaRegion": ""
+      },
+      "_adaptiveStartScreen": {
+        "ariaRegion": ""
+      },
+      "_graphicWithMatching": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie."
+      },
+      "_brightcoveThumbnails": {
+        "ariaRegion": "Este é um componente do reprodutor de mídia.  Selecione o botão de reproduzir / pausar para assistir ou ouvir.",
+        "transcriptButton": "Como alternativa, você pode selecionar o link abaixo para a transcrição.",
+        "_brightcoveThumbnailsPlayerSetting": {
+          "_pauseVideoOnScroll": true,
+          "_saveVideoCurrentTime": true
+        }
+      },
+      "_identifyIpv6Addresses": {
+        "ariaRegion": ""
+      },
+      "_accordionCommandWindow": {
+        "ariaRegion": ""
+      },
+      "_accordionWithAnimation": {
+        "ariaRegion": "Lista de seções expansíveis. Selecione cada botão para expandir o conteúdo.",
+        "_webComponentContentBase": "https://hub-dev.netacad.com/asset/netacad-media/"
+      },
+      "_inlineFeedbackMatching": {
+        "ariaRegion": "Correspondência Selecione nas listas e depois envie."
+      },
+      "_natlantisWebComponents": {
+        "ariaRegion": ""
+      },
+      "_natlantis-python-widget": {
+        "ariaRegion": "natlantis python widget",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}"
+      },
+      "_netEssAssessmentResults": {
+        "ariaRegion": "Resultados da avaliação"
+      },
+      "_secure-assessmentResults": {
+        "ariaRegion": "Resultados da avaliação"
+      },
+      "_unicastMulticastActivity": {
+        "ariaRegion": "Um contêiner de conteúdo com guias. O conteúdo pode ser texto, gráfico ou ambos.",
+        "_netessAnimationsBaseUrl": "https://dmazqqf7fxgsj.cloudfront.net/netacad-media/"
+      },
+      "_identifyIpv6AddressesDownload": {
+        "ariaRegion": ""
+      }
+    },
+    "_extensions": {
+      "_xapi": {
+        "_loader": {
+          "isLoaded": "O progresso foi carregado com sucesso...",
+          "isLoading": "Verificando o progresso do curso...",
+          "noStateFound": "Nenhum estado encontrado"
+        },
+        "confirm": "OK",
+        "_syncButton": {
+          "_syncButtonInfo": "O progresso do curso não foi salvo. <span style=\"text-decoration: underline;\" >Clique aqui</span> para salvar seu progresso.",
+          "_syncButtonLabel": "Salvar o progresso",
+          "_syncButtonMobileInfo": "O progresso do curso não foi salvo. <span style=\"text-decoration: underline;\" >Toque aqui</span> para salvar seu progresso."
+        },
+        "lrsConnectionErrorTitle": "Ação necessária",
+        "lrsConnectionErrorMessage": "Reinicie o curso para registrar seu progresso"
+      },
+      "_close": {
+        "closeButton": "Selecione aqui para fechar a janela."
+      },
+      "_mentor": {
+        "closePopup": "Fechar mentor",
+        "pluginName": "Mentor"
+      },
+      "_search": {},
+      "_menuTOC": {
+        "closeButton": "Selecione aqui para fechar a janela.",
+        "optionalContent": "Conteúdo opcional",
+        "courseLevelProgress": "Seções da página",
+        "courseLevelProgressEnd": "Você chegou ao final da lista de seções da página.",
+        "componentStatusIndicators": {
+          "pending": {
+            "_src": ""
+          },
+          "complete": {
+            "_src": ""
+          },
+          "inProgress": {
+            "_src": ""
+          }
+        },
+        "courseLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "courseLevelProgressIndicatorBar": "Andamento Use isso para ouvir a lista de regiões neste tópico e se elas foram concluídas. Você pode ir diretamente para qualquer item incompleto ou que pareça particularmente interessante. {{percentageComplete}}%"
+      },
+      "_trickle": {
+        "incompleteContent": "O conteúdo está incompleto. Você deve concluir isso antes de continuar com o curso."
+      },
+      "_glossary": {
+        "glossary": "Glossário",
+        "labelLink": "Termos que começam com",
+        "labelNavigation": "Navegação no glossário"
+      },
+      "_pinImage": {
+        "closeButton": "Recursos adicionais"
+      },
+      "_resources": {
+        "resources": "Recursos adicionais"
+      },
+      "_assessment": {
+        "_minLabel": "minuto",
+        "_hourLabel": "hora",
+        "_minsLabel": "ata",
+        "_secsLabel": "segundos",
+        "_hoursLabel": "horas",
+        "_resultLabel": {
+          "_bands": [
+            {
+              "_score": 0,
+              "_classes": "",
+              "feedback": "<p style=\"text-align:center\" >Você não passou no exame.</p> <p style=\"text-align:center\" class='secure-reset-instruction'>Selecione Redefinir para refazer o exame. <span class='mobile-instruction-text'>Toque no ícone de saída no canto superior direito ou simplesmente feche essa guia ou janela.</span> Lembre-se de que você pode retornar ao módulo para referência ou refazer o exame a qualquer momento.</p>",
+              "_allowRetry": false,
+              "progressMeterColor": "#c91111"
+            },
+            {
+              "_score": 70,
+              "_classes": "",
+              "feedback": "<p style=\"text-align: center;\" >Parabéns, você passou no exame.</p>",
+              "_allowRetry": false,
+              "progressMeterColor": "#1c8e0d"
+            }
+          ],
+          "resetButton": "Redefinir",
+          "_completionBody": "<p style=\"text-align:center\">Você marcou <b>{{{scoreAsPercent}}}%</b>.</p> <p style=\"text-align:center\">{{{feedback}}}</p>",
+          "attemptInstruction": "<p style='text-align:center;'>Você usou {{attemptsSpent}} de {{attempts}} tentativa (s).</p>",
+          "unAnsweredInstruction": "Você tem {{count}} perguntas sem resposta:"
+        },
+        "_attemptLabel": "tentativa",
+        "_attemptsLabel": "tentativas",
+        "_questionLabel": "<span class='secure-question-label'>Perguntas</span>",
+        "_timeLeftLabel": "<span class='secure-time-left'>Tempo restante:</span>",
+        "_questionOfLabel": "do",
+        "_abandonTestLabels": {
+          "body": "Você já iniciou sua verificação de conhecimento, mas ela não foi enviada e já passou muito tempo. Você deve reiniciar a verificação de conhecimento desde o início. Isso ajudará a IA a descobrir SEU conhecimento específico de todo o curso no momento. Por favor, não se apresse, tenha cuidado em seu trabalho e, o mais importante, dê o seu melhor!\nImprensa \"retorne\" para começar de novo.",
+          "title": "Alerta!!!",
+          "confirmText": "retorne"
+        },
+        "_finalScreenLabels": {
+          "_subText": "<div>Tem certeza de que deseja enviar o questionário?</div> <div style='display:flex;justify-content:center;padding:1%;'><input type='checkbox' style='margin-right:1%;'name='confirm' id='confirm-exam'> <label for='confirm'>Sim, confirme meu envio.</label></div>",
+          "_finalScreenSubmit": {
+            "text": "Enviar",
+            "ariaLabel": "Enviar"
+          },
+          "_assessmentStatusDesc": "Você concluiu a verificação de conhecimento.",
+          "_assessmentStatusTitle": "Enviar minha avaliação"
+        },
+        "_resultButtonLabel": "Página de resultados",
+        "_reviewButtonLabel": "Enviar página",
+        "_timeOutInstruction": "<p>O tempo limite</p> do exame expirou, todas as respostas foram enviadas.",
+        "_timeRemainingLabel": "Tempo restante",
+        "_tokenExpiredLabels": {
+          "body": "Clique no botão ok para obter um novo token de acesso.",
+          "title": "Desculpe, seu token expirou ou é inválido!",
+          "confirmText": "OK"
+        },
+        "_matchingPlaceHolder": "Selecione uma opção",
+        "_networkFailedLabels": {
+          "body": "Atualize a página para continuar com o curso.",
+          "title": "Falha - Erro de rede",
+          "confirmText": "OK"
+        },
+        "_timerEndInstruction": "<strong><span class='timer-end-current-time'>5</span> restantes.</strong>",
+        "_lrsConnectionLostLabels": {
+          "body": "Atualize a página para continuar com o curso.",
+          "title": "Ação necessária"
+        },
+        "_showLearnerNotStartedLabels": {
+          "body": "O exame não foi iniciado pelo aluno. <br>Visite esta página novamente mais tarde.",
+          "title": "Exame não iniciado"
+        }
+      },
+      "_introOutro": {
+        "copyLink": "Copy link",
+        "download": "Download this video",
+        "linkCopied": "Link copied!",
+        "replayIntroVideo": "Replay intro video",
+        "replayOutroVideo": "Replay outro video",
+        "replayVideoDrawer": "Open replay intro/outro video drawer",
+        "outroDelayAriaLabel": "Video will play in a moment",
+        "outroDelayCountdown": "Video displaying in {{number}} second(s)…"
+      },
+      "_healthGauge": {
+        "correct": "",
+        "incorrect": "",
+        "lostLabel": "Perdida",
+        "notStarted": "Não iniciada",
+        "pluginName": "medidor de integridade",
+        "currentLabel": "Atual",
+        "currentHealth": "Você tem {{currentPercentage}}% de integridade",
+        "healthGaugeDescription": "O medidor de integridade reflete seu desempenho durante o curso",
+        "componentsAffectingHealth": "Completar corretamente as atividades a seguir pode ganhar pontos de defesa"
+      },
+      "_graphicsZoom": {},
+      "_activityButton": {
+        "closeButton": "Select here to close the window."
+      },
+      "_contentLocking": {
+        "_alumniContentDesc": "Para ter acesso à avaliação, inscreva-se novamente neste curso.",
+        "_lockedContentDesc": "O conteúdo desta página não está visível porque está bloqueado no momento. Seu instrutor pode desbloquear esse conteúdo na hora de trabalhar nele.",
+        "_lockedContentTitle": "Conteúdo bloqueado"
+      },
+      "_courseProgress": {
+        "closeButton": "Selecione aqui para fechar a janela."
+      },
+      "_languagePicker": {
+        "languageSelector": "Seletor de idioma",
+        "navigationBarLabel": "Selecione o idioma"
+      },
+      "_assessmentReview": {},
+      "_pageLevelProgress": {
+        "optionalContent": "Conteúdo opcional",
+        "pageLevelProgress": "Seções da página",
+        "pageLevelProgressV3": "Page sections",
+        "pageLevelProgressEnd": "Você chegou ao final da lista de seções da página.",
+        "pageLevelProgressMenuBar": "Preenchimento de página {{percentageComplete}}%",
+        "componentStatusIndicators": {
+          "pending": {
+            "alt": "texto alternativo",
+            "_src": "pt-BR/assets/82602e2da310464bb53300aa92a314a1.svg"
+          },
+          "complete": {
+            "alt": "texto alternativo",
+            "_src": "pt-BR/assets/b1c2bc1c93c042da880b1cbf1ca0f83d.svg"
+          },
+          "inProgress": {
+            "alt": "texto alternativo",
+            "_src": "pt-BR/assets/cda4d0c5fbf94ff09ab0ed205a0e3c71.svg"
+          }
+        },
+        "pageLevelProgressIndicatorBar": "Andamento Use isso para ouvir a lista de regiões neste tópico e se elas foram concluídas. Você pode ir diretamente para qualquer item incompleto ou que pareça particularmente interessante. {{percentageComplete}}%"
+      },
+      "_adaptiveAssessment": {
+        "_questionLabel": "Question",
+        "_abandonTestLabels": {
+          "body": "You previously began your Knowledge Check, but it was not submitted and too much time has elapsed. You must restart the Knowledge Check from the beginning. This will help the AI figure out YOUR specific knowledge of the entire course at this time. Please do not rush, be careful in your work, and most importantly try your best!\nPress \"return\" to begin again.",
+          "title": "Alert!!!",
+          "confirmText": "return"
+        },
+        "_finalScreenLabels": {
+          "_subText": "Please click the 'Submit all and Finish’ button to submit your Knowledge Check or click on a question number to review.",
+          "_finalScreenSubmit": {
+            "text": "Submit all and Finish.",
+            "ariaLabel": "Submit"
+          },
+          "_assessmentStatusDesc": "You have completed the Knowledge Check.",
+          "_assessmentStatusTitle": "Submit My Knowledge Check"
+        },
+        "_reviewButtonLabel": "Submit Page",
+        "_tokenExpiredLabels": {
+          "body": "Please click the ok button to get a new access token.",
+          "title": "Sorry, your token is expired or invalid!",
+          "confirmText": "OK"
+        },
+        "_matchingPlaceHolder": "Please select an option",
+        "_networkFailedLabels": {
+          "body": "Please refresh the page to proceed with course.",
+          "title": "Failed - Network error",
+          "confirmText": "OK"
+        }
+      },
+      "_showAnswerOnSubmit": {
+        "closeButton": "Select here to close the window."
+      }
+    },
+    "_accessibility": {
+      "_ariaLabels": {
+        "done": "Concluído",
+        "next": "Avançar",
+        "page": "Page",
+        "close": "Fechar",
+        "drawer": "Gaveta lateral",
+        "locked": "Bloqueado",
+        "correct": "Correto",
+        "visited": "Visitado",
+        "complete": "Concluída",
+        "previous": "Voltar",
+        "incorrect": "Incorreto",
+        "closePopup": "Fechar pop-up",
+        "incomplete": "Incompleta",
+        "menuLoaded": "Menu loaded",
+        "navigation": "Course navigation bar",
+        "pageLoaded": "Page loaded",
+        "closeDrawer": "Fechar a gaveta",
+        "feedbackPopUp": "Popup opened",
+        "closeResources": "Fechar recursos",
+        "selectedAnswer": "selecionado",
+        "skipNavigation": "Pular Navegação",
+        "navigationDrawer": "Abra os recursos do curso e pesquise",
+        "unselectedAnswer": "Não selecionado",
+        "answeredCorrectly": "Você respondeu corretamente",
+        "answeredIncorrectly": "Você respondeu incorretamente",
+        "menuIndicatorHeading": "Menu item heading ",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off"
+      },
+      "skipNavigationText": "Pular Navegação",
+      "accessibilityToggleTextOn": "Turn accessibility on?",
+      "_accessibilityInstructions": {
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select.",
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page."
+      },
+      "accessibilityToggleTextOff": "Turn accessibility off?"
+    }
+  },
+  "_menuTOC": {
+    "_isEnabled": true
+  },
+  "_tooltip": {
+    "_isEnabled": true,
+    "globalTooltip": [
+      {
+        "text": "Índice",
+        "selector": "_menuTOC"
+      },
+      {
+        "text": "Progresso do módulo",
+        "selector": "_courseProgress"
+      },
+      {
+        "text": "Pontos de experiência",
+        "selector": "_healthGauge"
+      },
+      {
+        "text": "Aparência do tema",
+        "selector": "_themeAppearance"
+      },
+      {
+        "text": "Pesquisar",
+        "selector": "_search"
+      },
+      {
+        "text": "Voltar",
+        "selector": "_backButton"
+      },
+      {
+        "text": "Seletor de idioma",
+        "selector": "_languagePicker"
+      },
+      {
+        "text": "Reproduzir vídeo de introdução",
+        "selector": "_introOutro"
+      },
+      {
+        "text": "Glossário",
+        "selector": "_glossary"
+      },
+      {
+        "text": "Recursos",
+        "selector": "_resources"
+      },
+      {
+        "text": "Nível de progresso  da página: ",
+        "type": "pageLevelProgress",
+        "selector": "_pageLevelProgress"
+      },
+      {
+        "text": "Sair do curso",
+        "selector": "_close"
+      }
+    ]
+  },
+  "language": "en-US",
+  "metadata": {
+    "parentCourseIds": [
+      ""
+    ]
+  },
+  "subtitle": "",
+  "_glossary": {
+    "title": "Glossário",
+    "_isEnabled": false,
+    "clearSearch": "Limpar pesquisa",
+    "description": "Selecione aqui para visualizar o glossário deste curso",
+    "_drawerOrder": 0,
+    "_glossaryItems": [],
+    "_isIndexEnabled": false,
+    "_isSearchEnabled": true,
+    "searchItemsAlert": "{{filteredItems.length}} encontrado",
+    "searchPlaceholder": "Pesquisar",
+    "itemNotFoundMessage": "Nenhum resultado encontrado",
+    "_isGroupHeadersEnabled": false,
+    "searchWithInDescriptionLabel": "Descrição da pesquisa"
+  },
+  "_language": "",
+  "_lockType": "",
+  "_ciscoMenu": {
+    "_menuHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_backgroundImage": {
+      "_large": "",
+      "_small": "",
+      "_medium": ""
+    },
+    "_backgroundStyles": {
+      "_backgroundSize": null,
+      "_backgroundRepeat": null,
+      "_backgroundPosition": null
+    }
+  },
+  "_isDeleted": false,
+  "_languages": {
+    "languages": [
+      {
+        "language": "English (United States)",
+        "direction": "ltr",
+        "languageCode": "en-US"
+      }
+    ]
+  },
+  "_resources": {
+    "title": "Resources",
+    "_isEnabled": false,
+    "_filterAria": {
+      "allAria": "View all resources",
+      "linkAria": "View resource links",
+      "mediaAria": "View media resources",
+      "documentAria": "View document resources"
+    },
+    "description": "Select here to view resources",
+    "_drawerOrder": 3,
+    "_filterButtons": {
+      "all": "All",
+      "link": "Links",
+      "media": "Media",
+      "document": "Documents"
+    },
+    "_resourcesItems": [
+      {
+        "_link": "",
+        "_type": "document",
+        "title": "",
+        "filename": "",
+        "description": "",
+        "_forceDownload": false
+      }
+    ]
+  },
+  "resourceId": "b0fcf140-d503-5bbe-ab6a-5be2ac38d674",
+  "_activityId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+  "_assessment": {
+    "_scoreToPass": 75,
+    "_isPercentageBased": true
+  },
+  "_categoryId": "63aadf9568236c09227907f6",
+  "_homeButton": {
+    "alt": "Página inicial",
+    "_isEnabled": false,
+    "_redirectToId": "",
+    "_hideHomeButton": false
+  },
+  "_introOutro": {
+    "_buttons": {
+      "skip": "Skip",
+      "_alignment": "Right",
+      "transcriptLink": "Transcript link",
+      "viewTranscript": "View transcript",
+      "closeTranscript": "Close transcript",
+      "_shouldUseIconsOnDevices": true
+    },
+    "_outroDelay": 5,
+    "_introVideo_bc": {
+      "_socialSharing": [],
+      "_downloadOption": "Disabled",
+      "_brightcovePlayer": {
+        "player": "ZtjDPtmlF",
+        "account": "2649925992001",
+        "videoId": "6233106087001",
+        "canPlayLocal": false
+      },
+      "_canCopyLinkToVideo": false
+    },
+    "_outroVideo_bc": {
+      "_socialSharing": [],
+      "_downloadOption": "Disabled",
+      "_brightcovePlayer": {
+        "player": "ZtjDPtmlF",
+        "account": "2649925992001",
+        "videoId": "6233106101001",
+        "canPlayLocal": false
+      },
+      "_canCopyLinkToVideo": false
+    },
+    "navigatonOrder": "5",
+    "_introIsEnabled": false,
+    "_introVideo_ext": "",
+    "_introVideo_mp4": "",
+    "_introVideo_ogv": "",
+    "_outroIsEnabled": false,
+    "_outroVideo_ext": "",
+    "_outroVideo_mp4": "",
+    "_outroVideo_ogv": "",
+    "_introTranscript": {
+      "_cc": [],
+      "transcriptLink": "",
+      "inlineTranscript": "<p><strong>Describer: </strong>A hooded hacker character working on a laptop with skull and crossbones appears on screen.</p><p><strong>Narrator:</strong> Cybercrime: it&rsquo;s all around us.</p><p><strong>Describer:</strong> The hooded hacker character reduces in size and multiplies on screen.</p><p><strong>Narrator: </strong>And it&rsquo;s growing!</p><p><strong>Describer: </strong>A stop clock begins and the clock hand starts to move around. When it reaches thirty-nine seconds, a red, flashing alarm appears at the top of the stop clock and the words &lsquo;39 sec&rsquo; appears on the clock face.</p><p><strong>Narrator:</strong> In fact, one source estimates that malicious hackers are now attacking computers and networks at a rate of one attack every 39 seconds&hellip;</p><p><strong>Describer:</strong> A green person icon, an icon showing a connection between three different people and a government building icon appear on screen.</p><p><strong>Narrator:</strong> ...posing a major threat to personal information, organizational data and even national security.</p><p><strong>Describer: </strong>The three icons merge and transform into a blue shield icon.</p><p><strong>Narrator:</strong> But we can fight back and with your help, stop these cybercriminals in their tracks.</p><p><strong>Describer: </strong>Another two shield icons emerge from either side of the original one. A grid with different colour squares appears on the first shield. A target with an arrow in the center appears on the second shield. A globe icon appears on the third shield.</p><p><strong>Narrator: </strong>As cyberattacks become more sophisticated, more targeted, more global, we need people like you to join us.</p><p><strong>Describer:</strong> The three shield icons merge and the center image changes to a green check mark. A cursor appears on screen and clicks on the shield.</p><p><strong>Narrator: </strong>As a cybersecurity professional, you can help stop people and organizations across the world from falling victim to cybercrime.</p><p><strong>Describer: </strong>A blue ribbon banner appears with the organization name, &lsquo;@Apollo&rsquo;.</p><p><strong>Narrator: </strong>One organization has already asked for your help.</p><p><strong>Describer:</strong> Two exclamation marks in red triangles appear on either side of the ribbon banner.</p><p><strong>Narrator:</strong> Elearning start-up, @Apollo is on high alert following a wave of recent cyberattacks.</p><p><strong>Describer:</strong> A name badge appears with a generic silhouette and the job title, &lsquo;Security Analyst&rsquo;.</p><p><strong>Narrator: </strong>As an entry-level Security Analyst, it&rsquo;s your job to help build their defenses&hellip;</p><p><strong>Describer:</strong> A knowledge check activity from Module 1, entitled, &lsquo;Your Online Identity&rsquo; appears on screen. The cursor clicks on the two correct answers and then the &lsquo;Submit&rsquo; button. The broken, red defender shield pops up, then changes to the shiny, blue shield when all of the knowledge check questions have been answered correctly.</p><p><strong>Narrator: </strong>...and safeguard the company from attack by making the right cyber decisions.&nbsp;</p><p><strong>Describer: </strong>The screen moves up to the top of the first section of Module 1 to show where the defender shield icon can be accessed. The shield icon is encircled by a green line and pulses.</p><p><strong>Narrator:</strong> Check your progress by clicking on the shield icon on the top right-hand corner of the screen.</p><p><strong>Describer: </strong>The screen scrolls down the module page. The&nbsp;Guru character, sitting in a yoga pose, appears on screen.</p><p><strong>Narrator: </strong>This won&rsquo;t be easy. But stay calm! &nbsp;Cybersecurity specialist, Guru will be there every step of the way&hellip;</p><p><strong>Describer: </strong>The screen returns to the original hooded hacker character working on a laptop with skull and crossbones. It then zooms into the laptop. @Apollo&rsquo;s website is on screen with a red error message, &lsquo;HACK ATTEMPT FAILED&rsquo;.&nbsp;</p><p><strong>Narrator:</strong> ...to help you achieve success in your new role.</p><p><strong>Describer: </strong>The Security Analyst name badge with a green circle around it reappears on the corner of the webpage and comes full, and center screen. This changes to a locked padlock.</p><p><strong>Narrator: </strong>Think you are up to the task? Let&rsquo;s see!</p>",
+      "_inlineTranscript": true,
+      "_setCompletionOnView": false
+    },
+    "_introVideo_webm": "",
+    "_outroTranscript": {
+      "_cc": [],
+      "transcriptLink": "",
+      "inlineTranscript": "",
+      "_setCompletionOnView": false
+    },
+    "_outroVideo_webm": "",
+    "smallDeviceDrawer": {
+      "title": "intro video drawer",
+      "className": "is-intro-video",
+      "description": "drawer item to launch intro video",
+      "drawerOrder": 0
+    },
+    "_introForceViewing": false,
+    "_showReplayButtons": "navigation-bar",
+    "_triggerOutroVideo": "assessment",
+    "_introPlayFullscreen": true,
+    "_outroPlayFullscreen": true,
+    "_shouldShowOnRevisit": false,
+    "outroVideoLearningObjectivesTrigger": []
+  },
+  "_originalId": "",
+  "description": "",
+  "instruction": "",
+  "_beginButton": {
+    "_isEnabled": false
+  },
+  "_bookmarking": {
+    "body": "Gostaria de continuar de onde parou?",
+    "title": "Favoritos",
+    "_level": "component",
+    "_buttons": {
+      "no": "Não",
+      "yes": "Sim"
+    },
+    "_isEnabled": true,
+    "_showPrompt": true
+  },
+  "_graphicZoom": {
+    "_isEnabled": true
+  },
+  "_healthGauge": {
+    "_isEnabled": false,
+    "valueMetric": "defender points",
+    "_progressBar": {
+      "fillColor": "#2ECC71",
+      "iconColor": "#FFFFFF",
+      "emptyColor": "#CCCCCC",
+      "_customIcon": "fa-shield",
+      "backgroundColor": "#34495E"
+    },
+    "_customHealthIndicators": [
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_0.png"
+        },
+        "_percentageValue": 0
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_25.png"
+        },
+        "_percentageValue": 25
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_50.png"
+        },
+        "_percentageValue": 50
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_75.png"
+        },
+        "_percentageValue": 75
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_100.png"
+        },
+        "_percentageValue": 100
+      }
+    ]
+  },
+  "_htmlClasses": "",
+  "displayTitle": "Módulo {{_moduleNumber}}: Suporte de Redes",
+  "languageCode": "pt-BR",
+  "_graphicsZoom": {
+    "closeButton": "Selecione aqui para fechar a janela."
+  },
+  "heroImageType": "",
+  "_multilanguage": [],
+  "themeVariables": {
+    "_nav": {
+      "nav": "#ffffff",
+      "nav-icon": "",
+      "nav-inverted": "#9096a0",
+      "nav-progress": "",
+      "nav-icon-hover": "",
+      "nav-icon-inverted": "",
+      "nav-progress-hover": "",
+      "nav-progress-border": "",
+      "nav-progress-inverted": "",
+      "nav-icon-inverted-hover": "",
+      "nav-progress-border-hover": "",
+      "nav-progress-inverted-hover": ""
+    },
+    "_menu": {
+      "menu-item": "",
+      "menu-item-inverted": "",
+      "menu-item-progress": "",
+      "menu-item-btn-color": "",
+      "menu-item-border-color": "",
+      "menu-item-btn-color-hover": "",
+      "menu-item-progress-border": "",
+      "menu-item-progress-inverted": "",
+      "menu-item-btn-color-inverted": "",
+      "menu-item-btn-color-inverted-hover": ""
+    },
+    "_misc": {
+      "shadow": "#000000",
+      "background": "#000000",
+      "shadow-inverted": "#ffffff",
+      "background-inverted": "#ffffff"
+    },
+    "_items": {
+      "visited": "#727272",
+      "item-color": "#0d274d",
+      "item-color-hover": "",
+      "visited-inverted": "#ffffff",
+      "item-color-inverted": "#ffffff",
+      "item-color-selected": "",
+      "item-color-inverted-hover": "",
+      "item-color-inverted-selected": ""
+    },
+    "_drawer": {
+      "drawer": "#dee2e6",
+      "drawer-icon": "",
+      "drawer-item": "",
+      "drawer-link": "",
+      "drawer-inverted": "#000000",
+      "drawer-progress": "",
+      "drawer-icon-hover": "",
+      "drawer-item-hover": "",
+      "drawer-link-hover": "",
+      "drawer-icon-inverted": "",
+      "drawer-item-inverted": "",
+      "drawer-item-selected": "",
+      "drawer-progress-hover": "",
+      "drawer-progress-border": "",
+      "drawer-progress-inverted": "",
+      "drawer-icon-inverted-hover": "",
+      "drawer-item-inverted-hover": "",
+      "drawer-progress-border-hover": "",
+      "drawer-item-inverted-selected": "",
+      "drawer-progress-inverted-hover": ""
+    },
+    "_global": {
+      "link": "",
+      "font-color": "#333333",
+      "link-hover": "",
+      "heading-color": "#0d274d",
+      "link-inverted": "",
+      "font-color-inverted": "#ffffff",
+      "link-inverted-hover": "",
+      "heading-color-inverted": "#ffffff"
+    },
+    "_notify": {
+      "notify": "#0d274d",
+      "notify-btn": "",
+      "notify-icon": "",
+      "notify-link": "",
+      "notify-inverted": "#ffffff",
+      "notify-btn-hover": "",
+      "notify-icon-hover": "",
+      "notify-link-hover": "",
+      "notify-btn-inverted": "",
+      "notify-icon-inverted": "",
+      "notify-btn-inverted-hover": "",
+      "notify-icon-inverted-hover": ""
+    },
+    "_buttons": {
+      "disabled": "#dddddd",
+      "btn-color": "#3d692b",
+      "btn-color-hover": "",
+      "disabled-inverted": "#000000",
+      "btn-color-inverted": "#ffffff",
+      "btn-color-inverted-hover": ""
+    },
+    "_progress": {
+      "progress": "#f2f2f2",
+      "progress-border": "#f2f2f2",
+      "progress-inverted": "#000000"
+    },
+    "_validation": {
+      "validation-error": "#ff0000",
+      "validation-success": "#065f28",
+      "validation-error-inverted": "#ffffff",
+      "validation-success-inverted": "#ffffff"
+    }
+  },
+  "_courseProgress": {
+    "_isEnabled": true
+  },
+  "_menuBackground": {
+    "_menuHeader": {
+      "_link": "",
+      "_applyToPage": false
+    },
+    "_backgroundLink": "pt-BR/assets/58443ed2a9d14ee580864bfbea1ab05a.jpg"
+  },
+  "_latestTrackingId": 10986,
+  "_netEssHealthGauge": {
+    "text": "",
+    "_inverse": false,
+    "_isEnabled": true,
+    "valueMetric": "defender points",
+    "_progressBar": {
+      "full": "",
+      "icon": "hg-heart",
+      "empty": "",
+      "fillColor": "#2ECC71",
+      "iconColor": "#FFFFFF",
+      "emptyColor": "#CCCCCC",
+      "_customIcon": "fa-shield",
+      "backgroundColor": "#34495E"
+    },
+    "_maximumHealth": 100,
+    "_minimumHealth": 0,
+    "_gaugeBehaviour": "Fill",
+    "_startingHealth": 0,
+    "_shouldShowToasts": true,
+    "_customHealthIndicators": [
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_0.png"
+        },
+        "_percentageValue": 0
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_25.png"
+        },
+        "_percentageValue": 25
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_50.png"
+        },
+        "_percentageValue": 50
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_75.png"
+        },
+        "_percentageValue": 75
+      },
+      {
+        "_graphic": {
+          "alt": "",
+          "src": "pt-BR/assets/health_gauge_progress_100.png"
+        },
+        "_percentageValue": 100
+      }
+    ]
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": false,
+    "_isShownInNavigationBar": true,
+    "_isCompletionIndicatorEnabled": false
+  },
+  "_webComponentMedia": {
+    "_webComponentContentBase": "https://hub-dev.netacad.com/asset"
+  },
+  "activeLanguageCode": "en-US",
+  "_originalTrackingId": 0,
+  "_showAnswerOnSubmit": {
+    "_isEnabled": true
+  },
+  "_requireCompletionOf": -1,
+  "_pageFooterNavigation": {
+    "_isEnabled": true,
+    "upButtonText": "Up",
+    "_displayIcons": false,
+    "_hideUpButton": false,
+    "homeButtonText": "Home",
+    "nextButtonText": "Next",
+    "prevButtonText": "Previous",
+    "_displayOptions": "scrollToBottom",
+    "_hideHomeButton": false,
+    "_hideNextButton": false,
+    "_hidePrevButton": false,
+    "_addTransitionToFooter": false
+  },
+  "_originalLatestTrackingId": 0,
+  "_assessmentRetainSelectedOptions": {
+    "_isEnabled": true
+  },
+  "_assessmentQuestionsFeedbackOnSubmit": {
+    "_isEnabled": true
+  }
+}

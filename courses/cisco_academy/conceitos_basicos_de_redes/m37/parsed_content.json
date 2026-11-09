@@ -1,0 +1,947 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Por que devo fazer este módulo?",
+      "content": "Olá! Aqui é o Webster Deixe-me apresentar-lhe a minha amiga Lara! Lara trabalha como técnica de help desk no departamento de TI de uma pequena faculdade comunitária em Brisbane, Austrália, há pouco mais de um ano. O help desk recebe inúmeras solicitações de suporte de TI de administrativos, professores e alunos. Lara provou ser um excelente recurso para a equipe de help desk, pois é muito eficaz na resolução de problemas. Por causa de seu excelente trabalho, Lara foi recentemente promovida e designada para desenvolver um guia de solução de problemas para ajudar novos técnicos a resolver problemas de TI do dia a dia. Que abordagem você usaria ao diagnosticar um problema relatado? Que documentação você precisaria para ajudar a fazer o seu trabalho? Como você acompanha um problema relatado? Quais comandos seriam úteis ao diagnosticar problemas de dispositivos finais e de rede? Continue lendo, pois responderemos a essas perguntas neste módulo."
+    },
+    {
+      "type": "text",
+      "title": ".0.3 Baixar o Cisco Packet Tracer",
+      "content": "Para obter e instalar a sua cópia do Cisco Packet Tracer, siga as instruções do link abaixo: {{baseOrigin}}/resources/lab-downloads"
+    },
+    {
+      "type": "text",
+      "title": ".1 Metodologias de Diagnóstico e Solução de Problemas",
+      "content": "{{_moduleNumber}}.1 Metodologias de Diagnóstico e Solução de Problemas"
+    },
+    {
+      "type": "text",
+      "title": ".1 Metodologias de Diagnóstico e Solução de Problemas",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Revisão do processo de solução de problemas",
+      "content": "A solução de problemas é o processo de identificar, localizar e corrigir problemas. Esse processo envolve a coleta de informações e o uso de um ou mais métodos estruturados de solução de problemas.\nDepois que o problema na rede é descoberto pela primeira vez, uma das primeiras etapas é coletar informações. A lista a seguir fornece uma revisão de algumas das informações que você pode querer coletar.\nDeterminar a natureza do problema\nRelatórios do usuário final\nRelatório de verificação do problema\nReúna informações relevantes sobre o equipamento\nFabricante\nMarca/modelo\nVersão de firmware\nVersão do sistema operacional\nInformações sobre propriedade/garantia\nReúna informações de configuração e topologia\nTopologia física e lógica\nArquivos de configuração\nArquivos de log\nDetermine se houve algum problema semelhante anteriormente\nPassos dados\nResultados alcançados"
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Processo de Solução de Problemas em Sete Etapas",
+      "content": "A figura exibe um processo mais detalhado de solução de problemas em sete etapas. Observe como alguns passos se interconectam. Isso ocorre porque, alguns técnicos podem ser capazes de saltar entre etapas com base em seu nível de experiência."
+    },
+    {
+      "type": "accordion",
+      "title": ".1.2 Processo de Solução de Problemas em Sete Etapas",
+      "content": "**Definir o Problema:** O objetivo deste estágio é verificar se há um problema e, em seguida, definir corretamente qual é o problema. Os problemas geralmente são identificados por um sintoma (por exemplo, a rede está lenta ou parou de funcionar). Os sintomas de rede podem aparecer de várias formas diferentes, incluindo alertas do sistema de gerenciamento de rede, mensagens do console e reclamações de usuários.\nAo reunir os sintomas, é importante fazer perguntas e investigar o problema para localizar o problema em um intervalo menor de possibilidades. Por exemplo, o problema está restrito a um único dispositivo, um grupo de dispositivos ou a toda a sub-rede ou rede de dispositivos?\nEm uma organização, os problemas são normalmente atribuídos aos técnicos de rede por meio de tickets de problema. Esses tickets são criados usando softwares de emissão de tickets de problemas que rastreiam o progresso de cada ticket. O software de emissão de tíquetes de problemas também pode incluir um portal de usuário self-service para enviar tickets, acesso a uma base de conhecimento de tickets de problemas pesquisáveis, recursos de controle remoto para resolver problemas do usuário final e muito mais.\n\n**Coletar informações:** Nesta etapa, os alvos (ou seja, hosts, dispositivos) a serem investigados devem ser identificados, o acesso aos dispositivos de destino deve ser obtido e as informações coletadas. Durante esta etapa, o técnico pode reunir e documentar mais sintomas, dependendo das características identificadas.\n\n**Analisar as Informações:** Possíveis causas devem ser identificadas. As informações coletadas são interpretadas e analisadas usando documentação de rede, linhas de base da rede, busca de bases de conhecimento organizacionais, pesquisa na internet e conversa com outros técnicos.\n\n**Eliminar possíveis causas:** Se várias causas são identificadas, então a lista deve ser reduzida eliminando progressivamente possíveis causas para eventualmente identificar a causa mais provável. A experiência em solução de problemas é extremamente valiosa para eliminar rapidamente as causas e identificar a causa mais provável.\n\n**Propor Hipótese:** Quando a causa mais provável for identificada, uma solução deve ser formulada. Nesta fase, a experiência em solução de problemas é muito valiosa para propor um plano.\n\n**Testar a Hipótese:** Antes de testar a solução, é importante avaliar o impacto e a urgência do problema. Por exemplo, a solução poderia ter um efeito adverso em outros sistemas ou processos? A gravidade do problema deve ser avaliada em relação ao impacto da solução. Por exemplo, se um Servidor ou roteador crítico precisar ficar offline por um período significativo, talvez seja melhor esperar até o fim do dia de trabalho para implementar a correção. Às vezes, é possível criar uma solução alternativa até que o problema real seja resolvido.\n\n**Resolva o problema:** Quando o problema for resolvido, informe os usuários e qualquer pessoa envolvida no processo de solução de problemas que o problema foi resolvido. Os outros membros da equipe de TI devem ser informados sobre a solução. É importante documentar adequadamente a causa e a solução, pois isso pode ajudar outros técnicos de suporte a prevenir e resolver problemas semelhantes no futuro."
+    },
+    {
+      "type": "text",
+      "title": ".1.3 Solução de problemas com modelos de camadas",
+      "content": "Os modelos OSI e TCP / IP podem ser aplicados para isolar problemas de rede ao solucionar problemas. Por exemplo, se os sintomas sugerirem um problema de conexão física, o técnico de rede pode se concentrar na solução de problemas dos cabos e suas conexões na camada física.\nA figura mostra alguns dispositivos comuns e as camadas OSI que devem ser examinadas durante o processo de solução de problemas para esse dispositivo."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Observe que os roteadores e os switches multicamada são mostrados na camada 4, a camada de transporte. Embora os roteadores e switches multicamada geralmente tomem decisões de encaminhamento na camada 3, as ACLs nesses dispositivos podem usar as informações da camada 4 para tomar decisões de filtragem."
+    },
+    {
+      "type": "text",
+      "title": ".1.4 Métodos Estruturados de Solução de Problemas",
+      "content": "Existem vários métodos estruturados de solução de problemas que podem ser usados para resolver problemas de computador e rede. O método de solução de problemas usado varia dependendo do tipo de problema e da experiência pessoal do técnico.\nUm técnico pode escolher um ou mais dos seguintes métodos para resolver um problema:\nDe baixo para cima (Bottom-Up) - Comece com a camada física e os componentes físicos da rede e suba pelas camadas do modelo OSI até que a causa do problema seja identificada.\nDe cima para baixo (Top-Down) - Comece com os aplicativos do usuário final e desça pelas camadas do modelo OSI até que a causa do problema seja identificada.\nDividir para conquistar (Divide-and-Conquer) - comece coletando as experiências do usuário sobre o problema, documente os sintomas e, usando essas informações, faça uma estimativa sobre qual camada OSI iniciar sua investigação.\nSiga o Caminho (Follow-the-Path) - Descubra o caminho do tráfego desde a origem até o destino. Esta abordagem geralmente complementa uma das outras abordagens.\nSubstituição - Troque fisicamente o dispositivo ou componente problemático por um que esteja funcionando. Se o problema for corrigido, o problema estará no item removido. Se o problema persistir, a causa está em outro lugar.\nComparação - Compare detalhes como configurações, versões de software, hardware ou outras propriedades de dispositivos, links ou processos entre situações de funcionamento e não funcionamento e identifique diferenças significativas entre eles.\nSuposição fundamentada - Um método de solução de problemas menos estruturado que usa uma suposição baseada na experiência do técnico e em sua capacidade de resolver problemas."
+    },
+    {
+      "type": "text",
+      "title": ".1.5 Diretrizes para Selecionar um Método de Solução de Problemas",
+      "content": "Para resolver rapidamente problemas de rede, selecione o método de identificação e solução de problemas de rede mais eficaz.\nA figura ilustra qual método pode ser usado quando um determinado tipo de problema é descoberto."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Por exemplo, os problemas de software geralmente são resolvidos usando uma abordagem de cima para baixo, enquanto o problema baseado em hardware é resolvido usando a abordagem de baixo para cima. Novos problemas podem ser resolvidos por um técnico experiente usando o método dividir e conquistar. Caso contrário, pode ser utilizada a abordagem de baixo para cima.\nSolução de problemas é uma habilidade que é desenvolvida ao fazê-lo. Cada problema de rede que você identificar e resolver é adicionado ao seu conjunto de habilidades."
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Documentar Descobertas, Ações e Resultados",
+      "content": "Após a resolução de todos os problemas, é importante concluir o processo de solução de problemas documentando todas as informações.\nUm técnico deve documentar:\nProblema - Inclui o relatório inicial do problema, uma descrição dos sintomas, informações coletadas e qualquer outra informação que ajude a resolver problemas semelhantes.\nSolução - Inclui as etapas executadas para resolver o problema.\nComandos e Ferramentas Usadas - Inclui os comandos e ferramentas usadas para diagnosticar o problema e resolvê-lo.\nVerifique a solução com o cliente. Se o cliente estiver disponível, demonstre como a solução corrigiu seu problema. Peça ao cliente que teste a solução e tente reproduzir o problema. Quando o cliente puder verificar se o problema foi resolvido, você poderá atualizar a documentação com qualquer nova informação fornecida pelo cliente."
+    },
+    {
+      "type": "text",
+      "title": ".2 Documentação da rede",
+      "content": "{{_moduleNumber}}.2 Documentação da rede"
+    },
+    {
+      "type": "text",
+      "title": ".2 Documentação de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Visão geral da Documentação",
+      "content": "Como acontece com qualquer atividade complexa, como solução de problemas de rede, você precisará começar com uma boa documentação. Documentação de rede precisa e completa é necessária para monitorar e solucionar problemas de redes com eficiência.\nA documentação comum da rede inclui o seguinte:\nDiagramas de topologia de rede física e lógica\nDocumentação do dispositivo de rede que registra todas as informações pertinentes do dispositivo\nDocumentação da linha de base do desempenho da rede\nToda a documentação da rede deve ser mantida em um único local, como cópia impressa ou na rede em um servidor protegido. O backup da documentação deve ser mantido em um local separado."
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Topologias de Rede Corporativa",
+      "content": "Dois tipos de topologias de rede que você aprendeu são:\nTopologia de rede física\nTopologia de rede lógica\nA figura exibe um exemplo de topologia física   para uma rede pequena. A topologia identifica a localização física e a função dos dispositivos."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "A figura exibe a topologia lógica para a mesma pequena rede do exemplo anterior. Observe que a figura exibe as interfaces de conexão e o esquema de endereçamento de rede da Camada 3."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "As topologias de rede corporativa são semelhantes, mas maiores em escala e complexidade. Eles normalmente também incluem diagramas de topologia de rede adicionais.\nEm um curso anterior, você aprendeu sobre design de rede hierárquica, incluindo as camadas de acesso, distribuição e núcleo. Este é um dos vários modelos de arquitetura usados em redes corporativas que podem ajudar a orientá-lo na criação e manutenção de uma estratégia de design eficaz. Esses modelos de arquitetura não são padrões, pois cada rede é diferente em tamanho, complexidade, requisitos e orçamento.\nEsta figura mostra uma visão de alto nível de como diferentes partes de uma rede corporativa se conectam ao longo de sua conexão com seu provedor de nuvem."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Para uma rede corporativa, sua documentação de rede geralmente inclui vários diagramas de topologia de rede mostrando diferentes níveis de detalhes e diferentes tipos de informações.\nDiferentes diagramas de topologia podem incluir:\nLayout físico e conexões\nEndereço IP e gerenciamento de VLAN\nPolíticas de segurança e VPN\nServiços de nuvem e gerenciamento\nPolíticas de roteamento\nPolíticas de acesso remoto para trabalhadores remotos e híbridos"
+    },
+    {
+      "type": "text",
+      "title": ".2.5 Serviços e Aplicativos de Rede em Nuvem",
+      "content": "outros serviços para hospHoje, uma variedade de soluções e tecnologias podem ser fornecidas como um serviço por provedores de nuvem para seus clientes.edar o aplicativo consumidor. XaaS não é um serviço de nuvem específico, mas é definido como a entrega de tudo e qualquer coisa como um serviço. XaaS inclui Saas, PaaS e IaaS.\nOutros exemplos de XaaS incluem:\nRecuperação de desastres como serviço (DRaaS)\nComunicações como serviço (CaaS)\nMonitoramento como serviço (MaaS)\nDesktop como serviço (DaaS)"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Vários canais de comunicação transmitem sinais no espectro eletromagnético. O espectro licenciado refere-se às bandas (faixa de frequência) reservadas para emissoras de rádio, operadoras de celular e emissoras de televisão aberta. As empresas de mídia e celular normalmente pagam pelo direito de transmitir em uma frequência específica dentro do espectro licenciado. Nos Estados Unidos, isso é feito pela Federal Communications Commission (FCC). Outros países têm uma agência reguladora semelhante que licencia bandas específicas para aquele país.\nO espectro não licenciado está aberto para qualquer um usar. O espectro não licenciado é onde encontramos as tecnologias Wi-Fi IEEE 802.11 e está disponível gratuitamente ao público. Qualquer pessoa pode transmitir no espectro não licenciado."
+    },
+    {
+      "type": "text",
+      "title": ".2.9 Estabelecer uma Linha de Base de Rede",
+      "content": "O objetivo do monitoramento de rede é observar o desempenho da rede em comparação com uma linha de base predefinida. Uma linha de base é usada para estabelecer o desempenho normal da rede ou do sistema para determinar a “personalidade” de uma rede em condições normais.\nO estabelecimento de uma linha de base de desempenho de rede requer a coleta de dados de desempenho das portas e dispositivos que são essenciais para a operação da rede.\nUma linha de base de rede deve responder às seguintes perguntas:\nDurante um dia normal ou comum, como é o desempenho da rede?\nOnde ocorre a maioria dos erros?\nQual é a parte da rede usada com mais intensidade?\nQual é a parte da rede menos usada?\nQuais dispositivos devem ser monitorados e quais limites de alerta devem ser definidos?\nA rede pode cumprir as políticas identificadas?\nA medição do desempenho inicial e da disponibilidade dos links e dispositivos de rede críticos permite que um administrador de rede determine a diferença entre o comportamento anormal e o desempenho de rede apropriado à medida que a rede cresce ou que os padrões de tráfego são alterados. A linha de base também permite prever se o projeto de rede atual atenderá aos requisitos de negócios. Sem a linha de base, não existiria nenhum padrão para medir a natureza ideal dos níveis de tráfego de rede e congestionamento.\nA análise após uma linha de base inicial também tende a revelar problemas ocultos. Os dados coletados mostram a verdadeira natureza do congestionamento ou o possível congestionamento em uma rede. Também pode revelar áreas na rede que são subutilizadas e, muitas vezes, podem levar a esforços de redesenho da rede, com base em observações de qualidade e capacidade.\nO parâmetro de desempenho de rede inicial define o estágio para medir os efeitos dos esforços de solução de problemas e alterações de rede subsequentes. Portanto, é importante planejar com cuidado."
+    },
+    {
+      "type": "text",
+      "title": ".2.10 Visão geral do Cisco Discovery Protocol (CDP)",
+      "content": "A primeira coisa que você quer saber sobre sua rede é o que está nela? Onde estão esses componentes? Como eles estão conectados? Basicamente, você precisa de um mapa. Este tópico explica como você pode usar o Cisco Discovery Protocol (CDP) para criar um mapa da sua rede.\nO CDP é um protocolo de camada 2 proprietário da Cisco usado para coletar informações sobre dispositivos Cisco que compartilham o mesmo link de dados. O CDP é independente de mídias e protocolos. Ele é executado em todos os dispositivos da Cisco, como roteadores, switches e servidores de acesso.\nO dispositivo envia anúncios de CDP periódicos aos dispositivos conectados, como mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".2.10 Visão geral do Cisco Discovery Protocol (CDP)",
+      "content": "Esses anúncios compartilham informações sobre o tipo de dispositivo descoberto, os nomes dos dispositivos e o número e o tipo de interfaces.\nComo a maioria dos dispositivos de rede são conectados a outros dispositivos, o CDP pode auxiliar nas decisões de projeto de rede, na solução de problemas e nas alterações que precisam ser feitas no equipamento. O CDP também pode ser usado como uma ferramenta de descoberta de redes para detectar as informações sobre os dispositivos vizinhos. Essas informações coletadas do CDP podem ajudá-lo a criar uma topologia lógica de rede quando a documentação estiver ausente ou com poucos detalhes."
+    },
+    {
+      "type": "text",
+      "title": ".2.11 Descobrir dispositivos usando CDP",
+      "content": "Considere a falta de documentação na topologia mostrada na figura. O administrador da rede sabe apenas que o R1 está conectado a outro dispositivo."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Não há informações disponíveis a respeito do resto da rede. O comando show cdp neighbors fornece informações úteis sobre cada dispositivo CDP vizinho, inclusive:\nIdentificadores de dispositivo- Este é o nome do host do dispositivo vizinho (S1).\nIdentificador de porta- Este é o nome da porta local e remota (G0/0/1 e F0/5, respectivamente).\nLista de recursos- Isso mostra se o dispositivo é um roteador ou um comutador (S para comutador; I para IGMP está além do escopo deste curso)\nPlatforma - Esta é a plataforma de hardware do dispositivo (WS-C3560 para switch Cisco Catalyst 3560).\nA saída mostra que há outro dispositivo Cisco, S1, conectado à interface G0/0/1 em R1. Além disso, S1 é conectado por meio de sua porta F0/5, conforme mostrado na topologia atualizada."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "A saída exibe as especificações da conexão com R1. Ele também exibe S2, outro switch ao qual S1 está conectado. Especificamente, a saída especifica que S2 é um switch Catalyst 2960 usando F0/1 para se conectar à interface F0/1 em S1."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "O único dispositivo conectado a S2 é o S1. Dessa forma, não há mais dispositivos para descobrir na topologia. Agora o administrador de rede pode atualizar a documentação para refletir os dispositivos descobertos."
+    },
+    {
+      "type": "text",
+      "title": ".3 Central de Ajuda (Help Desk)",
+      "content": "{{_moduleNumber}}.3 Central de Ajuda (Help Desk)"
+    },
+    {
+      "type": "text",
+      "title": ".3 Help Desks",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 A Política de Segurança",
+      "content": "As organizações operam com políticas corporativas, de funcionários e de segurança bem definidas.\nO documento “Security Policy” contém políticas que informam usuários, equipe de TI e gerentes sobre os requisitos para proteção de ativos de tecnologia e informação. Conforme mostrado na figura, existem políticas para:\nEspecificar como os usuários são identificados e autenticados\nConfigurar o comprimento, a complexidade e o intervalo de atualização da senha\nDefinir qual comportamento é aceitável na rede corporativa\nEspecificar requisitos de acesso remoto, etc"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "O documento de política de segurança é um documento em constante evolução que reage a mudanças no cenário de ameaças, novas vulnerabilidades e requisitos de negócios e funcionários. A Política de Segurança ajuda a equipe de TI a entender o que deve fazer para manter a rede operacional e segura usando:\nProcedimentos operacionais padrão (SOP) - definem ações passo a passo que devem ser concluídas para que qualquer tarefa esteja em conformidade com uma política. Existem SOPs a serem seguidos ao substituir dispositivos de rede, instalar (ou desinstalar) aplicativos, integrar novos funcionários, demitir funcionários existentes e muito mais.\nDiretrizes - Abrangem as áreas onde não há SOPs definidos.\nQuando os usuários encontram um problema ou precisam de suporte de rede, eles devem entrar em contato com um “help desk”. O help desk auxilia os usuários seguindo os SOPs e diretrizes definidos. O help desk usará um sistema de tickets para gerenciar as etapas dentro do ciclo de vida de solução de problemas mostrado na figura a seguir.\nEste tópico se concentrará no uso de um sistema de tickets para concluir as três primeiras etapas mostradas na figura."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Help Desks",
+      "content": "Um help desk é uma equipe especializada em um departamento de TI que é o ponto central de contato para funcionários ou clientes.\nQuando os usuários precisam de suporte, eles devem entrar em contato com o help desk de TI. Isso pode ser feito usando uma ferramenta de notificação on-line, chat ao vivo, telefone ou e-mail (por exemplo, suporte-de-TI@email.com). As centrais de atendimento costumam usar uma conta de e-mail “compartilhada”. Isso significa que todos os técnicos de helpdesk podem ver as solicitações de e-mail e respondê-las adequadamente.\nNota: A ferramenta de notificação on-line pode ser integrada ao sistema de ticketing.\nFrequentemente, o técnico de help desk pode ser capaz de responder ou resolver rapidamente os problemas do usuário. Por exemplo, se uma organização teve uma falha na rede de internet, os usuários podem entrar em contato com o suporte técnico perguntando por que não conseguem acessar sites externos. O técnico informaria que a rede estava fora do ar e que deveria estar operacional dentro de um horário específico.\nNo entanto, se a solicitação de suporte for válida, o técnico criará um “ticket de problema”. Isso é feito usando um software especial de sistema de tickets para gerenciar solicitações, incidentes e problemas relatados. Esses “tickets” podem ser criados pelo usuário usando um painel do sistema de tickets ou por um técnico de help desk. Normalmente, um usuário inicia o ticket e o técnico de help desk o valida.\nO técnico de help desk pode ter que coletar informações adicionais sobre a solicitação. Ao questionar os usuários, use técnicas de questionamento eficazes e ouça atentamente as respostas do usuário. Você também pode ter que investigar fisicamente o dispositivo ou conectar-se remotamente para replicar o problema, executar comandos e verificar as configurações.\nO técnico então analisaria os dados coletados e:\nResolver o problema - Assim que o problema do usuário for resolvido, o técnico atualizará e fechará o ticket de problema. Atualizar a solução de tickets é importante porque pode preencher o banco de dados do sistema de tickets. Portanto, se o mesmo problema for relatado por outro usuário, o técnico respondente pode pesquisar o banco de dados para resolver o problema rapidamente. Além disso, os administradores podem analisar os tickets para identificar problemas comuns e suas causas para eliminar globalmente o problema, se possível.\nEscalar o ticket de problema - Alguns problemas são mais complexos ou requerem acesso a dispositivos para os quais o técnico não possui credenciais. Nesses casos, o técnico deve escalar (ou seja, encaminhar) o ticket de problema para um técnico mais experiente. É importante que toda a documentação capturada do usuário seja clara, concisa e precisa.\nA figura resume um processo típico de ticket de problema que um técnico de help desk teria que executar.\nNota: Os processos podem variar dependendo da organização."
+    },
+    {
+      "type": "text",
+      "title": ".3.3 Sistemas de Tickets",
+      "content": "Os sistemas de tickets de suporte técnico ajudam as organizações a gerenciar problemas ou solicitações de usuários. O software de tickets foi projetado especificamente para garantir que usuários ou clientes corporativos recebam suporte de maneira oportuna e sistemática. Eles também garantem que todos os tickets sejam notados e endereçados.\nUma caixa de correio compartilhada é um método alternativo que pode ser usado por uma organização para dar suporte às solicitações do usuário. Os técnicos de suporte técnico compartilhariam a mesma caixa de correio e responderiam a e-mails para resolver problemas.\nOs sistemas de ticketing variam de acordo com a necessidade da organização. Por exemplo, existem sistemas de ticketing projetados para as necessidades de usuários corporativos internos e outros sistemas para dar suporte a provedores de serviços ou clientes externos.\nObservação: uma rápida pesquisa na Internet por “software de help desk” revela muitos fornecedores de software diferentes, incluindo Zendesk, HaloITSM, Connectwise e muito mais.\nA figura mostra um exemplo de ticket projetado para ajudá-lo a entender quais informações um ticket de suporte técnico pode capturar."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Observação: Outros campos também podem estar disponíveis, como tipo e modelo de plataforma, versão do sistema operacional, conexão de rede utilizada e outros.\nNesse exemplo de ticket, alguns campos são gerados pelo sistema (em laranja), por meio de caixas drop-down (em azul) ou de forma livre (em amarelo). Os campos suspensos facilitam a inserção e a manutenção da consistência. Os campos de formato livre são usados pelo técnico de help desk para adicionar informações descritivas.\nOs campos de formato livre serão lidos por outros técnicos e gerentes. Portanto, é importante usar uma comunicação escrita clara e concisa. Use linguagem simples e frases curtas. Sempre preste atenção à sua ortografia, gramática e estilo."
+    },
+    {
+      "type": "text",
+      "title": ".3.4 Peguntar aos usuários finais",
+      "content": "Ao solicitar suporte de um help desk, os usuários geralmente fornecem informações vagas e às vezes errôneas. Por exemplo, os usuários geralmente relatam problemas como “A rede está inativa.”, “Não consigo acessar meu e-mail.” ou “Meu computador está lento”. Na maioria dos casos, informações adicionais são necessárias para entender completamente o problema.\nAo inserir o ticket de problema, o técnico de help desk deve descobrir “quem”, “o quê” e “quando” do problema.\nAs seguintes recomendações devem ser empregadas ao se comunicar com um usuário:\nSeja sempre atencioso e empatize com os usuários enquanto os deixa saber que você vai ajudá-los a resolver seu problema. Os usuários que relatam um problema podem estar sob estresse e ansiosos para resolver o problema o mais rápido possível. Nunca diminua, menospreze, insulte ou acuse o usuário de causar o problema.\nFale em um nível técnico que eles possam entender. Evite usar terminologia complexa ou jargão da indústria.\nSempre ouvir ou ler atentamente o que o usuário está dizendo. Tomar notas pode ser útil ao documentar um problema complexo.\nBoas habilidades interpessoais são um trunfo para o técnico de helpdesk. É importante desenvolver esse conjunto de habilidades para melhor atender e se comunicar com usuários e colegas. Por exemplo, um técnico deve se dirigir a um usuário por seu nome preferido, tentar se relacionar com o usuário e trabalhar para esclarecer exatamente o que ele está solicitando."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Ao entrevistar o usuário, oriente a conversa e use técnicas de questionamento eficazes para verificar rapidamente o problema. Dois métodos comuns para fazer isso incluem o uso de:\nPerguntas abertas – Permitem aos usuários explicar detalhes do problema e são úteis para obter informações gerais.\nPerguntas fechadas - Estas são respostas simples de sim, não ou de uma única palavra para descobrir fatos sobre o problema."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Ao terminar de entrevistar o usuário, repita sua compreensão do problema para o usuário para garantir que ambos concordem com o que está sendo relatado."
+    },
+    {
+      "type": "text",
+      "title": ".3.6 Escuta Ativa",
+      "content": "Para entender melhor o problema relatado pelo usuário, pratique habilidades de escuta ativa. Permita que o cliente conte toda a história. Durante a explicação do cliente sobre o problema, emita de vez em quando qualquer palavra ou frase pequena, como “Entendo”, “Sim”, “Sei” ou “OK”. Esse comportamento permite que o cliente saiba que você continua na linha e está ouvindo.\nNo entanto, o técnico não deve interromper o cliente para fazer uma pergunta ou se expressar. Além de ser rude e desrespeitoso, isso cria tensão. Muitas vezes, em uma conversa, você pode se pegar pensando no que dizer antes que a outra pessoa termine de falar. Ao fazer isso, você não está ouvindo ativamente. Em vez disso, escute com atenção quando os clientes falarem e deixe que eles completem os pensamentos.\nSe você solicitou que o cliente explicasse o problema para você, isso é conhecido como uma pergunta aberta. Uma pergunta aberta raramente tem uma resposta simples. Normalmente, ele envolve informações sobre o que o cliente estava fazendo, o que ele está tentando fazer e por que eles estão frustrados.\nDepois de ouvir o cliente explicar todo o problema, resuma o que ele disse. Isso ajuda a convencê-lo que você ouviu e entendeu a situação. Uma boa prática de esclarecimento é parafrasear a explicação do cliente começando com as palavras “deixa eu ver se entendi o que você falou”. Essa é uma ferramenta muito eficaz que demonstra ao cliente que você ouviu e entendeu.\nDepois de garantir ao cliente que compreende o problema, é provável que você precise fazer algumas perguntas de acompanhamento. Mas antes certifique-se de que elas são pertinentes. Não faça perguntas que já tenham sido respondidas pelo cliente durante a descrição do problema. Isso irrita o cliente e mostra que você não estava prestando atenção.\nAs perguntas de acompanhamento devem ser perguntas fechadas e direcionadas, com base nas informações que você obteve. A finalidade das perguntas fechadas é adquirir informação específica. O cliente deve responder com “sim” ou “não”, ou com uma resposta direta, como “Windows 10”.\nUse todas as informações coletadas do cliente para preencher o ticket de problema.\nDocumente as informações fornecidas pelo usuário no ticket do problema. Inclua tudo o que você acha que pode ser importante para você ou outro técnico. Os pequenos detalhes geralmente levam à solução de um problema difícil ou complicado.\nQuando o ticket for concluído, o técnico deve repetir sua compreensão do problema para o usuário para garantir que ambos concordem com o problema que está sendo relatado."
+    },
+    {
+      "type": "text",
+      "title": ".3.7 Demonstração em vídeo - Escuta Ativa e Resumo",
+      "content": "Dicas para usar a escuta ativa com um cliente\nPermita que o cliente conte seu problema.\nEmitir de vez em quando qualquer palavra ou frase pequena, como “Entendo”, “Sim”, “Sei” ou “OK”, para que o cliente saiba que você está ouvindo.\nResumir o problema do cliente quando ele terminar, para que ambos tenham certeza de que você entendeu.\nFaça perguntas esclarecedoras.\nNão interrompa o cliente no momento em que você perceber que tem uma pergunta.\nSelecione Reproduzir para ver o vídeo."
+    },
+    {
+      "type": "text",
+      "title": ".3.8 Coletar informações para tickets relacionados ao host",
+      "content": "O sistema de emissão de tickets geralmente inclui seções para inserir informações relacionadas ao host. Esses campos geralmente são preenchidos durante a etapa \"Obter Informações\" do ciclo de vida de solução de problemas.\nInformações úteis relacionadas ao host incluem:\nFabricante do host, modelo, número de série\nVersão do sistema operacional\nAmbiente de rede (ou seja, com fio, sem fio, …)\nResultados do teste de conectividade de rede (ping, tracert, …)\nInformações adicionais que podem ser capturadas de um host incluem:\nCódigos de bipe\nLogs do Visualizador de Eventos\nConfigurações do Gerenciador de Dispositivos\nDados do gerenciador de tarefas\nResultados da ferramenta de diagnóstico"
+    },
+    {
+      "type": "text",
+      "title": ".3.9 Coletar informações para tíquetes relacionados a dispositivos Cisco",
+      "content": "Para coletar sintomas de um dispositivo de rede suspeito de ter problemas, use os comandos do Cisco IOS e outras ferramentas, como capturas de pacotes e logs de dispositivos."
+    },
+    {
+      "type": "text",
+      "title": ".3.10 Analisar as Informações",
+      "content": "Agora que o registro de problema foi criado e as informações coletadas, o técnico deve analisar as informações. Para conseguir isso, o técnico conta com sua experiência, bases de conhecimento e outras fontes de informação para decidir se pode resolver o problema. O técnico também pode se comunicar com colegas para obter informações sobre o problema.\nAs bases de conhecimento que podem ser pesquisadas incluem:\nBancos de dados de software de tickets - A maioria dos sistemas de tickets cria um repositório de tickets anteriores que podem ser pesquisados para ver se outro técnico resolveu um problema idêntico ou semelhante.\nRecursos do fornecedor - Os fornecedores mantêm documentos de perguntas frequentes (FAQs) que podem ser pesquisados e também podem oferecer ferramentas on-line para ajudar a resolver problemas. Alguns oferecem chats ao vivo para resolver problemas mais rapidamente.\nPesquisas on-line na Internet - Usando mecanismos de pesquisa para verificar se um problema foi encontrado anteriormente.\nSe o problema não puder ser resolvido, o ticket deverá ser escalado para um membro da equipe de TI mais experiente."
+    },
+    {
+      "type": "text",
+      "title": ".4 Solucionar problemas de conectividade de endpoint",
+      "content": "{{_moduleNumber}}.4 Solucionar problemas de conectividade de endpoint"
+    },
+    {
+      "type": "text",
+      "title": ".4 Solução de problemas de conectividade de endpoint",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".4.1 Configuração de rede do Windows",
+      "content": "Se você usou alguma das ferramentas para verificar a conectividade e descobriu que alguma parte da sua rede não está funcionando como deveria, agora é a hora de usar alguns comandos para solucionar problemas de seus dispositivos. Comandos de host e de IOS podem ajudá-lo a determinar se o problema está no endereço IP de seus dispositivos, o que é um problema de comum em redes.\nVerificar o endereçamento IP em dispositivos host é uma prática comum em rede para verificar e solucionar problemas de conectividade de ponta a ponta. No Windows 10, você pode acessar os detalhes do endereço IP em Centro de Rede e Compartilhamento > interface > Detalhes. Conforme mostrado na figura, os detalhes da interface revelam o endereço IP do host, a máscara de sub-rede, o gateway padrão e os servidores DNS conhecidos."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Verificação da conectividade no Windows",
+      "content": "O comando ping é uma maneira eficaz de testar rapidamente a conectividade de Camada 3 entre um endereço IP de origem e de destino. Este comando também exibe várias estatísticas de tempo de ida e volta."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Verificação da conectividade no Windows",
+      "content": "Conforme mostrado no exemplo acima, a saída valida a conectividade da Camada 3 entre o PC A e o dispositivo com o endereço IPv4 10.1.1.10.\nO traceroute ou o comando tracert do Windows pode ajudar a localizar áreas problemáticas da Camada 3 em uma rede. O tracert retorna uma lista dos saltos no roteamento de um pacote pela rede. Ele pode ser usado para identificar o ponto ao longo do caminho onde o problema pode ser encontrado.\nAlguns firewalls, como o Firewall do Windows, bloqueiam pings por padrão. É importante que isso faça parte da documentação da sua rede e esteja ciente dessas configurações ao testar e verificar a conectividade da rede."
+    },
+    {
+      "type": "text",
+      "title": ".4.3 Configuração de Rede Linux",
+      "content": "A verificação das configurações de IP usando a GUI em uma máquina Linux será diferente dependendo da distribuição Linux (distro) e da interface de desktop. A figura mostra a caixa de diálogo Connection Information na distribuição Ubuntu executando o desktop Gnome."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "O comando ip address do Linux é usado para exibir endereços e suas propriedades. Ele também pode ser usado para adicionar ou excluir endereços IP.\nObservação: A saída exibida pode variar dependendo da distribuição Linux."
+    },
+    {
+      "type": "text",
+      "title": ".4.4 Verificar conectividade no Linux",
+      "content": "O Linux oferece as mesmas ferramentas de ping traceroute que o Windows para verificar a conectividade de rede.\nExistem várias outras ferramentas de linha de comando do Linux disponíveis para a maioria das distribuições do Linux, incluindo:\nspeedtest - Esta é uma ferramenta que testa a largura de banda de sua conectividade com seu provedor de internet.\nncat - Ncat é um utilitário de rede que faz parte do conjunto nmap de ferramentas de rede. Ncat ou nc, tem muitos usos, incluindo a verificação da conectividade com um dispositivo usando uma porta específica. Veja a seguir um exemplo de conectividade HTTPS (porta 443) de teste ncat para dois dispositivos diferentes."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.5 Configuração de rede MacOS",
+      "content": "Na GUI de um host Mac, abra Network Preferences > Advanced para obter as informações de endereço IP, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4.6 Verificar conectividade no MacOS",
+      "content": "Os comandos ping e traceroute para verificar a conectividade de rede também estão disponíveis no MacOS. Como o Linux, o MacOS é baseado no sistema operacional UNIX e, portanto, compartilha muitos dos mesmos comandos de conectividade de rede, incluindo ncat e speedtest.\nInformações adicionais de verificação de rede podem ser obtidas usando a ferramenta MacOS System Information, conforme mostrado na figura. O exemplo exibe informações de Wi-Fi, incluindo protocolos de Wi-Fi compatíveis, como IEEE 802.11ac."
+    },
+    {
+      "type": "text",
+      "title": "Novo componente título",
+      "content": "O aplicativo MacOS Wireless Diagnostics pode ser usado para solucionar problemas e monitorar a conectividade Wi-Fi. Ao selecionar a opção de monitorar a rede, o aplicativo irá gerar um relatório de diagnóstico."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4.7 Configurar e verificar a rede no iOS",
+      "content": "A conectividade de rede em um dispositivo Apple iOS pode ser facilmente verificada ao tentar acessar um site ou aplicativo online.\nVocê também pode verificar as informações de endereçamento IPv4 e IPv6, incluindo o gateway padrão (roteador) em um dispositivo Apple IOS, conforme mostrado na figura. Para fazer isso, vá para Configurações > Wi-Fi > Selecione o ícone de informações (i) à direita do nome da rede Wi-Fi ativa (SSID)."
+    },
+    {
+      "type": "text",
+      "title": ".4.8 Configurar e verificar a rede no Android",
+      "content": "Como o Apple iOS, a conectividade de rede em um dispositivo Android pode ser verificada ao tentar acessar um site ou aplicativo online.\nSe a conexão falhar, verifique se você tem uma conexão confiável com seu provedor de dados de celular. Se você estiver tentando se conectar por Wi-Fi, certifique-se de estar conectado a uma rede Wi-Fi e de ter se autenticado com sucesso nessa rede. Às vezes, é necessária autenticação adicional por meio de um método de autenticação alternativo que pode exigir a concordância com os termos de uso ou o fornecimento de informações de login adicionais.\nEm algumas versões do Android, um ícone pode aparecer ao lado do indicador de intensidade do sinal Wi-Fi na barra de status do dispositivo, indicando um problema com a conexão com a Internet. A conectividade Wi-Fi pode ser estabelecida sem acesso à Internet. Isso pode indicar um problema com o gateway de Internet da rede à qual você está conectado ou pode indicar que outras medidas são necessárias para obter acesso à rede.\nA interface do Android pode variar significativamente dependendo da versão do Android e do fabricante do dispositivo. Portanto, o processo de verificação das conexões de rede pode diferir ligeiramente entre os dispositivos.\nPara acessar suas configurações de rede, abra o aplicativo de configurações em seu telefone e toque em Conexões ou Rede e Internet. Faça o seguinte:\nSe estiver usando Wi-Fi, verifique se o Wi-Fi está ativo em seu telefone.\nToque em Wi-Fi e verifique se você está conectado a uma rede na qual possa se autenticar. Verifique as redes disponíveis para ver se outras redes podem ser mais adequadas. Pode ser necessário determinar a senha de rede para as várias redes que você verá. Verifique também se a força do sinal é adequada.\nSe estiver usando uma rede de dados móveis de celular, verifique se você tem conectividade com essa rede na barra de status do dispositivo. Verifique o menu de configurações deslizante para garantir que os dados móveis estejam ativos em seu dispositivo."
+    },
+    {
+      "type": "text",
+      "title": "Novo componente título",
+      "content": "As informações de endereçamento IPv4 e IPv6, incluindo o gateway padrão (roteador), podem ser verificadas em Configurações > Sobre o telefone > Status, conforme mostrado na figura."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo componente título",
+      "content": "Aplicativos de análise de rede de terceiros com várias funções estão disponíveis para Android. Eles podem fornecer informações mais detalhadas sobre as configurações de rede do dispositivo, permitir testes de rede com ping e trace e até mesmo realizar varreduras de portas e dispositivos de rede, conforme mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".5 Solucionar Problemas de uma rede",
+      "content": "{{_moduleNumber}}.5 Solucionar Problemas de uma rede"
+    },
+    {
+      "type": "text",
+      "title": ".5 Solucionar Problemas de uma rede.",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".5.1 Dispositivos de rede como fontes de informações de rede",
+      "content": "Alguns desses comandos show podem exigir acesso ao modo EXEC privilegiado.\nComo um recurso de segurança, o software Cisco IOS separa o acesso de gerenciamento em dois níveis de privilégio:\nModo EXEC do usuário - Este é o nível de privilégio 1 e indicado por um prompt de dispositivo que termina com um símbolo maior que (>) (por exemplo, Router> ou Switch>). Ele fornece acesso limitado a comandos úteis para um técnico ao verificar a operação básica de um dispositivo.\nModo EXEC Privilegiado – Este é o nível de privilégio 15 e indicado por um prompt que termina com um símbolo de jogo da velha (#) (por exemplo, Router# ou Switch#). É o nível mais alto disponível e só deve ser acessado por um administrador de rede. Nesse modo, todos os comandos do dispositivo estão disponíveis, incluindo a capacidade de configurar ou alterar as as configurações do dispositivo. Use o comando enable para entrar no modo EXEC privilegiado.\nO Cisco IOS também fornece verificação de sintaxe de comando e ajuda contextual. Se você inserir um comando incorretamente, o IOS identificará onde você cometeu um erro de entrada.\nA ajuda contextual permite que o usuário encontre rapidamente as respostas para estas perguntas:\nQuais comandos estão disponíveis em cada modo de comando?\nQuais comandos começam com caracteres específicos ou grupo de caracteres?\nQuais argumentos e palavras-chave estão disponíveis para comandos específicos?\nPara acessar a ajuda sensível ao contexto, basta inserir um ponto de interrogação (?) ao digitar um comando.\nO Cisco IOS também não exige que todo o comando, argumento ou palavra-chave seja digitado. A entrada de comando parcial deve ser longa o suficiente para identificar exclusivamente o comando completo. Por exemplo, você pode usar  en  em vez de inserir o comando completo enable.\nPara ter certeza de que o comando correto está sendo digitado, a tecla tab também pode ser usada para completar a entrada parcial de um comando, argumento ou palavra-chave."
+    },
+    {
+      "type": "text",
+      "title": ".5.2 Captura de Pacotes e Análise de Protocolo",
+      "content": "Os analisadores de protocolo podem investigar o conteúdo dos pacotes enquanto fluem pela rede. Um analisador de protocolo decodifica as várias camadas de protocolo em um quadro registrado e apresenta essas informações em um formato relativamente fácil de usar.\nComo técnico, você pode receber a tarefa de capturar o tráfego de um host específico. Portanto, é importante que você se familiarize com o software para concluir a tarefa atribuída.\nA figura mostra uma captura de tela do analisador de protocolo Wireshark."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "As informações exibidas por um analisador de protocolo incluem dados de bits da camada física, informações da camada de enlace, protocolos e descrições para cada quadro. A maioria dos analisadores de protocolo pode filtrar o tráfego que atenda a certos critérios, para que todo o tráfego de e para um dispositivo possa ser capturado. Os analisadores de protocolo, como o Wireshark, podem ajudar a identificar e solucionar problemas de desempenho de rede. É importante ter um bom entendimento de TCP/IP e saber como usar um analisador de protocolo para inspecionar informações em cada camada de TCP/IP."
+    },
+    {
+      "type": "text",
+      "title": ".5.5 Medindo a Taxa de Transferência (Throughput) da rede",
+      "content": "Largura de banda e Taxa de Transferência são dois termos comumente usados para descrever a quantidade de tráfego que flui entre dois dispositivos.\nLargura de banda é a quantidade teórica de dados que podem ser transmitidos de um dispositivo para outro em um período de tempo. A largura de banda é normalmente medida em número de bits por segundo.\nTaxa de transferência é a medida do número real de bits por segundo que estão sendo transmitidos pela mídia. A taxa de transferência é sempre menor do que a largura de banda especificada porque o tráfego pode encontrar latência ou atraso durante a transmissão.\nA latência pode ser causada por vários problemas, especificamente a distância física entre a origem e o destino. Existem outros fatores também, incluindo o número de dispositivos de rede encontrados entre a origem e o destino. Como os dados atravessam várias redes, eles devem ser processados e encaminhados por switches e roteadores.\nUm técnico pode precisar verificar a taxa de transferência de um link para verificar sua operação. Existem muitos sites na internet que podemos usar para fazer isso. Uma pesquisa usando internet speed test como palavras chave fornecerá vários sites que medirão a \"velocidade\" da conexão e o desempenho do seu dispositivo conectado à Internet. Esses sites geralmente usam servidores pré-selecionados e relatam suas \"velocidades\" de download e upload.\nO iPerf é uma ferramenta do Windows que pode ser baixada para medir a taxa de transferência entre um cliente e um servidor. O iPerf deve estar em execução em ambos os dispositivos finais. O exemplo a seguir mostra a taxa de transferência entre um cliente e um servidor iPerf público, speedtest.masnet.ec."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "A saída relevante é:\nInterval: O intervalo de tempo que o iPerf relata periodicamente a taxa de transferência. Por padrão, o intervalo de tempo é de 1 segundo.\nTransfer: A quantidade de dados transferidos durante cada intervalo de tempo.\nBitrate: a taxa de transferência medida em cada intervalo de tempo."
+    },
+    {
+      "type": "text",
+      "title": ".6 Solucionar problemas de Conectividade Remotamente",
+      "content": "{{_moduleNumber}}.6 Solucionar problemas de Conectividade Remotamente"
+    },
+    {
+      "type": "text",
+      "title": ".6 Solucionar problemas de Conectividade Remotamente",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".6.1 Suporte a usuários remotos",
+      "content": "Ao auxiliar usuários remotos, muitas vezes não é eficiente conduzir verbalmente um usuário através de procedimentos complicados. As tecnologias de acesso remoto permitem que os técnicos de suporte assumam o controle da área de trabalho de um usuário para visualizar e definir configurações no computador do usuário. Durante uma sessão de área de trabalho remota, o usuário geralmente não consegue controlar seu PC. No entanto, eles podem assistir tudo o que o técnico faz.\nPor exemplo, um usuário pode estar tendo problemas para acessar o site corporativo. Como esse acesso pode depender de várias condições de configuração do computador, um técnico de suporte solicita acesso remoto ao sistema. Depois que o usuário autoriza o acesso, o técnico pode verificar várias configurações de segurança e acesso no sistema para identificar e corrigir o problema.\nOs aplicativos de área de trabalho remota apresentam possíveis vulnerabilidades de segurança porque oferecem controle total dos computadores por alguém que não seja o usuário autorizado. Por exemplo, os agentes de ameaças podem explorar portas abertas de aplicativos de área de trabalho remota ou usar técnicas de engenharia social para induzir um usuário a fornecer acesso à área de trabalho remota. É importante que os usuários entendam que apenas técnicos de suporte autorizados devem ter acesso remoto aos sistemas.\nObservação: muitas organizações desativam o acesso remoto a computadores que possuem ou administram. Por esse motivo, pode ser necessário solicitar que o usuário o ative. Outras organizações usam aplicativos de desktop remoto proprietários ou alternativos para atenuar as vulnerabilidades de segurança associadas ao acesso remoto ao sistema.\nOs aplicativos de área de trabalho remota usam um modelo cliente-servidor. O cliente de área de trabalho remota é usado para conectar-se ao sistema remoto, que atua como um servidor. Os aplicativos de acesso remoto podem recuperar dados do sistema, transferir arquivos para sistemas e iniciar sessões de bate-papo seguras com os usuários. Alguns aplicativos de acesso remoto exigem que o usuário esteja presente para autorizar o acesso ou podem acessar sistemas sem a participação do usuário. Outros sistemas de acesso remoto podem acessar o sistema se ele estiver desacompanhado."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Acesso remoto com Telnet, SSH e RDP",
+      "content": "Muito antes dos computadores desktop com interfaces gráficas sofisticadas, as pessoas utilizavam sistemas com base em texto que frequentemente eram apenas terminais de exibição fisicamente acoplados a um computador central. Quando as redes foram disponibilizadas, as pessoas precisaram de uma maneira de acessar remotamente os sistemas de computador da mesma forma que faziam com os terminais diretamente conectados.\nO protocolo Telnet foi desenvolvido para atender a essa necessidade. O Telnet data do início da década de 70 e está entre um dos protocolos e serviços da camada de Aplicação mais antigos da suite TCP/IP. O Telnet fornece um método padrão de emulação de dispositivos terminais baseados em texto na rede de dados. O protocolo e o software cliente que implementa o protocolo são comumente chamados de Telnet. Os servidores Telnet escutam solicitações de clientes na porta TCP 23.\nUma conexão Telnet é chamada de sessão de terminal virtual (virtual terminal - vty). Em vez de usar um dispositivo físico para se conectar ao servidor, o Telnet usa software para criar um dispositivo virtual que fornece recursos de uma sessão de terminal com acesso à interface de linha de comando (CLI) do servidor.\nNa figura, o cliente se conectou remotamente ao servidor via Telnet. O cliente agora pode executar comandos como se estivesse conectado localmente à linha de comando do servidor. Da mesma forma, o Telnet pode fornecer acesso à interface de linha de comando (CLI), ou console, de um dispositivo de rede para que o dispositivo possa ser configurado e monitorado."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Acesso remoto com Telnet, SSH e RDP",
+      "content": "Quando uma conexão Telnet é estabelecida, os usuários podem executar qualquer função autorizada no servidor, como se estivessem usando uma sessão de linha de comando no próprio servidor. Se autorizados, podem iniciar e parar processos, configurar o dispositivo e até mesmo desligar o sistema.\nEmbora o protocolo Telnet possa exigir o login de um usuário, ele não suporta o transporte de dados criptografados. Todos os dados trocados durante as sessões Telnet são transportados como texto simples pela rede. Isso significa que os dados podem ser facilmente interceptados e compreendidos. Isso inclui nomes de usuário e senhas.\nO protocolo Secure Shell (SSH) oferece um método alternativo e seguro para acesso ao servidor. O SSH fornece a estrutura para proteger login remoto e outros serviços de rede segura. Ele também fornece autenticação mais forte do que o Telnet e suporta o transporte de dados de sessão usando criptografia. Os servidores SSH atendem às solicitações do cliente na porta TCP 22.\nComo prática recomendada, os profissionais de rede devem sempre usar SSH no lugar de Telnet, se possível.\nA figura ilustra como o SSH é mais seguro que o Telnet. No lado esquerdo da figura, o técnico de rede está usando Telnet e faz login no servidor usando as credenciais indicadas. O agente da ameaça capturou o tráfego Telnet e pode ver facilmente as credenciais usadas. No lado direito da figura, o técnico está usando SSH para se conectar a um servidor diferente. O agente da ameaça ainda pode capturar o tráfego. No entanto, eles não seriam capazes de decifrá-lo porque o SSH criptografa o tráfego do usuário."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Acesso remoto com Telnet, SSH e RDP",
+      "content": "Conectar-se a outros dispositivos usando Telnet ou SSH usando uma janela de terminal é comum em alguns sistemas operacionais. Existem também pacotes de emulador de terminal de software comercial disponíveis. PuTTY é um popular programa emulador de terminal gratuito e de código aberto. Este aplicativo cliente suporta SSH, Telnet e rlogin. O Terra Term é outro emulador de terminal gratuito e de código aberto que inclui uma linguagem de script de macro e plug-ins. PuTTY e Tera Term podem usar o protocolo SSH para conexões. Ambos assumem que um servidor SSH, como o disponível com OpenSSH, está sendo executado no dispositivo de destino. O OpenSSH é distribuído com uma ampla gama de sistemas operacionais, incluindo várias distribuições Linux, Windows e MacOS.\nO Remote Desktop Protocol (RDP) foi criado pela Microsoft. Ele usa um modelo cliente-servidor no qual o cliente pode se conectar a um servidor RDP executado em um sistema remoto para exibir a interface gráfica do usuário do dispositivo remoto. Os servidores e clientes RDP estão incluídos no Windows e estão disponíveis para OS X, Linux e Unix via xrdp, que é uma implementação gratuita e de código aberto do servidor Microsoft RDP. Outros sistemas operacionais também podem executar essas funções. Por exemplo, no macOS, a funcionalidade de acesso remoto é fornecida pelo recurso de compartilhamento de tela, que é baseado no Virtual Network Computing (VNC). Qualquer cliente VNC pode se conectar a um servidor de compartilhamento de tela. O VNC é um produto freeware que é semelhante em funcionalidade ao RDP e funciona na porta 5900."
+    },
+    {
+      "type": "text",
+      "title": ".6.4 Entendendo as VPNs",
+      "content": "Para se comunicar e compartilhar recursos com segurança em uma rede não segura, como a Internet, é usada uma rede privada virtual (VPN). Os tipos mais comuns de VPN são usados para acessar uma rede privada corporativa por usuários remotos ou sites corporativos remotos.\nUma VPN usa conexões seguras dedicadas, roteadas pela Internet, da rede privada corporativa para o usuário remoto. Quando conectados à rede privada corporativa, os usuários de VPN de acesso remoto passam a fazer parte dessa rede e têm acesso a todos os serviços e recursos como se estivessem fisicamente conectados a ela. As VPNs também são usadas para conectar filiais e outras instalações à rede corporativa.\nAs VPNs geralmente são implantadas em uma das seguintes configurações: acesso site a site ou acesso remoto."
+    },
+    {
+      "type": "text",
+      "title": ".6.4 Entendendo as VPNs",
+      "content": "Os usuários de acesso remoto devem instalar um cliente VPN em seus computadores para formar uma conexão segura com a rede privada corporativa. Roteadores especiais também podem ser usados ​​para conectar computadores à rede privada corporativa. O software VPN criptografa os dados antes de enviá-los pela Internet para o gateway VPN na rede privada corporativa. Os gateways VPN estabelecem, gerenciam e controlam conexões VPN, também conhecidas como túneis VPN. O Windows suporta vários tipos de VPN, no entanto, para algumas VPNs, pode ser necessário um software de terceiros. O cliente Cisco AnyConnect VPN é mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".6.4 Entendendo as VPNs",
+      "content": "Uma VPN no Windows 10 pode ser configurada nas configurações de Rede e Internet, conforme mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".6.4 Entendendo as VPNs",
+      "content": "Além de proteger o compartilhamento de área de trabalho remota para fins de suporte técnico, os usuários podem usar a área de trabalho remota para acessar remotamente computadores dentro da rede corporativa para realizar suas tarefas normais de trabalho. Isso significa que um usuário pode acessar a área de trabalho de seu computador de trabalho a partir de seu computador doméstico. Isso permite que os funcionários acessem os recursos de trabalho de seus próprios dispositivos e acessem remotamente arquivos e programas hospedados em seu PC de trabalho. Além disso, a computação com desktops virtuais baseados em nuvem está se tornando popular. As organizações podem economizar dinheiro e aumentar a eficiência terceirizando o gerenciamento de estações de trabalho para a nuvem. Nesse caso, as estações de trabalho do usuário são máquinas virtuais hospedadas na nuvem. Isso permite que os usuários acessem seus recursos de computador de praticamente qualquer dispositivo que suporte um cliente de desktop remoto compatível.\nNo entanto, isso pode criar desafios de segurança. Muitos clientes de área de trabalho remota não são seguros. O uso de VPNs para acessar estações de trabalho de computadores virtuais remotos e baseados em nuvem garante maior segurança quando esta solução está em uso. Microsoft Azure e Amazon Web Services fornecem soluções de espaço de trabalho remoto. A equipe de suporte de TI será necessária para ajudar os funcionários a acessar e operar esses recursos virtuais."
+    },
+    {
+      "type": "text",
+      "title": ".6.5 Sistemas de gerenciamento de rede",
+      "content": "O gerenciamento de rede refere-se a dois conceitos relacionados. O primeiro é o processo de configuração, monitoramento e gerenciamento do desempenho de uma rede. O segundo é a plataforma que as equipes de TI e operações de rede usam para concluir essas tarefas. As plataformas modernas de gerenciamento de rede fornecem análises avançadas, aprendizado de máquina e automação inteligente para otimizar continuamente o desempenho da rede. À medida que as organizações se adaptam a uma força de trabalho mais distribuída, esses sistemas de gerenciamento de rede são cada vez mais implantados em ambientes de nuvem e hospedados.\nOs sistemas de gerenciamento de rede coletam dados de dispositivos de rede conectados, como switches, roteadores, pontos de acesso e dispositivos clientes. Eles também fornecem aos administradores de rede controle sobre como esses dispositivos operam e interagem uns com os outros. Os dados capturados desses dispositivos são usados para identificar proativamente problemas de desempenho, monitorar segurança e segmentação e acelerar a solução de problemas.\nOs sistemas de gerenciamento de rede geralmente usam o Simple Network Management Protocol (SNMP) e o Remote Network Monitoring (RMON) para coletar informações de dispositivos de rede. Os sistemas operacionais host possuem plataformas de gerenciamento que permitem o monitoramento e a configuração de muitos computadores host.\nOs sistemas de gerenciamento de rede são implantados usando dois modelos operacionais, conforme mostrado na tabela."
+    },
+    {
+      "type": "text",
+      "title": ".6.5 Sistemas de gerenciamento de rede",
+      "content": "Cisco Meraki é uma plataforma líder de gerenciamento de rede baseada em nuvem que fornece recursos de gerenciamento de rede poderosos sem consumir largura de banda do usuário. É seguro, flexível e fácil de implantar. Com ele, as redes podem ser gerenciadas de qualquer lugar. Ele pode gerenciar uma ampla variedade de dispositivos de rede Meraki e não Meraki com segurança. Ele fornece visualizações detalhadas de redes grandes, dispersas e complexas até o computador desktop ou telefone individuais. A figura fornece uma visão de um aspecto de um painel Meraki."
+    },
+    {
+      "type": "text",
+      "title": ".6.7 Scripts, Automação e Programabilidade",
+      "content": "Redes grandes e complexas são extremamente difíceis e demoradas de gerenciar. É trabalhoso e requer muitos funcionários altamente treinados. Uma única organização pode ter milhares de dispositivos de rede em centenas de locais. Claramente não é praticável monitorar e configurar manualmente este grande número de dispositivos.\nA automação envolve a criação de sistemas que operam por conta própria. Automação de rede é o processo de automatizar a configuração, gerenciamento, teste, implantação e operação de dispositivos físicos e virtuais em uma rede. Ao automatizar tarefas diárias de rede, funções e processos repetitivos, a disponibilidade do serviço de rede e a eficiência operacional melhoram."
+    },
+    {
+      "type": "text",
+      "title": ".6.7 Scripts, Automação e Programabilidade",
+      "content": "Qualquer tipo de rede pode usar automação de rede. As soluções baseadas em hardware e software permitem que data centers, provedores de serviços e empresas implementem a automação de rede para melhorar a eficiência, reduzir o erro humano e diminuir as despesas operacionais.\nA operação dos dispositivos de rede pode ser monitorada e controlada via software. Os controladores de rede ou outros dispositivos fornecem acesso a processos de software externos que podem alterar automaticamente o funcionamento de um dispositivo de rede. Freqüentemente, isso é feito com scripts de automação que permitem programar a rede para se comportar de maneiras específicas de acordo com a rede e as condições externas. A automação de rede também permite a configuração e o gerenciamento de um grande número de dispositivos simultaneamente.\nUma linguagem de script como o Python pode ser usada para criar programas que automatizam os processos de gerenciamento de rede, criando assim eficiências operacionais e de gerenciamento e economizando nos custos associados ao gerenciamento manual de rede."
+    },
+    {
+      "type": "text",
+      "title": ".7 Resumo do suporte de rede",
+      "content": "{{_moduleNumber}}.7 Resumo do suporte de rede"
+    },
+    {
+      "type": "text",
+      "title": ".7 Resumo do suporte de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".7.1 O que aprendi neste módulo?",
+      "content": "**Metodologias de diagnóstico e solução de problemas:** A solução de problemas é um processo que deve ser aplicado sistematicamente. Uma abordagem usa um processo de sete etapas em que o técnico define o problema, reúne informações relevantes, analisa as informações, elimina possíveis causas, propõe uma hipótese sobre a causa mais provável do problema e, em seguida, testa a hipótese e resolve o problema. Outra abordagem é seguir as camadas do modelo OSI.\nA solução de problemas estruturada pode incluir o uso de sete métodos diferentes, de baixo para cima, de cima para baixo, dividir para conquistar, seguir o caminho, substituição, comparação, suposição fundamentada.\nA escolha do método às vezes depende do tipo de problema que está sendo tratado e da experiência do técnico. É importante sempre documentar o problema de acordo com os procedimentos da empresa, inclusive fornecendo informações sobre a eventual resolução do problema.\n\n**Documentação da rede:** A documentação da rede é essencial para manter, proteger e solucionar problemas de redes. A documentação pode consistir em diagramas de rede físicos e lógicos, documentos escritos e linhas de base de desempenho de rede.\nExistem nove topologias de rede que podem ser documentadas. Isso inclui redes de área pessoal (PAN), redes de área local (LAN), LANs virtuais (VLANS), LANs sem fio (WLAN), redes de malha sem fio (WMN), redes de área de campus (CAN), redes de área metropolitana (MAN), ampla redes de área (WAN) e redes privadas virtuais (VPN).\nOs diagramas de topologia física incluem as localizações físicas dos dispositivos e documentam suas conexões. Os diagramas de topologia lógica incluem endereços IP e detalhes do dispositivo de rede, como portas conectadas. Outras informações, como serviços de nuvem, políticas de roteamento e políticas de segurança e acesso remoto, podem aparecer nos diagramas de topologia.\nOs serviços em nuvem podem ser Software as a Service (SaaS), Platform as a Service (PaaS), ou Infrastructure as a Service (IaaS). XaaS significa qualquer coisa/tudo como serviço, incluindo desktop como serviço (DaaS), recuperação de desastre como serviço (DRaaS), comunicações como serviço (CaaS) e monitoramento como serviço (MaaS).\nOs padrões sem fio definem as características operacionais das operações sem fio, incluindo especificações de sinalização, taxas de dados e eficiência de energia. Os padrões sem fio formam a família de padrões Ethernet sem fio IEEE 802.11, como 802.11b, n, ge ac. Esses padrões existem no espectro sem fio não licenciado. As frequências sem fio licenciadas são controladas pela Federal Communications Commission (FCC) e as licenças são concedidas a estações de rádio, empresas de celular e estações de televisão.\nA documentação do dispositivo difere dependendo do tipo de dispositivo. Geralmente inclui sistema operacional e software do dispositivo, informações de licenciamento, status da interface, endereçamento e protocolos de roteamento, etc.\nAs linhas de base da rede são uma série de medições do desempenho da rede feitas durante diferentes tipos de uso da rede. As linhas de base ajudam a entender os parâmetros de uma rede funcionando adequadamente, de modo que o desempenho da rede ou os problemas de segurança possam ser identificados quando o desempenho se desviar significativamente das medições de linha de base anteriores.\nO Cisco Discovery Protocol (CDP) é um protocolo Cisco executado em dispositivos de rede Cisco. Ele envia anúncios CDP para dispositivos vizinhos conectados diretamente. As informações enviadas nesses anúncios incluem o nome do dispositivo configurado, um identificador de porta, a plataforma de hardware e versões de software e endereços IP. Essas informações são exibidas com os comandos IOS show cdp neighbors e show cdp neighbors detail. O CDP pode ser usado para revelar informações sobre topologias de rede.\n\n**Help Desks:** As políticas de segurança especificam o que os funcionários precisam fazer para garantir a segurança da rede. Isso inclui políticas relacionadas à identificação e autenticação do usuário, tamanho da senha, complexidade e intervalo de atualização, comportamento aceitável e requisitos de acesso remoto. Os Procedimentos Operacionais Padrão (SOP) definem os procedimentos que devem ser seguidos para substituição de dispositivos de rede, instalação ou remoção de aplicativos de software, integração de novos funcionários e rescisão de funcionários. As diretrizes são sugestões de procedimentos adequados que existem quando nenhum POP é definido.\nUm help desk é uma equipe especializada de profissionais de TI que são o ponto central de contato para funcionários e clientes que precisam de assistência técnica. Os help desks usam ferramentas de comunicação como bate-papo, telefone ou e-mail para receber problemas dos clientes e facilitar o processo de solução de problemas. Um sistema de tickets é usado para gerenciar “tickets de problemas” que consistem em detalhes dos problemas relatados pelos usuários. Os usuários iniciam os tickets e os técnicos validam os problemas, trabalham com os usuários para resolver os problemas e encaminham os tickets se um grau mais alto de especialização for necessário para resolver os problemas.\nUm técnico de suporte deve ser sempre atencioso e deve simpatizar com os usuários, que podem estar estressados e ansiosos para resolver um problema rapidamente. Os técnicos nunca devem menosprezar, insultar, falar mal ou acusar os usuários de causar o problema.\nO conjunto de habilidades Conhecer, se relacionar e entender é uma maneira útil de se relacionar com os clientes. Para conhecer o cliente, chame-o pelo nome ou pergunte se há outro nome que você possa usar. Para se relacionar melhor com o cliente, tente criar uma conexão individual. E para entender o cliente, determine seu nível de conhecimento técnico como forma de falar com ele em um nível adequado. O questionamento é importante usando perguntas abertas ou fechadas. A escuta ativa envolve o uso de respostas compreensivas enquanto os usuários falam e resumem o que eles dizem para verificar sua compreensão.\nAo resolver um problema com hosts, reúna informações sobre o dispositivo, sistema operacional, ambiente de rede e os resultados dos testes de conectividade, como ping e tracert. Outras fontes de informação são códigos de bipe, logs do visualizador de eventos, configurações do gerenciador de dispositivos, dados do gerenciador de tarefas e resultados de ferramentas de diagnóstico.\nPara tickets relacionados a dispositivos Cisco, use comandos IOS, capturas de pacotes e logs de dispositivos para coletar informações. Os comandos IOS para teste de conectividade, como ping e traceroute, são úteis. O Secure Shell (SSH) é a maneira preferida de se conectar à CLI do IOS remotamente porque o Telnet não é seguro. Os comandos IOS show, como show ip interface brief, show ip route e show protocols também são úteis.\nA próxima etapa no processo de solução de problemas é analisar as informações coletadas e resolver o problema. Você pode consultar o software do sistema de tickets para localizar problemas semelhantes, acessar recursos de informações do fornecedor e perguntas frequentes e pesquisar na Internet informações relevantes. Se você não conseguir resolver o problema, deverá encaminhá-lo para um técnico de nível superior para resolução.\n\n**Solucionar problemas de conectividade de endpoint:** Para verificar a configuração de rede de um host Windows, verifique o status das conexões na Central de Rede e Compartilhamento. Você também pode usar ipconfig /all para exibir essas informações. Use ping e traceroute ou tracert para testar a conectividade.\nEm um host Linux, você pode visualizar as conexões ativas na GUI ou usar o comando ifconfig em um terminal. Além de ping e traceroute, outras ferramentas de linha de comando, como speedtest e ncat (nc), estão disponíveis para teste de rede.\nNo MacOS, abra Network Preferences > Advanced para obter informações de endereçamento IP.  O comando ifconfig também pode ser emitido de um terminal. Outros comandos úteis são networksetup -listallnetworkservices e networksetup -getinfo network service>. Os comandos do Linux mencionados acima também estão disponíveis no MacOS. A ferramenta de diagnóstico sem fio do MacOS também pode ajudar a resolver problemas de conectividade.\nA rede Apple iOS pode ser verificada acessando as configurações de Wi-Fi. No Android, as informações sobre o endereçamento e as conexões do dispositivo podem ser acessadas em  About phone > Status settings. Estão disponíveis aplicativos de terceiros que aprimoram o diagnóstico de redes para Android.\n\n**Solucionar Problemas de uma rede:** Para coletar informações para solucionar um problema de rede, os dispositivos Cisco IOS têm muitos comandos show que podem fornecer informações detalhadas. O software Cisco IOS separa o acesso de gerenciamento em dois níveis de privilégio: User EXEC, que é de nível inferior, e Privileged EXEC, que possui privilégios totais. Use o comando enable para entrar no modo Cisco EXEC privilegiado A ajuda sensível ao contexto do IOS pode ser usada para localizar comandos e obter informações sobre seu uso. A ajuda contextual está disponível inserindo um “ ? ” em um prompt vazio ou após um comando.\nOs aplicativos de captura de pacotes e análise de protocolo permitem que você investigue o conteúdo do pacote à medida que ele flui pela rede. O software decodifica as camadas de protocolo alojadas em um pacote. O Wireshark é um exemplo de aplicativo popular de análise de protocolo/captura de pacotes de código aberto.\nLargura de banda e taxa de transferência são características do fluxo de dados da rede. Largura de banda é a quantidade teórica de dados que podem ser transmitidos de um dispositivo para outro em um período de tempo. A largura de banda é normalmente medida em número de bits por segundo. Taxa de transferência é a medida do número real de bits por segundo que estão sendo transmitidos pela mídia. A taxa de transferência é sempre menor que a largura de banda devido à latência e ao atraso. As ferramentas de teste de velocidade da Internet on-line e a ferramenta iPerf Windows permitem a medição da taxa de transferência.\n\n**Solucionar problemas de Conectividade Remotamente:** Ao auxiliar usuários remotos, pode ser mais eficiente usar aplicativos de área de trabalho remota. Esses aplicativos permitem que um técnico assuma o controle de uma área de trabalho remota para investigar problemas e fazer alterações na configuração. Os aplicativos de área de trabalho remota podem criar vulnerabilidades de segurança e muitas organizações têm o compartilhamento de área de trabalho desativado nos computadores. O Microsoft Remote Desktop está incluído em todas as versões profissionais do Windows. O Apple Remote Desktop e o TeamViewer são exemplos de outros softwares de desktop remoto.\nTelnet, SSH e Remote Desktop Protocol (RDP) são protocolos para acesso remoto a sistemas. Telnet é um antigo aplicativo de terminal virtual usado para acessar a linha de comando de um sistema remoto. Ele usa a porta TCP 23. O Telnet não possui nenhum mecanismo para criptografar os dados transmitidos e, portanto, não deve ser usado. O SSH, assim como o Telnet, permite sessões de terminal virtual, mas inclui criptografia e deve ser usado no lugar do Telnet. Clientes de terminais virtuais, como PuTTY e Tera Term, estão disponíveis para conexão com servidores Telnet e SSH.\nO RDP foi criado pela Microsoft. Ele também usa um modelo cliente-servidor no qual o cliente acessa uma GUI do sistema operacional em um computador remoto. O software RDP está disponível com Windows, OS X, Linux e Unix via xrdp. Para macOS, a funcionalidade de área de trabalho remota é fornecida pelo software Virtual Network Computing (VNC).\nAs Redes Privadas Virtuais (VPN) permitem o acesso remoto seguro à rede em redes não seguras, como a Internet. Uma VPN usa conexões seguras dedicadas que criptografam o tráfego de rede. VPNs site a site conectam instalações remotas inteiras. As VPNs de acesso remoto conectam usuários individuais à rede corporativa. Os usuários de VPN de acesso remoto se conectam a um gateway de VPN de rede corporativa usando um cliente de software como o Cisco AnyConnect. O Microsoft Windows tem seu próprio cliente VPN.\nO gerenciamento de rede refere-se ao processo de configuração, monitoramento e gerenciamento do desempenho de uma rede. As plataformas modernas de gerenciamento de rede fornecem análises avançadas, aprendizado de máquina e automação inteligente para otimizar continuamente o desempenho da rede. Os sistemas de gerenciamento de rede geralmente usam o Simple Network Management Protocol (SNMP) e o Remote Network Monitoring (RMON) para coletar informações. Os sistemas de gerenciamento de rede podem ser implantados em modelos locais ou baseados em nuvem. As implantações baseadas em nuvem são boas para ambientes distribuídos geograficamente dispersos. Os sistemas locais exigem muito poder de computação e armazenamento, mas são bons para situações em que a conformidade com os regulamentos de soberania de dados é necessária. Cisco Meraki é uma plataforma líder de gerenciamento de rede baseada em nuvem que fornece recursos de gerenciamento de rede poderosos sem consumir largura de banda do usuário.\nAutomação de rede é o processo de automatizar a configuração, gerenciamento, teste, implantação e operação de dispositivos físicos e virtuais em uma rede. Tarefas comuns de trabalho intensivo podem ser automatizadas usando scripts e programação de rede. Python é uma linguagem de script popular para automação de rede."
+    },
+    {
+      "type": "text",
+      "title": ".7.2 Webster - Perguntas para reflexão",
+      "content": "Lara fez um ótimo trabalho criando um guia de solução de problemas para técnicos de help desk. Compartilhar sua experiência de help desk ajudará os novos técnicos a se tornarem mais eficazes rapidamente. A informação foi prática neste módulo? Como estão suas habilidades de diagnóstico? Qual abordagem de solução de problemas funcionaria melhor se um problema estiver relacionado ao cabeamento? Qual abordagem de solução de problemas funcionaria melhor se o problema estivesse relacionado a um aplicativo?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Objetivos\nMapear uma rede usando o acesso remoto CDP e SSH.\nHistórico / Cenário\nUm administrador de rede sênior exige que você mapeie a rede da Filial remota e descubra o nome de um switch instalado recentemente e que ainda precisa ter um endereço IP configurado. Sua tarefa é criar um mapa da rede da filial. Você deve registrar todos os nomes de dispositivo de rede, os endereços IP, as máscara de sub-rede e as interfaces físicas que interconectam os dispositivos de rede, bem como o nome do switch que não tem um endereço IP.\nPara mapear a rede, você usará o SSH para acesso remoto e o Cisco Discovery Protocol (CDP) para descobrir informações sobre os dispositivos de rede vizinhos. Como o CDP é um protocolo de camada 2, ele pode ser usado para descobrir informações sobre dispositivos que não têm endereços IP. Você registrará as informações colhidas para preencher a Tabela de endereçamento e fornecer um diagrama da topologia da rede da Filial remota.\nOs nomes de usuário e as senhas administrativas locais e remotos são:\nRede local\nNome do usuário: admin01\nSenha: S3cre7P@55\nRede de filial\nNome do usuário: branchadmin\nSenha: S3cre7P@55"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Instruções\nParte 1: Uso do SSH para Acessar RemotamenteDispositivos de Rede\nNa parte 1, use o PC do administrador para acessar remotamente o roteador de gateway Edge1. Em seguida, no roteador Edge1, você usará SSH para a Filial remota.\nNo Admin-PC, abra um prompt de comando.\nAcesse via SSH o roteador gateway em 192.168.1.1 usando o nome de usuário admin01 e a senha S3cre7P@55\nPC> ssh –l admin01 192.168.1.1\nOpen\nPassword:\nEdge1#\nNota: Observe que você é colocado diretamente no modo EXEC privilegiado. Isso acontece porque a conta do usuário admin01 está definida com o nível de privilégio 15.\nUse os comandos show ip interface brief e show interfaces para documentar as interfaces físicas, endereços IP e máscara de sub-rede do roteador Edge1 na Tabela de endereçamento.\nNo Edge1, use o SSH para acessar a Filial Remota em 209.165.200.10 com o nome de usuário branchadmin e a mesma senha acima:\nEdge1# ssh –l branchadmin 209.165.200.10\nOpen\nPassword:\nBranch-Edge#"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Parte 2: usar o CDP para descobrir dispositivos vizinhos\nVocê agora está conectado remotamente ao roteador Branch-Edge. Usando o CDP, comece a procurar dispositivos de rede conectados.\nEmita os comandos show ip interface brief e show interfaces para documentar as interfaces de rede, os endereços IP e as máscaras de sub-rede do roteador Branch-Edge. Adicione as informações ausentes na Tabela de endereçamento para mapear a rede:\nBranch-Edge# show ip interface brief\nBranch-Edge# show interfaces\nA prática recomendada de segurança é executar CDP somente quando necessário, por isso o CDP pode precisar ser ativado. Use um comando show cdp para exibir seu status.\nBranch-Edge# show cdp\n% CDP is not enabled\nVocê precisa ativar o CDP, mas é aconselhável difundir informações de CDP somente para dispositivos de rede interna, e não para redes externas. Para fazer isso, ative o protocolo CDP e desative o CDP na interface S0 / 0/1.\nBranch-Edge# configure terminal\nBranch-Edge(config)# cdp run\nBranch-Edge(config)# interface s0/0/1\nBranch-Edge(config-if)# no cdp enable\nBranch-Edge(config-if)# exit\nEmita um comando show cdp neighbors para localizar qualquer dispositivo de rede vizinho.\nObservação: O CDP mostrará apenas dispositivos Cisco conectados que também estão executando o CDP.\nBranch-Edge# show cdp neighbor"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Objetivos\nNeste laboratório, você documentará uma rede que é desconhecida para você.\nTeste a conectividade de rede.\nCompilar informações de endereçamento do host.\nAcesse remotamente dispositivos de gateway padrão.\nDocumentar configurações de dispositivo de gateway padrão.\nDescubra dispositivos na rede.\nDesenhe a topologia de rede.\nHistórico / Cenário\nSeu empregador foi contratado para assumir a administração de uma rede corporativa porque o administrador de rede anterior deixou a empresa. A documentação da rede está ausente e precisa ser recriada. Seu trabalho é documentar os hosts e dispositivos de rede, incluindo todos os endereços de dispositivo e interconexões lógicas. Você acessará remotamente dispositivos de rede e usará a descoberta de rede para concluir uma tabela de dispositivos e desenhar a topologia de rede.\nEsta é a parte I de uma série de atividades em duas partes. Você usará a documentação criada nesta atividade para orientá-lo aosolucionar problemas da rede na Parte II, Packet Tracer - Desafio de solução de problemas - usando a documentação para resolver problemas.\nAo investigar e documentar a topologia de rede, anote os problemas que você descobrir que não seguem as práticas ensinadas no currículo da CCNA."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Instruções\nParte 1: Testar Conectividade\nFaça ping entre os PCs e o servidor de Internet para testar a rede. Todos os PCs devem poder executar ping um no outro e no servidor da Internet.\nParte 2: Descobrir as informações sobre a configuração do computador\nVá para o prompt de comando de cada PC e exiba as configurações de IP. Registre essas informações na tabela de documentação.\nParte 3: Descubra informações sobre os dispositivos gateway padrão\nConecte-se a cada dispositivo de gateway padrão usando o protocolo Telnet e registre informações sobre as interfaces que estão em uso na tabela. A senha do VTY é cisco e a senha EXEC privilegiada é class.\nC:\\> telnet IP_address\nParte 4: Reconstruir a Topologia de Rede\nNesta parte da atividade, você continuará gravando informações sobre os dispositivos na rede na Tabela de Endereçamento. Além disso, você começará a diagramar a topologia de rede com base no que você pode descobrir sobre as interconexões do dispositivo.\nEtapa 1: Acesse tabelas de roteamento em cada dispositivo de gateway.\nUse as tabelas de roteamento em cada roteador para saber mais sobre a rede. Faça anotações de suas descobertas.\nEtapa 2: Descobrir dispositivos que não sejam de gateway.\nUse um protocolo de descoberta de rede para documentar dispositivos vizinhos. Registre suas descobertas na tabela de endereçamento. Neste ponto, você também deve ser capaz de começar a documentar interconexões de dispositivos.\nParte 5: Explore ainda mais as configurações e interconexões do dispositivo\nEtapa 1: Acesse as configurações do dispositivo.\nConecte-se aos outros dispositivos na rede. Reúna informações sobre as configurações do dispositivo.\nEtapa 2: Exibir Informações do Vizinho.\nUse protocolos de descoberta para aumentar seu conhecimento sobre os dispositivos e topologias de rede.\nEtapa 3: Conecte-se a outros dispositivos.\nExibir informações de configuração para os outros dispositivos na rede. Registre suas descobertas na tabela de dispositivos.\nAgora você deve saber sobre todos os dispositivos e configurações de interface na rede. Todas as linhas da tabela devem conter informações do dispositivo. Use suas informações para reconstruir o máximo possível da topologia de rede."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Objetivos\nNeste laboratório, você usa a documentação da rede para identificar e corrigir problemas de comunicação de rede.\nUsar várias técnicas e ferramentas para identificar problemas de conectividade.\nUsar a documentação para orientar os esforços para solução de problemas.\nIdentificar problemas específicos de rede.\nImplementar soluções para problemas de comunicação em rede.\nVerificar a operação da rede.\nHistórico / Cenário\nNesta atividade, você usará a documentação criada no Packet Tracer - Desafio de solução de problemas - Documentar a rede, para nortear os esforços de solução de problemas de rede.\nDescobriu-se que a rede, com a qual trabalhou na atividade PT anterior, apresentou problemas de comunicação. Alguns hosts não conseguem executar ping em outros hosts e no servidor de internet. É seu trabalho determinar quais são os problemas e localizá-los e repará-los.\nProblemas de rede podem existir em qualquer dispositivo. Certifique-se de verificar se há erros abrangendo:\nConfiguração de endereçamento\nAtivação da interface\nRoteamento\nNAT\nInstruções\nAs senhas para todos os dispositivos são VTY: cisco, Enable secret: class\nParte 1: Avalie a conectividade\nTodos os hosts devem poder executar ping um ao outro e ao servidor da Internet. Determine se esse requisito é atendido. Caso contrário, identifique quais hosts e redes devem ser investigados mais detalhadamente.\nParte 2: Acessar dispositivos de rede\nA partir dos hosts que têm problemas de comunicação, use as ferramentas ICMP para determinar onde na rede esses problemas podem estar localizados. Nos PCs host, acesse dispositivos na rede e exiba configurações e status operacional.\nParte 3: Reparar a rede\nDepois de localizar os problemas, reconfigure os dispositivos para reparar o problema de conectividade. Use sua documentação da atividade anterior para ajudá-lo.\nParte 4: Documentar os problemas\nRegistre seus problemas na tabela abaixo."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nFazer o download e instalar o Wireshark\nHistórico /  Cenário\nO Wireshark é um software analisador de protocolo, ou aplicação \"packet sniffer\", usado para solução de problemas de rede, análise, desenvolvimento de software e protocolo, e educação. À medida que o fluxo de dados viaja em uma rede, o sniffer \"captura\" cada unidade de dados de protocolo (PDU) e pode decodificar e analisar seu conteúdo de acordo com o RFC apropriado ou com outras especificações.\nO Wireshark é uma ferramenta útil para quem trabalha com redes e pode ser usado com a maioria dos laboratórios nos cursos CCNA para análise de dados e solução de problemas. Este laboratório apresenta instruções para baixar e instalar o Wireshark.\nRecursos necessários\n1 PC (Windows com acesso à Internet)\nInstruções\nO Wireshark tornou-se o programa sniffer de pacotes padrão do setor usado por engenheiros de rede. Este software aberto está disponível para vários sistemas operacionais diferentes, incluindo Windows, Mac e Linux. Neste laboratório, você baixará e instalará o software Wireshark em seu PC.\nObservação: antes de baixar o Wireshark, verifique com o instrutor a política de download de software da sua academia."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Etapa 1: Faça download do Wireshark.\nO Wireshark pode ser baixado em www.wireshark.org.\nEscolha a versão do software necessária com base na arquitetura e no sistema operacional do PC. Por exemplo, se você tiver um PC de 64 bits executando o Windows, escolha Windows Installer (64 bits).\nDepois de fazer uma seleção, o download será iniciado. O destino do download do arquivo depende do navegador e do sistema operacional usados. Para usuários do Windows, o local padrão é a pasta Downloads."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Passo 2: Instale o Wireshark.\nO arquivo baixado é denominado  Wireshark-win64-x.x.x.exe, em que x representa o número da versão se você baixou a versão de 64 bits. Clique duas vezes no arquivo para iniciar o processo de instalação.\nResponda a todas as mensagens de segurança que aparecerem na tela. Se já tiver uma cópia do Wireshark em seu PC, você deverá desinstalar a versão anterior antes de instalar a nova. Recomenda-se que você remova a versão antiga do Wireshark antes de instalar outra versão. Clique em Yes (Sim) para desinstalar a versão anterior do Wireshark.\nSe esta for a primeira instalação do Wireshark, ou após concluir o processo de desinstalação, você navegará para o assistente de configuração do Wireshark. Clique em Next.\nContinue avançando no processo de instalação. Clique em I agree (Eu concordo) quando a janela do contrato de licença for exibida.\nMantenha as configurações padrão na janela Choose Components (Escolher componentes) e clique em Next (Avançar).\nEscolha suas opções de atalho desejadas e clique em Next (Avançar).\nVocê pode alterar o local de instalação do Wireshark, porém, a menos que você tenha espaço em disco limitado, recomenda-se manter o local padrão. Clique em Next (Avançar) para continuar.\nPara capturar dados de rede ao vivo, o Npcap deve estar instalado no seu PC. Se o Npcap já estiver instalado no seu PC, a caixa de seleção Instalar estará desmarcada. Se a versão instalada do Npcap for anterior à versão que acompanha o Wireshark, é recomendável permitir a instalação da versão mais recente clicando nacaixa de seleção Install Npcap x.x.x(número da versão). Clique em Next (Avançar) para continuar.\nNÃO instale o USBPcap para captura de tráfego normal. NÃO marque a caixa de seleção para instalar o USBPcap. O USBPcap é experimental e pode causar problemas USB no seu PC. Clique em Instalar agora para continuar.\nO Wireshark começa a instalar seus arquivos e exibe uma janela separada com o status da instalação.\nEm uma janela separada, aceite o contrato de licença no Assistente de configuração Npcap se estiver instalando o Npcap. Clique em Concordo para continuar. Clique em Instalar para instalar o Npcap. Clique em Avançar para concluir a instalação do Npcap e clique em Concluir para sair da instalação do Npcap.\nClique em Next (Avançar) quando a instalação for concluída.\nClique em Finish (Concluir) para encerrar o processo de instalação do Wireshark. Reinicie o computador, se necessário."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "© 2017 - 2022 Cisco and/or its affiliates. All rights reserved. Cisco Public"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "Topologia",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Objetivos\nParte 1: Usando o Nmap (Opcional)\nParte 2: Capturar e analisar dados locais ICMP no Wireshark\nParte 3: Capturar e analisar dados remotos ICMP no Wireshark\nHistórico / Cenário\nPrimeiro, você usará a ferramenta de varredura e mapeamento de rede Nmap para descobrir hosts em sua rede. O Nmap é uma ferramenta de descoberta e mapeamento de rede muito popular que possui muitos aplicativos. Você então usará as informações coletadas com o Nmap para visualizar o tráfego de rede no Wireshark.\nO Wireshark é um software analisador de protocolo, ou aplicação \"packet sniffer\", usado para solução de problemas de rede, análise, desenvolvimento de software e protocolo, e educação. À medida que o fluxo de dados viaja em uma rede, o sniffer \"captura\" cada unidade de dados de protocolo (PDU) e pode decodificar e analisar seu conteúdo de acordo com o RFC apropriado ou com outras especificações.\nO Wireshark é uma ferramenta útil para quem trabalha com redes e pode ser usado com laboratórios nos cursos de rede para análise de dados e solução de problemas. Neste laboratório, você usará o Wireshark para capturar endereços IP do pacote de dados ICMP e endereços MAC do quadro Ethernet.\nObservação: este laboratório pode ser feito usando uma rede doméstica ou em um laboratório de aprendizado de rede com outros alunos. As instruções serão ligeiramente diferentes dependendo da sua configuração.\nRecursos necessários\n1 PC (Windows com acesso à Internet)\nSerão usados outros PCs em uma rede local (LAN) para responder às solicitações de ping."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Instruções\nParte 1: Usando o Nmap (Opcional)\nObservação: esta parte do laboratório é opcional. Se você estiver fazendo este laboratório sozinho, usará o Nmap para identificar hosts em sua rede. Se você estiver trabalhando com outras pessoas, elas fornecerão os endereços IP necessários para concluir a parte do Wireshark deste laboratório. Em alguns locais e ambientes, a varredura de rede com uma ferramenta como o Nmap é proibida. Use apenas o software de digitalização em rede em redes para as quais você tem permissão explícita para digitalizar.\nO Network Mapper (Nmap) é uma ferramenta de código aberto que permite escanear endereços IP e portas em uma rede, descobrir serviços e abrir portas e detectar possíveis vulnerabilidades. É um bom aplicativo para se familiarizar, especialmente se você estiver interessado em segurança cibernética. Você usará o Nmap para identificar dispositivos em sua rede local, verificando sua LAN.\nNota: As instruções a seguir destinam-se apenas ao sistema operacional Windows. Consulte a documentação em https://nmap.org para obter informações detalhadas."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Etapa 1: Baixe e instale o Nmap.\nNavegue até https://nmap.org e selecione a guia Download para baixar o instalador estável do Nmap mais recente para o seu sistema.\nNo seu PC, navegue até o local do arquivo baixado e clique duas vezes no arquivo para iniciar o processo de instalação. Responda a todas as mensagens de segurança que aparecerem na tela.\nNo assistente Nmap Setup, clique em I Agree para aceitar o Contrato de Licença.\nMantenha as configurações padrão na janela Choose Components (Escolher componentes) e clique em Next (Avançar).\nVocê pode alterar o local de instalação do Nmap. Clique em Instalar para continuar a instalação na pasta de destino padrão.\nClique em Avançar para criar os atalhos desejados. Clique em Concluir para fechar o assistente após o Nmap ter sido instalado com sucesso em seu computador."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Passo 2: Aprenda mais sobre o Nmap.\nO serviço scanme.nmap.org foi configurado pelo Nmap Security Scanner Project para permitir que você aprenda mais sobre o Nmap e verifique se a instalação do Nmap está funcionando corretamente.\nO Nmap é frequentemente usado como uma ferramenta de linha de comando. Neste laboratório, usaremos o Zenmap, a versão GUI do Nmap.\nInicie o Nmap. No campo Alvo na janela Zenmap, digite scanme.nmap.org. No campo Perfil, selecione Verificação rápida plus. Clique em Scan para iniciar um novo scan.\nO scan pode demorar alguns minutos. Na guia Nmap Output, você verá um pequeno indicador de atividade ao lado do comando Nmap executado e ao lado do botão Details. Isso indica que a verificação está em andamento. Revise os resultados na guia Nmap Output para responder a algumas perguntas."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Neste laboratório, você precisará recuperar o endereço IP do PC, máscara de subrede e o endereço físico da placa de interface de rede (NIC), também chamado de endereço MAC.\nEm uma janela do prompt de comandos, insira ipconfig /all, para determinar o endereço IP da interface do seu PC, sua descrição e seu endereço MAC (físico).\nC:\\Users\\Student> ipconfig /all\nWindows IP Configuration\nHost Name . . . . . . . . . . . . : DESKTOP-NB48BTC\nPrimary Dns Suffix  . . . . . . . :\nNode Type . . . . . . . . . . . . : Hybrid\nIP Routing Enabled. . . . . . . . : No\nWINS Proxy Enabled. . . . . . . . : No\nEthernet adapter Ethernet:\nConnection-specific DNS Suffix  . :\nDescription . . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection\nPhysical Address. . . . . . . . . :00-26-B9-DD-00-91\nDHCP Enabled. . . . . . . . . . . : No\nAutoconfiguration Enabled . . . . : Yes\nLink-local IPv6 Address . . . . . : fe80::d809:d939:110f:1b7f%20(Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.1.147(Preferred)\nSubnet Mask . . . . . . . . . . . : 255.255.255.0\nDefault Gateway . . . . . . . . . : 192.168.1.1\n<output omitted>\nTome nota do seguinte:\nNome da interface\nEndereço IP\nmáscara de sub-rede\nendereço do gateway padrão\nendereço do adaptador físico\nendereço do adaptador físico\nExamine seu computador inserindo seu endereço IP na janela de destino. Selecione o perfil Quick scan plus e clique em Scan."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Parte 2: Capturar e analisar dados locais ICMP no Wireshark\nNa parte 1 deste laboratório, você efetuará ping para outro computador na LAN e capturará solicitações e respostas ICMP no Wireshark. Você também verá quadros capturados para obter informações específicas. Essa análise ajudará a esclarecer como os cabeçalhos dos pacotes são usados para transportar os dados até o destino.\nPasso 1: Recupere os endereços de interface do seu PC.\nNeste laboratório, você precisará recuperar o endereço IP do PC e o endereço físico da placa de interface de rede (NIC), também chamado de endereço MAC.\nEm uma janela do prompt de comandos, insira ipconfig /all, ao endereço IP da interface do seu PC, sua descrição e seu endereço MAC (físico).\nC:\\Users\\Student> ipconfig /all\nWindows IP Configuration\nHost Name . . . . . . . . . . . . : DESKTOP-NB48BTC\nPrimary Dns Suffix . . . . . . . :\nNode Type . . . . . . . . . . . . : Hybrid\nIP Routing Enabled. . . . . . . . : No\nWINS Proxy Enabled. . . . . . . . : No\nEthernet adapter Ethernet:\nConnection-specific DNS Suffix . :\nDescription . . . . . . . . . . . : Intel(R) 82577LM Gigabit Network Connection\nPhysical Address. . . . . . . . . :00-26-B9-DD-00-91\nDHCP Enabled. . . . . . . . . . . : No\nAutoconfiguration Enabled . . . . : Yes\nLink-local IPv6 Address . . . . . : fe80::d809:d939:110f:1b7f%20(Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.1.147(Preferred)\nSubnet Mask . . . . . . . . . . . : 255.255.255.0\nDefault Gateway . . . . . . . . . : 192.168.1.1\nAsk a team member or team members for their PC IP address and provide your PC IP address to them. Do not provide them with your MAC address at this time.\nEtapa 2: Inicie o Wireshark e comece a capturar dados\nNavegue para Wireshark. Clique duas vezes na interface desejada para iniciar a captura de pacotes. Verifique se a interface desejada tem tráfego.\nAs informações começarão a rolar abaixo da seção superior no Wireshark. As linhas de dados serão exibidas em cores diferentes com base no protocolo.\nEssas informações podem passar rapidamente dependendo da comunicação que estiver ocorrendo entre o PC e a LAN. Podemos aplicar um filtro para facilitar a visualização e o trabalho com os dados que estão sendo capturados pelo Wireshark.\nNeste laboratório, estamos apenas interessados em exibir as PDUs do ICMP (ping). Digite icmp na caixa Filter (Filtro), na parte superior do Wireshark, e pressione Enter ou clique no botão Apply (Aplicar) para exibir somente as PDUs ICMP (ping).\nEste filtro faz com que todos os dados na janela superior desapareçam, mas você ainda captura o tráfego na interface. Navegue para uma janela do prompt de comando e execute ping no endereço IP que você recebeu do membro da equipe.\nC:\\> ping 192.168.1.114\nPinging 192.168.1.114 with 32 bytes of data:\nReply from 192.168.1.114: bytes=32 time<1ms TTL=128\nReply from 192.168.1.114: bytes=32 time<1ms TTL=128\nReply from 192.168.1.114: bytes=32 time<1ms TTL=128\nReply from 192.168.1.114: bytes=32 time<1ms TTL=128\nPing statistics for 192.168.1.114:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 0ms, Maximum = 0ms, Average = 0ms\nObserve que você começa a ver novamente os dados na janela superior do Wireshark."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Observação: se o PC da sua equipe não responde aos pings, pode ser porque o firewall do PC do membro da equipe está bloqueando as solicitações. Consulte o Apêndice A: Permitindo o tráfego ICMP através de um firewall para obter informações sobre como permitir o tráfego ICMP através do firewall usando o Windows.\nPare a captura de dados clicando no ícone Stop Capture (Parar captura).\nEtapa 3: Examinar os dados capturados.\nNa etapa 3, examine os dados gerados pelas solicitações ping do PC da sua equipe. Os dados do Wireshark são exibidos em três seções: 1) A seção superior exibe a lista de quadros de PDU capturada com um resumo das informações do pacote IP listadas; 2) a seção média mostra as informações de PDU para o quadro selecionado na parte superior da tela e separa um quadro PDU capturado pelas camadas de protocolo; e 3) a seção inferior exibe os dados brutos de cada camada. Os dados são exibidos em formato hexadecimal e decimal.\nClique nos primeiros quadros de PDU de requisição ICMP na seção da parte superior do Wireshark. Observe que a coluna Source (Origem) tem o endereço IP do PC, e a Destination (Destino) contém o endereço IP do PC do colega para o qual você efetuou ping.\nCom esse quadro de PDU ainda selecionado na seção superior, vá até a seção média. Clique no sinal mais à esquerda da linha Ethernet II para ver os endereços MAC de origem e destino."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Parte 3: Capturar e analisar dados remotos ICMP no Wireshark\nNa parte 2, você efetuará ping para hosts remotos (não nos hosts da LAN) e examinará os dados gerados desses pings. Você determinará o que há de diferente nesses dados a partir dos dados pesquisados na parte 1.\nPasso 1: Comece a capturar dados na interface.\nInicie a captura de dados novamente.\nUma janela solicitará que você salve os dados capturados anteriormente antes de iniciar outra captura. Não é necessário salvar esses dados. Clique em Continue without Saving (Continuar sem salvar).\nCom a captura ativa, execute ping nos três URLs do site a seguir em um prompt de comando do Windows:\n1) www.yahoo.com\n2) www.cisco.com\n3) www.google.com\nObservação: quando você efetuar ping nas URLs listadas, observe que o Servidor de Nomes de Domínio (DNS) converte a URL em um endereço IP. Observe o endereço IP recebido para cada URL.\nPare a captura de dados clicando no ícone Stop Capture (Parar captura).\nEtapa 2: Examinar e analisar os dados dos hosts remotos.\nAnalise os dados capturados no Wireshark e examine os endereços IP e MAC dos três locais para onde você efetuou ping. Liste os endereços IP e MAC de destino para todos os três locais no espaço fornecido."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Passo 3: Salve e abra um arquivo de captura de pacotes.\nVocê pode salvar os resultados de sua sessão do Wireshark em um arquivo externo. Este arquivo pode então ser aberto no Wireshark para restaurar a sessão para análise. Essa é uma ótima maneira de arquivar informações de rede e trocar scans com outras pessoas.\nPare a captura de pacotes\nVá para o menu de arquivo do Wireshark e selecione  Salvar.\nNomeie o arquivo e escolha um local conveniente para o arquivo salvo.\nVocê pode abrir o arquivo mais tarde clicando no menu de arquivo e selecionando Abrir."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Anexo A: Permitir o tráfego ICMP pelo firewall\nSe os membros de sua equipe não conseguirem efetuar ping em seu PC, o firewall pode estar bloqueando essas solicitações. Este anexo descreve como criar uma regra no firewall para permitir requisições ping. Também descreve como desativar a nova regra ICMP depois que você tiver concluído o laboratório.\nParte 1: Criar uma nova regra de entrada que permita que o tráfego ICMP atravesse do firewall.\nNavegue até o Painel de Controle e clique na opção Sistema e Segurança na exibição Categoria.\nNa janela Sistema e segurança, clique em Windows Defender Firewall ou Windows Firewall.\nNo painel esquerdo da janela Firewall do Windows, clique em Configurações avançadas.\nNa janela Segurança Avançada, clique na opção Regras de Entrada na barra lateral esquerda e clique em  Nova Regra ... na barra lateral direita.\nIsso inicia o assistente Nova regra de entrada. Na tela Tipo de regra, clique no botão de opção Personalizado e clique em Avançar.\nNo painel esquerdo, clique na opção Protocolo e portas e, usando o menu suspenso Tipo de protocolo, selecione ICMPv4 e clique em Avançar.\nVerifique se  qualquer endereço  IP para os endereços IP local e remoto está selecionado. Clique em Avançar para continuar.\nSelecione Permitir a conexão. Clique em Next (Avançar) para continuar.\nPor padrão, essa regra se aplica a todos os perfis. Clique em Avançar para continuar.\nNomeie a regra com Permitir Solicitações ICMP. Clique em Concluir para continuar. Essa nova regra deve permitir que os membros da equipe recebam respostas de ping vindo do seu PC.\nParte 2: Desativando ou excluindo a nova regra ICMP.\nApós o laboratório ser concluído, talvez você queira desativar ou até mesmo excluir a nova regra criada na etapa 1.  Usar a opção Desativar permite que posteriormente a regra seja ativada de novo.Excluir a regra permanentemente a exclui da lista de regras de entrada.\nNa janela Segurança Avançada, clique em Regras de Entrada no painel esquerdo e localize a regra que você criou anteriormente.\nClique com o botão direito do mouse na regra ICMP e selecione Desativar Regra se desejar. Você também pode selecionar Excluir se quiser excluí-la permanentemente. Se você selecionar essa opção, você pode recriar a regra novamente para permitir respostas ICMP."
+    },
+    {
+      "type": "text",
+      "title": ".2.7 Packet Tracer - Conecte uma rede com base em um diagrama de rede",
+      "content": "Objetivos\nNesta atividade, você concluirá uma topologia física com base em um diagrama de rede fornecido.\nDiagrama de rede"
+    },
+    {
+      "type": "text",
+      "title": ".2.7 Packet Tracer - Conecte uma rede com base em um diagrama de rede",
+      "content": "Parte 2: Conecte os dispositivos físicos.\nAgora que você determinou como os dispositivos estão interconectados, pode usar as informações do diagrama de rede para conectar os dispositivos no rack dentro do armário de fiação (wiring closet).\nNo Modo Físico no Packet Tracer, você pode praticar a conexão dos dispositivos no rack no armário de fiação.\nEtapa 1: Determine o tipo de cabo.\nNo diagrama de rede, você determinou que os dispositivos estão conectados via cabos Ethernet do diagrama de rede.\nNa placa de fixação de cabos no armário de fiação principal, existem alguns tipos diferentes de cabos."
+    },
+    {
+      "type": "text",
+      "title": ".2.7 Packet Tracer - Conecte uma rede com base em um diagrama de rede",
+      "content": "Etapa 2: Conecte os dispositivos.\nUsando os cabos Ethernet, conecte os dispositivos no armário de fiação de acordo com o diagrama de rede.\na.  Para conectar o roteador R1 ao servidor Web, selecione um cabo Ethernet da placa peg. O Web Server é o dispositivo grande na parte inferior do rack de equipamentos.\nb.  Clique na porta Web Server FastEthernet0 para conectar o cabo Ethernet.\nc.  Clique em GigabitEthernet0/0/1 em R1 para concluir a conexão. Você pode ampliar o dispositivo clicando com o botão direito do mouse no dispositivo > selecione Inspecionar frontal. Clique na lupa para ampliar a frente do dispositivo. Você pode verificar se a conexão está ativa quando as luzes do LED da porta estiverem piscando em verde.\nd.  Repita o procedimento para todas as outras conexões para concluir a conexão da rede. Observe que os PCs estão localizados na Mesa."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nAs calculadoras de sub-rede podem ser úteis para fornecer informações sobre uma rede ou sub-rede específica. Normalmente, uma calculadora de sub-rede solicitará um endereço IPv4 ou IPv6 específico junto com sua máscara de sub-rede ou comprimento de prefixo. Em seguida, ele calculará os intervalos de endereços para o intervalo completo de sub-redes especificadas.\nNesta atividade, você determinará o endereço IPv4 e a máscara de sub-rede de seu dispositivo e usará uma calculadora de sub-rede on-line para determinar o endereço de rede IPv4.\nInstruções\nParte 1: Determine o endereço IPv4 e a máscara de sub-rede do seu dispositivo\nDependendo do sistema operacional do seu dispositivo (computador ou celular), use o comando adequado para determinar o seguinte:\nEndereço IPv4\nMáscara de sub-rede"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Procure uma calculadora de sub-rede online\nUsando seu navegador da Web, procure calculadora de sub-rede IP para obter uma lista de várias calculadoras de sub-rede IP.\nEscolha uma calculadora de sub-rede IP nos resultados da pesquisa na web.\nParte 3: Insira o endereço IPv4 e a máscara de sub-rede\nNa área apropriada, insira o endereço IPv4 e a máscara de sub-rede do seu dispositivo. Execute o cálculo para determinar o endereço de rede IPv4.\nParte 4: Examine o endereço de rede IPv4\nAs informações fornecidas variam, mas as informações mais comuns incluem:\nEndereço de rede\nIntervalo de endereços de host\nEndereço de broadcast\nNúmero de hosts utilizáveis\nO endereço de rede IPv4 exibido é o endereço de rede do seu dispositivo. Se a saída incluir um intervalo de endereços de host, o endereço do seu dispositivo deverá estar dentro desse intervalo.\nEsta informação pode ser útil para verificar:\nSe o dispositivo em questão está na mesma rede que seu gateway padrão.\nSe dois dispositivos estão em redes diferentes e, portanto, o roteamento adequado deve ser utilizado para acessibilidade.\nObservação: muitas dessas calculadoras de sub-rede também fornecerão a classe de endereço; Classe A, B ou C. É importante ressaltar que esta informação não é mais relevante. O endereçamento classful foi descontinuado com a introdução do Classless Inter-Domain Routing (CIDR) em 1993.\nUsando as informações dos resultados, responda às seguintes perguntas:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Em que etapa do processo de solução de problemas de sete etapas, você criaria um plano de reversão identificando como reverter rapidamente uma solução?",
+      "options": [
+        "Analisar informações",
+        "Definir o problema",
+        "Eliminar possíveis causas",
+        "Coletar informações",
+        "Propor Hipótese",
+        "Resolver o problema e documentar a solução",
+        "Testar hipótese"
+      ],
+      "correctIndex": 6,
+      "explanation": "Está certo.\nAo testar uma solução para um problema, é uma boa ideia ter um plano de reversão caso a solução não funcione. Isso retorna a rede ao estado inicial para que uma nova solução possa ser tentada ou testada.",
+      "raw_id": "63c186c9ac01ad034bd10f77"
+    },
+    {
+      "question": "Qual é a camada OSI mais alta que deve ser considerada ao solucionar problemas de roteadores e switches de Camada 3?",
+      "options": [
+        "Camada 1",
+        "Camada 2",
+        "Camada 3",
+        "Camada 4",
+        "Camada 7"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nAo solucionar problemas, o modelo OSI pode ser usado para ajudar a isolar problemas de rede. Se os sintomas sugerirem um problema em uma camada específica, um técnico pode se concentrar nos dispositivos que operam nessa camada. Roteadores e switches da Camada 3 tomam decisões de encaminhamento na Camada 3 e também tomam decisões de filtragem usando listas de controle de acesso, com base nas informações da Camada 3 e da Camada 4.",
+      "raw_id": "63cf8ef082c839039ac30389"
+    },
+    {
+      "question": "Qual método estruturado de solução de problemas deve ser usado quando um problema de cabeamento é suspeito?",
+      "options": [
+        "de baixo para cima",
+        "comparação",
+        "dividir para conquistar",
+        "suposição fundamentada",
+        "siga o caminho",
+        "de cima para baixo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nComo os cabos operam na Camada 1, a camada física, uma abordagem de solução de problemas de baixo para cima, que começa na Camada 1, é apropriada.",
+      "raw_id": "63cf8fdf5d4b3d02c44afc8f"
+    },
+    {
+      "question": "Qual método estruturado de solução de problemas deve ser usado quando ocorre um problema orientado por software?",
+      "options": [
+        "de baixo para cima",
+        "comparação",
+        "dividir para conquistar",
+        "suposição fundamentada",
+        "siga o caminho",
+        "de cima para baixo"
+      ],
+      "correctIndex": 5,
+      "explanation": "Está certo.\nComo o software opera na Camada 7, a camada de aplicativo, uma abordagem de solução de problemas de cima para baixo, que começa na Camada 7, é apropriada.",
+      "raw_id": "63cf9af282c839039ac3038d"
+    },
+    {
+      "question": "Quais são as duas abordagens de comunicação eficazes para solucionar um problema para um usuário final? (Escolha duas.)",
+      "options": [
+        "Ouça atentamente enquanto o usuário explica o problema.",
+        "Fale no nível técnico do usuário.",
+        "Use o jargão mais atual do setor ao discutir o problema com o usuário.",
+        "Espere até que a conversa termine antes de fazer anotações.",
+        "Coloque o usuário em espera enquanto você tenta resolver o problema."
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAo se comunicar com um usuário final para resolver um problema, você deve falar em um nível técnico que ele possa entender, ouvir atentamente sem interromper quando ele estiver falando e fazer anotações para documentar a conversa. Você também deve evitar o uso de jargões técnicos e da indústria. Não coloque o usuário em espera para resolver o problema. Em vez disso, informe-os de que resolver o problema é importante e que você os acompanhará assim que uma solução for encontrada.",
+      "raw_id": "63c816d4a0cca601d10e8f4f"
+    },
+    {
+      "question": "Que tipo de informação pode ser coletada emitindo o comando show ip interface brief do IOS?",
+      "options": [
+        "um resumo do status e endereços IP atribuídos de todas as interfaces",
+        "uma lista de protocolos configurados e status específico da interface de protocolos habilitados da camada 3",
+        "uma lista de versões de software instaladas para todos ou componentes específicos",
+        "uma lista de todas as rotas IPv4 e IPv6 atuais"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO comando show ip interface brief exibirá um resumo do status e dos endereços IP de todas as interfaces do dispositivo.",
+      "raw_id": "63cfad145d4b3d02c44afc9a"
+    },
+    {
+      "question": "Durante a etapa de coleta de informações, qual comando exibirá os protocolos configurados e o status global e específico da interface de qualquer protocolo da Camada 3 configurado?",
+      "options": [
+        "show protocols",
+        "show ip route",
+        "show ip interface brief",
+        "debug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO comando show protocols exibe os protocolos configurados no dispositivo e o status específico da interface de quaisquer protocolos da Camada 3 habilitados.",
+      "raw_id": "63cfad905d4b3d02c44afc9d"
+    },
+    {
+      "question": "Como as bases de conhecimento baseadas em fornecedores são usadas para auxiliar na solução de problemas?",
+      "options": [
+        "Elas podem ser combinadas com mecanismos de busca na Internet para fornecer ao administrador de rede acesso a um vasto conjunto de informações baseadas em experiência.",
+        "Elas podem ajudar com tarefas de documentação comuns, como desenhar diagramas de rede, manter software de rede e documentação de hardware atualizados e medir a linha de base de uso de largura de banda de rede .",
+        "Elas podem fornecer software de gerenciamento de dispositivo para mostrar o status dinâmico de dispositivos, estatísticas e informações de configuração para os principais dispositivos de rede.",
+        "Elas podem ser usadas para investigar e corrigir problemas de rede e permitir que os administradores de rede monitorem dispositivos remotos de forma contínua e automática."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nAs bases de conhecimento de fornecedores de dispositivos de rede on-line são fontes importantes de informações para administradores de rede. Quando essas bases de conhecimento são combinadas com os mecanismos de pesquisa da Internet, elas fornecem ao administrador um grande conjunto de informações baseadas na experiência.",
+      "raw_id": "63cfae735d4b3d02c44afca0"
+    },
+    {
+      "question": "Quais são as duas informações que podem ser verificadas emitindo o comando ipconfig/all em uma máquina Windows? (Escolha duas.)",
+      "options": [
+        "o endereço IP do adaptador de rede",
+        "o gateway padrão",
+        "todos os endereços IP associados a um nome de domínio de destino",
+        "todas as sessões TCP/IP estabelecidas com o host local",
+        "o número de dispositivos da Camada 3 ao longo do caminho entre o host local e um servidor de destino"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO comando  ipconfig/all, quando emitido em uma máquina Windows, exibirá muitas configurações de IP, como o endereço IP de todos os adaptadores de rede ativos, a máscara de sub-rede, o endereço do servidor DNS e o gateway padrão. Use o comando nslookup para determinar o endereço IP associado a um nome de domínio de destino. Use o comando netstat para visualizar todas as sessões TCP/IP estabelecidas para o host local. Use o comando tracert para visualizar os dispositivos da Camada 3 entre o host local e um servidor de destino.",
+      "raw_id": "63cfb1e25d4b3d02c44afca7"
+    },
+    {
+      "question": "Qual comando um administrador pode usar para verificar a configuração de IP das interfaces em um host Linux?",
+      "options": [
+        "ifconfig",
+        "ipconfig/all",
+        "networksetup -getinfo",
+        "arp -a"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUsando a linha de comando do Linux, o administrador de rede pode exibir o status e a configuração de IP das  interfaces usando o comando ifconfig.",
+      "raw_id": "63cfb1a682c839039ac30390"
+    },
+    {
+      "question": "Um administrador de rede júnior precisa de uma solução para permitir que os técnicos de help-desk acessem dispositivos remotos para fornecer suporte técnico. A solução precisa ser segura e fornecer uma interface gráfica. Qual tecnologia fornecerá a solução necessária?",
+      "options": [
+        "RDP",
+        "VPN",
+        "SSH",
+        "Telnet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO Remote Desktop Protocol (RDP) é uma tecnologia que permite uma experiência de desktop completa com gráficos de alta resolução para os usuários acessarem um dispositivo remoto. As sessões RPD operam em um canal criptografado para impedir a espionagem da sessão. A segurança pode ser aprimorada com senhas fortes e autenticação de dois fatores.",
+      "raw_id": "63cb314de08e6d02c91ee4da"
+    },
+    {
+      "question": "Qual tecnologia de tunelamento permite que um usuário se conecte a uma rede privada e acesse remotamente os serviços e recursos da rede?",
+      "options": [
+        "VPN site-to-site",
+        "VPN de acesso remoto",
+        "GRE tunnel",
+        "RDP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUma VPN de acesso remoto cria um túnel virtual entre um dispositivo de usuário e uma rede remota por meio da Internet pública. Através deste túnel VPN o usuário se conecta à rede privada e tem acesso remoto aos serviços e recursos permitidos. Uma VPN site a site é criada quando os dispositivos de terminação da VPN, também chamados de gateways VPN, são pré-configurados com informações para estabelecer um túnel seguro.",
+      "raw_id": "63cfb66b5d4b3d02c44afca9"
+    },
+    {
+      "question": "O que é usado pelos administradores para controlar, interagir e coletar dados da rede e dos dispositivos clientes?",
+      "options": [
+        "Sistemas de monitoramento de rede",
+        "Analisadores de protocolo",
+        "Bases de conhecimento do fornecedor de rede",
+        "Ferramentas da linha de base de rede"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs sistemas de gerenciamento de rede (NMS) são usados para coletar dados de dispositivos de rede, como switches, roteadores, pontos de acesso e dispositivos clientes. Os dados coletados são usados para fornecer informações sobre a saúde da rede.\nUm NMS também dá ao administrador de rede a capacidade de controlar a operação desses dispositivos e interação uns com os outros.",
+      "raw_id": "63cfb71282c839039ac30397"
+    },
+    {
+      "question": "Depois que um problema é definido, qual é a próxima etapa no processo de solução de problemas de sete etapas?",
+      "options": [
+        "Coletar informações",
+        "Analisar informações",
+        "Propor Hipótese",
+        "Eliminar possíveis causas"
+      ],
+      "correctIndex": 0,
+      "explanation": "O processo de solução de problemas em sete etapas começa com a definição do problema; então, o próximo passo é coletar informações, seguido pela análise dos dados. O processo prossegue com a eliminação de possíveis causas, propondo uma hipótese, testando a hipótese e terminando com a resolução do problema e documentando a solução.",
+      "raw_id": "633a8c4b12b7ea0837b95a21"
+    },
+    {
+      "question": "Quais são os dois tipos de problemas que são mais bem investigados com um método de solução de problemas de baixo para cima? (Escolha duas.)",
+      "options": [
+        "problemas envolvendo um problema não visto antes",
+        "problemas envolvendo cabeamento",
+        "problemas envolvendo softwares instalados em sistemas finais",
+        "problemas envolvendo tabelas de roteamento",
+        "problemas envolvendo endereçamento de sub-rede"
+      ],
+      "correctIndex": 1,
+      "explanation": "A solução de problemas de baixo para cima começa na Camada 1 e sobe na pilha do modelo até a Camada 7 ou até que o problema seja identificado. Essa abordagem é melhor para problemas da Camada 1, como cabeamento ou hardware, e para novos problemas que não ocorreram antes.",
+      "raw_id": "633a8c4b12b7ea0837b95a23"
+    },
+    {
+      "question": "Qual comando fornecerá informações úteis para mapear uma rede?",
+      "options": [
+        "show CDP neighbors",
+        "show ip interfaces brief",
+        "show running-config",
+        "show inventory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Se o CDP estiver ativado em dispositivos, o comando show CDP neighbors pode ajudar a mapear a rede fornecendo informações sobre vizinhos, como o nome do host do vizinho, a porta por meio da qual o vizinho é alcançado, a porta no dispositivo vizinho, o tipo de dispositivo do vizinho e a plataforma de hardware do vizinho.",
+      "raw_id": "633a8c4b12b7ea0837b95a24"
+    },
+    {
+      "question": "Qual padrão IEEE WLAN suporta Wi-Fi 6 e Wi-Fi 6E?",
+      "options": [
+        "802.11ax",
+        "802.11n",
+        "802.11ac",
+        "802.11g"
+      ],
+      "correctIndex": 0,
+      "explanation": "O padrão WLAN mais recente é o 802.11ax, que inclui as especificações para Wi-Fi 6 e Wi-Fi 6E.",
+      "raw_id": "633a8c4b12b7ea0837b95a25"
+    },
+    {
+      "question": "Quais informações podem ser determinadas a partir de uma linha de base da rede?",
+      "options": [
+        "as áreas da rede que estão subutilizadas",
+        "o layout dos componentes na rede",
+        "o status operacional das interfaces do dispositivo de rede",
+        "o número de saltos entre os dispositivos de origem e destino"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma linha de base é criada para definir uma rede ou desempenho do sistema regulares para determinar o estado de uma rede em condições normais. Ela pode identificar áreas na rede que são subutilizadas.",
+      "raw_id": "633a8c4b12b7ea0837b95a26"
+    },
+    {
+      "question": "Um técnico de rede soluciona o problema do PC de um usuário e inicia o Gerenciador de Tarefas para coletar mais informações. Quais informações o técnico pode coletar da saída do Gerenciador de Tarefas?",
+      "options": [
+        "os processos atualmente em execução no PC",
+        "os dispositivos configurados no PC",
+        "os erros que ocorreram no PC",
+        "os drivers instalados no PC"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ferramenta Gerenciador de Tarefas pode ajudar na solução de problemas em um PC com Windows, exibindo os aplicativos e processos que estão em execução no momento.",
+      "raw_id": "633a8c4b12b7ea0837b95a27"
+    },
+    {
+      "question": "Qual comando do Cisco IOS é usado para determinar o caminho dos pacotes IP pela rede?",
+      "options": [
+        "traceroute",
+        "telnet",
+        "show ip route",
+        "ping"
+      ],
+      "correctIndex": 0,
+      "explanation": "Traceroute é uma ferramenta de linha de comando para rastrear o caminho de um pacote IP em redes roteadas.",
+      "raw_id": "633a8c4b12b7ea0837b95a28"
+    },
+    {
+      "question": "Um usuário relata que o computador ocasionalmente perde a conectividade com a rede sem fio. O técnico verifica a configuração no computador do usuário e substitui o ponto de acesso sem fio por um em bom estado. Qual método estruturado de solução de problemas o técnico está usando para resolver o problema?",
+      "options": [
+        "Por Pequenas e Médias Empresas",
+        "Bottom-up (De baixo para cima)",
+        "Divide-and-conquer (Dividir para conquistar)",
+        "Substituição"
+      ],
+      "correctIndex": 3,
+      "explanation": "O técnico substitui um equipamento com suspeita de defeito por outro em bom estado. Isso representa o método Substituição na solução de problemas.",
+      "raw_id": "633a8c4b12b7ea0837b95a29"
+    },
+    {
+      "question": "Qual pergunta permite que o técnico determine o escopo de um problema de rede relatado por um usuário?",
+      "options": [
+        "Outros usuários em sua área estão enfrentando o mesmo problema?",
+        "Você está vendo alguma mensagem de erro quando o problema ocorre?",
+        "O problema é um que você já experimentou antes?",
+        "Você adicionou novos aplicativos recentemente?"
+      ],
+      "correctIndex": 0,
+      "explanation": "É importante determinar quantos usuários são afetados para encontrar o escopo de um problema. Isso ajuda o técnico a determinar se o problema está isolado em um computador, escritório, andar ou rede.",
+      "raw_id": "633a8c4b12b7ea0837b95a30"
+    },
+    {
+      "question": "O que é um exemplo de uma pergunta direcionada e fechada?",
+      "options": [
+        "Qual sistema operacional está instalado no seu computador, Windows, Linux ou macOS?",
+        "Que tipos de mensagens de erro você viu quando teve o problema?",
+        "Que medidas você tomou para tentar resolver o problema antes de reportá-lo?",
+        "O que você pode me dizer sobre como descobriu esse problema?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma pergunta fechada pode ser respondida com uma resposta factual simples. Nesse caso, o sistema operacional do computador é uma resposta factual que pode ter apenas algumas respostas possíveis.",
+      "raw_id": "633a8c4b12b7ea0837b95a31"
+    },
+    {
+      "question": "Quais são as duas plataformas que usam o comando ifconfig para verificar a configuração de IP da interface? (Escolha duas.)",
+      "options": [
+        "Linux",
+        "Mac OS",
+        "Windows",
+        "Cisco"
+      ],
+      "correctIndex": 1,
+      "explanation": "O comando ifconfig pode ser usado com Linux e MAC OS para exibir informações de configuração de IP da interface.",
+      "raw_id": "633a8c4b12b7ea0837b95a32"
+    },
+    {
+      "question": "Qual comando IOS do roteador exibe as informações de sistema equivalentes a muitos comandos show diferentes e é útil para solucionar problemas de um roteador?",
+      "options": [
+        "show tech-support",
+        "show version",
+        "show running-config",
+        "show cdp neighbors detail"
+      ],
+      "correctIndex": 0,
+      "explanation": "O comando show tech-support executa automaticamente mais de 40 comandos show e pode produzir uma quantidade muito grande de saída que é útil para técnicos que pesquisam problemas em um roteador.",
+      "raw_id": "633a8c4b12b7ea0837b95a33"
+    },
+    {
+      "question": "Qual é o principal motivo para estabelecer uma linha de base de desempenho de rede inicial?",
+      "options": [
+        "para determinar o volume de tráfego normal e comportamento na rede",
+        "para eliminar gargalos e congestionamentos que afetam o desempenho",
+        "para limitar o número de dispositivos conectados à rede",
+        "para reduzir a necessidade de monitorar o tráfego depois de fazer alterações na rede"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma das principais razões para estabelecer uma linha de base de desempenho de rede inicial é identificar o volume médio de tráfego e as condições na rede. As linhas de base da rede comparam o desempenho antes e depois das alterações na rede e identificam tipos ou volumes anormais de tráfego.",
+      "raw_id": "633a8c4b12b7ea0837b95a34"
+    },
+    {
+      "question": "Quais são os dois padrões de rede sem fio que operam nos espectros de frequência de 2,4 e 5 GHz? (Escolha duas.)",
+      "options": [
+        "802.11a",
+        "802.11g",
+        "802.11n",
+        "802.11ac",
+        "802.11ax"
+      ],
+      "correctIndex": 4,
+      "explanation": "Os padrões sem fio 802.11 802.11n e 802.11ax podem operar nos espectros de frequência de 2,4 e 5 GHz. Os padrões 802.11a e 802.11ac operam apenas no espectro de 5 GHz e o 802.11g opera apenas no espectro de 2,4 GHz.",
+      "raw_id": "633a8c4b12b7ea0837b95a35"
+    },
+    {
+      "question": "Que tipo de documentação de rede um técnico usaria para determinar os endereços IP e as sub-redes configuradas na rede?",
+      "options": [
+        "Topologia Lógica",
+        "Topologia física",
+        "Diagrama de modelo de design de três camadas",
+        "Diagrama de arquitetura de serviço em nuvem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um mapa de topologia lógica mostra os endereços IP e as sub-redes configuradas na rede. Um mapa de topologia física mostra a localização e as conexões de cada equipamento da rede. O modelo de design de três camadas mostra os componentes das camadas de acesso, distribuição e núcleo de uma rede. Um diagrama de arquitetura de nuvem documenta visualmente os serviços corporativos de computação em nuvem de uma organização.",
+      "raw_id": "633a8c4b12b7ea0837b95a36"
+    }
+  ],
+  "images": []
+}

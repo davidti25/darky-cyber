@@ -1,0 +1,357 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Deixe-me apresentá-lo ao meu amigo Bob! Bob trabalha na área de TI em Vancouver, no Canadá, e tem alguma experiência em redes. Ele está prestando consultoria para seus amigos, Marcy e Vincent, que compraram uma loja de móveis. Eles querem expandir suas operações físicas e se estabelecer na loja online também. Atualmente, a rede interna da loja lida com transações e estoque na loja. Marcy e Vincent querem adicionar câmeras de segurança, telefones VoIP e também expandi-la para incluir comércio eletrônico e remessa. Bob explica que isso vai ser mais caro do que seus amigos tinham previsto. Ele está pensando em projetar a futura rede para a loja de móveis. Ele explica que deve considerar a tolerância a falhas, a escalabilidade, o QoS e a segurança. Além disso, a rede atualmente é plana, não hierárquica. As redes hierárquicas são bem dimensionadas e acomodarão melhor esse negócio em crescimento.\nUau! Isso é muito para Marcy e Vincent entenderem. Eles não estão familiarizados com esses problemas de rede. E você? Aproveite este módulo para saber mais sobre redes confiáveis e design de rede hierárquica!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Redes confiáveis",
+      "content": "{{_moduleNumber}}.1 Redes confiáveis"
+    },
+    {
+      "type": "text",
+      "title": ".1 Redes confiáveis",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Arquitetura de Rede",
+      "content": "Você já esteve ocupado trabalhando on-line, e achou que \"a internet caiu\" ? Como você sabe até agora, a internet não caiu, você acabou de perder sua conexão com ela. Isso é muito frustrante. Com tantas pessoas no mundo confiando no acesso à rede para trabalhar e aprender, é imperativo que as redes sejam confiáveis. Nesse contexto, confiabilidade significa mais do que sua conexão à Internet. Este tópico se concentra nos quatro aspectos da confiabilidade da rede.\nO papel da rede mudou de uma rede somente de dados para um sistema que permite a conexão de pessoas, dispositivos e informações em um ambiente de rede convergente rico em mídia. Para que as redes funcionem com eficiência e cresçam nesse tipo de ambiente, a rede deve ser construída sobre uma arquitetura de rede padrão.\nAs redes também suportam uma ampla gama de aplicativos e serviços. Elas devem operar sobre muitos tipos diferentes de cabos e dispositivos, que compõem a infraestrutura física. O termo arquitetura de redes, neste contexto, refere-se às tecnologias que apoiam a infraestrutura e os serviços programados e as regras, ou protocolos, que movimentam os dados na rede.\nÀ medida que as redes evoluem, aprendemos que há quatro características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário:\nTolerância a falhas\nEscalabilidade\nQualidade de serviço (QoS)\nSegurança"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Tolerância a Falhas",
+      "content": "Uma rede tolerante a falhas é aquela que limita o número de dispositivos afetados durante uma falha. Ela foi desenvolvida para permitir uma recuperação rápida quando ocorre uma falha. Essas redes dependem de vários caminhos entre a origem e o destino de uma mensagem. Se um caminho falhar, as mensagens serão instantaneamente enviadas por um link diferente. Ter vários caminhos para um destino é conhecido como redundância.\nA implementação de uma rede comutada por pacotes é uma das maneiras pelas quais redes confiáveis fornecem redundância. A comutação de pacotes divide os dados do tráfego em pacotes que são roteados por uma rede compartilhada. Uma única mensagem, como um e-mail ou stream de vídeo, é dividido em vários blocos, chamados pacotes. Cada pacote tem as informações de endereço necessárias da origem e do destino da mensagem. Os roteadores na rede alternam os pacotes com base na condição da rede no momento. Isso significa que todos os pacotes em uma única mensagem podem seguir caminhos muito diferentes para o mesmo destino. Na figura, o usuário desconhece e não é afetado pelo roteador que está alterando dinamicamente a rota quando um link falha.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Escalabilidade",
+      "content": "Uma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos. Ela faz isso sem degradar o desempenho dos serviços que estão sendo acessados por usuários existentes. A figura mostra como uma nova rede é facilmente adicionada a uma rede existente. Essas redes são escaláveis porque os projetistas seguem padrões e protocolos aceitos. Isso permite que os fornecedores de software e hardware se concentrem em melhorar produtos e serviços sem precisar criar um novo conjunto de regras para operar na rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.5 Qualidade de Serviço",
+      "content": "A qualidade do serviço (QoS) é um requisito crescente das redes atualmente. Novos aplicativos disponíveis para usuários em redes, como transmissões de voz e vídeo ao vivo, criam expectativas mais altas em relação à qualidade dos serviços entregues. Você já tentou assistir a um vídeo com intervalos e pausas constantes? Conforme o conteúdo de vídeo, voz e dados convergem na mesma rede, o QoS se torna um mecanismo essencial para gerenciar os congestionamentos e garantir a entrega confiável do conteúdo para todos os usuários.\nO congestionamento acontece quando a demanda por largura de banda excede a quantidade disponível. A largura de banda é medida pelo número de bits que podem ser transmitidos em um único segundo, ou bits por segundo (bps). Ao tentar uma comunicação simultânea pela rede, a demanda pela largura de banda pode exceder sua disponibilidade, criando um congestionamento na rede.\nQuando o volume de tráfego é maior do que o que pode ser transportado pela rede, os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los. Na figura, um usuário está solicitando uma página da Web e outro está em uma ligação. Com uma política de QoS configurada, o roteador é capaz de gerenciar o fluxo do tráfego de voz e de dados, priorizando as comunicações por voz se a rede ficar congestionada. O foco do QoS é priorizar o tráfego sensível ao tempo. O tipo de tráfego, e não o conteúdo, é o que é importante.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.6 Segurança de rede",
+      "content": "A infraestrutura da rede, os serviços e os dados contidos nos dispositivos conectados à rede são recursos pessoais e comerciais críticos. Os administradores de rede devem abordar dois tipos de preocupações de segurança de rede: segurança da infraestrutura de rede e segurança da informação.\nProteger a infraestrutura de rede inclui proteger fisicamente os dispositivos que fornecem conectividade de rede e impedir o acesso não autorizado ao software de gerenciamento que reside neles, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Segurança de rede",
+      "content": "Os administradores de rede também devem proteger as informações contidas nos pacotes transmitidos pela rede e as informações armazenadas nos dispositivos conectados à rede. Para atingir os objetivos de segurança de rede, existem três requisitos principais.\nConfidencialidade - A confidencialidade dos dados significa que apenas os destinatários pretendidos e autorizados podem acessar e ler os dados.\nIntegridade - A integridade dos dados garante aos usuários que as informações não foram alteradas na transmissão, da origem ao destino.\nDisponibilidade - A disponibilidade de dados garante aos usuários acesso oportuno e confiável aos serviços de dados para usuários autorizados."
+    },
+    {
+      "type": "text",
+      "title": ".2 Projeto de rede hierárquica",
+      "content": "{{_moduleNumber}}.2 Projeto de rede hierárquica"
+    },
+    {
+      "type": "text",
+      "title": ".2 Projeto de rede hierárquica",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Endereços Físicos e Lógicos",
+      "content": "O nome de uma pessoa normalmente não muda. O endereço de uma pessoa, por outro lado, refere-se a onde a pessoa mora e pode mudar. Em um host, o endereço MAC não muda; ele é atribuído fisicamente à NIC do host e é conhecido como endereço físico. O endereço físico permanece o mesmo, independentemente de onde o host está localizado na rede.\nO endereço IP é semelhante ao endereço de uma pessoa. Ele é conhecido como endereço lógico porque é atribuído logicamente com base na localização do host. O endereço IP (ou endereço de rede) é atribuído a cada host por um administrador de rede com base na rede local.\nOs endereços IP contêm duas partes. Uma parte identifica a porção de rede. A porção de rede do endereço IP será a mesma para todos os hosts conectados à mesma rede local. A segunda parte do endereço IP identifica o host individualmente nesta rede Dentro da mesma rede local, a porção de host do endereço IP é exclusiva para cada host como mostrado na figura.\nOs endereços MAC físico e IP lógico são necessários para que um computador se comunique em uma rede hierárquica, assim como o nome e o endereço de uma pessoa são necessários para enviar uma carta.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Laboratório - Analogia Hierárquica",
+      "content": "Em uma rede Ethernet, o endereço MAC do host é semelhante ao nome de uma pessoa. Um endereço MAC exibe a identidade individual de um host específico, mas não indica onde ele está localizado na rede. Se cada um dos hosts na Internet (milhões e milhões deles) fosse identificado apenas por seu endereço MAC exclusivo, imagine como seria difícil localizar um host específico.\nAlém disso, a tecnologia Ethernet gera uma grande quantidade de tráfego de broadcast para que os hosts se comuniquem. Os broadcasts são enviados para todos os hosts dentro de uma única rede. Eles consomem largura de banda e reduzem o desempenho da rede. O que aconteceria se todos milhões de hosts conectados à Internet estivessem em uma única rede Ethernet e usassem broadcasts?\nPor essas duas razões, grandes redes Ethernet com vários hosts não são eficientes. É melhor dividir redes maiores em redes menores e mais gerenciáveis. Uma forma de fazer isso é usar um modelo de design hierárquico."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Design de Rede",
+      "content": "{{_moduleNumber}}.3 Resumo de Design de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Design de Rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Redes Confiáveis:** À medida que as redes evoluem, aprendemos que existem quatro características básicas que os arquitetos de rede devem abordar para atender às expectativas dos usuários: tolerância a falhas, escalabilidade, QoS e segurança.\nUma rede tolerante a falhas é aquela que limita o número de dispositivos afetados durante uma falha. Isso permite uma recuperação rápida quando ocorre uma falha. Essas redes dependem de vários caminhos entre a origem e o destino de uma mensagem. Se um caminho falhar, as mensagens serão instantaneamente enviadas por um link diferente.\nUma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos. Ela faz isso sem degradar o desempenho dos serviços que estão sendo acessados por usuários existentes. As redes podem ser escaláveis porque os projetistas seguem padrões e protocolos aceitos.\nAtualmente, o QoS é um requisito cada vez maior das redes. Conforme o conteúdo de vídeo, voz e dados converge na mesma rede, o QoS se torna um mecanismo essencial para gerenciar os congestionamentos e garantir a entrega confiável do conteúdo para todos os usuários. A largura de banda da rede é medida em bps. Ao tentar uma comunicação simultânea pela rede, a demanda pela largura de banda pode exceder sua disponibilidade, criando um congestionamento na rede. O foco do QoS é priorizar o tráfego sensível ao tempo. O tipo de tráfego, e não o conteúdo, é o que é importante.\nOs administradores de rede devem abordar dois tipos de preocupações de segurança de rede: segurança da infraestrutura de rede e segurança da informação. Os administradores de rede também devem proteger as informações contidas nos pacotes transmitidos pela rede e as informações armazenadas nos dispositivos conectados à rede. Para atingir os objetivos de segurança da rede, existem três requisitos principais: Confidencialidade, Integridade e Disponibilidade.\n\n**Projeto de Rede Hierárquica:** Os endereços IP contêm duas partes. Uma parte identifica a porção de rede. A porção de rede do endereço IP será a mesma para todos os hosts conectados à mesma rede local. A segunda parte do endereço IP identifica o host individualmente nesta rede. Os endereços IP lógicos e MAC físicos são necessários para que um computador se comunique em uma rede hierárquica.\nA Central de Rede e Compartilhamento em um PC mostra suas informações básicas de rede e configura conexões, incluindo suas redes ativas e se você está conectado com ou sem fio à Internet e em sua LAN. Você pode ver as propriedades das conexões aqui.\nEm uma rede Ethernet, o endereço MAC do host é semelhante ao nome de uma pessoa. Um endereço MAC exibe a identidade individual de um host específico, mas não indica onde ele está localizado na rede. Se cada um dos hosts na Internet (milhões e milhões deles) fosse identificado apenas por seu endereço MAC exclusivo, imagine como seria difícil localizar um host específico. É melhor dividir redes maiores em redes menores e mais gerenciáveis. Uma forma de fazer isso é usar um modelo de design hierárquico.\nAs redes hierárquicas são bem dimensionadas. A camada de acesso fornece um ponto de conexão para dispositivos de usuário final à rede e permite que vários hosts se conectem a outros hosts por meio de um dispositivo de rede, geralmente um switch ou um ponto de acesso sem fio. Normalmente, todos os dispositivos dentro de uma única camada de acesso terão a mesma porção de rede do endereço IP. A camada de distribuição fornece um ponto de conexão para redes separadas e controla o fluxo de informações entre as redes. Os dispositivos da camada de distribuição controlam o tipo e a quantidade de tráfego que flui da camada de acesso para a camada do núcleo. A camada de núcleo é uma camada de backbone de alta velocidade com conexões redundantes. Ela é responsável por transmitir grandes quantidades de dados entre várias redes finais. O objetivo principal da camada do núcleo é transportar dados rapidamente."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Perguntas para reflexão",
+      "content": "Marcy e Vincent têm a sorte de ter a consultoria de Bob a respeito da rede em sua loja. Muitas pequenas empresas têm redes que crescem ao longo do tempo, mas não são projetadas para escalar de forma confiável ou segura. Marcy e Vincent entendem que, se dedicarem algum tempo e gastarem algum dinheiro agora, evitarão muitos problemas à medida que sua rede continue a crescer. Sabendo o que você sabe agora sobre redes confiáveis e escaláveis, há algo que você gostaria de fazer para atualizar sua própria rede em casa, na escola ou no trabalho?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Identificar e trabalhar com placas de rede do PC\nParte 2: Identificar e usar os ícones de rede da barra de tarefas\nHistórico / Cenário\nEste laboratório requer que você determine a existência e o status das placas de rede (NICs) no PC. O Windows fornece diversas formas de ver e trabalhar com os suas placas de rede.\nNeste laboratório, você terá acesso às informações da placa de rede do PC e alterará o status dessas placas.\nRecursos Necessários\n=  1 PC (Windows 10 com duas placas de rede, com e sem fio, e uma conexão sem fio)\n=  Um roteador sem fio\nInstruções\nParte 1: Identificar e trabalhar com placas de rede do PC\nNa Parte 1, você identificará os tipos de placa de rede no PC. Você irá explorar formas diferentes de extrair informações sobre essas placas de rede e como ativá-las e desativá-las.\nNota: Este laboratório foi realizado usando um PC em execução no sistema operacional Windows 10. Você deve conseguir realizar o laboratório com outras versões de sistemas operacionais Windows. Entretanto, as telas e seleções de menu podem variar.\nEtapa 1: Use as conexões de rede.\nVocê verificará quais conexões de rede estão disponíveis.\na.  Clique com o botão direito do mouse em Iniciar e selecione Conexões de Rede.\nb.  A janela Conexões de Rede exibirá a lista das placas de rede disponíveis neste PC. Procure os adaptadores de Conexão local e Conexão de Rede sem Fio nesta janela.\nObservação: se a página Status da rede for exibida, clique em Alterar opções do adaptador para navegar até a janela Conexões de rede.\nObservação: Outros tipos de adaptadores de rede, como os de conexões de rede Bluetooth e de rede privada virtual (VPN), também podem aparecer nessa janela.\nEtapa 2: Trabalhar com placas de rede sem fio.\nVerifique as configurações de conexão de rede sem fio.\na.  Clique com o botão direito do mouse na Conexão de rede sem fio. A primeira opção mostrará se sua placa de rede sem fio está ativada ou desativada. Se sua placa de rede sem fio estiver desativada, você terá uma opção para Ativá -la.\nb.  Verifique se a rede sem fio está conectada. Caso contrário, clique em Connect/Disconnect para conectar-se à rede desejada. Clique em Status para abrir a janela Status da Conexão de Rede sem Fio.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Clique em Detalhes para exibir a janela Detalhes da Conexão de Rede.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Abra um prompt de comando e digite ipconfig /all.\nC:\\Users\\Bob> ipconfig /all\nObserve que as informações exibidas são parecidas com as informações na janela Detalhes de Conexão de Rede. Quando tiver analisado os detalhes, clique em Fechar para retornar à janela Status da Conexão de Rede sem Fio.\ne.  Retorne para a janela Status da Conexão de Rede sem Fio. Clique em Propriedades sem Fio para abrir a janela Propriedades da Rede sem Fio na rede Home-Net.\nf.   Sempre use a segurança sem fio quando ela estiver disponível. Para verificar (ou configurar) as opções de segurança sem fio, clique na guia Segurança.\nA janela exibirá o tipo de segurança e o método de criptografia ativados. Também é possível digitar (ou alterar) a security key (chave de segurança) nesta janela.  Feche todas as janelas.\nEtapa 3: Trabalhar com placas de rede cabeada.\nAgora, vamos verificar as configurações de conexão de rede com fio.\na.  Abra a janela Conexões de Rede ao clicar com o botão direito em Iniciar > Conexões de Rede no Windows.\nObservação: se a página Status da rede for exibida, clique em Alterar opções do adaptador para navegar até a janela Conexões de rede.\nb.  Selecione e clique com o botão direito na opção Conexão de Área Local para exibir a lista suspensa. Se a placa de rede estiver desativada, ative-a.\nc.  Clique na opção Status para abrir a janela Status da Conexão Local. Essa janela exibe as informações sobre a conexão cabeada à LAN.\nd.  Clique em Detalhes... para visualizar as informações de endereço da sua conexão LAN.\ne.  Abra um prompt de comando e digite ipconfig /all. Localize as informações de Conexão Local e compare com as informações exibidas na janela Detalhes da Conexão de Rede.\nf.   Feche todas as janelas no desktop.\nParte 2: Identificar e usar os ícones rede da notificação do sistema\nNa Parte 2, você usará os ícones de rede na bandeja do sistema para exibir as redes disponíveis na rede.\na.  O canto inferior direito da tela do Windows 10 contém a bandeja do sistema. Mova o mouse para exibir a bandeja do sistema.\nb.  Se você passar o mouse sobre o ícone de rede na bandeja do sistema, ele exibirá as redes conectadas no momento.\nc.  Clique no ícone de rede sem fio para ver os SSIDs da rede com e sem fio que estão ao alcance da placa de rede sem fio.\nd.  Clique com o botão direito no ícone da rede sem fio para ver uma opção de solução de problemas e abrir a janela Central de Rede e Compartilhamento.\ne.  Clique na opção Abrir Central de Rede e Compartilhamento.\nf.   A janela Central de Rede e Compartilhamento é uma janela central que exibe as informações sobre a rede ou as redes ativas, o tipo de rede e o tipo de acesso.\nReflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Quando os designers seguem padrões e protocolos aceitos, qual das quatro características básicas da arquitetura de rede é alcançado?",
+      "options": [
+        "Tolerância a falhas",
+        "Escalabilidade",
+        "QoS",
+        "Segurança"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA escalabilidade ocorre quando os designers seguem padrões e protocolos aceitos.",
+      "raw_id": "e689d599595646b883195e38b3459827"
+    },
+    {
+      "question": "Confidencialidade, integridade e disponibilidade são requisitos de qual das quatro características básicas da arquitetura de rede?",
+      "options": [
+        "Tolerância a falhas",
+        "Escalabilidade",
+        "QoS",
+        "Segurança"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nConfidencialidade, integridade e disponibilidade são requisitos de segurança.",
+      "raw_id": "3721f4a59e15451fb829fb80de6424b5"
+    },
+    {
+      "question": "Com qual tipo de política, um roteador pode gerenciar o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz se a rede sofrer congestionamento?",
+      "options": [
+        "Tolerância a falhas",
+        "Escalabilidade",
+        "QoS",
+        "Segurança"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nQoS significa que um roteador gerenciará o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz.",
+      "raw_id": "8c57555a9a67475abc2ee25e1e6f5268"
+    },
+    {
+      "question": "Ter vários caminhos para um destino é conhecido como redundância. Este é um exemplo de qual característica da arquitetura de rede?",
+      "options": [
+        "Tolerância a falhas",
+        "Escalabilidade",
+        "QoS",
+        "Segurança"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nRedundância é um exemplo de arquitetura de rede tolerante a falhas.",
+      "raw_id": "1a70c6e17f5d4143b068e08965d3fe74"
+    },
+    {
+      "question": "Um endereço IP é considerado que tipo de endereço:",
+      "options": [
+        "físico",
+        "lógica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm endereço IP é um endereço lógico.",
+      "raw_id": "622973fc1a8f43869a650658b5913a8d"
+    },
+    {
+      "question": "Um endereço MAC Ethernet é considerado que tipo de endereço:",
+      "options": [
+        "físico",
+        "lógica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm endereço MAC Ethenret é um endereço físico.",
+      "raw_id": "ac7c22b259634f499e3e79de32516323"
+    },
+    {
+      "question": "Qual endereço não muda quando um dispositivo está conectado a uma nova rede?",
+      "options": [
+        "físico",
+        "lógica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO endereço físico não muda quando o dispositivo está conectado a uma nova rede.",
+      "raw_id": "5e9524ce70be47c8aeabe317f7cf1c27"
+    },
+    {
+      "question": "Qual parte de um endereço IP identifica exclusivamente esse dispositivo na rede?",
+      "options": [
+        "físico",
+        "lógica",
+        "rede",
+        "host"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA parte Host  de um endereço IP identifica um dispositivo em uma rede local",
+      "raw_id": "3ffec96034784226b8d3bb9f5d032b16"
+    },
+    {
+      "question": "Qual camada de projeto oferece conectividade para dispositivos em uma LAN Ethernet?",
+      "options": [
+        "núcleo",
+        "distribuição",
+        "acesso",
+        "físico"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA camada de acesso oferece conectividade para dispositivos em uma LAN Ethernet",
+      "raw_id": "a13ad46560034f8da5bc1d9afdafb0f1"
+    },
+    {
+      "question": "Quais dois dispositivos seriam normalmente encontrados na camada de acesso do modelo hierárquico de design de LAN corporativa? (Escolha duas.)",
+      "options": [
+        "ponto de acesso",
+        "firewall",
+        "switch de Camada 2",
+        "dispositivo de camada 3",
+        "⁪switch modular"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enquanto alguns projetos roteiam na camada de acesso, os dois dispositivos que devem sempre ser colocados na camada de acesso do modelo de projeto hierárquico são um ponto de acesso e um switch de camada 2. Um switch modular é comumente usado na camada de núcleo. Rroteamento por um dispositivo de Camada 3 é comumente usado na camada de distribuição. O firewall é um dispositivo no design de rede de borda da Internet.",
+      "raw_id": "6ac583880d804615a76e7d95446b0480"
+    },
+    {
+      "question": "Que característica de uma rede permite que ela cresça rapidamente para comportar novos usuários e aplicações sem prejudicar o desempenho do serviço fornecido aos usuários atuais?",
+      "options": [
+        "confiabilidade",
+        "escalabilidade",
+        "qualidade de serviço",
+        "acessibilidade"
+      ],
+      "correctIndex": 1,
+      "explanation": "As redes precisam ter a capacidade de crescer rapidamente para comportar novos usuários e serviços sem prejudicar os usuários e os serviços atuais. Essa capacidade de crescer chama-se escalabilidade.",
+      "raw_id": "d03da3317e4c4531b166186e6b3678b4"
+    },
+    {
+      "question": "Um aluno está transmitindo um filme para o computador, mas o filme fica parando. Qual serviço daria maior prioridade ao tráfego de streaming e evitaria a interrupção do filme?",
+      "options": [
+        "HTTPS",
+        "segurança",
+        "tolerância a falhas",
+        "Qualidade do serviço (QoS)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Os dados de vídeo precisam ser transmitidos em um fluxo contínuo. O QoS pode ser usado para dar aos dados de vídeo alta prioridade durante a transmissão de dados, para que o tráfego de vídeo seja enviado primeiro.",
+      "raw_id": "f75912ede3174326aec51161e099a373"
+    },
+    {
+      "question": "Verdadeiro ou falso?\nO impacto da falha de um importante dispositivo de rede pode ser limitado por um recurso chamado tolerância a falhas.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma rede tolerante a falhas limita o impacto de uma falha. Sua implementação cria a rede de uma maneira que permite a recuperação rápida se um dispositivo de rede essencial falhar.",
+      "raw_id": "30b9ece869394a4a92050c0d38bd3ae2"
+    },
+    {
+      "question": "Que tipo de endereço nunca muda em um dispositivo e é semelhante a um nome da pessoa?",
+      "options": [
+        "Endereço MAC",
+        "Endereço IP",
+        "endereço de rede",
+        "endereço lógico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um endereço de controle de acesso de mídia (MAC) é exclusivo em cada dispositivo. Um endereço IP (Internet Protocol) é usado para se comunicar com dispositivos em outra LAN ou na Internet. Um endereço de broadcast permite que um único dispositivo se comunique com todos os outros dispositivos. Um endereço multicast permite que um único dispositivo se comunique com um grupo de dispositivos.",
+      "raw_id": "5e0789cdb3964b6bb0d305f70caccef1"
+    },
+    {
+      "question": "Quais são as três camadas do modelo de design hierárquico do switch? (Escolha três.)",
+      "options": [
+        "acesso",
+        "Enlace de dados",
+        "núcleo",
+        "Acesso à rede",
+        "empresa",
+        "distribuição"
+      ],
+      "correctIndex": 5,
+      "explanation": "A camada de acesso é a mais baixa e oferece acesso de rede aos usuários. A camada de distribuição tem muitas funções, mas agrega dados da camada de acesso, fornece filtragem, controle de política e define os limites de roteamento da camada 3. A camada de núcleo oferece conectividade de alta velocidade.",
+      "raw_id": "39282af161ec4a05b3a899668c896ff1"
+    },
+    {
+      "question": "Qual recurso de rede usa a redundância como forma de limitar o número de usuários afetados no caso de uma falha?",
+      "options": [
+        "tolerância a falhas",
+        "escalabilidade",
+        "qualidade de serviço",
+        "segurança"
+      ],
+      "correctIndex": 0,
+      "explanation": "A redundância no design da rede oferece tolerância a falhas para limitar o número de usuários afetados se houver uma falha.",
+      "raw_id": "ef45ef334ed34985bafea38912c3d9cd"
+    },
+    {
+      "question": "Que característica de uma rede permitiria que o tráfego de vídeo tivesse prioridade sobre o tráfego de um aplicativo de e-mail?",
+      "options": [
+        "qualidade de serviço",
+        "tolerância a falhas",
+        "escalabilidade",
+        "confiabilidade"
+      ],
+      "correctIndex": 0,
+      "explanation": "Qualidade de serviço (QoS) é implementada em redes para priorizar o tráfego. O tráfego para serviços em tempo real, como voz e vídeo, requer uma prioridade mais alta do que o tráfego de dados. Isso ajuda a garantir a entrega confiável de conteúdo de voz e vídeo aos usuários.",
+      "raw_id": "ac6d5ccbc4f940ef93a4b5bf649f0b27"
+    },
+    {
+      "question": "Qual é a responsabilidade da camada de distribuição em um projeto de rede hierárquica?",
+      "options": [
+        "Ele controla os fluxos de tráfego entre as outras camadas.",
+        "Ele fornece acesso à rede para usuários finais.",
+        "Ele fornece um backbone de alta velocidade para fluxos de tráfego.",
+        "Ele controla quais dispositivos têm permissão para se comunicar na rede."
+      ],
+      "correctIndex": 0,
+      "explanation": "A camada de distribuição controla o tipo e a quantidade de tráfego que flui da camada de acesso para a camada de núcleo.",
+      "raw_id": "ab9a366fea3443cf8b0276a91a8bc7c1"
+    },
+    {
+      "question": "Qual modelo de design de rede melhora a eficiência dividindo a rede em partes menores.",
+      "options": [
+        "Hierárquica",
+        "redundante",
+        "tolerância a falhas",
+        "soluções de SMB confiáveis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um design de rede hierárquico divide a rede em partes menores para melhorar a eficiência. O design hierárquico da Cisco divide a rede em três camadas: núcleo, distribuição, e acesso.",
+      "raw_id": "884bd367aca346a28936578bbdba3720"
+    }
+  ],
+  "images": []
+}

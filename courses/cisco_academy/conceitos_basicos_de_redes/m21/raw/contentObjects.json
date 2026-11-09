@@ -1,0 +1,776 @@
+[
+  {
+    "_id": "c826c3e4-45b7-4a45-96bb-18233b99c506",
+    "body": "<p><span>Entendendo o Ethernet Switching.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "c826c3e4-45b7-4a45-96bb-18233b99c506",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "7f748ad8-04b9-4abf-8532-e044ce6bbdc7",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg",
+        "_small": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg",
+        "_medium": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg",
+        "_small": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg",
+        "_medium": "pt-BR/assets/375f0637200b4221a0b5602a1d2ac9b4.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "957bf2b3-5711-4ab6-847f-e6a8ec481a6f",
+    "body": "<p><span>Explicar as funções das camadas 1 e 2 do modelo OSI em uma rede Ethernet.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Ethernet",
+    "_oldId": "957bf2b3-5711-4ab6-847f-e6a8ec481a6f",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "6fcf9758-eec7-4cc2-af81-32fc43b3b266",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg",
+        "_small": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg",
+        "_medium": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg",
+        "_small": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg",
+        "_medium": "pt-BR/assets/7f1ef215f7d74705bb5f1f77ece8279b.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.1. Ethernet",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "b2ae23f0-20aa-4893-a35c-702ed305d577",
+    "body": "<p><span>Explicar como as subcamadas da Ethernet se relacionam com os campos do quadro.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Quadros Ethernet",
+    "_oldId": "b2ae23f0-20aa-4893-a35c-702ed305d577",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "77a7b0b2-a3bf-44bf-b9e9-ba63bd3df227",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg",
+        "_small": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg",
+        "_medium": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg",
+        "_small": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg",
+        "_medium": "pt-BR/assets/1f0dc0cf92de430790e5f90973b7aa35.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.2. Quadros Ethernet",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2c1021ee-edae-4c56-907e-3e6fef0328d2",
+    "body": "<p><span>Explique os tipos de endereços MAC Ethernet.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Endereços MAC Ethernet",
+    "_oldId": "2c1021ee-edae-4c56-907e-3e6fef0328d2",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "3e86ec28-7742-4843-bf3d-598eeec34360",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg",
+        "_small": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg",
+        "_medium": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg",
+        "_small": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg",
+        "_medium": "pt-BR/assets/db7dffb5616f4284a6727bd8499177d3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.3. Endereços MAC Ethernet",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2090f90a-d795-4f35-9097-2c98d6495dde",
+    "body": "<p><span>Explicar como um switch cria sua tabela de endereços MAC e encaminha os quadros.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. A tabela de endereços MAC",
+    "_oldId": "2090f90a-d795-4f35-9097-2c98d6495dde",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "4d0bdc6d-dc90-4413-8e10-801ecc187fd3",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg",
+        "_small": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg",
+        "_medium": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg",
+        "_small": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg",
+        "_medium": "pt-BR/assets/139b132bf8fe4f32b0fdc26ea231cdcf.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.4. A tabela de endereços MAC",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2116d641-87a7-4f52-83a5-8b1dbd1abc7c",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Resumo do Ethernet Switching",
+    "_oldId": "2116d641-87a7-4f52-83a5-8b1dbd1abc7c",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "b6f5b965-63eb-4805-bbfa-f0e1a04a5c45",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg",
+        "_small": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg",
+        "_medium": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg",
+        "_small": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg",
+        "_medium": "pt-BR/assets/8b20e7920330408abb7c15426e2a6dce.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "{{_moduleNumber}}.5. Resumo do Ethernet Switching",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "9acd1baf-0f50-4032-8bab-cc87e8eb186b",
+    "body": "",
+    "_type": "page",
+    "title": "Laboratório – Como determinar o endereço MAC de um host",
+    "_oldId": "9acd1baf-0f50-4032-8bab-cc87e8eb186b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "b032d2b9-1d37-41d8-9d59-0f5860463bb6",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "Laboratório – Como determinar o endereço MAC de um host",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "08b27fe5-0346-4354-8e05-deaccf8e90ce",
+    "body": "",
+    "_type": "page",
+    "title": "Laboratório - Observar o tráfego capturado pelo Wireshark",
+    "_oldId": "08b27fe5-0346-4354-8e05-deaccf8e90ce",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "5de613aa-784f-4cf8-a47d-446a76df8e00",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "Laboratório - Observar o tráfego capturado pelo Wireshark",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "887c19b4-8c72-4692-837b-d4e9f0084362",
+    "body": "",
+    "_type": "page",
+    "title": "Laboratório - Use o Wireshark para examinar os quadros Ethernet",
+    "_oldId": "887c19b4-8c72-4692-837b-d4e9f0084362",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 8,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32c21f3805044df6a54683c7986f5eba",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "05a3d03f-9fa3-4847-ace6-2acbc75b5426",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "32c21f3805044df6a54683c7986f5eba",
+    "displayTitle": "Laboratório - Use o Wireshark para examinar os quadros Ethernet",
+    "_isPageTracer": false,
+    "_activityParentId": "af12c1a6-08be-4e1b-8086-107b03b0137c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

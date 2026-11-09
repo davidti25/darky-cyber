@@ -1,0 +1,1137 @@
+[
+  {
+    "_id": "8157d7fa691c473192c0197649fef2ab",
+    "body": "<p><span>Compreendendo os serviços da camada de aplicação.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "8157d7fa691c473192c0197649fef2ab",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "33fa5901-c326-47ef-b20b-3f86f353873a",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg",
+        "_small": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg",
+        "_medium": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg",
+        "_small": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg",
+        "_medium": "pt-BR/assets/984696e11c0749feae9b4d3be9fbf3a5.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a68d45efce2b458590125cc4e57f60b1",
+    "body": "<p><span>Explicar a interação entre clientes e servidores.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. A relação Cliente - Servidor",
+    "_oldId": "a68d45efce2b458590125cc4e57f60b1",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "50a72388-d315-4237-bc2b-d1451ddb75ae",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg",
+        "_small": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg",
+        "_medium": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg",
+        "_small": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg",
+        "_medium": "pt-BR/assets/fffd348e7ee04b37bf8f4630f25849dc.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.1. A relação Cliente - Servidor",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "fd4a4fc4b37f481daf93209af5bdcf55",
+    "body": "<p><span>Descrever as aplicações comuns de rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Serviços de Aplicação de Rede",
+    "_oldId": "fd4a4fc4b37f481daf93209af5bdcf55",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "c4c5f264-f72a-40c5-9a08-248d4690a220",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg",
+        "_small": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg",
+        "_medium": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg",
+        "_small": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg",
+        "_medium": "pt-BR/assets/0b734b7862ce4baa912fcad1492d9ada.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.2. Serviços de Aplicação de Rede",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "b3ab8cd618844b3cbe7ff65d68c37329",
+    "body": "<p><span>Descrever o DNS.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Domain Name System (Sistema de Nomes de Domínios).",
+    "_oldId": "b3ab8cd618844b3cbe7ff65d68c37329",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "c3302e5d-5e4a-454d-bb65-073fe495f59a",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg",
+        "_small": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg",
+        "_medium": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg",
+        "_small": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg",
+        "_medium": "pt-BR/assets/56fe5ac990344698a2921b9c609170fa.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.3. Domain Name System (Sistema de Nomes de Domínios).",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2b1b8cc8266e47db91df389773abbefe",
+    "body": "<p><span>Descrever HTTP e HTML.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Clientes e servidores Web",
+    "_oldId": "2b1b8cc8266e47db91df389773abbefe",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "d6992aca-72fc-4fd8-b78b-b3e87e807be8",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg",
+        "_small": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg",
+        "_medium": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg",
+        "_small": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg",
+        "_medium": "pt-BR/assets/34d8e591f63c4f68ac37b45f4972e47a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.4. Clientes e servidores Web",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "663fd9191c24410cb8fbb13cf22ca116",
+    "body": "<p><span>Descrever o FTP.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Clientes e servidores FTP",
+    "_oldId": "663fd9191c24410cb8fbb13cf22ca116",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "f717cf65-0071-4d1c-84b0-0dd3ef95f0dd",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg",
+        "_small": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg",
+        "_medium": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg",
+        "_small": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg",
+        "_medium": "pt-BR/assets/ced507366d004da7b4d1d2f23cb67d97.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.5. Clientes e servidores FTP",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "84d58cafea2a47be89f878dd9cecb890",
+    "body": "<p><span>Descrever o Telnet e o SSH.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.6. Terminais virtuais",
+    "_oldId": "84d58cafea2a47be89f878dd9cecb890",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "617c21a3-f972-4a9f-8a48-39177da00820",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg",
+        "_small": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg",
+        "_medium": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg",
+        "_small": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg",
+        "_medium": "pt-BR/assets/6618cb4abf514aa5a1f541c7e385c365.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.6. Terminais virtuais",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "09bc27475cd0401ebe7f255387bb0daf",
+    "body": "<p><span>Descrever os protocolos de e-mail.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.7. E-mail e mensagens",
+    "_oldId": "09bc27475cd0401ebe7f255387bb0daf",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "88d9f5ff-4911-4a55-94c6-e284d18617bc",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg",
+        "_small": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg",
+        "_medium": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg",
+        "_small": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg",
+        "_medium": "pt-BR/assets/b046462661ab4e44a7d29c9d5bec52ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.7. E-mail e mensagens",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "e248cca6e7ae4273a5f557145f86a4c2",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.8. Resumo dos serviços da camada de aplicação",
+    "_oldId": "e248cca6e7ae4273a5f557145f86a4c2",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 8,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "44e29bbc-836f-4320-b205-eda09860f06e",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg",
+        "_small": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg",
+        "_medium": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg",
+        "_small": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg",
+        "_medium": "pt-BR/assets/12b3ba0b27da4efa9310b17587240dac.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "{{_moduleNumber}}.8. Resumo dos serviços da camada de aplicação",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "147c43f7-e7ef-44fd-9148-1cf9e3626bb1",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - A interação do cliente",
+    "_oldId": "147c43f7-e7ef-44fd-9148-1cf9e3626bb1",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 9,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "c3a7a028-b70b-420c-bf74-9f3b63511110",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "Packet Tracer - A interação do cliente",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1dbab3e6-a9f7-46d5-9661-4c8849eb3e79",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Observando solicitações Web",
+    "_oldId": "1dbab3e6-a9f7-46d5-9661-4c8849eb3e79",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 10,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "689b52b1-6b0f-418f-a9d2-9b96c0288760",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "Packet Tracer - Observando solicitações Web",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d82fd524-0eca-473b-8cbd-61a821a9404b",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Usando serviços FTP",
+    "_oldId": "d82fd524-0eca-473b-8cbd-61a821a9404b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 11,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "1bc1e2b4-65fc-45fa-8947-9fc3b02b2edf",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "Packet Tracer - Usando serviços FTP",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "598daccf-1ec7-4116-b707-617efe809435",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer- Uso do Telnet e SSH",
+    "_oldId": "598daccf-1ec7-4116-b707-617efe809435",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 12,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "7caf3e1a-bdc5-468f-9e64-866dc9c0f5cf",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bea36fcffe7b44faa13f1e4a6f201afa",
+    "displayTitle": "Packet Tracer- Uso do Telnet e SSH",
+    "_isPageTracer": false,
+    "_activityParentId": "a8dfada5-c8ce-48c3-8a11-2c0ee79d4c2a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

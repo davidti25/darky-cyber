@@ -1,0 +1,280 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori está aprendendo muito com Rina! Ela entende que, quando envia ou recebe um pacote pelo correio, há um endereço exclusivo envolvido. Um código postal é essencial no endereço para rotear o pacote para a agência postal correta. Ela pergunta a Rina se os computadores usam algo como um código postal para encaminhar a mensagem para o local correto. Rina explica mais detalhes sobre o processo e explica que, assim como o endereço residencial de Kishori identifica onde ela mora, um endereço IPv4 identifica um host na rede. Um host precisa de um endereço IPv4 para entrar na Internet. Cada pacote enviado pela Internet tem um endereço IPv4 de origem e de destino. Essa informação é necessária para os dispositivos de rede garantirem que os dados cheguem ao destino e que as respostas sejam retornadas à origem.\nMinha amiga Kishori nunca pensou que ela estaria tão interessada em todas essas informações de tecnologia, mas ela realmente quer saber mais! E você? Aproveite este módulo para saber mais sobre o protocolo da Internet e a estrutura dos endereços IPv4!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Finalidade de um endereço IPv4",
+      "content": "{{_moduleNumber}}.1 Finalidade de um endereço IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".1 Finalidade de um endereço IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Octetos e notação decimal com ponto",
+      "content": "Os endereços IPv4 têm 32 bits de comprimento. Aqui está um endereço IPv4 em binário:\n11010001101001011100100000000001\nObserve como é difícil ler este endereço. Imagine ter que configurar dispositivos com uma série de 32 bits! Por esse motivo, os 32 bits são agrupados em quatro bytes de 8 bits chamado octetos:\n11010001.10100101.11001000.00000001\nEstá melhor, mas ainda assim difícil de ler. É por isso que convertemos cada octeto em seu valor decimal, separados por um ponto decimal ou por um período. O IPv4 binário acima torna-se esta representação decimal com ponto\n: 209.165.200.1\nObservação: por enquanto, você não precisa saber como converter entre sistemas de números binários e decimais."
+    },
+    {
+      "type": "text",
+      "title": ".2 A estrutura do endereço IPv4",
+      "content": "{{_moduleNumber}}.2 A estrutura do endereço IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".2 A estrutura do endereço IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Redes e hosts",
+      "content": "O endereço lógico IPv4 de 32 bits é hierárquico e contém duas partes, a rede e o host Na figura, a porção de rede é azul e a porção de host é vermelha. As duas partes são necessárias em um endereço IPv4. Ambas as redes têm a máscara de sub-rede 255.255.255.0. Máscara de sub-rede é usada para identificar a rede à qual o host está conectado.\nComo exemplo, um host com o endereço IPv4 192.168.5.11 e a máscara de sub-rede 255.255.255.0. Os três primeiros octetos (192.168.5) identificam a porção de rede do endereço e o último octeto (11) identifica o host. Isso é conhecido como endereçamento hierárquico porque a porção de rede indica a rede na qual está localizado cada endereço exclusivo de host. Os roteadores precisam saber apenas como alcançar cada rede, em vez de precisar saber a localização de cada host individual.\nCom o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente. Por exemplo: três hosts em uma única rede local física têm a mesma porção de rede do endereço IPv4 (192.168.18) e outros três hosts têm porções de rede diferentes de seus endereços IPv4 (192.168.5). Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não com os outros hosts sem o uso de roteamento. Neste exemplo, há uma rede física e duas redes IPv4 lógicas.\nOutro exemplo de rede hierárquica é o sistema telefônico. Em um número de telefone, o código de país, o código de área e a central telefônica representam o endereço de rede e os dígitos restantes representam um número de telefone local.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo Protocolo IP",
+      "content": "{{_moduleNumber}}.3 Resumo  Protocolo IP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo Protocolo IP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Finalidade do endereço IPv4:** O endereço IPv4 é um endereço de rede lógico que identifica um host específico. Ele deve ser configurado corretamente e de forma exclusiva dentro da LAN, para fornecer comunicação local. Também deve ser configurado corretamente e de forma exclusiva no mundo, para fornecer comunicação remota.\nUm endereço IPv4 é atribuído à  conexão de interface de rede de um host. Essa conexão geralmente é uma placa de interface de rede (NIC) instalada no dispositivo.\nCada pacote enviado pela Internet tem um endereço IPv4 de origem e de destino. Essa informação é necessária para os dispositivos de rede garantirem que os dados cheguem ao destino e que as respostas sejam retornadas à origem.\n\n**A estrutura do endereço IPv4:** O endereço lógico IPv4 de 32 bits é hierárquico e contém duas partes, a rede e o host Como exemplo, um host com o endereço IPv4 192.168.5.11 e a máscara de sub-rede 255.255.255.0. Os três primeiros octetos (192.168.5) identificam a porção de rede do endereço e o último octeto (11) identifica o host. Isso é conhecido como endereçamento hierárquico porque a porção de rede indica a rede na qual está localizado cada endereço exclusivo de host.\nOs roteadores precisam saber apenas como alcançar cada rede, em vez de precisar saber a localização de cada host individual. Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Faz sentido que cada dispositivo na rede tenha um endereço IP, e os roteadores usam esses endereços para enviar pacotes da origem para o destino. Quando envio uma carta pelo correio, coloco o endereço e o endereço do destinatário no envelope. Mas agora vejo a outra conexão com a forma como as redes operam. O código postal e a cidade do meu destinatário são um pouco parecidos com a parte da rede do endereço IP, e o endereço é como a porção host do endereço IP. Você consegue pensar em outras analogias com as operações de rede e endereços IP?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nObserve como os pacotes são enviados pela Internet usando endereços IP.\nInstruções\nParte 1: Verificar a conectividade ao servidor da Web\na.  Abra a janela do prompt de comando do host de origem. Selecione PC0.\nb.  Selecione a guia Desktop > Command Prompt.\nc.  Verificar a conectividade ao servidor da Web. No prompt de comando, pingue o endereço IP do servidor web digitando ping 172.33.100.50.\nPC> ping 172.33.100.50\nPinging 172.33.100.50 with 32 bytes of data:\nReply from 172.33.100.50: bytes=32 time=0ms TTL=127\nReply from 172.33.100.50: bytes=32 time=0ms TTL=127\nReply from 172.33.100.50: bytes=32 time=0ms TTL=127\nReply from 172.33.100.50: bytes=32 time=0ms TTL=127\nPing statistics for 172.33.100.50:\nPackets: Sent = 4, Received = 3, Lost = 1 (25% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 0ms, Maximum = 0ms, Average = 0ms\nUma resposta verifica a conectividade do cliente com o servidor web de destino. A resposta pode atingir o tempo limite enquanto os dispositivos carregam e o ARP é executado.\nd.  Feche somente a janela do prompt de comando ao selecionar o x na janela do prompt de comando. Certifique-se de deixar a janela de configurações do PC0 aberta.\nParte 2: Conecte-se ao servidor da Web através do cliente da Web.\na.  Na guia Desktop no PC0, escolha Web Browser.\nb.  Insira 172.33.100.50 na URL e clique em Go. O cliente Web será conectado ao servidor Web através do endereço IP e abrirá a página da Web."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Qual é o endereço de rede do Host-A?",
+      "options": [
+        "10.0.0.0",
+        "10.5.0.0",
+        "10.5.4.0",
+        "10.5.4.100"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO endereço de rede para 10.5.4.100 com uma máscara de sub-rede de 255.255.255.0 é 10.5.4.0.",
+      "raw_id": "803a6881239c4feaaaa86423cbd261a0"
+    },
+    {
+      "question": "O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Qual é o endereço de rede do Host-A?",
+      "options": [
+        "172.0.0.0",
+        "172.16.0.0",
+        "172.16.4.0",
+        "172.16.4.100"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO endereço de rede para 172.16.4.100 com uma máscara de sub-rede de 255.255.0.0 é 172.16.0.0.",
+      "raw_id": "300e6e3f8e2046c3b86603193a1cea81"
+    },
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "10.5.4.1",
+        "10.5.0.1",
+        "10.5.4.99",
+        "10.0.0.98",
+        "10.5.100.4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO Host A está na rede 10.5.4.0. Portanto, os dispositivos com os endereços IPv4 10.5.4.1 e 10.5.4.99 estão na mesma rede.",
+      "raw_id": "b4824ee83fe74e079497b27947e3a01d"
+    },
+    {
+      "question": "O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "172.16.4.99",
+        "172.16.0.1",
+        "172.17.4.99",
+        "172.17.4.1",
+        "172.18.4.1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO host A está na rede 172.16.0.0. Portanto, os dispositivos com os endereços IPv4 172.16.4.99 e 172.16.0.1 estão na mesma rede.",
+      "raw_id": "dd6c2119aa734770a8ac4103f696a059"
+    },
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 192.168.1.50 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "192.168.0.1",
+        "192.168.0.100",
+        "192.168.1.1",
+        "192.168.1.100",
+        "192.168.2.1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO Host A está na rede 192.168.1.0. Portanto, os dispositivos com os endereços IPv4 192.168.1.1 e 192.168.1.100 estão na mesma rede.",
+      "raw_id": "67f74759af464402a3062747744933ec"
+    },
+    {
+      "question": "Que critério deve ser seguido no projeto de um esquema de endereçamento IPv4 para dispositivos finais?",
+      "options": [
+        "Cada endereço IP deve corresponder ao endereço atribuído ao host pelo DNS.",
+        "Cada endereço IP deve ser único em uma mesma rede.",
+        "Cada endereço IP precisa ser compatível com o endereço MAC.",
+        "Cada host local deve receber um endereço IP com um componente de rede exclusivo."
+      ],
+      "correctIndex": 1,
+      "explanation": "O endereço IP é independente de um endereço MAC. Os endereços IP atribuídos aos dispositivos finais devem ser exclusivos. Eles podem ser atribuídos dinamicamente por um servidor DHCP (não um servidor DNS) ou atribuídos manualmente por administradores de rede local. Se um endereço for atribuído manualmente, o administrador de rede deve garantir que ele seja único.",
+      "raw_id": "777f55543408471fa7ec5bb1c654941b"
+    },
+    {
+      "question": "Quantos octetos existem em um endereço  IPv4?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cada octeto comporta 8 bits e um endereço IPv4 contém 32 bits. Portanto, um endereço IPv4 contém quatro octetos.",
+      "raw_id": "d87aec131ba14bbd8d2cd350f65695fe"
+    },
+    {
+      "question": "Quais duas partes são componentes de um endereço IPv4? (Escolha duas.)",
+      "options": [
+        "parte de sub-rede",
+        "parte da rede",
+        "parte lógica",
+        "parte de host",
+        "parte física",
+        "parte de broadcast"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um endereço IPv4 é dividido em duas partes: uma parte da rede - para identificar a rede específica na qual um host reside e uma parte do host - para identificar hosts específicos em uma rede. Uma máscara de sub-rede é usada para identificar o comprimento de cada porção.",
+      "raw_id": "c84eae2fb24a4e7499a6d07c4243df93"
+    },
+    {
+      "question": "Qual é o objetivo de combinar a máscara de sub-rede com um endereço IP?",
+      "options": [
+        "identificar exclusivamente um host em uma rede",
+        "identificar se o endereço é público ou privado",
+        "determinar a sub-rede a qual o host pertence",
+        "mascarar o endereço IP para intrusos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Com o endereço IPv4, uma máscara de sub-rede também é necessária. Uma máscara de sub-rede é um tipo especial de endereço IPv4 que, associado ao endereço IP, determina a sub-rede da qual o dispositivo faz parte.",
+      "raw_id": "d7603a8b96ea4d8496a6beb4cc53c1a4"
+    },
+    {
+      "question": "Um técnico está configurando o equipamento em uma rede. Quais são os três dispositivos que precisarão de endereços IP?\n(Escolha três.)",
+      "options": [
+        "uma impressora com uma placa de rede integrada",
+        "uma Web câmera conectada diretamente a um host",
+        "um servidor com duas placas de rede",
+        "um telefone IP",
+        "um mouse sem fio",
+        "um PDA conectado a uma estação de trabalho de rede"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um dispositivo precisa de um endereço IP para se conectar a uma rede. Um dispositivo conectado a um dispositivo na rede pode usar a conexão estabelecida para acessar a rede.",
+      "raw_id": "80f55f81fd4149cab4a1998ec7290975"
+    },
+    {
+      "question": "Qual afirmação descreve o relacionamento de uma rede física e redes endereçadas IPv4 lógicas?",
+      "options": [
+        "Uma rede física local é compatível com uma rede lógica IPv4.",
+        "Uma rede física pode conectar vários dispositivos de redes lógicas IPv4 diferentes.",
+        "Todos os dispositivos conectados a uma rede física precisam pertencer à mesma rede lógica IPv4.",
+        "Os dispositivos finais em redes lógicas IPv4 diferentes podem se comunicar entre si se todos se conectarem ao mesmo switch."
+      ],
+      "correctIndex": 1,
+      "explanation": "Várias redes lógicas IPv4 podem existir em uma rede física. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com outros hosts de número de rede diferente, sem o uso de roteamento.",
+      "raw_id": "109fcf57b31542739ff5b823f5be347b"
+    },
+    {
+      "question": "Qual o tamanho dos endereços IPv4?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um endereço IPv4 é um endereço lógico de 32 bits.",
+      "raw_id": "56e3970803924aa497f6a73179277e49"
+    },
+    {
+      "question": "Qual é o número de rede para um endereço IPv4 172.16.34.10 com a máscara de sub-rede de 255.255.255.0?",
+      "options": [
+        "10",
+        "34.10",
+        "172.16.0.0",
+        "172.16.34.0"
+      ],
+      "correctIndex": 3,
+      "explanation": "A máscara de sub-rede é usada para determinar qual parte do endereço IPv4 é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em um endereço IPv4 indicam o número da rede.",
+      "raw_id": "6f48f660b2ba495198df483bfd0ed05f"
+    },
+    {
+      "question": "Quais são os dois recursos dos endereços IPv4? (Escolha duas.)",
+      "options": [
+        "Um endereço IPv4 contém 8 octetos.",
+        "IPv4 é um esquema de endereçamento lógico.",
+        "Um esquema de endereçamento IPv4 é hierárquico.",
+        "Os endereços IPv4 são usados apenas para comunicações na Internet.",
+        "Um endereço IPv4 é vinculado a uma placa de interface de rede para torná-lo único."
+      ],
+      "correctIndex": 2,
+      "explanation": "Os endereços IPv4 têm 32 bits (4 octetos). Os endereços IPv4 são endereços lógicos e são atribuídos às interfaces de rede do host conforme necessário. O endereçamento IPv4 é hierárquico e cada endereço IPv4 é composto de duas partes, o número de rede (ou endereço de rede) e o número do host. Os endereços IPv4 são usados em redes locais e na Internet.",
+      "raw_id": "2e35c10513d34d34975a3a0a0692d5ad"
+    },
+    {
+      "question": "Considere o grupo de cinco endereços IPv4 cada um com a máscara de sub-rede 255.255.255.0. Quais dois endereços IPv4 pertencem à mesma rede local? (Escolha duas.)",
+      "options": [
+        "192.168.10.2",
+        "193.168.10.16",
+        "192.168.10.56",
+        "192.167.10.74",
+        "192.168.100.62"
+      ],
+      "correctIndex": 2,
+      "explanation": "A máscara de sub-rede determina qual parte do endereço IP é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em cada endereço IPv4 indicam o número da rede. Endereços IPv4 com o mesmo número de rede são considerados na mesma rede local.",
+      "raw_id": "3cb03f1ac89643a681bb3850a9df7723"
+    },
+    {
+      "question": "O grupo de TI precisa projetar e implantar a conectividade de rede IPv4 em um novo laboratório de informática do ensino médio. O projeto de rede requer que várias redes lógicas sejam implantadas em uma rede física.Qual tecnologia é necessária para permitir que computadores em redes lógicas diferentes se comuniquem?",
+      "options": [
+        "roteamento",
+        "hospedagem",
+        "mapeamento",
+        "comutação"
+      ],
+      "correctIndex": 0,
+      "explanation": "Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com outros hosts de número de rede diferente, sem o uso de roteamento.",
+      "raw_id": "fdf1ebfdc7fd4fcdab67976a05529c79"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori precisa ter acesso a um arquivo de paciente. Ela já fez isso muitas vezes, mas só agora está se perguntando como esse processo realmente acontece em uma rede. De onde vem este documento eletrônico? Como ela consegue de acessar a intranet do hospital? Como ela consegue acessar a Internet? Tudo isso é possível devido aos serviços da camada de aplicação.\nKishori tem mais a aprender antes de se candidatar para a posição mencionada por Rina. Existem muitos serviços que funcionam na camada de aplicação, incluindo alguns com os quais você está familiarizado, como FTP, DHCP e DNS. Quando você quiser recuperar algo que ainda não está localizado no seu computador, você será o cliente a solicitar que o servidor apropriado envie esse item. E, é claro, você já sabe que haverá protocolos envolvidos. Continue lendo..."
+    },
+    {
+      "type": "text",
+      "title": ".1  A relação Cliente - Servidor",
+      "content": "{{_moduleNumber}}.1 A relação Cliente - Servidor"
+    },
+    {
+      "type": "text",
+      "title": ".1 A relação Cliente - Servidor",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Interação Cliente e Servidor",
+      "content": "Todos os dias usamos os serviços disponíveis nas redes e na Internet para nos comunicar com outras pessoas e executar tarefas de rotina. Raramente pensamos nos servidores, clientes e dispositivos de rede que são necessários para receber um e-mail, atualizar o status em mídias sociais ou comprar as melhores ofertas em uma loja on-line. A maioria dos aplicativos de Internet mais usados depende de interações complicadas entre diferentes clientes e servidores.\nO termo servidor refere-se a um host que executa um aplicativo que disponibiliza informações ou serviços para outros hosts conectados à rede. Um exemplo bem conhecido de aplicativo é um servidor Web. Há milhões de servidores conectados à Internet oferecendo serviços como sites, e-mails, transações financeiras, downloads de música, etc. Um fator que é essencial para possibilitar o funcionamento dessas interações complexas é o uso conjunto de padrões e protocolos.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Parts of a URI",
+      "content": "Recursos e serviços da Web, como APIs RESTful, são identificados usando uma URI (Identificador de recurso uniforme) Um URI é uma sequência de caracteres que identifica um recurso de rede específico. Conforme mostrado na figura, uma URI tem duas especializações:\nNome do Recurso Uniforme  (URN) -identifica apenas o espaço para nome do recurso (página da web, documento, imagem etc.) sem referência ao protocolo.\nURL (Localizador de Recurso Uniforme) - define o local da rede de um recurso específico na rede. URLs de HTTP ou HTTPS são normalmente usados por navegadores web. Outros protocolos como FTP, SFTP, SSH e outros podem ser usados por meio de uma URL. Uma URL usando SFTP pode estar no formato: sftp://sftp.example.com.\nEstas são as partes de uma URI, como mostrado na figura:\nProtocolo/esquema –HTTPS ou outros protocolos como FTP, SFTP, mailto e NNTP\nNome do host - www.example.com\nCaminho e nome do arquivo - /author/book.html\nFragmento - # page155\nPartes de uma URI",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Serviços de aplicação de rede",
+      "content": "{{_moduleNumber}}.2 Serviços de Aplicação de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".2 Serviços de Aplicação de Rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Serviços comuns de Rede para Aplicativos",
+      "content": "Quais são os serviços de internet mais comuns que você usa regularmente? Para a maioria das pessoas, a lista inclui serviços como pesquisas na Internet, sites de mídia social, transmissão de áudio e vídeo, sites de lojas on-line, e-mail e mensagens. Cada um desses serviços depende de protocolos, do conjunto de protocolos TCP/IP, para comunicar de forma confiável as informações entre os clientes e os servidores.\nAlguns dos servidores mais comuns que fornecem esses serviços são mostrados na figura. Uma breve descrição de cada serviço é mostrada na tabela.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Domain Name System (Sistema de Nomes de Domínios).",
+      "content": "{{_moduleNumber}}.3 Domain Name System (Sistema de Nomes de Domínios)."
+    },
+    {
+      "type": "text",
+      "title": ".3 Domain Name System (Sistema de Nomes de Domínios).",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Uma observação sobre as atividades do verificador de sintaxe",
+      "content": "Quando estiver aprendendo a modificar as configurações do dispositivo, convém começar em um ambiente seguro e que não seja de produção antes de experimentá-lo em equipamentos reais. O NetACAD oferece diferentes ferramentas de simulação para ajudar a desenvolver suas habilidades de configuração e solução de problemas. Como estas são ferramentas de simulação, elas geralmente não têm toda a funcionalidade de equipamentos reais. Uma dessas ferramentas é o Verificador de Sintaxe. Em cada Verificador de Sintaxe, você recebe um conjunto de instruções para inserir um conjunto específico de comandos. Você não pode progredir no Verificador de Sintaxe a menos que o comando exato e completo seja inserido conforme especificado. Ferramentas de simulação mais avançadas, como o Packet Tracer, permitem que você insira comandos abreviados, assim como faria em equipamentos reais."
+    },
+    {
+      "type": "text",
+      "title": ".4 Clientes e servidores Web",
+      "content": "{{_moduleNumber}}.4 Clientes e servidores Web"
+    },
+    {
+      "type": "text",
+      "title": ".4 Clientes e servidores Web",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O protocolo HTTP não é um protocolo seguro; as informações podem ser facilmente interceptadas por outros usuários à medida que os dados são enviados pela rede. Para oferecer segurança aos dados, o HTTP pode ser usado com protocolos de transporte seguros. As solicitações de HTTP seguro são enviadas para a porta 443. Essas solicitações usam https no endereço do site no navegador, em vez de http.\nExistem muitos servidores web e clientes web diferentes disponíveis. Os padrões de HTML e do protocolo HTTP fazem com que esses servidores e clientes de diversos fabricantes trabalhem em conjunto sem dificuldades."
+    },
+    {
+      "type": "text",
+      "title": ".5 Clientes e servidores FTP",
+      "content": "{{_moduleNumber}}.5 Clientes e servidores FTP"
+    },
+    {
+      "type": "text",
+      "title": ".5 Clientes e servidores FTP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.1 Protocolo FTP",
+      "content": "Além de serviços da Web, outro serviço comum utilizado na Internet é o que permite que os usuários transfiram arquivos.\nO File Transfer Protocol (FTP) disponibiliza um método fácil para transferir arquivos de um computador para outro. Um host com software de cliente FTP pode acessar um servidor FTP para executar várias funções de gerenciamento de arquivos, como uploads e downloads.\nO servidor FTP permite que o cliente troque arquivos entre dispositivos. Ele também possibilita que os clientes gerenciem arquivos remotamente enviando comandos de gerenciamento de arquivos, como delete ou rename. Para conseguir isso, o serviço FTP usa duas portas diferentes para a comunicação entre cliente e servidor.\nO exemplo na figura ilustra como funciona o FTP. Para iniciar uma sessão de FTP, as solicitações de conexão de controle são enviadas para o servidor usando a porta TCP de destino 21. Quando a sessão é aberta, o servidor usa a porta TCP 20 para transferir os arquivos de dados.\nO software de cliente FTP vem incorporado em sistemas operacionais de computador e na maioria dos navegadores Web. Os clientes FTP independentes oferecem muitas opções em uma interface fácil de usar, baseada em GUI.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Com base nos comandos enviados pela conexão de controle, os dados podem ser baixados do servidor ou carregados do cliente."
+    },
+    {
+      "type": "text",
+      "title": ".6 Terminais virtuais",
+      "content": "{{_moduleNumber}}.6 Terminais virtuais"
+    },
+    {
+      "type": "text",
+      "title": ".6 Terminais virtuais",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.2 Telnet",
+      "content": "Muito antes dos computadores desktop com interfaces gráficas sofisticadas, as pessoas utilizavam sistemas com base em texto que frequentemente eram apenas terminas de exibição fisicamente acoplados a um computador central. Depois que as redes se tornaram disponíveis, as pessoas precisavam de uma maneira para acessar remotamente os sistemas de computador da mesma maneira que faziam com os terminais conectados diretamente.\nO Telnet foi desenvolvido para atender a essa necessidade. O Telnet data do início da década de 70 e está entre um dos protocolos e serviços da camada de Aplicação mais antigos da suite TCP/IP. O Telnet fornece um método padrão de emulação de dispositivos terminais baseados em texto na rede de dados. O protocolo e o software cliente que implementa o protocolo são comumente chamados de Telnet. Os servidores Telnet escutam solicitações de clientes na porta TCP 23.\nApropriadamente, uma conexão usando Telnet é chamada de sessão ou conexão de terminal virtual (vty) Em vez de usar um dispositivo físico para se conectar ao servidor, o Telnet utiliza software para criar um dispositivo virtual que fornece os mesmos recursos de uma sessão de terminal com acesso à interface de linha de comando (CLI) do servidor.\nNa figura, o cliente se conectou remotamente ao servidor via Telnet. Agora o cliente pode executar comandos como se estivesse conectado localmente ao servidor.\nObservação: o Telnet não é considerado um protocolo seguro. O SSH deve ser usado na maioria dos ambientes, no lugar do Telnet. O Telnet é utilizado em vários exemplos neste curso pela simplicidade de sua configuração.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.3 Problemas de segurança com Telnet",
+      "content": "Quando uma conexão Telnet é estabelecida, os usuários podem executar qualquer função autorizada no servidor, como se estivessem usando uma sessão de linha de comando no próprio servidor. Se autorizados, podem iniciar e parar processos, configurar o dispositivo e até mesmo desligar o sistema.\nEmbora o protocolo Telnet possa exigir o login de um usuário, ele não suporta o transporte de dados criptografados. Todos os dados trocados durante as sessões Telnet são transportados como texto simples pela rede. Isso significa que os dados podem ser facilmente interceptados e compreendidos.\nO protocolo Secure Shell (SSH) oferece um método alternativo e seguro para acesso ao servidor. O SSH fornece a estrutura para proteger login remoto e outros serviços de rede segura. Ele também fornece autenticação mais forte do que o Telnet e suporta o transporte de dados de sessão usando criptografia. Como melhor prática, os profissionais de rede sempre devem utilizar o SSH em vez do Telnet, quando possível.\nA figura ilustra como o SSH é mais seguro que o Telnet. Observe como são claramente legíveis os dados capturados pelo hacker quando o Telnet é usado, enquanto que os dados, capturados quando o SSH está em uso, estão criptografados, tornando assim a comunicação mais segura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".7 E-mail e mensagens",
+      "content": "{{_moduleNumber}}.7 E-mail e mensagens"
+    },
+    {
+      "type": "text",
+      "title": ".7 E-mail e mensagens",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.1 Clientes e Servidores de e-mail",
+      "content": "O e-mail é um dos mais populares aplicativos cliente/servidor na Internet. Os servidores de e-mail executam um software de servidor que permite interagir com clientes e outros servidores de e-mail pela rede.\nCada servidor de e-mail recebe e armazena e-mails de usuários que têm caixas de correio configuradas no servidor de e-mail. Cada usuário com uma caixa de correio deve usar um cliente de e-mail para acessar o servidor de e-mail e ler essas mensagens. Muitos sistemas de mensagens da Internet usam um cliente baseado na Web para acessar e-mails. Alguns exemplos desse tipo de cliente são Microsoft 365, Yahoo e Gmail.\nAs caixas de correio são identificadas pelo formato: usuário@empresa.domínio\nVários protocolos de aplicativos usados no processamento de e-mail incluem SMTP, POP3 e IMAP4.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".7.2 Protocolos de e-mail",
+      "content": "Protocolo POP (POP3)\nUm servidor compatível com clientes POP recebe e armazena as mensagens endereçadas a seus usuários. Quando o cliente se conecta ao servidor de e-mail, as mensagens são baixadas no cliente. Por padrão, as mensagens não são mantidas no servidor após serem acessadas pelo cliente. Os clientes contatam os servidores POP3 na porta 110.\nProtocolo IMAP4\nUm servidor compatível com clientes IMAP também recebe e armazena as mensagens endereçadas a seus usuários. Entretanto, ao contrário do POP, o IMAP mantém as mensagens nas caixas de correio no servidor, a menos que elas sejam excluídas pelo usuário. A versão mais recente de IMAP é o IMAP4, que ouve solicitações do cliente na porta 143.\nExistem muitos servidores de e-mail diferentes para as diversas plataformas de sistema operacional de rede."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.3 Mensagens de texto",
+      "content": "As mensagens de texto, mostradas na figura, são uma das ferramentas de comunicação mais populares em uso atualmente. Além disso, o software de mensagens de texto é integrado a muitos aplicativos online, aplicativos de smartphones e sites de mídia social.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "As mensagens de texto também podem ser chamadas de mensagens instantâneas, mensagens diretas, mensagens privadas e mensagens de bate-papo. As mensagens de texto permitem que os usuários se comuniquem ou conversem pela Internet em tempo real. Os serviços de mensagens de texto em um computador geralmente são acessados por meio de um cliente baseado na Web integrado a uma mídia social ou site de compartilhamento de informações. Esses clientes geralmente se conectam apenas a outros usuários do mesmo site.\nHá também vários clientes de mensagens de texto autônomos, como Cisco Webex Teams, Microsoft Teams, WhatsApp, Facebook Messenger e muitos outros. Esses aplicativos estão disponíveis para uma ampla variedade de sistemas operacionais e dispositivos. Uma versão móvel é normalmente oferecida. Além de mensagens de texto, esses clientes suportam a transferência de documentos, vídeos, músicas e arquivos de áudio."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.4 Chamadas telefônicas pela Internet",
+      "content": "Fazer chamadas telefônicas pela Internet está se tornando cada vez mais popular. Os clientes de Telefonia de Internet usam a tecnologia peer-to-peer, semelhante àquela utilizada pelas mensagens instantâneas, como mostrado na figura. A telefonia IP usa a tecnologia Voice over IP (VoIP) que converte os sinais de voz analógicos em dados digitais. Os dados de voz são encapsulados em pacotes IP, que transportam a chamada telefônica pela rede.\nUma vez instalado o software de telefone IP, basta o usuário selecionar um nome exclusivo. Isso ocorre para que as chamadas de outros usuários possam ser recebidas. É necessário ter alto-falantes e um microfone, integrados ou separados. É comum conectar um headset ao computador para servir de telefone.\nAs chamadas são feitas para outros usuários do mesmo serviço na Internet selecionando o nome de usuário em uma lista. Uma chamada para um telefone comum (fixo ou celular) requer o uso de um gateway para acessar a Rede Telefônica Pública Comutada (PSTN). Dependendo do serviço, pode haver taxas associadas a esse tipo de chamada. As portas de destino e os protocolos usados por aplicativos de Telefonia de Internet podem variar de acordo com o software.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".8 Resumo dos serviços da camada de aplicação",
+      "content": "{{_moduleNumber}}.8 Resumo dos serviços da camada de aplicação"
+    },
+    {
+      "type": "text",
+      "title": ".8 Resumo dos serviços da camada de aplicação",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".8.1 O que aprendi neste módulo?",
+      "content": "**A relação Cliente - Servidor:** O termo servidor refere-se a um host executando um aplicativo de software que fornece informações ou serviços para outros hosts conectados à rede, como um servidor web. Um exemplo de software cliente é um navegador, como Chrome ou FireFox. Um único computador pode também executar vários tipos de software cliente. Um fator crucial para permitir que essas interações complexas funcionem é que todas elas usam padrões e protocolos acordados.\nA principal característica de sistemas cliente/servidor é que o cliente envia uma solicitação para o servidor, o qual responde ao executar uma função, como o envio de um documento solicitado de volta para o cliente. A combinação de navegador Web e servidor Web é provavelmente a instância mais usada de um sistema cliente/servidor.\nUm URI é uma sequência de caracteres que identifica um recurso de rede específico. As partes de uma URI são protocolo/esquema, nome do host, caminho e nome do arquivo e fragmento. Uma URI tem duas especializações:\nURN - Identifica apenas o namespace do recurso sem referência ao protocolo.\nURL - Isso define o localização de rede de um recurso específico na rede. URLs de HTTP ou HTTPS são normalmente usados por navegadores web. Outros protocolos como FTP, SFTP, SSH e outros podem ser usados por meio de uma URL.\n\n**Network Application Services:** Para a maioria das pessoas, os serviços de Internet mais comuns que eles usam incluem pesquisas na Internet, sites de mídia social, streaming de vídeo e áudio, sites de compras on-line, e-mail e mensagens. Cada um desses serviços depende de protocolos, do conjunto de protocolos TCP/IP, para comunicar de forma confiável as informações entre os clientes e os servidores. Os serviços comuns incluem: DNS, SSH, SMTP, POP, IMAP, DHCP, HTTP e FTP.\n\n**Domain Name System (Sistema de Nomes de Domínios).:** O DNS fornece uma maneira para os hosts solicitarem o endereço IP de um servidor específico. Os nomes DNS são registrados e organizados na Internet em grupos ou domínios específicos de alto nível. Alguns dos domínios de alto nível mais comuns na Internet são .com, .edu e .net.\nQuando o servidor DNS recebe a solicitação de um host, ele verifica sua tabela para determinar o endereço IP associado a esse servidor web. Se o servidor DNS local não tiver uma entrada para o nome solicitado, ele consultará outro servidor DNS no domínio. Quando o servidor DNS aprende o endereço IP, essa informação é enviada de volta ao host.\n\n**Clientes e servidores Web:** Quando um cliente Web recebe o endereço IP de um servidor Web, o navegador do cliente usa esse endereço IP e a porta 80 para solicitar serviços da Web. Essa solicitação é enviada para o servidor usando HTTP. O protocolo HTTP não é um protocolo seguro; as informações podem ser facilmente interceptadas por outros usuários à medida que os dados são enviados pela rede. Para fornecer segurança aos dados, o HTTP pode ser usado com protocolos de transporte seguros. As solicitações de HTTP seguro são enviadas para a porta 443. Essas solicitações usam https no endereço do site no navegador, em vez de http.\nQuando um cliente Web recebe o endereço IP de um servidor Web, o navegador do cliente usa esse endereço IP e a porta 80 para solicitar serviços da Web. O conteúdo de informação de uma página web é codificado usando HTML. A codificação HTML informa ao navegador como formatar a página Web e quais gráficos e fontes usar.\nExistem muitos servidores web e clientes web diferentes. Os padrões de HTML e do protocolo HTTP fazem com que esses servidores e clientes de diversos fabricantes trabalhem em conjunto sem dificuldades.\n\n**Clientes e servidores FTP:** O FTP fornece um método fácil de transferir arquivos de um computador para outro. Um host com software de cliente FTP pode acessar um servidor FTP para executar várias funções de gerenciamento de arquivos, como uploads e downloads. O servidor FTP permite que o cliente troque arquivos entre dispositivos. Ele também possibilita que os clientes gerenciem arquivos remotamente enviando comandos de gerenciamento de arquivos, como delete ou rename. Para conseguir isso, o serviço FTP usa duas portas diferentes para a comunicação entre cliente e servidor. Para iniciar uma sessão de FTP, as solicitações de conexão de controle são enviadas para o servidor usando a porta TCP de destino 21. Quando a sessão é aberta, o servidor usa a porta TCP 20 para transferir os arquivos de dados.\nA maioria dos sistemas operacionais de cliente (como Windows, Mac OS e Linux) inclui uma interface de linha para o FTP. Há também um software cliente FTP baseado em GUI que fornece uma interface simples de arrastar e soltar para FTP.\n\n**Terminais virtuais:** O Telnet fornece um método padrão de emulação de dispositivos terminais baseados em texto na rede de dados. O protocolo e o software cliente que implementa o protocolo são comumente chamados de Telnet. Os servidores Telnet escutam solicitações de clientes na porta TCP 23. Uma conexão usando Telnet é chamada de sessão vty, ou conexão. Em vez de usar um dispositivo físico para se conectar ao servidor, o Telnet usa software para criar um dispositivo virtual que fornece os mesmos recursos de uma sessão de terminal com acesso à CLI do servidor.\nO Telnet não é considerado um protocolo seguro. Embora o protocolo Telnet possa exigir o login de um usuário, ele não suporta o transporte de dados criptografados. Todos os dados trocados durante as sessões Telnet são transportados como texto simples pela rede. Isso significa que os dados podem ser facilmente interceptados e compreendidos.\nO SSH fornece a estrutura para proteger login remoto e outros serviços de rede segura. Ele também fornece autenticação mais forte do que o Telnet e suporta o transporte de dados de sessão usando criptografia. Os profissionais de rede devem procurar usar SSH no lugar de Telnet, sempre que possível.\n\n**E-mails e mensagens:** Cada servidor de e-mail recebe e armazena e-mails de usuários que têm caixas de correio configuradas no servidor de e-mail. Cada usuário com uma caixa de correio deve usar um cliente de e-mail para acessar o servidor de e-mail e ler essas mensagens. Muitos sistemas de mensagens da Internet usam um cliente baseado na Web para acessar emails, incluindo Microsoft 365, Yahoo e Gmail. Os protocolos de aplicação usados no processamento de e-mail incluem SMTP, POP3 e IMAP4.\nO SMTP é usado por um cliente de e-mail para enviar mensagens para o servidor de e-mail local. O servidor local então decide se a mensagem é destinada a uma caixa de correio local ou se é endereçada a uma caixa de correio em outro servidor. Se o servidor precisar enviar a mensagem para um servidor diferente, o SMTP será usado entre esses dois servidores. As solicitações SMTP são enviadas para a porta 25. Um servidor compatível com clientes POP recebe e armazena as mensagens endereçadas a seus usuários. Quando o cliente se conecta ao servidor de e-mail, as mensagens são baixadas no cliente. Por padrão, as mensagens não são mantidas no servidor após serem acessadas pelo cliente. Os clientes contatam os servidores POP3 na porta 110.\nUm servidor compatível com clientes IMAP também recebe e armazena as mensagens endereçadas a seus usuários. Entretanto, ao contrário do POP, o IMAP mantém as mensagens nas caixas de correio no servidor, a menos que elas sejam excluídas pelo usuário. A versão mais recente de IMAP é o IMAP4, que ouve solicitações do cliente na porta 143.\nAs mensagens de texto podem ser chamadas de mensagens instantâneas, mensagens diretas, mensagens privadas e mensagens de bate-papo. As mensagens de texto permitem que os usuários conversem pela Internet em tempo real. Os serviços de mensagens de texto em um computador geralmente são acessados por meio de um cliente baseado na Web integrado a uma mídia social ou site de compartilhamento de informações. Esses clientes geralmente se conectam apenas a outros usuários do mesmo site.\nUm cliente de telefonia pela Internet usa tecnologia peer-to-peer semelhante à usada por mensagens instantâneas. A telefonia IP usa VoIP, que converte sinais de voz analógicos em dados digitais. Os dados de voz são encapsulados em pacotes IP, que transportam a chamada telefônica pela rede."
+    },
+    {
+      "type": "text",
+      "title": ".8.2 Webster - Questões para Reflexão",
+      "content": "Como você já sabe, quando você deseja acessar um arquivo ou site que não está localizado no seu computador, ele se torna o \"cliente\" que está enviando uma solicitação para um \"servidor\". Talvez você esteja apenas observando o arquivo. E se você precisar baixar uma cópia para o seu computador? Talvez você esteja apenas visitando um site. Tudo isso ocorre na camada de aplicação da rede. O que mais você pode fazer on-line devido aos protocolos e serviços encontrados na camada de aplicação?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nObservar a interação de cliente entre o servidor e o PC.\nHistórico/Cenário\nClientes, como PCs desktops, solicitam serviços dos servidores. O ambiente do laboratório, com PCs e servidores, suporta uma grande variedade de serviços. Em um ambiente simulado, o número de serviços é limitado. O Packet Tracer permite a adição de servidores de rede que suportam DHCP, DNS, HTTP e TFTP. O Packet Tracer também suporta a adição de PCs simulados que podem solicitar esses serviços. Essa atividade usa uma rede simples com um PC conectado diretamente a um servidor configurado para fornecer serviços DNS e hospedar uma página Web através de um servidor HTTP. Essa atividade rastreará o fluxo de tráfego que ocorre quando uma página da Web é solicitada, como o endereço IP da página da Web é resolvido e como a página da Web é disponibilizada.\nInstruções\nParte 1: Entre no modo de simulação.\nQuando o Packet Tracer inicia, ele apresenta uma visão lógica da rede em modo de tempo real.\nClique em Simulation Mode para entrar no modo de simulação. O ícone  simulation mode está localizado no canto inferior direito do logical workplace.\nParte 2: Defina os Filtros da Lista de Eventos.\nNo simulation mode, o padrão é capturar todos os eventos. Você usará os filtros somente para capturar os eventos de DNS e HTTP.\na.  Na seção Event List Filters, clique em Show All/None para desmarcar todas as seleções.\nb.  Clique em Edit Filters. Na guia IPv4, selecione DNS. Na guia Misc, selecione HTTP. Feche a janela quando terminar. Os Event List Filters mostram o DNS e o HTTP como os únicos eventos visíveis.\nParte 3: Solicite uma página Web em um PC.\nVocê abrirá um navegador da Web simulado no PC e solicitará uma página Web do servidor.\na.  Clique em PC. Clique na guia Desktop e no Web Browser.\nb.  Um navegador da Web simulado será aberto. Digite www.example.com na caixa da URL e clique no botão Go à direita. Minimize a janela do PC.\nParte 4: Execute a simulação.\na.  Na seção Play Controls do Simulation Panel, clique Play. A troca entre o PC e o servidor é animada e os eventos são adicionados na Event List.\nEsses eventos representam a solicitação do PC pela resolução da URL para um endereço IP, o fornecimento do endereço IP pelo servidor, a solicitação do PC pela a página Web, o servidor enviando a página Web em dois segmentos e o reconhecimento do PC sobre a página Web.\nb.  Clique em View Previous Event (Visualizar Evento Anterior) para continuar quando o buffer estiver completo.\nParte 5: Acesse uma PDU específica.\na.  Restaure a janela simulada do PC. Observe que há uma página Web em exibição no Navegador da Web. Minimize a janela simulada do navegador.\nb.  Na seção Simulation Panel Event List, a última coluna contém uma caixa colorida que fornece acesso a informações detalhadas sobre um evento. Clique na caixa colorida na primeira linha para o primeiro evento. A janela PDU Information (janela de Informações da PDU) será aberta.\nParte 6: Examine o conteúdo da janela de Informações da PDU.\nA primeira guia na janela de informações da PDU contém informações sobre a PDU de entrada e/ou de saída com base no modelo OSI. Clique em Next Layer >> repetidamente para percorrer as camadas de inbound e outbound e leia a descrição na caixa abaixo das camadas para obter uma visão geral de como a troca funciona.\nExamine as informações da PDU quanto aos outros eventos para ter um resumo de todo o processo de troca."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "© 2017 - 2022 Cisco and/or its affiliates. All rights reserved. Cisco Public"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nVisualizar o tráfego cliente/servidor enviado de um PC para um servidor Web ao solicitar serviços da Web.\nInstruções\nParte 1: Verificar a conectividade com o servidor Web.\na.  Clique em External Client e accesse o Command Prompt da guia Desktop.\nb.  Use o comando ping para alcançar a URL ciscolearn.web.com.\nPC> ping ciscolearn.web.com\nObserve que o endereço IP está incluído na saída do ping. O endereço é obtido por meio do servidor DNS que resolve o nome do domínio ciscolearn.web.com. Todo o tráfego enaminhado em uma rede usa as informações do endereço IP de origem e destino.\nc.   Feche   a janela do Prompt de Comando, mas deixe a janela do desktop do External Client aberta.\nParte 2: Conecte-se ao servidor Web.\na.  Na janela Desktop, acesse o Web Browser.\nb.  Em URL, digite ciscolearn.web.com.\nCertifique-se de ler a página da Web exibida. Deixe esta página aberta.\nc.  Minimize a janela do External Client, mas não a feche.\nParte 3: Visualize o código HTML.\na.  Na topologia lógica, clique no servidor ciscolearn.web.com.\nb.  Clique na guia Services> guia HTTP. Depois, ao lado do arquivo index.html, clique em (edit).\nc.  Compare o código de marcação HTML no servidor que cria a página de exibição do navegador Web no External Client. Isso poderá exigir que você maximize novamente a janela External Client se ela foi reduzida quando você abriu a janela do servidor.\nd.  Feche as janelas do servidor Web e do External Client.\nParte 4: Observe o tráfego entre o cliente e o servidor Web.\na.  Entre no Modo de Simulação clicando na guia Simulation no canto inferior direito.\nb.  Clique duas vezes no  Simulation Panel para destacá-lo da janela PT. Isso permite que você mova o  Simulation Panel para visualizar toda a topologia de rede.\nc.  Visualize o tráfego ao criar uma PDU complexa no Modo de Simulação.\n1)  Em Simulation Panel, selecione Edit Filters.\n2)  Clique na guia Misc para verificar se apenas as caixas de TCP e HTTP estão selecionadas.\n3)  Adicione uma PDU complexa ao clicar no envelope aberto localizado acima do ícone do Modo de Simulação.\n4)  Clique em External Client para especificá-lo como a origem. A janela Create Complex PDU será exibida.\nd.  Especifique as configurações de Complex PDU ao alterar o seguinte na janela de PDU Complexa:\n1)  Em PDU Settings, Select Application deve estar setado para HTTP.\n2)  Clique no servidor ciscolearn.web.com para especificá-lo como o dispositivo de destino. Observe que o endereço IP do servidor web será exibido na caixa de destino na janela da PDU complexa\n3)  Em Starting Source Port, insira 1000.\n4)  Em Simulation Settings, selecione Periodic Interval e digite 120 seconds.\ne.  Crie a PDU ao clicar na caixa Create PDU na janela Create Complex PDU.\n1)  Observe o fluxo de tráfego clicando em Play no simulation panel. Acelere a animação com o controle deslizante.\nQuando a janela Buffer Full aparecer, clique em View Previous Events para fechar a janela.\n2)  Percorra a Lista de Eventos. Observe o número de pacotes que trafegaram da origem para o destino. HTTP é um protocolo TCP, o que exige o estabelecimento da conexão e o reconhecimento do recebimento de pacotes, aumentando consideravelmente o volume da sobrecarga de tráfego."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "© 2017 - 2022 Cisco and/or its affiliates. All rights reserved. Cisco Public"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=  Carregamento (upload) de um arquivo para um servidor FTP.\n=  Baixar (download de) um arquivo de um servidor FTP.\nHistórico/Cenário\nO File Transfer Protocol (FTP) é um aplicativo comumente usado para transferir arquivos entre clientes e servidores na rede. O servidor está configurado para executar o serviço no qual os clientes se conectam, fazem login e transferem arquivos. O FTP usa a porta 21 como a porta de comando do servidor para criar a conexão. O FTP usa a porta 20 para transferência de dados.\nNesta atividade, você vai carregar um arquivo para um servidor FTP. Você também vai baixar um arquivo de um servidor FTP.\nInstruções\nParte 1: Carregamento (upload) de um arquivo para um servidor FTP.\nNesta parte, você localizará o arquivo sampleFile.txt e o carregará em um servidor FTP.\nEtapa 1: Localize o arquivo.\na.  Clique em PC-A\nb.  Clique em Desktop.\nc.  Clique em Command Prompt.\nd.  No prompt, clique em ? para listar os comandos disponíveis.\ne.  Insira dir para ver os arquivos no PC. Observe que há um arquivo sampleFile.txt no diretório C:\\\\.\nC:\\\\> dir\nVolume in drive C has no label.\nVolume Serial Number is 5E12-4AF3\nDirectory of C:\\\\\n12/31/1969 17:0 PM 26 sampleFile.txt\n26 bytes 1 File(s)\nEtapa 2: Conecte o servidor FTP.\na.  Efetue FTP para o servidor FTP em 209.165.200.226 ou ftp.pka.\nC:\\\\> ftp 209.165.200.226\nTrying to connect...209.165.200.226\nConnected to 209.165.200.226\nb.  Entre com username student e password class para obter accesso.\n220- Welcome to PT Ftp server\nUsername:student\n331- Username ok, need password\nPassword:\n230- Logged in\n(passive mode On)\nEtapa 3: Carregamento (upload) de um arquivo para um servidor FTP.\na.  Digite ? para ver os comandos disponíveis no cliente ftp.\nftp> ?\n?\ncd\ndelete\ndir\nget\nhelp\npassive\nput\npwd\nquit\nrename\nftp>\nb.  Insira dir para ver os arquivos disponíveis no servidor.\nftp> dir\nListing /ftp directory from 192.168.1.3:\n0 : asa842-k8.bin 5571584\n1 : asa923-k8.bin 30468096\n2 : c1841-advipservicesk9-mz.124-15.T1.bin 33591768\n3 : c1841-ipbase-mz.123-14.T7.bin 13832032\n<output omitted>\nc.  Digite put sampleFile.txt para enviar o arquivo para o servidor.\nftp> put sampleFile.txt\nWriting file sampleFile.txt to 209.165.200.226:\nFile transfer in progress...\n[Transfer complete - 26 bytes]\n26 bytes copied in 0.08 secs (325 bytes/sec)\nftp>\nd.  Use o comando dir novamente para listar o conteúdo do servidor FTP e verificar se o arquivo foi carregado para o servidor FTP.\nParte 2: Baixar (download de) um arquivo de um servidor FTP.\nVocê também pode baixar um arquivo de um servidor FTP. Nesta parte, você vai renomear o arquivo sampleFile.txt e baixá-lo do servidor FTP.\nEtapa 1: Renomeie o arquivo no servidor FTP.\na.  No prompt ftp>, renomeie o arquivo sampleFile.txt para sampleFile_FTP.txt.\nftp> rename sampleFile.txt sampleFile_FTP.txt\nRenaming sampleFile.txt\nftp>\n[OK Renamed file successfully from sampleFile.txt to sampleFile_FTP.txt]\nftp>\nb.  No prompt ftp>, digite dir para verificar se o arquivo foi renomeado.\nEtapa 2: Baixe o arquivo do servidor FTP.\na.  Insira o comando get exampleFile_FTP.txt para recuperar o arquivo do servidor.\nftp> get sampleFile_FTP.txt\nReading file sampleFile_FTP.txt from 209.165.200.226:\nFile transfer in progress...\n[Transfer complete - 26 bytes]\n26 bytes copied in 0.013 secs (2000 bytes/sec)\nftp>\nb.  Digite quit para sair do cliente FTP quando terminar.\nc.  Exiba o conteúdo do diretório no PC novamente para ver o arquivo de imagem do servidor FTP.\nEtapa 3: Excluindo o arquivo do servidor FTP.\na.  Faça login no servidor FTP novamente para excluir o arquivo sampleFile_FTP.txt.\nb.  Insira o comando para excluir o arquivo sampleFile_FTP.txt do servidor.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Digite quit para sair do cliente FTP quando terminar."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nNesta atividade, você estabelecerá uma conexão remota com um roteador usando Telnet e SSH.\n=  Verifique a conectividade\n=  Acessar um dispositivo remoto\nInstruções\nParte 1: Verificar a conectividade\nNesta parte, você verificará se o PC tem endereçamento IP e pode pingar o roteador remoto.\nEtapa 1: Verifique o endereço IP em um PC.\na.  Em um PC, clique em Desktop. Clique em Command Prompt.\nb.  No prompt, verifique se o PC possui um endereço IP do DHCP.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Verificar a conectividade com HQ.\nVerifique se você consegue pingar o roteador HQ usando o endereço IP listado na tabela de endereçamento.\nParte 2: Acessar um dispositivo remoto\nNesta parte, você tentará estabelecer uma conexão remota usando Telnet e SSH.\nEtapa 1: Telnet para HQ.\nNo prompt, digite o comando telnet 64.100.1.1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: SSH para HQ.\nO roteador está configurado corretamente para não permitir acesso não seguro ao Telnet. Você tem que usar o SSH. HQ is not configured to accept Telnet traffic. You cannot connect to the router via the Telnet protocol. You will attempt to use SSH to connect to HQ.\nThe router is configured with a local username admin with the password class for SSH access.\nNo prompt, digite o comando ssh -l admin 64.100.1.1. Entre com a senha class quando solicitado.\nC:\\\\> ssh -l admin 64.100.1.1\nPassword:\nPergunta:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual protocolo de aplicação é usado para configurar automaticamente as informações de endereçamento IP?",
+      "options": [
+        "DNS",
+        "IMAP",
+        "DHCP",
+        "FTP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO Dynamic Host Configuration Protocol (DHCP) é usado para configurar automaticamente os dispositivos com endereçamento IP e outras informações necessárias.",
+      "raw_id": "87e29f34b8d846fdaf8b16cba6975cb1"
+    },
+    {
+      "question": "Quais protocolos de aplicação são usados pelos clientes para recuperar mensagens de e-mail? (Escolha duas.)",
+      "options": [
+        "DNS",
+        "SMTP",
+        "POP",
+        "IMAP",
+        "HTTP",
+        "FTP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO Post Office Protocol (POP) e o Internet Message Access Protocol (IMAP) são usados por clientes de e-mail para recuperar mensagens de e-mail.",
+      "raw_id": "4347bfca999345c9b20aa59a3a817164"
+    },
+    {
+      "question": "Qual protocolo de aplicação é usado para resolver endereços Web para um endereço IP?",
+      "options": [
+        "DNS",
+        "SSH",
+        "DHCP",
+        "HTTP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO Domain Name System (DNS) resolve nomes da Internet para endereços IP.",
+      "raw_id": "ab6c2b7fd1a640978ff4f596ae373a21"
+    },
+    {
+      "question": "Este protocolo é utilizado por um cliente para enviar correio eletrônico para um servidor de correio.",
+      "options": [
+        "POP",
+        "SMTP",
+        "IMAP",
+        "HTTP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nOs clientes de e-mail se conectam a servidores SMTP pela porta 25 para enviar e-mail. POP e IMAP são usados pelos clientes para receber e-mails. HTTP é usado entre navegadores web e servidores web.",
+      "raw_id": "ea140d94cc094df29023f7f781a6fc64"
+    },
+    {
+      "question": "Qual é uma característica do IMAP?",
+      "options": [
+        "Ele faz o upload de mensagens de e-mail para um servidor.",
+        "Ele escuta passivamente na porta 110 por solicitações de clientes.",
+        "Ele baixa uma cópia das mensagens de e-mail deixando as originais no servidor."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nIMAP é um protocolo para os clientes recuperarem cópias de mensagens de e-mail de um servidor IMAP. As mensagens originais permanecem no servidor até serem excluídas manualmente.",
+      "raw_id": "c656cc1bd3aa4c58a484ae39a1e95bf3"
+    },
+    {
+      "question": "Verdadeiro ou falso? A mensagem de texto está disponível apenas em um smartphone?",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nFalso. Os aplicativos de mensagens de texto estão disponíveis para uma ampla variedade de sistemas operacionais e dispositivos.",
+      "raw_id": "09b1b95b474148c49d7c455db5b7ae21"
+    },
+    {
+      "question": "Quais duas características descrevem uma conexão FTP? (Escolha duas.)",
+      "options": [
+        "Um arquivo grande requer mais de duas conexões entre o cliente e o servidor para baixá-lo com êxito.",
+        "O cliente estabelece a primeira conexão com o servidor para controlar o tráfego usando a porta TCP 21, que consiste em comandos do cliente e respostas do servidor.",
+        "Os arquivos podem ser baixados ou enviados para o servidor.",
+        "O cliente precisa executar um programa daemon para estabelecer uma conexão FTP com um servidor.",
+        "A primeira conexão estabelecida é para controle de tráfego e a segunda conexão é criada para transferir um arquivo."
+      ],
+      "correctIndex": 4,
+      "explanation": "Um cliente FTP é uma aplicação que roda em um computador e é usado para enviar e baixar arquivos de um servidor que executa o daemon FTP (FTPd). Para transferir arquivos com êxito, o FTP requer duas conexões entre o cliente e o servidor: uma para comandos e respostas e outra para a transferência de arquivos propriamente dita. O cliente estabelece a primeira conexão com o servidor para controlar o tráfego e a segunda conexão para a transferência de arquivos. Essa conexão é criada toda vez que houver dados a serem transferidos. O cliente pode baixar um arquivo ou fazer upload de um arquivo para o servidor.",
+      "raw_id": "321bb08d4cc84a7c8794680d60abcddf"
+    },
+    {
+      "question": "Qual afirmação sobre protocolos de rede está correta?",
+      "options": [
+        "Os protocolos de rede definem o tipo de hardware usado e como este é montado em racks.",
+        "Eles definem como as mensagens são trocadas entre a origem e o destino.",
+        "Todos eles funcionam na camada de acesso à rede do TCP/IP.",
+        "Eles são necessários apenas para troca de mensagens entre dispositivos em redes remotas."
+      ],
+      "correctIndex": 1,
+      "explanation": "Os protocolos de rede são implementados em hardware, software ou ambos. Eles interagem entre si em diferentes camadas de uma pilha de protocolo. Os protocolos não têm nada a ver com a instalação do equipamento de rede. Os protocolos de rede são necessários para trocar informações entre os dispositivos de origem e destino em redes locais e remotas.",
+      "raw_id": "84f9561b8bfb40888dc9369bbd689cc7"
+    },
+    {
+      "question": "Qual é o protocolo usado pelos servidores Web para servir uma página Web?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "IMAP",
+        "POP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypertext Transfer Protocol (HTTP) é um protocolo que é usado por servidores web para servir uma página Web.",
+      "raw_id": "2ad9ba246bf24ab39c5863ee7d1c62c5"
+    },
+    {
+      "question": "Quais são os dois protocolos usados no processo de enviar e receber e-mails?(Escolha dois.)",
+      "options": [
+        "HTTP",
+        "POP",
+        "SSH",
+        "SMTP",
+        "FTP"
+      ],
+      "correctIndex": 3,
+      "explanation": "POP e SMTP são protocolos usados para e-mails. O POP é Post Office Protocol e é usado por clientes para recuperar mensagens de e-mail de um servidor. O SMTP é Simple Mail Transfer Protocol e é usado por clientes para enviar mensagens de e-mail para um servidor.",
+      "raw_id": "169b88f4e25743f9bdaaf6fac9f2c424"
+    },
+    {
+      "question": "Quais dois aplicativos fornecem acesso de terminal virtual a servidores remotos? (Escolha duas.)",
+      "options": [
+        "SSH",
+        "DNS",
+        "DHCP",
+        "SMTP",
+        "Telnet"
+      ],
+      "correctIndex": 4,
+      "explanation": "O Telnet e o SSH são dois serviços que fornecem serviços terminais virtuais para os servidores. O DNS mapeia um nome de domínio para seu endereço IP. O DHCP fornece informações de endereçamento IP dinâmico. O SMTP oferece serviço de e-mail.",
+      "raw_id": "fd86469c732f46f1a3069bbb3d009a05"
+    },
+    {
+      "question": "Qual é a vantagem de usar SSH em relação ao Telnet?",
+      "options": [
+        "É mais fácil usar o SSH.",
+        "O SSH opera mais rápido que o Telnet.",
+        "O SSH fornece comunicações seguras para acessar hosts.",
+        "O SSH oferece suporte à autenticação em uma solicitação de conexão."
+      ],
+      "correctIndex": 2,
+      "explanation": "O SSH fornece um método seguro para o acesso remoto aos hosts ao criptografar o tráfego de rede entre o cliente SSH e os hosts remotos. Embora o Telnet e o SSH solicitem autenticação antes que uma conexão seja estabelecida, o Telnet não suporta a criptografia de credenciais de login.",
+      "raw_id": "a2ca013f1d214e78b27777ef2e075831"
+    },
+    {
+      "question": "Consulte a figura. Que protocolo permite que um usuário digite www.cisco.com em vez de um endereço IP para acessar o servidor Web?",
+      "options": [
+        "DNS",
+        "FTP",
+        "HTML",
+        "HTTP",
+        "SNMP"
+      ],
+      "correctIndex": 0,
+      "explanation": "São atribuídos endereços IP estáticos aos servidores Web. Eles também estão registrados com nomes de domínio para que as pessoas possam lembrá-los facilmente. No entanto, os servidores Web são conectados por meio de seus endereços IP. O DNS oferece o serviço para mapear o nome de domínio para seu endereço IP.",
+      "raw_id": "b7a062b1d8da4a38b0b35864e332379e"
+    },
+    {
+      "question": "Qual é o protocolo usado para transferir páginas Web de um servidor para um dispositivo cliente?",
+      "options": [
+        "HTML",
+        "SMTP",
+        "HTTP",
+        "SSH",
+        "POP"
+      ],
+      "correctIndex": 2,
+      "explanation": "O Hypertext Transfer Protocol (HTTP) fornece serviços entre um navegador Web que solicita páginas Web e um servidor Web que responde essas solicitações. HTML (linguagem de marcação de hipertexto) é uma linguagem de marcação para instruir um navegador Web sobre como interpretar e exibir uma página Web.",
+      "raw_id": "085a669cc0794216848664a5558d04d4"
+    },
+    {
+      "question": "Quais são os dois protocolos de camada de aplicação que gerenciam a troca de mensagens entre um cliente com um navegador Web e um servidor Web remoto? (Escolha duas.)",
+      "options": [
+        "DNS",
+        "HTTP",
+        "HTML",
+        "DHCP",
+        "HTTPS"
+      ],
+      "correctIndex": 4,
+      "explanation": "O Hypertext Transfer Protocol (HTTP) e o HTTP Secure (HTTPS) são dois protocolos de camada de aplicação que gerenciam solicitações de conteúdo dos clientes e as respostas do servidor Web. O HTML (Hypertext Mark-up Language) é a linguagem de codificação que descreve as características de exibição e de conteúdo de uma página Web. DNS é para o nome do domínio da resolução de endereços IP. O DHCP gerencia e fornece as configurações IP dinâmicas aos clientes.",
+      "raw_id": "6724665f2c5a409d90ac727952fdcaf4"
+    }
+  ],
+  "images": []
+}

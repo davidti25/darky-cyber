@@ -1,0 +1,266 @@
+[
+  {
+    "_id": "82a1ab75e0d9401d9ae4da7d34fe4d6f",
+    "body": "<p><span>Entendendo o Estrutura do endereço IPv4.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "82a1ab75e0d9401d9ae4da7d34fe4d6f",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "31e4b8fe-8e1f-40a9-9da7-1aa4678c7bae",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg",
+        "_small": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg",
+        "_medium": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg",
+        "_small": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg",
+        "_medium": "pt-BR/assets/a3563380e588449ba85d12fc4e8d21ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "2403681b-44d7-4ffd-b3c4-ee638861b85b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "913a4fd30e1240e09ddb8201241987b4",
+    "body": "<p><span>Descrever a estrutura de um endereço IPv4, incluindo a parte de rede, a parte de host e a máscara de sub-rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Estrutura do endereço IPv4",
+    "_oldId": "913a4fd30e1240e09ddb8201241987b4",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "7670a2eb-194f-4acc-b117-a3898c8d8d19",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg",
+        "_small": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg",
+        "_medium": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg",
+        "_small": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg",
+        "_medium": "pt-BR/assets/cdf8bc97f4c54ff6ad3b7a000dc8cfb3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "displayTitle": "{{_moduleNumber}}.1. Estrutura do endereço IPv4",
+    "_isPageTracer": false,
+    "_activityParentId": "2403681b-44d7-4ffd-b3c4-ee638861b85b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "94f11727a82647e886b38801a8876b55",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Resumo do Estrutura do endereço IPv4",
+    "_oldId": "94f11727a82647e886b38801a8876b55",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "660edbe0-b326-4702-a222-f1c1aa2c053b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg",
+        "_small": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg",
+        "_medium": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg",
+        "_small": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg",
+        "_medium": "pt-BR/assets/cb892e0911714d66942a71fb7d01d260.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d15bc2bbb55d4702a2f123825bf1fff8",
+    "displayTitle": "{{_moduleNumber}}.2. Resumo do Estrutura do endereço IPv4",
+    "_isPageTracer": false,
+    "_activityParentId": "2403681b-44d7-4ffd-b3c4-ee638861b85b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "_id": "ba1920c0ead24e45b2762e7526ebdf5a",
+    "body": "<p><span>Entendendo o endereçamento dinâmico com DHCP.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "ba1920c0ead24e45b2762e7526ebdf5a",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "3db05b64-0574-4e08-8827-126568b54bb9",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png",
+        "_small": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png",
+        "_medium": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png",
+        "_small": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png",
+        "_medium": "pt-BR/assets/a0392f91f2e44bbfb8c511cd5eb4dc48.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "22dbb491-4864-400a-a7fe-e42089d4ae57",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "5e529b51faae49c29fe75cebb539a4a0",
+    "body": "<p><span>Comparar o endereçamento IPv4 estático e dinâmico.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Endereçamento estático e dinâmico",
+    "_oldId": "5e529b51faae49c29fe75cebb539a4a0",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "adc4e30f-644a-4b73-82b2-6ec79241f877",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg",
+        "_small": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg",
+        "_medium": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg",
+        "_small": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg",
+        "_medium": "pt-BR/assets/3cbb23302d914873bc680353d9e85896.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "displayTitle": "{{_moduleNumber}}.1. Endereçamento estático e dinâmico",
+    "_isPageTracer": false,
+    "_activityParentId": "22dbb491-4864-400a-a7fe-e42089d4ae57",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f14116b85a3b4ba8a82844f3c4e9e212",
+    "body": "<p><span>Configurar um servidor DHCPv4 para atribuir endereços IPv4 de forma dinâmica.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Configuração do DHCPv4",
+    "_oldId": "f14116b85a3b4ba8a82844f3c4e9e212",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "6248eb94-ea68-45eb-bce6-6dc14a13c4f8",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png",
+        "_small": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png",
+        "_medium": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png",
+        "_small": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png",
+        "_medium": "pt-BR/assets/e3d3b61c50c84242bcfe3e6ba9a4deab.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "displayTitle": "{{_moduleNumber}}.2. Configuração do DHCPv4",
+    "_isPageTracer": false,
+    "_activityParentId": "22dbb491-4864-400a-a7fe-e42089d4ae57",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "dac98f3857ca4dcd9ebc7d66e460f8bf",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Resumo Endereçamento Dinâmico com DHCP",
+    "_oldId": "dac98f3857ca4dcd9ebc7d66e460f8bf",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "9c5291c0-b981-40cb-8c3f-32f258d70df0",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png",
+        "_small": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png",
+        "_medium": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png",
+        "_small": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png",
+        "_medium": "pt-BR/assets/cda49578e17942ad9c53badcbc2cd799.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "displayTitle": "{{_moduleNumber}}.3. Resumo Endereçamento Dinâmico com DHCP",
+    "_isPageTracer": false,
+    "_activityParentId": "22dbb491-4864-400a-a7fe-e42089d4ae57",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "25371e96-6fbf-4868-88b3-02e84ea2682e",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer – Configuração do DHCP em um Roteador Wireless (sem fio)",
+    "_oldId": "25371e96-6fbf-4868-88b3-02e84ea2682e",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "a2f1e7f4-343b-4d49-a1b8-026a7502bf4d",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "dd0499c7dbcc41728ca6bddee14e13c7",
+    "displayTitle": "Packet Tracer – Configuração do DHCP em um Roteador Wireless (sem fio)",
+    "_isPageTracer": false,
+    "_activityParentId": "22dbb491-4864-400a-a7fe-e42089d4ae57",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

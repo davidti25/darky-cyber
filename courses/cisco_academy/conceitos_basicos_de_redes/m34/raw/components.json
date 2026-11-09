@@ -1,0 +1,4956 @@
+[
+  {
+    "_id": "4d82632a8d19458d9ade81e183abab33",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "4d82632a8d19458d9ade81e183abab33",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9b482f0973db4ecca6087012803881d8",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d61fce4a-3436-4245-b409-d313b849a2f4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9b482f0973db4ecca6087012803881d8",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "0c7c4d54-5d0d-4d42-a57d-af5f6f0610ae",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ff8dbcf8584844bbb1e1e07187fbb292",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "ff8dbcf8584844bbb1e1e07187fbb292",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "089175ea7a6846dea3cda331c8496f10",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ac210fea-8dfb-4462-b74d-cdcbae4f90f8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "089175ea7a6846dea3cda331c8496f10",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "c5026f53-2b84-478c-9eca-b825b9ede9d8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c35ef125704041e982855127017722ce",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "c35ef125704041e982855127017722ce",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/df5b66410eb74128ad93d96723119cce.png",
+      "small": "pt-BR/assets/df5b66410eb74128ad93d96723119cce.png",
+      "attribution": ""
+    },
+    "_parentId": "5f6b8a9ed2fd42bab70103066eaaf92f",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "89edbc0c-9fc4-48f5-bec3-741c1ba9eb56",
+    "instruction": "",
+    "_oldParentId": "5f6b8a9ed2fd42bab70103066eaaf92f",
+    "displayTitle": "",
+    "_activityParentId": "48d35b49-cfe4-4ef0-890d-e81a94d8b318",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "951c63e41c1248edaf0995a4c667fc8e",
+    "body": "<p>Webster aqui!</p><p>Halimah ainda está investigando a rede de sua empresa. Ela está impressionada com a forma como a equipe de TI o estruturou. Ela sabe sobre descoberta de vizinho (ND) IPv6 e, neste módulo, você aprenderá sobre isso também.</p><p>IPv6 ND é como dispositivos endereçados IPv6 resolvem endereços MAC. O IPv6 ND permite que dispositivos com endereços IPv6 se comuniquem com outros dispositivos em uma rede, o que é, convenhamos, todo o motivo de ter uma rede.</p><p>Então, dada a importância desse assunto, vamos começar! </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "951c63e41c1248edaf0995a4c667fc8e",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5f6b8a9ed2fd42bab70103066eaaf92f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ffa948d7-353f-416d-9355-99c507725f9e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5f6b8a9ed2fd42bab70103066eaaf92f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "48d35b49-cfe4-4ef0-890d-e81a94d8b318",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7ac85db3d64c4b5195d5db2526ff46a4",
+    "body": "<p> <strong>Título do módulo:</strong> Descoberta de vizinhos IPv6  </p><p><strong>Objetivo do Módulo:</strong> Explicar como o ND permite a comunicação em uma rede.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Operação de descoberta de vizinho",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Descrever a operação de descoberta de vizinho IPv6.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "7ac85db3d64c4b5195d5db2526ff46a4",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "8499d7d8ea7c447cb36937802c4a56c3",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "0e4e5340-cbbb-4283-9112-559d70f0001e",
+    "instruction": "",
+    "_oldParentId": "8499d7d8ea7c447cb36937802c4a56c3",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "b667da44-859e-49ab-b606-9a757cad90c8",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "bd66a716e8a044db85e874a835f67a3a",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "bd66a716e8a044db85e874a835f67a3a",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "148bf5e194dd43aebc71474fb537b315",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "6d865b5b-8c20-42d0-957f-ddc67345c476",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "148bf5e194dd43aebc71474fb537b315",
+    "displayTitle": "",
+    "_activityParentId": "f3cc43eb-5e53-4127-ab6d-8e61a880e472"
+  },
+  {
+    "_id": "96510165e97f47b292048032a46a5c0c",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Operação de descoberta de vizinho</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Operação de descoberta de vizinho",
+    "_oldId": "96510165e97f47b292048032a46a5c0c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "57af0387f3a94578b26ac52e6167400e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5d376592-0a90-489c-b886-07d5fef4bca8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "57af0387f3a94578b26ac52e6167400e",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "cc298666-9f66-41b1-ad08-2c3d9d3f1856",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fe0f4b1c103446258f62abb9d9b14912",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Operação de descoberta de vizinho",
+    "_oldId": "fe0f4b1c103446258f62abb9d9b14912",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2fc1cbbfd0da4f68af5fb1465f22fcc6",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f10744bd-2092-469f-b83f-15d5a282a035",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2fc1cbbfd0da4f68af5fb1465f22fcc6",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "20ee6bcd-5b21-4926-97d6-c51f7d1c5d24",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "011d0c359000498cb270768164f17808",
+    "body": "<p>Se sua rede estiver usando o protocolo de comunicação IPv6, o protocolo de descoberta de vizinhos, ou ND, é o que você precisa para corresponder endereços IPv6 a endereços MAC. Este tópico explica como o ND funciona.</p><p><b>Pressione o botão Reproduzir para ver uma demonstração do IPv6 Neighbor Discovery.</b></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Descoberta de Vizinhos IPv6",
+    "_oldId": "011d0c359000498cb270768164f17808",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6253933057001",
+    "videoIds": [
+      "cd60358a-2834-4fcc-a12b-3a3c794ededd"
+    ],
+    "_parentId": "a326446afcd64d99be20256dd72502bc",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "carimbos de data/hora (Timestamps) ",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "7cc79aaf-30ed-404d-aa68-76078bcb1772",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "a326446afcd64d99be20256dd72502bc",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "af7e11fb-9341-49f7-bdfa-e8cbd35f5308",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "64c549ef68bb4e8cb5376480549470ea",
+    "body": "<p>O protocolo de descoberta de vizinhos IPv6 às vezes é chamado de ND ou NDP. Neste curso, vamos nos referir a ele como ND. O ND fornece serviços de resolução de endereço, descoberta de roteador e redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para executar estes serviços:</p><ul><li>Mensagens de solicitação de vizinho</li><li>Mensagens de anúncio vizinho</li><li>Mensagens de solicitação de roteador</li><li>Mensagens de anúncio do roteador</li><li>Redirecionar mensagem.</li></ul><p>As mensagens de solicitação de vizinho e anúncio de vizinho são usadas para mensagens de dispositivo a dispositivo, como resolução de endereço (semelhante ao ARP para IPv4). Os dispositivos incluem computadores host e roteadores.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Mensagens de descoberta de vizinhos IPv6",
+    "_oldId": "64c549ef68bb4e8cb5376480549470ea",
+    "details": {
+      "uuid": "2e1a3aa0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<BR />Mensagens dispositivo-para-dispositivo",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e1a3aa0-1c25-11ea-a010-eb2108469056/2e1a61b0-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "465/161",
+      "primary_image": "media/2e1a3aa0-1c25-11ea-a010-eb2108469056/2e1a61b1-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "bdefd82a012745b487b63c69bc4cbe8d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "b05786a2-c7f7-4a3b-8f95-7aab87c770a1",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "bdefd82a012745b487b63c69bc4cbe8d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "734a710c-b8a4-4f46-ada2-e691c1faa64c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "260f5857073e4d588b5cf216960bf623",
+    "body": "<p>As mensagens de solicitação de roteador e anúncio de roteador são para mensagens entre dispositivos e roteadores. Normalmente, a descoberta de roteador é usada para alocação de endereços dinâmicos e autoconfiguração de endereço sem estado (SLAAC).</p>",
+    "_type": "component",
+    "title": "",
+    "_oldId": "260f5857073e4d588b5cf216960bf623",
+    "details": {
+      "uuid": "2e1a88c0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<BR />Mensagens do dispositivo-roteador",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e1a88c0-1c25-11ea-a010-eb2108469056/2e1a88c1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "470/161",
+      "primary_image": "media/2e1a88c0-1c25-11ea-a010-eb2108469056/2e1a88c2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "3e7c1b9a301541faa007368d367c2e1d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "6e0969ca-9f1e-427a-a1f3-4e3c012961c3",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "3e7c1b9a301541faa007368d367c2e1d",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "72a42e17-41e0-4299-b3d2-56c20a12e10f",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "7b3059d0bc5346db99329c6beb35a7c4",
+    "body": "<p><strong>Nota</strong>: A quinta mensagem ICMPv6 ND é uma mensagem de redirecionamento que é usada para uma melhor seleção do próximo salto. Isso está além do escopo deste curso.</p><p>IPv6 ND é definido no IETF RFC 4861.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "7b3059d0bc5346db99329c6beb35a7c4",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "39d6124923a94ebe90ea9bb94d33305f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a9fe553b-6caf-4e51-a808-25f82dfe7503",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "39d6124923a94ebe90ea9bb94d33305f",
+    "displayTitle": "",
+    "_activityParentId": "3d973a9e-b057-4741-9392-f509f388e00f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1b24e0846f6d4f5295764ab82dc53605",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "1b24e0846f6d4f5295764ab82dc53605",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3e16ed2dd2ef40a8a3bb58e2467b092d",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "0fc46cfc-4473-44e7-96d8-a1e277bc34d8",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_oldParentId": "3e16ed2dd2ef40a8a3bb58e2467b092d",
+    "displayTitle": "",
+    "_activityParentId": "42a92211-99e8-48a6-9134-f0df2c34d11d",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1495aaba0d9e49c6b80c9a3e005772f4",
+    "body": "<p>Assim como ARP para IPv4, os dispositivos IPv6 usam IPv6 ND para determinar o endereço MAC de um dispositivo que tem um endereço IPv6 conhecido.</p><p>As mensagens de solicitação de vizinho ICMPv6 e de anúncio de vizinho são usadas para resolução de endereço MAC. Isso é semelhante às Solicitações ARP e Respostas ARP usadas pelo ARP para IPv4. Por exemplo, suponha que PC1 queira fazer ping em PC2 no endereço IPv6 2001:db8:acad: :11. Para determinar o endereço MAC para o endereço IPv6 conhecido, o PC1 envia uma mensagem de solicitação de vizinho ICMPv6 conforme ilustrado na figura.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Descoberta de Vizinhos IPv6 - Resolução de Endereço",
+    "_oldId": "1495aaba0d9e49c6b80c9a3e005772f4",
+    "details": {
+      "uuid": "2e1aafd0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Mensagem de anúncio do vizinho<strong> ICMPv6</strong><br /><i>“Hey 2001:db8:acad:1: :10, eu sou 2001:db8:acad:1: :11 e meu endereço MAC é F8-94-C3-E4-C5-0A. “</i>",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Mensagem de solicitação do vizinho<strong> ICMPv6</strong><br /><i>“Ei quem já tem 2001:db8:acad:1: :11, envie-me o seu endereço MAC? “</i>",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e1aafd0-1c25-11ea-a010-eb2108469056/2e1aafd2-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "514/389",
+      "primary_image": "media/2e1aafd0-1c25-11ea-a010-eb2108469056/2e1aafd3-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "b493a5c9ad9f491f92b830b3b6500872",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "b428663d-7234-4a4a-b5cf-8ae900feed65",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "b493a5c9ad9f491f92b830b3b6500872",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama mostra PC1 e PC2 conectados ao mesmo switch na rede 2001:db8:acad:1: :/64. PC1 tem um endereço IPv6 2001:db8:acad:1: :10 e PC2 tem um endereço IPv6 de 2001:db8:acad:1: :11. PC1 está enviando uma mensagem de solicitação de vizinho ICMPv6 que diz: Ei quem já tem 2001:db8:acad:1: :11, envie-me seu endereço MAC? PC2 está respondendo com uma mensagem de anúncio de vizinho ICMPv6 que diz: Hey 2001:db8:acad:1: :10, eu sou 2001:db8:acad:1: :11 e meu endereço MAC é F8-94-C3-E4-C5-0A.",
+    "_activityParentId": "c3b7e87b-b1c2-4e4c-bb36-fb20b37d841f",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "f4684d62d56742dfa37da7b622cc8313",
+    "body": "<p>As mensagens de solicitação de vizinho ICMPv6 são enviadas usando endereços multicast Ethernet e IPv6 especiais. Isso permite que o NIC Ethernet do dispositivo receptor determine se a mensagem de solicitação de vizinho é para si mesmo sem precisar enviá-la ao sistema operacional para processamento.</p><p>O PC2 responde à solicitação com uma mensagem de anúncio de vizinho ICMPv6 que inclui seu endereço MAC.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "f4684d62d56742dfa37da7b622cc8313",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "db1f665625454316b3a676de13d05a24",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9837454d-124e-47bd-9f42-31ca9684364c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "db1f665625454316b3a676de13d05a24",
+    "displayTitle": "",
+    "_activityParentId": "8accb061-6eed-4608-ae39-d555c34ed5bf",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "201720aee0244514845ad0a6cf9e7f45",
+    "body": "<p>Nesta atividade, você completará os seguintes objetivos: </p><ul><li>Parte 1: Rede local de descoberta de vizinhos IPv6</li><li>Parte 2: Rede remota de descoberta de vizinhos IPv6</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Packet Tracer - Descoberta de Vizinhos IPv6",
+    "_items": [
+      {
+        "url": "pt-BR/assets/5.1.4-packet-tracer-ipv6-neighbor-discovery.pka_pt-BR_7b5a6730-6262-43f0-97eb-66873313f941.pka",
+        "_classes": "",
+        "_buttonText": "Descoberta de Vizinhos IPv6",
+        "fileExtension": "pka",
+        "_closeButtonText": "Fechar",
+        "downloadFileName": "Descoberta de Vizinhos IPv6",
+        "articleRenderingID": "73b3085e-188f-47bb-9a9b-74b3c9716997",
+        "_downloadHtmlButton": "Baixar HTML",
+        "downloadLinkButtonText": "Descoberta de Vizinhos IPv6",
+        "isPageTracerPopupBtnEnable": true,
+        "isPacketTracerDownloadEnable": true
+      }
+    ],
+    "_oldId": "201720aee0244514845ad0a6cf9e7f45",
+    "_layout": "full",
+    "_search": {
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "277ea6bc82b14d7cb729671c0b4a2053",
+    "_component": "pageTracer",
+    "_isDeleted": false,
+    "_activityId": "584a1e84-8fd5-4cea-8cd3-af6dc724ec0a",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "277ea6bc82b14d7cb729671c0b4a2053",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "cff3b141-8968-46ec-b044-d9a5c3a64a8f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "a6f634b293b243df8e8a55d55e0b4c28",
+    "body": "<p><span style=\"color:#000000\">Quais duas mensagens ICMPv6 são usadas no SLAAC?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "anúncio de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "solicitação de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "anúncio de roteador",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "solicitação de roteador",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "a6f634b293b243df8e8a55d55e0b4c28",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>As duas mensagens ICMPv6 usadas no SLAAC são a solicitação do roteador e o anúncio do roteador.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>As duas mensagens ICMPv6 usadas no SLAAC são a solicitação do roteador e o anúncio do roteador.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5952c86c3b044460bb2452aded15aaee",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c33d4789-e857-4ac9-ae80-baac7f567d19",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Mensagens ICMPv6 1",
+      "_isEnabled": true,
+      "_onCorrectValue": 33,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5952c86c3b044460bb2452aded15aaee",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "a6f634b293b243df8e8a55d55e0b4c28",
+    "_activityParentId": "d8521f22-4881-4186-9e9a-51dc5b10ecd7",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "5f8f1fb1bbed4886962ee997271bcee2",
+    "body": "<p><span style=\"color:#000000\">Em quais duas mensagens ICMPv6 são usadas para determinar o endereço MAC de um endereço IPv6 conhecido?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "anúncio de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "solicitação de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "anúncio de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "solicitação de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5f8f1fb1bbed4886962ee997271bcee2",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>As duas mensagens ICMPv6 usadas na determinação do endereço MAC de um endereço IPv6 conhecido são a solicitação de vizinho e o anúncio de vizinho.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>As duas mensagens ICMPv6 usadas na determinação do endereço MAC de um endereço IPv6 conhecido são a solicitação de vizinho e o anúncio de vizinho.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a8ea1deb583b49fb84887083fda8d129",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "04596865-f38f-4007-9393-7724a617d5d4",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Mensagens ICMPv6 2",
+      "_isEnabled": true,
+      "_onCorrectValue": 33,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a8ea1deb583b49fb84887083fda8d129",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "5f8f1fb1bbed4886962ee997271bcee2",
+    "_activityParentId": "0efac071-1d0d-438d-857d-93f9b95d0810",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "34fa545a0db74fe7b3174e5d1ee26cab",
+    "body": "<p><span style=\"color:#000000\">Para que tipo de endereço são enviadas mensagens de solicitação de vizinho ICMPv6?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "unicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "multicast",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "broadcast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "34fa545a0db74fe7b3174e5d1ee26cab",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>As mensagens de solicitação de vizinho ICMPv6 são enviadas como um multicast.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>As mensagens de solicitação de vizinho ICMPv6 são enviadas como um multicast.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c6eb2bc0f7e8457996fdc456bff90f4c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "3c1cdcd2-7b56-4a1b-9ee1-d5884ee1cab2",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Mensagens de solicitação de vizinhos ICMPv6",
+      "_isEnabled": true,
+      "_onCorrectValue": 33,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "c6eb2bc0f7e8457996fdc456bff90f4c",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "34fa545a0db74fe7b3174e5d1ee26cab",
+    "_activityParentId": "849a952b-3087-46a9-92ed-af94c58ffa4d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "88653020a1cf47aeb4e2f2333cba22c2",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "88653020a1cf47aeb4e2f2333cba22c2",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "ab8e5ef124af49cab7b29f925f8dd6c4",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "91ab3bfb-aa98-4b63-9145-db29a312e41f",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "ab8e5ef124af49cab7b29f925f8dd6c4",
+    "displayTitle": "",
+    "_activityParentId": "b041ca92-2ef6-409a-824e-00cf358f5a80"
+  },
+  {
+    "_id": "0bdbe60ce779480d8cc8ba28a2c5f65a",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Resumo da descoberta de vizinhos IPv6</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Resumo da descoberta de vizinhos IPv6",
+    "_oldId": "0bdbe60ce779480d8cc8ba28a2c5f65a",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f4fd8e257c0b4f5b9df63b515d28dbad",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "0c7c0022-c0a3-44fe-b68f-def0294741fe",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f4fd8e257c0b4f5b9df63b515d28dbad",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "74138053-d950-495a-af4d-711ef9db9217",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d93e3256a692450bb9e4286d160096c2",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Resumo da descoberta de vizinhos IPv6",
+    "_oldId": "d93e3256a692450bb9e4286d160096c2",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "86e0046b34e940109d54e2b6529cc22b",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7541e1ee-7895-4a85-9d1a-e568d60d99c8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "86e0046b34e940109d54e2b6529cc22b",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e1253576-8b42-4af2-bedf-899b59e84775",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "580215eb09ce4919ab66b1ff05abfd6d",
+    "body": "<p><strong>A operação de descoberta de vizinhos</strong><br> IPv6 não usa ARP, usa o protocolo ND para resolver endereços MAC. O ND fornece serviços de resolução de endereço, descoberta de roteador e redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para executar esses serviços: solicitação de vizinhos, propaganda de vizinhos, solicitação de roteador, anúncio de roteador e redirecionamento. Assim como ARP para IPv4, os dispositivos IPv6 usam IPv6 ND para resolver o endereço MAC de um dispositivo para um endereço IPv6 conhecido.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 O que eu aprendi neste módulo?",
+    "_oldId": "580215eb09ce4919ab66b1ff05abfd6d",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "726882efd7814165ad40331cc7036d45",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b2a64488-d4cf-44c4-986f-800bf16ed599",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "726882efd7814165ad40331cc7036d45",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "0652716a-1a9e-4d88-820a-8f6caa3a2fe6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fcf34dea9abf48fda051215c28c1d93f",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "fcf34dea9abf48fda051215c28c1d93f",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/df5b66410eb74128ad93d96723119cce.png",
+      "small": "pt-BR/assets/df5b66410eb74128ad93d96723119cce.png",
+      "attribution": ""
+    },
+    "_parentId": "14e277c984ef41f1ab05c79830ebd109",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "14745df0-dc83-418e-802c-5e64b84cab54",
+    "instruction": "",
+    "_oldParentId": "14e277c984ef41f1ab05c79830ebd109",
+    "displayTitle": "",
+    "_activityParentId": "44d09d4f-958f-4999-b4b9-405d8bc445a5",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "7201352e439f4d0890baa653e143146a",
+    "body": "<p>Webster aqui!</p><p>Eu não sabia que o IPv6 não usa ARP. Você sabia disso? Bem, você sabe agora! Neste módulo, eu aprendi sobre a descoberta de vizinhos e espero que você também.</p><p>Qual é o objetivo do ND?</p><p>Você pode listar as cinco mensagens de ICMPv6 que o ND usa? </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Webster - Questões para Reflexão",
+    "_oldId": "7201352e439f4d0890baa653e143146a",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "14e277c984ef41f1ab05c79830ebd109",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "77e9fb3a-597e-4de1-89a7-2f1ae61467c9",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "14e277c984ef41f1ab05c79830ebd109",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "44d09d4f-958f-4999-b4b9-405d8bc445a5",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f5fa3de10a4e4146ae782acd08c1bb21",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "f5fa3de10a4e4146ae782acd08c1bb21",
+    "_classes": "",
+    "_parentId": "fa450be74f7642eda9a23cd36fc98d2a",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "c7521f73-5459-4723-b6c5-670a16010126",
+    "_isOptional": true,
+    "_oldParentId": "fa450be74f7642eda9a23cd36fc98d2a",
+    "_activityParentId": "ee88d7b6-de63-460f-8bb4-e4c2be290b54"
+  },
+  {
+    "_id": "10c5f92bc1d244b586ad03e0f1893800",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "10c5f92bc1d244b586ad03e0f1893800",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário de descoberta de vizinho IPv6",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "bae4ee7832bd4e95a9e64927c6597227",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "17972284-1f35-4a9c-94e8-1d18633b7f1a",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "bae4ee7832bd4e95a9e64927c6597227",
+    "displayTitle": "",
+    "_activityParentId": "73af4df8-c604-4ae9-8d67-46d94bf4b417",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f5df7e8a2a9642f983c8b521028fd079",
+    "body": "Quais duas mensagens ICMPv6 são usadas durante o processo de resolução de endereço MAC Ethernet? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "solicitação de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "anúncio de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "solicitação de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "anúncio de vizinho",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "solicitação de eco",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "f5df7e8a2a9642f983c8b521028fd079",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O IPv6 usa mensagens ICMPv6 de solicitação de vizinho (NS) e anúncio de vizinho (NA) para resolução de endereço MAC.",
+      "_incorrect": {
+        "final": "O IPv6 usa mensagens ICMPv6 de solicitação de vizinho (NS) e anúncio de vizinho (NA) para resolução de endereço MAC.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f9ef1762cf0d49cda7135a3030a523f7",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e4c66bec-ec07-4876-bf80-788880889f17",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f9ef1762cf0d49cda7135a3030a523f7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "304860",
+    "_activityParentId": "1edb85ab-3288-4d61-af60-860a928728cb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2b656c1d2a794f329139daf3861d00f7",
+    "body": "Qual escopo de endereço é usado no quadro IPv6 para garantir que uma mensagem de solicitação de vizinho IPv6 não seja encaminhada pelos roteadores?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "escopo de site-local",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "escopo de link local",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "escopo de subnet local",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "escopo de interface local",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2b656c1d2a794f329139daf3861d00f7",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Uma mensagem de solicitação de vizinho IPv6 é enviada via multicast. O endereço multicast é definido com o escopo de link-local para que a mensagem possa transmitir apenas no mesmo link.",
+      "_incorrect": {
+        "final": "Uma mensagem de solicitação de vizinho IPv6 é enviada via multicast. O endereço multicast é definido com o escopo de link-local para que a mensagem possa transmitir apenas no mesmo link.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "715d13f7f62a482fb8fdb4178905773f",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ba37a3ec-d86d-4882-8f90-6dc00957bbb8",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "715d13f7f62a482fb8fdb4178905773f",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410576",
+    "_activityParentId": "0d78054b-b7b2-420c-b6c6-a2e2e12edf9b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "06adc5c0eb2746e687af81d833d5927a",
+    "body": "Que tipo de transmissão de dados um host IPv6 usa para enviar uma mensagem de solicitação de vizinho?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "unicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "anycast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "multicast",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "broadcast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "06adc5c0eb2746e687af81d833d5927a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Quando um host IPv6 precisa iniciar o processo de resolução de endereço, ele envia uma mensagem de solicitação de vizinho multicast.",
+      "_incorrect": {
+        "final": "Quando um host IPv6 precisa iniciar o processo de resolução de endereço, ele envia uma mensagem de solicitação de vizinho multicast.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4c63f894ee57456dbdf7d0e346f6f6e7",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5184de80-2323-4b2f-850b-e3342576340b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4c63f894ee57456dbdf7d0e346f6f6e7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410583",
+    "_activityParentId": "eee212e3-3ecb-4ec5-8cca-d3be90f1818e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "54eff38902814a0a8d5b8deb33128c42",
+    "body": "Que tipo de quadro Ethernet um host IPv6 usa para enviar uma mensagem em resposta a uma solicitação de resolução de endereço?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "unicast",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "anycast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "multicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "broadcast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "54eff38902814a0a8d5b8deb33128c42",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Um host IPv6 enviará um quadro Ethernet unicast quando o host receber uma mensagem de solicitação de vizinho.",
+      "_incorrect": {
+        "final": "Um host IPv6 enviará um quadro Ethernet unicast quando o host receber uma mensagem de solicitação de vizinho.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": "Depois de convertido, CA em hexadecimal equivale a 11011010 em binário. Uma forma de realizar a conversão é de um nibble por vez, C = 1100 e A = 1010. A combinação dos dois nibbles resulta em 11001010."
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f79b801af1204dd3b41a07ab0b40b067",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a13332db-4076-4762-898f-29d1ee368723",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f79b801af1204dd3b41a07ab0b40b067",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410585",
+    "_activityParentId": "bc8450e5-a385-4c8b-898e-032f7aa93ffe",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "db1d9a7ff5e143b889ccbfc11ca951b1",
+    "body": "Quantas mensagens são usadas no protocolo de descoberta de vizinhos ICMPv6?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "3",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "4",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "5",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "6",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "db1d9a7ff5e143b889ccbfc11ca951b1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para realizar esses serviços. Eles são solicitação de vizinho, anúncio de vizinho, solicitação de roteador, anúncio de roteador e redirecionamento.",
+      "_incorrect": {
+        "final": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 ND usa cinco mensagens ICMPv6 para realizar esses serviços. Eles são solicitação de vizinho, anúncio de vizinho, solicitação de roteador, anúncio de roteador e redirecionamento.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bfb1a6af971f4365a7d5e518c0dfa920",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d565a2ff-9eda-4cf6-8ee5-920d689e2094",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bfb1a6af971f4365a7d5e518c0dfa920",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410589",
+    "_activityParentId": "fe4033b3-c6d6-47b6-9b7f-d1ae43a91294",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6bca5812fa964827a2938807c9f672b1",
+    "body": "Qual protocolo fornece mensagens para dar suporte à resolução de endereços IPv6?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "DNS",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ARP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ICMPv6",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "DHCPv6",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6bca5812fa964827a2938807c9f672b1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6.",
+      "_incorrect": {
+        "final": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "25f4c4abd9954c1082624624c33b521d",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9fe30d1f-f43b-4da7-b43c-c1fb8848993a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "25f4c4abd9954c1082624624c33b521d",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410591",
+    "_activityParentId": "58e1b332-2786-48b2-b430-a808042d01bb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c4d6fa470ddb41cc91c013a4b4a431d2",
+    "body": "Qual camada OSI fornece operação de descoberta de vizinhos IPv6?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "rede",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "enlace de dados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "transporte",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "aplicação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "c4d6fa470ddb41cc91c013a4b4a431d2",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 é um protocolo de camada de rede OSI.",
+      "_incorrect": {
+        "final": "O protocolo IPv6 Neighbor Discovery, também conhecido como ND ou NDP, fornece resolução de endereço, descoberta de roteador e serviços de redirecionamento para IPv6 usando ICMPv6. O ICMPv6 é um protocolo de camada de rede OSI.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bbb8f2e865c84fc38d9b90404157f0af",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1f2b67bd-b3ac-460e-8aae-34c251a3931c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bbb8f2e865c84fc38d9b90404157f0af",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410593",
+    "_activityParentId": "68703ea2-6922-4742-bd6b-a40ff53880ac",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7e95c0ffb54247f59858db853c28993b",
+    "body": "Qual método um host habilitado para IPv6 usando SLAAC empregaria para saber o endereço do gateway padrão?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "mensagens de anúncio de roteador recebidas do roteador de link",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "mensagens de solicitação de vizinho enviadas para conectar vizinhos",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "mensagens de anúncio de vizinho recebidas de vizinhos de link",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "mensagens de solicitação do roteador recebidas do roteador de link",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "7e95c0ffb54247f59858db853c28993b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Ao usar o SLAAC, um host aprenderá com o anúncio do roteador enviado pelo roteador de link o endereço a ser usado como gateway padrão.",
+      "_incorrect": {
+        "final": "Ao usar o SLAAC, um host aprenderá com o anúncio do roteador enviado pelo roteador de link o endereço a ser usado como gateway padrão.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5f8017f783d6415ca5ec9b87c85f200f",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d18d792a-173f-442a-83a6-11f8f81d38b7",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5f8017f783d6415ca5ec9b87c85f200f",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "360887",
+    "_activityParentId": "a6bc0459-3871-45e0-beab-6aee368a4ef8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ccacd0c90b874631b07a752b5d81ddd9",
+    "body": "Qual mensagem um host IPv6 deve enviar em resposta a uma solicitação de seu endereço MAC?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Mensagem de solicitação de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mensagem de solicitação de vizinhos",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mensagem de anúncio de roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mensagem de anúncio de vizinhos",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "ccacd0c90b874631b07a752b5d81ddd9",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Quando um host IPv6 recebe uma mensagem de solicitação de vizinho ICMPv6 para resolução de endereço MAC, o host retorna uma mensagem de anúncio de vizinho para fornecer o endereço MAC.",
+      "_incorrect": {
+        "final": "Quando um host IPv6 recebe uma mensagem de solicitação de vizinho ICMPv6 para resolução de endereço MAC, o host retorna uma mensagem de anúncio de vizinho para fornecer o endereço MAC.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ce730569a18c4c37b082e3aa4ec50f22",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "dfa0bd99-73df-4dc5-8b45-b3a341b7e6ed",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ce730569a18c4c37b082e3aa4ec50f22",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410577",
+    "_activityParentId": "1143a476-d004-4266-8c42-17c9c9f4908e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "909366a040134264980d2a9fa7378a37",
+    "body": "Qual declaração descreve as mensagens de solicitação de vizinho e anúncio de vizinho usadas no protocolo IPv6 de descoberta de vizinhos?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Eles são usados apenas entre dois roteadores.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles são usados apenas entre dois computadores.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles são usados para enviar mensagens para todos os dispositivos na mesma rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles são usados para mensagens de dispositivo para dispositivo e os dispositivos incluem computadores e roteadores.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "909366a040134264980d2a9fa7378a37",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "As mensagens de Solicitação de Vizinho e Anúncio de Vizinho são usadas para mensagens de dispositivo para dispositivo, como resolução de endereço. Os dispositivos incluem computadores host e roteadores.",
+      "_incorrect": {
+        "final": "As mensagens de Solicitação de Vizinho e Anúncio de Vizinho são usadas para mensagens de dispositivo para dispositivo, como resolução de endereço. Os dispositivos incluem computadores host e roteadores.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "770fbf63d5654b6ab058281fca14f636",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f82dcd27-c069-41f6-8db0-158419e0ceca",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "770fbf63d5654b6ab058281fca14f636",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410592",
+    "_activityParentId": "129dd399-f9dc-4290-a92a-4d93fb234071",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d9c57c4677ff4362851f6a4d65555f1e",
+    "body": "O host IPv6 A está enviando uma mensagem de solicitação de vizinho para o host IPv6 B na mesma rede Ethernet. Que tipo de endereço é usado no campo Destination MAC do cabeçalho do quadro Ethernet?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "endereço MAC unicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereço MAC anycast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereço MAC multicast",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "endereço MAC de broadcast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d9c57c4677ff4362851f6a4d65555f1e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Quando um host IPv6 envia uma mensagem de solicitação de vizinho para outro host IPv6 na mesma rede Ethernet, o host remetente cria um quadro Ethernet e adiciona um endereço MAC de multicast no campo Endereço de destino MAC.",
+      "_incorrect": {
+        "final": "Quando um host IPv6 envia uma mensagem de solicitação de vizinho para outro host IPv6 na mesma rede Ethernet, o host remetente cria um quadro Ethernet e adiciona um endereço MAC multicast no campo Endereço MAC de destino.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e039fcd22c804abf8ed12985a3c7f301",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3776cd03-0fd7-4f0b-93e3-ba7484d0ea4b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e039fcd22c804abf8ed12985a3c7f301",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410573",
+    "_activityParentId": "0df29dc2-aba2-4f78-819b-2d2c4df2fe3e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "969efe7db9724fe3a418d184f6381b3c",
+    "body": "Um host IPv6 precisa iniciar a comunicação com outro host IPv6. Qual é o primeiro passo que o host de envio deve fazer?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Transmitir uma mensagem de broadcast ARP para a rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Enviar uma mensagem de solicitação de vizinho para o host de destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Determinar se o host de destino está na mesma rede IPv6.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Enviar uma mensagem de anúncio de vizinho para o host de destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "969efe7db9724fe3a418d184f6381b3c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Quando um host precisa iniciar uma comunicação com outro host, a primeira coisa que o host remetente precisa fazer é determinar se o host de destino está na mesma rede. Isso levará à decisão se o pacote deve ser enviado diretamente para o host de destino ou para o dispositivo de gateway padrão.",
+      "_incorrect": {
+        "final": "Quando um host precisa iniciar uma comunicação com outro host, a primeira coisa que o host remetente precisa fazer é determinar se o host de destino está na mesma rede. Isso levará à decisão se o pacote deve ser enviado diretamente para o host de destino ou para o dispositivo de gateway padrão.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b8887da2175345e08a5ab799654bd60e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6f734a28-283e-4ea6-84cf-a1febb725ebf",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b8887da2175345e08a5ab799654bd60e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410568",
+    "_activityParentId": "b5a74932-5580-4782-b25b-93a6e5e8943a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "08c792c8bdde409ab56008c46bbcc67c",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Selecione Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><strong><span style=\"color:#000000\">Parabéns, você passou no teste!</span></strong></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "08c792c8bdde409ab56008c46bbcc67c",
+    "_retry": {
+      "button": "O host pode se comunicar com outros hosts em redes remotas, mas não consegue se comunicar com hosts na rede local.",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9b7ca5536a044b3f8fea34303fbedfd4",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "a0e49667-5f29-47b0-b0e0-0e1fee82423d",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9b7ca5536a044b3f8fea34303fbedfd4",
+    "displayTitle": "",
+    "_assessmentId": "02e1d690aab7426ab15ab6598a9d49a9",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "965164e7-8472-4177-9d66-48345a77d283",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "64f1f77e1f254428912de90b1e4155d2",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "64f1f77e1f254428912de90b1e4155d2",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "2f5239935c454eb18fe06ffa41c73db4",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "eead9277-10c0-485e-99ee-918866f4e5b4",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "2f5239935c454eb18fe06ffa41c73db4",
+    "displayTitle": "",
+    "_activityParentId": "3a05f097-406c-4cfd-891a-e280b3a64184"
+  },
+  {
+    "_id": "80488753-d0d2-433a-9fd2-597ea057a795",
+    "body": "<h1><span lang=\"PT-BR\">Tabela de Endereçamento</span></h1>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "80488753-d0d2-433a-9fd2-597ea057a795",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9ec2f9ef-b190-4832-8183-82395ae7d25e",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5ca84a26-bdc0-43de-a8f1-9410b1e24908",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9ec2f9ef-b190-4832-8183-82395ae7d25e",
+    "displayTitle": "",
+    "_activityParentId": "ddacdb94-83e1-4788-ba39-71ed44e89e89",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "cff75fdc-4a17-4ef5-ad86-880d4ba5452a",
+    "body": "",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"TableHeading\"><span lang=\"PT-BR\" style=\"color:black\">Dispositivo</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": true
+          },
+          {
+            "text": "<p class=\"TableHeading\"><span lang=\"PT-BR\" style=\"color:black\">Interface</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": true
+          },
+          {
+            "text": "<p class=\"TableHeading\"><span lang=\"PT-BR\" style=\"color:black\">Endereço/Prefixo IPv6</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": true
+          },
+          {
+            "text": "<p class=\"TableHeading\"><span lang=\"PT-BR\" style=\"color:black\">Gateway padrão</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">RTA</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">G0/0/0</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">2001:db8:acad:1::1/64</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">N/D</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"ConfigWindow\"><span lang=\"PT-BR\">RTA</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">G0/0/1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">2001:db8:acad:1::1/64</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">N/D</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">PCA1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">Placa de rede</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">2001:db8:acad:1::a/64</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">fe80::1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">PCA2</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">Placa de rede </span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">2001:db8:acad:1::b/64</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">fe80::1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">PCB1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">Placa de rede</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">2001:db8:acad:2::a/64</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          },
+          {
+            "text": "<p class=\"TableText\"><span lang=\"PT-BR\">fe80::1</span></p>",
+            "_classes": "",
+            "_colSpan": 1,
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": 1,
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "Table Widget",
+    "_oldId": "cff75fdc-4a17-4ef5-ad86-880d4ba5452a",
+    "_layout": "full",
+    "_classes": "",
+    "_isHidden": false,
+    "_minWidth": 800,
+    "_parentId": "f653a44b-bcb2-493d-9dc0-fab563b6e5aa",
+    "_ariaLevel": 0,
+    "_component": "table",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b85e48f4-f5e4-4fef-83e4-e82344b0b101",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "f653a44b-bcb2-493d-9dc0-fab563b6e5aa",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": "200",
+        "_column": 0
+      }
+    ],
+    "_activityParentId": "ba7f17c3-d734-4127-a4c2-052e517d3e62",
+    "_colHeaderIndexes": "",
+    "_isResetOnRevisit": false,
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "86095879-eecd-410f-a41e-4ea74af05a8b",
+    "body": "<h1><span lang=\"PT-BR\">Objetivos</span></h1> <p class=\"BodyTextL25Bold\"><span lang=\"PT-BR\">Parte 1: Descoberta de vizinhos IPv6 Rede local</span></p> <p class=\"BodyTextL25Bold\"><span lang=\"PT-BR\">Parte 2: Descoberta de vizinhos IPv6 Rede remota</span></p> <h1><span lang=\"PT-BR\">Segundo plano</span></h1> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Para que um dispositivo se comunique com outro dispositivo, o endereço MAC do destino deve ser conhecido. Com o IPv6, um processo chamado Descoberta de Vizinhos (Neighbor Discovery) usando o protocolo NDP ou ND é responsável por determinar o endereço MAC de destino. Você coletará informações de PDU no modo de simulação para entender melhor o processo. Não há pontuação no Packet Tracer para esta atividade.</span></p> <h1><span lang=\"PT-BR\">Instruções</span></h1> <h2><span lang=\"PT-BR\">Parte 1: Descoberta de vizinhos IPv6 Rede local</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Nesta parte, você obterá o endereço MAC de um dispositivo de destino na mesma rede.</span></p> <h3><span lang=\"PT-BR\">Etapa 1: </span><span lang=\"PT-BR\">Verifique se há vizinhos que ele descobriu no roteador.</span></h3> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no RTA Router. Selecione a guia CLI e emita o comando <b>show ipv6 neighbors</b> do modo EXEC privilegiado. Se houver entradas exibidas, remova-as usando o comando <b>clear ipv6 neighbors</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>PCA1</b>, selecione a guia Área de Trabalho e clique no ícone <b>Prompt Command</b>.</span></p> <h3><span lang=\"PT-BR\">Etapa 2: </span><span lang=\"PT-BR\">Alterne para o Modo de Simulação para capturar eventos.</span></h3> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no botão <b>Simulação</b> no canto inferior direito da janela Topologia do Packet Tracer.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no botão <b>Mostrar Tudo/Nenhum</b>no Painel de Simulação até que <b>Filtros da Lista de Eventos – Eventos Visíveis</b>exiba <b>Nenhum</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Edit Filters</b>. Selecione a guia IPv6 na parte superior e marque as caixas para <b>ICMPv6</b> e<b> NDP</b> . Feche a janela Editar Filtros ACL. Agora os Filtros da Lista de Eventos exibem ICMPv6 e NDP.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">No prompt de comando em <b>PCA1</b>, execute o comando <b>ping —n 1 2001:db8:acad:1: :b</b>. Isso iniciará o processo de ping <b>PCA2</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Reproduzir (Hands Free)</b> em PLAY CONTROLS fora do Painel de simulação. Se solicitado, clique em <b>View Previous Events</b>na janela Buffer Full - Packet Tracer. Você deve ter aproximadamente 12 entradas na janela.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "86095879-eecd-410f-a41e-4ea74af05a8b",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "131a706b-81ea-4c4e-8ea7-19ba7ab3c873",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "938ff4f6-d5e9-4355-801e-0c09ea6d2d8b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "131a706b-81ea-4c4e-8ea7-19ba7ab3c873",
+    "displayTitle": "",
+    "_activityParentId": "1556ae81-f5a5-482d-a495-5a8381486380",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9193a7c5-b6f4-47a8-b3e9-c56149b82a60",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "9193a7c5-b6f4-47a8-b3e9-c56149b82a60",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Por que as PDUs ND estão presentes?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "059824db-74b3-447d-bcc3-f6908820bb0c",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Para enviar pacotes de ping ICMPv6 para o PCA2, o PCA1 precisa saber o endereço MAC do destino. O IPv6 ND solicita essas informações na rede.</span></span></span></p>",
+    "_activityId": "515c7957-99b7-44d7-8917-47fa0fab8da3",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "059824db-74b3-447d-bcc3-f6908820bb0c",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "917a430d-5725-49b0-947d-037caeb5ef62",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "32bdd04f-aee8-4398-a1d3-12652c4b3201",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no quadrado na coluna Tipo para o primeiro evento, que deve ser <b>ICMPv6</b>.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "32bdd04f-aee8-4398-a1d3-12652c4b3201",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "dedb0d35-ef90-4b7e-9b90-5c35289cd120",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e92e9a61-b70e-4981-b8e4-2156245ebc17",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "dedb0d35-ef90-4b7e-9b90-5c35289cd120",
+    "displayTitle": "",
+    "_activityParentId": "058748ea-f78a-465b-bb6e-325b90e798de",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "59abfa79-4327-44b6-8b77-b61ef27ef27e",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "59abfa79-4327-44b6-8b77-b61ef27ef27e",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Uma vez que a mensagem começa com este evento, existe apenas uma PDU de saída. Na guia Modelo OSI, qual é o Tipo de Mensagem listado para ICMPv6?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "9e89ed86-6807-4533-a4b0-419a7b66836a",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Tipo de mensagem de eco ICMPv6:128</span></span></span></p>",
+    "_activityId": "b5cf1f9c-f6bd-4c4e-8560-babbef81c643",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "9e89ed86-6807-4533-a4b0-419a7b66836a",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "f37ba95c-21a6-4e46-9441-1d2a06c2bca8",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5aec9a9a-0c3c-4554-916b-44324168138d",
+    "body": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Observe que não há endereçamento de Camada 2. Clique no botão <b>Próxima Camada &gt;&gt;</b> para obter uma explicação sobre o processo ND (Descoberta de Vizinhos). </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">g.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no quadrado ao lado do próximo evento no Painel de simulação. Deve estar no dispositivo PCA1 e o tipo deve ser NDP.</span></p> <h4  class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Perguntas:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "5aec9a9a-0c3c-4554-916b-44324168138d",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "79abacb3-384a-433e-93f3-b0ff2fb93762",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f2a9062e-731e-44c6-aa17-c17fb5207960",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "79abacb3-384a-433e-93f3-b0ff2fb93762",
+    "displayTitle": "",
+    "_activityParentId": "ea55cd8f-3107-4058-ab68-10174ce84355",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f728656f-ed68-47e6-86d3-cf45492d5932",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "f728656f-ed68-47e6-86d3-cf45492d5932",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">O que mudou no endereçamento da Camada 3?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d75ded8c-3d3b-49f7-92b2-20ccdf50aeaa",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O endereço de destino agora é um endereço multicast IPv6 de FF02: :1:FF00:B</span></span></span></p>",
+    "_activityId": "9d69de40-ace3-4bc1-bbd4-6501664d87b6",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d75ded8c-3d3b-49f7-92b2-20ccdf50aeaa",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "439dde55-a335-4aa7-8b93-b13ac16177d8",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9dd65620-0478-45bf-bf94-04697fcb4e99",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "9dd65620-0478-45bf-bf94-04697fcb4e99",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Quais endereços da Camada 2 são mostrados?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "45e8cd73-80c4-46cd-b618-ec1077a84e4a",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O endereço de origem é PCA1 MAC — 0001.427E.E8ED e o endereço MAC de destino é 3333.FF00.000B</span></span></span></p>",
+    "_activityId": "0677dc9a-9dbb-474d-bf38-a235001a183c",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "45e8cd73-80c4-46cd-b618-ec1077a84e4a",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "f16a7d68-6c84-4e19-a987-63f9a725fe71",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f50052bc-2004-4178-83cc-f1213c5d08be",
+    "body": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Quando um host não sabe o endereço MAC do destino, um endereço MAC de multicast especial é usado pelo IPv6 Neighbor Discovery como o endereço de destino da Camada 2.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">h.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Volte para a lista de eventos. Selecione o primeiro evento <b>NDP</b> no SwitchA.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "f50052bc-2004-4178-83cc-f1213c5d08be",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "31fbaedc-ae4b-4a07-91c1-18fc351eda37",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3a5aaadc-8877-46ae-8454-952758199d68",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "31fbaedc-ae4b-4a07-91c1-18fc351eda37",
+    "displayTitle": "",
+    "_activityParentId": "06c207f5-dcb8-41c4-9d68-0718da7ae06d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "18766fad-fa4f-4a0b-9eb8-f775ac647d46",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "18766fad-fa4f-4a0b-9eb8-f775ac647d46",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Existe alguma diferença entre as Camadas Dentro e Fora da Camada 2?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "4da059f1-eb66-47c9-a080-1c95fb236d08",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\"border:none\"><span style=\"border:none\">Não. O switch não altera as informaçõ<span style=\"border:none\">es da Camada 2, ele apenas encaminha o quadro.</span></span></span></span></p>",
+    "_activityId": "75ade82d-b5d2-402a-b012-674139957df7",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "4da059f1-eb66-47c9-a080-1c95fb236d08",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "2a21f2f7-73d8-446d-b0ed-abcc8ffece6d",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "07705521-1a75-4aa6-a319-d7eeecc71251",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">i.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Selecione o primeiro evento <b>NDP</b> no <b>PCA2</b> . Clique na guia Detalhes da PDU de Saída.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">Quais endereços são exibidos para o seguinte?</span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação</span></b><span lang=\"PT-BR\">: os endereços nos campos podem ser quebrados, ajuste o tamanho da janela da PDU para facilitar a leitura das informações de endereço. </span></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "07705521-1a75-4aa6-a319-d7eeecc71251",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "005e2339-2443-4fa1-afb2-6718abebba9f",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8aabfdaf-6832-4140-94bc-d342c10403f8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "005e2339-2443-4fa1-afb2-6718abebba9f",
+    "displayTitle": "",
+    "_activityParentId": "4ec90b93-a654-4fb2-a52a-ed7ae2a9ac53",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "82df5a7e-454d-4a8f-b2d4-aa4e3e540609",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "82df5a7e-454d-4a8f-b2d4-aa4e3e540609",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">ADDR Ethernet II DEST:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d52bd838-f8e5-4b5f-845a-aed6c79fc521",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">0001.427E.E8ED</span></span></span></p>",
+    "_activityId": "9b3cab43-4d05-4ff7-8d83-dda74a23f1d5",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d52bd838-f8e5-4b5f-845a-aed6c79fc521",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "d2913c1d-c478-4c12-87d0-c2d5da438c1d",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bf52a916-7ed0-4177-b2bd-eec80fa3571f",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "bf52a916-7ed0-4177-b2bd-eec80fa3571f",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">ADDR SRC Ethernet II:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "9cb71e92-0b38-484a-b0f7-10f2de4a40b6",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">0040.0B02:.243E</span></span></span></p>",
+    "_activityId": "9eebdccb-4f3b-4d49-abab-684895c6fa5b",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "9cb71e92-0b38-484a-b0f7-10f2de4a40b6",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "a5450399-f311-440b-868d-e30191c94244",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "99e1d0eb-d3d4-4362-8842-dd9a251d46c5",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "99e1d0eb-d3d4-4362-8842-dd9a251d46c5",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">IPv6 SRC IP:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "2eade894-c01c-4ae5-9511-62739f61f814",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">2001:db8:acad:1::b</span></span></span></p>",
+    "_activityId": "bd060592-c8dd-460f-bf1a-cc9cbc25daf0",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "2eade894-c01c-4ae5-9511-62739f61f814",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "bff2fd86-0411-4934-b82e-2646df71b8be",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "a853c6c3-3ec9-4f6b-a8e8-697c0b25e84d",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "a853c6c3-3ec9-4f6b-a8e8-697c0b25e84d",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">IP IPv6 DST:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "dd5af77b-219d-4d42-9aaf-5aa780a56cec",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">2001:db8:acad:1::a</span></span></span></p>",
+    "_activityId": "b37225b5-a29d-4dcc-8563-99defc88c9a4",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "dd5af77b-219d-4d42-9aaf-5aa780a56cec",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "69b575f6-a616-4449-9685-c1ab48c3f8e4",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ee041265-0c3e-438d-9cd2-c8817a26ae2f",
+    "body": "<h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "ee041265-0c3e-438d-9cd2-c8817a26ae2f",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aa8d6d65-f30a-49ee-b637-c8c49d6d664c",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9a15a0da-4ecd-4244-95d0-53b2dc1715b9",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "aa8d6d65-f30a-49ee-b637-c8c49d6d664c",
+    "displayTitle": "",
+    "_activityParentId": "19e45e76-e567-439c-9389-e7ea4d3c6aca",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c97504be-c396-4558-8f42-4964639f9ec3",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "c97504be-c396-4558-8f42-4964639f9ec3",
+    "preText": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">j.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Selecione o primeiro evento <b>NDP</b> no <b>RTA</b> . Por que não há Camadas Out?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "c4c4b75d-b2ec-46b1-bd5f-a1f407876961",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O endereço<span style=\"border:none\"> IPv6 não corresponde ao endereço do roteador, então ele descarta o pacote.</span></span></span></span></p>",
+    "_activityId": "7afa6c01-6f17-4e46-8e14-404c4c814f48",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "c4c4b75d-b2ec-46b1-bd5f-a1f407876961",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "e12b6464-bcce-4d71-927d-81a0f4dfbc83",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "955359b3-18db-4739-9669-2a02b6125306",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">k.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no botão </span><b><span lang=\"PT-BR\">Próxima Camada &gt;&gt;</span></b><span lang=\"PT-BR\"> até o final e leia as etapas 4 a 7 para obter mais explicações.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">l.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no próximo evento <b>ICMPv6</b> em <b>PCA1</b> .</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "955359b3-18db-4739-9669-2a02b6125306",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "be7ce88e-a271-406a-a729-e6b1cc9e5ccb",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "66dd925e-4a99-4cbd-a4e0-54d967212bff",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "be7ce88e-a271-406a-a729-e6b1cc9e5ccb",
+    "displayTitle": "",
+    "_activityParentId": "d0d9a662-aec3-4846-9e98-3bbac6fcb1e2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f9c981e7-a9ff-482c-b2e1-776d15974ae2",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "f9c981e7-a9ff-482c-b2e1-776d15974ae2",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">O PCA1 agora tem todas as informações necessárias para se comunicar com o PCA2?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "45964986-2f5c-47c8-82a3-baf5e0506e9b",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Sim, agora ele conhece tanto o endereço IPv6 de destino como o endereço MAC de destino do PCA2.</span></span></span></p>",
+    "_activityId": "da60d3ba-8e50-4113-8892-c1d7508655a2",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "45964986-2f5c-47c8-82a3-baf5e0506e9b",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "d537764a-36ce-4423-bc53-5e0051b7261c",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "00768afb-1561-4fec-8cc9-9e525958cac9",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">m.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no último evento <b>ICMPv6</b> em <b>PCA1</b> . Observe que esta é a última comunicação listada.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "00768afb-1561-4fec-8cc9-9e525958cac9",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "816728c8-6909-4d52-80ff-e6e366079820",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8b41850f-0e0f-43d2-86cf-60daf4de124c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "816728c8-6909-4d52-80ff-e6e366079820",
+    "displayTitle": "",
+    "_activityParentId": "0a28f9f6-caad-4da6-91dd-31f55344db25",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "950ba310-2f21-454b-be63-e743068a250c",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "950ba310-2f21-454b-be63-e743068a250c",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">O que é o tipo de mensagem de eco ICMPv6?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d3ece183-67cc-4cd6-b038-bd8b328fcce6",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\"border:none\"><span style=\"border:none\">O tipo de mensagem de eco ICMPv6 é 129, uma resposta de eco.</span></span></span></p>",
+    "_activityId": "6a20456c-8cf6-45d4-85a5-1174f4f2430c",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d3ece183-67cc-4cd6-b038-bd8b328fcce6",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "ac612f9d-efd3-493e-83d9-b963d10c9c3c",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "aa69deb9-51f2-40bd-a6ab-ec824055b8f8",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">n.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Reset Simulation </b>(Redefinir Simulação) no Simulation Panel (Painel de Simulação). No prompt de comando do PCA1, repita o <b>ping</b> para o PCA2. (Dica: você deve ser capaz de pressionar a seta para cima para trazer o comando anterior de volta.)</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">o.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Reproduzir (Hands Free)</b> para concluir o processo de ping. Clique em <b>Exibir eventos anteriores</b>, se solicitado.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "aa69deb9-51f2-40bd-a6ab-ec824055b8f8",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "53a85e09-c91f-4980-b23a-1e08c2327c77",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "63a73d27-27ea-4c0c-8833-df01732c5911",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "53a85e09-c91f-4980-b23a-1e08c2327c77",
+    "displayTitle": "",
+    "_activityParentId": "a7c1081c-165b-4b4d-ba41-5123aedf82ed",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3319835b-dec9-4b26-82a4-8eb3428537de",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "3319835b-dec9-4b26-82a4-8eb3428537de",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Por que não houveram eventos NDP?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "640bd931-d454-44b3-a453-9d9451fd8fb1",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O PCA1 já conhece o endereço MAC do PCA2, portanto não precisa usar o Neighbor Discovery.</span></span></span></p>",
+    "_activityId": "fc24a11a-cb01-4592-b58b-f72bf17e1e27",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "640bd931-d454-44b3-a453-9d9451fd8fb1",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "af8a65d8-1c12-4666-af59-cbbc072f746e",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ee7db5c4-7094-4dad-894b-96d7d11222ea",
+    "body": "<h2><span lang=\"PT-BR\">Parte 2: </span><span lang=\"PT-BR\">Descoberta de vizinhos IPv6 Rede remota</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Na Parte 2 desta atividade, você executará etapas semelhantes às da parte anterior, exceto que, neste caso, o host de destino está em outra LAN. Observe como o processo de descoberta de vizinhos difere do processo observado na parte anterior. Preste muita atenção a algumas das etapas de endereçamento adicionais que ocorrem quando um dispositivo se comunica com um dispositivo que está em uma rede diferente.</span></p> <h3><span lang=\"PT-BR\">Etapa 1: </span><span lang=\"PT-BR\">Capturar eventos para comunicação remota.</span></h3> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no botão <b>Reset Simulation</b> para limpar os eventos anteriores. Exiba e limpe todas as entradas na tabela de dispositivos vizinhos IPv6 como foi feito na parte anterior.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Verifique se apenas <b>ICMPv6</b>e <b>NDP</b> estão listados em Event List Filters - Visible Events.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">No prompt de comando no PCA1, emita o comando <b>ping –n 1 2001:db8:acad:2::</b>a para pingar o host PCB1.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Reproduzir (Hands Free)</b> em PLAY CONTROLS fora do Painel de simulação. Se solicitado, clique <b>em Exibir eventos anteriores</b> na janela Buffer cheio -- Packet Tracer.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Quando o processo de ping estiver concluído, clique no quadrado na Coluna Tipo para o primeiro evento, que deve ser <b>ICMPv6</b>. Como a mensagem começa com este evento, existe apenas uma PDU de saída. Observe que está faltando as informações da Camada 2 como fazia no cenário anterior.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no primeiro evento <b>NDP</b> no dispositivo <b>PCA1</b> .</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "ee7db5c4-7094-4dad-894b-96d7d11222ea",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3e366655-e0e0-464f-a461-853b5218e214",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e055da20-830d-483c-8e74-78aef7f7191e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "3e366655-e0e0-464f-a461-853b5218e214",
+    "displayTitle": "",
+    "_activityParentId": "a9ac1e91-81ca-4715-99be-24945269dcc9",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "49315f6b-76ea-4922-b050-9f1f8799aa54",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "49315f6b-76ea-4922-b050-9f1f8799aa54",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Qual endereço está sendo usado para o IP Src na PDU de entrada?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "4401c4a0-bf0a-4141-8191-ff6ac376ef86",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\"border:none\"><span style=\"border:none\">O endereço local do link para PCA1 — fe80::201:42ff:fe7e:e8ed</span></span></span><span lang=\"PT-BR\"></span></p>",
+    "_activityId": "d168071b-aa40-4d80-a89a-a565bf714ca4",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "4401c4a0-bf0a-4141-8191-ff6ac376ef86",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "c5e2ed14-205b-472e-8a24-8b6d85d09195",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d16a9a7b-4afd-48f7-af4a-bb8ff3ca298a",
+    "body": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">O IPv6 Neighbor Discovery determinará o próximo destino para encaminhar a mensagem ICMPv6.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">g.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no segundo evento ICMPv6 para <b>PCA1</b>. O PCA1 agora tem informações suficientes para criar uma solicitação de eco ICMPv6.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "d16a9a7b-4afd-48f7-af4a-bb8ff3ca298a",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1e0d91af-d937-4938-a46e-e4e88642414c",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8c0c34a7-118a-4290-a41b-8b3492c233ae",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1e0d91af-d937-4938-a46e-e4e88642414c",
+    "displayTitle": "",
+    "_activityParentId": "2f477441-1e73-42cd-a033-7bec6cda4f18",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "883abfab-a468-42b2-b5b6-26beb83da885",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "883abfab-a468-42b2-b5b6-26beb83da885",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Qual endereço MAC está sendo usado para o MAC de destino?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "6137062e-3aa6-42ca-b94c-4f2b538e8dfa",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\"border:none\"><span style=\"border:none\">0001.961d.6301, o endereço MAC de G0<span style=\"border:none\">/0/0 de RTA</span></span></span></span></p>",
+    "_activityId": "c77a3811-5510-4e1c-b634-69ca9413866d",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "6137062e-3aa6-42ca-b94c-4f2b538e8dfa",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "fba407b5-92db-44dd-a767-9de40a028057",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c798d23a-5050-4407-859e-95765db5e28e",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">h.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no próximo evento ICMPv6 no dispositivo <b>RTA</b>. Observe que a PDU de saída do RTA não possui o endereço de destino da camada 2, isso significa que o RTA mais uma vez precisa realizar uma descoberta de vizinho para a interface que possui a rede 2001:db8:acad:2:: porque não conhece os endereços MAC dos dispositivos na LAN G0/0/1.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">i.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Ir para o primeiro evento ICMPv6 para o dispositivo <b>PCB1</b>.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "c798d23a-5050-4407-859e-95765db5e28e",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4596e748-047d-4688-98e1-fe2de47d38f8",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8f7dde7f-153f-4fae-9326-477940a2a674",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4596e748-047d-4688-98e1-fe2de47d38f8",
+    "displayTitle": "",
+    "_activityParentId": "00219138-f4ab-4313-a29b-f29dd891ecce",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6ec4fad3-6af2-4bfa-94bc-b9316f9ea22b",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "6ec4fad3-6af2-4bfa-94bc-b9316f9ea22b",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">O que está faltando nas informações de saída da Camada 2?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "c112c6b9-06cd-4ce7-af89-d855d328b5a6",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O endereço M<span style=\"border:none\">AC de destino deve ser determinado para o endereço de destino IPv6.</span></span></span></span></p>",
+    "_activityId": "4e342839-8257-4820-bd48-ff6fad0d3021",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "c112c6b9-06cd-4ce7-af89-d855d328b5a6",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "79644fe6-f6c3-4b8f-bb2a-a954e1635cce",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d0892c62-db62-48cf-8f46-1078e3ad289d",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">j.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Os próximos eventos <b>NDP</b> estão associando os endereços IPv6 restantes a endereços MAC. Os eventos NDP anteriores associados endereços MAC com endereços de Link Local.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">k.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Pule para o último conjunto de eventos ICMPv6 e observe que todos os endereços foram aprendidos. As informações necessárias agora são conhecidas, então PCB1 pode enviar mensagens de resposta de eco para PCA1.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">l.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em Reset Simulation (Redefinir Simulação) no Simulation Panel (Painel de Simulação). No prompt de comando do PCA1 repita o comando para ping PCB1. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">m.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>Reproduzir (Hands Free)</b> para concluir o processo de ping. Clique em <b>Exibir eventos anteriores</b> se solicitado na janela Buffer cheio.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "d0892c62-db62-48cf-8f46-1078e3ad289d",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "23bc9ee9-7a5b-421a-84fc-00a1b9b91597",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c79d0dc7-2f8f-4d37-813a-b6399502f01b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "23bc9ee9-7a5b-421a-84fc-00a1b9b91597",
+    "displayTitle": "",
+    "_activityParentId": "51a3cfbd-aaca-4e12-9bf0-7f73d0ec0a1e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e9835e0f-36b9-4fdd-9875-946731062d93",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "e9835e0f-36b9-4fdd-9875-946731062d93",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Houve algum evento do NDP?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "2b8e3a22-772d-4940-9187-adf80e1866f3",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Não.</span></span></span></p>",
+    "_activityId": "92f45d26-245a-4a66-9461-4d925f469d6f",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "2b8e3a22-772d-4940-9187-adf80e1866f3",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "62f7d449-55c2-47f3-8a9c-a5d1e0bafeb7",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5289d0a5-97ae-4e2d-94e0-187d6df6244a",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">n.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique no único evento <b>PCB1</b> na nova lista.</span></p> <h4  class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Perguntas:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "5289d0a5-97ae-4e2d-94e0-187d6df6244a",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0cb13882-f472-4c89-a826-a80060d02dc6",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c3468ba2-797b-4656-98bf-5a6d0daff867",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0cb13882-f472-4c89-a826-a80060d02dc6",
+    "displayTitle": "",
+    "_activityParentId": "aea04d46-9ef9-4ffd-afe4-0567f7560081",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ce40afc5-888b-4df1-8d53-3d3999ba52ae",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "ce40afc5-888b-4df1-8d53-3d3999ba52ae",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">A que corresponde o endereço MAC de destino?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "91a37d54-7041-42ec-94c4-e82591e1f7c3",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">A interface do <span style=\"border:none\">roteador G0/0/1 no RTA</span></span></span></span></p>",
+    "_activityId": "5bf40b61-3d37-4939-bc60-f2267aed208e",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "91a37d54-7041-42ec-94c4-e82591e1f7c3",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "fcbce810-17b3-43b0-af3f-999bb3a103c0",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "70a5c431-8786-4431-99d0-c02f4ecaa47a",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "70a5c431-8786-4431-99d0-c02f4ecaa47a",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Por que o PCB1 está usando o endereço MAC da interface do roteador para fazer suas PDUs ICMP?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "3843dc21-2eb4-4f45-a3f9-f8c12b52e1a0",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Como o dispositivo de destino está em outra rede, o PCB1 aborda a PDU para o MAC de interface de gateway padrão<span style=\"border:none\">. O RTA determinará como endereçar a PDU na Camada 2 para enviá-la para seu destino.</span></span></span></span></p>",
+    "_activityId": "b5fbd6e6-5e3f-46da-b112-4f2d239f76aa",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "3843dc21-2eb4-4f45-a3f9-f8c12b52e1a0",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "1e151461-bd52-4ed7-b081-2c207dad8291",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2d375111-94a0-4648-a279-1cd3ec3fa727",
+    "body": "<h3><span lang=\"PT-BR\">Etapa 2: </span><span lang=\"PT-BR\">Examine as saídas do roteador.</span></h3> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Volte ao modo de <b>Realtime</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Clique em <b>RTA</b> e selecione a guia CLI. No prompt do roteador, digite o comando <b>show ipv6 neighbors</b>.</span></p> <h4  class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Perguntas:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "2d375111-94a0-4648-a279-1cd3ec3fa727",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "be3be8d1-926b-4650-a643-1c6af8a66daa",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f0a8e2fd-e428-48df-869d-3c551fc10096",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "be3be8d1-926b-4650-a643-1c6af8a66daa",
+    "displayTitle": "",
+    "_activityParentId": "d00de3e9-3690-4bd6-8d35-a62f6907b683",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c7dad5a6-1655-4b33-9bec-b2e3e8a7ad3d",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "c7dad5a6-1655-4b33-9bec-b2e3e8a7ad3d",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Quantos endereços estão listados?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "3557f124-37a2-4eab-9fc5-1ca191bb5ae0",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">4 — Unicast global IPv6 e links endereços locais e MAC para PCA1 e PCB1</span></span></span></p>",
+    "_activityId": "0b569f05-111e-4634-ac40-ea814e38b7e5",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "3557f124-37a2-4eab-9fc5-1ca191bb5ae0",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "2543a28e-ce67-43ee-b662-213de159e615",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5de2f3cd-2a00-4a4b-aef6-90d03ffdb9b0",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "5de2f3cd-2a00-4a4b-aef6-90d03ffdb9b0",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">A que dispositivos esses endereços estão associados?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "822d5ede-7566-464b-9558-11b29c6219ea",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">PCA1 e PCB1</span></span></span></p>",
+    "_activityId": "45363702-d76e-4f85-8597-d4c2b77630b3",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "822d5ede-7566-464b-9558-11b29c6219ea",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "f7be4716-8ecc-480d-853e-4100010d16e2",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f1c35fad-b31e-4a52-9c54-6aa5b3def52b",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "f1c35fad-b31e-4a52-9c54-6aa5b3def52b",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Existem entradas para PCA2 listadas? Explique.</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d485fa17-063c-40db-8124-080127435550",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O PCA2 ainda não se comunicou através da rede.</span></span></span><span lang=\"PT-BR\"></span></p>",
+    "_activityId": "9c4ad169-7720-4ebe-86ab-5d5d13e1522c",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d485fa17-063c-40db-8124-080127435550",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "beb33682-8f97-4bc2-9bf1-517c572a9ff6",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "87dd2018-941b-4285-b7c8-fcf33c872eb9",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span lang=\"PT-BR\">Ping PCA2</span></b><span lang=\"PT-BR\"> a partir do roteador.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Emita o comando <b>show ipv6 neighbours</b>.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "87dd2018-941b-4285-b7c8-fcf33c872eb9",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4fa10a48-6f5f-40eb-93fd-44eec5c4919a",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ef877a42-f540-4c6a-b7e1-d33072046dc4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4fa10a48-6f5f-40eb-93fd-44eec5c4919a",
+    "displayTitle": "",
+    "_activityParentId": "61030384-1e16-4fc0-843c-88ca3d2711b5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ee7ba381-25fa-478e-9f51-3176bb49670d",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "ee7ba381-25fa-478e-9f51-3176bb49670d",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Há entradas para o PCA2?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "8a20ce45-9a00-4761-8ad1-60d4a9157129",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Sim, o endereço IPv6 e o en<span style=\"border:none\">dereço MAC para PCA2.</span></span></span></span></p>",
+    "_activityId": "a0bae2e3-2d8b-41f5-8c59-4c79c7f9afe2",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "8a20ce45-9a00-4761-8ad1-60d4a9157129",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "4b2c98ae-1636-4cd5-8fe6-441470e03aab",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "52ba097d-fc49-4388-add6-f1a01ae37360",
+    "body": "<h1><span lang=\"PT-BR\">Perguntas para reflexão</span></h1>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "52ba097d-fc49-4388-add6-f1a01ae37360",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "78cb5df9-efaf-4609-a7e3-ecb0285ce80c",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "09274e70-038e-4dd4-896c-818d1f929eed",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "78cb5df9-efaf-4609-a7e3-ecb0285ce80c",
+    "displayTitle": "",
+    "_activityParentId": "68bf8f2a-51c2-41c3-a528-de3fd90e093a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "63c928cb-7c23-4d3f-aaeb-f60e93034136",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "63c928cb-7c23-4d3f-aaeb-f60e93034136",
+    "preText": "<p class=\"ReflectionQ\"><span lang=\"PT-BR\">1.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Quando um dispositivo requer o processo IPv6 Neighbor Discovery?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "0f81cb61-6147-4f55-9fb7-47937d328c15",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Quando o endereço MAC de destino não é conhecido. Esse processo é semelhante ao ARP com IPv4.</span></span></span></p>",
+    "_activityId": "0d55ae3b-f2f9-4803-965b-93c87908db3d",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "0f81cb61-6147-4f55-9fb7-47937d328c15",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "d755eb65-504a-42bf-9fe1-108c447f0c53",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "aa996473-d801-4ea4-8e4b-72fb010ac94f",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "aa996473-d801-4ea4-8e4b-72fb010ac94f",
+    "preText": "<p class=\"ReflectionQ\"><span lang=\"PT-BR\">2.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Como um roteador ajuda a minimizar a quantidade de tráfego IPv6 Neighbor Discovery em uma rede?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "19f5f14f-dbb2-43d7-8cdd-56202ae43647",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">O roteador mantém tabelas vizinhas para que não precise iniciar o ND para cada host de destino.</span></span></span><span lang=\"PT-BR\"></span></p>",
+    "_activityId": "a3cf17d7-143c-4ded-83f4-793b3b33512e",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "19f5f14f-dbb2-43d7-8cdd-56202ae43647",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "b8fa746a-18c2-437b-9735-3928fdcd2486",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "088e23c7-b45a-4836-85ec-4983d1e3fac5",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "088e23c7-b45a-4836-85ec-4983d1e3fac5",
+    "preText": "<p class=\"ReflectionQ\"><span lang=\"PT-BR\">3.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Como o IPv6 minimiza o impacto do processo ND nos hosts de rede? </span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "4a398cc1-8ed2-40f5-ad99-dae76549d871",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Ele usa um endereço multicast para que apenas um punhado de endereços estaria escutando as mensagens de descoberta de vizinhos. O IPv6 cria um endereço MAC de destino multicast especialmente criado que inc<span style=\"border:none\">lui uma parte do endereço do nó. </span></span></span></span></p>",
+    "_activityId": "53545673-d10a-4b36-b0b3-36c9a0fb0145",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "4a398cc1-8ed2-40f5-ad99-dae76549d871",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "394ad194-c17f-4733-8365-4f29ae9a51d6",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4faf3806-eea1-4241-b50b-711dc5eddeeb",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "4faf3806-eea1-4241-b50b-711dc5eddeeb",
+    "preText": "<p class=\"ReflectionQ\"><span lang=\"PT-BR\">4.<span style=\"font:7.0pt &quot;Times New Roman&quot;\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span lang=\"PT-BR\">Qual a diferença entre o processo de descoberta de vizinhos quando um host de destino está na mesma LAN e quando está em uma LAN remota? </span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d36d017c-48f1-45c3-b47b-e744780a0128",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span lang=\"PT-BR\" style=\" border:none\"><span style=\"border:none\">Quando um host de destino está no mesmo segmento de LAN,<span style=\"border:none\"> apenas o dispositivo que corresponde ao endereço IPv6 responde e outros dispositivos soltam o pacote. Quando o dispositivo é remoto, o dispositivo gateway (geralmente um roteador) fornece o endereço MAC da interface na interface local para o MAC de destin<span style=\"border:none\">o e, em seguida, procura o endereço MAC na rede remota. Em seguida, o roteador colocará o par de endereços IPv6/MAC respondente na tabela Vizinhança IPv6. Semelhante a uma mesa ARP no IPv4.</span></span></span></span></span></p>",
+    "_activityId": "c857c586-88a3-4fe7-926d-092bf24951e6",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d36d017c-48f1-45c3-b47b-e744780a0128",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "e9148c87-aaae-4f21-aa7c-7fbc477f509f",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  }
+]

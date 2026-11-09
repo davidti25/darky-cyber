@@ -1,0 +1,192 @@
+[
+  {
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "page-heading remove-padding-top",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "e58350b8af2840df86db4bd10d1a8170",
+    "_parentId": "85180d8204b445b7bdc493f2640e6a08",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "85180d8204b445b7bdc493f2640e6a08",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "_assessmentSingleSubmit": {
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "questionComponentFeedbackType": "genérico",
+      "_feedback": {
+        "correctness": "",
+        "pass": "",
+        "fail": {
+          "noAttemptsRemaining": "",
+          "attemptsRemaining": ""
+        }
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  },
+  {
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "remove-padding-top",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_id": "132c1bb86e874a02b7d389363e2cac02",
+    "_parentId": "85180d8204b445b7bdc493f2640e6a08",
+    "_type": "article",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "85180d8204b445b7bdc493f2640e6a08",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": true,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_allowResetIfPassed": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "_assessmentSingleSubmit": {
+      "_isEnabled": false,
+      "instructionText": "Clique em “Enviar” se estiver pronto para receber a pontuação do teste.",
+      "unlimitedAttemptsRemaining": "Tentativas ilimitadas restantes",
+      "noAttemptsRemaining": "Nenhuma tentativa restante",
+      "submissionError": "Responda a todas as perguntas acima antes de clicar em \"Enviar\"",
+      "_shouldDisplayAttempts": false,
+      "resetCorrectAnswersOnReset": false,
+      "questionComponentFeedbackType": "genérico",
+      "_feedback": {
+        "correctness": "",
+        "pass": "",
+        "fail": {
+          "noAttemptsRemaining": "",
+          "attemptsRemaining": ""
+        }
+      }
+    },
+    "_trickle": {
+      "_isEnabled": false,
+      "_autoScroll": false,
+      "_scrollDuration": 500,
+      "_onChildren": false,
+      "_scrollTo": "@block +1",
+      "_button": {
+        "_isEnabled": false,
+        "_styleBeforeCompletion": "hidden",
+        "_styleAfterClick": "hidden",
+        "_isFullWidth": true,
+        "_autoHide": false,
+        "_className": "",
+        "_hasIcon": false,
+        "text": "Continuar",
+        "startText": "Iniciar",
+        "finalText": "Concluir",
+        "_component": "trickle-button"
+      },
+      "_stepLocking": {
+        "_isEnabled": true,
+        "_isCompletionRequired": true,
+        "_isLockedOnRevisit": false
+      }
+    }
+  }
+]

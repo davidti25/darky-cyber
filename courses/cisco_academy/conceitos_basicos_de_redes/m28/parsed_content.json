@@ -1,0 +1,370 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Olá, sou eu, Webster. Você e Diego agora têm uma boa noção das funções de linha de comando do Cisco IOS. Isso facilitará muito a próxima tarefa de Diego. No novo local, ele terá que instalar e configurar todos os dispositivos, inclusive dispositivos de host, switches e roteadores, e toda a fiação necessária. Essa nova rede deve ser capaz de se comunicar com a rede da sede, além de poder acessar a internet. Isso é um pouco mais complicado do que minha rede doméstica, mas acho que posso fazê-lo, com uma pequena ajuda. É por isso que vou fazer este módulo. Espero que você se junte a mim!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Configuração básica de switch",
+      "content": "{{_moduleNumber}}.1 Configuração Básica de Switch"
+    },
+    {
+      "type": "text",
+      "title": ".1 Configuração básica de switch",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".1.1 Etapas da Configuração Básica de um Switch",
+      "content": "**Tarefas de configuração:** Antes de configurar um switch, examine as tarefas iniciais de configuração de switch listadas na Figura:\nConfigurar o nome do dispositivo.\nhostname nome\nProteger o modo EXEC usuário.\nline console 0\nsenha senha\nlogin\nProteger o acesso remoto Telnet/SSH\nline vty 0 15\nsenha senha\nlogin\nProteger o modo EXEC privilegiado.\nenable secret   password\nProteger todas as senhas do arquivo de configuração.\nservice password-encryption\nApresentar a notificação legal.\nbanner motd   delimiter mensagem delimiter\nConfigurar SVI de gerenciamento.\ninterface vlan 1\nip address ip-address subnet-mask\nno shutdown\nSalvar a configuração.\ncopy running-config startup-config\n\n**Exemplo de Configuração de um Switch:** "
+    },
+    {
+      "type": "text",
+      "title": ".2 Configurar definições iniciais do roteador",
+      "content": "{{_moduleNumber}}.2 Configurar definições iniciais do roteador"
+    },
+    {
+      "type": "text",
+      "title": ".2 Configurar definições iniciais do roteador",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: Observe como o prompt do roteador agora exibe o nome de host do roteador."
+    },
+    {
+      "type": "text",
+      "title": ".3 Proteção dos Dispositivos",
+      "content": "{{_moduleNumber}}.3 Proteção dos Dispositivos"
+    },
+    {
+      "type": "text",
+      "title": ".3 Proteção dos Dispositivos",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nos roteadores Cisco, os espaços à esquerda são ignorados em senhas, mas os espaços após o primeiro caractere não são ignorados. Portanto, um método para criar uma senha forte é utilizar a barra de espaço e criar uma frase feita de muitas palavras. Isso se chama uma frase secreta. Uma frase secreta é geralmente mais fácil de lembrar do que uma senha simples. Também é maior e mais difícil de ser descoberta."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Muitos switches Cisco são compatíveis com até 16 linhas VTY numeradas de 0 a 15. O número de linhas VTY aceitas varia de acordo com o tipo de dispositivo e a versão do IOS. No entanto, cinco é o número mais comum de linhas vty configuradas em um roteador. Essas linhas são numeradas de 0 a 4 por padrão, embora linhas adicionais possam ser configuradas. Uma senha precisa ser definida para todas as linhas vty disponíveis. A mesma senha pode ser estabelecida para todas as conexões.\nPara verificar se as senhas estão definidas corretamente, use o comando show running-config . Essas senhas são armazenadas em running-configuration em texto simples. É possível definir a criptografia em todas as senhas armazenadas no roteador de modo que não sejam lidas facilmente por indivíduos não autorizados. O comando de configuração global service password-encryption garante que todas as senhas sejam criptografadas.\nCom o acesso remoto protegido no switch, você pode configurar o SSH."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.5 Verificar SSH",
+      "content": "Em um PC, um cliente SSH, como PuTTY, é usado para se conectar a um servidor SSH. Para os exemplos, o seguinte foi configurado:\nSSH está habilitado no switch S1\nInterface VLAN 99 (SVI) com endereço IPv4 172.17.99.11 no switch S1\nPC1 com endereço IPv4 172.17.99.21\nNa figura 1, o técnico inicia uma conexão de SSH com o endereço IPv4 da VLAN na SVI do S1. O software do terminal PuTTY é exibido.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Após clicar em Abrir no PuTTY, o usuário é solicitado a fornecer um nome de usuário e uma senha. Usando a configuração do exemplo anterior, o nome de usuário admin e senha ccna são inseridos. Depois de inserir a combinação correta, o usuário é conectado via SSH à CLI no switch Catalyst 2960."
+    },
+    {
+      "type": "text",
+      "title": ".4 Configurar o Gateway Padrão",
+      "content": "{{_moduleNumber}}.4 Configurar o gateway padrão"
+    },
+    {
+      "type": "text",
+      "title": ".4 Configurar o Gateway Padrão",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Se sua rede local tiver apenas um roteador, será o roteador gateway e todos os hosts e switches da rede deverão ser configurados com essas informações. Se sua rede local tiver vários roteadores, você deverá selecionar um deles para ser o roteador de gateway padrão. Este tópico explica como configurar o gateway padrão em hosts e switches.\nPara que um dispositivo final se comunique pela rede, ele deve ser configurado com as informações de endereço IP, incluindo o endereço de gateway padrão. O gateway padrão só é usado quando o host deseja enviar um pacote a um dispositivo em outra rede. O endereço do gateway padrão geralmente é o endereço da interface do roteador associado à rede local do host. O endereço IP do dispositivo host e o endereço da interface do roteador devem estar na mesma rede.\nPor exemplo, suponha que uma topologia de rede IPv4 consista em um roteador que interconecta duas LANs separadas. G0/0/0 está conectado à rede 192.168.10.0, enquanto G0/0/1 está conectado à rede 192.168.11.0. Cada dispositivo host está configurado com o endereço correto do gateway padrão.\nNeste exemplo, se PC1 enviar um pacote para PC2, o gateway padrão não será usado. Em vez disso, o PC1 endereça o pacote com o endereço IPv4 do PC2 e encaminha o pacote diretamente para o PC2 através do comutador.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "E se o PC1 enviou um pacote para o PC3? O PC1 endereçaria o pacote com o endereço IPv4 do PC3, mas encaminharia o pacote para seu gateway padrão, que é a interface G0/0/0 de R1. O roteador aceita o pacote e acessa sua tabela de roteamento para determinar que G0 / 0/1 é a interface de saída apropriada com base no endereço de destino. Em seguida, o R1 encaminha o pacote para fora da interface apropriada para alcançar o PC3.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O mesmo processo ocorreria em uma rede IPv6, embora isso não seja mostrado na topologia. Os dispositivos usariam o endereço IPv6 do roteador local como gateway padrão."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Gateway padrão em um switch",
+      "content": "Um comutador que interconecta computadores clientes geralmente é um dispositivo da Camada 2. Como tal, um switch de Camada 2 não precisa de um endereço IP para funcionar corretamente. No entanto, uma configuração IP pode ser configurada em um switch para dar acesso remoto a um administrador ao switch.\nPara se conectar e gerenciar um switch em uma rede IP local, ele deve ter uma interface virtual de switch (SVI) configurada. O SVI é configurado com um endereço IPv4 e uma máscara de sub-rede na LAN local. O switch também deve ter um endereço de gateway padrão configurado para gerenciar remotamente o switch de outra rede.\nO endereço de gateway padrão geralmente é configurado em todos os dispositivos que se comunicam além da rede local.\nPara configurar um gateway padrão IPv4 em um switch, use o comando de configuração global ip default-gateway ip-address . O ip-address que está configurado é o endereço IPv4 da interface do roteador local conectada ao switch.\nA figura mostra um administrador estabelecendo uma conexão remota para o switch S1 em outra rede.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Neste exemplo, o host administrador usaria seu gateway padrão para enviar o pacote para a interface G0/0/1 de R1. R1 encaminharia o pacote para S1 fora de sua interface G0/0/0. Como o endereço IPv4 de origem do pacote veio de outra rede, S1 exigiria um gateway padrão para encaminhar o pacote para a interface G0/0/0 de R1. Portanto, o S1 deve ser configurado com um gateway padrão para poder responder e estabelecer uma conexão SSH com o host administrativo.\nObservação: Os pacotes provenientes de hosts conectados ao switch já devem ter o endereço do gateway padrão configurado nos sistemas operacionais desses computadores.\nUm switch de grupo de trabalho também pode ser configurado com um endereço IPv6 em um SVI. No entanto, o switch não requer que o endereço IPv6 do gateway padrão seja configurado manualmente. O switch receberá automaticamente seu gateway padrão da mensagem de anúncio do roteador ICMPv6 do roteador."
+    },
+    {
+      "type": "text",
+      "title": ".5 Resumo de Construindo uma Rede Cisco Pequena",
+      "content": "{{_moduleNumber}}.5 Resumo de Construindo uma Rede Cisco Pequena"
+    },
+    {
+      "type": "text",
+      "title": ".5 Resumo de Construindo uma Rede Cisco Pequena",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".5.1 O que eu aprendi neste módulo?",
+      "content": "**Configuração Básica de Switch:** Os elementos a serem configurados em um switch LAN incluem nome do host, informações de endereço IP de gerenciamento, senhas e informações descritivas. Um endereço de gerenciamento permite acessar o dispositivo por clientes Telnet, SSH ou HTTP. As informações de endereço IP que devem ser configuradas em um switch incluem o endereço IP, a máscara de sub-rede e o gateway padrão. Para proteger um switch Cisco LAN, configure senhas em cada um dos vários métodos de acesso à linha de comando. Atribua senhas a métodos de acesso remoto, como Telnet, SSH e a conexão do console. Atribua também uma senha ao modo privilegiado no qual as alterações de configuração podem ser feitas.\nPara acessar o switch remotamente, configure um endereço IP e uma máscara de sub-rede no SVI. Use o comando de configuração global interface vlan 1 . Atribua um endereço IPv4 usando o comando ip address ip-address subnet-mask de configuração da interface. Por fim, ative a interface virtual com o comando de configuração de interface no shutdown . Após a configuração desses comandos, o switch terá todos os elementos IPv4 prontos para comunicação pela rede.\n\n**Configurar definições iniciais do roteador:** Etapa 1. Configurar o nome do dispositivo.\nEtapa 2. Proteger o modo EXEC privilegiado.\nEtapa 3. Proteger o modo EXEC usuário.\nEtapa 4. Proteger o acesso remoto Telnet/SSH.\nEtapa 5. Proteger todas as senhas do arquivo de configuração.\nEtapa 6. Apresentar a notificação legal.\nEtapa 7. Salvar a configuração.\nTodo o acesso ao roteador deve ser protegido. O modo EXEC privilegiado fornece ao usuário acesso completo ao dispositivo e sua configuração. É muito importante usar uma senha forte ao proteger o modo EXEC privilegiado, pois esse modo permite o acesso à configuração do dispositivo. A notificação legal avisa os usuários de que o dispositivo só deve ser acessado por usuários permitidos. A configuração do roteador seria perdida se o roteador perdesse energia. Por esse motivo, é importante salvar a configuração quando as alterações são implementadas.\n\n**Proteção dos Dispositivos:** É importante usar senhas fortes para proteger dispositivos de rede. Uma senha forte combina caracteres alfanuméricos e, se permitido, inclui símbolos e um espaço. Outro método para criar uma senha forte é usar a barra de espaço e criar uma frase feita de muitas palavras, chamada de passphrase. Uma passphrase geralmente é mais fácil de lembrar do que uma senha forte. Também é maior e mais difícil de ser descoberta.\nA definição de uma senha para o acesso de conexão de console é feita no modo de configurações globais. Isso impede que usuários não autorizados acessem o modo de usuário da porta do console. Quando o dispositivo é conectado à rede, pode ser acessado através da conexão de rede com o SSH ou o Telnet. SSH é o método preferido porque é mais seguro. Quando o dispositivo é acessado através da rede, este acesso é considerado uma conexão vty. A senha deve ser configurada na porta vty. Cinco é o número mais comum de linhas vty configuradas em um roteador. Essas linhas são numeradas de 0 a 4 por padrão, embora linhas adicionais possam ser configuradas. Uma senha precisa ser definida para todas as linhas vty disponíveis. A mesma senha pode ser estabelecida para todas as conexões.\nPara verificar se as senhas estão definidas corretamente, use o comando show running-config. Essas senhas são armazenadas em running-configuration em texto simples. É possível definir a criptografia em todas as senhas armazenadas no roteador. O comando de configuração global service password-encryption garante que todas as senhas sejam criptografadas.\n\n**Para habilitar o SSH:** Etapa 1. Verifique o suporte SSH –  show ip ssh\nEtapa 2. Configure o domínio IP – ip domain-name  domain-name\nEtapa 3. Gerar pares de chaves RSA - crypto key generate rsa\nEtapa 4. Configurar autenticação de usuário - username username secret password\nEtapa 5. Configurar as linhas vty - line vty\nEtapa 6. Ativar SSH versão 2 - ip ssh version 2\nPara exibir os dados de versão e configuração de SSH no dispositivo configurado como um servidor SSH, use o comando show ip ssh. No exemplo, SSH versão 2 está habilitado. Para verificar as conexões SSH com o dispositivo, use o comando show ssh.\n\n**Configurar o gateway padrão:** Se sua rede local tiver apenas um roteador, será o roteador gateway e todos os hosts e switches da rede deverão ser configurados com essas informações. Se sua rede local tiver vários roteadores, você deverá selecionar um deles para ser o roteador de gateway padrão. O gateway padrão só é usado quando o host deseja enviar um pacote a um dispositivo em outra rede. O endereço do gateway padrão geralmente é o endereço da interface do roteador associado à rede local do host. O endereço IP do dispositivo host e o endereço da interface do roteador devem estar na mesma rede.\nPara conectar e gerenciar um switch em uma rede IP local, ele deve ter um SVI configurado. O SVI é configurado com um endereço IPv4 e uma máscara de sub-rede na LAN local. O switch também deve ter um endereço de gateway padrão configurado para gerenciar remotamente o switch de outra rede. Para configurar um gateway padrão IPv4 em um switch, use o comando de configuração global ip default-gateway ip-address . O ip-address que está configurado é o endereço IPv4 da interface do roteador local conectada ao switch."
+    },
+    {
+      "type": "text",
+      "title": ".5.2 Webster - Questões para Reflexão",
+      "content": "É bom ter ajuda quando você tem um grande projeto, como Diego tem. Este módulo tem quase tudo o que preciso saber para configurar uma rede de filial. Com base no que você aprendeu neste curso até agora, aposto que você poderia ter ajudado o Diego. Você tem acesso a uma rede grande o suficiente para conter switches e mais de um roteador? Se sim, pergunte ao departamento de TI se você pode fazer um tour. Você pode se surpreender com o quanto você já entende!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Realizar a configuração básica de S1 e S2\nParte 2: Configurar os PCs\nParte 3: Configurar a interface de gerenciamento do switch\nHistórico/Cenário\nNesta atividade, você vai realizar primeiro configurações básicas do switch. Depois, implementar a conectividade básica ao configurar endereços IP nos switches e PCs. Quando a configuração do endereço IP for concluída, você usará vários comandos show para verificar as configurações e o comando ping para verificar a conectividade básica entre os dispositivos.\nInstruções\nParte 1: Realizar a Configuração da SVI em S1 e S2\nEtapa 1: Configurar S1 com um hostname.\na.  Clique em S1, e clique na guia CLI.\nb.  Entre no modo EXEC privilegiado. Em seguida, entre no modo de configuração global.\nSwitch> enable\nSwitch# configure terminal\nEnter configuration commands, one per line.  End with CNTL/Z.\nc.  Configure o hostname como S1.\nSwitch(config)# hostname S1\nS1(config)#\nEtapa 2: Configurar o S1 com um endereço IP.\nOs switches podem ser usados sem nenhuma configuração. Os switches enviam informações de uma porta para outra com base nos endereços MAC (Media Access Control)\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "a.  No modo de configuração global, insira os seguintes comandos para configurar S1 com um endereço IP na VLAN 1.\nS1(config)# interface vlan 1\nS1(config-if)# ip address 192.168.1.253 255.255.255.0\nS1(config-if)# no shutdown\n%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Saia do modo de configuração e salve a configuração.\nS1(config-if)# end\nS1#\nS1# copy running-config startup-config\nDestination filename [startup-config]?\nBuilding configuration...\n[OK]\nc.  Verificar a configuração de endereço IP em S1.\nS1# show ip interface brief\n<output omitted>\nVlan1 192.168.1.253 YES manual up up\nEtapa 3: Configure o S2 com um hostname e um endereço IP.\nNesta etapa, você configurará o S2 com um nome de host e um endereço IP.\na.  Clique em S2. Na guia CLI, entre no modo de configuração global.\nb.  Configure o switch S2 com um hostname usando as informações da Tabela de Endereçamento.\nc.  Use as informações da Tabela de Endereçamento, repita o mesmo processo para configurar o switch S2 com um endereço IP.\nd.  Saia do modo de configuração. Verificar a configuração de endereço IP em S2.\nS2# show ip interface brief\n<output omitted>\nVlan1 192.168.1.254 YES manual up up\ne.  Salve o arquivo de configuração na NVRAM. Insira o comando copy running-config startup-config para salvar a nova configuração.\nParte 2: Configurar os PCs\nNesta parte, você configurará PC1 e PC2 com endereços IP e verificará a conectividade de rede.\nEtapa 1: Configurar ambos os PCs com endereços IP.\na.  Clique no PC1 e na guia Desktop.\nb.  Clique em configuração IP. Na Tabela de endereçamento acima, é possível ver que o endereço IP do PC1 é 192.168.1.1 e a máscara de sub-rede é 255.255.255.0. Digite essas informações no PC1 na janela IP Configuration Configuração de IP).\nc.  Repita as etapas anteriores para configurar PC2. Use o endereço IP listado na tabela de endereços para configurar PC2.\nEtapa 2: Teste a conectividade a partir dos PCs.\na.  Clique em PC1. Feche a janela IP Configuration (Configuração de IP) se ainda estiver aberta. Na guia Desktop, clique em Command Prompt (Prompt de comando).\nb.  Digite o comando ping e o endereço IP de S1.\nPacket Tracer PC Command Line 1.0\nPC> ping 192.168.1.253\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.    Pingue S2 e PC2 a partir de PC1.\ng.  Repita os pings para S1, S2 e PC1 a partir de PC2.\nTodos os pings devem ser bem-sucedidos. Se o primeiro resultado do ping for 80%, tente novamente. Ele deve ser 100%. Você aprenderá como um ping pode falhar no primeiro resultado mais tarde em seus estudos. Se não conseguir executar o ping em nenhum dos dispositivos, verifique se há erros na sua configuração.\nEtapa 3: Verifique a conectividade de rede a partir dos switches.\nÉ possível verificar a conectividade de rede com o comando ping. É muito importante haver conectividade pela rede.\na.  No S1, envie pings para outros dispositivos na rede. O ping para o PC1 está exposto abaixo como exemplo.\nS1> ping 192.168.1.1\nType escape sequence to abort.\nSending 5, 100-byte ICMP Echos to 192.168.1.1, timeout is 2 seconds:\n!!!!!\nSuccess rate is 100 percent (5/5), round-trip min/avg/max = 0/0/1 ms\nb.  No S2, envie pings para outros dispositivos na rede.\nTodos os pings devem ser bem-sucedidos. Se o primeiro resultado do ping for 80%, tente novamente. Ele deve ser 100%. Você aprenderá como um ping pode falhar no primeiro resultado mais tarde em seus estudos. Se não conseguir executar o ping em nenhum dos dispositivos, verifique se há erros na sua configuração."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Verificar a Configuração Padrão do Roteador\nParte 2: Definir e Verificar a Configuração Inicial do Roteador\nParte 3: Salvar o Arquivo de Configuração Atual\nHistórico\nNesta atividade, você executará tarefas básicas de configuração do roteador. Você protegerá o acesso à CLI e à porta do console usando senhas criptografadas e de texto simples. Você também configurará mensagens para usuários que estiverem fazendo login no roteador. Esses banners alertam usuários não autorizados que o acesso é proibido. Por fim, você verificará e salvará sua configuração atual.\nInstruções\nParte 1: Verificar a Configuração Padrão do Roteador\nEtapa 1: Estabeleça uma conexão via console com R1.\na.  Escolha o cabo de console nas conexões disponíveis.\nb.  Clique em PCA e selecione RS 232.\nc.  Clique em R1 e selecione Console.\nd.  Clique em PCA> guia Desktop> Terminal.\ne.  Clique em OK e pressione ENTER. Agora você pode configurar R1.\nEtapa 2: Entre no modo privilegiado e examine a configuração atual.\nÉ possível acessar todos os comandos do roteador no modo EXEC privilegiado. No entanto, como muitos dos comandos privilegiados configuram parâmetros operacionais, o acesso privilegiado deve ser protegido por senha para evitar o uso não autorizado.\na.  Entre no modo EXEC privilegiado digitando o comando enable.\nRouter> enable\nRouter#\nObserve que o prompt mudou na configuração para refletir o modo EXEC privilegiado.\nb.  Insira o comando show running-config.\nRouter# show running-config\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Exiba o conteúdo atual da NVRAM.\nRouter# show startup-config\nstartup-config is not present\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Definir e Verificar a Configuração Inicial do Roteador\nPara configurar parâmetros em um roteador, talvez seja necessário alternar entre os diversos modos de configuração. Observe como o prompt muda à medida que você navega pelos modos de configuração do IOS.\nEtapa 1: Defina as configurações iniciais em R1.\nNota: Se você tiver dificuldade em lembrar dos comandos, consulte o conteúdo deste tópico.\na.  Configure R1 como o nome de host.\nb.  Configurar Mensagem do dia (MOTD) com o texto: Unauthorized access is strictly prohibited.\nc.  Criptografe todas as senhas em texto simples.\nUse as seguintes senhas:\n1)    EXEC privilegiado, criptografado: itsasecret\n2)    Console: letmein\nEtapa 2: Verifique as configurações iniciais em R1.\na.  Verifique as configurações iniciais visualizando a configuração de R1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Saia da sessão de console atual até ver a seguinte mensagem:\nR1 con0 is now available\nPress RETURN to get started.\nc.  Pressione Enter; você deverá ver a seguinte mensagem:\nUnauthorized access is strictly prohibited.\nUser Access Verification\nPassword:\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Insira as senhas necessárias para voltar ao modo EXEC privilegiado.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 3: Salvar o Arquivo de Configuração Atual\nEtapa 1: Salve o arquivo de configuração na NVRAM.\na.  Você definiu as configurações iniciais para R1. Agora faça backup do arquivo de configuração atual na NVRAM para garantir que as alterações não sejam perdidas caso o sistema seja reinicializado ou haja queda de energia.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.   Verifique se todos os parâmetros configurados estão registrados. Caso contrário, analise a saída e determine quais comandos não foram executados ou foram inseridos incorretamente. Você também pode clicar em Check Results (Verificar resultados) na janela de instruções.\nEtapa 2: Opcional: Salve o arquivo de configuração de inicialização para flash.\nEmbora você aprenda mais sobre o gerenciamento do armazenamento flash em um roteador nos próximos capítulos, talvez esteja interessado em saber que, como um procedimento adicional de backup, você pode salvar o arquivo de configuração de inicialização em flash. Por padrão, o roteador carrega a configuração inicial da NVRAM. No entanto, se a NVRAM for corrompida, você poderá restaurar a configuração inicial copiando-a da memória flash.\nSiga estas etapas para salvar a configuração inicial na memória flash.\na.  Examine o conteúdo do flash usando o comando show flash:\nR1# show flash\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Salve o arquivo de configuração inicial na memória flash usando os seguintes comandos:\nR1# copy startup-config flash\nDestination filename [startup-config]\nO roteador solicita que você armazene o arquivo em flash usando o nome entre colchetes. Se a resposta for sim, pressione ENTER; caso contrário, digite um nome adequado e pressione ENTER.\nc.  Use o comando show flash para verificar se o arquivo de configuração de inicialização agora está armazenado no flash."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Proteger senhas\nParte 2: Criptografar comunicações\nParte 3: Verificar a implementação SSH\nHistórico/Cenário\nO SSH deve substituir o Telnet nas conexões de gerenciamento. O Telnet utiliza a comunicações em texto simples de forma não segura. O SSH fornece segurança para conexões remotas, fornecendo criptografia forte de todos os dados transmitidos entre os dispositivos. Nesta atividade, você protegerá um switch remoto com criptografia de senha e SSH.\nInstruções\nParte 1: Proteger senhas\na.  Usando o prompt de comando em PC1, execute Telnet para S1. A senha do EXEC do usuário e do EXEC privilegiado é cisco.\nPC> telnet 10.10.10.2\nTrying 10.10.10.2 ...Open\nUser Access Verification\nPassword:\nS1> en\nPassword:\nS1#\nb.  Salve a configuração atual de forma que todos os erros que você cometa possam ser revertidos ligando e desligando S1.\nS1# copy running-config startup-config\nDestination filename [startup-config]?\nBuilding configuration...\n[OK]\nc.  Exiba a configuração atual e observe que as senhas estão em texto claro.\nd.   No modo de configuração global, digite o comando que criptografa as senhas em texto simples:\nS1(config)# service password-encryption\ne.  Verifique se as senhas estão criptografadas.\nParte 2: Criptografar comunicações\nEtapa 1: Defina o nome de domínio IP e gere chaves de segurança.\nGeralmente não é seguro usar o Telnet, pois os dados são transferidos em texto simples. Portanto, use SSH sempre que estiver disponível.\na.  Configure o nome de domínio como netacad.pka.\nS1(config)# ip domain-name netacad.pka\nb.  As chaves seguras são necessárias para criptografar os dados. Gere as chaves RSA usando um comprimento de chave de 1024.\nS1(config)# crypto key generate rsa\nThe name for the keys will be: S1.netacad.pka\nChoose the size of the key modulus in the range of 360 to 2048 for your\nGeneral Purpose Keys. Choosing a key modulus greater than 512 may take\na few minutes.\nHow many bits in the modulus [512]: 1024\n% Generating 1024 bit RSA keys, keys will be non-exportable...[OK]\nEtapa 2: Crie um usuário do SSH e reconfigure as linhas de VTY para somente acesso SSH.\na.  Crie um usuário administrator com a senha cisco.\nS1(config)# username administrator secret cisco\nb.  Configure as linhas VTY para verificar o banco de dados de nome de usuário local para ver se há credenciais de login e para permitir acesso remoto apenas para SSH. Remova a senha da linha vty existente.\nS1(config)# line vty 0 15\nS1(config-line)# login local\nS1(config-line)# transport input ssh\nS1(config-line)# no password cisco\nParte 3: Verificar a implementação SSH\na.  Saia da sessão Telnet e tente fazer logon em usar o Telnet. A tentativa deverá falhar.\nb.  Tente fazer login usando o SSH. Digite ssh e pressione Enter sem nenhum parâmetro para revelar as instruções de uso de comando. Dica: a opção -l é a letra “L”, não o número 1.\nc.  Após o login com êxito, entre no modo EXEC privilegiado e salve as configurações. Se você não conseguir acessar S1, desligue e ligue S1 e comece novamente na Parte 1."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "© 2017 - 2022 Cisco and/or its affiliates. All rights reserved. Cisco Public"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Verificar a Documentação de Rede e Isolar Problemas\nParte 2: Implementar, Verificar e Documentar soluções\nHistórico\nPara que um dispositivo se comunique passando por várias redes, ele deve ser configurado com um endereço IP, uma máscara de sub-rede e um gateway padrão. O gateway padrão é usado quando o host deseja enviar um pacote a um dispositivo em outra rede. O endereço de gateway padrão geralmente é o endereço da interface do roteador conectada à rede local à qual o host está conectado. Nesta atividade, você concluirá a documentação da rede. Também verificará a documentação de rede testando a conectividade de ponta a ponta, solucionando eventuais problemas. O método de solução de problemas que você vai usar consiste nas seguintes etapas:\na.  Verificar a documentação de rede e usar testes para isolar problemas.\nb.  Determinar uma solução apropriada para um problema específico.\nc.  Implementar a solução.\nd.  Testar para verificar se o problema foi resolvido.\ne.  Documentar a solução.\nDurante seus estudos no CCNA, você encontrará descrições diferentes do método de solução de problemas, bem como diferentes maneiras de testar e documentar problemas e soluções. Isso é intencional. Não há padrão ou modelo definido para a solução de problemas. Cada organização desenvolve processos e padrões exclusivos de documentação (mesmo se esse processo for \"não temos nenhum\"). No entanto, todas as metodologias eficazes de solução de problemas geralmente incluem as etapas acima.\nNota: Se você é especialista em configurações de gateway padrão, essa atividade pode parecer mais envolvida do que deveria. Provavelmente você consegue identificar e resolver todos os problemas de conectividade com mais rapidez do que seguindo estes procedimentos. Entretanto, à medida que você continuar com seus estudos, as redes e os problemas que encontrará se tornarão cada vez mais complexos. Nessas situações, a única maneira eficiente de isolar e resolver problemas é usar uma abordagem metódica como a usada nesta atividade.\nInstruções\nParte 1: Verificar a Documentação de Rede e Isolar Problemas\nNa Parte 1 desta atividade, você concluirá a documentação e executará testes de conectividade para identificar problemas. Também determinará uma solução apropriada que será implementada na Parte 2.\nEtapa 1: Verifique a documentação de rede e isole todos os problemas.\na.  Para poder testar uma rede, você deve ter toda a documentação. Verifique se há alguma informação faltando na Tabela de Endereçamento. Complete a Tabela de Endereçamento preenchendo as informações de gateway padrão que estão faltando para os switches e os PCs.\nb.  Teste a conectividade entre dispositivos da mesma rede. Ao isolar e corrigir todos os problemas de acesso local, você pode testar melhor a conectividade remota com a certeza de que a conectividade local está operacional.\nUm plano de verificação pode ser tão simples quanto uma lista de testes de conectividade. Utilize os testes a seguir para verificar a conectividade local e isolar todos os problemas de acesso. O primeiro problema já está documentado, mas você deve executar e verificar a solução durante a Parte 2.\nTeste e Verificação da Documentação"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: A tabela é um exemplo; você deve criar seu próprio documento. Você pode usar papel e lápis para desenhar uma tabela ou usar um editor de texto ou uma planilha. Consulte seu instrutor caso precise de orientações adicionais.\nc.  Teste a conectividade com dispositivos remotos (de PC1 a PC4, por exemplo) e documente eventuais problemas. Isso é conhecido como conectividade de ponta a ponta. Significa que todos os dispositivos em uma rede têm conectividade total permitida pela política de rede.\nNota: O teste de conectividade remota pode ainda não ser possível, porque você deve primeiro resolver os problemas de conectividade local. Depois de resolver esses problemas, volte a esta etapa e teste a conectividade entre redes.\nEtapa 2: Determine uma solução apropriada para o problema.\na.  Usando seu conhecimento sobre as formas como a rede opera e a capacidade de configuração do seu dispositivo, pesquise a causa do problema. Por exemplo, S1 não é a causa do problema de conectividade entre PC1 e PC2. Os leds dos links estão verdes e nenhuma configuração em S1 impediria o tráfego entre PC1 e PC2. O problema deve ser em PC1, em PC2 ou em ambos.\nb.  Verifique se o endereçamento do dispositivo corresponde à documentação de rede. Por exemplo, a verificação com o comando ipconfig indicou que o endereço IP de PC1 está incorreto.\nc.  Sugira uma solução para resolver o problema e documente-a. Por exemplo, alterar o endereço IP de PC1 para corresponder à documentação.\nNota: Geralmente, há mais de uma solução. No entanto, é uma prática recomendada para solução de problemas implementar e verificar uma solução por vez. A implementação de mais de uma solução pode introduzir a outros problemas em um cenário mais complexo.\nParte 2: Implementar, Verificar e Documentar Soluções\nNa Parte 2 desta atividade, você implementará as soluções que identificou na Parte 1. Em seguida, verificará se a solução funcionou. Talvez você precise retornar à Parte 1 para concluir o isolamento de todos os problemas.\nEtapa 1: Implemente soluções relacionadas a problemas de conectividade.\nConsulte sua documentação na Parte 1. Escolha o primeiro problema e implemente a solução que você sugeriu. Por exemplo, corrija o endereço IP de PC1.\nEtapa 2: Verifique se agora o problema está resolvido.\na.  Confira se a sua solução resolveu o problema executando o teste que você usou para identificar o problema. Por exemplo, agora PC1 pode fazer ping em PC2?\nb.  Se o problema estiver resolvido, indique isso na documentação. Por exemplo, na tabela anterior, uma simples marca de verificação na coluna \"Verificado\" seria suficiente.\nEtapa 3: Verifique se todos os problemas foram resolvidos.\na.  Se você ainda tiver um problema pendente com uma solução que não tenha sido implementada, retorne à Parte 2, Etapa 1.\nb.  Caso todos os problemas atuais estejam resolvidos, você também resolveu algum problema de conectividade remota (por exemplo, PC1 poder fazer ping em PC4)? Se a resposta for não, retorne à Parte 1, Etapa 1c, para testar a conectividade remota."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Um usuário pode imprimir em uma impressora que esteja na mesma rede, mas o tráfego do usuário não pode alcançar a Internet. Qual é a possível causa do problema?",
+      "options": [
+        "O endereço de gateway padrão do PC está ausente ou incorreto.",
+        "O PC tem um endereço IP incorreto.",
+        "O cabo de rede conectado ao PC do usuário está com defeito.",
+        "A NIC no PC está com defeito."
+      ],
+      "correctIndex": 0,
+      "explanation": "O endereço IP do gateway padrão é usado para acessar outras redes, incluindo a Internet.",
+      "raw_id": "067f3159a039419982b3533c8fc57359"
+    },
+    {
+      "question": "Qual conexão fornece uma sessão de CLI segura com criptografia para um switch Cisco?",
+      "options": [
+        "uma conexão console",
+        "uma conexão AUX",
+        "uma conexão Telnet",
+        "uma conexão SSH"
+      ],
+      "correctIndex": 3,
+      "explanation": "Uma sessão de CLI usando Secure Shell (SSH) oferece segurança avançada porque o SSH é compatível com senhas fortes e criptografia durante o transporte de dados da sessão. Os outros métodos oferecem suporte à autenticação, mas não à criptografia.",
+      "raw_id": "c5c0562c92cd4fefbaf0004a98202ebf"
+    },
+    {
+      "question": "Em qual interface de switch o administrador configura um endereço IP para que o switch possa ser gerenciado remotamente?",
+      "options": [
+        "FastEthernet0/1",
+        "VLAN 1",
+        "vty 0",
+        "console 0"
+      ],
+      "correctIndex": 1,
+      "explanation": "A interface VLAN 1 é uma interface virtual em um switch, chamada SVI (interface virtual de switch). Configurar um endereço IP na SVI padrão, interface VLAN 1, permitirá que um switch possa ser acessado remotamente. A linha VTY também deve ser configurada para possibilitar o acesso remoto, mas um endereço IP não pode ser configurado nessa linha.",
+      "raw_id": "8a59ed9bab1147fe93cb6a15c39312be"
+    },
+    {
+      "question": "Um administrador definiu uma conta de usuário local com uma senha secreta no roteador R1 para uso com SSH. Quais três etapas adicionais são necessárias para configurar o R1 para aceitar somente conexões SSH criptografadas? (Escolha três.)",
+      "options": [
+        "Configure o nome do domínio IP no roteador.",
+        "Habilite as sessões de entrada de Telnet.",
+        "Gere as chaves SSH.",
+        "Configure o DNS no roteador.",
+        "Habilite sessões SSH de entrada nas linas vty",
+        "Gerar chaves pré-compartilhadas bidirecionais."
+      ],
+      "correctIndex": 4,
+      "explanation": "Há quatro etapas para configurar o suporte SSH em um roteador Cisco:\nEtapa 1: Defina o nome de domínio.\nEtapa 2: Gerar chaves secretas unidirecionais.\nEtapa 3: Criar um nome de usuário e senha locais.\nEtapa 4: Ativar entrada SSH em uma linha vty.",
+      "raw_id": "fe358e7ebfa44f96b69125c8b68316bf"
+    },
+    {
+      "question": "Um técnico está configurando um roteador para permitir todas as formas de acesso de gerenciamento. Como parte de cada tipo diferente de acesso, o técnico está tentando digitar o comando login. Qual modo de configuração deve ser inserido para realizar esta tarefa?",
+      "options": [
+        "modo executivo do usuário",
+        "modo de configuração global",
+        "Modo de configuração de linhas",
+        "⁪modo EXEC privilegiado"
+      ],
+      "correctIndex": 2,
+      "explanation": "O comando login é usado para permitir o acesso a um roteador ou switch através de linhas auxiliares, linhas de console e linhas Telnet.",
+      "raw_id": "28452cb983774d0299da98812bf29e3c"
+    },
+    {
+      "question": "Qual declaração descreve os SVIs?",
+      "options": [
+        "Um SVI é criado automaticamente para cada VLAN em um switch multicamadas.",
+        "A criação de um SVI cria automaticamente uma VLAN associada.",
+        "Um SVI padrão é criado para VLAN 1 para administração de switch.",
+        "Um SVI só pode ser criado para fins de gerenciamento."
+      ],
+      "correctIndex": 2,
+      "explanation": "Para permitir a administração remota de switch, um SVI é criado por padrão para VLAN 1.",
+      "raw_id": "ca371b0f14194654a569894280495914"
+    },
+    {
+      "question": "Qual é a diferença entre usar a Telnet ou o SSH para se conectar a um dispositivo de rede com propósitos de gerenciamento?",
+      "options": [
+        "A Telnet usa o UDP como um protocolo de transporte, e o SSH usa o TCP.",
+        "A Telnet não fornece autenticação, mas o SSH sim.",
+        "A Telnet é compatível com a GUI do host, enquanto que o SSH não é compatível com um host CLI.",
+        "A Telnet envia um nome de usuário e senha em texto simples, enquanto que o SSH criptografa o nome de usuário e senha."
+      ],
+      "correctIndex": 3,
+      "explanation": "O protocolo SSH fornece segurança para conexões de gerenciamento remotas a um dispositivo de rede. O SSH faz isso por meio da criptografia para a sessão de autenticação (nome de usuário e senha) e para a transmissão de dados. O protocolo Telnet envia o nome de usuário e a senha em um texto sem formatação, que pode ser visado para a obtenção do nome de usuário e da senha por meio da captura de dados. A Telnet e o SSH usam o TCP, são compatíveis com os processos de autenticação e estabelecem conexões com os hosts no CLI.",
+      "raw_id": "6caa1699f42a40029aeeabcb531d2141"
+    },
+    {
+      "question": "Que tipo de acesso é protegido em um roteador ou switch Cisco com o comando enable secret?",
+      "options": [
+        "terminal virtual",
+        "EXEC privilegiado",
+        "Porta AUX",
+        "Linha de console"
+      ],
+      "correctIndex": 1,
+      "explanation": "O comando enable secret protege o acesso ao modo EXEC privilegiado de um roteador ou switch Cisco.",
+      "raw_id": "3602cdc520b74ac68d52d2d8909d168b"
+    },
+    {
+      "question": "Qual declaração sobre o comando service password-encryption é verdadeira?",
+      "options": [
+        "Ele é configurado no modo EXEC privilegiado.",
+        "Ele criptografa apenas senhas de modo de linha.",
+        "Assim que o comando service password-encryption for inserido todas as senhas definidas atualmente, anteriormente exibidas em texto simples, são criptografadas.",
+        "Para ver as senhas criptografadas pelo comando service password-encryption em texto simples, execute o comando no service password-encryption ."
+      ],
+      "correctIndex": 2,
+      "explanation": "O comando service password-encryption é usado para criptografar todas as senhas em texto simples, no arquivo running-config.",
+      "raw_id": "8123361f9adc423cac94edc573c5e176"
+    },
+    {
+      "question": "O que acontece quando o comando transport input ssh é inserido nas linhas vty do switch ?",
+      "options": [
+        "O cliente SSH no switch está habilitado.",
+        "A comunicação entre o switch e os usuários remotos é criptografada.",
+        "O switch requer uma combinação de nome de usuário/senha para acesso remoto.",
+        "O switch requer conexões remotas por meio de um software cliente proprietário."
+      ],
+      "correctIndex": 1,
+      "explanation": "O comando transport input ssh quando inserido no switch vty (linhas de terminal virtual) criptografará todas as conexões telnet controladas de entrada.",
+      "raw_id": "8e1fce50b62344c9b30db5c176d0a36d"
+    }
+  ],
+  "images": []
+}

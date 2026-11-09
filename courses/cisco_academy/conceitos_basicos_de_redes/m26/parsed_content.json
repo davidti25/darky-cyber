@@ -1,0 +1,811 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Parece que Olcay e Abay estão terminando seu turno na fábrica de utilidades. Olcay diz a Abay para ter uma boa noite. Ela diz para ele estar preparado para conversar sobre tudo o que tem a ver com a camada de transporte pela manhã.\nAbay pode querer usar este módulo antes de falar com Olcay pela manhã. Você está familiarizado com a camada de transporte? Você deve estar se quiser entender a rede. A camada de transporte é responsável pela comunicação lógica entre aplicativos executados em hosts diferentes. Vamos começar com este módulo para aprender mais!"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Transporte de dados",
+      "content": "{{_moduleNumber}}.1 Transporte de dados"
+    },
+    {
+      "type": "text",
+      "title": ".1 Transporte de dados",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Propósito da Camada de Transporte",
+      "content": "Os programas da camada de aplicação geram dados que devem ser trocados entre os hosts de origem e de destino. A camada de transporte é responsável pela comunicação lógica entre aplicativos executados em hosts diferentes. Isso pode incluir serviços como o estabelecimento de uma sessão temporária entre dois hosts e a transmissão confiável de informações para um aplicativo.\nComo mostra a figura, a camada de transporte é o link entre a camada de aplicação e as camadas inferiores que são responsáveis pela transmissão pela rede.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "A camada de transporte não tem conhecimento do tipo de host de destino, o tipo de mídia pela qual os dados devem percorrer, o caminho percorrido pelos dados, o congestionamento em um link ou o tamanho da rede.\nA camada de transporte inclui dois protocolos:\nProtocolo TCP\nProtocolo UDP (User Datagram Protocol)"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Protocolos da Camada de Transporte",
+      "content": "O IP está preocupado apenas com a estrutura, endereçamento e roteamento de pacotes. O IP não especifica como a entrega ou o transporte de pacotes ocorrem.\nOs protocolos de camada de transporte especificam como transferir mensagens entre hosts e são responsáveis pelo gerenciamento dos requisitos de confiabilidade de uma conversa. A camada de transporte inclui os protocolos TCP e UDP.\nDiferentes aplicações têm diferentes necessidades de confiabilidade de transporte. Portanto, o TCP/IP fornece dois protocolos de camada de transporte, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.6 O Protocolo de Camada de Transporte Certo para a Aplicação Certa",
+      "content": "Alguns aplicativos podem tolerar a perda de dados durante a transmissão pela rede, mas atrasos na transmissão são inaceitáveis. Para esses aplicativos, o UDP é a melhor escolha, pois requer menos sobrecarga da rede. O UDP é preferível para aplicativos como Voz sobre IP (VoIP). Agradecimentos e retransmissão atrasariam a entrega e tornariam a conversa por voz inaceitável.\nO UDP também é usado por aplicativos de solicitação e resposta onde os dados são mínimos, e a retransmissão pode ser feita rapidamente. Por exemplo, o Domain Name System (DNS) usa UDP para esse tipo de transação. O cliente solicita endereços IPv4 e IPv6 para um nome de domínio conhecido de um servidor DNS. Se o cliente não receber uma resposta em um período predeterminado de tempo, ele simplesmente envia a solicitação novamente.\nPor exemplo, se um ou dois segmentos de uma transmissão de vídeo ao vivo não conseguir chegar, isso criará apenas uma interrupção momentânea na transmissão. Isso pode aparecer como uma distorção na imagem ou no som, mas pode não ser notado pelo usuário. Se o dispositivo de destino considerasse os dados perdidos, a transmissão poderia atrasar, enquanto aguardasse as retransmissões, causando, portanto, grandes perdas de áudio e vídeo. Nesse caso, é melhor fornecer a melhor experiência de mídia com os segmentos recebidos e descartar a confiabilidade.\nPara outras aplicações, é importante que todos os dados cheguem e que possam ser processados em sua sequência adequada. Para esses tipos de aplicativos, o TCP é usado como o protocolo de transporte. Por exemplo, aplicações como bancos de dados, navegadores e clientes de e-mail exigem que todos os dados enviados cheguem ao destino em seu estado original. Quaisquer dados ausentes podem corromper uma comunicação, tornando-a incompleta ou ilegível. Por exemplo, é importante ao acessar informações bancárias pela web certificar-se de que todas as informações são enviadas e recebidas corretamente.\nOs desenvolvedores de aplicações devem escolher que tipo de protocolo de transporte é apropriado com base nas necessidades de suas aplicações. O vídeo pode ser enviado através de TCP ou UDP. Os aplicativos que transmitem áudio e vídeo armazenados normalmente usam TCP. O aplicativo usa TCP para executar buffer, sondagem de largura de banda e controle de congestionamento, a fim de controlar melhor a experiência do usuário.\nVídeo e voz em tempo real geralmente usam UDP, mas também podem usar TCP, ou UDP e TCP. Um aplicativo de videoconferência pode usar UDP por padrão, mas como muitos firewalls bloqueiam UDP, o aplicativo também pode ser enviado por TCP.\nOs aplicativos que transmitem áudio e vídeo armazenados usam TCP. Por exemplo, se sua rede, repentinamente, não comportar a largura de banda necessária para a transmissão de um filme sob demanda, a aplicação interrompe a reprodução. Durante essa interrupção, você deverá ver uma mensagem de “buffering...” , enquanto o TCP age para restabelecer a transmissão. Quando todos os segmentos estão em ordem e um nível mínimo de largura de banda é restaurado, a sessão TCP é retomada e o filme retoma a reprodução.\nA figura resume as diferenças entre UDP e TCP.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Visão geral do TCP",
+      "content": "{{_moduleNumber}}.2 Visão geral do TCP"
+    },
+    {
+      "type": "text",
+      "title": ".2 Visão geral do TCP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Recursos TCP",
+      "content": "No tópico anterior, você aprendeu que TCP e UDP são os dois protocolos de camada de transporte. Este tópico fornece mais detalhes sobre o que o TCP faz e quando é uma boa idéia usá-lo em vez de UDP.\nPara entender as diferenças entre TCP e UDP, é importante entender como cada protocolo implementa recursos específicos de confiabilidade e como cada protocolo rastreia conversas.\nAlém de suportar as funções básicas de segmentação e remontagem de dados, o TCP também fornece os seguintes serviços:\nEstabelece uma sessão - O TCP é um protocolo orientado à conexão que negocia e estabelece uma conexão (ou sessão) permanente entre os dispositivos de origem e de destino antes de encaminhar qualquer tráfego. Com o estabelecimento da sessão, os dispositivos negociam o volume de tráfego esperado que pode ser encaminhado em determinado momento e os dados de comunicação entre os dois podem ser gerenciados atentamente.\nGarante a entrega confiável - Por várias razões, é possível que um segmento seja corrompido ou perdido completamente, pois é transmitido pela rede. O TCP garante que cada segmento enviado pela fonte chegue ao destino.\nFornece entrega no mesmo pedido - Como as redes podem fornecer várias rotas que podem ter taxas de transmissão diferentes, os dados podem chegar na ordem errada. Ao numerar e sequenciar os segmentos, o TCP garante que os segmentos sejam remontados na ordem correta.\nSuporta controle de fluxo - os hosts de rede têm recursos limitados (ou seja, memória e poder de processamento). Quando percebe que esses recursos estão sobrecarregados, o TCP pode requisitar que a aplicação emissora reduza a taxa de fluxo de dados. Para isso, o TCP regula o volume de dados transmitido pelo dispositivo origem. O controle de fluxo pode impedir a necessidade de retransmissão dos dados quando os recursos do host receptor estão sobrecarregados.\nPara obter mais informações sobre o TCP, procure o RFC 793 na Internet."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Cabeçalho TCP",
+      "content": "TCP é um protocolo stateful, o que significa que ele controla o estado da sessão de comunicação. Para manter o controle do estado de uma sessão, o TCP registra quais informações ele enviou e quais informações foram confirmadas. A sessão com estado começa com o estabelecimento da sessão e termina com o encerramento da sessão.\nUm segmento TCP adiciona 20 bytes (ou seja, 160 bits) de sobrecarga ao encapsular os dados da camada de aplicativo. A figura mostra os campos em um cabeçalho TCP.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.4 Aplicações que usam TCP",
+      "content": "O TCP é um bom exemplo de como as diferentes camadas do conjunto de protocolos TCP/IP têm funções específicas. O TCP lida com todas as tarefas associadas à divisão do fluxo de dados em segmentos, fornecendo confiabilidade, controlando o fluxo de dados e reordenando segmentos. O TCP libera a aplicação da obrigação de gerenciar todas essas tarefas. Aplicações como as mostradas na figura, podem simplesmente enviar o fluxo de dados à camada de transporte e usar os serviços TCP.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Visão geral do UDP",
+      "content": "{{_moduleNumber}}.3 Visão Geral do UDP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Visão geral do UDP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 Recursos UDP",
+      "content": "Este tópico abordará o UDP, o que ele faz e quando é uma boa idéia usá-lo em vez de TCP. UDP é um protocolo de transporte de melhor esforço. O UDP é um protocolo de transporte leve que oferece a mesma segmentação de dados e remontagem que o TCP, mas sem a confiabilidade e o controle de fluxo do TCP.\nO UDP é um protocolo simples, normalmente descrito nos termos do que ele não faz em comparação ao TCP.\nOs recursos UDP incluem o seguinte:\nOs dados são reagrupados na ordem em que são recebidos.\nQuaisquer segmentos perdidos não são reenviados.\nNenhum estabelecimento de seção.\nO envio não é informado sobre a disponibilidade do recurso.\nPara obter mais informações sobre o UDP, pesquise na Internet o RFC."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Cabeçalho UDP",
+      "content": "UDP é um protocolo sem estado, o que significa que nem o cliente nem o servidor rastreiam o estado da sessão de comunicação. Se a confiabilidade for necessária ao usar o UDP como protocolo de transporte, ela deve ser tratada pela aplicação.\nUm dos requisitos mais importantes para transmitir vídeo ao vivo e voz sobre a rede é que os dados continuem fluindo rapidamente. Vídeo ao vivo e aplicações de voz podem tolerar alguma perda de dados com efeito mínimo ou sem visibilidade e são perfeitos para o UDP.\nOs blocos de comunicação no UDP são chamados de datagramas ou segmentos. Esses datagramas são enviados como o melhor esforço pelo protocolo da camada de transporte.\nO cabeçalho UDP é muito mais simples do que o cabeçalho TCP porque só tem quatro campos e requer 8 bytes (ou seja, 64 bits). A figura mostra os campos em um cabeçalho UDP.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.4 Aplicações que usam UDP",
+      "content": "Há três tipos de aplicações que são mais adequadas para o UDP:\nAplicações de vídeo e multimídia ao vivo  - Esses aplicativos podem tolerar a perda de dados, mas requerem pouco ou nenhum atraso. Os exemplos incluem VoIP e transmissão de vídeo ao vivo.\nAplicações de solicitação e resposta simples - Aplicativos com transações simples em que um host envia uma solicitação e pode ou não receber uma resposta. Os exemplos incluem DNS e DHCP.\nAplicativos que lidam com a confiabilidade  - Comunicações unidirecionais em que o controle de fluxo, a detecção de erros, as confirmações e a recuperação de erros não são necessários ou podem ser gerenciados pela aplicação. Os exemplos incluem SNMP e TFTP.\nA figura identifica aplicativos que exigem UDP.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Embora por padrão DNS e SNMP usem UDP, ambos podem usar TCP. O DNS usará o TCP se a solicitação ou resposta de DNS for maior que 512 bytes, como quando uma resposta de DNS inclui muitas resoluções de nome. Da mesma forma, em algumas situações o administrador de redes pode querer configurar o SNMP para usar o TCP."
+    },
+    {
+      "type": "text",
+      "title": ".4 Números de portas",
+      "content": "{{_moduleNumber}}.4 Números de porta"
+    },
+    {
+      "type": "text",
+      "title": ".4 Números de portas",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 Várias comunicações separadas",
+      "content": "Como você aprendeu, existem algumas situações em que o TCP é o protocolo certo para o trabalho e outras situações em que o UDP deve ser usado. Independentemente do tipo de dados que estão sendo transportados, tanto o TCP quanto o UDP usam números de porta.\nOs protocolos de camada de transporte TCP e UDP usam números de porta para gerenciar várias conversas simultâneas. Conforme mostrado na figura, os campos de cabeçalho TCP e UDP identificam um número de porta do aplicativo de origem e destino.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O número da porta de origem está associado ao aplicativo de origem no host local, enquanto o número da porta de destino está associado ao aplicativo de destino no host remoto.\nPor exemplo, suponha que um host está iniciando uma solicitação de página da Web a partir de um servidor Web. Quando o host inicia a solicitação de página da Web, o número da porta de origem é gerado dinamicamente pelo host para identificar exclusivamente a conversa. Cada solicitação gerada por um host usará um número de porta de origem criado dinamicamente diferente. Este processo permite que várias conversações ocorram simultaneamente.\nNa solicitação, o número da porta de destino é o que identifica o tipo de serviço que está sendo solicitado do servidor web de destino. Por exemplo, quando um cliente especifica a porta 80 na porta de destino, o servidor que receber a mensagem sabe que os serviços Web são solicitados.\nUm servidor pode oferecer mais de um serviço simultaneamente, como serviços web na porta 80, enquanto oferece o estabelecimento de conexão FTP (File Transfer Protocol) na porta 21."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Pares de Sockets",
+      "content": "As portas origem e destino são colocadas no segmento. Os segmentos são encapsulados em um pacote IP. O pacote IP contém o endereço IP de origem e destino. A combinação do endereço IP de origem e o número de porta de origem, ou do endereço IP de destino e o número de porta de destino é conhecida como um socket.\nNo exemplo na figura, o PC está solicitando simultaneamente serviços FTP e Web do servidor de destino.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "No exemplo, a solicitação FTP gerada pelo PC inclui os endereços MAC da Camada 2 e os endereços IP da Camada 3. A solicitação também identifica o número da porta de origem 1305 (ou seja, gerado dinamicamente pelo host) e a porta de destino, identificando os serviços de FTP na porta 21. O host também solicitou uma página da Web do servidor usando os mesmos endereços de Camada 2 e Camada 3. No entanto, ele está usando o número da porta de origem 1099 (ou seja, gerado dinamicamente pelo host) e a porta de destino identificando o serviço Web na porta 80.\nO socket é usado para identificar o servidor e o serviço que está sendo solicitado pelo cliente. Um socket do cliente pode ser assim, com 1099 representando o número da porta de origem: 192.168.1.5:1099\nO soquete em um servidor da web pode ser 192.168.1.7:80\nJuntos, esses dois soquetes se combinam para formar um par de soquetes: 192.168.1.5:1099, 192.168.1.7:80\nOs sockets permitem que vários processos em execução em um cliente se diferenciem uns dos outros, e várias conexões com um processo no servidor sejam diferentes umas das outras.\nEste número de porta age como um endereço de retorno para a aplicação que faz a solicitação. A camada de transporte rastreia essa porta e a aplicação que iniciou a solicitação, de modo que quando uma resposta é retornada, ela pode ser encaminhada para a aplicação correta."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Algumas aplicações podem usar tanto TCP quanto UDP. Por exemplo, o DNS usa o protocolo UDP quando os clientes enviam requisições a um servidor DNS. Contudo, a comunicação entre dois servidores DNS sempre usa TCP.\nPesquise no site da IANA o registro de portas para visualizar a lista completa de números de portas e aplicativos associados."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Por padrão, o comando netstat tentará resolver os endereços IP para os nomes de domínio e os números de porta para aplicações bem conhecidas. A opção -n pode ser usada para exibir endereços IP e números de porta em sua forma numérica."
+    },
+    {
+      "type": "text",
+      "title": ".5 Processo de comunicação TCP",
+      "content": "{{_moduleNumber}}.5 Processo de comunicação TCP"
+    },
+    {
+      "type": "text",
+      "title": ".5 Processo de comunicação TCP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O handshake de três vias valida se o host de destino está disponível para comunicação. Neste exemplo, o host A validou que o host B está disponível."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Quando todos os segmentos tiverem sido confirmados, a conexão é encerrada."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Campo de bits de controle",
+      "content": "Os hosts mantêm o estado, rastreiam cada segmento de dados em uma sessão e trocam informações sobre quais dados são recebidos usando as informações no cabeçalho TCP. O TCP é um protocolo full-duplex, em que cada conexão representa duas sessões de comunicação unidirecional. Para estabelecer uma conexão, os hosts realizam um handshake triplo (three-way handshake). Conforme mostrado na figura, os bits de controle no cabeçalho TCP indicam o progresso e o status da conexão.\nEstas são as funções do handshake de três vias:\nEstabelece que o dispositivo de destino está presente na rede.\nEle verifica se o dispositivo de destino possui um serviço ativo e está aceitando solicitações no número da porta de destino que o cliente inicial pretende usar.\nEle informa ao dispositivo de destino que o cliente de origem pretende estabelecer uma sessão de comunicação nesse número de porta.\nApós a conclusão da comunicação, as sessões são fechadas e a conexão é encerrada. Os mecanismos de conexão e sessão ativam a função de confiabilidade do TCP.\nCampo de bits de controle",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os seis bits no campo Bits de Controle do cabeçalho do segmento TCP são também conhecidos como flags. Um sinalizador é um pouco definido como ativado ou desativado.\nOs seis bits de controle sinalizadores são os seguintes:\nURG - Campo de ponteiro urgente significativo\nACK - Indicador de confirmação usado no estabelecimento de conexão e encerramento de sessão\nPSH - Função Push\nRST - Redefina a conexão quando ocorrer um erro ou exceder o tempo limite\nSYN - Sincronizar números de sequência usados no estabelecimento de conexão\nFIN - Não há mais dados do remetente e usados no encerramento da sessão\nPesquise na Internet para saber mais sobre as bandeiras PSH e URG."
+    },
+    {
+      "type": "text",
+      "title": ".6 Confiabilidade e controle de fluxo",
+      "content": "{{_moduleNumber}}.6 Confiabilidade e controle de fluxo"
+    },
+    {
+      "type": "text",
+      "title": ".6 Confiabilidade e controle de fluxo",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Os Segmentos TCP São Reordenados no Destino",
+      "content": "A razão pela qual o TCP é o melhor protocolo para alguns aplicativos é porque, ao contrário do UDP, ele reenvia pacotes descartados e números de pacotes para indicar sua ordem correta antes da entrega. O TCP também pode ajudar a manter o fluxo de pacotes para que os dispositivos não fiquem sobrecarregados. Este tópico aborda esses recursos do TCP em detalhes.\nPode haver momentos em que os segmentos TCP não chegam ao seu destino. Outras vezes, os segmentos TCP podem chegar fora de ordem. Para que a mensagem original seja entendida pelo destinatário, todos os dados devem ser recebidos e os dados nesses segmentos devem ser remontados na ordem original. Os números de sequência são atribuídos no cabeçalho de cada pacote para alcançar esse objetivo. O número de sequência representa o primeiro byte de dados do segmento TCP.\nDurante o estabelecimento de uma sessão, um número de sequência inicial (ISN) é definido. Este ISN representa o valor inicial dos bytes que são transmitidos ao aplicativo receptor. À medida que os dados são transmitidos durante a sessão, número de sequência é incrementado do número de bytes que foram transmitidos. Esse rastreamento dos bytes de dados permite que cada segmento seja identificado e confirmado de forma única. Segmentos perdidos podem então, ser identificados.\nO ISN não começa em um, mas é efetivamente um número aleatório. Isso é para impedir determinados tipos de ataques maliciosos. Para simplificar, usaremos um ISN de 1 para os exemplos deste módulo.\nOs números de sequência do segmento indicam como remontar e reordenar os segmentos recebidos, como mostrado na figura.\nOs Segmentos TCP São Reordenados no Destino",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O processo TCP receptor coloca os dados de um segmento em um buffer receptor. Os segmentos são então colocados na ordem de sequência correta e passados para a camada de aplicativo quando remontados. Qualquer segmento que chegue com números de sequência fora de ordem são retidos para processamento posterior. Por isso, quando os segmentos com os bytes que faltavam chegam, esses segmentos são processados."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.3 Confiabilidade TCP - Perda e Retransmissão de Dados",
+      "content": "Não importa o quão bem projetada uma rede é, a perda de dados ocasionalmente ocorre. O TCP fornece métodos de gerenciamento dessas perdas de segmento. Entre esses métodos há um mecanismo que retransmite segmentos dos dados não confirmados.\nO número de sequência (SEQ) e o número de confirmação (ACK) são usados juntamente para confirmar o recebimento dos bytes de dados contidos nos segmentos. O número SEQ identifica o primeiro byte de dados no segmento que está sendo transmitido. O TCP usa o número de confirmação (ACK) enviado de volta à origem para indicar o próximo byte que o destino espera receber. Isto é chamado de confirmação antecipatória.\nAntes de melhorias posteriores, o TCP só podia reconhecer o próximo byte esperado. Por exemplo, na figura, usando números de segmento para simplicidade, o host A envia os segmentos 1 a 10 para o host B. Se todos os segmentos chegarem, exceto os segmentos 3 e 4, o host B responderia com confirmação especificando que o próximo segmento esperado é o segmento 3. O Host A não tem idéia se outros segmentos chegaram ou não. O host A, portanto, reenviaria os segmentos 3 a 10. Se todos os segmentos reenviados chegarem com sucesso, os segmentos 5 a 10 seriam duplicados. Isso pode levar a atrasos, congestionamentos e ineficiências.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Hoje em dia, os sistemas operacionais de host utilizam um recurso TCP opcional chamado reconhecimento seletivo (SACK), negociado durante o handshake de três vias. Se ambos os hosts suportarem SACK, o receptor pode reconhecer explicitamente quais segmentos (bytes) foram recebidos, incluindo quaisquer segmentos descontínuos. O host de envio, portanto, só precisa retransmitir os dados ausentes. Por exemplo, na próxima figura, novamente usando números de segmento para simplicidade, o host A envia segmentos 1 a 10 para o host B. Se todos os segmentos chegarem, exceto os segmentos 3 e 4, o host B pode reconhecer que recebeu segmentos 1 e 2 (ACK 3) e reconhecer seletivamente os segmentos 5 a 10 (SACK 5-10). O host A só precisaria reenviar os segmentos 3 e 4.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: O TCP normalmente envia ACKs para todos os outros pacotes, mas outros fatores além do escopo deste tópico podem alterar esse comportamento.\nO TCP usa temporizadores para saber quanto tempo esperar antes de reenviar um segmento. Na figura, reproduza o vídeo e clique no link para baixar o arquivo PDF. O vídeo e o arquivo PDF examinam a perda de dados e a retransmissão TCP."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Exemplo de Tamanho da Janela TCP",
+      "content": "O TCP também fornece mecanismos para controle de fluxo. Controle de fluxo é a quantidade de dados que o destino pode receber e processar de forma confiável. O controle de fluxo ajuda a manter a confiabilidade da transmissão TCP definindo a taxa de fluxo de dados entre a origem e o destino em uma determinada sessão. Para realizar isso, o cabeçalho TCP inclui um campo de 16 bits chamado de tamanho da janela.\nA figura mostra um exemplo de tamanho da janela e confirmações.\nExemplo de Tamanho da Janela TCP",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O tamanho da janela determina o número de bytes que podem ser enviados antes de esperar uma confirmação. O número de reconhecimento é o número do próximo byte esperado.\nO tamanho da janela é número de bytes que o dispositivo de destino de uma sessão TCP pode aceitar e processar de uma vez. Neste exemplo, o tamanho da janela inicial do PC B para a sessão TCP é de 10.000 bytes. No caso do primeiro byte ser número 1, o último byte que PC A pode enviar sem receber uma confirmação é o byte 10.000. Isso é conhecido como janela de envio do PC A. O tamanho da janela é incluído em todos os segmentos TCP, para que o destino possa modificar o tamanho da janela a qualquer momento, dependendo da disponibilidade do buffer.\nO tamanho da janela inicial é determinado quando a sessão é estabelecida durante o handshake triplo. O dispositivo de origem deve limitar o número de bytes enviados ao dispositivo de destino com base no tamanho da janela do destino. Somente depois que o dispositivo de origem receber uma confirmação de que os bytes foram recebidos, ele poderá continuar a enviar mais dados para a sessão. Normalmente, o destino não esperará que todos os bytes que a sua janela comporta sejam recebidos para responder confirmando. À medida que os bytes forem recebidos e processados, o destino enviará confirmações para informar à origem que pode continuar a enviar bytes adicionais.\nPor exemplo, é típico que o PC B não espere até que todos os 10.000 bytes tenham sido recebidos antes de enviar uma confirmação. Isso significa que o PC A pode ajustar sua janela de envio ao receber confirmações do PC B. Como mostrado na figura, quando o PC A recebe uma confirmação com o número de confirmação 2.921, que é o próximo byte esperado. A janela de envio do PC A irá incrementar 2.920 bytes. Isso altera a janela de envio de 10.000 bytes para 12.920. O PC A agora pode continuar enviando até outros 10.000 bytes para o PC B, desde que não envie mais do que sua nova janela de envio em 12.920.\nUm destino que envia confirmações enquanto processa os bytes recebidos e o ajuste contínuo da janela de envio de origem é conhecido como janelas deslizantes. No exemplo anterior, a janela de envio do PC A incrementa ou desliza sobre outros 2.921 bytes de 10.000 para 12.920.\nSe a disponibilidade do espaço de buffer do destino diminui, ele pode reduzir o tamanho da sua janela para informar à origem que reduza o número de bytes que ela deveria enviar sem receber uma confirmação.\nNota: Os dispositivos hoje usam o protocolo de janelas deslizantes. O receptor normalmente envia uma confirmação após cada dois segmentos que recebe. O número de segmentos recebidos antes de ser confirmado pode variar. A vantagem de janelas móveis é que permite que o emissor transmita continuamente segmentos, desde que o receptor esteja reconhecendo segmentos anteriores. Os detalhes das janelas móveis estão fora do escopo deste curso."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.6 Controle de Fluxo TCP - Tamanho Máximo do Segmento (MSS)",
+      "content": "Na figura, a fonte está transmitindo 1.460 bytes de dados dentro de cada segmento TCP. Normalmente, este é o tamanho máximo do segmento (MSS) que o dispositivo de destino pode receber. O MSS faz parte do campo de opções no cabeçalho TCP que especifica a maior quantidade de dados, em bytes, que um dispositivo pode receber em um único segmento TCP. O tamanho do MSS não inclui o cabeçalho TCP. O MSS é normalmente incluído durante o handshake de três vias.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Um MSS comum é 1.460 bytes ao usar IPv4. Um host determina o valor do campo de MSS subtraindo os cabeçalhos de IP e de TCP da MTU (Maximum transmission unit, Unidade máxima de transmissão) da Ethernet. Em uma interface Ethernet, a MTU padrão é 1500 bytes. Subtraindo o cabeçalho IPv4 de 20 bytes e o cabeçalho TCP de 20 bytes, o tamanho padrão do MSS será 1460 bytes, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Controle de Congestionamento TCP",
+      "content": "Quando ocorre um congestionamento em uma rede, isso resulta em pacotes sendo descartados pelo roteador sobrecarregado. Quando pacotes contendo segmentos TCP não atingem seu destino, eles são deixados sem serem reconhecidos. Ao determinar a taxa na qual os segmentos TCP são enviados, mas não confirmados, a origem pode pressupor um certo nível de congestionamento da rede.\nSempre que ocorrer um congestionamento, ocorrerá a retransmissão de segmentos TCP perdidos por parte da origem. Se a retransmissão não for devidamente controlada, a retransmissão adicional dos segmentos TCP pode agravar o congestionamento. Não só novos pacotes com segmentos TCP são introduzidos na rede, como também o efeito de feedback dos segmentos retransmitidos que foram perdidos aumentarão o congestionamento. Para evitar e controlar o congestionamento, o TCP emprega alguns mecanismos para lidar com o congestionamento, temporizadores e algoritmos.\nSe a origem determina que os segmentos TCP não são confirmados ou não são confirmados em tempo hábil, isso pode reduzir o número de bytes enviados antes do recebimento de uma confirmação. Conforme ilustrado na figura, o PC A detecta que há congestionamento e, portanto, reduz o número de bytes que envia antes de receber uma confirmação do PC B.\nControle de Congestionamento TCP",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os números de confirmação são para o próximo byte esperado e não para um segmento. Os números de segmento usados são simplificados para fins ilustrativos.\nObserve que é a origem que está reduzindo o número de bytes não confirmados que envia e não o tamanho da janela determinado pelo destino.\nNota: As explicações sobre os mecanismos, cronômetros e algoritmos reais de tratamento de congestionamento estão além do escopo deste curso."
+    },
+    {
+      "type": "text",
+      "title": ".7 Comunicação UDP",
+      "content": "{{_moduleNumber}}.7 Comunicação UDP"
+    },
+    {
+      "type": "text",
+      "title": ".7 Comunicação UDP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.1 UDP Baixa Sobrecarga versus Confiabilidade",
+      "content": "Como explicado anteriormente, o UDP é perfeito para comunicações que precisam ser rápidas, como VoIP. Este tópico explica em detalhes por que o UDP é perfeito para alguns tipos de transmissões. Como mostrado na figura, o UDP não estabelece uma conexão. O UDP fornece transporte de dados de baixa sobrecarga, porque tem um cabeçalho de datagrama pequeno e nenhum tráfego de gerenciamento de rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "UDP: Sem Conexão e Não Confiável",
+      "content": "Como ocorre com segmentos TCP, quando múltiplos datagramas UDP são enviados a um destino, eles geralmente tomam caminhos diferentes e chegam na ordem errada. O UDP não rastreia os números de sequência da forma que o TCP faz. O UDP não tem como reordernar os datagramas na sua ordem de transmissão, como mostrado na figura.\nPortanto, o UDP simplesmente remonta os dados na ordem que eles foram recebidos e os encaminha para a aplicação. Se a sequência de dados for importante para a aplicação, a aplicação deverá identificar a sequência apropriada e determinar como os dados devem ser processados.\nUDP: Sem Conexão e Não Confiável",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Servidor UDP Escutando Requisições",
+      "content": "Do mesmo modo que aplicações baseadas em TCP, as aplicações de servidor baseadas em UDP recebem números de portas bem conhecidas ou registradas, como mostrado na figura. Quando as aplicações ou processos estão sendo executados, eles aceitarão os dados correspondentes ao número de porta atribuído. Quando o UDP recebe um datagrama destinado a uma destas portas, ele encaminha os dados à aplicação apropriada com base em seu número de porta.\nServidor UDP Escutando Requisições",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".8 Resumo da Camada de Transporte",
+      "content": "{{_moduleNumber}}.8 Resumo da Camada de Transporte"
+    },
+    {
+      "type": "text",
+      "title": ".8 Resumo da Camada de Transporte",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".8.2 O que eu aprendi neste módulo?",
+      "content": "**Camada de Transporte:** Os programas da camada de aplicação geram dados que devem ser trocados entre os hosts de origem e de destino. A camada de transporte é responsável pela comunicação lógica entre aplicativos executados em hosts diferentes. A camada de transporte inclui dois protocolos, Transmission Control Protocol (TCP) e User Datagram Protocol (UDP).\nRastreando conversas individuais - Na camada de transporte, cada conjunto de dados que flui entre um aplicativo de origem e um aplicativo de destino é conhecido como uma conversa e é rastreado separadamente. É responsabilidade da camada de transporte manter e monitorar essas várias conversações.\nSegmentação de Dados e Remontagem de Segmentos - É responsabilidade da camada de transporte dividir os dados do aplicativo em blocos de tamanho apropriado. Dependendo do protocolo de camada de transporte usado, os blocos de camada de transporte são chamados de segmentos ou datagramas.\nAdicionar informações de cabeçalho - O protocolo da camada de transporte também adiciona informações de cabeçalho contendo dados binários organizados em vários campos para cada bloco de dados.\nIdentificando os aplicativos - A camada de transporte deve ser capaz de separar e gerenciar várias comunicações com diferentes necessidades de requisitos de transporte.\nMultiplexação de conversação - O envio de alguns tipos de dados (por exemplo, um streaming de vídeo) através de uma rede, como um fluxo de comunicação completo, pode consumir toda a largura de banda disponível. A camada de transporte usa segmentação e multiplexação para permitir que diferentes conversas de comunicação sejam intercaladas na mesma rede.\nOs protocolos de camada de transporte especificam como transferir mensagens entre hosts e são responsáveis pelo gerenciamento dos requisitos de confiabilidade de uma conversa. A camada de transporte inclui os protocolos TCP e UDP.\nO TCP fornece confiabilidade e controle de fluxo usando estas operações básicas:\nNúmero e rastreamento de segmentos de dados transmitidos para um host específico a partir de um aplicativo específico\nConfirmar dados recebidos\nRetransmitir quaisquer dados não reconhecidos após um certo período de tempo\nDados de sequência que podem chegar em ordem errada\nEnviar dados a uma taxa eficiente que seja aceitável pelo receptor\nPara manter o estado de uma conversa e rastrear as informações, o TCP deve primeiro estabelecer uma conexão entre o remetente e o receptor. É por isso que o TCP é conhecido como um protocolo orientado a conexão.\nUDP é um protocolo sem conexão. Como o UDP não fornece confiabilidade ou controle de fluxo, ele não requer uma conexão estabelecida. Como o UDP não controla informações enviadas ou recebidas entre o cliente e o servidor, o UDP também é conhecido como um protocolo sem estado. UDP também é conhecido como um protocolo de entrega de melhor esforço porque não há confirmação de que os dados são recebidos no destino. Com o UDP, não há processo de camada de transporte que informe ao remetente se a entrega foi bem-sucedida. O UDP é preferível para aplicativos como Voz sobre IP (VoIP). Agradecimentos e retransmissão atrasariam a entrega e tornariam a conversa por voz inaceitável. O UDP também é usado por aplicativos de solicitação e resposta onde os dados são mínimos, e a retransmissão pode ser feita rapidamente.\nPara outras aplicações, é importante que todos os dados cheguem e que possam ser processados em sua sequência adequada. Para esses tipos de aplicativos, o TCP é usado como o protocolo de transporte. Por exemplo, aplicações como bancos de dados, navegadores e clientes de e-mail exigem que todos os dados enviados cheguem ao destino em seu estado original. Quaisquer dados ausentes podem corromper uma comunicação, tornando-a incompleta ou ilegível.\n\n**Visão Geral do TCP:** Além de suportar as funções básicas de segmentação e remontagem de dados, o TCP também fornece os seguintes serviços:\nEstabelece uma sessão - O TCP é um protocolo orientado à conexão que negocia e estabelece uma conexão (ou sessão) permanente entre os dispositivos de origem e de destino antes de encaminhar qualquer tráfego. Com o estabelecimento da sessão, os dispositivos negociam o volume de tráfego esperado que pode ser encaminhado em determinado momento e os dados de comunicação entre os dois podem ser gerenciados atentamente.\nGarante a entrega confiável - Por várias razões, é possível que um segmento seja corrompido ou perdido completamente, pois é transmitido pela rede. O TCP garante que cada segmento enviado pela fonte chegue ao destino.\nFornece entrega no mesmo pedido - Como as redes podem fornecer várias rotas que podem ter taxas de transmissão diferentes, os dados podem chegar na ordem errada. Ao numerar e sequenciar os segmentos, o TCP garante que os segmentos sejam remontados na ordem correta.\nSuporta controle de fluxo - os hosts de rede têm recursos limitados (ou seja, memória e poder de processamento). Quando percebe que esses recursos estão sobrecarregados, o TCP pode requisitar que a aplicação emissora reduza a taxa de fluxo de dados. Para isso, o TCP regula o volume de dados transmitido pelo dispositivo origem. O controle de fluxo pode impedir a necessidade de retransmissão dos dados quando os recursos do host receptor estão sobrecarregados.\nTCP é um protocolo stateful, o que significa que ele controla o estado da sessão de comunicação. Para manter o controle do estado de uma sessão, o TCP registra quais informações ele enviou e quais informações foram confirmadas. A sessão com estado começa com o estabelecimento da sessão e termina com o encerramento da sessão.\nOs dez campos no cabeçalho TCP são os seguintes:\nPorta de Origem - Um campo de 16 bits usado para identificar o aplicativo de origem pelo número da porta.\nPorta de destino - Um campo de 16 bits usado para identificar o aplicativo de destino pelo número da porta.\nNúmero de sequência - Um campo de 32 bits usado para fins de remontagem de dados.\nNúmero de confirmação - Um campo de 32 bits usado para indicar que os dados foram recebidos e o próximo byte esperado da origem.\nComprimento do cabeçalho - Um campo de 4 bits conhecido como 'deslocamento de dados' que indica o comprimento do cabeçalho do segmento TCP.\nReservado - Um campo de 6 bits que é reservado para uso futuro.\nBits de controle - Um campo de 6 bits que inclui códigos de bits, ou sinalizadores, que indicam a finalidade e a função do segmento TCP.\nTamanho da janela - Um campo de 16 bits usado para indicar o número de bytes que podem ser aceitos ao mesmo tempo.\nChecksum - Um campo de 16 bits usado para verificação de erros do cabeçalho e dos dados do segmento.\nUrgente - Um campo de 16 bits usado para indicar se os dados contidos são urgentes.\nO TCP é um bom exemplo de como as diferentes camadas do conjunto de protocolos TCP / IP têm funções específicas. O TCP lida com todas as tarefas associadas à divisão do fluxo de dados em segmentos, fornecendo confiabilidade, controlando o fluxo de dados e reordenando segmentos. O TCP libera a aplicação da obrigação de gerenciar todas essas tarefas. HTTP, FTP, SMTP e SSH podem simplesmente enviar o fluxo de dados para a camada de transporte e usar os serviços do TCP.\n\n**Visão Geral do UDP:** O UDP é um protocolo de transporte leve que oferece a mesma segmentação de dados e remontagem que o TCP, mas sem a confiabilidade e o controle de fluxo do TCP.\nOs recursos UDP incluem o seguinte:\nOs dados são reagrupados na ordem em que são recebidos.\nQuaisquer segmentos perdidos não são reenviados.\nNenhum estabelecimento de seção.\nO envio não é informado sobre a disponibilidade do recurso.\nUDP é um protocolo sem estado, o que significa que nem o cliente nem o servidor rastreiam o estado da sessão de comunicação. Se a confiabilidade for necessária ao usar o UDP como protocolo de transporte, ela deve ser tratada pela aplicação.\nOs blocos de comunicação no UDP são chamados de datagramas ou segmentos. Esses datagramas são enviados como o melhor esforço pelo protocolo da camada de transporte. O cabeçalho UDP é muito mais simples do que o cabeçalho TCP porque só tem quatro campos e requer 8 bytes (ou seja, 64 bits).\nOs quatro campos no cabeçalho UDP são os seguintes:\nPorta de Origem - Um campo de 16 bits usado para identificar o aplicativo de origem pelo número da porta.\nPorta de destino - Um campo de 16 bits usado para identificar o aplicativo de destino pelo número da porta.\nComprimento - Um campo de 16 bits que indica o comprimento do cabeçalho do datagrama UDP.\nChecksum - Um campo de 16 bits usado para verificação de erros do cabeçalho e dados do datagrama.\nExistem três tipos de aplicativos mais adequados para UDP: aplicativos de vídeo ao vivo e multimídia, aplicativos simples de solicitação e resposta, aplicativos que lidam com confiabilidade.\n\n**Números de porta:** Os protocolos de camada de transporte TCP e UDP usam números de porta para gerenciar várias conversas simultâneas. Os campos de cabeçalho TCP e UDP identificam um número de porta de aplicativo de origem e destino. O número da porta de origem está associado ao aplicativo de origem no host local, enquanto o número da porta de destino está associado ao aplicativo de destino no host remoto.\nAs portas origem e destino são colocadas no segmento. Os segmentos são encapsulados em um pacote IP. O pacote IP contém o endereço IP de origem e destino. A combinação do endereço IP de origem e o número de porta de origem, ou do endereço IP de destino e o número de porta de destino é conhecida como um socket.\nO socket é usado para identificar o servidor e o serviço que está sendo solicitado pelo cliente. Um soquete de cliente pode ter esta aparência, com 1099 representando o número da porta de origem: 192.168.1.5:1099. O soquete em um servidor web pode ser 192.168.1.7:80. Juntos, esses dois soquetes se combinam para formar um par de soquetes: 192.168.1.5:1099, 192.168.1.7:80. Os sockets permitem que vários processos em execução em um cliente se diferenciem uns dos outros, e várias conexões com um processo no servidor sejam diferentes umas das outras.\nA IANA é a organização de padrões responsável por atribuir vários padrões de endereçamento, incluindo os números de porta de 16 bits. Os 16 bits usados para identificar os números de porta de origem e destino fornecem um intervalo de portas de 0 a 65535.\nA IANA dividiu o intervalo de números nos três grupos de portas a seguir:\nPortas conhecidas (0 a 1.023)\nPortas Registradas (1.024 a 49.151)\nPortas Privadas e/ou Dinâmicas (49.152 a 65.535)\nConexões TCP desconhecidas podem ser uma ameaça de segurança maior. Elas podem indicar que algo ou alguém está conectado ao host local. O netstat é um utilitário de rede importante que pode ser usado para verificar essas conexões. Digite o comando netstat para listar os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão. Por padrão, o comando netstat tentará resolver os endereços IP para os nomes de domínio e os números de porta para aplicações bem conhecidas.\n\n**Processo de comunicação TCP:** A razão pela qual o TCP é o melhor protocolo para alguns aplicativos é porque, ao contrário do UDP, ele reenvia pacotes descartados e números de pacotes para indicar sua ordem correta antes da entrega. O TCP também pode ajudar a manter o fluxo de pacotes para que os dispositivos não fiquem sobrecarregados.\nOs números de sequência são atribuídos no cabeçalho de cada pacote para garantir que todos os segmentos cheguem em ordem ao destino. O número de sequência representa o primeiro byte de dados do segmento TCP. Durante a configuração da sessão, um ISN é definido. Este ISN representa o valor inicial dos bytes que são transmitidos ao aplicativo receptor. À medida que os dados são transmitidos durante a sessão, número de sequência é incrementado do número de bytes que foram transmitidos. Esse rastreamento dos bytes de dados permite que cada segmento seja identificado e confirmado de forma única. Segmentos perdidos podem então, ser identificados.\nO número SEQ e o número ACK são usados juntos para confirmar o recebimento dos bytes de dados contidos nos segmentos transmitidos. O número SEQ identifica o primeiro byte de dados no segmento que está sendo transmitido. O TCP usa o número de confirmação (ACK) enviado de volta à origem para indicar o próximo byte que o destino espera receber. Isto é chamado de confirmação antecipatória.\nO TCP também fornece mecanismos para controle de fluxo. Controle de fluxo é a quantidade de dados que o destino pode receber e processar de forma confiável. O controle de fluxo ajuda a manter a confiabilidade da transmissão TCP definindo a taxa de fluxo de dados entre a origem e o destino em uma determinada sessão. Para realizar isso, o cabeçalho TCP inclui um campo de 16 bits chamado de tamanho da janela.\nO tamanho da janela determina o número de bytes que podem ser enviados antes de esperar uma confirmação. O número de reconhecimento é o número do próximo byte esperado. O tamanho da janela inicial é determinado quando a sessão é estabelecida durante o handshake triplo. O dispositivo de origem deve limitar o número de bytes enviados ao dispositivo de destino com base no tamanho da janela do destino. Somente depois que o dispositivo de origem receber uma confirmação de que os bytes foram recebidos, ele poderá continuar a enviar mais dados para a sessão.\nO MSS faz parte do campo de opções no cabeçalho TCP que especifica a maior quantidade de dados, em bytes, que um dispositivo pode receber em um único segmento TCP. O tamanho do MSS não inclui o cabeçalho TCP. O MSS é normalmente incluído durante o handshake de três vias.\nSempre que ocorrer um congestionamento, ocorrerá a retransmissão de segmentos TCP perdidos por parte da origem. Se a retransmissão não for devidamente controlada, a retransmissão adicional dos segmentos TCP pode agravar o congestionamento. Para evitar e controlar o congestionamento, o TCP emprega alguns mecanismos para lidar com o congestionamento, temporizadores e algoritmos.\n\n**Comunicações UDP:** O UDP não estabelece uma conexão. O UDP fornece transporte de dados de baixa sobrecarga, porque tem um cabeçalho de datagrama pequeno e nenhum tráfego de gerenciamento de rede.\nComo ocorre com segmentos TCP, quando múltiplos datagramas UDP são enviados a um destino, eles geralmente tomam caminhos diferentes e chegam na ordem errada. O UDP não rastreia os números de sequência da forma que o TCP faz. Portanto, o UDP simplesmente remonta os dados na ordem que eles foram recebidos e os encaminha para a aplicação.\nAssim como os aplicativos baseados em TCP, os aplicativos de servidor baseados em UDP recebem números de porta conhecidos ou registrados. Quando as aplicações ou processos estão sendo executados, eles aceitarão os dados correspondentes ao número de porta atribuído. Quando o UDP recebe um datagrama destinado a uma destas portas, ele encaminha os dados à aplicação apropriada com base em seu número de porta.\nDepois que um cliente seleciona as portas de origem e de destino, o mesmo par de portas é usado no cabeçalho de todos os datagramas na transação. Para dados que retornam para o cliente vindos do servidor, os números da porta de origem e de destino no cabeçalho do datagrama são invertidos."
+    },
+    {
+      "type": "text",
+      "title": ".8.3 Webster - Questões para Reflexão",
+      "content": "Este módulo tinha muitas informações sobre a camada de transporte. Eu nunca soube que tanta coisa acontecia aqui! E você? Quando você estava indo para um site ou enviando um e-mail, você pensou em como isso era diferente de participar de uma chamada de vídeo? Por que um é mais confiável? Por que você sempre recebe cada palavra em uma mensagem de e-mail, mas às vezes perde uma palavra na chamada de vídeo? Agora você deve ter algum conhecimento sobre a diferença entre TCP e UDP. Estou entusiasmado por fazer este curso e espero que você também esteja!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".8.3 Webster - Questões para Reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Gerar Tráfego de Rede no Modo de Simulação\nParte 2: Examinar a Funcionalidade dos Protocolos TCP e UDP\nHistórico\nEsta atividade de simulação visa fornecer uma base para a compreensão detalhada do TCP e UDP. O modo de simulação do Packet Tracer  fornece a você a capacidade de visualizar o estado de diferentes PDUs à medida que elas viajam pela rede.\nO modo Simulação do Packet Tracer permite visualizar cada um dos protocolos e as PDUs associadas. As etapas descritas abaixo o conduzem pelo processo de solicitação de serviços de rede usando vários aplicativos disponíveis em um PC cliente. Você explorará a funcionalidade dos protocolos TCP e UDP, a multiplexação e a função dos números de porta para determinar qual aplicativo local solicitou os dados ou está enviando os dados.  Packet Tracer não pontuará esta atividade.\nInstruções\nParte 1: Gere tráfego de rede no modo de simulação (Simulation Mode) e visualize multiplexação (View Multiplexing)\nEtapa 1: Gerer tráfego para preencher as tabelas do protocolo ARP.\nExecute a tarefa a seguir para reduzir a quantidade de tráfego de rede visualizado na simulação.\na.  Clique em MultiServer e clique na guia Desktop> Prompt de Comando.\nb.  Digite o comando ping -n 1 192.168.1.255. Você está fazendo ping no endereço de difusão para a LAN cliente. A opção de comando enviará apenas uma solicitação de ping em vez dos quatro habituais. Isso levará alguns segundos, pois todos os dispositivos da rede respondem à solicitação de ping do MultiServer.\nc.  Feche a janela MultiServer.\nEtapa 2: Gerer tráfego Web (HTTP).\na.  Mude para o modo de Simulação.\nb.  Clique em Cliente HTTP e abra o navegador da Web na área de trabalho.\nc.  No campo URL, insira 192.168.1.254 e clique em Ir. Envelopes (PDUs) aparecerão na janela de topologia.\nd.  Minimize, mas não feche, a janela de configuração do Cliente HTTP.\nEtapa 3: Gerer tráfego FTP.\na.  Clique em Cliente FTP (FTP Client)) e abra o prompt de comando na área de trabalho(Desktop)\nb.  Digite o comando ftp 192.168.1.254. As PDUs aparecerão na janela de simulação.\nc.  Minimize, mas não feche, a janela de configuração do Cliente FTP.\nEtapa 4: Gere tráfego DNS.\na.  Clique em cliente DNS e abra o prompt de comando.\nb.  Insira o comando nslookup multiserver.pt.ptu. Uma PDU aparecerá na janela de simulação.\nc.  Minimize, mas não feche, a janela de configuração do cliente DNS.\nEtapa 5: Gere tráfego de e-mail.\na.  Clique  em E-Mail Client e abra a ferramenta E Mail da área de trabalho (Desktop)\nb.  Clique em Compose (Escrever) e insira as seguintes informações:\n1)    Para: user@multiserver.pt.ptu\n2)    Assunto: personalize a linha de assunto(subject line)\n3)    Corpo do email: personalize o email\nc.  Clique em Send (Enviar).\nd.  Minimize, mas não feche, a janela de configuração do Cliente de E-Mail.\nEtapa 6: Verificar se o tráfego é gerado e está pronto para a simulação.\nAgora deve haver entradas de PDU no painel de simulação para cada um dos computadores cliente.\nEtapa 7: Examine a multiplexação conforme o tráfego atravessa a rede.\nAgora você usará o botão Capturar/Avançar no Painel de Simulação para observar os diferentes protocolos que viajam na rede.\nNota: O  botão Capturar/Avançar ' >| ' é uma pequena seta apontando para a direita com uma barra vertical ao lado.\na.  Clique em Capturar/Encaminhar uma vez. Todas as PDUs viajam para o switch.\nb.  Clique em Capturar/Encaminhar seis vezes e assista às PDUs dos diferentes hosts à medida que viajam na rede. Observe que apenas uma PDU pode atravessar um fio em cada direção em um dado momento.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Examinar a Funcionalidade dos Protocolos TCP e UDP\nEtapa 1: Examinar o tráfego HTTP quando os clientes se comunicam com o servidor.\na.  Clique em Reset Simulation (Reiniciar simulação).\nb.  Filtrar o tráfego atualmente exibido apenas para HTTP e TCP PDUs. Para filtrar o tráfego exibido no momento:\n1)    Clique em Editar filtros e alterne o botão Mostrar tudo/nenhum.\n2)    Selecione HTTP e  TCP. Clique no “x” vermelho no canto superior direito da caixa Editar filtros para fechá-lo. Eventos visíveis agora devem exibir apenas PDUs HTTP e TCP.\nc.  Abra o navegador no Cliente HTTP e digite 192.168.1.254 no campo URL. Clique em Ir para conectar-se ao servidor por HTTP. Minimize a janela do cliente HTTP.\nd.  Clique em Capturar/Encaminhar até ver uma PDU aparecer para HTTP. Observe que a cor do envelope na janela de topologia corresponde ao código de cor da PDU HTTP no Painel de simulação.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Clique no envelope da PDU para mostrar os detalhes da PDU. Clique na guia Detalhes da PDU de saída e role para baixo até a segunda e a última seção.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Observe o valor no campo Sinalizadores, que está localizado ao lado do campo Janela. Os valores à direita do “b” representam os sinalizadores TCP definidos para esta fase da conversa de dados. Cada um dos seis lugares corresponde a uma bandeira. A presença de um “1” em qualquer lugar indica que a bandeira está definida. Mais de um sinalizador pode ser definido de cada vez. Os valores para as bandeiras são mostrados abaixo."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  Feche a PDU e clique em Capturar/Encaminhar até que uma PDU com uma marca de seleção retorne ao Cliente HTTP.\nh.  Clique no envelope da PDU e selecione Detalhes da PDU de entrada.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "i.   Clique na PDU HTTP que o cliente HTTP preparou para enviar ao MultiServer . Este é o começo da comunicação HTTP. Clique neste segundo envelope de PDU e selecione Outbound PDU Details (Detalhes da PDU de Saída).\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "j.   Redefina a simulação.\nEtapa 2: Examinar o tráfego FTP quando os clientes se comunicam com o servidor.\na.  Abra o prompt de comando na área de trabalho do cliente FTP. Inicie uma conexão FTP inserindo ftp 192.168.1.254.\nb.  No painel de simulação, altere Edit Filters (Editar Filtros) para exibir apenas o FTP e o TCP.\nc.  Clique em Capture/Forward (Capturar/Encaminhar). Clique no segundo envelope da PDU para abri-lo.\nClique na guia Detalhes da PDU de saída e role para baixo até a seção TCP.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Registre os valores SRC PORT, DEST PORT, SEQUENCE NUM e ACK NUM.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Feche a PDU e clique em Capture/Forward (Capturar/Avançar) até que uma PDU retorne ao FTP Client (Cliente FTP) com um sinal.\nf.   Clique no envelope da PDU e selecione Detalhes da PDU de entrada.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  Clique na guia Outbound PDU Details\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "h.  Feche a PDU e clique em Capturar/Encaminhar até que uma segunda PDU retorne ao cliente FTP. A cor da PDU é diferente.\ni.   Abra a PDU e selecione Detalhes da PDU de entrada. Role para baixo após a seção TCP.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "j.   Clique em Reset Simulation (Reiniciar simulação).\nEtapa 3: Examinar o tráfego DNS quando os clientes se comunicam com o servidor.\na.  Repita as etapas na Parte 1 para criar tráfego DNS.\nb.  No painel de simulação, altere Edit Filters (Editar Filtros) para exibir apenas o DNS e o UDP.\nc.  Clique no envelope de PDU para abri-lo.\nd.  Veja os detalhes do modelo OSI para a PDU de saída.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Abra a guia Detalhes da PDU de saída e localize a seção UDP dos formatos de PDU. Registre os valores SRC PORT e DEST PORT.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Feche a PDU e clique em Capturar/Encaminhar até que uma PDU com uma marca de seleção retorne ao cliente DNS.\ng.  Clique no envelope da PDU e selecione Detalhes da PDU de entrada.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "h.  Clique em Reset Simulation (Reiniciar simulação).\nEtapa 4: Examinar o tráfego de e-mail quando os clientes se comunicam com o servidor.\na.  Repita as etapas na Parte 1 para enviar um email para user@multiserver.pt.ptu.\nb.  No painel de simulação, altere Edit Filters (Editar Filtros) para exibir apenas POP3, SMTP e o TCP.\nc.  Clique no primeiro envelope da PDU para abri-lo.\nd.  Clique na guia Detalhes da PDU de Saída e role para baixo até a última seção.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Feche a PDU e clique em Capturar/Encaminhar até que uma PDU retorne ao Client de E-Mail com uma marca de seleção.\ng.  Clique no envelope da PDU TCP e selecione Detalhes da PDU de Entrada.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "h.  Clique na guia Outbound PDU Details\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "i.   Há uma segunda PDU de uma cor diferente que o Cliente de E-Mail preparou para enviar ao MultiServer. Este é o começo da comunicação de e-mail. Clique neste segundo envelope de PDU e selecione Outbound PDU Details (Detalhes da PDU de Saída).\nPerguntas:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual camada é responsável por estabelecer uma sessão de comunicação temporária entre os aplicativos de host de origem e destino?",
+      "options": [
+        "Camada de aplicação",
+        "Camada de enlace de dados",
+        "Camada de rede",
+        "Camada física",
+        "camada de transporte"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nA camada de transporte é responsável por estabelecer uma sessão de comunicação temporária entre os aplicativos host de origem e de destino.",
+      "raw_id": "7d15942c9d20434c89e81f5c5043e58c"
+    },
+    {
+      "question": "Quais são as três responsabilidades da camada de transporte? (Escolha três.)",
+      "options": [
+        "Multiplexação das conversas",
+        "Identificação de quadros",
+        "identificando informações de roteamento",
+        "Segmentando dados e remontando segmentos",
+        "Rastreamento de conversas individuais"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nA camada de transporte é responsável pela multiplexação de conversações, segmentação de dados e remontagem de segmentos e rastreamento de conversas individuais.",
+      "raw_id": "ec23f9eda24c47e1aa427a4e62fc91a9"
+    },
+    {
+      "question": "Qual instrução de protocolo de camada de transporte é verdadeira?",
+      "options": [
+        "O TCP tem menos campos do que o UDP.",
+        "O TCP é mais rápido do que o UDP.",
+        "UDP é um protocolo de entrega com o melhor esforço.",
+        "O UDP fornece confiabilidade."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUDP é um protocolo de entrega de melhor esforço enquanto TCP é um protocolo de transporte confiável.",
+      "raw_id": "ad960b0ed6424a46bbd36904edce538a"
+    },
+    {
+      "question": "Qual protocolo de camada de transporte seria usado para aplicativos VoIP?",
+      "options": [
+        "Protocolo de informações da sessão (SIP)",
+        "Protocolo TCP",
+        "Protocolo UDP (User Datagram Protocol)",
+        "Protocolo de Transferência VoIP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUDP seria usado por aplicativos VoIP sensíveis ao tempo.",
+      "raw_id": "fbccfbb194e74ebfb9eee5525a566849"
+    },
+    {
+      "question": "Qual protocolo de camada de transporte garante entrega confiável da mesma ordem?",
+      "options": [
+        "ICMP",
+        "IP",
+        "TCP",
+        "UDP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO protocolo de camada de transporte TCP garante entrega confiável de mesma ordem.",
+      "raw_id": "c7942bb44e004ec280743d4d647a6d11"
+    },
+    {
+      "question": "Qual instrução de cabeçalho TCP é verdadeira?",
+      "options": [
+        "Ele consiste em 4 campos em um cabeçalho de 8 bytes.",
+        "Consiste em 8 campos em um cabeçalho de 10 bytes.",
+        "Ele consiste em 10 campos em um cabeçalho de 20 bytes.",
+        "Ele consiste em 20 campos em um cabeçalho de 40 bytes."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO cabeçalho TCP consiste em 10 campos em um cabeçalho de 20 bytes.",
+      "raw_id": "d78d0177d7fb491186240a21398200c7"
+    },
+    {
+      "question": "Quais dois aplicativos usariam o protocolo de camada de transporte TCP? (Escolha duas.)",
+      "options": [
+        "FTP",
+        "HTTP",
+        "ICMP",
+        "TFTP",
+        "VoIP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nFTP e HTTP requerem o uso do protocolo de camada de transporte TCP.",
+      "raw_id": "8bdfcb0b1ba346ec91af1a9324f31be5"
+    },
+    {
+      "question": "Qual dos seguintes é um protocolo de camada de transporte de entrega de melhor esforço sem estado?",
+      "options": [
+        "ICMP",
+        "IP",
+        "TCP",
+        "UDP"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nUDP é um protocolo de camada de transporte de entrega de melhor esforço sem estado.",
+      "raw_id": "a3c503b77a78448ab42fd8960183dee9"
+    },
+    {
+      "question": "Qual instrução de cabeçalho UDP é verdadeira?",
+      "options": [
+        "Ele consiste em 4 campos em um cabeçalho de 8 bytes.",
+        "Consiste em 8 campos em um cabeçalho de 10 bytes.",
+        "Ele consiste em 10 campos em um cabeçalho de 20 bytes.",
+        "Ele consiste em 20 campos em um cabeçalho de 40 bytes."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO cabeçalho UDP consiste em quatro campos em um cabeçalho de 8 bytes.",
+      "raw_id": "b1eb4e735a134eb58c929a39174c856a"
+    },
+    {
+      "question": "Quais dois aplicativos usariam o protocolo de camada de transporte UDP? (Escolha duas.)",
+      "options": [
+        "FTP",
+        "HTTP",
+        "ICMP",
+        "TFTP",
+        "VoIP"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nTFTP e VoIP exigem o uso do protocolo de camada de transporte UDP.",
+      "raw_id": "ad8184280b4c47eabbd8ee308fec1b7c"
+    },
+    {
+      "question": "Quais dois campos são os mesmos em um cabeçalho TCP e UDP? (Escolha duas.)",
+      "options": [
+        "Bits de controle",
+        "Número da porta de destino",
+        "Número de sequência",
+        "Número da porta de origem",
+        "Número de porta conhecido"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs cabeçalhos TCP e UDP incluem campos de número de porta de origem e destino.",
+      "raw_id": "23b2f4efc4d64a53a465eb3783c6d7b7"
+    },
+    {
+      "question": "Suponha que um host com endereço IP 10.1.1.10 deseja solicitar serviços Web de um servidor em 10.1.1.254. Qual das opções a seguir exibe o par de soquetes correto?",
+      "options": [
+        "1099:10 .1.1.10, 80:10 .1.1.254",
+        "10.1.1. 10:80, 10.1.1. 254:1099",
+        "10.1.1. 10:1099, 10.1.1. 254:80",
+        "80:10 .1.1.10, 1099:10 .1.1.254"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO par de soquetes para um host com endereço IP 10.1.1.10 solicitando serviços Web de um servidor em 10.1.1.254 seria 10.1.1. 10:1099, 10.1.1. 254:80.",
+      "raw_id": "a2ba0cf67ed8457596cc0b3f8da2533b"
+    },
+    {
+      "question": "Qual grupo de portas inclui números de porta para aplicativos FTP, HTTP e TFTP?",
+      "options": [
+        "portas dinâmicas",
+        "portas privadas",
+        "portas registradas",
+        "entrada repetida"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs números de porta de aplicativos FTP, HTTP e TFTP são definidos no grupo de números de porta bem conhecido.",
+      "raw_id": "b3eff72dcc174849a17164aa608e33d1"
+    },
+    {
+      "question": "Qual comando do Windows exibirá os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão?",
+      "options": [
+        "ipconfig/all",
+        "ping",
+        "netstat",
+        "traceroute"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO comando netstat do  windows exibe protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão.",
+      "raw_id": "596fe5b3f7034fa691a21164abc52988"
+    },
+    {
+      "question": "Qual das seguintes opções seria portas de origem e destino válidas para um host que se conecta a um servidor de e-mail?",
+      "options": [
+        "Fonte: 25, Destino: 49152",
+        "Fonte: 80, Destino: 49152",
+        "Fonte: 49152, Destino: 25",
+        "Fonte: 49152, Destino: 80"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA porta de destino é a porta bem conhecida do Simple Mail Transport Protocol, que é 25. Esta é a porta em que o servidor de e-mail estará escutando. A porta de origem é selecionada dinamicamente pelo cliente solicitante e pode ser 49152.",
+      "raw_id": "d995b9cd4d3d40179fd0f999beb503da"
+    },
+    {
+      "question": "Quais bandeiras de bits de controle são usadas durante o aperto de mão de três vias?",
+      "options": [
+        "ACK e FIN",
+        "FIN e RESET",
+        "RESET e SYN",
+        "SYN e ACK"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO handshake de três vias consiste em três trocas de mensagens com os seguintes sinalizadores de bit de controle: SYN, SYN ACK e ACK.",
+      "raw_id": "dfc1ec06bc3143048d1108ba6a0c502b"
+    },
+    {
+      "question": "Quantas trocas são necessárias para encerrar ambas as sessões entre dois hosts?",
+      "options": [
+        "uma troca",
+        "duas trocas",
+        "três trocas",
+        "quatro bolsas",
+        "cinco bolsas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nHá quatro trocas para terminar ambas as sessões entre dois hosts. (1) Host A envia um FIN. (2) Host B envia um ACK. (3) Host B envia um FIN. (4) O host A envia uma confirmação.",
+      "raw_id": "54892e4641ba44088783c8fe6dd1f3d9"
+    },
+    {
+      "question": "Qual campo é usado pelo host de destino para remontar segmentos na ordem original?",
+      "options": [
+        "Bits de controle",
+        "Porta de destino",
+        "Número de Sequência",
+        "Porta de origem",
+        "Tamanho da Janela"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO campo de número de sequência é usado pelo host de destino para remontar segmentos na ordem original.",
+      "raw_id": "1864b0a63c6c4c0e92638196212e5d24"
+    },
+    {
+      "question": "Qual campo é usado para fornecer controle de fluxo?",
+      "options": [
+        "Bits de controle",
+        "Porta de destino",
+        "Número de Sequência",
+        "Porta de origem",
+        "Tamanho da Janela"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nO campo Tamanho da janela é usado para fornecer controle de fluxo.",
+      "raw_id": "776a539c832e4a4788411584458da240"
+    },
+    {
+      "question": "O que acontece quando um host de envio percebe que há congestionamento?",
+      "options": [
+        "O host receptor aumenta o número de bytes que envia antes de receber uma confirmação do host de envio.",
+        "O host receptor reduz o número de bytes que envia antes de receber uma confirmação do host de envio.",
+        "O host de envio aumenta o número de bytes que envia antes de receber uma confirmação do host de destino.",
+        "O host de envio reduz o número de bytes que envia antes de receber uma confirmação do host de destino."
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nQuando um host de envio detecta congestionamento, ele reduz o número de bytes que envia antes de receber uma confirmação do host de destino.",
+      "raw_id": "7e5052d2d4f74384b383d00900c88bdf"
+    },
+    {
+      "question": "Por que o UDP é desejável para protocolos que fazem uma simples solicitação e resposta de transações?",
+      "options": [
+        "Controle de fluxo",
+        "Baixa sobrecarga",
+        "Confiabilidade",
+        "Entrega no mesmo pedido"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO UDP é desejável para protocolos que fazem transações simples de solicitação e resposta devido à sua baixa sobrecarga.",
+      "raw_id": "32ade56231644916bae443908caa878a"
+    },
+    {
+      "question": "Qual instrução de remontagem de datagrama UDP é verdadeira?",
+      "options": [
+        "O UDP não remonta os dados.",
+        "O UDP remonta os dados na ordem em que foram recebidos.",
+        "UDP remonta os dados usando bits de controle.",
+        "UDP remonta os dados usando números de sequência."
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO UDP remonta os dados na ordem em que foram recebidos.",
+      "raw_id": "19a0b78c477545dbb776b24eb476381b"
+    },
+    {
+      "question": "Qual das seguintes opções seria portas de origem e destino válidas para um host que se conecta a um servidor DNS?",
+      "options": [
+        "Fonte: 53, Destino: 49152",
+        "Fonte: 1812, Destino: 49152",
+        "Fonte: 49152, Destino: 53",
+        "Fonte: 49152, Destino: 1812"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nAs portas de origem e destino válidas corretas para um host que solicita o serviço DNS é Origem: 49152, Destino: 53.",
+      "raw_id": "2cbee92e0b274492a79271efb2645313"
+    },
+    {
+      "question": "Qual afirmação descreve corretamente a transmissão de dados na camada de transporte?",
+      "options": [
+        "A retransmissão de pacotes perdidos é fornecida pelo TCP e pelo UDP.",
+        "A segmentação é fornecida pelo campo de tamanho da janela quando o protocolo TCP é usado.",
+        "Um único datagrama pode incluir um cabeçalho TCP e UDP.",
+        "Tanto o UDP quanto o TCP usam números de porta.",
+        "A segmentação é fornecida pelos números de sequência quando o UDP é usado."
+      ],
+      "correctIndex": 3,
+      "explanation": "A segmentação é tratada na Camada 4 pelos números de sequência TCP. O UDP não tem números de sequência no cabeçalho, deixando assim que o aplicativo manipule a reordenação, se necessário. Somente o TCP fornece dados confiáveis e retransmite os dados. Cada segmento tem um cabeçalho TCP ou UDP; não pode conter os dois.",
+      "raw_id": "aad92213965e47a8acf06d50ecd96092"
+    },
+    {
+      "question": "Quais são os três campos usados em um cabeçalho de segmento UDP? (Escolha três.)",
+      "options": [
+        "Tamanho da Janela",
+        "Duração",
+        "Porta de origem",
+        "Número de Confirmação",
+        "Checksum",
+        "Número de Sequência"
+      ],
+      "correctIndex": 4,
+      "explanation": "Um cabeçalho UDP tem apenas quatro campos: porta de origem, porta de destino, comprimento e checksum. Número de sequência, número de confirmação e tamanho da janela são campos de cabeçalho TCP.",
+      "raw_id": "e35b9b02830245898511853d27d60855"
+    },
+    {
+      "question": "Qual é o último segmento enviado para concluir o processo de finalização de uma sessão TCP iniciada por um cliente?",
+      "options": [
+        "um segmento com o flag ACK definido como 1 do cliente",
+        "um segmento com o flag FIN definido como 1 no servidor",
+        "um segmento com o flag SYN definido como 1 do cliente",
+        "um segmento com o flag ACK definido como 1 no servidor"
+      ],
+      "correctIndex": 0,
+      "explanation": "O encerramento de uma sessão TCP requer quatro trocas de segmentos entre o cliente e o servidor.\nO cliente envia um segmento com o flag FIN definido como 1.\nO servidor envia um ACK para confirmar o FIN.\nO servidor envia um segmento com o flag FIN definido como 1.\nO cliente responde com o ACK final para reconhecer o FIN do servidor.",
+      "raw_id": "6802394a2eaf42a287d0bbbd61ffc20f"
+    },
+    {
+      "question": "Qual é uma característica de um processo de servidor TCP?",
+      "options": [
+        "Cada processo de aplicação em execução no servidor deve ser configurado para usar um número de porta dinâmico.",
+        "Pode haver muitas portas abertas simultaneamente em um servidor, uma para cada aplicação ativa no servidor.",
+        "Um servidor individual pode ter dois serviços atribuídos ao mesmo número de porta dentro dos mesmos serviços de camada de transporte.",
+        "Um host executando duas aplicações diferentes pode ter ambas configuradas para usar a mesma porta de servidor."
+      ],
+      "correctIndex": 1,
+      "explanation": "Cada processo de aplicação executado no servidor é configurado para usar um número de porta, seja o padrão ou manualmente configurado pelo administrador do sistema. Um servidor individual não pode ter dois serviços atribuídos ao mesmo número de porta dentro dos mesmos serviços de camada de transporte. Um host executando uma aplicação de servidor web e uma aplicação de transferência de arquivos não pode ter ambas configuradas para usar a mesma porta de servidor. Pode haver muitas portas abertas simultaneamente em um servidor, uma para cada aplicação ativa no servidor.",
+      "raw_id": "00ffc37ebcca491989acb66d136e9942"
+    },
+    {
+      "question": "Com o congestionamento da rede, a origem soube da perda de segmentos TCP que foram enviados ao destino. Qual é uma maneira do protocolo TCP lidar com isso?",
+      "options": [
+        "A origem diminui o volume de dados que pode ser transmitido antes de receber uma confirmação do destino.",
+        "A origem diminui o tamanho da janela para reduzir a taxa de transmissão do destino.",
+        "O destino diminui o tamanho da janela.",
+        "O destino envia menos mensagens de confirmação a fim de preservar a largura de banda."
+      ],
+      "correctIndex": 0,
+      "explanation": "Se a origem determina que os segmentos TCP não estão sendo confirmados ou que não estão sendo confirmados a tempo, poderá reduzir o número de bytes enviados antes de receber uma confirmação. Isso não envolve alterar a janela do cabeçalho do segmento. A origem não reduz a janela enviada no cabeçalho do segmento. A janela no cabeçalho do segmento é ajustada pelo host destino quando ele recebe dados mais rapidamente do que é capaz de processar, e não quando se depara com o congestionamento de rede.",
+      "raw_id": "863a8a42fcc342bcb87f72fb0c32ddc9"
+    },
+    {
+      "question": "Qual campo no cabeçalho TCP indica o status do processo de handshake de três vias?",
+      "options": [
+        "janela",
+        "reservado",
+        "soma de verificação",
+        "bits de controle"
+      ],
+      "correctIndex": 3,
+      "explanation": "O valor no campo de bits de controle do cabeçalho do TCP indica o progresso e o status da conexão.",
+      "raw_id": "c6e40fce89824c41b45d68eaea0ed621"
+    },
+    {
+      "question": "Quais são os dois recursos de protocolos usados na pilha de protocolos TCP/IP? (Escolha duas.)",
+      "options": [
+        "O protocolo IP da camada de Internet tem mecanismos integrados para garantir a transmissão confiável e o recebimento de dados.",
+        "O UDP é usado quando um aplicativo deve ser entregue o mais rápido possível e certa perda de dados pode ser tolerada.",
+        "Os números de porta de destino TCP e UDP são gerados dinamicamente pelo dispositivo de envio para rastrear as respostas às solicitações.",
+        "Os mecanismos TCP retransmitem os dados quando uma confirmação não é enviada pelo sistema de destino em um período definido.",
+        "A mesma porta de origem da camada de transporte é usada para todas as guias abertas ao mesmo tempo em um navegador da Web."
+      ],
+      "correctIndex": 3,
+      "explanation": "Os programadores de aplicativos tomam decisões sobre quais protocolos devem ser usados para a entrada e saída de dados em seus aplicativos com base em se o aplicativo pode tolerar a perda de dados. Transmissão em tempo real e transmissões de voz podem usar o UDP, pois se alguns pacotes de dados forem perdidos, a qualidade do vídeo e do áudio não será afetada consideravelmente. O TCP é usado quando todos os dados devem estar completos e precisos.",
+      "raw_id": "ef8ddbc2173046148feb310702112664"
+    },
+    {
+      "question": "Qual é a característica do UDP?",
+      "options": [
+        "Baixa sobrecarga.",
+        "Garantia de Entrega",
+        "Correção de Erros",
+        "estabelecimento de ponta a ponta antes da entrega"
+      ],
+      "correctIndex": 0,
+      "explanation": "O TCP é um protocolo orientado a conexão que oferece recuperação de erros e mecanismos de entrega garantida, enquanto o UDP oferece entrega sem conexão e tem menos campos no cabeçalho do pacote do que o TCP.",
+      "raw_id": "8e70b9c371f9446f957630ecc5fc308c"
+    },
+    {
+      "question": "Quais dois sinalizadores no cabeçalho da PDU de Camada 4 são definidos por um cliente e servidor para encerrar uma conversa de TCP? (Escolha duas.)",
+      "options": [
+        "URG",
+        "SYN",
+        "RST",
+        "FIN",
+        "ACK"
+      ],
+      "correctIndex": 4,
+      "explanation": "O cliente e o servidor enviarão um segmento sinalizado FIN e ACK para finalizar cada uma das sessões TCP unidirecionais em uma única conversa.",
+      "raw_id": "6a72e29f544f4d3dab831f837b588211"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,601 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Oi! É Webster novamente! Marcy e Vincent estão começando a entender o valor dos conselhos de Bob. Mas eles não podem arcar com muitos períodos de inatividade e precisam operar com a rede atual até que Bob possa fazer as atualizações. Eles não vão adicionar VoIP, câmeras de segurança ou sistema de pedidos on-line até lá. Bob precisa avaliar a rede atual antes da atualização para entender melhor o que precisa ser feito.\nA rede da loja de móveis é uma rede Ethernet. Os protocolos Ethernet definem como os dados são formatados e como são transmitidos pela rede cabeada e especificam os protocolos que operam na camada 1 e na camada 2 do modelo OSI.\nVocê está familiarizado com Ethernet? Por que os sistemas de números hexadecimal e binário são importantes em uma rede Ethernet? Acho que você deve usar este módulo para aprender mais sobre Ethernet, Quadreos Ethernet e Endereços MAC Ethernet! Vamos começar!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.3 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Ethernet",
+      "content": "{{_moduleNumber}}.1 Ethernet"
+    },
+    {
+      "type": "text",
+      "title": ".1 Ethernet",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 A ascensão da Ethernet",
+      "content": "Nos primórdios das redes, cada fornecedor utilizava seus próprios métodos de interconexão de dispositivos de rede e protocolos de rede. Se você adquirisse equipamentos de fornecedores diferentes, não havia garantias de que eles funcionariam em conjunto. O equipamento de um fornecedor podia não se comunicar com o equipamento de outro.\nCom a expansão das redes, foram desenvolvidos padrões que definiram regras para a operação de equipamentos de rede de diferentes fornecedores. Os padrões são vantajosos para as redes porque:\nFacilitam o design\nSimplificam o desenvolvimento de produtos\nPromovem a concorrência\nFornecem interconexões consistentes\nFacilitam o treinamento\nOferecem mais opções de fornecedor aos clientes\nNão há um protocolo oficial de padrão de rede local, mas, com o tempo, uma tecnologia se tornou mais comum do que as outras: a Ethernet. Os protocolos Ethernet definem como os dados são formatados e transmitidos pela rede com fio. Os padrões Ethernet especificam protocolos que operam nas Camadas 1 e 2 do modelo OSI. Ela passou a ser um padrão de fato, o que significa que a Ethernet é a tecnologia usada por quase todas as redes locais com fio, como mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Quadros Ethernet",
+      "content": "{{_moduleNumber}}.2 Quadros Ethernet"
+    },
+    {
+      "type": "text",
+      "title": ".2 Quadros Ethernet",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Ethernet e o modelo OSI",
+      "content": "Este módulo começa com uma discussão sobre a tecnologia Ethernet, incluindo uma explicação da subcamada MAC e os campos de quadro Ethernet.\nA Ethernet é uma das duas tecnologias de LAN usadas atualmente, sendo a outra LANs sem fio (WLANs). A Ethernet utiliza comunicações com fios, incluindo par trançado, ligações de fibra óptica e cabos coaxiais.\nEla opera na camada de enlace de dados e na camada física. É uma família de tecnologias de rede definidas nos padrões IEEE 802.2 e 802.3. A Ethernet suporta as seguintes larguras de banda:\n10 Mbps\n100 Mbps\n1000 Mbps (1 Gbps)\n10,000 Mbps (10 Gbps)\n40,000 Mbps (40 Gbps)\n100,000 Mbps (100 Gbps)\nConforme mostrado na figura, os padrões Ethernet definem os protocolos da camada 2 e as tecnologias da camada 1.\nEthernet e o modelo OSI",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Subcamadas de Enlace de Dados",
+      "content": "Protocolos IEEE 802 LAN/MAN, incluindo Ethernet, usam as seguintes duas subcamadas separadas da camada de link de dados para operar. Eles são o controle de link lógico (LLC) e o controle de acesso de mídia (MAC), como mostrado na figura.\nLembre-se de que LLC e MAC têm as seguintes funções na camada de enlace:\nSubcamada LLC - Esta subcamada IEEE 802.2 se comunica entre o software de rede nas camadas superiores e o hardware do dispositivo nas camadas inferiores. Ela coloca a informação no quadro que identifica qual protocolo de camada de rede está sendo usado para o quadro. Essas informações permitem que vários protocolos da camada 3, como IPv4 e IPv6, usem a mesma interface de rede e mídia.\nSubcamada MAC - Esta subcamada (IEEE 802.3, 802.11 ou 802.15 por exemplo) é implementada em hardware e é responsável pelo encapsulamento de dados e controle de acesso ao meio. Ele fornece endereçamento de camada de link de dados e é integrado com várias tecnologias de camada física.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Padrões Ethernet na subcamada MAC",
+      "content": "A subcamada MAC é responsável pelo encapsulamento de dados e acesso à mídia.\nEncapsulamento de dados\nO encapsulamento de dados IEEE 802.3 inclui o seguinte:\nQuadro Ethernet - Esta é a estrutura interna do quadro Ethernet.\nEndereçamento Ethernet - O quadro Ethernet inclui um endereço MAC de origem e de destino para entregar o quadro Ethernet de NIC Ethernet para NIC Ethernet na mesma LAN.\nDetecção de erro Ethernet - O quadro Ethernet inclui um trailer de seqüência de verificação de quadro (FCS) usado para detecção de erro.\nAcessando a mídia\nComo mostrado na figura, a subcamada MAC IEEE 802.3 inclui as especificações para diferentes padrões de comunicações Ethernet em vários tipos de mídia, incluindo cobre e fibra.\nPadrões Ethernet na subcamada MAC",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Lembre-se que a Ethernet legada que usa uma topologia de barramento ou hubs, é um meio compartilhado e half-duplex. Ethernet em um meio half-duplex usa um método de acesso baseado em contenção, detecção de múltiplos acessos/detecção de colisão (CSMA/CD). Isso garante que apenas um dispositivo esteja transmitindo por vez. O CSMA/CD permite que vários dispositivos compartilhem o mesmo meio half-duplex, detectando uma colisão quando mais de um dispositivo tenta transmitir simultaneamente. Ele também fornece um algoritmo de back-off para retransmissão.\nAs LANs Ethernet de hoje usam switches que operam em full-duplex. As comunicações full-duplex com switches Ethernet não exigem controle de acesso através do CSMA/CD."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Campos do quadro Ethernet",
+      "content": "O tamanho mínimo do quadro Ethernet é de 64 bytes e o máximo esperado é de 1518 bytes. Isso inclui todos os bytes do campo de endereço MAC de destino até o  campo FCS (Frame Check Sequence). O campo de preâmbulo não é incluído ao descrever o tamanho do quadro.\nObservação: o tamanho do quadro pode ser maior se requisitos adicionais forem incluídos, como a marcação de VLAN. A marcação de VLAN está além do escopo deste curso.\nQualquer quadro com comprimento menor que 64 bytes é considerado um\"fragmento de colisão\" ou um \"quadro desprezível\" e é automaticamente descartado pelas estações receptoras. Quadros com mais de 1.500 bytes de dados são considerados “jumbo” ou “baby giant”.\nSe o tamanho de um quadro transmitido for menor que o mínimo ou maior que o máximo, o dispositivo receptor descarta o quadro. É provável que quadros perdidos sejam resultado de colisões ou outros sinais indesejados. Eles são considerados inválidos. Os quadros jumbo geralmente são suportados pela maioria dos switches e NICs Fast Ethernet e Gigabit Ethernet.\nA figura mostra cada campo no quadro Ethernet. Consulte a tabela para obter mais informações sobre a função de cada campo.\nCampos de um Quadro Ethernet",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Endereços MAC Ethernet",
+      "content": "{{_moduleNumber}}.3 Endereços MAC Ethernet"
+    },
+    {
+      "type": "text",
+      "title": ".3 Endereços MAC Ethernet",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Equivalentes decimais e binários de 0 a F Hexadecimal",
+      "content": "Na rede, os endereços IPv4 são representados usando o sistema de dez números base decimal e o sistema de números de base binária 2. Endereços IPv6 e endereços Ethernet são representados usando o sistema hexadecimal base dezesseis números. Para entender hexadecimal, você deve primeiro estar muito familiarizado com binário e decimal.\nO sistema de numeração hexadecimal usa os números de 0 a 9 e as letras de A a F.\nUm endereço MAC Ethernet consiste em um valor binário de 48 bits. Hexadecimal é usado para identificar um endereço Ethernet porque um único dígito hexadecimal representa quatro bits binários. Portanto, um endereço MAC Ethernet de 48 bits pode ser expresso usando apenas 12 valores hexadecimais.\nA figura compara os valores decimal e hexadecimais equivalentes para o binário 0000 a 1111.\nEquivalentes decimais e binários de 0 a F Hexadecimal",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Equivalentes decimais, binários e hexadecimais selecionados",
+      "content": "Dado que 8 bits (um byte) é um agrupamento binário comum, os binários 00000000 a 11111111 podem ser representados em hexadecimal como o intervalo de 00 a FF, conforme mostrado na figura a seguir.\nEquivalentes decimais, binários e hexadecimais selecionados",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Endereço MAC Ethernet",
+      "content": "Ao usar hexadecimal, os zeros à esquerda são sempre exibidos para concluir a representação de 8 bits. Por exemplo, na tabela, o valor binário 0000 1010 é mostrado em hexadecimal como 0A.\nNúmeros hexadecimais são frequentemente representados pelo valor precedido por 0x (por exemplo, 0x73) para distinguir entre valores decimal e hexadecimais na documentação.\nO hexadecimal também pode ser representado por um subscript 16, ou o número hexadecimal seguido por um H (por exemplo, 73H).\nTalvez seja necessário converter entre valores decimal e hexadecimais. Se tais conversões forem necessárias, converta o valor decimal ou hexadecimal em binário e, em seguida, converta o valor binário em decimal ou hexadecimal, conforme apropriado."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "No exemplo mostrado na figura, um host com endereço IPv4 192.168.1.5 (origem) requisita uma página Web do servidor no endereço IPv4 192.168.1.200. Para que um pacote unicast seja enviado e recebido, um endereço IP de destino deve estar no cabeçalho do pacote IP. Um endereço MAC de destino correspondente também deve estar presente no cabeçalho do quadro Ethernet. O endereço IP e o endereço MAC se combinam para entregar dados a um host de destino específico.\nO processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv4 é conhecido como ARP (Address Resolution Protocol). O processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv6 é conhecido como ND (Neighbour Discovery Discovery).\nNota: O endereço MAC de origem deve ser sempre um unicast."
+    },
+    {
+      "type": "text",
+      "title": ".3.3 Broadcast MAC Address",
+      "content": "Como mostrado na animação, o host de origem envia um pacote IPv4 broadcast a todos os dispositivos de sua rede. O endereço IPv4 destino é um endereço de broadcast, 192.168.1.255. Quando o pacote IPv4 broadcast é encapsulado no quadro Ethernet, o endereço MAC de destino é o endereço MAC de broadcast FF-FF-FF-FF-FF-FF em hexadecimal (48 uns em binário).\nDHCP para IPv4 é um exemplo de um protocolo que usa endereços de broadcast Ethernet e IPv4.\nNo entanto, nem todas as transmissões Ethernet carregam um pacote de difusão IPv4. Por exemplo, as Solicitações ARP não usam IPv4, mas a mensagem ARP é enviada como uma transmissão Ethernet."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Protocolos de roteamento e outros protocolos de rede usam endereçamento multicast. Aplicativos como software de vídeo e imagem também podem usar endereçamento multicast, embora aplicativos multicast não sejam tão comuns."
+    },
+    {
+      "type": "text",
+      "title": ".4 A tabela de endereços MAC",
+      "content": "{{_moduleNumber}}.4 A tabela de endereços MAC"
+    },
+    {
+      "type": "text",
+      "title": ".4 A tabela de endereços MAC",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 Noções Básicas sobre Switches",
+      "content": "Agora que você sabe tudo sobre endereços MAC Ethernet, é hora de falar sobre como um switch usa esses endereços para encaminhar (ou descartar) quadros para outros dispositivos em uma rede. Se um switch apenas encaminhasse cada quadro recebido de todas as portas, sua rede ficaria tão congestionada que provavelmente chegaria a uma parada completa.\nUm switch Ethernet da camada 2 usa endereços MAC da camada 2 para tomar decisões de encaminhamento. Desconhece completamente os dados (protocolo) que estão sendo transportados na parte de dados do quadro, como um pacote IPv4, uma mensagem ARP ou um pacote ND IPv6. O switch toma decisões de encaminhamento com base apenas nos endereços MAC Ethernet da camada 2.\nUm switch Ethernet examina sua tabela de endereços MAC para tomar uma decisão de encaminhamento para cada quadro, ao contrário dos hubs Ethernet herdados que repetem bits em todas as portas, exceto a porta de entrada. Na figura, o switch de quatro portas acaba de ser ligado. O switch toma decisões de encaminhamento com base apenas nos endereços MAC Ethernet da camada 2.\nNota: Os endereços MAC são abreviados neste tópico para fins de demonstração.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: A tabela de endereços MAC às vezes é chamada de tabela de memória endereçável de conteúdo (CAM). Embora o termo \"tabela CAM\" seja muito comum, neste curso nós a chamaremos de tabela de endereços MAC."
+    },
+    {
+      "type": "text",
+      "title": ".5 Resumo do Ethernet Switching",
+      "content": "{{_moduleNumber}}.5 Resumo do Ethernet Switching"
+    },
+    {
+      "type": "text",
+      "title": ".5 Resumo do Ethernet Switching",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".5.1 O que eu aprendi neste módulo?",
+      "content": "**Ethernet:** Não há um protocolo oficial de padrão de rede local, mas, com o tempo, uma tecnologia se tornou mais comum do que as outras: a Ethernet. Os protocolos Ethernet definem como os dados são formatados e transmitidos pela rede com fio. Os padrões Ethernet especificam protocolos que operam nas Camadas 1 e 2 do modelo OSI. Ethernet tornou-se um padrão de fato, o que significa que é a tecnologia usada por quase todas as redes locais com fio.\nO IEEE mantém os padrões de rede, incluindo os padrões Ethernet e sem fio. Cada padrão de tecnologia recebe um número referente ao comitê responsável por aprovar e manter o padrão. O padrão Ethernet 802.3 melhorou ao longo do tempo.\nOs switches Ethernet podem enviar um quadro para todas as portas (exceto a porta da qual ele foi recebido). Cada host que recebe esse quadro examina o endereço MAC de destino e o compara com o seu endereço MAC. É a placa NIC Ethernet que examina e compara o endereço MAC. Se ele não corresponder ao endereço MAC do host, o restante do quadro será ignorado. Quando é uma correspondência, esse host recebe o restante do quadro e a mensagem que ele contém.\n\n**Quadros Ethernet:** A Ethernet é definida pelos protocolos 802.2 e 802.3 da camada de enlace de dados. Ethernet suporta larguras de banda de dados de 10 Mbps a 100 Gbps Os protocolos EEE 802 LAN/MAN, incluindo Ethernet, usam duas subcamadas separadas da camada de enlace de dados para operar: LLC e MAC.\nSubcamada LLC - Esta subcamada IEEE 802.2 se comunica entre o software de rede nas camadas superiores e o hardware do dispositivo nas camadas inferiores. Ela coloca a informação no quadro que identifica qual protocolo de camada de rede está sendo usado para o quadro. Essas informações permitem que vários protocolos da camada 3, como IPv4 e IPv6, usem a mesma interface de rede e mídia.\nSubcamada MAC - Esta subcamada (IEEE 802.3, 802.11 ou 802.15 por exemplo) é implementada em hardware e é responsável pelo encapsulamento de dados e controle de acesso ao meio. Ele fornece endereçamento de camada de link de dados e é integrado com várias tecnologias de camada física. O encapsulamento de dados inclui o seguinte: Quadro Ethernet, endereçamento Ethernet e detecção de erros Ethernet.\nAs LANs Ethernet de hoje usam switches que operam em full-duplex. As comunicações full-duplex com switches Ethernet não exigem controle de acesso através do CSMA/CD. O tamanho mínimo do quadro Ethernet é de 64 bytes e o máximo esperado é de 1518 bytes. Os campos são Preâmbulo e delimitador de quadro inicial, endereço MAC de destino, endereço MAC de origem, tipo/comprimento, dados e FCS. Isso inclui todos os bytes do campo de endereço MAC de destino até o campo FCS.\n\n**Endereços MAC Ethernet:** Um endereço MAC Ethernet consiste em um valor binário de 48 bits. Hexadecimal é usado para identificar um endereço Ethernet porque um único dígito hexadecimal representa quatro bits binários. Portanto, um endereço MAC Ethernet de 48 bits pode ser expresso usando apenas 12 valores hexadecimais.\nUm endereço MAC de unicast é o endereço exclusivo usado quando um quadro é enviado de um único dispositivo de transmissão para um único dispositivo de destino. O processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv4 é conhecido como ARP (Address Resolution Protocol). O processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv6 é o ND.\nOs recursos de uma transmissão Ethernet são os seguintes:\nPossui um endereço MAC de destino de FF-FF-FF-FF-FF-FF em hexadecimal (48 endereços em binário).\nÉ inundada todas as portas de switch Ethernet, exceto a porta de entrada.\nEle não é encaminhado por um roteador.\nOs recursos de um multicast Ethernet são os seguintes:\nHá um endereço MAC de destino 01-00-5E quando os dados encapsulados são um pacote multicast IPv4 e um endereço MAC de destino de 33-33 quando os dados encapsulados são um pacote multicast IPv6.\nHá outros endereços MAC de destino multicast reservados para quando os dados encapsulados não são IP, como STP e LLDP.\nÉ inundada todas as portas de switch Ethernet, exceto a porta de entrada, a menos que o switch esteja configurado para espionagem multicast.\nEle não é encaminhado por um roteador, a menos que o roteador esteja configurado para rotear pacotes multicast.\n\n**A tabela de endereços MAC:** Um switch Ethernet da camada 2 usa endereços MAC da camada 2 para tomar decisões de encaminhamento. Ele desconhece completamente os dados (protocolo) que estão sendo transportados na parte de dados do quadro. Um switch Ethernet examina sua tabela de endereços MAC para tomar uma decisão de encaminhamento para cada quadro. A tabela de endereços MAC às vezes é chamada de tabela CAM.\nO switch cria a tabela de endereços MAC dinamicamente examinando o endereço MAC de origem dos quadros recebidos em uma porta. O switch encaminha quadros procurando uma correspondência entre o endereço MAC de destino no quadro e uma entrada na tabela de endereços MAC. Se o endereço MAC de destino for um endereço unicast, o switch procurará uma correspondência entre o endereço MAC de destino do quadro e uma entrada em sua tabela de endereços MAC. Se o endereço MAC de destino estiver na tabela, ele encaminhará o quadro pela porta especificada. Se o endereço MAC de destino não estiver na tabela, o switch encaminhará o quadro por todas as portas, exceto a de entrada. Isso é chamado de unicast desconhecido.\nA medida que um switch recebe quadros de dispositivos diferentes, ele é capaz de preencher sua tabela de endereços MAC examinando o endereço MAC de origem de cada quadro. Quando a tabela de endereços MAC do switch contém o endereço MAC de destino, ele pode filtrar o quadro e encaminhar uma única porta. Um switch pode ter vários endereços MAC associados a uma única porta. Isso é comum quando o switch está conectado a outro switch. O switch terá uma entrada separada na tabela de endereços MAC para cada quadro recebido com um endereço MAC de origem diferente. Quando um dispositivo tem um endereço IP em uma rede remota, o quadro Ethernet não pode ser enviado diretamente para o dispositivo de destino. Em vez disso, o quadro Ethernet é enviado ao endereço MAC do gateway padrão, o roteador."
+    },
+    {
+      "type": "text",
+      "title": ".5.2 Webster - Reflexão",
+      "content": "Marcy e Vincent não tinham ideia de como a rede de pequenas empresas operava. Não é muito mais complicado do que minha própria rede doméstica. Não sabia que havia protocolos que garantiam a interação entre meus dispositivos e com a Internet. Pense na sua rede doméstica ou da escola ou do trabalho. Você entende a diferença entre o endereço IP do seu dispositivo e o endereço MAC? Como esse conhecimento ajuda você a entender melhor o funcionamento da rede?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.2 Webster - Reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=  Determinar o endereço MAC de um computador Windows em uma rede Ethernet ao usar o comando ipconfig /all.\n=  Analisar um endereço MAC para determinar o fabricante.\nHistórico / Cenário\nTodos os computadores em uma rede local de Ethernet têm um endereço de controle de acesso ao meio (MAC) que é gravado na placa de rede (NIC). Os endereços MAC do computador normalmente são exibidos como seis conjuntos de dois números hexadecimais separados por travessão ou dois pontos (exemplo: 15-EF-A3-45-9B-57). O comando ipconfig /all exibe o endereço MAC do computador. Você pode trabalhar individualmente ou em equipes.\nRecursos necessários\n=  PC executando Windows 10 com pelo menos uma placa de rede (NIC) Ethernet\n=  Conectividade à Internet\nInstruções\nParte 1: Localização do endereço MAC em um computador\nNesta parte do laboratório, você determinará o endereço MAC de um computador com o comando ipconfig do Windows.\nEtapa 1: Exibir informações para o comando ipconfig /all\na.  Clique com o botão direito no botão Iniciar e selecione Prompt de Comando.\nb.  Insira o comando ipconfig /all no prompt de comando.\nEtapa 2: Localize os endereços MAC (físicos) na saída do comando ipconfig /all\nUse a tabela abaixo para completar a descrição do adaptador Ethernet e do endereço (MAC) físico:\nClique em Mostrar resposta para ver alguns exemplos."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Análise das partes de um endereço MAC\nTodas as interfaces de rede Ethernet têm um endereço físico atribuído a elas na fabricação. Esses endereços têm 48 bit (seis bytes) e são escritos em notação hexadecimal. Os endereços MAC têm duas partes. Uma parte do endereço MAC, os três primeiros bytes, representa o fornecedor que fabricou a interface de rede. Essa parte do MAC é chamada de OUI (identificador organizacionalmente único). Cada fornecedor que desejar fazer e vender interfaces de rede Ethernet deve se registrar com o IEEE para ter um OUI atribuído.\nA segunda parte do endereço, os três bytes restantes, é o ID único para a interface. Todos os endereços MAC que começam com o mesmo OUI precisam ter valores únicos nos últimos três bytes.\nNeste exemplo, o endereço MAC físico para a interface Ethernet LAN é D4-BE-D9-13-63-00."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 1: Liste os endereços MAC descobertos por você e seus colegas na parte anterior.\nListe o OUI do fabricante de três bytes e o identificador de interface único de três bytes. Você preencherá o nome do fornecedor na tabela abaixo."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Consulte os fornecedores que são proprietários registrados do OUI listado na tabela.\na.  A Wireshark.org disponibiliza uma ferramenta de fácil utilização em https://www.wireshark.org/tools/oui-lookup.html. Use essa ferramenta ou a Internet para pesquisar outras formas de identificar um OUI.\nb.  Use as informações encontradas para atualizar a coluna do fornecedor no gráfico na Etapa 1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Reflexão"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Topologia"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Baixar e instalar o Wireshark\nParte 2: Capturar e analisar dados ARP no Wireshark\n·  Inicie e interrompa a captura de dados do tráfego de ping para os hosts remotos.\n·  Localize as informações sobre o endereço IPv4 e MAC em PDUs capturadas.\n·  Analise o conteúdo das mensagens ARP trocadas entre os dispositivos na LAN.\nParte 3: Visualizar as entradas do cache ARP no PC\n·  Acesse o Prompt de Comando do Windows.\n·  Use o comando arp do Windows para visualizar o cache da tabela ARP local no PC.\nHistórico/Cenário\nO protocolo ARP é usado pelo TCP/IP para mapear um endereço IPv4 da Camada 3 para um endereço MAC da Camada 2. Quando um quadro Ethernet é transmitido na rede, ele deve ter um endereço MAC de destino.Para encontrar de forma dinâmica o endereço MAC de um destino conhecido, um dispositivo de origem transmite em broadcast uma solicitação ARP na rede local.O dispositivo, configurado com o endereço IPv4 de destino, responde à solicitação com uma resposta ARP e o endereço MAC é registrado no cache ARP.\nTodos os dispositivos na LAN mantêm seu próprio cache ARP. O cache ARP é uma pequena área na memória RAM que armazena as respostas ARP. A visualização do cache ARP em um PC exibirá o endereço IPv4 e o endereço MAC de cada dispositivo na LAN com a qual o PC trocou mensagens ARP.\nO Wireshark é um software analisador de protocolo, ou \"packet sniffer\", usado em solução de problemas de rede, análise, desenvolvimento de software e protocolo, e educação. À medida que o fluxo de dados trafega em uma rede, o sniffer \"captura\" cada unidade de dados de protocolo (PDU) e pode decodificar e analisar seu conteúdo de acordo com as especificações adequadas do protocolo.\nO Wireshark é uma ferramenta útil para quem trabalha com redes e pode ser usado, na maioria dos laboratórios dos cursos da Cisco, para análise de dados e solução de problemas. Este laboratório apresenta instruções para baixar e instalar o Wireshark, embora talvez já esteja instalado. Neste laboratório, você usará o Wireshark para capturar trocas de mensagens ARP na rede local.\nRecursos necessários\n·  1 PC (Windows 10)\n·  Acesso à Internet\n·  Serão usados outros PCs em uma rede local (LAN) para responder às solicitações de ping. Caso não haja outros  PCs na LAN, o endereço de gateway padrão será usado para responder às solicitaçõesde  ping.\nInstruções\nParte 1: Fazer o download e instalar o Wireshark\nO Wireshark tornou-se o programa sniffer de pacotes padrão do setor usado por engenheiros de rede. Este software aberto está disponível para vários sistemas operacionais diferentes, incluindo Windows, Mac e Linux.\nSe o Wireshark já estiver instalado no PC, você pode pular a Parte 1 e ir direto para a Parte 2. Se o Wireshark não estiver instalado no PC, verifique com seu instrutor a política de download de software de sua academia.\nEtapa 1: Baixar o Wireshark.\na.  O Wireshark pode ser baixado em www.wireshark.org.\nb.  Clique em Download.\nc.  Escolha a versão do software necessária com base na arquitetura e no sistema operacional do PC. Por exemplo, se você tiver um PC de 64 bits executando o Windows, selecione Windows Installer (64-bit) (Instalador do Windows (64 bits)).\nd.  Depois de fazer a seleção, o download será iniciado. Clique em Salvar Arquivo, se for solicitado. O destino do download do arquivo depende do navegador e do sistema operacional usados. Para usuários do Windows, o local padrão é a pasta Downloads .\nEtapa 2: Instalar o Wireshark.\na.  O nome do arquivobaixado é Wireshark-win64-x.x.x.exe, em que xrepresenta o número da versão. Clique duas vezes no arquivo para iniciar o processo de instalação.\nb.  Responda a todas as mensagens de segurança que aparecerem na tela. Se você já possui uma cópia do Wireshark em seu PC, pode ser solicitado que você desinstale a versão antiga antes de instalar a nova versão.É recomendado que você remova a versão antiga do Wireshark antes de instalar outra versão. Clique em Sim para desinstalar a versão anterior do Wireshark.\nc.  Se esta for a primeira instalação do Wireshark, ou após concluir o processo de desinstalação, você navegará para o assistente de configuração do Wireshark. Clique em Next.\nd.  Continue avançando no processo de instalação. Clique em I Agree (Eu concordo) quando a janela do contrato de licença for exibida.\ne.  Mantenha as configurações padrão na janela Choose Components (Escolher componentes) e clique em Next(Avançar).\nf.   Escolha suas opções de atalho desejadas e clique em Next(Avançar).\ng.  Você pode alterar o local de instalação do Wireshark, porém, a menos que você tenha espaço em disco limitado, recomenda- se manter o local padrão.\nh.  Para capturar dados de rede em tempo real, o Npcap deve estar instalado no seu PC. Se a versão instalada do Npcap for anterior à versão que acompanha o Wireshark, é recomendável permitir a instalação da versão mais recente clicando nacaixa de seleção Install Npcap x.x.x(número da versão). Clique em Avançar.\ni.   Uma janela separada é aberta para a configuração do Npcap. Clique I Agree na janela Contrato de Licença Npcap. Na janela Opções de instalação, deixe todas as caixas de seleção desmarcadas e clique em Install para instalar o Npcap. Clique em Next quando terminar. Clique em Finish para sair do InstallShield Wizard.\nj.   A instalação do USBPcap não é necessária para este curso. Isso só é necessário se você estiver planejando capturar o tráfego USB. Clique em Install Now (Instalar agora) para iniciar a instalação.\nObservação: como o USBPcap é experimental, certifique-se de ter criado um ponto de restauração do sistema antes da instalação do USBPcap.\nk.  O Wireshark começa a instalar seus arquivos e exibe uma janela separada com o status da instalação. Clique em Next (Próximo) quando a instalação estiver concluída.\nl.   Clique em Finish (Concluir) para encerrar o processo de instalação do Wireshark. Se o processo de instalação estiver parado, verifique se a instalação do Npcap está concluída. Clique em Next (Avançar) para continuar.\nm.  Reinicie o PC para concluir a instalação.\nParte 2: Capturar e analisar dados locais ARP no Wireshark\nNa Parte 2 deste laboratório, você efetuará ping para outro computador na LAN e capturará solicitações e respostas ARP no Wireshark.Você também examinará os quadros capturados para obter informações específicas. Essa análise ajudará a esclarecer como os cabeçalhos dos pacotes são usados para o transporte dos dados até o destino.\nEtapa 1: Consulte os endereços de interface do PC.\nNeste laboratório, você precisará consultar o endereço IPv4 e o endereço MAC do PC.\na.  Navegue para a janela de prompt de comando, digite ipconfig /all no prompt.\nb.  Observe qual adaptador de rede o PC está usando para acessar a rede. Anote o endereço IPv4 e o endereço MAC (endereço físico) da interface do PC.\nC:\\Users\\Student> ipconfig /all\n<output omitted>\nWireless LAN adapter Wireless Network Connection:\nConnection-specific DNS Suffix . :\nDescrição . . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6205\nEndereço Físico. . . . . . . . . : A4-AE-31-AD-78-4C\nDHCP Enabled. . . . . . . . . . . : Sim\nAutoconfiguration Enabled . . . . : Sim\nLink-local IPv6 Address . . . . . : fe80 :: f9e7: e41d: a772: f993% 11 (Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.1.8(Preferred)\nMáscara de Sub-Rede . . . . . . . . . . . : 255.255.255.0\nLease Obtained. . . . . . . . . . : Thursday, August 04, 2016 05:35:35 PM\nLease Expires . . . . . . . . . . : Friday, August 05, 2016 05:35:35 PM\nGateway Padrão . . . . . . . . . : 192.168.1.1\nDHCP Server . . . . . . . . . . . : 192.168.1.1\nDHCPv6 IAID . . . . . . . . . . . : 245648945\nDHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1B-87-BF-52-A4-4E-31-AD-78-4C\nServidores DNS . . . . . . . . . . . : 192.168.1.1\nNetBIOS over Tcpip. . . . . . . . : Disabled\nc.  Solicite a um membro do grupo o endereço IPv4 do PC dele e forneça a ele o endereço IPv4 do seu PC. Não forneça o seu endereço MAC a ele agora.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Iniciar o Wireshark e começar a capturar os dados.\na.  No PC, cliqueem Iniciar e digiteWireshark. Clique em Wireshark Desktop App (Aplicativo para Desktop Wireshark) quando ele aparecer na janela de resultados de busca.\nObservação: como alternativa, a instalação do Wireshark também pode fornecer uma opção do Wireshark antigo. Ela mostra o Wireshark na GUI antiga e mais reconhecida. O restante deste laboratório foi concluído com a GUI de aplicativo para desktop mais nova.\nb.  Após iniciar o Wireshark, selecione a interface de rede que você identificou com o comando ipconfig. Insira arp na caixa de filtro.Esse filtro configura o Wireshark para exibir somente os pacotes que fazem parte das trocas ARP entre os dispositivosna rede local. Depois de selecionar a interface correta e inserir as informações do filtro, clique em Start capturing packets (ícone de barbatana de tubarão) para iniciar a captura de dados.\nAs informações começarão a rolar na seção superior do Wireshark. Cada linha representa uma mensagem sendo enviada entre um dispositivo de origem e destino na rede.\nc.  Em uma janela do prompt de comando, execute ping no gateway padrão para testar a conectividade com o endereço do gateway padrão que foi identificado Parte 2, Etapa 1.\nC:\\Users\\Student > ping 192.168.1.1\nPinging 192.168.1.1 with 32 bytes of data:\nReply from 192.168.1.1: bytes=32 time=7ms TTL=64\nReply from 192.168.1.1: bytes=32 time=2ms TTL=64\nReply from 192.168.1.1: bytes=32 time=1ms TTL=64\nReply from 192.168.1.1: bytes=32 time=6ms TTL=64\nPing statistics for 192.168.1.1:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 1ms, Maximum = 7ms, Average = 4ms\nd.  Execute ping nos endereços IPv4 de outros PCs na LAN que foram fornecidos pelos membros de seu grupo.\nObservação: se o PC de seu grupo não responde aos pings, isso pode acontecer porque o firewall do PC está bloqueando as solicitações. Peça ajuda ao seu instrutor para desativar o firewall do PC, se necessário.\ne.  Pare de capturar dados clicando em Stop Capture (ícone do quadrado vermelho) na barra de ferramentas.\nEtapa 3: Examinar os dados capturados.\nNa Etapa 3, examine os dados geradospelas solicitações  pingdo PC do seu grupo. Os dados do Wireshark são exibidos em três seções:\n1)    A seção superior exibe a lista de quadros PDU capturados com um resumo das informações do pacote IPv4 listadas.\n2)    A seção do meio lista as informações de PDU para o quadro selecionado na parte superior da tela e divide o frame capturado em suas camadas de protocolo.\n3)    A seção inferior mostra os dados brutos de cada camada. Os dados são exibidos em formato hexadecimal e decimal."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "a.  Clique nos quadros ARP na seção superior que têm o endereço MAC do seu PC como o endereço de origem e “broadcast” como o destino do quadro.\nb.  Com esse quadro de PDU ainda selecionado na seção superior, vá até a seção do meio. Clique na seta à esquerda da linha Ethernet II para ver os endereços MAC de origem e destino."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Clique na seta à esquerda da linha Protocolo ARP (request) para visualizar o conteúdo da solicitação ARP ."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 4: Localize o quadro da resposta ARP que corresponde à solicitação ARP que você destacou.\na.  Com o endereço IPv4 alvo na solicitação ARP, localize o quadro da resposta ARP na seção superior da tela de captura do Wireshark.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Destaque o quadro de resposta na seção superior da saída do Wireshark. Talvez seja necessário rolar a janela para encontrar o quadro de resposta que corresponde ao endereço IPv4 alvo identificado na etapa anterior. Expanda as linhas Ethernet II e protocolo ARP (response) na seção do meio da tela.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Verifique com seu grupo se o endereço MAC corresponde ao endereço MAC no PC deles.\nParte 3: Examine as entradas do cache ARP no PC\nApós a resposta ARP ser recebida pelo PC, a associação do endereço MAC para o endereço IPv4 é armazenada na memória do cache no PC.Essas entradas permanecerão na memória por um curto período (de 15 a 45 segundos), e, depois, se não forem usadas nesse período, serãoremovidas do cache.\na.  Abra uma janela de prompt de comando em um PC. No prompt, insira arp –a e pressione enter.\nC:\\Users\\Student> arp -a\nInterface: 192.168.1.8 --- 0xb\nInternet Address      Physical Address      Type\n192.168.1.1           00-37-73-ea-b1-7a     dynamic\n192.168.1.9           90-4c-e5-be-15-63     dynamic\n192.168.1.13          a4-4e-31-ad-78-4c     dynamic\n224.0.0.5             01-00-5e-00-00-05     static\n224.0.0.6             01-00-5e-00-00-06     static\n224.0.0.22            01-00-5e-00-00-16     static\n224.0.0.252           01-00-5e-00-00-fc     static\n224.0.0.253           01-00-5e-00-00-fd     static\n239.255.255.250       01-00-5e-7f-ff-fa     static\n255.255.255.255       ff-ff-ff-ff-ff-ff     static\nA saída do comando arp – a exibirá as entradas que estão no cache no PC. No exemplo, o PC tem entradas para o gateway padrão (192.168.1.1) e para dois PCs localizados na mesma LAN(192.168.1.9 e 192.168.1.13).\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  O comando arp no PC com Windows tem outra funcionalidade. Digite arp /? no prompt de comando e pressione enter. As opções do comando arp permitem que você visualize, adicione e remova as entradas da tabela ARP, se necessário.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Reflexão"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Examinar os campos do cabeçalho de um quadro Ethernet II\nParte 2: Usar o Wireshark para capturar e analisar quadros Ethernet\nHistórico/Cenário\nQuando os protocolos da camada superior se comunicam uns com os outros, os dados fluem para baixo pelas camadas OSI (Open Systems Interconnection) e são encapsulados dentro de um quadro da Camada 2. A composição do quadro depende do tipo de acesso ao meio. Por exemplo, se os protocolos de camada superior forem TCP/IP e o acesso ao meio for Ethernet, o encapsulamento do quadro da Camada 2 será Ethernet II. Isso é comum em um ambiente de LAN.\nAo estudar os conceitos da Camada 2, vale a pena analisar as informações do cabeçalho do quadro. Na Parte 1, você examinará os campos contidos no quadro Ethernet II. Na Parte 2, você usará o Wireshark para capturar e analisar os campos do cabeçalho de quadros Ethernet II para tráfego local e remoto.\nRecursos necessários\n=  1 PC (Escolha do sistema operacional com o Wireshark instalado)\n=  Acesso à Internet\nInstruções\nParte 1: Examinar os Campos do Cabeçalho de um Quadro Ethernet II\nNesta parte , você examinará o conteúdo e os campos do cabeçalho de um quadro Ethernet II. Será usada uma captura do Wireshark para examinar o conteúdo nesses campos.\nEtapa 1: Analise os tamanhos e as descrições dos campos do cabeçalho Ethernet II."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Examinar a configuração de rede do PC.\nNeste exemplo, este endereço IP do host do PC é 192.168.1.147 e o gateway padrão possui um endereço IP 192.168.1.1. (Para sistemas operacionais Linux e MAC, use o comando ifconfig no terminal.)\nC:\\> ipconfig /all\nEthernet adapter Ethernet:\nConnection-specific DNS Suffix  . :\nDescription . . . . . . . . . . . : Intel(R) 82579LM Gigabit Network Connection\nPhysical Address. . . . . . . . . : F0-1F-AF-50-FD-C8\nDHCP Enabled. . . . . . . . . . . : Yes\nAutoconfiguration Enabled . . . . : Yes\nLink-local IPv6 Address . . . . . : fe80::58c5:45f2:7e5e:29c2%11(Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.1.147(Preferred)\nSubnet Mask . . . . . . . . . . . : 255.255.255.0\nLease Obtained. . . . . . . . . . : Friday, September 6, 2019 11:08:36 AM\nLease Expires . . . . . . . . . . : Saturday, September 7, 2019 11:08:36 AM\nDefault Gateway . . . . . . . . . : 192.168.1.1\nDHCP Server . . . . . . . . . . . : 192.168.1.1\n<output omitted>\nEtapa 3: Examine os quadros Ethernet em uma captura do Wireshark.\nAs capturas de tela da captura do Wireshark abaixo mostram os pacotes gerados por um ping emitido de um host PC para o gateway padrão. Um filtro (arp ou icmp) foi aplicado ao Wireshark para visualizar somente os protocolos ARP e ICMP. ARP significa protocolo de resolução de endereços. ARP é um protocolo de comunicação que é usado para determinar o endereço MAC associado ao endereço IP. A sessão começa com uma consulta ARP e uma resposta para o endereço MAC do roteador de gateway, seguido por quatro solicitações e respostas de ping.\nEsta captura de tela realça os detalhes do quadro de uma solicitação ARP."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Esta captura de tela realça os detalhes do quadro de uma resposta ARP."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 4: Examine o conteúdo do cabeçalho Ethernet II de uma requisição ARP.\nA tabela a seguir usa o primeiro quadro na captura do Wireshark e exibe os dados nos campos do cabeçalho Ethernet II."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Perguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Usar o Wireshark para capturar e analisar quadros Ethernet II\nNesta parte, você usará o Wireshark para capturar quadros Ethernet local ou remoto. Em seguida, examinará as informações contidas nos campos do cabeçalho do quadro.\nEtapa 1: Determinar o endereço IP do gateway padrão em seu PC.\nAbra uma janela do prompt de comando e emita o comando ipconfig. (Para sistemas operacionais Linux e MAC, digite o comando netstat -rn em um terminal.)\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Iniciar a captura do tráfego na NIC do seu PC.\na.  Abra o Wireshark para iniciar a captura de dados. Dê duplo-clique na interface de rede desejada, com tráfego de rede, para iniciar a captura\nb.  Observe o tráfego que aparece na janela Packet List (Lista de pacotes).\nEtapa 3: Filtrar o Wireshark para exibir apenas o tráfego ICMP.\nVocê pode usar o filtro do Wireshark para bloquear a visibilidade de tráfego indesejado. O filtro não bloqueia a captura de dados indesejados; apenas filtra o que você deseja exibir na tela. Por enquanto, deve ser exibido somente tráfego ICMP.\nNa caixa Filtro do Wireshark, digite icmp. A caixa deve ficar verde se você digitou corretamente o filtro. Se a caixa estiver verde, clique em Apply (Aplicar) (a seta à direita) para aplicar o filtro.\nEtapa 4: Na janela do prompt de comando, fazer ping no gateway padrão do seu PC.\nDa janela do prompt de comando, faça ping no gateway padrão usando o endereço IP registrado na Etapa 1.\nEtapa 5: Interromper a captura de tráfego na NIC.\nClique no ícone Stop Capture (Parar captura) (quadrado vermelho) para interromper a captura de tráfego.\nEtapa 6: Examine a primeira solicitação de eco (ping) no Wireshark.\nA janela principal do Wireshark é dividida em três seções: o painel Packet List (Lista de pacotes) (superior), o painel Packet Details(Detalhes do pacote) (intermediária) e o painel Packet Bytes (Bytes do pacote) (inferior). Se você selecionou a interface correta para a captura de pacotes anteriormente, o Wireshark deve exibir as informações do ICMP no painel da lista de pacotes do Wireshark."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "a.  No painel Packet List (Lista de pacotes) [seção superior], clique no primeiro quadro listado. Você deve ver Echo (ping) request no cabeçalho Info (Informações). A linha deve agora ser realçada.\nb.  Examine a primeira linha no painel Packet Details (Detalhes do pacote) [seção intermediária]. Esta linha exibe o comprimento do quadro.\nc.  A segunda linha no painel Packet Details (Detalhes do pacote) mostra que se trata de um quadro Ethernet II. Os endereços MAC de origem e de destino também são exibidos.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Clique  no sinal de maior que (>) no início da segunda linha para obter mais informações sobre o quadro Ethernet II.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  As duas últimas linhas exibidas na parte intermediária fornecem informações sobre o campo de dados do quadro. Observe que os dados contêm informações do endereço IPv4 origem e destino.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Clique em qualquer linha na seção intermediária para destacar a parte do quadro (hexadecimal e ASCII) no painel Packet Bytes (Bytes do pacote) [seção inferior]. Clique na linha Internet Control Message Protocol (Protocolo ICMP) na seção intermediária e examine o que está destacado no painel Packet Bytes (Bytes do pacote).\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  Clique no próximo quadro na seção superior e examine um quadro de resposta de eco. Observe que os endereços MAC de origem e de destino foram invertidos porque esse quadro foi enviado do roteador gateway padrão como uma resposta ao primeiro ping.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 7: Capturar pacotes para um host remoto.\na.  Clique no ícone Start Capture (Iniciar captura) para iniciar uma nova captura do Wireshark. Você receberá uma janela pop-up perguntando se deseja salvar os pacotes capturados em um arquivo antes de iniciar uma nova captura. Clique em Continue without Saving (Continuar sem salvar).\nb.  Em uma janela do prompt de comando, execute ping em www.cisco.com.\nc.  Parar a captura de pacotes.\nd.  Examinar os novos dados no painel lista de pacotes do Wireshark.\nPerguntas:\nNo primeiro quadro de requisição (ping) de eco, quais são os endereços MAC de origem e de destino?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Quais são os endereços IP origem e destino contidos no campo de dados do quadro?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Perguntas para reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual parte de um quadro Ethernet usa um pad para aumentar o campo de quadro para pelo menos 64 bytes?",
+      "options": [
+        "EtherType",
+        "Preâmbulo",
+        "Delimitador de Início de Quadro",
+        "Campo de dados"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nTodos os quadros devem ter pelo menos 64 bytes. Bits adicionais chamados \"pad\" são usados para aumentar o tamanho de quadros pequenos para o tamanho mínimo.",
+      "raw_id": "37b3bba86cf94b1f8e753f0db27cf6cc"
+    },
+    {
+      "question": "Qual parte de um quadro Ethernet detecta erros no quadro?",
+      "options": [
+        "Preâmbulo",
+        "Delimitador de Início de Quadro",
+        "Sequência de Verificação de Quadro (FCS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO campo FCS usa um CRC para detectar erros em um quadro.",
+      "raw_id": "e146a678b0994272b3a031aca01cad23"
+    },
+    {
+      "question": "Qual parte de um quadro Ethernet descreve o protocolo de camada superior encapsulado?",
+      "options": [
+        "EtherType",
+        "Preâmbulo",
+        "Delimitador de Início de Quadro",
+        "Sequência de Verificação de Quadro (FCS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO campo EtherType identifica o protocolo da camada superior que está encapsulado no quadro Ethernet.",
+      "raw_id": "1a70f84a37244c45b6c340c2252e1f27"
+    },
+    {
+      "question": "Qual parte de um quadro Ethernet notifica o receptor para se preparar para um novo quadro?",
+      "options": [
+        "Delimitador de Início de Quadro",
+        "Sequência de Verificação de Quadro (FCS)",
+        "Introdução",
+        "Campo de dados"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs primeiros bytes do preâmbulo informam o receptor de um novo quadro.",
+      "raw_id": "b41e9db7fde44c6db323daa2d94ee487"
+    },
+    {
+      "question": "Qual subcamada de link de dados controla a interface de rede através de drivers de software?",
+      "options": [
+        "MAC",
+        "LLC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA subcamada LLC é responsável por controlar a placa de interface de rede através de drivers de software",
+      "raw_id": "fb1e8f26e6d3474884edfaf6ab7cf302"
+    },
+    {
+      "question": "Qual subcamada de link de dados trabalha com as camadas superiores para adicionar informações de aplicativos para entrega de dados a protocolos de nível superior?",
+      "options": [
+        "MAC",
+        "LLC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA LLC trabalha com camadas superiores para suportar protocolos de nível superior.",
+      "raw_id": "3a906d6872e0429cbaab61480306f152"
+    },
+    {
+      "question": "O que é uma função da subcamada MAC? (Escolha três.)",
+      "options": [
+        "controla o acesso à mídia",
+        "verifica se há erros em bits recebidos",
+        "usa CSMA/CD ou CSMA/CA para oferecer suporte à tecnologia Ethernet",
+        "comunica entre o software nas camadas superiores e o hardware do dispositivo nas camadas inferiores",
+        "permite que vários protocolos da camada 3 usem a mesma interface de rede e mídia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA subcamada MAC verifica erros de bits, suporta tecnologias Ethernet e controla o acesso à mídia.",
+      "raw_id": "e5f97e15b863450d81486fcbefa8fb93"
+    },
+    {
+      "question": "Que tipo de endereço MAC a seguir é endereço MAC de unicast?",
+      "options": [
+        "01-00-5E-00-00-C8",
+        "00-07-E9-42-AC-28",
+        "33-33-00-58-94-5C",
+        "FF-FF-FF-FF-FF-FF"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\n00-07-E9-42-AC-28 é o endereço MAC de unicast.",
+      "raw_id": "1a6305304b4f4fb7b7ddca4bca0cc49e"
+    },
+    {
+      "question": "Que tipo de endereço MAC a seguir é transmitido por endereço MAC?",
+      "options": [
+        "01-00-5E-00-00-C8",
+        "00-07-E9-42-AC-28",
+        "33-33-00-58-94-5C",
+        "FF-FF-FF-FF-FF-FF"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nFF-FF-FF-FF-FF-FF é um endereço MAC de broadcast.",
+      "raw_id": "60263f226d654475838fe4da525eab1c"
+    },
+    {
+      "question": "Que tipo do seguinte endereço MAC é um endereço MAC multicast IPv4?",
+      "options": [
+        "01-00-5E-00-00-C8",
+        "00-07-E9-42-AC-28",
+        "33-33-00-58-94-5C",
+        "FF-FF-FF-FF-FF-FF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\n01-00-5E-00-00-C8 é um endereço MAC multicast IPv4.",
+      "raw_id": "a59628424e784ab98780776d53944630"
+    },
+    {
+      "question": "Que tipo de endereço MAC a seguir é um endereço IP multicast de IPv6?",
+      "options": [
+        "01-00-5E-00-00-C8",
+        "00-07-E9-42-AC-28",
+        "33-33-00-58-94-5C",
+        "FF-FF-FF-FF-FF-FF"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\n33-33-00-58-94-5C é um endereço MAC multicast IPv6.",
+      "raw_id": "b0c21695f4fe4ea79ac0b056fc0b3bac"
+    },
+    {
+      "question": "O que é encapsulado no campo de dados de um quadro Ethernet?",
+      "options": [
+        "a PDU de camada 3",
+        "Valor de verificação cíclica de redundância (CRC)",
+        "os bits da camada física codificados",
+        "endereços MAC de origem e destino"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um quadro Ethernet tem vários campos, um dos quais é o campo de dados.  O campo de dados contém a PDU da camada 3 que é enviada pela pilha de protocolos da camada de rede.",
+      "raw_id": "a267f7e0909147099c3a39adb993c65a"
+    },
+    {
+      "question": "Qual é a restrição de comprimento do campo de dados em um quadro Ethernet?",
+      "options": [
+        "entre 0 e 1500 bytes",
+        "entre 46 e 1500 bytes",
+        "entre 46 e 1518 bytes",
+        "entre 46 e 1522 bytes"
+      ],
+      "correctIndex": 1,
+      "explanation": "O campo de dados em um quadro Ethernet contém a PDU de Camada 3, ou um pacote IP. Este campo tem o comprimento mínimo de 46 bytes e comprimento máximo de 1500 bytes. Se a PDU de Camada 3 for menor que 46 bytes, o preenchimento será adicionado para atender ao requisito de comprimento mínimo.",
+      "raw_id": "570ba44f32794d3c8956ac2ab7f6c5c1"
+    },
+    {
+      "question": "Consulte a figura. Qual é o endereço MAC deste computador?",
+      "options": [
+        "00-01-00-01-15-15-BD-53-48-5B-39-A6-0F-3A",
+        "87-52-25-78-0F-3A",
+        "fe80 :: 740c: 63a6: e9df: c700",
+        "fec0:0:0:ffff::1"
+      ],
+      "correctIndex": 1,
+      "explanation": "O endereço MAC é o endereço físico do computador expresso como 12 dígitos hexadecimais.",
+      "raw_id": "a3d98d5553cc4a09beee6f47fe014fe3"
+    },
+    {
+      "question": "Qual subcamada de Ethernet é usada para controlar o acesso à rede usando CSMA/CD?",
+      "options": [
+        "LLC",
+        "MAC",
+        "Enlace de dados",
+        "físico"
+      ],
+      "correctIndex": 1,
+      "explanation": "As duas subcamadas de Ethernet são LLC e MAC. A LLC gerencia as comunicações com as camadas superiores. O MAC é a subcamada inferior e é responsável por encapsular os dados e inseri-los na mídia de rede. Para obter os dados na mídia, um processo específico deve ser usado. A Ethernet usa o processo de CSMA/CD.",
+      "raw_id": "074b137bdc6e4f46b24fc6b2aff20eda"
+    },
+    {
+      "question": "Que informações de endereçamento são registradas por um switch para construir sua tabela de endereços MAC?",
+      "options": [
+        "o endereço destino da camada 3 dos pacotes recebidos",
+        "o endereço destino da camada 2 dos quadros enviados",
+        "o endereço origem da camada 3 dos pacotes enviados",
+        "o endereço origem da camada 2 dos quadros recebidos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um switch cria uma tabela de endereços MAC inspecionando os quadros da camada 2 recebidos e registrando o endereço MAC origem encontrado no cabeçalho do quadro. O endereço MAC detectado e registrado é então associado à porta usada para receber o quadro.",
+      "raw_id": "e6c6d43fd1ab44318fed6eb4a386b316"
+    },
+    {
+      "question": "Que informações importantes são examinadas no cabeçalho do quadro Ethernet por um dispositivo de camada 2 para encaminhar os dados?",
+      "options": [
+        "endereço MAC origem",
+        "endereço IP origem",
+        "endereço MAC destino",
+        "tipo de Ethernet",
+        "endereço IP destino"
+      ],
+      "correctIndex": 2,
+      "explanation": "O dispositivo de camada 2, como um switch, usa o endereço MAC destino para determinar qual caminho (interface ou porta) deve ser usado para o envio dos dados para o dispositivo destino.",
+      "raw_id": "4d87aead7d4e4d648eec0f19218cd31b"
+    },
+    {
+      "question": "O que acontece com os quadros runt recebidos pelo switch Ethernet Cisco?",
+      "options": [
+        "O quadro é descartado.",
+        "O quadro é devolvido ao dispositivo original na rede.",
+        "O quadro é enviado como broadcast para todos os outros dispositivos na mesma rede.",
+        "O pacote é enviado apenas para o gateway padrão."
+      ],
+      "correctIndex": 0,
+      "explanation": "Em uma tentativa de economizar largura de banda e não encaminhar quadros sem utilidade, os dispositivos Ethernet descartam os quadros considerados runt (menos de 64 bytes) ou quadros jumbo (acima de 1500 bytes).",
+      "raw_id": "f189b9eceef7479bb32a36b43f8fee27"
+    },
+    {
+      "question": "O que é indicado pelo 100 no padrão 100BASE-T?",
+      "options": [
+        "metros",
+        "pés",
+        "megabits por segundo",
+        "torções por metro"
+      ],
+      "correctIndex": 2,
+      "explanation": "100BASE-T é um padrão Ethernet que se traduz em 100 megabits por segundo, transmissão de banda base e espaço de largura zero de cabo de par trançado - U+200B​.",
+      "raw_id": "3291a4117b3743c0b4c0424d48847113"
+    },
+    {
+      "question": "Quais são os três campos encontrados em um quadro Ethernet 802.3? (Escolha três.)",
+      "options": [
+        "endereço físico de origem",
+        "endereço lógico de origem",
+        "identificador do tipo de mídia",
+        "sequência de verificação de quadro",
+        "endereço físico de destino",
+        "endereço lógico de destino"
+      ],
+      "correctIndex": 4,
+      "explanation": "Os campos de um quadro Ethernet são preâmbulo, endereço de destino e endereço de origem, comprimento, dados e FCS.",
+      "raw_id": "e5f69caeeb614b3dbcb1c1b62fd80953"
+    },
+    {
+      "question": "Quais duas características descrevem a tecnologia Ethernet? (Escolha duas.)",
+      "options": [
+        "É suportado pelos padrões IEEE 802.3.",
+        "É suportado pelos padrões IEEE 802.5.",
+        "Ele normalmente usa uma média de 16 Mbps para taxas de transferência de dados.",
+        "Ele usa endereços MAC exclusivos para garantir que os dados sejam enviados para o destino apropriado.",
+        "Ele usa uma topologia de anel."
+      ],
+      "correctIndex": 3,
+      "explanation": "O padrão Ethernet 802.3 especifica que uma rede implemente o método de controle de acesso CSMA/CD. Cada nó na rede tem um endereço MAC exclusivo para fins de comunicação.",
+      "raw_id": "67e6fe8035734b5c9df92c8290da4ed6"
+    },
+    {
+      "question": "O que um host em uma rede Ethernet fará se receber um quadro com um endereço MAC de destino unicast que não corresponde ao seu próprio endereço MAC?",
+      "options": [
+        "Ele descartará o quadro.",
+        "Ele encaminhará o quadro para o próximo host.",
+        "Ele removerá o quadro da mídia.",
+        "Ele removerá o quadro do link de dados para verificar o endereço IP de destino."
+      ],
+      "correctIndex": 0,
+      "explanation": "Em uma rede Ethernet, cada NIC na rede verifica cada quadro de chegada para ver se o endereço MAC de destino no quadro corresponde ao seu próprio endereço MAC. Se não houver correspondência, o dispositivo descartará o quadro. Se houver uma correspondência, a NIC passa o quadro para a próxima camada OSI.",
+      "raw_id": "9abeb9794e6e4364a341f2db1a81c13d"
+    }
+  ],
+  "images": []
+}

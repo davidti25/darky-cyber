@@ -1,0 +1,867 @@
+[
+  {
+    "_id": "748ef0ad1e7b4f5a92cc957b64b560eb",
+    "body": "<p><span>Entendendo a construção de uma pequena rede Cisco.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "748ef0ad1e7b4f5a92cc957b64b560eb",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "ee29633c-5ba5-4af8-9ab0-dddec09ce955",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg",
+        "_small": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg",
+        "_medium": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg",
+        "_small": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg",
+        "_medium": "pt-BR/assets/661ce6d90290424389b553de590c05de.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "83f5c25801ee40b88e0c8d51aed06127",
+    "body": "<p><span>Configurar definições iniciais em um switch Cisco.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Configuração Básica de Switch",
+    "_oldId": "83f5c25801ee40b88e0c8d51aed06127",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "8b7d6cb5-73c9-4901-9a69-2cd751c001f3",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg",
+        "_small": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg",
+        "_medium": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg",
+        "_small": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg",
+        "_medium": "pt-BR/assets/3b19447d28e94cecb89eac89e748bb6a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.1. Configuração Básica de Switch",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d3367a89856b4d8bb8cae1a36198d1eb",
+    "body": "<p><span>Configurar as definições iniciais de um roteador.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Configurar definições iniciais do roteador",
+    "_oldId": "d3367a89856b4d8bb8cae1a36198d1eb",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "09ebea40-35e6-454e-91b1-6df9521d7632",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg",
+        "_small": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg",
+        "_medium": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg",
+        "_small": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg",
+        "_medium": "pt-BR/assets/9bcb1ba2e22a45a19690f51257cf22e5.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.2. Configurar definições iniciais do roteador",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a64292d0105f4e9da84ad00a889ce306",
+    "body": "<p><span>Configurar dispositivos para gerenciamento remoto seguro.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Proteção dos Dispositivos",
+    "_oldId": "a64292d0105f4e9da84ad00a889ce306",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "de9662a0-72bc-4a95-b99d-c3ffca9392c5",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg",
+        "_small": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg",
+        "_medium": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg",
+        "_small": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg",
+        "_medium": "pt-BR/assets/346bfdb323b440dcaf14429063fdf415.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.3. Proteção dos Dispositivos",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "86e32c567e89428baf7f6ef1e49a79b5",
+    "body": "<p><span>Configurar dispositivos para que usem o gateway padrão.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Configurar o gateway padrão",
+    "_oldId": "86e32c567e89428baf7f6ef1e49a79b5",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "0fd4e535-9e4e-4dfa-8a5c-71ec577953b9",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg",
+        "_small": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg",
+        "_medium": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg",
+        "_small": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg",
+        "_medium": "pt-BR/assets/8bbceaeb0e924a0fadc07f2c021cc122.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.4. Configurar o gateway padrão",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a64713db02ab465d8b8281a78dab5874",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Resumo de Construindo uma Rede Cisco Pequena",
+    "_oldId": "a64713db02ab465d8b8281a78dab5874",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "85f0e036-85c7-49b0-9f05-a33376565ca2",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg",
+        "_small": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg",
+        "_medium": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg",
+        "_small": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg",
+        "_medium": "pt-BR/assets/f94feb256ab44aa3a70e12d011583c01.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "{{_moduleNumber}}.5. Resumo de Construindo uma Rede Cisco Pequena",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "53548395-2370-4102-9acd-3b5e61e0d321",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Implementação de conectividade básica",
+    "_oldId": "53548395-2370-4102-9acd-3b5e61e0d321",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "9818b4af-c2ac-4a4b-bc5e-a84a1efe310f",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "Packet Tracer - Implementação de conectividade básica",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "5449256d-c0db-4819-93f4-a729c0d09d7f",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer – Definir as configurações iniciais do roteador",
+    "_oldId": "5449256d-c0db-4819-93f4-a729c0d09d7f",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "c959259e-85fd-4154-936e-521581b83f27",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "Packet Tracer – Definir as configurações iniciais do roteador",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a76e2e44-ac09-4815-842f-b005815fb757",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer – Configurar o SSH",
+    "_oldId": "a76e2e44-ac09-4815-842f-b005815fb757",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 8,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "e4bb17cd-e11d-4c84-8da1-5fd1e2e45c38",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "Packet Tracer – Configurar o SSH",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "7d4ed1a2-035d-4eab-a794-4eb50cbe066e",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Solucionar problemas de gateway padrão",
+    "_oldId": "7d4ed1a2-035d-4eab-a794-4eb50cbe066e",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 9,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a5d5a4b8495432cb011c148cea20307",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "f77bbfc8-0a9f-40b9-b19f-886aa7ecdb1c",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a5d5a4b8495432cb011c148cea20307",
+    "displayTitle": "Packet Tracer - Solucionar problemas de gateway padrão",
+    "_isPageTracer": false,
+    "_activityParentId": "56cc1e43-a003-494d-aaa8-b656bdcbaf78",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

@@ -1,0 +1,5200 @@
+[
+  {
+    "_id": "36085c89-272a-4c44-bd96-a7dc109b6f79",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "36085c89-272a-4c44-bd96-a7dc109b6f79",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "64287e3e-2b0f-48fc-980b-7846c2ff030d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b3c62bfb-24eb-410f-9486-1a53cb7188fa",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "64287e3e-2b0f-48fc-980b-7846c2ff030d",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "97e2182c-bf1d-4d15-ba37-3398ecc27398",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9d08e4ad-b03e-46f5-83f6-9c3b6d091c8c",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "9d08e4ad-b03e-46f5-83f6-9c3b6d091c8c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b128a711-01ed-4098-81d2-eb5442b269d9",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b7614838-3329-440d-80d8-b0c0787164b0",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b128a711-01ed-4098-81d2-eb5442b269d9",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "0599e644-abe4-44b6-8f0a-63e23afde374",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1d7be285-0e8b-41c1-9c71-7762e27e1ae1",
+    "body": "<p>Kishori tem um novo paciente, Divya, que foi internado hoje. Como Srinivas, Divya não fala a mesma língua que Kishori fala. O Divya só fala telugu e tem inglês limitado. Kishori quer enviar um e-mail para as enfermeiras no próximo turno para determinar se alguma delas fala Telugu. Kishori pode enviar uma mensagem de e-mail multicast, que é uma única mensagem de e-mail enviada para vários destinatários específicos. Você já sabe sobre a estrutura de endereços IPv4. Agora é a hora de aprender mais sobre eles. Você já ouviu falar de endereços IPv4 unicast, broadcast e multicast? O que são endereços IPv4 públicos e privados? Explore este módulo para entender melhor os endereços IPv4!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "1d7be285-0e8b-41c1-9c71-7762e27e1ae1",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "56b7bb7f-b54a-40e0-9328-c28da66ebde3",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2f8706de-cff6-4d02-9cea-269cd2214ff3",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "56b7bb7f-b54a-40e0-9328-c28da66ebde3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "4d6b99ee-add1-45a4-aab1-26f10e332c94",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5b580196-548c-4129-8ec2-67ade70f3c88",
+    "body": "<a></a>",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "5b580196-548c-4129-8ec2-67ade70f3c88",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "large": "pt-BR/assets/b154106422334077b76e353db952cf1e.png",
+      "small": "pt-BR/assets/b154106422334077b76e353db952cf1e.png",
+      "attribution": ""
+    },
+    "_parentId": "56b7bb7f-b54a-40e0-9328-c28da66ebde3",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "ae0fb5d1-4f27-4957-8fe8-2a15b4289aa1",
+    "instruction": "",
+    "_oldParentId": "56b7bb7f-b54a-40e0-9328-c28da66ebde3",
+    "displayTitle": "",
+    "_activityParentId": "4d6b99ee-add1-45a4-aab1-26f10e332c94",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "9e470828-dce6-4497-9a29-94fe033ef3bd",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "9e470828-dce6-4497-9a29-94fe033ef3bd",
+    "_classes": "",
+    "_parentId": "ca1b6303-eb58-40ee-9a0e-50a8de990e8d",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "605d465c-8d13-404c-ab09-009dbdc7da82",
+    "_isOptional": true,
+    "_oldParentId": "ca1b6303-eb58-40ee-9a0e-50a8de990e8d",
+    "_activityParentId": "1250f831-e9cd-4e99-817f-ffbdedddd3e9"
+  },
+  {
+    "_id": "93dbe83b-b007-4ed9-af23-4faeb702c9c3",
+    "body": "<p><strong>Título do módulo: </strong> IPv4 e segmentação de rede</p><p>  <strong>Objetivo do Módulo:</strong> explicar como os endereços IPv4 são usados na comunicação e segmentação de rede.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Unicast, broadcast e multicast IPv4",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Comparar as características e os usos dos endereços IPv4 unicast, multicast e broadcast.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Tipos de endereços IPv4",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar os endereços IPv4 públicos, privados e reservados.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Segmentação de Rede",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar como a divisão em sub-redes segmenta uma rede para facilitar a comunicação.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O Que Vou Aprender Neste Módulo?",
+    "_oldId": "93dbe83b-b007-4ed9-af23-4faeb702c9c3",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "bcf0d05c-a9c3-4da3-b339-4386d2f791d9",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "8f1914e3-f67f-4c2f-b7f5-f4448ed2a9ef",
+    "_oldParentId": "bcf0d05c-a9c3-4da3-b339-4386d2f791d9",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "a22e6e83-bb71-4d18-b5cf-7bebdf5c366f",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "0324296a-6755-437e-9b4b-3732122af07a",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "0324296a-6755-437e-9b4b-3732122af07a",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "a86026ff-a831-4fe3-a99b-585e2ec7e1eb",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "ec12744c-2c20-4738-9740-f28256d679c4",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "a86026ff-a831-4fe3-a99b-585e2ec7e1eb",
+    "displayTitle": "",
+    "_activityParentId": "a2df5ff3-7dde-4438-bcb1-266434ab7a37"
+  },
+  {
+    "_id": "9cdbeae3-e9b0-4b1f-ab54-490fd7dbfa3f",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Unicast, broadcast e multicast IPv4</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Unicast, broadcast e multicast IPv4",
+    "_oldId": "9cdbeae3-e9b0-4b1f-ab54-490fd7dbfa3f",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e482e46-5156-42e4-a0aa-a42dc60af548",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "50ff9142-1b64-4324-a252-b3e0ecce6c8c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8e482e46-5156-42e4-a0aa-a42dc60af548",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "6911c6b4-ca73-4bf7-b7f0-4eb21f17ac37",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bd6ddef5-2925-4e0d-bf0d-551139dbac14",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Unicast, Broadcast e Multicast",
+    "_oldId": "bd6ddef5-2925-4e0d-bf0d-551139dbac14",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6c7ba7f8-2592-49a0-b9d9-ff1c83db3711",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e960cdf1-78ea-4fb1-8414-5169fce304e4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6c7ba7f8-2592-49a0-b9d9-ff1c83db3711",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "c6a615f2-a6c4-4f56-baa6-e2c7924afcb5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5bd77c3f-8bc2-4423-bbd0-433b66683f22",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Unicast IPv4 ",
+    "_oldId": "5bd77c3f-8bc2-4423-bbd0-433b66683f22",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249954341001",
+    "videoIds": [
+      "7b4cf040-8712-4157-8556-9a7a37bbccf8"
+    ],
+    "_parentId": "18d8fffe-6c31-4b5c-99b6-1bc95f5b2488",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "95f70b2b-8364-4c39-a0ef-a37bc1b00d5c",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "18d8fffe-6c31-4b5c-99b6-1bc95f5b2488",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "85da4a55-f872-4b38-9bb3-c0a2bd52b92c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "097a5bcb-8ad7-43a2-8903-b964101795d1",
+    "body": "<p>No tópico anterior, você aprendeu sobre a estrutura de um endereço IPv4; cada um tem uma parte de rede e uma parte de host. Existem diferentes maneiras de enviar um pacote de um dispositivo de origem, e essas transmissões diferentes afetam os endereços IPv4 de destino.</p><p>Transmissão unicast refere-se a um dispositivo que envia uma mensagem para outro dispositivo em comunicações um-para-um.</p><p>Um pacote unicast tem um endereço IP de destino que é um endereço unicast que vai para um único destinatário. Um endereço IP de origem só pode ser um endereço unicast, porque o pacote só pode originar-se de uma única origem. Isso independentemente de o endereço IP de destino ser unicast, broadcast ou multicast.</p><p><strong>Toque na animação para ver um exemplo de transmissão unicast.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Unicast",
+    "_oldId": "097a5bcb-8ad7-43a2-8903-b964101795d1",
+    "details": {
+      "uuid": "2e275a00-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "unicast_transmission-text01--UUID",
+          "text": "Destino: 172.16.4.253/24"
+        },
+        {
+          "id": "unicast_transmission-text02--UUID",
+          "text": "Origem: 172.16.4.1/24"
+        }
+      ],
+      "animateFile": "media/2e275a00-1c25-11ea-a010-eb2108469056/2e275a06-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "640/480",
+      "timelineClip": "anim01",
+      "animationName": "unicast_transmission",
+      "animationComposition": "02BC8D0A81274E4896C4D879B08F937D"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "7c621d2a-9d22-4551-916a-31d7acb690ed",
+    "_component": "adobe-animate",
+    "_isDeleted": false,
+    "_activityId": "7f51b895-e96b-4dff-8221-a7c80b10c5e3",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "7c621d2a-9d22-4551-916a-31d7acb690ed",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.adobe-animate-container"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "a11y_description": "Esta animação consiste em três hosts e uma impressora conectada a um switch e roteador. A animação ilustra o host com o endereço IP 172.16.4.1 enviando um pacote unicast para o endereço IP 172.16.4.253. Quando o switch recebe o quadro, ele o encaminha para a impressora com o endereço IP 172.16.4.253.",
+    "_activityParentId": "530f8440-ca80-4bf1-ba4c-a48ce859bf73",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "dd652605-9226-437e-a69a-2d76f716669f",
+    "body": "<p><strong>Observação: </strong> Neste curso, todas as comunicações entre dispositivos são unicast, a menos que especificado de outra forma.</p><p>Os endereços de host unicast IPv4 estão no intervalo de endereços de 1.1.1.1 a 223.255.255.255. Contudo, dentro desse intervalo há muitos endereços que já são reservados para fins especiais. Esses endereços para fins especiais serão discutidos mais adiante neste módulo.</p><p><strong> Observação:</strong> Na animação, observe que a máscara de sub-rede para 255.255.255.0 é representada usando a notação de barra ou / 24. Isso indica que a máscara de sub-rede tem 24 bits. A máscara de sub-rede 255.255.255.0 em binário é <span style='word-break:break-word;'>11111111.11111111.11111111.00000000.</span></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "dd652605-9226-437e-a69a-2d76f716669f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b96f6aa2-afb7-4953-87d8-64edfbce1828",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "dc8bfbd9-529b-46ec-ad64-7ebf13cf545c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b96f6aa2-afb7-4953-87d8-64edfbce1828",
+    "displayTitle": "",
+    "_activityParentId": "3c330eba-918a-46ee-9ed6-1a5f9abb2d02",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "82021487-b332-438b-b379-05c5c670e440",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "82021487-b332-438b-b379-05c5c670e440",
+    "_classes": "",
+    "_parentId": "dd1e9bc0-8c51-4267-b04a-50943b399f41",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "4b1263b5-698f-40ea-a4f7-edd862712fa6",
+    "_isOptional": true,
+    "_oldParentId": "dd1e9bc0-8c51-4267-b04a-50943b399f41",
+    "_activityParentId": "7ba9bf36-4910-4557-ae8c-acbc38a6d22f"
+  },
+  {
+    "_id": "74480e37-96b4-40e3-ba42-5c53c052dd3d",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Vídeo - Broadcast IPv4",
+    "_oldId": "74480e37-96b4-40e3-ba42-5c53c052dd3d",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250018237001",
+    "videoIds": [
+      "f4d50b67-0798-488d-adb0-81f9ea848890"
+    ],
+    "_parentId": "160bed63-0adf-41d7-8230-f8698a674c29",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "2a0d4789-228a-4f3b-b822-49cf4837cabf",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "160bed63-0adf-41d7-8230-f8698a674c29",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "8f89fefe-6e60-4ec3-bba0-8b2f5376a3e5",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "75f78a03-77ec-4572-98de-d67762c8f333",
+    "body": "<p>Transmissão broadcast refere-se a um dispositivo enviando uma mensagem para todos os dispositivos em uma rede, ou seja, comunicação de um para todos.</p><p>Um pacote de broadcast possui um endereço IP de destino com todos os (1s) na parte do host ou 32 (um) bits.</p><p><strong>Observação:</strong> O IPv4 usa pacotes de broadcast . No entanto, não há pacotes de broadcast com IPv6.</p><p>Um pacote de broadcast deve ser processado por todos os dispositivos no mesmo domínio de broadcast. Um domínio de broadcast identifica todos os hosts no mesmo segmento de rede. Um broadcast pode ser direcionado ou limitado. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Por exemplo, um host na rede 172.16.4.0/24 envia um pacote para 172.16.4.255. Uma broadcast limitado é enviado para 255.255.255.255. Por padrão, os roteadores não encaminham broadcasts.</p><p><h3>Reproduza a animação para ver um exemplo de transmissão broadcast.</h3></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Broadcast",
+    "_oldId": "75f78a03-77ec-4572-98de-d67762c8f333",
+    "details": {
+      "uuid": "2e278110-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "limited_broadcast-txt01--UUID",
+          "text": "Origem: 172.16.4.1/24"
+        },
+        {
+          "id": "limited_broadcast-txt02--UUID",
+          "text": "Destino: 255.255.255.255"
+        },
+        {
+          "id": "limited_broadcast-txt03--UUID",
+          "text": "Difusão Limitada"
+        }
+      ],
+      "animateFile": "media/2e278110-1c25-11ea-a010-eb2108469056/2e27a821-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "640/480",
+      "timelineClip": "anim01",
+      "animationName": "limited_broadcast",
+      "animationComposition": "43953EACF208425B8FE5CC6158488422"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "252b8f2d-8850-45bf-bf65-657721c4dce8",
+    "_component": "adobe-animate",
+    "_isDeleted": false,
+    "_activityId": "ecbaed8e-60f0-4d70-8ef0-dcfd11f0cebd",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "252b8f2d-8850-45bf-bf65-657721c4dce8",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.adobe-animate-container"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "a11y_description": "Esta animação consiste em três hosts e uma impressora conectada a um switch e roteador. A animação ilustra o host com o endereço IP 172.16.4.1 enviando um pacote de transmissão. Quando o switch recebe o pacote de difusão, ele o encaminha todas as portas para os outros hosts, impressora e roteador. ",
+    "_activityParentId": "64a34a53-04aa-4761-927f-aaf1a8de19b9",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "a40b7179-140e-450f-871b-21420bf9d0d0",
+    "body": "<p>Pacotes de transmissão usam recursos na rede e fazem com que todos os hosts receptores da rede processem o pacote. Portanto, o tráfego broadcast deve ser limitado para não prejudicar o desempenho da rede ou dos dispositivos. Como os roteadores separam domínios de broadcast, subdividir as redes pode melhorar seu desempenho ao eliminar o excesso de tráfego broadcast.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "a40b7179-140e-450f-871b-21420bf9d0d0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7f56c6e8-d987-43aa-9118-2e1eb7035049",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "76504ee6-025c-4b43-a1bd-bab1d7367548",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7f56c6e8-d987-43aa-9118-2e1eb7035049",
+    "displayTitle": "",
+    "_activityParentId": "4f28d2a1-6e4d-45c7-bfc4-b6631adaf6b6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5c0d4981-8551-4499-be6f-e191c472b2b2",
+    "body": "<h3>Transmissão Multicast</h3><p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.5 Vídeo - Multicast IPv4",
+    "_oldId": "5c0d4981-8551-4499-be6f-e191c472b2b2",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250018828001",
+    "videoIds": [
+      "259627b2-d9f9-4118-a62d-88873444c057"
+    ],
+    "_parentId": "988f7936-703c-44a7-92bd-0f7460c4b70d",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "dab4266f-4e08-4d6a-8aec-cafc32dc4ec6",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "988f7936-703c-44a7-92bd-0f7460c4b70d",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "91fb4fdc-14c6-4518-9477-08dde921e8b7",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "e478d608-c5ae-4f66-ade4-1255dfbd8373",
+    "body": "<p>Transmissão multicast reduz o tráfego, permitindo que um host envie um único pacote para um conjunto de hosts selecionados que participem de um grupo multicast.</p><p>Um pacote multicast é um pacote com um endereço IP de destino que é um endereço multicast. O IPv4 reservou os endereços 224.0.0.0 a 239.255.255.255 como intervalo de multicast.</p><p>Os hosts que recebem pacotes multicast específicos são chamados de clientes multicast. Os clientes multicast usam serviços solicitados por um programa cliente para se inscrever no grupo multicast.</p><p>Cada grupo multicast é representado por um único endereço IPv4 multicast de destino. Quando um host IPv4 se inscreve em um grupo multicast, o host processa pacotes endereçados tanto a esse endereço multicast como a seu endereço unicast alocado exclusivamente.</p><p>Protocolos de roteamento, como OSPF, usam transmissões multicast. Por exemplo, os roteadores habilitados com OSPF se comunicam entre si usando o endereço multicast OSPF reservado 224.0.0.5. Somente dispositivos habilitados com OSPF processarão esses pacotes com 224.0.0.5 como endereço IPv4 de destino. Todos os outros dispositivos ignorarão esses pacotes.</p><p><strong>A animação demonstra clientes aceitando pacotes multicast.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.6 Multicast",
+    "_oldId": "e478d608-c5ae-4f66-ade4-1255dfbd8373",
+    "details": {
+      "uuid": "2e27cf30-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "multicast-ID_txt01--UUID",
+          "text": "Origem: 172.16.4.1/24"
+        },
+        {
+          "id": "multicast-ID_txt02--UUID",
+          "text": "Destino: 224.10.10.5"
+        }
+      ],
+      "animateFile": "media/2e27cf30-1c25-11ea-a010-eb2108469056/2e27f641-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "640/480",
+      "timelineClip": "anim01",
+      "animationName": "multicast",
+      "animationComposition": "CF27768E1C0B41249EB00B5EB9285D71"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "b3fbd4f6-3c70-494f-889b-b0d00afe78db",
+    "_component": "adobe-animate",
+    "_isDeleted": false,
+    "_activityId": "0dc882cc-8494-4c4c-9aa7-9dfe07737ff7",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "b3fbd4f6-3c70-494f-889b-b0d00afe78db",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.adobe-animate-container"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "a11y_description": "Esta animação consiste em três hosts e uma impressora conectada a um switch e roteador. A animação ilustra o host com o endereço IP 172.16.4.1 enviando um pacote multicast para o endereço IP do grupo multicast 224.10.10.5. Quando o switch recebe o pacote multicast, ele encaminha todas as portas para os outros hosts, impressoras e roteadores. No entanto, apenas dois hosts que são membros do endereço do grupo multicast, processarão os pacotes. Todos os outros hosts descartam o pacote.",
+    "_activityParentId": "63983807-497b-4d01-b218-48e9853ac5c1",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8b28b520-9a8a-47d8-a890-051dff8fa1b1",
+    "body": "<p><strong>Instruções:</strong></p><p>Clique em Iniciar para visualizar o endereço de IP de destino. Em seguida, clique no host ou hosts que receberão um pacote com base no tipo de endereço (unicast, broadcast ou multicast). Clique <strong>Verificar </strong> para verificar sua resposta. Clique <strong>Novo Problemar</strong> novamente para obter um novo problema.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.7 Atividade - Unicast, Broadcast ou Multicast",
+    "_oldId": "8b28b520-9a8a-47d8-a890-051dff8fa1b1",
+    "details": {
+      "a11y": {
+        "labels": {
+          "host1": "Host 192.168.100.1/24, 225.5.77.126 group",
+          "host2": "Host 192.168.100.2/24, 237.192.126.17 group",
+          "host3": "Host 192.168.100.3/24",
+          "host4": "Host 192.168.100.4/24, 237.192.126.17 group",
+          "host5": "Host 192.168.100.5/24, 225.5.77.126 group",
+          "host6": "Source Host"
+        },
+        "liveTexts": [
+          {
+            "name": "ipAddress_txt",
+            "label": "Destination IP address"
+          }
+        ]
+      },
+      "uuid": "2e281d50-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "unicast-broadcast-multicast-ia-ID_txt01--UUID",
+          "text": "<strong>Endereço IP Destino =<strong>"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-ID_txt02--UUID",
+          "text": "Host de origem"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-start--UUID",
+          "text": "Iniciar"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-newproblem--UUID",
+          "text": "Novo problema"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-check--UUID",
+          "text": "Verificar"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-cBroadcast--UUID",
+          "text": "Você identificou com êxito os endereços IP de destino da transmissão"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-iBroadcast--UUID",
+          "text": "Você não identificou com êxito os endereços IP de destino da transmissão"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-cMulticast--UUID",
+          "text": "Você identificou com êxito os endereços IP de destino multicast"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-iMulticast--UUID",
+          "text": "Você não identificou com êxito os endereços IP de destino multicast"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-cUnicast--UUID",
+          "text": "Identificado com êxito ou endereço IP de destino unicast"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-iUnicast--UUID",
+          "text": "Você não identificou com êxito o endereço IP de destino unicast"
+        },
+        {
+          "id": "unicast-broadcast-multicast-ia-group--UUID",
+          "text": "agrupar"
+        }
+      ],
+      "autoplay": true,
+      "importId": "unicast-broadcast-multicast-ia--UUID",
+      "messages": [
+        {
+          "title": "Correto",
+          "message": "Você identificou com êxito os endereços IP de destino da transmissão"
+        },
+        {
+          "title": "Correto",
+          "message": "Você identificou com êxito os endereços IP de destino multicast"
+        },
+        {
+          "title": "Correto",
+          "message": "Identificado com êxito ou endereço IP de destino unicast"
+        },
+        {
+          "title": "Incorreto",
+          "message": "Você não identificou com êxito os endereços IP de destino da transmissão"
+        },
+        {
+          "title": "Incorreto",
+          "message": "Você não identificou com êxito os endereços IP de destino multicast"
+        },
+        {
+          "title": "Incorreto",
+          "message": "Você não identificou com êxito o endereço IP de destino unicast"
+        }
+      ],
+      "stylesheet": "media/2e281d50-1c25-11ea-a010-eb2108469056/2e286b79-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "animateFile": "media/2e281d50-1c25-11ea-a010-eb2108469056/2e286b78-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "600/460",
+      "timelineClip": "anim01",
+      "animationName": "unicastbroadcastmulticastia",
+      "animationComposition": "120EA8A3322F024CBB7191C8D7C57EA7"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "6106a614-d756-4873-85b5-aa27b324b7c1",
+    "_component": "adobe-animate-ia",
+    "_isDeleted": false,
+    "_activityId": "3d300d1c-fbd1-4c31-8578-a9502321c4b6",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "6106a614-d756-4873-85b5-aa27b324b7c1",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "_activityParentId": "50c35d6a-0b94-4626-9f50-6ac0db285cb9",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "1d1d2606-fd17-474d-b09e-3769dc844773",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "1d1d2606-fd17-474d-b09e-3769dc844773",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "70d1b8e2-41bb-4365-acbc-dff1303773e6",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "51afd457-118a-4798-b1c3-0575864decd5",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "70d1b8e2-41bb-4365-acbc-dff1303773e6",
+    "displayTitle": "",
+    "_activityParentId": "76653906-3187-4ae4-91bd-b238782cc21d"
+  },
+  {
+    "_id": "29dc80de-d325-4581-a6d3-07ade7fd9860",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Tipos de endereços IPv4</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tipos de endereços IPv4",
+    "_oldId": "29dc80de-d325-4581-a6d3-07ade7fd9860",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a864f071-01c0-4a6e-8a37-5444a82f784d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b0321518-169d-4612-b5a2-0c91e9137f29",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a864f071-01c0-4a6e-8a37-5444a82f784d",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "a6d34898-2dfe-48cb-9e0a-2c67b60f4998",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ea722ba2-200d-49fb-adb6-8c56ff9b2920",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tipos de endereços IPv4",
+    "_oldId": "ea722ba2-200d-49fb-adb6-8c56ff9b2920",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bc890d46-66c2-4842-8713-0104e88ff311",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f3fb6908-dfd5-4093-bfdf-a612e02dee68",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bc890d46-66c2-4842-8713-0104e88ff311",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "d106e156-94e2-439d-8205-972fb01bdffe",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3bdb878a-c198-428a-8197-c4f7ff6ed9ac",
+    "body": "<p>Assim como existem diferentes maneiras de transmitir um pacote IPv4, existem também diferentes tipos de endereços IPv4. Alguns endereços IPv4 não podem ser usados para sair para a Internet, e outros são especificamente alocados para roteamento para a Internet. Alguns são usados para verificar uma conexão e outros são auto-atribuídos. Como administrador de rede, você acabará se familiarizando com os tipos de endereços IPv4, mas por enquanto, você deve pelo menos saber o que eles são e quando usá-los.</p><p>Endereços IPv4 públicos são endereços roteados globalmente entre os roteadores do provedor de serviços de Internet (ISP). No entanto, nem todos os endereços IPv4 disponíveis podem ser usados na Internet . Existem blocos de endereços (conhecidos como endereços privados) que são usados pela maioria das organizações para atribuir endereços IPv4 a hosts internos.</p><p>Em meados dos anos 90, com a introdução da World Wide Web (WWW), endereços IPv4 privados foram introduzidos devido ao esgotamento do espaço de endereços IPv4. Os endereços IPv4 privados não são exclusivos e podem ser usados internamente em qualquer rede.</p><p><strong>Observação</strong>: A solução a longo prazo para o esgotamento de endereços IPv4 foi o IPv6.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Endereço de rede e prefixo",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "RFC 1918 Intervalo de endereços privados",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "10.0.0.0/8",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "10.0.0.0 - 10.255.255.255",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "172.16.0.0/12",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "172.16.0.0 - 172.31.255.255",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "192.168.0.0/16",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "192.168.0.0 - 192.168.255.255",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Endereços IPv4 públicos e privados ",
+    "_oldId": "3bdb878a-c198-428a-8197-c4f7ff6ed9ac",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "0c976751-e30b-40bd-bace-d95e4d396abf",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "c18db614-04fa-45bc-93a0-5629fa90233d",
+    "_oldParentId": "0c976751-e30b-40bd-bace-d95e4d396abf",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "fa166e79-9e28-4229-bdbd-eb0222846886",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "21dbfc71-887a-41af-ab1b-7f97db25c24f",
+    "body": "<p><strong>Observação: </strong>Endereços privados são definidos no RFC 1918 e às vezes referido como espaço de endereço RFC 1918.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "21dbfc71-887a-41af-ab1b-7f97db25c24f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d767fab0-9f33-4268-b758-a4682a186985",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6228e6eb-ca0a-4c1b-971f-a413e4ece2bc",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d767fab0-9f33-4268-b758-a4682a186985",
+    "displayTitle": "",
+    "_activityParentId": "ae0ead30-2f07-4a64-8847-c04848bdfba2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2089e707-1ad0-4c34-a891-1ac97b3f4154",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "2089e707-1ad0-4c34-a891-1ac97b3f4154",
+    "_classes": "",
+    "_parentId": "c53916fa-d64d-4a32-81eb-75c3ac59e4d8",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "19e0190b-612f-4ec7-8cb7-02d36f906593",
+    "_isOptional": true,
+    "_oldParentId": "c53916fa-d64d-4a32-81eb-75c3ac59e4d8",
+    "_activityParentId": "f3711c95-6a98-41d2-9add-b0607fa8d071"
+  },
+  {
+    "_id": "d61ab370-c546-46c4-8fa4-ff94289a9fc9",
+    "body": "<p>A maioria das redes internas, de grandes empresas a redes domésticas, usa endereços IPv4 privados para endereçar todos os dispositivos internos (intranet), incluindo hosts e roteadores. No entanto, os endereços privados não são globalmente roteáveis.</p><p>Na figura, as redes de clientes 1, 2 e 3 estão enviando pacotes fora de suas redes internas. Esses pacotes têm um endereço IPv4 de origem que é um endereço privado e um endereço IPv4 de destino público (globalmente roteável). Os pacotes com um endereço privado devem ser filtrados (descartados) ou traduzidos para um endereço público antes de encaminhar o pacote para um ISP.</p><h3>Endereços IPv4 privados e Tradução de Endereços de Rede (NAT)</h3>",
+    "_type": "component",
+    "title": "Private IPv4 Addresses and Network Address Translation (NAT)",
+    "_oldId": "d61ab370-c546-46c4-8fa4-ff94289a9fc9",
+    "details": {
+      "uuid": "2e2cff50-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Esse pacote possui um endereço IPv4 de origem que é um endereço privado. Vou convertê-lo para um endereço IPv4 público usando NAT",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Rede 1",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Rede 2",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Rede 3",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e2cff50-1c25-11ea-a010-eb2108469056/2e2e10c0-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/490",
+      "primary_image": "media/2e2cff50-1c25-11ea-a010-eb2108469056/2e2e10c1-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f884e3dc-70b1-4ec9-9808-19ed33db1026",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "221ea926-e81a-4f9b-aa7a-d723824bf01b",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "f884e3dc-70b1-4ec9-9808-19ed33db1026",
+    "displayTitle": "Private IPv4 Addresses and Network Address Translation (NAT)",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é uma topologia de rede com três redes, cada uma conectada a um roteador ISP diferente. Os roteadores ISP estão executando NAT entre cada rede e a Internet.",
+    "_activityParentId": "23c6ab5f-4fb8-46d6-9c6a-a7cbe01b7ccc",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "04e59bc8-4e27-4246-b40b-6123be1ea03f",
+    "body": "<p>Antes que o ISP possa encaminhar esse pacote, ele deve traduzir o endereço IPv4 de origem, que é um endereço privado, para um endereço IPv4 público usando a Conversão de Endereços de Rede (NAT). O NAT é usado para converter entre endereços IPv4 privados e IPv4 públicos. Isso geralmente é feito no roteador que conecta a rede interna à rede ISP. Os endereços IPv4 privados na intranet da organização serão traduzidos para endereços IPv4 públicos antes do encaminhamento para a Internet.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "04e59bc8-4e27-4246-b40b-6123be1ea03f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aaad55b1-3b7d-497c-8575-16c3b1f53852",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3cb78185-96be-438f-9d3a-f5096361d703",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "aaad55b1-3b7d-497c-8575-16c3b1f53852",
+    "displayTitle": "",
+    "_activityParentId": "5f08e9ae-7cf0-403c-8d65-cfd6e4b636a2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d84fc853-51bb-47ec-88ee-a35b8d5c9aef",
+    "body": "<p>Instruções:</p><p>Decida passar ou bloquear cada endereço IP, dependendo de ser público (a Internet) ou privado (pequena rede local). Clique em Iniciar para começar e clique em Passar ou Bloquear.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Atividade - Passar ou bloquear endereços IPv4",
+    "_oldId": "d84fc853-51bb-47ec-88ee-a35b8d5c9aef",
+    "details": {
+      "a11y": {
+        "liveTexts": [
+          {
+            "name": "IpAddress_txt",
+            "label": "IP address"
+          },
+          {
+            "name": "score_txt",
+            "label": "Points"
+          }
+        ]
+      },
+      "uuid": "2e2e5ee0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "pass-or-block-ia-ID_txt03--UUID",
+          "text": "ISP"
+        },
+        {
+          "id": "pass-or-block-ia-ID_txt04--UUID",
+          "text": "Internet"
+        },
+        {
+          "id": "pass-or-block-ia-ID_txt02--UUID",
+          "text": "Pontos"
+        },
+        {
+          "id": "pass-or-block-ia-start--UUID",
+          "text": "Começar"
+        },
+        {
+          "id": "pass-or-block-ia-reset--UUID",
+          "text": "Repor"
+        },
+        {
+          "id": "pass-or-block-ia-block--UUID",
+          "text": "Bloquear"
+        },
+        {
+          "id": "pass-or-block-ia-pass--UUID",
+          "text": "Passe"
+        }
+      ],
+      "autoplay": true,
+      "importId": "pass-or-block-ia--UUID",
+      "stylesheet": "media/2e2e5ee0-1c25-11ea-a010-eb2108469056/2e2e85f7-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "animateFile": "media/2e2e5ee0-1c25-11ea-a010-eb2108469056/2e2e85f6-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "700/400",
+      "timelineClip": "packetAni_mc",
+      "animationName": "passorblockia",
+      "correctMessage": {
+        "title": "Correct",
+        "message": "You have successfully identified public and private IP addresses."
+      },
+      "incorrectMessage": {
+        "title": "Incorrect",
+        "message": "You have not successfully identified public and private IP addresses."
+      },
+      "animationComposition": "597E5E8DF63F6D458FDD682136506A3C"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f21e4658-9b8f-488c-aade-0f561e0a751e",
+    "_component": "adobe-animate-ia",
+    "_isDeleted": false,
+    "_activityId": "23f4da15-68f2-424b-82d7-cf1e446a26bc",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "f21e4658-9b8f-488c-aade-0f561e0a751e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "_activityParentId": "b5b1c60f-8f3f-4ae4-9ad7-18ed0304de0d",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "edc3ef56-9f79-4e8c-a46a-ddf8573b02d7",
+    "body": "<p>Existem determinados endereços, como o endereço de rede e o endereço de broadcast, que não podem ser atribuídos aos hosts. Há também endereços especiais que podem ser atribuídos a hosts, mas com restrições quanto ao modo como interagem na rede.</p><p><strong>Endereços de loopback</strong></p><p>Os endereços de loopback (127.0.0.0 / 8 ou 127.0.0.1 a 127.255.255.254) são comumente identificados apenas como 127.0.0.1. Eles são endereços especiais usados por um host para direcionar tráfego para ele mesmo Por exemplo, o comando <strong>ping</strong> é comumente usado para testar conexões com outros hosts. Mas você também pode usar o comando <strong>ping</strong> para testar a configuração de IP do seu próprio dispositivo, como mostrado na figura. </p> <strong>Observação:</strong> você aprenderá mais sobre o comando <strong>ping</strong> posteriormente neste curso.<h3>Ping na Interface Loopback</h3>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.4 Endereços IPv4 de Uso Especial",
+    "_oldId": "edc3ef56-9f79-4e8c-a46a-ddf8573b02d7",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "precode": [
+      {
+        "text": "C:&#x2216;Users&#x2216;NetAcad> ping 127.0.0.1"
+      },
+      {
+        "text": "Pinging 127.0.0.1 with 32 bytes of data:"
+      },
+      {
+        "text": "Reply from 127.0.0.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.0.0.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.0.0.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.0.0.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Ping statistics for 127.0.0.1:"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),"
+      },
+      {
+        "text": "Approximate round trip times in milli-seconds:"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Minimum = 0ms, Maximum = 0ms, Average = 0ms"
+      },
+      {
+        "text": "C:&#x2216;Users&#x2216;NetAcad> ping 127.1.1.1"
+      },
+      {
+        "text": "Pinging 127.1.1.1 with 32 bytes of data:"
+      },
+      {
+        "text": "Reply from 127.1.1.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.1.1.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.1.1.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Reply from 127.1.1.1: bytes=32 time<1ms TTL=128"
+      },
+      {
+        "text": "Ping statistics for 127.1.1.1:"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),"
+      },
+      {
+        "text": "Approximate round trip times in milli-seconds:"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;Minimum = 0ms, Maximum = 0ms, Average = 0ms"
+      },
+      {
+        "text": "C:&#x2216;Users&#x2216;NetAcad>"
+      }
+    ],
+    "_classes": "animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "22ce3306-859e-4baa-a1e4-5b19787bcce3",
+    "_component": "commandWindow",
+    "_isDeleted": false,
+    "_activityId": "149b51c6-714a-4dcd-861b-d9bf973846ae",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "22ce3306-859e-4baa-a1e4-5b19787bcce3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "ec4b8c96-694a-4690-9997-2f3eca58f2a4",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "5aa21c01-52e5-4992-a41f-d7fec2b1f45b",
+    "body": "<p><strong>Endereços locais de link</strong></p><p>Os endereços locais de link (169.254.0.0 / 16 ou 169.254.0.1 a 169.254.255.254) são mais conhecidos como endereços APIPA ( endereçamento IP privado automático ) ou endereços auto-atribuídos. Eles são usados por um cliente Windows para se autoconfigurar caso o cliente não consiga obter um endereçamento IP por outros métodos. Endereços de link local podem ser usados em uma conexão ponto a ponto, mas não são comumente usados para esse fim.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "5aa21c01-52e5-4992-a41f-d7fec2b1f45b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "072901e9-1c3b-4476-810f-cc8624a9079b",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "fc0da7d9-f6fd-44c0-a9a1-b764fa41ed49",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "072901e9-1c3b-4476-810f-cc8624a9079b",
+    "displayTitle": "",
+    "_activityParentId": "3c07cbc2-9a15-425e-b4c2-1616f7ac2d79",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d6658bd1-c8d4-407d-a037-441d2a11970c",
+    "body": "<p>Em 1981, os endereços IPv4 foram atribuídos usando o endereço classful, conforme definido na RFC 790 (<a href='https://datatracker.ietf.org/doc/html/rfc790' target='_blank'>https://tools.ietf.org/html/rfc790</a>), Números Atribuídos Os clientes receberam um endereço de rede com base em uma das três classes, A, B ou C. A RFC dividiu os intervalos de unicast em classes específicas da seguinte maneira:</p><p><ul><li><strong>Classe A (0.0.0.0/8 to 127.0.0.0/8)</strong> – Projetado para suportar redes extremamente grandes com mais de 16 milhões de endereços de host. A Classe A usou um prefixo fixo /8 com o primeiro octeto para indicar o endereço de rede e os três octetos restantes para endereços de host (mais de 16 milhões de endereços de host por rede).</li><li><strong>Classe B (128.0.0.0 / 16 - 191.255.0.0 / 16)</strong> - Projetada para oferecer suporte às necessidades de redes de tamanho moderado a grande com até aproximadamente 65.000 endereços de host. A Classe B usou um prefixo fixo /16 com os dois octetos de alta ordem para indicar o endereço de rede e os dois octetos restantes para endereços de host (mais de 65.000 endereços de host por rede).</li><li><strong>Classe C (192.0.0.0 / 24 - 223.255.255.0 / 24)</strong> - Projetado para oferecer suporte a pequenas redes com no máximo 254 hosts. A Classe C usou um prefixo fixo / 24 com os três primeiros octetos para indicar a rede e o octeto restante para os endereços de host (apenas 254 endereços de host por rede).</li></ul></p><p><strong>Observação: </strong>Há também um bloco multicast Classe D consistindo de 224.0.0.0 a 239.0.0.0 e um bloco de endereço experimental Classe E consistindo de 240.0.0.0 - 255.0.0.0.</p><p>Na época, com um número limitado de computadores usando a internet, o endereçamento clássico era um meio eficaz para alocar endereços. Como mostrado na figura, as redes de classe A e B têm um número muito grande de endereços de host e Classe C tem muito poucos. As redes de classe A representaram 50% das redes IPv4. Isso fez com que a maioria dos endereços IPv4 disponíveis não fossem utilizados.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.5 Endereçamento Classful Legado",
+    "_oldId": "d6658bd1-c8d4-407d-a037-441d2a11970c",
+    "details": {
+      "uuid": "2e2ed410-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Classes D e E<br />12,5%",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Classe A<br />50%",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Classe C<br />12,5%",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Classe B<br />25%",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Classe A",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Total de Redes: 128<br />Total de Hosts/Redes:\t16.777.214",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Classe B",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "Total de redes: 16.384<br />Total de hosts/redes: 65.534",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "Classe C",
+          "class": "ID_txt11"
+        },
+        {
+          "text": "Total de Redes: 2,097,152<br />Total de Hosts/Redes:\t254",
+          "class": "ID_txt12"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e2ed410-1c25-11ea-a010-eb2108469056/2e2ed414-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "609/362",
+      "primary_image": "media/2e2ed410-1c25-11ea-a010-eb2108469056/2e2ed415-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_classes": "anchor-text-color",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "a66ee44f-75ec-4ec2-9084-68a066d0762d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f1041f70-2b26-4fbe-8a47-e2d04f7135fc",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "a66ee44f-75ec-4ec2-9084-68a066d0762d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é um gráfico de pizza que mostra a porcentagem de endereçamento IPv4 de classe A, B, C, D e E com o número total de redes e hosts por redes de classe A, B e C. As percentagens são: classe A = 50%, classe B = 25%, classe C = 12,5% e classe D e E = 12,5%. Para o número total de redes e número total de hosts por rede: classe A = 128 redes com 16.777.214 hosts totais por rede; classe B = 16.384 redes com 65.534 hosts totais por rede; e classe C = 2.097.152 redes com 254 hosts totais por rede.",
+    "_activityParentId": "8f01261c-cb78-48c8-8862-600603d66047",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true
+  },
+  {
+    "_id": "4400014b-285b-4e3f-8e71-9e4cbaab1c4d",
+    "body": "<p>Em meados da década de 1990, com a introdução da World Wide Web (WWW), o endereçamento clássico foi obsoleto para alocar de forma mais eficiente o espaço de endereços IPv4 limitado. A alocação de endereço de classe foi substituída por endereçamento sem classe, que é usado hoje. O endereçamento sem classe ignora as regras das classes (A, B, C). Endereços de rede IPv4 públicos (endereços de rede e máscaras de sub-rede) são alocados com base no número de endereços que podem ser justificados.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "4400014b-285b-4e3f-8e71-9e4cbaab1c4d",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fdbcecae-1b5e-4085-b6c6-4e5336584bd2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1c2af1ae-9ed0-4819-8e49-96580fcffa07",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fdbcecae-1b5e-4085-b6c6-4e5336584bd2",
+    "displayTitle": "",
+    "_activityParentId": "2e3b3f8c-e5cb-4e32-8ad4-66f27dc310f2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3e042704-de5a-476e-9134-e2d6d0ba945b",
+    "body": "<p>Endereços IPv4 públicos são endereços roteados globalmente pela Internet. Endereços IPv4 públicos devem ser exclusivos.</p><p>Os endereços IPv4 e IPv6 são gerenciados pela IANA (Internet Assigned Numbers Authority). A IANA gerencia e aloca blocos de endereços IP aos registros regionais de Internet (RIRs). Os cinco RIRs são mostrados na figura.</p><p>Os RIRs são responsáveis por alocar endereços IP aos ISPs que fornecem blocos de endereços IPv4 para organizações e ISPs menores. As organizações também podem obter seus endereços diretamente de um RIR (sujeito às políticas desse RIR).</p><p><h3>Registros Regionais da Internet</h3></p>",
+    "_type": "component",
+    "title": "Regional Internet Registries",
+    "_oldId": "3e042704-de5a-476e-9134-e2d6d0ba945b",
+    "details": {
+      "uuid": "2e2f2230-1c25-11ea-a010-eb2108469056",
+      "texts": [],
+      "images": [
+        {
+          "url": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f2234-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "logo-arin-UUID"
+        },
+        {
+          "url": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f2235-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "logo-ripencc-UUID"
+        },
+        {
+          "url": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f2236-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "logo-lagnic-UUID"
+        },
+        {
+          "url": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f2237-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "logo-afrinic-UUID"
+        },
+        {
+          "url": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f4940-1c25-11ea-81a0-ffc2c49b96bc.jpg",
+          "class": "logo-apnic-UUID"
+        }
+      ],
+      "caption": "<ul>\n<li>&lt;strong&gt;AfriNIC&lt;/strong&gt; (Centro de Informação de Redes Africanas) - Região da África</li>\n<li>&lt;strong&gt;APNIC&lt;/strong&gt; (Centro de informações de redes da Ásia-Pacífico) - Região Ásia/Pacífico</li>\n<li>&lt;strong&gt;ARIN&lt;/strong&gt; (Registro Americano de Números da Internet) - Região da América do Norte</li>\n<li>&lt;strong&gt;LACNIC&lt;/strong&gt; (Registro regional de endereços IP da América Latina e do Caribe) - América Latina e algumas ilhas do Caribe</li>\n<li>&lt;strong&gt;RIPE NCC&lt;/strong&gt; (Centro de coordenação da rede Réseaux IP Européens) - Europa, Oriente Médio e Ásia Central</li>\n</ul>\n",
+      "imageStack": "beforeend",
+      "stylesheet": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f2233-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "600/280",
+      "primary_image": "media/2e2f2230-1c25-11ea-a010-eb2108469056/2e2f4941-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "09ce67ff-c444-424a-add5-026271d1db50",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f235c373-a51a-4962-b6fd-24ebe564d97e",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "09ce67ff-c444-424a-add5-026271d1db50",
+    "displayTitle": "Regional Internet Registries",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "This figure shows the geographic locations of the Reginal Internet Registries (RIR). The regions governed by each RIR are as follows:  AfriNIC (African Network Information Center) - serving the Africa Region, APNIC (Asia Pacific Network Information Centre) - serving the Asia/Pacific Region, ARIN (American Registry for Internet Numbers) - serving the North America Region, LACNIC (Regional Latin-American and Caribbean IP Address Registy) - serving Latin America and some Caribbean Islands, and RIPE NCC (Reseaux IP Europeens Network Coordination Centre) - serving Europe, the Middle East, and Central Asia.",
+    "_activityParentId": "fafa703e-e0d7-4f9f-882c-b1a9673baa00",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "a7213593-7113-4215-b14c-4faf9835c93a",
+    "body": "<p><ul><li><strong>AfriNIC</strong>(Centro de Informação de Redes Africanas) - Região da África</li> <li><strong>APNIC</strong>(Centro de informações de redes da Ásia-Pacífico) - Região Ásia/Pacífico</li> <li><strong>ARIN</strong>(Registro Americano de Números da Internet) - Região da América do Norte</li> <li><strong>LACNIC</strong>(Registro regional de endereços IP da América Latina e do Caribe) - América Latina e algumas ilhas do Caribe</li> <li><strong>RIPE NCC</strong>(Centro de coordenação da rede Réseaux IP Européens) - Europa, Oriente Médio e Ásia Central</li></ul></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.5 Endereços IPv4 públicos e privados",
+    "_oldId": "a7213593-7113-4215-b14c-4faf9835c93a",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b7d1955a-cbdb-45e5-82a8-477a7ba42228",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "aa3f1368-58ed-40bf-9168-437b7d3c5452",
+    "_isOptional": true,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": false,
+    "_oldParentId": "b7d1955a-cbdb-45e5-82a8-477a7ba42228",
+    "displayTitle": "",
+    "_activityParentId": "c7be1293-135c-46d8-bd5f-ea77ec82c1ae",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "74660d755a364bfca581f7105424db46",
+    "body": "<p><strong>Instruções:</strong></p> <p>Clique em Público ou Privado abaixo de cada endereço para escolher o tipo de rede correta.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.7 Atividade - Endereço IPv4 público ou privado",
+    "_items": [
+      {
+        "text": "172.16.35.2",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": false
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "192.168.3.5",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": false
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "192.0.3.15",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": true
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "64.104.0.22",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": true
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "209.165.201.30",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": true
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "192.168.11.5",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": false
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "172.16.30.30",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": false
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": true
+          }
+        ]
+      },
+      {
+        "text": "10.55.3.168",
+        "_options": [
+          {
+            "text": "Pública",
+            "_isCorrect": false
+          },
+          {
+            "text": "Privada",
+            "_isCorrect": true
+          }
+        ]
+      }
+    ],
+    "_oldId": "74660d755a364bfca581f7105424db46",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_comment": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está correto!</p> <p>Você identificou corretamente todos os endereços IP.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo!</p><p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "animated fadeIn slower",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1418c1b7-0558-46d0-98cc-a436232d6a72",
+    "_component": "matching",
+    "_isDeleted": false,
+    "_activityId": "929dc1ea-c2c9-43f6-aa71-09cc971622df",
+    "_isOptional": false,
+    "instruction": "",
+    "placeholder": "Selecione uma opção",
+    "_healthGauge": {
+      "title": "Correspondência de tipo de endereço",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1418c1b7-0558-46d0-98cc-a436232d6a72",
+    "displayTitle": "",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "74660d755a364bfca581f7105424db46",
+    "_activityParentId": "371eaa3d-5584-45e9-843b-136631651b43",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_shouldResetAllAnswers": true
+  },
+  {
+    "_id": "def4fc85faf44935ba5fa05ec1729eab",
+    "body": "<p>Quais duas afirmações estão corretas sobre endereços IPv4 privados?</p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Endereços IPv4 privados são atribuídos a dispositivos dentro da intranet de uma organização (rede interna).",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Os roteadores de Internet normalmente encaminharão qualquer pacote com um endereço de destino que seja um endereço IPv4 privado.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.99.1.1 é um endereço IPv4 privado.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Qualquer organização (casa, escola, escritório, empresa) pode usar o endereço 10.0.0.0/8.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "def4fc85faf44935ba5fa05ec1729eab",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Endereços IPv4 privados são atribuídos a dispositivos dentro da intranet de uma organização (rede interna) e qualquer organização (casa, escola, escritório, empresa) pode usar o endereço 10.0.0.0/8.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Endereços IPv4 privados são atribuídos a dispositivos dentro da intranet de uma organização (rede interna) e qualquer organização (casa, escola, escritório, empresa) pode usar o endereço 10.0.0.0/8.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "0ad68fd8-33f8-451f-b2d8-cf8e39d6f251",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "0bff36ef-e31d-4869-8dcd-7db89f41e184",
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereços IPv4 privados",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "0ad68fd8-33f8-451f-b2d8-cf8e39d6f251",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "def4fc85faf44935ba5fa05ec1729eab",
+    "_activityParentId": "bc859b44-1e75-48c4-87b8-5e076fafc077",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "8894e70074b34abb95f771d08a92d382",
+    "body": "<p>Quais duas afirmações estão corretas sobre endereços IPv4 privados? (Escolha duas)</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Endereços IPv4 públicos podem ser atribuídos a dispositivos na intranet de uma organização (rede interna).",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Para acessar um dispositivo pela Internet, o endereço IPv4 de destino deve ser um endereço público.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.1.10 é um endereço IPv4 público.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O esgotamento do endereço IPv4 público é uma razão pela qual existem endereços IPv4 privados e por que as organizações estão fazendo a transição para o IPv6.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "8894e70074b34abb95f771d08a92d382",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Para acessar um dispositivo pela Internet, o endereço IPv4 de destino deve ser um endereço público. O esgotamento do endereço IPv4 público é uma razão pela qual existem endereços IPv4 privados e por que as organizações estão fazendo a transição para o IPv6.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Para acessar um dispositivo pela Internet, o endereço IPv4 de destino deve ser um endereço público. O esgotamento do endereço IPv4 público é uma razão pela qual existem endereços IPv4 privados e por que as organizações estão fazendo a transição para o IPv6.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "465c7d0d-e3eb-45b4-acbd-5b12f1c11589",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "2bcc3aae-969b-417e-b172-1c597bf5e143",
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereços IPv4 públicos",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "465c7d0d-e3eb-45b4-acbd-5b12f1c11589",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "8894e70074b34abb95f771d08a92d382",
+    "_activityParentId": "0517c0bb-cded-4290-8d74-8c8b41cbcb88",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "96e6606e04904d758b76007cabc2f880",
+    "body": "<p>Qual organização ou grupo de organizações recebe endereços IP da IANA e é responsável por alocar esses endereços para ISPs e algumas organizações?</p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "IETF",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "IEEE",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "RIR",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "ISPs de nível 1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "96e6606e04904d758b76007cabc2f880",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Os RIRs recebem endereços IP da IANA e são responsáveis por alocar esses endereços para ISPs e algumas outras organizações.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Os RIRs recebem endereços IP da IANA e são responsáveis por alocar esses endereços para ISPs e algumas outras organizações.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "db66109e-e65c-42c7-95fa-2f61ec114d2f",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "90cf93a3-6163-40d9-a301-5d247b2145c9",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Alocação de endereço IP",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "db66109e-e65c-42c7-95fa-2f61ec114d2f",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "96e6606e04904d758b76007cabc2f880",
+    "_activityParentId": "6327169b-6301-45ec-8eb1-68f25e2edd48",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "62c1d967-55fa-49da-9773-c08c9689012f",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "62c1d967-55fa-49da-9773-c08c9689012f",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "ea7e0d5d-9cf6-4930-a682-ac4559497138",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "e7c5fccc-6a39-4b9f-a363-a39186bda775",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "ea7e0d5d-9cf6-4930-a682-ac4559497138",
+    "displayTitle": "",
+    "_activityParentId": "682d62bc-90dc-48e4-8548-65f4b9029999"
+  },
+  {
+    "_id": "5e6be007-41cd-45a0-82b4-601bf9f9bc0b",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Segmentação de Rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Segmentação de Rede",
+    "_oldId": "5e6be007-41cd-45a0-82b4-601bf9f9bc0b",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "15b2b384-0ff2-4b4d-96e7-9ffccadbd633",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e95694e4-bbe4-45a6-bfae-a172026e3c6d",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "15b2b384-0ff2-4b4d-96e7-9ffccadbd633",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "d46f2ce0-411c-48bf-b3f0-4088d6bb12f2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "047ea1d4-c5c5-4149-b4d9-3c34372c2a08",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Segmentação de Rede",
+    "_oldId": "047ea1d4-c5c5-4149-b4d9-3c34372c2a08",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c3fa3785-f835-4701-9bdd-40180c537ba5",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1173def2-8441-4a76-9ebc-0175e1599c73",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c3fa3785-f835-4701-9bdd-40180c537ba5",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "f11deed6-b3b1-4afd-bc9e-f7f558f4178f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e29927bf-a6a9-411c-8561-8183a6864c73",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 Vídeo - Segmentação de Rede",
+    "_oldId": "e29927bf-a6a9-411c-8561-8183a6864c73",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6298728564001",
+    "videoIds": [
+      "28030fdd-ea40-4c61-bbb4-d968a82f905d"
+    ],
+    "_parentId": "35322830-ce74-4116-a433-ba97fb83b697",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "e04809d9-b765-4a9c-afbd-dda6e41a9f7c",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "35322830-ce74-4116-a433-ba97fb83b697",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "2ddcee9c-74ef-4aec-bbca-611ce516a368",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "9571abe8-14c5-46b1-b793-8173a8236e33",
+    "body": "<p>Você já recebeu um e-mail que foi endereçado a todas as pessoas do seu trabalho ou escola? Este foi um e-mail de transmissão. Felizmente continha informações que cada um de vocês precisava saber. Mas muitas vezes uma transmissão não é realmente pertinente para todos na lista de discussão. Às vezes, apenas um segmento da população precisa ler essa informação.</p><p>Em uma LAN Ethernet, os dispositivos usam broadcast e o Protocolo de Resolução de Endereços (ARP) para localizar outros dispositivos. O ARP envia broadcasts dea Camada 2 para um endereço IPv4 conhecido na rede local para descobrir o endereço MAC associado. Os dispositivos em LANs Ethernet também localizam outros dispositivos usando serviços.  Um host normalmente adquire sua configuração de endereço IPv4 usando o protocolo DHCP (Dynamic Host Configuration Protocol) que envia broadcasts na rede local para localizar um servidor DHCP.</p><p>Os switches propagam broadcasts por todas as interfaces, exceto a interface em que foram recebidos. Por exemplo, se um switch na figura recebesse um broadcast, ele o encaminharia para os outros switches e os outros usuários conectados na rede.</p><h3>Roteadores segmentam domínios de broadcast</h3>",
+    "_type": "component",
+    "title": "Domínios de transmissão de segmentos de roteadores",
+    "_oldId": "9571abe8-14c5-46b1-b793-8173a8236e33",
+    "details": {
+      "uuid": "2e300c90-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Domínio de Broadcast",
+          "class": "ID_txt01"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e300c90-1c25-11ea-a010-eb2108469056/2e3033a1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "440/264",
+      "primary_image": "media/2e300c90-1c25-11ea-a010-eb2108469056/2e3033a2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "5c5b3a19-46cf-4bf1-92f7-8f0814449d1d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "8239e7e1-879a-4cfc-aca1-22bd0e5c4a0a",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "5c5b3a19-46cf-4bf1-92f7-8f0814449d1d",
+    "displayTitle": "Domínios de transmissão de segmentos de roteadores",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Um roteador, R1, está conectado a um switch via interface G0/0. O switch possui conexões com outros três switches. O domínio de broadcast consiste nos quatro switches e na interface do roteador à qual eles estão conectados. Uma conexão do roteador à Internet não está dentro do domínio de broacast.",
+    "_activityParentId": "9fa14a2e-08d9-40ec-a259-b7960dee3cc6",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "af885b68-31f3-4f95-9493-73305397e19a",
+    "body": "<p>Roteadores não propagam broadcasts. Quando um roteador recebe um broadcast, ele não o encaminha por outras interfaces. Por exemplo, quando R1 recebe um broadcast na interface Gigabit Ethernet 0/0, ele não o encaminha por outra interface.</p><p>Portanto, cada interface do roteador se conecta a um domínio de broadcast e as transmissões são propagadas apenas dentro desse domínio de broadcast específico.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "af885b68-31f3-4f95-9493-73305397e19a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "62a1a371-cc9f-459c-804d-ad222bfdbb57",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "334ed3de-13ab-4b11-87d0-0f41598a7e39",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "62a1a371-cc9f-459c-804d-ad222bfdbb57",
+    "displayTitle": "",
+    "_activityParentId": "a8facea4-e6e3-429b-8c15-96dc530feb16",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3eb77b33-f067-4c58-bc0c-ca09d8d1c093",
+    "body": "<p>Um grande domínio de broadcast é uma rede que conecta vários hosts. Um problema desse tipo de domínio é que os hosts podem gerar broadcasts em excesso e afetar a rede de forma negativa. Na figura, a LAN 1 conecta 400 usuários que podem gerar uma quantidade excessiva de tráfego de broadcast. Isso resulta em operações de rede lentas devido à quantidade significativa de tráfego que pode causar e operações de dispositivo lentas porque um dispositivo deve aceitar e processar cada pacote de difusão.</p><h3>Um Domínio de Broadcast Grande</h3>",
+    "_type": "component",
+    "title": "Um Domínio de Broadcast Grande",
+    "_oldId": "3eb77b33-f067-4c58-bc0c-ca09d8d1c093",
+    "details": {
+      "uuid": "2e305ab0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "(400 usuários)",
+          "class": "ID_txt01"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e305ab0-1c25-11ea-a010-eb2108469056/2e305ab3-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "500/300",
+      "primary_image": "media/2e305ab0-1c25-11ea-a010-eb2108469056/2e305ab4-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "9bced561-275f-4085-92c3-dd4af20864d8",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "a9653b57-4f7d-4b88-9a03-502c689763e4",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "9bced561-275f-4085-92c3-dd4af20864d8",
+    "displayTitle": "Um Domínio de Broadcast Grande",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Um roteador, R1, está conectado a um switch via interface G0/0. O switch possui conexões com outros três switches. O domínio de broadcast consiste nos quatro switches e na interface do roteador à qual eles estão conectados. Isso é identificado como LAN1 com um endereço de 172.16.0.0/16. Uma conexão do roteador à Internet não está dentro do domínio de broacast.",
+    "_activityParentId": "7a861193-5966-45d0-b360-9a20347ac8ff",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "920129ca-5209-4f10-a22b-958425b25ddc",
+    "body": "<p>A solução é reduzir o tamanho da rede para criar domínios de broadcast menores em um processo denominado divisão em sub-redes. Os espaços de rede menores são chamados de sub-redes.</p><p>Na figura, os 400 usuários da LAN 1 com endereço de rede 172.16.0.0/16 foram divididos em duas sub-redes de 200 usuários cada: 172.16.0.0/24 e 172.16.1.0/24. Os broadcasts são propagados apenas dentro dos domínios de broadcast menores. Portanto, um broadcast em LAN 1 não se propagaria para LAN 2.</p><h3>Comunicação entre Redes</h3>",
+    "_type": "component",
+    "title": "Comunicação entre Redes",
+    "_oldId": "920129ca-5209-4f10-a22b-958425b25ddc",
+    "details": {
+      "uuid": "2e305ab1-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "(200 usuários)",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "(200 usuários)",
+          "class": "ID_txt03"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e305ab1-1c25-11ea-a010-eb2108469056/2e3081c1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "488/232",
+      "primary_image": "media/2e305ab1-1c25-11ea-a010-eb2108469056/2e3081c2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "c5956859-beca-414c-b0a7-ca38ac1aea93",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "3b719f31-d1be-4c93-bde2-23ddfb448f01",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "c5956859-beca-414c-b0a7-ca38ac1aea93",
+    "displayTitle": "Comunicação entre Redes",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Um roteador, R1, está conectado a duas LANs que representam dois domínios de difusão diferentes. Conectado à esquerda via G0/0 é um switch que suporta 200 usuários em LAN 1 com um endereço de rede de 172.16.0.0/24. Conectado à direita via G0/1 é um switch que suporta 200 usuários em LAN 2 com um endereço de rede de 172.16.1.0/24.",
+    "_activityParentId": "16aa3674-cb31-444e-8617-f0d687d1ca30",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "4b330fd6-a820-4a70-9851-b7f412d66e9a",
+    "body": "<p>Observe como o comprimento do prefixo mudou de /16 para /24. Esta é a base da divisão em sub-redes: usar bits de host para criar sub-redes adicionais.</p><p><strong>Observação</strong>: os termos sub-rede e rede costumam ser usados de maneira intercambiável. A maioria das redes são uma sub-rede de um bloco de endereços maior.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "4b330fd6-a820-4a70-9851-b7f412d66e9a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fca3f34c-1c36-4455-9e21-d65b41724139",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3c027423-264b-4489-b47c-46c705a418d7",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fca3f34c-1c36-4455-9e21-d65b41724139",
+    "displayTitle": "",
+    "_activityParentId": "9a045d11-7158-4c79-bc61-c519b179d987",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b9508428-d5be-4049-bd00-8fbe3af253c5",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "b9508428-d5be-4049-bd00-8fbe3af253c5",
+    "_classes": "",
+    "_parentId": "e0a59666-3f11-4201-9f84-b7a5fbecb13d",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "2a5ec83c-2eab-45ec-92ec-6e23c1340a88",
+    "_isOptional": true,
+    "_oldParentId": "e0a59666-3f11-4201-9f84-b7a5fbecb13d",
+    "_activityParentId": "4b868071-1016-4e86-a774-d6809590ddab"
+  },
+  {
+    "_id": "8cd9613a-d396-42bc-8b0d-db397c13b28c",
+    "body": "<p>A divisão em sub-redes reduz o tráfego total da rede e melhora seu desempenho. Além disso, permite que o administrador implemente políticas de segurança como, por exemplo, quais sub-redes podem ou não se comunicar com quais sub-redes. Outra razão é que reduz o número de dispositivos afetados pelo tráfego anormal de transmissão devido a configurações incorretas, problemas de hardware/software ou intenção mal-intencionada.</p><p>Há várias maneiras de usar sub-redes para gerenciar dispositivos de rede.</p><p><strong>Clique em cada imagem para obter uma ilustração de como os administradores de rede podem agrupar dispositivos e serviços em sub-redes.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.4 Razões para Segmentar Redes",
+    "_items": [
+      {
+        "body": "<p>Divisão em Sub-Redes por Local</p>",
+        "title": "Localização",
+        "_comment": "Classes suportadas = 'align-image-left' | 'align-image-right'. Classes adicionais podem ser usadas mas devem ser predefinidas em um dos arquivos Less",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "37450257-a6c0-48b4-a821-54f72f473d3f"
+        }
+      },
+      {
+        "body": "<p>Sub-redes por grupo ou função</p>",
+        "title": "Grupo ou Função",
+        "_comment": "Classes suportadas ='align-image-left' | 'align-image-right'. Classes adicionais podem ser usadas mas devem ser predefinidas em um dos arquivos Less",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "8f41c218-dcc2-4b5f-ad2a-0ff157583551"
+        }
+      },
+      {
+        "body": "<p>Divisão em sub-Redes por Tipo de Dispositivo</p>",
+        "title": "Tipo de dispositivo",
+        "_comment": "Classes suportadas ='align-image-left' | 'align-image-right'. Classes adicionais podem ser usadas mas devem ser predefinidas em um dos arquivos Less",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "3e69ba02-1212-4040-935b-ab5b0ecf7297"
+        }
+      }
+    ],
+    "_oldId": "8cd9613a-d396-42bc-8b0d-db397c13b28c",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "setCompletionOn = inview | allItems",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "2a96c844-658d-4fce-9d80-22a410cc1beb",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "95ea4af3-6c77-42de-b885-07bd02ad1444",
+    "_oldParentId": "2a96c844-658d-4fce-9d80-22a410cc1beb",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "0b900abd-365a-4279-9fb2-945367e1f377",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "b758af76-84a3-4e08-8bb0-3142268224b6",
+    "body": "<p>Os administradores de rede podem criar sub-redes usando qualquer outra divisão que faça sentido para a rede. Observe nas figuras que as sub-redes usam comprimentos de prefixo para identificar redes.</p><p>É fundamental que todos os administradores de redes entendam a divisão da rede em sub-redes. Vários métodos foram criados para ajudar a entender esse processo. Embora um pouco esmagador a princípio, preste muita atenção aos detalhes e, com a prática, a sub-rede se tornará mais fácil.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "b758af76-84a3-4e08-8bb0-3142268224b6",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d1be90de-b101-4b20-82b7-296df0472560",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7cd0396e-0fbe-4cbf-9663-338fdad0adbf",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d1be90de-b101-4b20-82b7-296df0472560",
+    "displayTitle": "",
+    "_activityParentId": "57557895-5b10-44a1-8895-5ed0ae414874",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "37450257-a6c0-48b4-a821-54f72f473d3f",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Accordion with ID: 9779c4792e904e849bdf5f7d7fc5452f",
+    "_oldId": "37450257-a6c0-48b4-a821-54f72f473d3f",
+    "details": {
+      "uuid": "2e30a8d1-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>LAN 5: 10.0.5.0 /24</strong>(Quinto andar)",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "<strong>LAN 4: 10.0.4.0 /24</strong> (Quarto andar)",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "<strong>LAN 3: 10.0.3.0 /24</strong> (Terceiro andar)",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "<strong>LAN 2: 10.0.2.0 /24</strong> (Segundo andar)",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "<strong>LAN 1: 10.0.1.0 /24</strong> (Primeiro andar)",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e30a8d1-1c25-11ea-a010-eb2108469056/2e30a8d4-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "750/325",
+      "primary_image": "media/2e30a8d1-1c25-11ea-a010-eb2108469056/2e30a8d5-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "8c288087-a95c-4e25-8d45-e5d60038cd1d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "657616c9-411f-4388-bd43-cc2ae0266a3c",
+    "_oldParentId": "8c288087-a95c-4e25-8d45-e5d60038cd1d",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "O diagrama mostra um edifício de cinco andares com um interruptor em cada andar.  Cada switch está em uma LAN / sub-rede diferente com um endereço de rede diferente, todos conectados ao mesmo roteador, R1, através de uma interface Ethernet de gigabit diferente. As seguintes sub-redes são mostradas do primeiro ao quinto andar: LAN 1 tem um endereço de rede 10.0.1.0/24 e está conectada ao G0/0; LAN 2 tem um endereço de rede 10.0.2.0/24 e está conectada ao G0/1; LAN 3 tem um endereço de rede 10.0.3.0/24 e está conectada ao G0/2; LAN 4 tem um endereço de rede 10.0.4.0/ 24 e está conectado ao G0/3; e LAN 5 tem um endereço de rede de 10.0.5.0/24 e está conectado ao G0/4. R1 também tem uma conexão com a Internet.",
+    "_activityParentId": "4ef7dd21-6ece-4489-8e9f-9a2c16404106",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8f41c218-dcc2-4b5f-ad2a-0ff157583551",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Accordion with ID: 9779c4792e904e849bdf5f7d7fc5452f",
+    "_oldId": "8f41c218-dcc2-4b5f-ad2a-0ff157583551",
+    "details": {
+      "uuid": "2e30cfe0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>Administração</strong><br />LAN 1: 10.0.<span class='redcolor'>1</span>.0 /24",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "<strong>Recursos humanos</strong><br />LAN 3: 10.0.<span class='redcolor'>3</span>.0 /24",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "<strong>Alunos</strong><br />LAN 2: 10.0.<span class='redcolor'>2</span>.0 /24",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "<strong>Contabilidade</strong><br />LAN 4: 10.0.<span class='redcolor'>4</span>.0 /24",
+          "class": "ID_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e30cfe0-1c25-11ea-a010-eb2108469056/2e30cfe5-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "700/325",
+      "primary_image": "media/2e30cfe0-1c25-11ea-a010-eb2108469056/2e30cfe6-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "c1edb635-91e8-45be-959c-16e202b4b513",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "142dce15-ac36-4d6b-a346-785730680136",
+    "_oldParentId": "c1edb635-91e8-45be-959c-16e202b4b513",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "O diagrama mostra um roteador, R1, conectando quatro LANs/sub-redes juntas que foram atribuídas de acordo com o grupo de funcionários. A sub-rede de administração, LAN 1 no endereço 10.0.1.0/24, está conectada ao G0/0. A sub-rede estudantil, LAN 2 no endereço 10.0.2.0/24, está conectada ao G0/1. A sub-rede de recursos humanos, LAN 3 no endereço 10.0.3.0/24, está conectada ao G0/3. A sub-rede de contabilidade, LAN 4 no endereço 10.0.4.0/24, está conectada ao G0/2. R1 também tem uma conexão com a Internet.",
+    "_activityParentId": "d1e756a4-95b3-4549-80cc-2935366758c2",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "3e69ba02-1212-4040-935b-ab5b0ecf7297",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Accordion with ID: 9779c4792e904e849bdf5f7d7fc5452f",
+    "_oldId": "3e69ba02-1212-4040-935b-ab5b0ecf7297",
+    "details": {
+      "uuid": "2e30f6f0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>LAN 1:10.0.<span class='redcolor'>1</span>.0 /24</strong><br />(Todos os hosts)",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "<strong>LAN 3:10.0.<span class='redcolor'>3</span>.0 /24</strong><br />(Todos os servidores)",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "<strong>LAN 2:10.0.<span class='redcolor'>2</span>.0 /24</strong><br />(Todas as impressoras)",
+          "class": "ID_txt04"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e30f6f0-1c25-11ea-a010-eb2108469056/2e30f6f6-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "700/325",
+      "primary_image": "media/2e30f6f0-1c25-11ea-a010-eb2108469056/2e30f6f7-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "ff6ec49b-11f0-4d69-bc8d-8e0a71485d3e",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "8467a505-a371-47ba-8115-c8c4a0c9a014",
+    "_oldParentId": "ff6ec49b-11f0-4d69-bc8d-8e0a71485d3e",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "O diagrama mostra um roteador, R1, conectando três LANs/sub-redes juntas que foram atribuídas de acordo com o tipo de dispositivo. A LAN 1 no endereço 10.0.1.0/24 está conectada ao G0/0 e inclui todos os hosts. A LAN 2 no endereço 10.0.2.0/24 está conectada ao G0/1 e inclui todas as impressoras. A LAN 3 no endereço 10.0.3.0/24 está conectada ao G0/2 e inclui todos os servidores. R1 também tem uma conexão com a Internet.",
+    "_activityParentId": "a1c8bcfe-304d-4219-9afc-53d2e5efb11b",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "2e4874fc764646c3a89a2535add2494f",
+    "body": "<p>Quais dispositivos não encaminharão um pacote de difusão IPv4 por padrão?</p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Switch Ethernet",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "roteador",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "PC com Windows",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Nenhuma das alternativas acima Todos os dispositivos encaminha pacotes de difusão IPv4 por padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2e4874fc764646c3a89a2535add2494f",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Por padrão, os roteadores não encaminham um pacote de transmissão IPv4.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Por padrão, os roteadores não encaminham um pacote de transmissão IPv4.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_parentId": "53b87af1-5cfd-4a8b-8051-55967e8408e0",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "91ec78c6-d7a5-4c7b-a9d9-0cca7c732774",
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Encaminhamento de pacote IPv4",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "53b87af1-5cfd-4a8b-8051-55967e8408e0",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "2e4874fc764646c3a89a2535add2494f",
+    "_activityParentId": "f2f135ff-8849-4ca8-a2fb-4b83fab8264c",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "9925e15a596e4ac4a7d312191a7bcb0a",
+    "body": "<p>Quais duas situações são o resultado de tráfego excessivo de transmissão? (Escolha duas)</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "operações de rede lentas",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "operações de dispositivos lentas",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "quando os dispositivos em todas as redes adjacentes são afetados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "quando o roteador tem que encaminhar um número excessivo de pacotes",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "9925e15a596e4ac4a7d312191a7bcb0a",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Redefinir"
+      },
+      "_submit": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Enviar"
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": "Mostrar feedback"
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Minha resposta"
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": "Resposta correta"
+      },
+      "remainingAttemptText": "tentativa final",
+      "remainingAttemptsText": "Tentativas restantes"
+    },
+    "_classes": "",
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Operações de rede lentas e operações lentas de dispositivos são o resultado de tráfego broadcast excessivo .</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Operações de rede lentas e operações lentas de dispositivos são o resultado de tráfego broadcast excessivo .</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_parentId": "3fbb6727-f3cc-472c-b41d-53eb51536647",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "0d5c887a-ec32-4871-84d4-47dcd4e9d450",
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Tráfego de Broadcast Excessivo",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_oldParentId": "3fbb6727-f3cc-472c-b41d-53eb51536647",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "9925e15a596e4ac4a7d312191a7bcb0a",
+    "_activityParentId": "b284dfd3-06dc-4936-9abd-4178486cca75",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "4856f170-5de4-459d-b163-529a83c42a8c",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "4856f170-5de4-459d-b163-529a83c42a8c",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "4f0c8b4f-aadc-4682-8c12-9945ec8ee18c",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "55070ecd-4fc8-4512-a48c-2f9fd801a466",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "4f0c8b4f-aadc-4682-8c12-9945ec8ee18c",
+    "displayTitle": "",
+    "_activityParentId": "4df8e04e-66de-451a-9fe4-f1799c3a13ab"
+  },
+  {
+    "_id": "d77b8e68-3e24-4038-aa59-824cb5c875da",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.4 Resumo - IPv4 e segmentação de rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4 Resumo - IPv4 e segmentação de rede",
+    "_oldId": "d77b8e68-3e24-4038-aa59-824cb5c875da",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f6d0cc9c-3cfd-4e3c-838a-34c7c76aa3f6",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4bf073e7-4e63-4333-95c0-2db8c6e2c9c3",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f6d0cc9c-3cfd-4e3c-838a-34c7c76aa3f6",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "1e2b53bf-7c8b-4029-8015-62af7327b48c",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4c43753a-3788-4816-8f29-3918a17397e0",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4 Resumo - IPv4 e segmentação de rede",
+    "_oldId": "4c43753a-3788-4816-8f29-3918a17397e0",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2b566f9e-07fe-4536-9c17-56a35d7f41b1",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7813ef28-a41d-44bc-851e-ac22ee1c3483",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2b566f9e-07fe-4536-9c17-56a35d7f41b1",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "b08e9557-2022-450f-941b-4a995813178e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b534cfd7-a2a9-4cc6-b63b-0e08e4621748",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4.1 O que eu aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>Transmissão unicast refere-se a um dispositivo que envia uma mensagem para outro dispositivo em comunicações um-para-um. Um pacote unicast tem um endereço IP de destino que é um endereço unicast que vai para um único destinatário. Um endereço IP de origem só pode ser um endereço unicast, porque o pacote só pode originar-se de uma única origem. Isso independentemente de o endereço IP de destino ser unicast, broadcast ou multicast. Os endereços de host unicast IPv4 estão no intervalo de endereços de 1.1.1.1 a 223.255.255.255.</p><p>Transmissão broadcast refere-se a um dispositivo enviando uma mensagem para todos os dispositivos em uma rede, ou seja, comunicação de um para todos. Um pacote de broadcast possui um endereço IP de destino com todos os (1s) na parte do host ou 32 (um) bits. Um pacote de broadcast deve ser processado por todos os dispositivos no mesmo domínio de difusão. Um broadcast pode ser direcionado ou limitado. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Uma broadcast limitado é enviado para 255.255.255.255. Por padrão, os roteadores não encaminham broadcasts.</p><p>Transmissão multicast reduz o tráfego, permitindo que um host envie um único pacote para um conjunto de hosts selecionados que participem de um grupo multicast. Um pacote multicast é um pacote com um endereço IP de destino que é um endereço multicast. O IPv4 reservou os endereços 224.0.0.0 a 239.255.255.255 como intervalo de multicast. Cada grupo multicast é representado por um único endereço IPv4 multicast de destino. Quando um host IPv4 se inscreve em um grupo multicast, o host processa pacotes endereçados tanto a esse endereço multicast como a seu endereço unicast alocado exclusivamente.</p>",
+        "title": "Unicast, broadcast e multicast IPv4",
+        "_classes": "",
+        "_comment": "Supported classes = 'align-image-left' | 'align-image-right'. Additional classes can be used but they must be predefined in one of the Less files"
+      },
+      {
+        "body": "<p>Os endereços IPv4 públicos são endereços roteados globalmente entre os roteadores ISP. No entanto, nem todos os endereços IPv4 disponíveis podem ser usados na Internet . Existem blocos de endereços (conhecidos como endereços privados) que são usados pela maioria das organizações para atribuir endereços IPv4 a hosts internos. A maioria das redes internas, de grandes empresas a redes domésticas, usa endereços IPv4 privados para endereçar todos os dispositivos internos (intranet), incluindo hosts e roteadores. No entanto, os endereços privados não são globalmente roteáveis. Antes que o ISP possa encaminhar esse pacote, ele deve traduzir o endereço IPv4 de origem, que é um endereço privado, para um endereço IPv4 público usando NAT ( Tradução de Endereços de Rede).</p><p>Os endereços de loopback (127.0.0.0 / 8 ou 127.0.0.1 a 127.255.255.254) são mais comumente identificados como apenas 127.0.0.1, esses são endereços especiais usados por um host para direcionar o tráfego para si próprio. Os endereços locais de link (169.254.0.0 / 16 ou 169.254.0.1 a 169.254.255.254) são mais conhecidos como endereços APIPA ( endereçamento IP privado automático ) ou endereços auto-atribuídos. Eles são usados por um cliente DHCP do Windows para auto-configurar no caso de não existirem servidores DHCP disponíveis.</p><p>Em 1981, os endereços IPv4 foram atribuídos usando o endereço classful, conforme definido na RFC 790 (<a href='https://datatracker.ietf.org/doc/html/rfc790' target='_blank'>https://tools.ietf.org/html/rfc790</a>), Números Atribuídos Os clientes receberam um endereço de rede com base em uma das três classes, A, B ou C. A RFC dividiu os intervalos de unicast em classes específicas da seguinte maneira:</p><ul><li><strong>Classe A (0.0.0.0/8 to 127.0.0.0/8)</strong> – Projetado para suportar redes extremamente grandes com mais de 16 milhões de endereços de host.</li><li><strong>Classe B (128.0.0.0 / 16 - 191.255.0.0 / 16)</strong> - Projetada para oferecer suporte às necessidades de redes de tamanho moderado a grande com até aproximadamente 65.000 endereços de host.</li><li><strong>Classe C (192.0.0.0 / 24 - 223.255.255.0 / 24)</strong> - Projetado para oferecer suporte a pequenas redes com no máximo 254 hosts. </li></ul><p>Há também um bloco multicast de Classe D que consiste em 224.0.0.0 a 239.0.0.0 e um bloco de endereço experimental de Classe E que consiste em 240.0.0.0 - 255.0.0.0. </p><p>Endereços IPv4 públicos são endereços roteados globalmente pela Internet. Endereços IPv4 públicos devem ser exclusivos. Os endereços IPv4 e IPv6 são gerenciados pela IANA (Internet Assigned Numbers Authority). A IANA gerencia e aloca blocos de endereços IP aos registros regionais de Internet (RIRs). Os RIRs são responsáveis por alocar endereços IP aos ISPs que fornecem blocos de endereços IPv4 para organizações e ISPs menores. As organizações também podem obter seus endereços diretamente de um RIR. </p>",
+        "title": "Tipos de endereços IPv4",
+        "_classes": "",
+        "_comment": "Supported classes = 'align-image-left' | 'align-image-right'. Additional classes can be used but they must be predefined in one of the Less files"
+      },
+      {
+        "body": "<p>Em uma LAN Ethernet, os dispositivos utilizam broadcast e ARP para localizar outros dispositivos.  O ARP envia broadcast dea Camada 2 para um endereço IPv4 conhecido na rede local para descobrir o endereço MAC associado. Os dispositivos em LANs Ethernet também localizam outros dispositivos usando serviços. Um host normalmente adquire sua configuração de endereço IPv4 usando o protocolo DHCP  que envia broadcasts na rede local para localizar um servidor DHCP. Os switches propagam broadcasts por todas as interfaces, exceto a interface em que foram recebidos.</p><p>Um grande domínio de broadcast é uma rede que conecta vários hosts. Um problema desse tipo de domínio é que os hosts podem gerar broadcasts em excesso e afetar a rede de forma negativa. A solução é reduzir o tamanho da rede para criar domínios de broadcast menores em um processo denominado divisão em sub-redes. Os espaços de rede menores são chamados de sub-redes. Esta é a base da divisão em sub-redes: usar bits de host para criar sub-redes adicionais. A divisão em sub-redes reduz o tráfego total da rede e melhora seu desempenho. Permite o administrador implemente políticas de segurança como, por exemplo, quais sub-redes podem ou não se comunicar com quais sub-redes. Ela  reduz o número de dispositivos afetados pelo tráfego broadcast anormal de devido a configurações incorretas, problemas de hardware/software ou propósito malicioso.</p>",
+        "title": "Segmentação de Rede",
+        "_classes": "",
+        "_comment": "Supported classes = 'align-image-left' | 'align-image-right'. Additional classes can be used but they must be predefined in one of the Less files"
+      }
+    ],
+    "_oldId": "b534cfd7-a2a9-4cc6-b63b-0e08e4621748",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "setCompletionOn = inview | allItems",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "e9450ff8-82d3-4c3f-bbb3-3964920aa04a",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "72f881e9-350f-4847-a13e-470a356c1cfc",
+    "_oldParentId": "e9450ff8-82d3-4c3f-bbb3-3964920aa04a",
+    "displayTitle": "",
+    "_graphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "iframe"
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "0340133c-9f45-4d6d-a418-2b88fbd28938",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "062d9495-259b-416d-a5b4-c04cba222b61",
+    "body": "<p>Acabei de enviar convites para uma festa para vários amigos e familiares. Os convites foram para endereços diferentes, mas o cartão dentro é o mesmo para todos. É como um e-mail de multicast, não é? Eu não sabia que era possível fazer isso e também não sabia que era possível enviar um e-mail de broadcast para todas as pessoas na rede! Você consegue pensar em um bom motivo para enviar um e-mail de broadcast a todos na rede? Você consegue pensar em uma razão pela qual deve tomar cuidado antes de enviar um e-mail de broadcast?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4.2 Webster - Questões para Reflexão",
+    "_oldId": "062d9495-259b-416d-a5b4-c04cba222b61",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0eaf3917-ffde-43f0-bcbe-f4a61e820844",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b19ffe09-dfec-4fe0-a0c0-51998af1561b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0eaf3917-ffde-43f0-bcbe-f4a61e820844",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "de45f734-e9f5-4135-9587-14a2f9a315fc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "453fe700-fcb4-4c86-9d56-1b31e33c97ac",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "453fe700-fcb4-4c86-9d56-1b31e33c97ac",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "large": "pt-BR/assets/b154106422334077b76e353db952cf1e.png",
+      "small": "pt-BR/assets/b154106422334077b76e353db952cf1e.png",
+      "attribution": ""
+    },
+    "_parentId": "0eaf3917-ffde-43f0-bcbe-f4a61e820844",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "c6cd485b-5566-4a74-b6b9-e5f1301d135d",
+    "instruction": "",
+    "_oldParentId": "0eaf3917-ffde-43f0-bcbe-f4a61e820844",
+    "displayTitle": "",
+    "_activityParentId": "de45f734-e9f5-4135-9587-14a2f9a315fc",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "8eb55c72-e328-4b9d-9bf9-60125c8b89bc",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "8eb55c72-e328-4b9d-9bf9-60125c8b89bc",
+    "_classes": "",
+    "_parentId": "c329abdd-997e-4391-ac27-b3f5137b5946",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "632cc9cd-e055-49c4-bc15-96763a9f2b0e",
+    "_isOptional": true,
+    "_oldParentId": "c329abdd-997e-4391-ac27-b3f5137b5946",
+    "_activityParentId": "c91fb021-e3c4-4e84-a122-5dea0a96b816"
+  },
+  {
+    "_id": "f9d7c623-4bf2-4116-9a08-695c982e41c3",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "f9d7c623-4bf2-4116-9a08-695c982e41c3",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário sobre IPv4 e segmentação de rede",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "7bebf774-534d-472b-9115-988276cfd5f7",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c79d4ed6-3126-4084-9e1c-d989849d93db",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "7bebf774-534d-472b-9115-988276cfd5f7",
+    "displayTitle": "",
+    "_activityParentId": "9ff33047-5a5b-4e8d-a49f-900522b42c12",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ed93abd632574fcc87f2dc99fc31c628",
+    "body": "Qual afirmação descreve uma finalidade da configuração de máscara de sub-rede para um host?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "É usado para descrever o tipo de sub-rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "É usado para identificar o gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "É usado para determinar a qual rede o host está conectado.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "É usado para determinar o número máximo de bits em um pacote que pode ser colocado em uma rede específica.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ed93abd632574fcc87f2dc99fc31c628",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um endereço IPv4 contém duas partes. A porção de rede define a rede (ou uma sub-rede) onde o host está localizado e a porção de host identifica o endereço do host na rede. A máscara de sub-rede é usada para definir a porção de rede do endereçamento IPv4 através do AND lógico do endereço IP e da máscara de sub-rede.</p>",
+      "_incorrect": {
+        "final": "<p>Um endereço IPv4 contém duas partes. A porção de rede define a rede (ou uma sub-rede) onde o host está localizado e a porção de host identifica o endereço do host na rede. A máscara de sub-rede é usada para definir a porção de rede do endereçamento IPv4 através do AND lógico do endereço IP e da máscara de sub-rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6363a960-25d7-4fb7-9721-ea2cf73e452c",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f759012a-5c93-44fe-bf9e-2922e55f3a7e",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6363a960-25d7-4fb7-9721-ea2cf73e452c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207352",
+    "_activityParentId": "92f95b21-beec-4300-b022-55d76093cff4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0374a4c99f4741fa94590b190de83ba5",
+    "body": "Qual é um dos motivos para criar sub-redes em uma rede IP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "para reduzir o escopo de inundações de broadcast",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "para aumentar o número de endereços de host disponíveis na rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "para eliminar a necessidade de serviços de rede que dependem de broadcast, como DHCP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "para garantir que todos os dispositivos possam se comunicar entre si sem a necessidade de um roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "0374a4c99f4741fa94590b190de83ba5",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Em redes fixas em que todos os hosts estão na mesma rede, os pacotes de broadcast podem degradar rapidamente a qualidade do desempenho da rede.  Com a criação de sub-redes menores, o tráfego de broadcast fica isolado de outras áreas na rede.  Os dispositivos em uma sub-rede precisam enviar tráfego para um roteador para alcançar um host em uma sub-rede diferente, e os roteadores normalmente não encaminham o tráfego de broadcast.</p>",
+      "_incorrect": {
+        "final": "<p>Em redes fixas em que todos os hosts estão na mesma rede, os pacotes de broadcast podem degradar rapidamente a qualidade do desempenho da rede.  Com a criação de sub-redes menores, o tráfego de broadcast fica isolado de outras áreas na rede.  Os dispositivos em uma sub-rede precisam enviar tráfego para um roteador para alcançar um host em uma sub-rede diferente, e os roteadores normalmente não encaminham o tráfego de broadcast.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b6519c56-99c6-42c8-aefe-7d2f4da1b2fd",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f66e9e3a-4fb2-4b68-b9fc-fb43d05c8de2",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b6519c56-99c6-42c8-aefe-7d2f4da1b2fd",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207605",
+    "_activityParentId": "4712a8b6-5a47-4eb5-b118-b81747aec8c7",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5dc6bddb114941ee9c1d7872b8d8cfd0",
+    "body": "Uma mensagem é enviada para todos os hosts em uma rede remota. Que tipo de mensagem é essa?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "broadcast limitado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "multicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "broadcast direcionado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "unicast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5dc6bddb114941ee9c1d7872b8d8cfd0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um broadcast direcionado é uma mensagem enviada para todos os hosts em uma rede específica. É útil para enviar um broadcast para todos os hosts em uma rede não local. Uma mensagem multicast é uma mensagem enviada a um grupo selecionado de hosts que fazem parte de um grupo multicast de assinantes. Um broadcast limitado é usado para uma comunicação que é limitada aos hosts na rede local. Uma mensagem de unicast é uma mensagem enviada de um host para outro.</p>",
+      "_incorrect": {
+        "final": "<p>Um broadcast direcionado é uma mensagem enviada para todos os hosts em uma rede específica. É útil para enviar um broadcast para todos os hosts em uma rede não local. Uma mensagem multicast é uma mensagem enviada a um grupo selecionado de hosts que fazem parte de um grupo multicast de assinantes. Um broadcast limitado é usado para uma comunicação que é  limitada aos hosts na rede local. Uma mensagem de unicast é uma mensagem enviada de um host para outro.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9e8c47c3-4057-44c0-a545-6af898352b72",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "93b8b752-aa67-409b-a2af-8017bf985673",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9e8c47c3-4057-44c0-a545-6af898352b72",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208906",
+    "_activityParentId": "ad3a3482-2aee-4770-9498-648b2eb3c3a0",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e257801e795c48dbad77c7b8879eee43",
+    "body": "Um usuário não consegue acessar o servidor da empresa de um computador. Ao emitir o comando <b>ipconfig</b>, o usuário descobre que o endereço IP do computador é exibido como 169.254.0.2. Que tipo de endereço é este?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "privado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "link-local",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "loopback",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "experimental",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "e257801e795c48dbad77c7b8879eee43",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os endereços IPv4 no bloco de endereços 169.254.0.0 a 169.254.255.255 são endereços de link-local. O sistema operacional de um host pode atribuir automaticamente um endereço desse bloco ao host caso nenhuma configuração de IP esteja disponível. Um exemplo é quando um host é configurado para obter um endereço IP dinâmico, mas não pode acessar nenhum servidor DHCP durante o processo de inicialização. Nesse caso, o sistema operacional pode atribuir um endereço local de link.</p>",
+      "_incorrect": {
+        "final": "<p>Os endereços IPv4 no bloco de endereços 169.254.0.0 a 169.254.255.255 são endereços de link-local. O sistema operacional de um host pode atribuir automaticamente um endereço desse bloco ao host caso nenhuma configuração de IP esteja disponível. Um exemplo é quando um host é configurado para obter um endereço IP dinâmico, mas não pode acessar nenhum servidor DHCP durante o processo de inicialização. Nesse caso, o sistema operacional pode atribuir um endereço local de link.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2047b917-9900-4d3e-b08c-4e048f973be2",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1a3ce7f7-504a-4b93-9d00-fa6527d28f06",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2047b917-9900-4d3e-b08c-4e048f973be2",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208920",
+    "_activityParentId": "f978b9e7-c67b-4ca8-a5ab-9b556c498d89",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "76d5c7ded20e4f75834165c87eda0490",
+    "body": "Quais são os três endereços IP privados? (Escolha três.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "10.1.1.1",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "172.32.5.2",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.167.10.10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.4.4",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.5.5",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "224.6.6.6",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "76d5c7ded20e4f75834165c87eda0490",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os endereços IP privados estão dentro desses três intervalos:<br />10.0.0.0 - 10.255.255.255<br />172.16.0.0 - 172.31.255.255<br />192.168.0.0 - 192.168.255.255</p>",
+      "_incorrect": {
+        "final": "<p>Os endereços IP privados estão dentro desses três intervalos:<br />10.0.0.0 - 10.255.255.255<br />172.16.0.0 - 172.31.255.255<br />192.168.0.0 - 192.168.255.255</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "34570c1c-e153-451f-aef1-6143f19fc91a",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "751a7daf-aeb7-4292-bc65-e3c3af7319c1",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "34570c1c-e153-451f-aef1-6143f19fc91a",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "211507",
+    "_activityParentId": "ab86a7a0-17e2-4d8c-ab74-42d3236f791a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5bd338e0507d4fc69e2b3c807cd5c1ae",
+    "body": "<p>Faça a correspondência de cada descrição com um endereço IP apropriado.</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "answer": "um endereço loopback",
+        "question": "127.0.0.1",
+        "questionBGColor": "#CBE4F9"
+      },
+      {
+        "answer": "um endereço experimental",
+        "question": "240.2.6.255",
+        "questionBGColor": "#CDF5F6"
+      },
+      {
+        "answer": "um endereço público",
+        "question": "198.133.219.2",
+        "questionBGColor": "#EFF9DA"
+      },
+      {
+        "answer": "um endereço link-local",
+        "question": "169.254.1.5",
+        "questionBGColor": "#F9EBDF"
+      }
+    ],
+    "_oldId": "5bd338e0507d4fc69e2b3c807cd5c1ae",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": 1,
+    "_feedback": {
+      "correct": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td> 127.0.0.1</td><td>um endereço loopback</td></tr><tr><td> 240.2.6.255</td><td> um endereço experimental</td></tr><tr><td> 198.133.219.2</td><td> um endereço público</td></tr><tr><td> 169.254.1.5</td><td> um endereço link-local</td></tr></table>",
+      "_incorrect": {
+        "final": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td> 127.0.0.1</td><td>um endereço loopback</td></tr><tr><td> 240.2.6.255</td><td> um endereço experimental</td></tr><tr><td> 198.133.219.2</td><td> um endereço público</td></tr><tr><td> 169.254.1.5</td><td> um endereço de link-local</td></tr></table>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_parentId": "afd7406d-f8e3-41d7-b70b-64c4a29150c7",
+    "_component": "objectMatching",
+    "_isDeleted": false,
+    "_activityId": "813c6f08-2650-4871-927b-aaf696c02fcd",
+    "instruction": "",
+    "placeholder": "Selecione uma opção",
+    "_oldParentId": "afd7406d-f8e3-41d7-b70b-64c4a29150c7",
+    "_optionTitle": "Opções:",
+    "displayTitle": "Pergunta",
+    "_categoryTitle": "Categorias:",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_isAnswerRandom": true,
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "245548",
+    "_activityParentId": "3eb38600-99af-40d5-9fad-dae3b5a857cc",
+    "_isQuestionRandom": true,
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_defaultAnswerBGColor": "#F2F2F2",
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "68681f4e6daf4ec19b5551a368bd6a53",
+    "body": "Qual dispositivo de rede pode servir como um limite para dividir um domínio de broadcast de camada 2 ?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "roteador",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "pontes Ethernet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Hub Ethernet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ponto de Acesso",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "68681f4e6daf4ec19b5551a368bd6a53",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Dispositivos de Camada 1 e 2 (switch LAN e hub Ethernet) e dispositivos access point não filtram quadros de broadcast do endereço MAC. Somente um dispositivo de Cada 3, como um roteador, pode dividir um domínio de broadcast de Camada 2.</p>",
+      "_incorrect": {
+        "final": "<p>Dispositivos de Camada 1 e 2 (switch LAN e hub Ethernet) e dispositivos access point não filtram quadros de broadcast do endereço MAC. Somente um dispositivo de Cada 3, como um roteador, pode dividir um domínio de broadcast de Camada 2.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c0b10a3a-5ce6-47ac-87cc-d42ffcf43239",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ac646b32-06d6-4bd6-96c3-1a4a4e3e5ccc",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c0b10a3a-5ce6-47ac-87cc-d42ffcf43239",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "264350",
+    "_activityParentId": "804e5a5c-4ff8-40a2-bcca-5fa54ced1255",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1aecf2ffe3844d08b98202be1a7803a2",
+    "body": "Qual é a função da IANA?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "manter os padrões relacionados à fiação elétrica e aos conectores",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "documentar os desenvolvimentos de novos protocolos e atualizar os protocolos atuais",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "gerenciar a alocação de endereços IP e nomes de domínio",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "promover o desenvolvimento e a evolução da Internet em todo o mundo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "1aecf2ffe3844d08b98202be1a7803a2",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quatro organizações muito importantes que criam e mantêm padrões abertos são:</p><ul><li>A Autoridade para atribuição de números da Internet (IANA) supervisiona e gerencia a alocação de endereços IP e nomes de domínio para preservar sua singularidade.</li><li>A Electronic Industries Alliance (EIA) mantém padrões relacionados à fiação e conectores para garantir a interoperabilidade do cabeamento entre dispositivos diferentes.</li><li>A Internet Engineering Task Force (IETF) mantém as tecnologias e os protocolos usados na Internet, como TCP / IP.</li><li>A Internet Society (ISOC) promove o uso da Internet em todo o mundo.</li></ul>",
+      "_incorrect": {
+        "final": "<p>Quatro organizações muito importantes que criam e mantêm padrões abertos são:</p><ul><li>A Autoridade para atribuição de números da Internet (IANA) supervisiona e gerencia a alocação de endereços IP e nomes de domínio para preservar sua singularidade.</li><li>A Electronic Industries Alliance (EIA) mantém padrões relacionados à fiação e conectores para garantir a interoperabilidade do cabeamento entre dispositivos diferentes.</li><li>A Internet Engineering Task Force (IETF) mantém as tecnologias e os protocolos usados na Internet, como TCP / IP.</li><li>A Internet Society (ISOC) promove o uso da Internet em todo o mundo.</li></ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3fdc63eb-6903-4a1c-8243-978b3b472e58",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "584ae332-f14b-4a59-97e6-585a07bdccc9",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "3fdc63eb-6903-4a1c-8243-978b3b472e58",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "274319",
+    "_activityParentId": "97d62cdf-ca9a-4d6f-b6cc-50e935266c3a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "42da0b6baa80489f98b2c0d00fc95e68",
+    "body": "Qual é o intervalo de prefixo de endereço reservado para o multicast IPv4?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "240.0.0.0 - 254.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "224.0.0.0 - 239.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "169.254.0.0 - 169.254.255.255",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "127.0.0.0 - 127.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "42da0b6baa80489f98b2c0d00fc95e68",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Endereços IPv4 Multicast usam o intervalo de endereços reservados de Classe D de 224.0.0.0 a 239.255.255.255.</p>",
+      "_incorrect": {
+        "final": "<p>Endereços IPv4 Multicast usam o intervalo de endereços reservados de Classe D de 224.0.0.0 a 239.255.255.255.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea67a4d-7fa6-449f-b432-c36401ddba26",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "79e50f8f-64b8-4f02-8cd6-367915eb952e",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bea67a4d-7fa6-449f-b432-c36401ddba26",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282914",
+    "_activityParentId": "6b3288bf-e78f-4400-abc1-b7b11e8cb579",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "cada670e83b0410fa8595167de4f7bc0",
+    "body": "Uma escola secundária em Nova York (escola A) está usando tecnologia de videoconferência para estabelecer interações estudantis com outra escola secundária (escola B) na Rússia. A videoconferência é realizada entre dois dispositivos finais através da Internet. O administrador de rede da escola A configura o dispositivo final com o endereço IP 209.165.201.10. O administrador envia uma solicitação para o endereço IP para o dispositivo final na escola B e a resposta é 192.168.25.10. Nenhuma escola está usando uma VPN. O administrador sabe imediatamente que este IP não funcionará. Por quê?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Este é um endereço de loopback.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Este é um endereço local do link.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Este é um endereço IP privado.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Há um conflito de endereço IP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "cada670e83b0410fa8595167de4f7bc0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O endereço IP 192.168.25.10 é um endereço privado IPv4. Este endereço não será roteado pela Internet, então a escola A não será capaz de alcançar à escola B. Como o endereço é privado, ele pode ser usado livremente em uma rede interna. Desde que não haja dois dispositivos na rede interna atribuídos ao mesmo IP privado, não há problema de conflito de IP. Os dispositivos que recebem um IP privado precisarão usar NAT para se comunicarem pela Internet.</p>",
+      "_incorrect": {
+        "final": "<p>O endereço IP 192.168.25.10 é um endereço privado IPv4. Este endereço não será roteado pela Internet, então a escola A não será capaz de alcançar à escola B. Como o endereço é privado, ele pode ser usado livremente em uma rede interna. Desde que não haja dois dispositivos na rede interna atribuídos ao mesmo IP privado, não há problema de conflito de IP. Os dispositivos que recebem um IP privado precisarão usar NAT para se comunicarem pela Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2e3ecd7f-64e0-4eef-9a51-c0687b0a6a22",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "922ce151-c613-4b9f-892e-39e354863103",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2e3ecd7f-64e0-4eef-9a51-c0687b0a6a22",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "333217",
+    "_activityParentId": "2692c3da-01e2-49a5-9109-bcd677b11c13",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c5470dbdfa1b4dc2939543ee290cebec",
+    "body": "Um host está fazendo broadcast de uma transmissão. Qual host ou hosts o receberão?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "todos os hosts na mesma rede",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "um grupo especialmente definido de hosts",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o vizinho mais próximo na mesma rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "todos os hosts na Internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "c5470dbdfa1b4dc2939543ee290cebec",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um broadcast é entregue a cada host que tenha um endereço IP dentro da mesma rede.</p>",
+      "_incorrect": {
+        "final": "<p>Um broadcast é entregue a cada host que tenha um endereço IP dentro da mesma rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ad534700-ac13-47b0-8b76-3cd940f5a20e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3f629200-5584-4a66-b5f1-84db0c1a41fb",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ad534700-ac13-47b0-8b76-3cd940f5a20e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "366608",
+    "_activityParentId": "eed5f17f-a748-48e8-80dc-efd69f61d7b4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f629bb94-ca3e-4b24-b43e-8180075da8fc",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste!</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "f629bb94-ca3e-4b24-b43e-8180075da8fc",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e4f7db86-77c4-48a8-a304-95f6ebb824b2",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "bfc74ea5-0ae8-4bd6-9b3f-4cb0542f03ea",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e4f7db86-77c4-48a8-a304-95f6ebb824b2",
+    "displayTitle": "",
+    "_assessmentId": "2dc2f374-a7cb-4ea3-88c6-9e1fbf442ba9",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "8ce3aee8-8353-4b9a-afd5-ac9c7fcde194",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "55342793-566a-48e3-9090-547958b9a66c",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "55342793-566a-48e3-9090-547958b9a66c",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "38b215d0-3955-4f39-b9c7-94cbc42eea40",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "00355e1d-ad26-4a8b-828f-dd518d3d0d5d",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "38b215d0-3955-4f39-b9c7-94cbc42eea40",
+    "displayTitle": "",
+    "_activityParentId": "4bef9490-423a-47eb-a81b-e0ff67a10c93"
+  }
+]

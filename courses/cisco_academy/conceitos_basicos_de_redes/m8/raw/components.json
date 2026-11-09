@@ -1,0 +1,3546 @@
+[
+  {
+    "_id": "78e1eb48c6324f3aa3f209de6d9a5dd2",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "78e1eb48c6324f3aa3f209de6d9a5dd2",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d24c4def04f5416e9f7193201296491c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d435100c-9595-4987-bc31-1209e758cc4f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d24c4def04f5416e9f7193201296491c",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "9aa572ef-d05d-4570-ac10-d683a0d51029",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7a0d788979044b8693c95d171b531a26",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "7a0d788979044b8693c95d171b531a26",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "77aba80b11134d9c8c563bf614c4e19d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "757952fd-06a6-45e5-9ff7-f334a7631fea",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "77aba80b11134d9c8c563bf614c4e19d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "1e2df0e5-7f56-4950-afd6-ae8cecdde446",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5261fc31c4be4bca974bc34b1199f36d",
+    "body": "<p>Kishori está aprendendo muito com Rina! Ela entende que, quando envia ou recebe um pacote pelo correio, há um endereço exclusivo envolvido. Um código postal é essencial no endereço para rotear o pacote para a agência postal correta. Ela pergunta a Rina se os computadores usam algo como um código postal para encaminhar a mensagem para o local correto. Rina explica mais detalhes sobre o processo e explica que, assim como o endereço residencial de Kishori identifica onde ela mora, um endereço IPv4 identifica um host na rede. Um host precisa de um endereço IPv4 para entrar na Internet. Cada pacote enviado pela Internet tem um endereço IPv4 de origem e de destino. Essa informação é necessária para os dispositivos de rede garantirem que os dados cheguem ao destino e que as respostas sejam retornadas à origem.</p><p>Minha amiga Kishori nunca pensou que ela estaria tão interessada em todas essas informações de tecnologia, mas ela realmente quer saber mais! E você? Aproveite este módulo para saber mais sobre o protocolo da Internet e a estrutura dos endereços IPv4!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "5261fc31c4be4bca974bc34b1199f36d",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6c3ec9831b824b52a6c809f987a5411b",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b04e50de-ce53-4f2a-93c4-56729baa8f78",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6c3ec9831b824b52a6c809f987a5411b",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "291becbf-66df-4038-9d69-5b2d2e2a0486",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "135cd3192d124b9baa6cae0e4e3b52a3",
+    "body": "",
+    "_type": "component",
+    "title": "Gráfico",
+    "_oldId": "135cd3192d124b9baa6cae0e4e3b52a3",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "Um personagem vestido com roupas casuais sentado em uma pose de ioga",
+      "large": "pt-BR/assets/1e9d9a580fd94fcba12b167d23a6880c.png",
+      "small": "pt-BR/assets/1e9d9a580fd94fcba12b167d23a6880c.png",
+      "attribution": ""
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6c3ec9831b824b52a6c809f987a5411b",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "874cc109-b280-4a70-aa15-b7e3ede43de4",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "6c3ec9831b824b52a6c809f987a5411b",
+    "displayTitle": "",
+    "_activityParentId": "291becbf-66df-4038-9d69-5b2d2e2a0486",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f3f98f5496ca40a49c2939f4dda27989",
+    "body": "<p><strong>Título do Módulo: </strong> O IP (Protocolo de Internet)</p><p><strong>Objetivo do Módulo </strong> Explicar os recursos de um endereço IP.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Finalidade de um endereço IPv4",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar a finalidade de um endereço IPv4.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "A estrutura do endereço IPv4",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar como os endereços IPv4 e as sub-redes são usados juntos.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "f3f98f5496ca40a49c2939f4dda27989",
+    "_layout": "full",
+    "_classes": "",
+    "_minWidth": 800,
+    "_parentId": "aae6d900562e42a68f6b1aa5d6402817",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "722225c9-7512-44a9-8d23-7dbe4c5def49",
+    "_oldParentId": "aae6d900562e42a68f6b1aa5d6402817",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_activityParentId": "92267857-ccfe-4784-b204-b0d2faacd32a",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "26923ec1c5094c569e0f0bfc4c2f4e31",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "26923ec1c5094c569e0f0bfc4c2f4e31",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "4b4f1630e9f74b5481bf04ef2abbad4a",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "079381ac-75e0-468a-92de-fbb1480a82ad",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "4b4f1630e9f74b5481bf04ef2abbad4a",
+    "displayTitle": "",
+    "_activityParentId": "67ddbd01-a8bd-4edf-8bae-5961f701e02d"
+  },
+  {
+    "_id": "50e2ddf54f844535a44f6accb06121ec",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Finalidade de um endereço IPv4</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Finalidade de um endereço IPv4",
+    "_oldId": "50e2ddf54f844535a44f6accb06121ec",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2ecb08c61d054d03a2d8fbf7ee8840c2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5412e5bc-c25a-401f-8411-053886aef904",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2ecb08c61d054d03a2d8fbf7ee8840c2",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "eac094cf-b390-4e03-9e42-d761818c1c5e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "801035e733494472be9a74fb3f0030d6",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Finalidade de um endereço IPv4",
+    "_oldId": "801035e733494472be9a74fb3f0030d6",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a09f430534844e0e8918459aabdb9f5c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "64086700-e34d-4c33-81e2-19c6f6f42328",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a09f430534844e0e8918459aabdb9f5c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "2bc5e7ea-2f6f-4863-bedd-d569f8af2096",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d194c1ed4a914552962e473ae4b6d1cd",
+    "body": "<p>Um host precisa de um endereço IPv4 para entrar na Internet. O endereço IPv4 é um endereço de rede lógico que identifica um host específico. Ele deve ser configurado corretamente e de forma exclusiva dentro da LAN, para fornecer comunicação local. Também deve ser configurado corretamente e de forma exclusiva no mundo, para fornecer comunicação remota. É assim que um host se comunica com outros dispositivos na Internet.</p> <p>Um endereço IPv4 é atribuído à  conexão de interface de rede de um host. Essa conexão geralmente é uma placa de interface de rede (NIC) instalada no dispositivo. Estações de trabalho, servidores, impressoras de rede e telefones IP são exemplos de dispositivos de usuário final com interfaces de rede. Alguns servidores podem ter mais de uma NIC e cada um deles tem seu próprio endereço IPv4. As interfaces de roteador que fornecem conexões a uma rede IP também têm um endereço IPv4.</p> <p>Cada pacote enviado pela Internet tem um endereço IPv4 de origem e de destino. Essa informação é necessária para os dispositivos de rede garantirem que os dados cheguem ao destino e que as respostas sejam retornadas à origem.</p> <p><strong>Clique em Play na figura para ver como os pacotes trafegam na Internet.<strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 O endereço IPv4",
+    "_oldId": "d194c1ed4a914552962e473ae4b6d1cd",
+    "details": {
+      "uuid": "0743a950-e648-11ea-943d-3985b1606afe",
+      "texts": [
+        {
+          "id": "ID_txt02",
+          "text": "Internet"
+        },
+        {
+          "id": "ID_txt03",
+          "text": "WWW.CISCO.COM<br/>64.100.0.1"
+        },
+        {
+          "id": "ID_txt04",
+          "text": "Empresa A<br/>\n192.0.0.1"
+        },
+        {
+          "id": "ID_txt05",
+          "text": "Empresa B<br/>\n209.165.200.1"
+        }
+      ],
+      "images": [
+        {
+          "img": "media/0743a950-e648-11ea-943d-3985b1606afe/6d465670-08ae-11eb-9038-e973a6548bd5.jpg",
+          "class": "image_s1_A"
+        }
+      ],
+      "stylesheet": "media/0743a950-e648-11ea-943d-3985b1606afe/8f5d119b-c6d2-436b-be2d-c99543f37474.css",
+      "animateFile": "media/0743a950-e648-11ea-943d-3985b1606afe/a9e08976-2cb5-48c0-918a-5378d41946da.js",
+      "aspect_ratio": "680/400",
+      "timelineClip": "anim01",
+      "animationName": "a9e089762cb548c0918a5378d41946da",
+      "animationComposition": "5369227230FF9D4898EB86BEF803F003"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "ed70dda6bb4748a98f496d56f153c642",
+    "_component": "adobe-animate",
+    "_isDeleted": false,
+    "_activityId": "5b12ae59-11cf-4730-9ab2-f03647843294",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ed70dda6bb4748a98f496d56f153c642",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.adobe-animate-container"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "a11y_description": "This animation consists of a user sitting at a desktop p c with I P address 192.168.200.8 which is connected to the internet. The p c is sending packets to a remote web server, www.cisco.com, at IP address 192.168.5.100. Also connected to the internet cloud are two other servers, Business A at 172.16.30.5 and Business B at 10.5.105.50.",
+    "_activityParentId": "6c420907-28dd-4379-9935-f286105973e0",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "d5cc3050e9d9415abf368b38e6690073",
+    "body": "<p>Os endereços IPv4 têm 32 bits de comprimento. Aqui está um endereço IPv4 em binário: <br><strong>11010001101001011100100000000001 </strong>  </p><p>Observe como é difícil ler este endereço. Imagine ter que configurar dispositivos com uma série de 32 bits! Por esse motivo, os 32 bits são agrupados em quatro bytes de 8 bits chamado octetos: <br><strong>11010001.10100101.11001000.00000001</strong>  </p><p>Está melhor, mas ainda assim difícil de ler. É por isso que convertemos cada octeto em seu valor decimal, separados por um ponto decimal ou por um período. O IPv4 binário acima torna-se esta representação decimal com ponto<br><strong>: 209.165.200.1 </strong>  </p><p><strong> Observação: </strong>por enquanto, você não precisa saber como converter entre sistemas de números binários e decimais. </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Octetos e notação decimal com ponto",
+    "_oldId": "d5cc3050e9d9415abf368b38e6690073",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "32cafd44e6614cbea29333cf25932c2f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "16eba73d-648a-4d93-8834-370b4708f36b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "32cafd44e6614cbea29333cf25932c2f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "7aab0d54-0d50-4f43-b593-35485d86ee9a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1c5fab8bc20646028a678b4f7f256d46",
+    "body": "<p>Observe como os pacotes são enviados pela Internet usando endereços IP.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Packet Tracer – Conexão com um servidor da Web",
+    "_items": [
+      {
+        "url": "pt-BR/assets/8.1.3--packet-tracer---connect-to-a-web-server.pka_pt-BR_79fce7f8-62ac-4596-8dde-6f9841cc5c09.pka",
+        "_classes": "",
+        "_buttonText": "Conexão com um servidor da Web",
+        "fileExtension": "pka",
+        "_closeButtonText": "Fechar",
+        "downloadFileName": "Conexão com um servidor da Web",
+        "articleRenderingID": "f2cd238e-c786-4db6-8f3a-3b364bf12a4d",
+        "_downloadHtmlButton": "Baixar HTML",
+        "downloadLinkButtonText": "Conexão com um servidor da Web",
+        "isPageTracerPopupBtnEnable": true,
+        "isPacketTracerDownloadEnable": true
+      }
+    ],
+    "_oldId": "1c5fab8bc20646028a678b4f7f256d46",
+    "_layout": "full",
+    "_search": {
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "8fbbce59db444dfe87415964bdd94d48",
+    "_component": "pageTracer",
+    "_isDeleted": false,
+    "_activityId": "836b053b-0201-4bdb-ad1d-544abd5ea475",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8fbbce59db444dfe87415964bdd94d48",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "7d956731-c2c3-4b47-9d6b-caa00686df56",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "025db3a826a5438281d9e3863ac8954f",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "025db3a826a5438281d9e3863ac8954f",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "c3182e9e0b6647af851912c80c0b0988",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "47d6ff5f-c1f9-4f22-84e9-40f2702043cb",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "c3182e9e0b6647af851912c80c0b0988",
+    "displayTitle": "",
+    "_activityParentId": "5316abb9-8e23-4812-adcb-bb96f63608b9"
+  },
+  {
+    "_id": "bef4b72a8576447d898f579ae305ff82",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 A estrutura do endereço IPv4</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 A estrutura do endereço IPv4",
+    "_oldId": "bef4b72a8576447d898f579ae305ff82",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "638cf6033be3475b9d189a83e66ce4f4",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e4125f56-cb9e-4304-b1cd-2156f31c3892",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "638cf6033be3475b9d189a83e66ce4f4",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "b8e45807-0429-4624-a35b-a86c752bc00d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c9500ea48fab4435937b0f0bc11478c5",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 A estrutura do endereço IPv4",
+    "_oldId": "c9500ea48fab4435937b0f0bc11478c5",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "926a8c4442194ae5b13624e8b3329a52",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b3acd12c-ec73-4b33-9978-fb43092d2a4b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "926a8c4442194ae5b13624e8b3329a52",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "51076e98-53e6-4b23-ae7c-6088c0fbfd0c",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "36a65e2be1e148738065889a319dd4b2",
+    "body": "<p><strong>Selecione o botão reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Video - Estrutura do Endereço IPv4",
+    "_oldId": "36a65e2be1e148738065889a319dd4b2",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249947865001",
+    "videoIds": [
+      "fec0fc22-8c5c-475c-9a07-ccafa61d3525"
+    ],
+    "_isHidden": false,
+    "_parentId": "1e9c161171af4d779ab8aef1396fcf9f",
+    "_accountId": "2649925992001",
+    "_ariaLevel": 0,
+    "_component": "media",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "fd857bb6-fd50-4d04-abae-dfa83ef659ae",
+    "_isOptional": false,
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isAvailable": true,
+    "_isSignedUrl": true,
+    "_oldParentId": "1e9c161171af4d779ab8aef1396fcf9f",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "a7efc822-3e44-4c40-a729-eb2a0cef9c74",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default",
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5eb1d4c3045443cca91f1bc8ad854ddf",
+    "body": "<p>O endereço lógico IPv4 de 32 bits é hierárquico e contém duas partes, a rede e o host Na figura, a porção de rede é azul e a porção de host é vermelha. As duas partes são necessárias em um endereço IPv4. Ambas as redes têm a máscara de sub-rede 255.255.255.0. Máscara de sub-rede é usada para identificar a rede à qual o host está conectado.</p> <p>Como exemplo, um host com o endereço IPv4 192.168.5.11 e a máscara de sub-rede 255.255.255.0. Os três primeiros octetos (192.168.5) identificam a porção de rede do endereço e o último octeto (11) identifica o host. Isso é conhecido como endereçamento hierárquico porque a porção de rede indica a rede na qual está localizado cada endereço exclusivo de host. Os roteadores precisam saber apenas como alcançar cada rede, em vez de precisar saber a localização de cada host individual.</p> <p>Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente. Por exemplo: três hosts em uma única rede local física têm a mesma porção de rede do endereço IPv4 (192.168.18) e outros três hosts têm porções de rede diferentes de seus endereços IPv4 (192.168.5). Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não com os outros hosts sem o uso de roteamento. Neste exemplo, há uma rede física e duas redes IPv4 lógicas.</p> <p>Outro exemplo de rede hierárquica é o sistema telefônico. Em um número de telefone, o código de país, o código de área e a central telefônica representam o endereço de rede e os dígitos restantes representam um número de telefone local.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Redes e hosts",
+    "_oldId": "5eb1d4c3045443cca91f1bc8ad854ddf",
+    "details": {
+      "uuid": "075f2090-e648-11ea-943d-3985b1606afe",
+      "texts": [
+        {
+          "text": "Número da rede",
+          "class": "text1"
+        },
+        {
+          "text": "Número da rede",
+          "class": "text2"
+        },
+        {
+          "text": "Número da rede",
+          "class": "text4"
+        },
+        {
+          "text": "Número do Host",
+          "class": "text3"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/075f2090-e648-11ea-943d-3985b1606afe/9bad286c-c428-4f90-a819-fa246e3ddbb9.css",
+      "aspect_ratio": "748/379",
+      "primary_image": "media/075f2090-e648-11ea-943d-3985b1606afe/2f3727dc-b896-409e-8a33-c17778beff71.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "b08067f2f86b44569d6a0e2f3ab7ae7a",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "3de1aa5f-5586-4974-a661-aa1921964897",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "b08067f2f86b44569d6a0e2f3ab7ae7a",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure highlights the two parts of an I. P. address.  Using a host with the I.P. address of 192.168.18.57 with the subnet mask of 255.255.255.0. In this example, the first three octets identify the network portion of the address, which is 192.168.18. The last octet identifies the host portion, which is 57.",
+    "_activityParentId": "4962daf8-c0a4-4b51-b702-fa1e22746245",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "995766637b6748bc813450f58989c791",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "995766637b6748bc813450f58989c791",
+    "_classes": "",
+    "_parentId": "d328a17e4d874e7fa2cce9f0b3a34584",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "035f52a0-6162-4900-b62c-636708337666",
+    "_isOptional": true,
+    "_oldParentId": "d328a17e4d874e7fa2cce9f0b3a34584",
+    "_activityParentId": "8d160612-1d12-480f-b50e-3b282d5e3059"
+  },
+  {
+    "_id": "803a6881239c4feaaaa86423cbd261a0",
+    "body": "<p><span style=\"color:#000000\">O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Qual é o endereço de rede do Host-A?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "10.0.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.5.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.5.4.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "10.5.4.100",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "803a6881239c4feaaaa86423cbd261a0",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O endereço de rede para 10.5.4.100 com uma máscara de sub-rede de 255.255.255.0 é 10.5.4.0.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p>O endereço de rede para 10.5.4.100 com uma máscara de sub-rede de 255.255.255.0 é 10.5.4.0.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3019331164e64f51b8210ae39be91d0d",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "8fea7fa1-6430-4bf4-90be-bca260c0cd8a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço de rede 1",
+      "_isEnabled": true,
+      "_onCorrectValue": 20,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "3019331164e64f51b8210ae39be91d0d",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "803a6881239c4feaaaa86423cbd261a0",
+    "_activityParentId": "af195e06-917e-420e-9384-b92b1d76c42b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "300e6e3f8e2046c3b86603193a1cea81",
+    "body": "<p><span style=\"color:#000000\">O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Qual é o endereço de rede do Host-A?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "172.0.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.0.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "172.16.4.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.4.100",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "300e6e3f8e2046c3b86603193a1cea81",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O endereço de rede para 172.16.4.100 com uma máscara de sub-rede de 255.255.0.0 é 172.16.0.0.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p>O endereço de rede para 172.16.4.100 com uma máscara de sub-rede de 255.255.0.0 é 172.16.0.0.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4f74c7acd16446dbaa8e5049da4cb255",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "e7332b67-6b17-46cc-a4ae-f3aeb12c5650",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço de rede 2",
+      "_isEnabled": true,
+      "_onCorrectValue": 20,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "4f74c7acd16446dbaa8e5049da4cb255",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "300e6e3f8e2046c3b86603193a1cea81",
+    "_activityParentId": "c4122d5b-1604-49ca-933c-7c67cdf001e0",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "b4824ee83fe74e079497b27947e3a01d",
+    "body": "<p><span style=\"color:#000000\">O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "10.5.4.1",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "10.5.0.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.5.4.99",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "10.0.0.98",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.5.100.4",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "b4824ee83fe74e079497b27947e3a01d",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O Host A está na rede 10.5.4.0. Portanto, os dispositivos com os endereços IPv4 10.5.4.1 e 10.5.4.99 estão na mesma rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p>O Host A está na rede 10.5.4.0. Portanto, os dispositivos com os endereços IPv4 10.5.4.1 e 10.5.4.99 estão na mesma rede.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cdf59529de6b4d24b671f875019e51a9",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "ab322513-29de-419b-a2e3-e7dcb1b1aa85",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço de rede 3",
+      "_isEnabled": true,
+      "_onCorrectValue": 20,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cdf59529de6b4d24b671f875019e51a9",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "b4824ee83fe74e079497b27947e3a01d",
+    "_activityParentId": "c821a420-8439-4f62-a931-70fad2c73ce8",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "dd6c2119aa734770a8ac4103f696a059",
+    "body": "<p><span style=\"color:#000000\">O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)</span></p>",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "172.16.4.99",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "172.16.0.1",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "172.17.4.99",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.17.4.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.18.4.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "dd6c2119aa734770a8ac4103f696a059",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O host A está na rede 172.16.0.0. Portanto, os dispositivos com os endereços IPv4 172.16.4.99 e 172.16.0.1 estão na mesma rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p>O host A está na rede 172.16.0.0. Portanto, os dispositivos com os endereços IPv4 172.16.4.99 e 172.16.0.1 estão na mesma rede.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e3b10d6c1e934328b5899c0a393ee1af",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c2042c8b-3540-4476-af07-33972fbe9c7e",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço de rede 4",
+      "_isEnabled": true,
+      "_onCorrectValue": 20,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e3b10d6c1e934328b5899c0a393ee1af",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "dd6c2119aa734770a8ac4103f696a059",
+    "_activityParentId": "6fb72dba-791a-430c-947b-c0ad385f4383",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "67f74759af464402a3062747744933ec",
+    "body": "<p><span style=\"color:#000000\">O Host-A tem o endereço IPv4 e a máscara de sub-rede 192.168.1.50 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)</span></p>",
+    "_type": "component",
+    "title": "Pergunta 5",
+    "_items": [
+      {
+        "text": "192.168.0.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.0.100",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.1.1",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.1.100",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.2.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "67f74759af464402a3062747744933ec",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O Host A está na rede 192.168.1.0. Portanto, os dispositivos com os endereços IPv4 192.168.1.1 e 192.168.1.100 estão na mesma rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p>O Host A está na rede 192.168.1.0. Portanto, os dispositivos com os endereços IPv4 192.168.1.1 e 192.168.1.100 estão na mesma rede.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "98b41270d9fe4457acc6f98e462c7bad",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "b0ed2bf1-9fbd-47a6-ab56-d128fedccf04",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Endereço de rede 5",
+      "_isEnabled": true,
+      "_onCorrectValue": 20,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "98b41270d9fe4457acc6f98e462c7bad",
+    "displayTitle": "Pergunta 5",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "67f74759af464402a3062747744933ec",
+    "_activityParentId": "e17b1110-4938-4502-b373-331213c127f2",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "d771a3773cf44201bd3f76f3780b81e3",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "d771a3773cf44201bd3f76f3780b81e3",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "c519570b14f146e5968163a1647313cf",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "80a59623-b530-42c5-8299-370b2edfc409",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "c519570b14f146e5968163a1647313cf",
+    "displayTitle": "",
+    "_activityParentId": "566e12c2-4ed5-4898-aedf-ba4e5233aa93"
+  },
+  {
+    "_id": "d01a35a244af4033bfa2ea624748ec33",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo  Protocolo IP</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo Protocolo IP",
+    "_oldId": "d01a35a244af4033bfa2ea624748ec33",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7ce367d1d35347c182a7660efe79237c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6e716b53-14f3-4314-922c-8152408364de",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7ce367d1d35347c182a7660efe79237c",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "3fbca197-f967-496b-ae07-c98daa9ef84c",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2802a9ecfe014d918db7f054f1afefaa",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo Protocolo IP",
+    "_oldId": "2802a9ecfe014d918db7f054f1afefaa",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e20eaf6db365495d935e2ff3b0751819",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4debfd0a-5279-44df-a1ca-d52377fd7004",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e20eaf6db365495d935e2ff3b0751819",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "9b34bd22-d214-4d6e-8d7b-abddc5cc74cb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d0e65681d4a141ffad2b35c78d799137",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>O endereço IPv4 é um endereço de rede lógico que identifica um host específico. Ele deve ser configurado corretamente e de forma exclusiva dentro da LAN, para fornecer comunicação local. Também deve ser configurado corretamente e de forma exclusiva no mundo, para fornecer comunicação remota.</p><p>Um endereço IPv4 é atribuído à  conexão de interface de rede de um host. Essa conexão geralmente é uma placa de interface de rede (NIC) instalada no dispositivo.</p><p>Cada pacote enviado pela Internet tem um endereço IPv4 de origem e de destino. Essa informação é necessária para os dispositivos de rede garantirem que os dados cheguem ao destino e que as respostas sejam retornadas à origem.</p>",
+        "title": "Finalidade do endereço IPv4",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      },
+      {
+        "body": "<p>O endereço lógico IPv4 de 32 bits é hierárquico e contém duas partes, a rede e o host Como exemplo, um host com o endereço IPv4 192.168.5.11 e a máscara de sub-rede 255.255.255.0. Os três primeiros octetos (192.168.5) identificam a porção de rede do endereço e o último octeto (11) identifica o host. Isso é conhecido como endereçamento hierárquico porque a porção de rede indica a rede na qual está localizado cada endereço exclusivo de host.</p><p>Os roteadores precisam saber apenas como alcançar cada rede, em vez de precisar saber a localização de cada host individual. Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente.</p>",
+        "title": "A estrutura do endereço IPv4",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "_oldId": "d0e65681d4a141ffad2b35c78d799137",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3e5af45f64404299a613436b8eb05a4c",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "c2bbc861-e8f9-4e9b-a682-c312d2e64d77",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "3e5af45f64404299a613436b8eb05a4c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "216cc3b5-46ff-40a9-a1f4-51020995a2de",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "d6c088a7cc284d87a06f1b1f8dcbde06",
+    "body": "<p>Faz sentido que cada dispositivo na rede tenha um endereço IP, e os roteadores usam esses endereços para enviar pacotes da origem para o destino. Quando envio uma carta pelo correio, coloco o endereço e o endereço do destinatário no envelope. Mas agora vejo a outra conexão com a forma como as redes operam. O código postal e a cidade do meu destinatário são um pouco parecidos com a parte da rede do endereço IP, e o endereço é como a porção host do endereço IP. Você consegue pensar em outras analogias com as operações de rede e endereços IP?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "d6c088a7cc284d87a06f1b1f8dcbde06",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2983d87af829445ea4d679e1b538ccf2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2a5b8f8a-f72b-47e4-be3d-cc2a1fdc956e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2983d87af829445ea4d679e1b538ccf2",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "fca8ffaf-1804-4f1c-a2a3-09010fbe6e94",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b3da91c54b24400aa3d4233f2490e6b4",
+    "body": "",
+    "_type": "component",
+    "title": "Gráfico",
+    "_oldId": "b3da91c54b24400aa3d4233f2490e6b4",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "Um personagem vestido com roupas casuais sentado em uma pose de ioga",
+      "large": "pt-BR/assets/1e9d9a580fd94fcba12b167d23a6880c.png",
+      "small": "pt-BR/assets/1e9d9a580fd94fcba12b167d23a6880c.png",
+      "attribution": ""
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2983d87af829445ea4d679e1b538ccf2",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "409d6d16-d075-4897-9687-5c8c0dc4d689",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2983d87af829445ea4d679e1b538ccf2",
+    "displayTitle": "",
+    "_activityParentId": "fca8ffaf-1804-4f1c-a2a3-09010fbe6e94",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2d1148bf0ab94e6a9c5c113b608748d7",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "2d1148bf0ab94e6a9c5c113b608748d7",
+    "_classes": "",
+    "_parentId": "9303f0a299b04cb5b4e6e1570042c17a",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "d30ad335-04bd-4dd0-bf53-0b74a6ad127a",
+    "_isOptional": true,
+    "_oldParentId": "9303f0a299b04cb5b4e6e1570042c17a",
+    "_activityParentId": "74749d67-1b86-4a9a-bc46-fefd67700a32"
+  },
+  {
+    "_id": "7ae480e8a1164593a0fb7cb38233914d",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "7ae480e8a1164593a0fb7cb38233914d",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário sobre Protocolo Internet",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "ed476b08302c47758d525d96df6500ac",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "467bbc96-7adc-47bc-b8c5-bbc45b33f0c2",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "ed476b08302c47758d525d96df6500ac",
+    "displayTitle": "",
+    "_activityParentId": "15bc4271-4aee-42bc-8eaf-84cb6d14bfe5",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "777f55543408471fa7ec5bb1c654941b",
+    "body": "<p>Que critério deve ser seguido no projeto de um esquema de endereçamento IPv4 para dispositivos finais?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Cada endereço IP deve corresponder ao endereço atribuído ao host pelo DNS.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Cada endereço IP deve ser único em uma mesma rede.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Cada endereço IP precisa ser compatível com o endereço MAC.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Cada host local deve receber um endereço IP com um componente de rede exclusivo.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "777f55543408471fa7ec5bb1c654941b",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O endereço IP é independente de um endereço MAC. Os endereços IP atribuídos aos dispositivos finais devem ser exclusivos. Eles podem ser atribuídos dinamicamente por um servidor DHCP (não um servidor DNS) ou atribuídos manualmente por administradores de rede local. Se um endereço for atribuído manualmente, o administrador de rede deve garantir que ele seja único.</p>",
+      "_incorrect": {
+        "final": "<p>O endereço IP é independente de um endereço MAC. Os endereços IP atribuídos aos dispositivos finais devem ser exclusivos. Eles podem ser atribuídos dinamicamente por um servidor DHCP (não um servidor DNS) ou atribuídos manualmente por administradores de rede local. Se um endereço for atribuído manualmente, o administrador de rede deve garantir que ele seja único.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c5ac73249c4147498552996c2a743955",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "60b01307-3684-4e87-aeaf-66c6cae39217",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "c5ac73249c4147498552996c2a743955",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "204777",
+    "_activityParentId": "47b0663b-cc90-4aac-a0f3-65e276b0b99e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "d87aec131ba14bbd8d2cd350f65695fe",
+    "body": "<p>Quantos octetos existem em um endereço  IPv4?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "4",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "8",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "16",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "32",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d87aec131ba14bbd8d2cd350f65695fe",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Cada octeto comporta 8 bits e um endereço IPv4 contém 32 bits. Portanto, um endereço IPv4 contém quatro octetos.</p>",
+      "_incorrect": {
+        "final": "<p>Cada octeto comporta 8 bits e um endereço IPv4 contém 32 bits. Portanto, um endereço IPv4 contém quatro octetos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "250a0754886a420dabd65cfe3bdc48ec",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "5d726140-9528-4bb7-9303-7e0365cd798b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "250a0754886a420dabd65cfe3bdc48ec",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207539",
+    "_activityParentId": "f76a4ee0-8c0e-4ba8-95ca-5e84ff6d3214",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "c84eae2fb24a4e7499a6d07c4243df93",
+    "body": "<p>Quais duas partes são componentes de um endereço IPv4? (Escolha duas.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "parte de sub-rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "parte da rede",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "parte lógica",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "parte de host",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "parte física",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "parte de broadcast",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "c84eae2fb24a4e7499a6d07c4243df93",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um endereço IPv4 é dividido em duas partes: uma parte da rede - para identificar a rede específica na qual um host reside e uma parte do host - para identificar hosts específicos em uma rede. Uma máscara de sub-rede é usada para identificar o comprimento de cada porção.</p>",
+      "_incorrect": {
+        "final": "<p>Um endereço IPv4 é dividido em duas partes: uma parte da rede - para identificar a rede específica na qual um host reside e uma parte do host - para identificar hosts específicos em uma rede. Uma máscara de sub-rede é usada para identificar o comprimento de cada porção.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3a63fef98d5348528560bf1fa5a2195b",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "aab924a0-aa00-4ee9-bbd8-4a8aada2f6d7",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "3a63fef98d5348528560bf1fa5a2195b",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208924",
+    "_activityParentId": "15d39530-f3b4-44ef-9155-d317f654c045",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "d7603a8b96ea4d8496a6beb4cc53c1a4",
+    "body": "<p>Qual é o objetivo de combinar a máscara de sub-rede com um endereço IP?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "identificar exclusivamente um host em uma rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "identificar se o endereço é público ou privado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "determinar a sub-rede a qual o host pertence",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "mascarar o endereço IP para intrusos",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d7603a8b96ea4d8496a6beb4cc53c1a4",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Com o endereço IPv4, uma máscara de sub-rede também é necessária. Uma máscara de sub-rede é um tipo especial de endereço IPv4 que, associado ao endereço IP, determina a sub-rede da qual o dispositivo faz parte.</p>",
+      "_incorrect": {
+        "final": "<p>Com o endereço IPv4, uma máscara de sub-rede também é necessária. Uma máscara de sub-rede é um tipo especial de endereço IPv4 que, associado ao endereço IP, determina a sub-rede da qual o dispositivo faz parte.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "90f6cfef43e440caa2b6e8cda241afc9",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "08a6312d-2564-439e-abba-c7eba7f438fc",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "90f6cfef43e440caa2b6e8cda241afc9",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "274097",
+    "_activityParentId": "856866b0-252f-465c-be08-d3b74c00b423",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "80f55f81fd4149cab4a1998ec7290975",
+    "body": "<p>Um técnico está configurando o equipamento em uma rede. Quais são os três dispositivos que precisarão de endereços IP?<br>(Escolha três.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "uma impressora com uma placa de rede integrada",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "uma Web câmera conectada diretamente a um host",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "um servidor com duas placas de rede",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "um telefone IP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "um mouse sem fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "um PDA conectado a uma estação de trabalho de rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "80f55f81fd4149cab4a1998ec7290975",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um dispositivo precisa de um endereço IP para se conectar a uma rede. Um dispositivo conectado a um dispositivo na rede pode usar a conexão estabelecida para acessar a rede.<p>",
+      "_incorrect": {
+        "final": "<p>Um dispositivo precisa de um endereço IP para se conectar a uma rede. Um dispositivo conectado a um dispositivo na rede pode usar a conexão estabelecida para acessar a rede.<p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e43c1811d9484fcb89da7e69b72f0736",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "17c7d315-0e24-4997-a5f2-55e2738d2968",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e43c1811d9484fcb89da7e69b72f0736",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "285505",
+    "_activityParentId": "7c7df40b-f82c-4764-9153-1727935ce8cc",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "109fcf57b31542739ff5b823f5be347b",
+    "body": "<p>Qual afirmação descreve o relacionamento de uma rede física e redes endereçadas IPv4 lógicas?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Uma rede física local é compatível com uma rede lógica IPv4.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Uma rede física pode conectar vários dispositivos de redes lógicas IPv4 diferentes.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Todos os dispositivos conectados a uma rede física precisam pertencer à mesma rede lógica IPv4.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Os dispositivos finais em redes lógicas IPv4 diferentes podem se comunicar entre si se todos se conectarem ao mesmo switch.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "109fcf57b31542739ff5b823f5be347b",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Várias redes lógicas IPv4 podem existir em uma rede física. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com outros hosts de número de rede diferente, sem o uso de roteamento.</p>",
+      "_incorrect": {
+        "final": "<p>Várias redes lógicas IPv4 podem existir em uma rede física. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com os outros hosts com número de rede diferente sem o uso de roteamento.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8ccd0ab296084c4dbe09eab8e499d4f5",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "bcd98809-0dcd-4aef-8874-5c59aef4b87a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8ccd0ab296084c4dbe09eab8e499d4f5",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "385933",
+    "_activityParentId": "609bfe25-0956-42ad-8ab9-4a57f3a05f98",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "56e3970803924aa497f6a73179277e49",
+    "body": "<p>Qual o tamanho dos endereços IPv4?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "8 bits",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "16 bits",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "32 bits ",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "64 bits",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "128 bits",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "56e3970803924aa497f6a73179277e49",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um endereço IPv4 é um endereço lógico de 32 bits.</p>",
+      "_incorrect": {
+        "final": "<p>Um endereço IPv4 é um endereço lógico de 32 bits.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cd0169f22c56425dbdb84799f3b5514a",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c5233f81-4e72-4d54-b2a5-e02de1d377ca",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cd0169f22c56425dbdb84799f3b5514a",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410464",
+    "_activityParentId": "985d8b9e-7e6e-4f3c-90f7-61118dc48895",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "6f48f660b2ba495198df483bfd0ed05f",
+    "body": "<p>Qual é o número de rede para um endereço IPv4 172.16.34.10 com a máscara de sub-rede de 255.255.255.0?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "34.10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.34.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "6f48f660b2ba495198df483bfd0ed05f",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A máscara de sub-rede é usada para determinar qual parte do endereço IPv4 é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em um endereço IPv4 indicam o número da rede.</p>",
+      "_incorrect": {
+        "final": "<p>A máscara de sub-rede é usada para determinar qual parte do endereço IPv4 é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em um endereço IPv4 indicam o número da rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1be8dfc279d04b73bdc685dec7213fab",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "587df26c-5188-46cf-b750-322935f245bd",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1be8dfc279d04b73bdc685dec7213fab",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410465",
+    "_activityParentId": "483dd3b8-f76a-4aad-ae87-327154ac51d8",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "2e35c10513d34d34975a3a0a0692d5ad",
+    "body": "<p>Quais são os dois recursos dos endereços IPv4? (Escolha duas.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Um endereço IPv4 contém 8 octetos.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "IPv4 é um esquema de endereçamento lógico.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Um esquema de endereçamento IPv4 é hierárquico.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Os endereços IPv4 são usados apenas para comunicações na Internet.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um endereço IPv4 é vinculado a uma placa de interface de rede para torná-lo único.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2e35c10513d34d34975a3a0a0692d5ad",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os endereços IPv4 têm 32 bits (4 octetos). Os endereços IPv4 são endereços lógicos e são atribuídos às interfaces de rede do host conforme necessário. O endereçamento IPv4 é hierárquico e cada endereço IPv4 é composto de duas partes, o número de rede (ou endereço de rede) e o número do host. Os endereços IPv4 são usados em redes locais e na Internet.</p>",
+      "_incorrect": {
+        "final": "<p>Os endereços IPv4 têm 32 bits (4 octetos). Os endereços IPv4 são endereços lógicos e são atribuídos às interfaces de rede do host conforme necessário. O endereçamento IPv4 é hierárquico e cada endereço IPv4 é composto de duas partes, o número de rede (ou endereço de rede) e o número do host. Os endereços IPv4 são usados em redes locais e na Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e6f260a237e640a1a87283fc552f1b93",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "5589cb2a-b2b4-4b74-b9c0-06415bd7f4b3",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e6f260a237e640a1a87283fc552f1b93",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410466",
+    "_activityParentId": "6177cecf-61ac-4061-8c49-dd5e97f21585",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "3cb03f1ac89643a681bb3850a9df7723",
+    "body": "<p>Considere o grupo de cinco endereços IPv4 cada um com a máscara de sub-rede 255.255.255.0. Quais dois endereços IPv4 pertencem à mesma rede local? (Escolha duas.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "192.168.10.2",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "193.168.10.16",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.10.56",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.167.10.74",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.100.62",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "3cb03f1ac89643a681bb3850a9df7723",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A máscara de sub-rede determina qual parte do endereço IP é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em cada endereço IPv4 indicam o número da rede. Endereços IPv4 com o mesmo número de rede são considerados na mesma rede local.</p>",
+      "_incorrect": {
+        "final": "<p>A máscara de sub-rede determina qual parte do endereço IP é o número da rede. Como a máscara de sub-rede é 255.255.255.0, os três primeiros conjuntos de números em cada endereço IPv4 indicam o número da rede. Endereços IPv4 com o mesmo número de rede são considerados na mesma rede local.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c80f6126dc994c30aee7705965d816f7",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "4bae959c-e443-47d5-b6b8-711a2b5a651c",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "c80f6126dc994c30aee7705965d816f7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410467",
+    "_activityParentId": "09186243-2711-401d-bf74-45b7ecfcc4ba",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "fdf1ebfdc7fd4fcdab67976a05529c79",
+    "body": "<p>O grupo de TI precisa projetar e implantar a conectividade de rede IPv4 em um novo laboratório de informática do ensino médio. O projeto de rede requer que várias redes lógicas sejam implantadas em uma rede física.Qual tecnologia é necessária para permitir que computadores em redes lógicas diferentes se comuniquem?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "roteamento",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "hospedagem",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "mapeamento",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "comutação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "fdf1ebfdc7fd4fcdab67976a05529c79",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com outros hosts de número de rede diferente, sem o uso de roteamento.</p>",
+      "_incorrect": {
+        "final": "<p>Com o endereçamento IPv4, poderão existir diversas redes lógicas em uma rede física se a porção de rede dos endereços de hosts de rede lógica for diferente. Os hosts com o mesmo número de rede em seus endereços IPv4 poderão se comunicar entre si, mas não são capazes de comunicar com outros hosts de número de rede diferente, sem o uso de roteamento.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5a7c8b3247e740ac83b3d88974f0ab5c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "eef220a6-1742-4265-9625-fb15d77e3d0d",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5a7c8b3247e740ac83b3d88974f0ab5c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410468",
+    "_activityParentId": "4775309f-44ab-4d7f-942d-90c005d31954",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "3f176dad493c4f97a76fc6385de839fb",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "3f176dad493c4f97a76fc6385de839fb",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f0590e8c3aa94e96939bff837db6d858",
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_resetType": "inherit",
+    "_activityId": "dddd0447-e958-4c69-a48b-5dfc1c050d06",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "f0590e8c3aa94e96939bff837db6d858",
+    "displayTitle": "",
+    "_assessmentId": "f82f4deecb39499b9fd6fa812e3c7442",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "09d66594-8c74-4303-a909-c2142f1427a1",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "3751c48129ce4ac9baa46f48f91a3300",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "3751c48129ce4ac9baa46f48f91a3300",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "co-10",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": true
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_parentId": "9728da9f5af849ee80238dbb1e5a25e0",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "none",
+    "_activityId": "1585a192-f3e1-42d7-a4d7-59c0be18b156",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "9728da9f5af849ee80238dbb1e5a25e0",
+    "displayTitle": "",
+    "_activityParentId": "f0afd5ba-21c8-4918-9868-c22cf527925e"
+  },
+  {
+    "_id": "f2738701-34cf-4dde-ad06-80ba36e6ffea",
+    "body": "<h2><span lang=\"PT-BR\">Objetivos</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Observe como os pacotes são enviados pela Internet usando endereços IP.</span></p> <h2><span lang=\"PT-BR\">Instruções</span></h2> <h2><span lang=\"PT-BR\">Parte 1: </span><span lang=\"PT-BR\">Verificar a conectividade ao servidor da Web</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Abra a janela do prompt de comando do host de origem. Selecione <b>PC0</b>. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Selecione a guia Desktop &gt; Command Prompt.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Verificar a conectividade ao servidor da Web. No prompt de comando, pingue o endereço IP do servidor web digitando<b> ping 172.33.100.50</b>.</span></p> <p class=\"CMD\"><span lang=\"PT-BR\">PC&gt; <b>ping 172.33.100.50</b></span></p><p class=\"CMDOutput\">&nbsp;</p><p class=\"CMDOutput\"><span lang=\"PT-BR\">Pinging 172.33.100.50 with 32 bytes of data:</span></p><p class=\"CMDOutput\">&nbsp;</p><p class=\"CMDOutput\"><span lang=\"PT-BR\">Reply from 172.33.100.50: bytes=32 time=0ms TTL=127</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Reply from 172.33.100.50: bytes=32 time=0ms TTL=127</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Reply from 172.33.100.50: bytes=32 time=0ms TTL=127</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Reply from 172.33.100.50: bytes=32 time=0ms TTL=127</span></p><p class=\"CMDOutput\">&nbsp;</p><p class=\"CMDOutput\"><span lang=\"PT-BR\">Ping statistics for 172.33.100.50:</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Approximate round trip times in milli-seconds:</span></p> <p class=\"CMDOutput\"><span lang=\"PT-BR\">Minimum = 0ms, Maximum = 0ms, Average = 0ms</span></p> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">Uma resposta verifica a conectividade do cliente com o servidor web de destino. A resposta pode atingir o tempo limite enquanto os dispositivos carregam e o ARP é executado. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Feche somente a janela do prompt de comando ao selecionar o x na janela do prompt de comando. Certifique-se de deixar a janela de configurações do PC0 aberta.</span></p> <h2><span lang=\"PT-BR\">Parte 2: </span><span lang=\"PT-BR\">Conecte-se ao servidor da Web através do cliente da Web.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Na guia Desktop no PC0, escolha <b>Web Browser.</b></span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Insira <b>172.33.100.50</b> na URL e clique em <b>Go</b>. O cliente Web será conectado ao servidor Web através do endereço IP e abrirá a página da Web.</span></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "f2738701-34cf-4dde-ad06-80ba36e6ffea",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7b7754b8-9cca-49e1-8045-e46ce24d35cc",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3085602e-6d47-477a-9319-f339a1686572",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7b7754b8-9cca-49e1-8045-e46ce24d35cc",
+    "displayTitle": "",
+    "_activityParentId": "020b48e6-9e01-4529-990b-18a05bd142df",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "da875736-40cd-407a-bc37-855cccf14fbb",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "da875736-40cd-407a-bc37-855cccf14fbb",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Quais mensagens você viu após a página Web ter sido carregada?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "357ad5aa-446d-4df9-a517-1a9e69af0d1a",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"border: none\"><span style=\"border: none\">Welcome to the Learn IP Web Site <br> You were able to reach this website because you had the IP address of the web server. O PC que conectou também tinha um cliente Web em execução no dispositivo.</span></span></span></p>",
+    "_activityId": "0806998d-4c6a-4b7b-9c50-33970aee44e7",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "357ad5aa-446d-4df9-a517-1a9e69af0d1a",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "5a9b092b-d02e-42db-afd2-011fda7ced87",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  }
+]

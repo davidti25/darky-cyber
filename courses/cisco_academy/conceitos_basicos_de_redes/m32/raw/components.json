@@ -1,0 +1,4835 @@
+[
+  {
+    "_id": "5f38f64eadd14d76b8d3571aa726b594",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "5f38f64eadd14d76b8d3571aa726b594",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd3b697acc4c4c859890ef585b262ae5",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e377e6a2-7487-42db-921a-6a5783dac022",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fd3b697acc4c4c859890ef585b262ae5",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "8a94fc4c-1c71-4db5-b979-8a168f03a0fb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "971e90c2a89f4d22b3e84b7df6567ca4",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "971e90c2a89f4d22b3e84b7df6567ca4",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "450b9733b205461f8ddaaa182de06300",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "86dd43d7-8e10-4912-8e8c-77dc56dcd9d8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "450b9733b205461f8ddaaa182de06300",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "05bce287-9b72-4778-b454-a067207396ca",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9cd7086d5aa3449789ec47eea1212147",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "9cd7086d5aa3449789ec47eea1212147",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/7a42a90ee0b446fa9350c99dc8792195.png",
+      "small": "pt-BR/assets/7a42a90ee0b446fa9350c99dc8792195.png",
+      "attribution": ""
+    },
+    "_parentId": "20087c42d42545c384bc50e41948b91f",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "14ebe231-aec4-469b-81eb-fdff3c361797",
+    "instruction": "",
+    "_oldParentId": "20087c42d42545c384bc50e41948b91f",
+    "displayTitle": "",
+    "_activityParentId": "eb1c16ec-59a5-41c7-8070-6ab108a87b67",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "450b8e5e493b427eb91ecd7b9ad5d88f",
+    "body": "<p>Oi, é Webster novamente. </p><p>Halimah está tendo uma boa visão da rede na sede e nas outras filiais. Ela entende melhor como essas redes são, na verdade, apenas uma rede conectada. </p><p>É na camada de rede que ocorre a conectividade de ponta a ponta.  A conectividade permite enviar um e-mail a um amigo, acessar um site, transmitir um podcast e recuperar um documento de um local central. Gosto de saber sobre redes, protocolos e serviços que estão envolvidos. </p><p>Você está intrigado? Eu sei que eu estou! </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "450b8e5e493b427eb91ecd7b9ad5d88f",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "20087c42d42545c384bc50e41948b91f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ca06df59-dc0a-4c15-ac6b-e32d5cecbbdb",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "20087c42d42545c384bc50e41948b91f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "eb1c16ec-59a5-41c7-8070-6ab108a87b67",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "115839a4c04e40a098169b229653bcc3",
+    "body": "<p><strong>Título do Módulo:</strong> Roteamento na camada de rede</p><p><strong>Objetivo do Módulo:</strong> Explicar como os roteadores usam protocolos e serviços da camada de rede para habilitar a conectividade de ponta a ponta.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Como um Host Roteia",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explique como os dispositivos de rede usam tabelas de roteamento para direcionar pacotes para uma rede de destino.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Tabela de Roteamento",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar a função dos campos na tabela de roteamento de um roteador.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "115839a4c04e40a098169b229653bcc3",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "9825e54cfc3f4dc7ac4ba29199490acb",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "15348b32-f3fd-472f-8001-bbe2438952e1",
+    "instruction": "",
+    "_oldParentId": "9825e54cfc3f4dc7ac4ba29199490acb",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "3d8289a7-346e-48e3-8555-a279259f34c1",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "fdf11136b9314bd5971b87dbaf5ee2bb",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "fdf11136b9314bd5971b87dbaf5ee2bb",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "abf9d9cc96dd472eaa97852b29916155",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "fc39a7b7-a04f-4420-92c5-90fa4f469325",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "abf9d9cc96dd472eaa97852b29916155",
+    "displayTitle": "",
+    "_activityParentId": "308afabf-98cd-482c-bfef-ae1813cc3d91"
+  },
+  {
+    "_id": "55e2465654ff4dabb11ad1b02e1a1ce9",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Como um Host Roteia </span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Como um Host Roteia",
+    "_oldId": "55e2465654ff4dabb11ad1b02e1a1ce9",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cf972e777a634d59acac735e8e02b475",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "223b6d3d-7304-43f4-bc79-e2f2612aa281",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "cf972e777a634d59acac735e8e02b475",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "a4d643df-0827-4849-b7fb-50da3cac37e4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9f6bd7f9bfe04446aec1a03575a28dd6",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Como um Host Roteia",
+    "_oldId": "9f6bd7f9bfe04446aec1a03575a28dd6",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c7fb4174726d459c8168ce29a9e00a8c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cd0332a7-cb28-41f1-88c0-ed3b12ae478c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c7fb4174726d459c8168ce29a9e00a8c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "05a4eb94-d9a2-4394-858e-f9473c8a9d18",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f87749538e6a4efcae5c2da17c4daf05",
+    "body": "<p>Com IPv4 e IPv6, os pacotes são sempre criados no host de origem. O host de origem deve ser capaz de direcionar o pacote para o host de destino. Para fazer isso, os dispositivos finais (host) criam sua própria tabela de roteamento. Este tópico discute como os dispositivos finais usam tabelas de roteamento.</p><p>Outra função da camada de rede é direcionar pacotes entre hosts. Um host pode enviar um pacote para o seguinte:</p><ul><li><strong>Ele mesmo</strong> - Um host pode executar ping em si mesmo enviando um pacote para um endereço IPv4 especial  127.0.0.1 ou um endereço IPv6 :: / 1, conhecido como interface de loopback. O ping na interface de loopback testa a pilha de protocolos do TCP/IP no host.</li><li><strong>Host local</strong> - este é um host de destino que está na mesma rede local que o host de envio. Os hosts de origem e destino compartilham o mesmo endereço de rede.</li><li><strong>Host remoto</strong> - este é um host de destino em uma rede remota. Os hosts de origem e destino não compartilham o mesmo endereço de rede.</li></ul><p>A figura ilustra a conexão PC1 a um host local na mesma rede e a um host remoto localizado em outra rede.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Decisão de Encaminhamento do Host",
+    "_oldId": "f87749538e6a4efcae5c2da17c4daf05",
+    "details": {
+      "uuid": "2e0f3e20-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Host <br />Local",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Hospedeiro <br />remoto",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "192.168.10.0/24",
+          "class": "ID_txt03"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e0f3e20-1c25-11ea-a010-eb2108469056/2e0f6530-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "570/237",
+      "primary_image": "media/2e0f3e20-1c25-11ea-a010-eb2108469056/2e0f6531-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "ae97d652b9b149f69a1564cb6f14606f",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "e48e363b-c986-4816-a54b-80624b6068cb",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ae97d652b9b149f69a1564cb6f14606f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama mostra um host, PC1, conectando-se a um host local, PC2, na mesma rede e a um host remoto, um servidor, em outra rede. PC1 e PC2 estão conectados a um switch na rede 192.168.10.0/24. PC1 tem um endereço de .10 e PC2 tem um endereço de .15. O switch está conectado a um roteador, R1, no endereço .1. Do outro lado do R1 há uma conexão com a nuvem onde o host remoto reside.",
+    "_activityParentId": "07ec828b-0f79-4b37-96e0-d0dad31c5514",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "ed598fa7c6d947228e3b216a01181c8e",
+    "body": "<p>Se um pacote é destinado a um host local ou a um host remoto é determinado pelo dispositivo final de origem. O dispositivo final de origem determina se o endereço IP de destino está na mesma rede em que o próprio dispositivo de origem está. O método de determinação varia de acordo com a versão IP:</p><ul><li><strong>Em IPv4</strong> - o dispositivo de origem usa sua própria máscara de sub-rede junto com seu próprio endereço IPv4 e o endereço IPv4 de destino para fazer essa determinação.</li><li><strong>Em IPv6</strong> - o roteador local anuncia o endereço da rede local (prefixo) para todos os dispositivos da rede.</li></ul><p>Em uma rede doméstica ou comercial, você pode ter vários dispositivos com e sem fio interconectados usando um dispositivo intermediário, como um switch LAN ou um ponto de acesso sem fio (WAP). Este dispositivo intermediário fornece interconexões entre hosts locais na rede local. Os hosts locais podem interagir entre si e compartilhar informações sem a necessidade de dispositivos adicionais. Se um host estiver enviando um pacote para um dispositivo configurado com a mesma rede IP que o dispositivo host, o pacote será simplesmente encaminhado para fora da interface do host, através do dispositivo intermediário e diretamente ao dispositivo de destino.</p><p>Obviamente, na maioria das situações, queremos que nossos dispositivos possam se conectar além do segmento de rede local, como em outras residências, empresas e na Internet. Os dispositivos que estão além do segmento de rede local são conhecidos como hosts remotos. Quando um dispositivo de origem envia um pacote a um dispositivo de destino remoto, é necessária a ajuda de roteadores e do roteamento. O roteamento é o processo de identificação do melhor caminho até um destino. O roteador conectado ao segmento de rede local é conhecido como gateway padrão.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Decisão de Encaminhamento do Host",
+    "_oldId": "ed598fa7c6d947228e3b216a01181c8e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bea1451b6f4e4c46a59851feae291b2b",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "39c4484e-c802-4321-a0bc-dc3d5d9ccba3",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bea1451b6f4e4c46a59851feae291b2b",
+    "displayTitle": "",
+    "_activityParentId": "c25857c3-6bca-472b-85b0-c23b54efc1a3",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c04b0ab42f51477f9048c00418c20d7b",
+    "body": "<p>O gateway padrão é o dispositivo de rede (ou seja, roteador ou switch da Camada 3) que pode rotear o tráfego para outras redes. Comparando a rede com uma sala, o gateway padrão é a porta. Se você quiser ir para outra sala (rede), vai precisar encontrar essa porta.</p><p>Em uma rede, um gateway padrão geralmente é um roteador com esses recursos:</p><ul><li>Ele possui um endereço IP local no mesmo intervalo de endereços que outros hosts na rede local.</li><li>Ele pode aceitar dados na rede local e encaminhar dados para fora da rede local.</li><li>Ele direciona o tráfego para outras redes.</li></ul><p>Um gateway padrão é necessário para enviar tráfego fora da rede local. O tráfego não pode ser encaminhado para fora da rede local se não houver gateway padrão, o endereço de gateway padrão não estiver configurado ou o gateway padrão estiver inativo.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Gateway Padrão",
+    "_oldId": "c04b0ab42f51477f9048c00418c20d7b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2fc4a17801c4419daae8f86efb2bfb1a",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f51d022f-a06c-46e0-b724-31b9b75ee399",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2fc4a17801c4419daae8f86efb2bfb1a",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "0997f60a-4d8a-467f-9732-943dc1565c51",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "77b8dc13dcc0492c84804b744eb0c729",
+    "body": "<p>Uma tabela de roteamento de host normalmente inclui um gateway padrão. No IPv4, o host recebe o endereço IPv4 do gateway padrão dinamicamente do DHCP (Dynamic Host Configuration Protocol) ou configurado manualmente. No IPv6, o roteador anuncia o endereço de gateway padrão ou o host pode ser configurado manualmente.</p><p>Na figura, PC1 e PC2 são configurados com o endereço IPv4 de 192.168.10.1 como o gateway padrão.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Um host encaminha para o gateway padrão",
+    "_oldId": "77b8dc13dcc0492c84804b744eb0c729",
+    "details": {
+      "uuid": "2e0f8c40-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Rota para a Rede Local",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Redes Remotas",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Conexão Direta",
+          "class": "ID_txt03"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e0f8c40-1c25-11ea-a010-eb2108469056/2e0f8c44-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "650/250",
+      "primary_image": "media/2e0f8c40-1c25-11ea-a010-eb2108469056/2e0f8c45-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "0761b16508a24b398bd4c25c50cc5915",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "be992ece-5474-445b-8f04-f5412d167136",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "0761b16508a24b398bd4c25c50cc5915",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama mostra dois hosts, PC1 e PC2, conectados a um switch na rede 192.168.10.0/24, a rota de rede local. O switch é conectado a um roteador, R1, que é conectado à nuvem que representa redes remotas. PC1 tem um endereço de .10, PC2 tem um endereço de .15 e a interface do roteador à qual o switch está conectado tem um endereço de .1. Os PCs, o switch e a interface do roteador têm uma conexão direta.",
+    "_activityParentId": "7f200505-9e3e-4799-bd5e-589f227162f4",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "355149a5e6b64643aafa9705b935144a",
+    "body": "<p>A configuração do gateway padrão cria uma rota padrão na tabela de roteamento do computador. Uma rota padrão é a rota ou o caminho que o computador usa quando tenta entrar em contato com uma rede remota.</p><p>Tanto PC1 quanto PC2 terão uma rota padrão para enviar todo o tráfego destinado a redes remotas para R1.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "355149a5e6b64643aafa9705b935144a",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0892039386fb40fc9da075f56d89c94e",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "e19b2da2-6038-4415-a59e-3665882bbcd9",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "0892039386fb40fc9da075f56d89c94e",
+    "displayTitle": "",
+    "_activityParentId": "5a2530ac-07c3-4b42-b600-f201814afb42",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "21c3b22a8ad247bd9d78d7c3e4a94463",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "21c3b22a8ad247bd9d78d7c3e4a94463",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "44af3cba496247c2b0d0c2ea5992853a",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "79bdf38d-b0cc-426c-8bdf-608b71413307",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "44af3cba496247c2b0d0c2ea5992853a",
+    "displayTitle": "",
+    "_activityParentId": "4049689a-2733-4efb-92e0-529d7e5733df",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1160509525ba4258927e842dd11acaf3",
+    "body": "<p>Em um host do Windows, o comando <strong>route print</strong> ou o comando <strong>netstat-r</strong> pode ser usado para exibir a tabela de roteamento do host. Os dois comandos geram o mesmo resultado. O resultado pode parecer confuso no começo, mas é bastante simples de entender.</p><p>A figura exibe uma topologia e a saída gerada pelo comando <strong>netstat –r</strong>.</p>",
+    "_lang": "pt-BR",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "1160509525ba4258927e842dd11acaf3",
+    "_classes": "box-shadow",
+    "_graphic": {
+      "alt": "O diagrama mostra uma topologia de rede que consiste em um host, PC1, conectado a um switch na rede 192.168.10.0/24.  O switch está conectado a um roteador, R1, que é então conectado à nuvem. O PC1 tem um endereço de 0,10 e a interface do roteador à qual o switch está conectado tem um endereço de .1.",
+      "large": "media/2e0fb350-1c25-11ea-a010-eb2108469056/2e0fb355-1c25-11ea-81a0-ffc2c49b96bc.svg",
+      "small": "media/2e0fb350-1c25-11ea-a010-eb2108469056/2e0fb355-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_mediaId": "2e0fb350-1c25-11ea-a010-eb2108469056",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "c9b0c79d15d8472da6cf94b393cbccc5",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_mediaType": "graphic",
+    "_activityId": "ad0a6403-75a4-4790-a844-872c8135d441",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "c9b0c79d15d8472da6cf94b393cbccc5",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.graphic__image-container"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "2679b3d4-b2b9-4ec9-bfe6-48ae479de817",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true
+  },
+  {
+    "_id": "a94ca77425ae413e95403630986bf659",
+    "body": "<h3>Tabela de Roteamento IPv4 de PC1</h3>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Tabelas de Roteamento dos Hosts",
+    "_oldId": "a94ca77425ae413e95403630986bf659",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "precode": [
+      {
+        "text": "C:\\Users\\PC1> <strong>netstat -r</strong>"
+      },
+      {
+        "text": "(output omitted)"
+      },
+      {
+        "text": "IPv4 Route Table"
+      },
+      {
+        "text": "==========================================================================="
+      },
+      {
+        "text": "Active Routes:"
+      },
+      {
+        "text": "Network Destination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Netmask&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interface&nbsp;&nbsp;&nbsp;&nbsp;Metric"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.0.0.0&nbsp;&nbsp;&nbsp;192.168.10.1&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;255.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;306"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;306"
+      },
+      {
+        "text": "&nbsp;&nbsp;127.255.255.255&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;306"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;255.255.255.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;281"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;281"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;192.168.10.255&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;281"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;224.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;240.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;306"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;224.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;240.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;281"
+      },
+      {
+        "text": "&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;127.0.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;306"
+      },
+      {
+        "text": "&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;255.255.255.255&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On-link&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;281"
+      },
+      {
+        "text": "(output omitted)"
+      }
+    ],
+    "_classes": "animated-hide",
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b5b32bfea499408289abd175177bc5ae",
+    "_component": "commandWindow",
+    "_isDeleted": false,
+    "_activityId": "f1ada92e-88a9-48e0-9aba-dd44ad493ee9",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "b5b32bfea499408289abd175177bc5ae",
+    "displayTitle": "",
+    "_activityParentId": "508057f4-e7d0-4e29-bf58-337bbf2fec24",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "9d97ef4c81d54b8ea471de5bffd6f7ff",
+    "body": "<p><strong>Nota:</strong> A saída exibe apenas a tabela de rotas IPv4.</p><p>Ao inserir o comando <strong>netstat-r</strong>  ou o comando equivalente <strong>route print</strong> três seções relacionadas às conexões de rede TCP/IP atuais são exibidas:</p><ul><li><strong>Lista de interface</strong> - lista o endereço de controle de acesso à mídia (MAC) e o número de interface atribuído de cada interface com capacidade de rede no host, incluindo adaptadores Ethernet, Wi-Fi e Bluetooth.</li><li><strong>Tabela de rotas IPv4</strong> - lista todas as rotas IPv4 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais.</li><li><strong>Tabela de rotas IPv6</strong> - lista todas as rotas IPv6 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais.</li></ul></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "9d97ef4c81d54b8ea471de5bffd6f7ff",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b473f2e67dac432baaaf61a2f3d56626",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "028a7cf5-3a43-446c-9687-c275bd78452f",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "b473f2e67dac432baaaf61a2f3d56626",
+    "displayTitle": "",
+    "_activityParentId": "4b7ed2fa-59b4-4eab-a859-9c9bf3f7f9cf",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "b207e86ad8f44962b24137803c4025db",
+    "body": "<p><span style=\"color:#000000\">Qual declaração sobre decisões de encaminhamento de host é verdadeira?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Um host não pode fazer ping em si mesmo.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um host de destino remoto está na mesma rede local que o host de envio.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Os hosts locais podem se alcançar sem a necessidade de um roteador.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "O roteamento é habilitado em switches para descobrir o melhor caminho para um destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "b207e86ad8f44962b24137803c4025db",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Não é necessário um roteador para encaminhar pacotes entre hosts locais na rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>Não é necessário um roteador para encaminhar pacotes entre hosts locais na rede.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5c4ad8d52e0b4142a299983fd3b8c976",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "ddcb62a0-93b4-4c69-83f3-c08f177e3e20",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "encaminhar decisão",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5c4ad8d52e0b4142a299983fd3b8c976",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "b207e86ad8f44962b24137803c4025db",
+    "_activityParentId": "9c908473-ac66-4d76-a69d-a12625727a51",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "9c9e9d07a0704bd4b9033705af9dc563",
+    "body": "<p><span style=\"color:#000000\">Qual instrução de gateway padrão é verdadeira?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Um gateway padrão é necessário para enviar pacotes para outros hosts na rede local.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O endereço de gateway padrão é o endereço IP de um switch em uma rede remota.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O endereço de gateway padrão é o endereço IP do roteador na rede local.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "O tráfego só pode ser encaminhado para fora da rede local se não houver gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "9c9e9d07a0704bd4b9033705af9dc563",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O gateway padrão é o endereço IP de um roteador na rede local.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>O gateway padrão é o endereço IP de um roteador na rede local.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1ad05bb71c464769996f5b985529901b",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "11b374eb-45f9-4e65-aa5c-6b54bf3f8e81",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "gateway padrão",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1ad05bb71c464769996f5b985529901b",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "9c9e9d07a0704bd4b9033705af9dc563",
+    "_activityParentId": "cb17638e-3d06-4758-a97c-a0d59c7cdf23",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "8e21fce11366453e8804598fdd6eb8dc",
+    "body": "<p><span style=\"color:#000000\">Quais dois comandos podem ser inseridos em um host Windows para exibir sua tabela de roteamento IPv4 e IPv6? (Escolha duas.)</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "<strong>netroute -l</strong>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<strong>route</strong>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "<strong>print route</strong>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<strong>route print</strong>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "<strong>netstat - r</strong>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "8e21fce11366453e8804598fdd6eb8dc",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Os comandos <strong>netastat-r</strong> e <strong>route print</strong>  exibirá a tabela de roteamento de um host do Windows.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está certo.</p>Os comandos <strong>netastat-r</strong> e <strong>route print</strong>  exibirá a tabela de roteamento de um host do Windows.<p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "923fb4b5b98842cea7a41b0cd11b713a",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "27adb85d-282a-4e71-b29c-ae8eeb160639",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "comando do Windows",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "923fb4b5b98842cea7a41b0cd11b713a",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "8e21fce11366453e8804598fdd6eb8dc",
+    "_activityParentId": "ba4f20ef-b7f9-4578-bd54-6c91ce05e622",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "5b0d6d95a24b463286ff23fa3ff45f27",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "5b0d6d95a24b463286ff23fa3ff45f27",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "866dd8c6a8ca42a1a9fd15ad1186da55",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "9e224791-fe0b-4389-89ed-a54af21835fb",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "866dd8c6a8ca42a1a9fd15ad1186da55",
+    "displayTitle": "",
+    "_activityParentId": "73be05c4-efdb-4a85-8960-795692937a18"
+  },
+  {
+    "_id": "22d15477ac45451ea391db1b12958ce1",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Tabelas de Roteamento </span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tabelas de roteamento ",
+    "_oldId": "22d15477ac45451ea391db1b12958ce1",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1ec7d42eba014c4eaa030d958c8a7fe4",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6549f641-9e49-46f0-91e9-69d91dd8bfbf",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1ec7d42eba014c4eaa030d958c8a7fe4",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "38ee9301-df78-43c4-867e-31ab4da14385",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f8b53a417e43442bb9bf8bb4d44b1b99",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tabelas de roteamento ",
+    "_oldId": "f8b53a417e43442bb9bf8bb4d44b1b99",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f87b4c0b59e644cc92c2ebb46b211ee1",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1a787748-03cf-423f-be3b-bfa42db034a6",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f87b4c0b59e644cc92c2ebb46b211ee1",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "69cad5d2-0ffb-4571-8127-014c91be124b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "afa7acdceaee44c8b7549b4236bda763",
+    "body": "<p>O tópico anterior discutiu tabelas de roteamento de host. A maioria das redes também contém roteadores, que são dispositivos intermediários. Os roteadores também contêm tabelas de roteamento. Este tópico aborda as operações do roteador na camada de rede. Quando um host envia um pacote para outro host, ele consulta sua tabela de roteamento para determinar para onde enviar o pacote. Se o host de destino estiver em uma rede remota, o pacote será encaminhado para o gateway padrão, que geralmente é o roteador local.</p><p>O que acontece quando um pacote chega na interface do roteador?</p><p>O roteador examina o endereço IP de destino do pacote e pesquisa sua tabela de roteamento para determinar para onde encaminhar o pacote. A tabela de roteamento contém uma lista de todos os endereços de rede conhecidos (prefixos) e para onde encaminhar o pacote. Essas entradas são conhecidas como entradas de rota ou rotas. O roteador encaminhará o pacote usando a melhor (mais longa) entrada de rota correspondente.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Decisão de Encaminhamento de Pacotes no Roteador",
+    "_oldId": "afa7acdceaee44c8b7549b4236bda763",
+    "details": {
+      "uuid": "2e109db0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Endereço IPv4 de destino: <br />10.1.1.10",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Endereço IPv4 de destino: <br />10.1.1.10",
+          "class": "ID_txt03"
+        }
+      ],
+      "caption": "<ol>\n<li>O pacote chega na interface Gigabit Ethernet 0/0/0 do roteador R1. R1 desencapsula o cabeçalho Ethernet da camada 2 e o trailer.</li>\n<li>O roteador R1 examina o endereço IPv4 de destino do pacote e procura a melhor correspondência em sua tabela de roteamento IPv4. A entrada de rota indica que esse pacote deve ser encaminhado para o roteador R2.</li>\n<li>O roteador R1 encapsula o pacote em um novo cabeçalho e trailer Ethernet e encaminha o pacote para o próximo roteador R2 de salto.</li>\n</ol>\n",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e109db0-1c25-11ea-a010-eb2108469056/2e109db3-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/270",
+      "primary_image": "media/2e109db0-1c25-11ea-a010-eb2108469056/2e10c4c0-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "ad1abbb1c55b4e0c92a9d3538c5ac972",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "e5c21147-d430-43e0-8657-ee6ce1f55712",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ad1abbb1c55b4e0c92a9d3538c5ac972",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é uma topologia de rede que mostra o que acontece com um pacote IPv4 à medida que é roteado entre redes. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0/0/0 do roteador R1 com um endereço de .1. Rede 209.165.200.224/30 conecta a interface G0/0/1 em R1, endereço .225, a outro roteador, R2 no endereço .226. R2 está conectado a um switch na rede 10.1.1.0/24 ao qual o host PC2, endereço .10, está conectado. O R2 também possui uma conexão com a nuvem da Internet. Um pacote com o endereço IPv4 de destino 10.1.1.10 é enviado de PC1 para R1. Em seguida, o R1 envia o pacote com o endereço IPv4 de destino 10.1.1.10 para R2.",
+    "_activityParentId": "3dda9bf4-7027-4841-b0d9-ff3c62a92dd6",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "339aeaffc2144a819b0e626af1040d36",
+    "body": "<p>A tabela a seguir mostra as informações pertinentes da tabela de roteamento R1.</p><h3>Tabela de Roteamento de R1</h3>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Rota",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Próximo salto ou interface de  saída",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "192.168.10.0 /24",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "G0/0/0",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "209.165.200.224/30",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "G0/0/1",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "<strong>10.1.1.0/24</strong>",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "<strong>via R2</strong>",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Rota padrão 0.0.0.0/0",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "via R2",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Decisão de Encaminhamento de Pacotes no Roteador",
+    "_oldId": "339aeaffc2144a819b0e626af1040d36",
+    "_layout": "full",
+    "_classes": "",
+    "_minWidth": 800,
+    "_parentId": "2c5143c57c67406fb38e0a27a6fb7f44",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "e095ed61-e74a-4b9a-9e85-4064ea61359f",
+    "instruction": "",
+    "_oldParentId": "2c5143c57c67406fb38e0a27a6fb7f44",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_activityParentId": "7d4a4162-a2ef-4937-a180-68366200e45b",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "98c698e7ea4b44e296edd9abe8160703",
+    "body": "<p>A tabela de roteamento do roteador contém entradas de rota de rede listando todos os possíveis destinos de rede conhecidos.</p><p>A tabela de roteamento armazena três tipos de entradas de rota:</p><ul><li><strong>Redes conectadas diretamente - </strong>Essas entradas de rota de rede são interfaces de roteador ativas. Os roteadores adicionam uma rota diretamente conectada quando uma interface está configurada com um endereço IP e está ativada. Cada interface do roteador está conectada a um segmento de rede diferente. Na figura, as redes diretamente conectadas na tabela de roteamento IPv4 R1 seriam 192.168.10.0/24 e 209.165.200.224/30.</li><li><strong>Redes remotas -</strong> Essas entradas de rotas de rede são conectadas a outros roteadores. Os roteadores aprendem sobre redes remotas sendo explicitamente configurados por um administrador ou trocando informações de rota usando um protocolo de roteamento dinâmico. Na figura, a rede remota na tabela de roteamento IPv4 R1 seria 10.1.1.0/24.</li><li><strong>Rota padrão -</strong> Como um host, a maioria dos roteadores também inclui uma entrada de rota padrão, um gateway de último recurso. A rota padrão é usada quando não há correspondência melhor (mais) na tabela de roteamento IP. Na figura, a tabela de roteamento IPv4 R1 provavelmente incluiria uma rota padrão para encaminhar todos os pacotes para o roteador R2.</li></ul><p>A figura identifica as redes remotas e diretamente conectadas ao roteador R1.</p>",
+    "_type": "component",
+    "title": " {{_moduleNumber}}.2.2 Tabela de Roteamento do Roteador IP",
+    "_oldId": "98c698e7ea4b44e296edd9abe8160703",
+    "details": {
+      "uuid": "2e10ebd0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Rede diretamente conectada",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Rede diretamente conectada",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Rede remota",
+          "class": "ID_txt04"
+        }
+      ],
+      "caption": "<p>O R1 tem duas redes de conexão direta:</p>\n<ul>\n<li>192.168.10.0/24</li>\n<li>209.165.200.224/30</li>\n</ul>\n<p>R1 também tem redes remotas (ou seja, 10.1.1.0/24 e internet) que ele pode aprender sobre.</p>\n",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e10ebd0-1c25-11ea-a010-eb2108469056/2e10ebd3-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/200",
+      "primary_image": "media/2e10ebd0-1c25-11ea-a010-eb2108469056/2e10ebd4-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "009471a36fa1440e9d57ba181f67e13e",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "25178c2d-a2e8-4c4a-aff3-6df31f54dc54",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "009471a36fa1440e9d57ba181f67e13e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é uma topologia de rede que identifica redes diretamente conectadas e redes remotas de um roteador. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0/0/0 do roteador R1 com um endereço de .1. Rede 209.165.200.224/30 conecta a interface G0/0/1 em R1, endereço .225, a outro roteador, R2 no endereço .226 em G0/0/1. R2 está conectado a um switch na rede 10.1.1.0/24 ao qual o host PC2, endereço .10, está conectado. O R2 também possui uma conexão com uma nuvem da Internet.  As redes 192.168.10.0/24 e 209.165.200.224/30 são mostradas como redes conectadas diretamente à R1 e à rede 10.1.2.0/24 (deve ser 10.1.1.0/24?) é mostrado como uma rede remota para R2.",
+    "_activityParentId": "ebc3dffc-8b54-4015-bec5-e0d0a47a9d0f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "7a36f2830a9c42b4a4220e88d4f99832",
+    "body": "<p>Um roteador pode aprender sobre redes remotas de duas maneiras:</p><ul><li><strong>Manualmente</strong> – As redes remotas são inseridas manualmente na tabela de roteamento usando rotas estáticas.</li><li><strong>Dinamicamente</strong> - As rotas remotas são aprendidas automaticamente usando um protocolo de roteamento dinâmico.</li></ul>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "7a36f2830a9c42b4a4220e88d4f99832",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f0471aea9c954c12a7711a0b76f668f2",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "f48eca48-dc39-452e-a391-10d6e045042b",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "f0471aea9c954c12a7711a0b76f668f2",
+    "displayTitle": "",
+    "_activityParentId": "b09de82f-b41a-4712-82cc-a62ec5b91493",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "8ca25c3dba964b19b437c00025e1e7ee",
+    "body": "<p>Rotas estáticas são entradas de rota configuradas manualmente. A figura mostra um exemplo de uma rota estática configurada manualmente no roteador R1. A rota estática inclui o endereço de rede remota e o endereço IP do roteador de salto seguinte.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Roteamento estático",
+    "_oldId": "8ca25c3dba964b19b437c00025e1e7ee",
+    "details": {
+      "uuid": "2e1112e0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Endereço de rede remoto",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Endereço IP do roteador de salto seguinte",
+          "class": "ID_txt03"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e1112e0-1c25-11ea-a010-eb2108469056/2e1112e6-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/260",
+      "primary_image": "media/2e1112e0-1c25-11ea-a010-eb2108469056/2e1139f0-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "1cb1037fe1b24f728d35429ea875bf70",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f8754ba7-8a03-4a92-b5c2-7e4efe27dc9e",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "1cb1037fe1b24f728d35429ea875bf70",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é uma topologia de rede que mostra uma configuração de rota estática para alcançar uma rede remota. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0/0/0 do roteador R1 com um endereço de .1. Rede 209.165.200.224/30 conecta a interface G0/0/1 em R1, endereço .225, a outro roteador, R2 no endereço .226. R2 tem uma interface com o endereço .1 conectado a um switch na rede 10.1.1.0/24 ao qual o host PC2, endereço .10, está conectado. O R2 também possui uma conexão com uma nuvem da Internet. Uma configuração de rota estática no R1 para a rede 10.1.1.0/24 diz: R1(config)#ip route 10.1.1.0 255.255.255.0 209.165.200.226. Na configuração, 10.1.1.0 255.255.255.0 é rotulado como rede remota e 209.165.200.226 é rotulado como endereço IP do próximo roteador de salto.",
+    "_activityParentId": "5fc44e85-650e-48c2-9b98-b83b08061fea",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "b062c51505fa4b63b9db0da5cb39a939",
+    "body": "<p>O R1 é configurado manualmente com uma rota estática para alcançar a rede 10.1.1.0/24. Se esse caminho mudar, R1 exigirá uma nova rota estática.</p><p>Se houver uma alteração na topologia da rede, a rota estática não será atualizada automaticamente e deverá ser reconfigurada manualmente. Por exemplo, na figura R1 tem uma rota estática para alcançar a rede 10.1.1.0/24 via R2. Se esse caminho não estiver mais disponível, R1 precisaria ser reconfigurado com uma nova rota estática para a rede 10.1.1.0/24 via R3. Portanto, o roteador R3 precisaria ter uma entrada de rota em sua tabela de roteamento para enviar pacotes destinados a 10.1.1.0/24 para R2.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Roteamento estático",
+    "_oldId": "b062c51505fa4b63b9db0da5cb39a939",
+    "details": {
+      "uuid": "2e1139f0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Rota estática",
+          "class": "ID_text01"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e1139f0-1c25-11ea-a010-eb2108469056/2e1139f7-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "620/280",
+      "primary_image": "media/2e1139f0-1c25-11ea-a010-eb2108469056/2e1139f8-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "ff174f22b1ec44c3aab63576b55a846c",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "a3028781-7ef2-4817-b366-e24d7d5b29bd",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ff174f22b1ec44c3aab63576b55a846c",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama é uma topologia de rede mostrando um link com falha em uma rota estática. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0 / 0/0 do roteador R1 com um endereço de .1. R1 está conectado ao roteador R2 e roteador R3 que também são direcionados conectados. R2 está conectado a um switch na rede 10.1.1.0/24 ao qual é o host PC2, endereço .10, está conectado. Uma rota estática foi configurada em R1 que aponta para R2 como o próximo salto.  Um X vermelho indica que este link falhou.",
+    "_activityParentId": "817d07c2-b72c-4161-b7fb-e84ee2761aec",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "fda10de1a2f747569a197c9e3ca038f3",
+    "body": "<p>Se a rota de R1 via R2 não estiver mais disponível, uma nova rota estática via R3 precisaria ser configurada. Uma rota estática não se ajusta automaticamente para alterações de topologia.</p><p>O roteamento estático tem as seguintes características:</p><ul><li>Uma rota estática deve ser configurada manualmente.</li><li>O administrador precisa reconfigurar uma rota estática se houver uma alteração na topologia e a rota estática não for mais viável.</li><li>Uma rota estática é apropriada para uma rede pequena e quando há poucos ou nenhum vínculo redundante.</li></ul></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Roteamento estático",
+    "_oldId": "fda10de1a2f747569a197c9e3ca038f3",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d1ad4e6e890b488cb68dc30ef576fb9e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "75c5d217-eb9b-48a8-9c0a-8ca721a67e36",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d1ad4e6e890b488cb68dc30ef576fb9e",
+    "displayTitle": "",
+    "_activityParentId": "f5b5acca-216a-4489-b2e6-281591e540db",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "21a5d97f3adb4fbb81f43427330e0d67",
+    "body": "<p>Um protocolo de roteamento dinâmico permite que os roteadores aprendam automaticamente sobre redes remotas, incluindo uma rota padrão, de outros roteadores. Os roteadores que usam protocolos de roteamento dinâmico compartilham automaticamente informações de roteamento com outros roteadores e compensam qualquer alteração de topologia sem envolver o administrador da rede. Se houver uma alteração na topologia de rede, os roteadores compartilham essas informações usando o protocolo de roteamento dinâmico e atualizam automaticamente suas tabelas de roteamento.</p><p>Os protocolos de roteamento dinâmico incluem OSPF e Enhanced Interior Gateway Routing Protocol (EIGRP). A figura mostra um exemplo de roteadores R1 e R2 compartilhando automaticamente informações de rede usando o protocolo de roteamento OSPF.</p>",
+    "_lang": "pt-BR",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "21a5d97f3adb4fbb81f43427330e0d67",
+    "_classes": "box-shadow",
+    "_graphic": {
+      "alt": "O diagrama é uma topologia de rede que mostra roteadores usando protocolos de roteamento dinâmico para trocar informações. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0 / 0/0 do roteador R1 com um endereço de .1. Rede 209.165.200.224/30 conecta uma interface G0 / 0/1 em R1, endereço .225, outro roteador, R2 no endereço .226. O R2 tem uma interface com o endereço .1 conectado a um switch na rede 10.1.1.0/24 para qual host PC2, endereço .10, está conectado. As setas mostram R1 e R2 compartilhando informações entre si.",
+      "large": "media/2e116100-1c25-11ea-a010-eb2108469056/2e116106-1c25-11ea-81a0-ffc2c49b96bc.svg",
+      "small": "media/2e116100-1c25-11ea-a010-eb2108469056/2e116106-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_mediaId": "2e116100-1c25-11ea-a010-eb2108469056",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "168a217b26584fc6ba43257237c003d7",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_mediaType": "graphic",
+    "_activityId": "0d3e83cc-b920-42c4-8ce6-6137af605434",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "168a217b26584fc6ba43257237c003d7",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.graphic__image-container"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "f16cacaa-4f6f-4311-ab98-2a196c26a79a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true
+  },
+  {
+    "_id": "8787e150bb374366bf4842eb3b56f8a0",
+    "body": "<p><ul><li>R1 está usando o protocolo de roteamento OSPF para informar R2 sobre a rede 192.168.10.0/24.</li><li>R2 está usando o protocolo de roteamento OSPF para deixar R1 saber sobre a rede 10.1.1.0/24.</li></ul></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Roteamento estático",
+    "_oldId": "8787e150bb374366bf4842eb3b56f8a0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f3b50902ecde4a0185e366d71fb4cfb8",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "45f60b6a-0f21-4093-b0a7-6540d1d7db40",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f3b50902ecde4a0185e366d71fb4cfb8",
+    "displayTitle": "",
+    "_activityParentId": "360dd78c-a3b9-4734-a945-5fbf8c486757",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "a2200796db954a1eadf5c4ece63f1424",
+    "body": "<p>A configuração básica requer apenas que o administrador de rede habilite as redes conectadas diretamente dentro do protocolo de roteamento dinâmico. O protocolo de roteamento dinâmico fará automaticamente o seguinte:</p><ul><li>Descobrir redes remotas</li><li>Manter as informações de roteamento atualizadas</li><li>Escolha o melhor caminho para as redes de destino</li><li>Tentar encontrar um novo melhor caminho se o caminho atual não estiver mais disponível</li></ul><p>Quando um roteador é configurado manualmente com uma rota estática ou aprende sobre uma rede remota dinamicamente usando um protocolo de roteamento dinâmico, o endereço de rede remota e o endereço de próximo salto são inseridos na tabela de roteamento IP. Conforme mostrado na figura, se houver uma alteração na topologia de rede, os roteadores ajustarão automaticamente e tentarão encontrar um novo melhor caminho.</p>",
+    "_type": "component",
+    "title": "",
+    "_oldId": "a2200796db954a1eadf5c4ece63f1424",
+    "details": {
+      "uuid": "2e11af20-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Melhor caminho anterior",
+          "class": "ID_text01"
+        },
+        {
+          "text": "Novo melhor caminho",
+          "class": "ID_text02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e11af20-1c25-11ea-a010-eb2108469056/2e11af21-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "620/310",
+      "primary_image": "media/2e11af20-1c25-11ea-a010-eb2108469056/2e11af22-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "1b6bb339db3d4fac97b7265b2f972232",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "33bf5903-7f01-4c19-a4c9-ff2fcdf641fa",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "1b6bb339db3d4fac97b7265b2f972232",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O diagrama mostra uma topologia de rede na qual os roteadores que usam protocolos de roteamento dinâmico estão ajustando os melhores caminhos após uma alteração de topologia. O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0 / 0/0 do roteador R1 com um endereço de .1. R1 está conectado ao roteador R2 e roteador R3 que também são direcionados. R2 está conectado a um switch na rede 10.1.1.0/24 ao qual é o host PC2, endereço .10, está conectado. Um X vermelho indica que o link entre R1 e R2, rotulado como o melhor caminho anterior, falhou.  Um novo melhor caminho é mostrado indo de R1 para R3 para R2.",
+    "_activityParentId": "3aed77ac-916b-4646-8813-e78ef97add4b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "20600cb0b23a41f890fb93c09abf094d",
+    "body": "<p>R1, R2 e R3 estão usando o protocolo de roteamento dinâmico OSPF. Se houver uma alteração na topologia de rede, eles poderão ajustar automaticamente para encontrar um novo caminho melhor.</p><p><strong>Nota:</strong> É comum que alguns roteadores usem uma combinação de rotas estáticas e um protocolo de roteamento dinâmico.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Roteamento estático",
+    "_oldId": "20600cb0b23a41f890fb93c09abf094d",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "22f1637249a34357adcbbdc6d3fd5cd6",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e900aa70-2298-4860-97d8-45b2771a4a99",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "22f1637249a34357adcbbdc6d3fd5cd6",
+    "displayTitle": "",
+    "_activityParentId": "f11cb38d-4c01-4693-a884-e30179178e38",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7dd5d855e1fb46bcac9581362a4585b5",
+    "body": "<p>Ao contrário de uma tabela de roteamento de computadores host, não há títulos de coluna que identifiquem as informações contidas na tabela de roteamento de um roteador. É importante compreender o significado dos diferentes itens incluídos em cada entrada da tabela de roteamento.</p><p><strong>Clique em Reproduzir para ver uma introdução à  tabela de roteamento IPv4.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.5 Vídeo - Tabela de roteamento do roteador IPv4",
+    "_oldId": "7dd5d855e1fb46bcac9581362a4585b5",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6253931731001",
+    "videoIds": [
+      "a50f7a46-19f6-48f4-aff1-541ba04d01c9"
+    ],
+    "_parentId": "fe48a84426c5419c817947739aa5aa2a",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "carimbos de data/hora (Timestamps) ",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "f624fc85-0e3c-42ca-9f71-978643acc502",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "fe48a84426c5419c817947739aa5aa2a",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "e075864d-f17d-4b22-b197-9d728354a7ef",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "474d853a4fc94946b0f418f391d4ac6c",
+    "body": "<p>Observe na figura que R2 está conectado à internet. Portanto, o administrador configurou R1 com uma rota estática padrão enviando pacotes para R2 quando não há nenhuma entrada específica na tabela de roteamento que corresponda ao endereço IP de destino. R1 e R2 também estão usando roteamento OSPF para anunciar redes conectadas diretamente.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.6 Introdução a uma tabela de roteamento IPv4",
+    "_oldId": "474d853a4fc94946b0f418f391d4ac6c",
+    "details": {
+      "uuid": "2e122450-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e122450-1c25-11ea-a010-eb2108469056/2e122452-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/160",
+      "primary_image": "media/2e122450-1c25-11ea-a010-eb2108469056/2e122453-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "b83fa29a79c24c50b8551f4cb1f7d35c",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "338b818c-e34c-4d54-bbce-886b08a76dda",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "b83fa29a79c24c50b8551f4cb1f7d35c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "O host PC1, com um endereço de .10, está conectado a um switch na rede 192.168.10.0/24 que está conectado à interface G0 / 0/0 do roteador R1 com um endereço de .1. Rede 209.165.200.224/30 conecta uma interface G0 / 0/1 em R1, endereço .225, outro roteador, R2 no endereço .226. R2 está conectado a um switch na rede 10.1.1.0/24 ao qual é o host PC2, endereço .10, está conectado. O R2 também possui uma conexão com uma nuvem da Internet. ",
+    "_activityParentId": "198d26be-3c71-4019-813c-6c9b1c39283e",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "ec05503dc3b64962845d0c0b68af5dc1",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.6 Introdução a uma tabela de roteamento IPv4",
+    "_oldId": "ec05503dc3b64962845d0c0b68af5dc1",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "precode": [
+      {
+        "text": "R1# <strong>show ip route</strong>"
+      },
+      {
+        "text": "Codes:&nbsp;L&nbsp;-&nbsp;local,&nbsp;C&nbsp;-&nbsp;connected,<code class=\"codep\" style=\"color:#fbab18\">&nbsp;S&nbsp;-&nbsp;static</code>,&nbsp;R&nbsp;-&nbsp;RIP,&nbsp;M&nbsp;-&nbsp;mobile,&nbsp;B&nbsp;-&nbsp;BGP"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;-&nbsp;EIGRP,&nbsp;EX&nbsp;-&nbsp;EIGRP&nbsp;external,&nbsp;O&nbsp;-&nbsp;OSPF,&nbsp;IA&nbsp;-&nbsp;OSPF&nbsp;inter&nbsp;area"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N1&nbsp;-&nbsp;OSPF&nbsp;NSSA&nbsp;external&nbsp;type&nbsp;1,&nbsp;N2&nbsp;-&nbsp;OSPF&nbsp;NSSA&nbsp;external&nbsp;type&nbsp;2"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E1&nbsp;-&nbsp;OSPF&nbsp;external&nbsp;type&nbsp;1,&nbsp;E2&nbsp;-&nbsp;OSPF&nbsp;external&nbsp;type&nbsp;2"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i&nbsp;-&nbsp;IS-IS,&nbsp;su&nbsp;-&nbsp;IS-IS&nbsp;summary,&nbsp;L1&nbsp;-&nbsp;IS-IS&nbsp;level-1,&nbsp;L2&nbsp;-&nbsp;IS-IS&nbsp;level-2"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ia&nbsp;-&nbsp;IS-IS&nbsp;inter&nbsp;area,&nbsp;<code class=\"codep\" style=\"color:#fbab18\">*&nbsp;-&nbsp;candidate&nbsp;default</code>,&nbsp;U&nbsp;-&nbsp;per-user&nbsp;static&nbsp;route"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;-&nbsp;ODR,&nbsp;P&nbsp;-&nbsp;periodic&nbsp;downloaded&nbsp;static&nbsp;route,&nbsp;H&nbsp;-&nbsp;NHRP,&nbsp;l&nbsp;-&nbsp;LISP"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;-&nbsp;application&nbsp;route"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;-&nbsp;replicated route,&nbsp;%&nbsp;-&nbsp;next&nbsp;hop&nbsp;override,&nbsp;p&nbsp;-&nbsp;overrides&nbsp;from&nbsp;PfR"
+      },
+      {
+        "text": "<code class=\"codep\" style=\"color:#fbab18;white-space: break-spaces;\">Gateway&nbsp;of&nbsp;last&nbsp;resort&nbsp;is&nbsp;209.165.200.226&nbsp;to&nbsp;network&nbsp;0.0.0.0</code>"
+      },
+      {
+        "text": "<code class=\"codep\" style=\"color:#fbab18;white-space: break-spaces;margin-top: 12px;\">S*&nbsp;&nbsp;&nbsp;&nbsp;0.0.0.0/0&nbsp;[1/0]&nbsp;via&nbsp;209.165.200.226, GigabitEthernet0/0/1</code>"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.0.0.0/24&nbsp;is&nbsp;subnetted,&nbsp;1&nbsp;subnets"
+      },
+      {
+        "text": "O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.1.0&nbsp;[110/2]&nbsp;via&nbsp;209.165.200.226,&nbsp;00:02:45,&nbsp;GigabitEthernet0/0/1"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.0/24&nbsp;is&nbsp;variably&nbsp; subnetted,&nbsp;2&nbsp;subnets,&nbsp;2&nbsp;masks"
+      },
+      {
+        "text": "C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.1/24&nbsp;is&nbsp;directly connected,&nbsp;GigabitEthernet0/0/0"
+      },
+      {
+        "text": "L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.1/32&nbsp;is&nbsp;directly connected,&nbsp;GigabitEthernet0/0/0"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;209.165.200.0/24&nbsp;is&nbsp;variably&nbsp; subnetted,&nbsp;2&nbsp;subnets,&nbsp;2&nbsp;masks"
+      },
+      {
+        "text": "C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;209.165.200.224/30&nbsp;is&nbsp; directly&nbsp;connected,&nbsp;GigabitEthernet0/0/1"
+      },
+      {
+        "text": "L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;209.165.200.225/32&nbsp;is&nbsp; directly&nbsp;connected,&nbsp;GigabitEthernet0/0/1"
+      },
+      {
+        "text": "R1#"
+      }
+    ],
+    "_classes": "animated-hide",
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fa3a3d69630b4986a6f120f4825f73aa",
+    "_component": "commandWindow",
+    "_isDeleted": false,
+    "_activityId": "98779940-87dc-4387-8376-ce17354582cf",
+    "_isOptional": true,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fa3a3d69630b4986a6f120f4825f73aa",
+    "displayTitle": "",
+    "_activityParentId": "66c9ac5e-4d10-4492-af03-ec2d49e9fe22",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a7f9eeefeb05461bb18e9f921bab0ab5",
+    "body": "<p>O comando de modo EXEC privilegiado <strong>show ip route </strong> é usado para exibir a tabela de roteamento IPv4 em um roteador Cisco IOS O exemplo mostra a tabela de roteamento IPv4 do roteador R1. No início de cada entrada de tabela de roteamento é um código que é usado para identificar o tipo de rota ou como a rota foi aprendida. As fontes comuns de rotas (códigos) incluem:</p><ul><li><strong>L </strong>- Endereço IP da interface local diretamente conectado</li><li><strong>C </strong>- Rede diretamente conectada</li><li><strong>S </strong>- A rota estática foi configurada manualmente por um administrador</li><li><strong>O </strong>- OSPF</li><li><strong>D </strong>- EIGRP</li></ul></p><p>A tabela de roteamento exibe todas as rotas de destino IPv4 conhecidas para R1.</p><p>Uma rota diretamente conectada é criada automaticamente quando uma interface do roteador é configurada com informações de endereço IP e é ativada. O roteador adiciona duas entradas de rota com os códigos <strong>C </strong>(ou seja, a rede conectada) e <strong>L</strong> (ou seja, o endereço IP da interface local da rede conectada). As entradas de rota também identificam a interface de saída a ser usada para alcançar a rede. As duas redes diretamente conectadas neste exemplo são 192.168.10.0/24 e 209.165.200.224/30.</p><p>Os roteadores R1 e R2 também estão usando o protocolo de roteamento dinâmico OSPF para trocar informações do roteador. Na tabela de roteamento de exemplo, R1 tem uma entrada de rota para a rede 10.1.1.0/24 que aprendeu dinamicamente do roteador R2 por meio do protocolo de roteamento OSPF.</p><p>Uma rota padrão tem um endereço de rede de todos os zeros. Por exemplo, o endereço de rede IPv4 é 0.0.0.0. Uma entrada de rota estática padrão na tabela de roteamento começa com um código de <strong>S*</strong>, conforme destacado no exemplo.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "a7f9eeefeb05461bb18e9f921bab0ab5",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "39f3388c1f5e4e869d8941befe9f514f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5c92ffd3-f75d-4a3b-a994-50bac4c5fc1c",
+    "_isOptional": true,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "39f3388c1f5e4e869d8941befe9f514f",
+    "displayTitle": "",
+    "_activityParentId": "68a8054a-2f48-4491-9644-abedd14fbe6b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9bd02e219a4f4644aaa12969627cb53c",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "9bd02e219a4f4644aaa12969627cb53c",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e548233ffbd14ff58a1279652eb221c9",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "8b096fe7-f6f3-41c4-924e-320c4321c7ac",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e548233ffbd14ff58a1279652eb221c9",
+    "displayTitle": "",
+    "_activityParentId": "9ee21430-723c-4328-8aed-e470340953a0",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "976d0ece01be410a8ed3bfdf8b2761a2",
+    "body": "<p><span style=\"color:#000000\">Qual é o comando usado em um roteador Cisco IOS para exibir a tabela de roteamento?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "netstart -r",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "route print",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "show ip route",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "show routing table",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "976d0ece01be410a8ed3bfdf8b2761a2",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Está certo.</p>O comando  <strong>show ip route </strong> é usado para exibir a tabela de roteamento  em um roteador Cisco IOS",
+      "_incorrect": {
+        "final": "<p>Isso não está correto.</p>O comando  <strong>show ip route </strong> é usado para exibir a tabela de roteamento  em um roteador Cisco IOS<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Isso não está correto.</p>O comando  <strong>show ip route </strong> é usado para exibir a tabela de roteamento  em um roteador Cisco IOS<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b52efc82469a4ab0a287bf0559096ba3",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "85707f51-90a7-44ae-879e-97b68d513478",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "comando router",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "b52efc82469a4ab0a287bf0559096ba3",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "976d0ece01be410a8ed3bfdf8b2761a2",
+    "_activityParentId": "9c630aec-b6d5-4ed3-911e-7bc757b4147e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "1b0ceaf24c4c4100bdfd5a7a7a486bed",
+    "body": "<p>O que um código de “O” indica ao lado de uma rota na tabela de roteamento?</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "uma rota diretamente conectada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "uma rota com uma distância administrativa de 0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "um portal de último recurso",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "uma rota aprendida dinamicamente do OSPF",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "1b0ceaf24c4c4100bdfd5a7a7a486bed",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Está certo.</p>Os códigos no início de cada entrada da tabela de roteamento são usados para identificar o tipo de rota ou como a rota foi aprendida. Um código \"O\" indica que a rota foi aprendida no OSPF.",
+      "_incorrect": {
+        "final": "<p>Isso não está correto.</p>Os códigos no início de cada entrada da tabela de roteamento são usados para identificar o tipo de rota ou como a rota foi aprendida. Um código \"O\" indica que a rota foi aprendida no OSPF.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Isso não está correto.</p>Os códigos no início de cada entrada da tabela de roteamento são usados para identificar o tipo de rota ou como a rota foi aprendida. Um código \"O\" indica que a rota foi aprendida no OSPF.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4f05ab993f1a4f9d9455ea276c22c378",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1cc72e3b-0e1d-4c52-aca4-c83b02412659",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "routing table code ",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "4f05ab993f1a4f9d9455ea276c22c378",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "1b0ceaf24c4c4100bdfd5a7a7a486bed",
+    "_activityParentId": "b91e132d-e194-4c6d-8046-dd40ea331424",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "75b9e23ba4924cd09ae0073d4ca28a3e",
+    "body": "<p>Esse tipo de rota também é conhecido como gateway de último recurso.</p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "rota estática",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rota remota",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rota padrão",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "rota diretamente conectada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "75b9e23ba4924cd09ae0073d4ca28a3e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Está certo.</p>Uma rota padrão também é conhecida como gateway de último recurso.",
+      "_incorrect": {
+        "final": "<p>Isso não está correto.</p>Uma rota padrão também é conhecida como gateway de último recurso.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Isso não está correto.</p>Uma rota padrão também é conhecida como gateway de último recurso.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0e2574e1cfb643b3b4115ce3e52743c3",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ae16b317-d413-48cf-b174-6455af606367",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Tipo de rota",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "0e2574e1cfb643b3b4115ce3e52743c3",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "75b9e23ba4924cd09ae0073d4ca28a3e",
+    "_activityParentId": "6bc311d0-7ca8-425c-a5f3-faac9d687150",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ac629a98b62f4acf90c4063606c9e85c",
+    "body": "<p>Qual é uma característica das rotas estáticas?</p>",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "Eles são configurados manualmente.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Eles são anunciados para vizinhos diretamente conectados.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles são apropriados quando há muitos links redundantes.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles se ajustam automaticamente a uma alteração na topologia de rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ac629a98b62f4acf90c4063606c9e85c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Está certo.</p>As rotas estáticas são configuradas manualmente e não se ajustam às alterações na topologia da rede e não são anunciadas para roteadores vizinhos.",
+      "_incorrect": {
+        "final": "<p>Isso não está correto.</p>As rotas estáticas são configuradas manualmente e não se ajustam às alterações na topologia da rede e não são anunciadas para roteadores vizinhos.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Isso não está correto.</p>As rotas estáticas são configuradas manualmente e não se ajustam às alterações na topologia da rede e não são anunciadas para roteadores vizinhos.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "598bfdb167194265a00428246a5faa65",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "fda3dc91-242a-44d5-b012-1f0f4d089318",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Características de rotas estáticas:",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "598bfdb167194265a00428246a5faa65",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "ac629a98b62f4acf90c4063606c9e85c",
+    "_activityParentId": "66a491f7-3cca-4412-ab6a-1ab11b9e6921",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "cf5d162251d6415590f54dd40cbf86e0",
+    "body": "<p>Verdadeiro ou falso? Um roteador pode ser configurado com uma combinação de rotas estáticas e um protocolo de roteamento dinâmico.</p>",
+    "_type": "component",
+    "title": "Pergunta 5",
+    "_items": [
+      {
+        "text": "Verdadeiro",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Falso",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "cf5d162251d6415590f54dd40cbf86e0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Está certo.</p>A resposta correta é verdadeira. Os roteadores podem ser configurados com rotas estáticas e com um protocolo de roteamento dinâmico.",
+      "_incorrect": {
+        "final": "<p>Isso não está correto.</p>A resposta correta é verdadeira. Os roteadores podem ser configurados com rotas estáticas e com um protocolo de roteamento dinâmico.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>A resposta correta é verdadeira. Os roteadores podem ser configurados com rotas estáticas e com um protocolo de roteamento dinâmico.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "123a3309f4a94f0bb7804dd0fbcaf924",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d78f96ce-5788-4c9f-a978-68deece3316b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "configurações de rota",
+      "_isEnabled": true,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "123a3309f4a94f0bb7804dd0fbcaf924",
+    "displayTitle": "Pergunta 5",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "cf5d162251d6415590f54dd40cbf86e0",
+    "_activityParentId": "81b476fd-a1db-4fd6-9ee0-b3b0a09185af",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "11cbe2bba59e476e8413889449d6c029",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "11cbe2bba59e476e8413889449d6c029",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "29a2ac82349243809a5cedb5a95bf225",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "f17c3e4d-7c9c-4500-8fc1-b03e63efccaa",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "29a2ac82349243809a5cedb5a95bf225",
+    "displayTitle": "",
+    "_activityParentId": "fcb4b83e-b329-45d5-952c-a0fb5cb49469"
+  },
+  {
+    "_id": "7174f7fabdd149ba800071567d0e6125",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo da Roteamento na camada de rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo da Roteamento na camada de rede",
+    "_oldId": "7174f7fabdd149ba800071567d0e6125",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ed23adff482741d5b557b803540204b0",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "61ddf08b-e81a-44d5-ae69-ec33080a3594",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ed23adff482741d5b557b803540204b0",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "37370044-4379-442d-a8d1-707a90c5cb68",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c7256929abc541f38a34532cd87238ed",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo da Roteamento na camada de rede",
+    "_oldId": "c7256929abc541f38a34532cd87238ed",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "11cb9bea67b4494abc9ccde5551bbc14",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "57bff605-b34c-4281-b1dc-84356cc743cf",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "11cb9bea67b4494abc9ccde5551bbc14",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "66b5ec7f-827c-4a03-a392-150d8fead96e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6614e470d5984c0999bc84672d9b72fe",
+    "body": "<p><strong> Como um host roteia</strong><br> Um host pode enviar um pacote para si mesmo, outro host local e um host remoto. No IPv4, o dispositivo de origem usa sua própria máscara de sub-rede juntamente com seu próprio endereço IPv4 e o endereço IPv4 de destino para determinar se o host de destino está na mesma rede. No IPv6, o roteador local anuncia o endereço de rede local (prefixo) para todos os dispositivos na rede, para fazer essa determinação. O gateway padrão é o dispositivo de rede (ou seja, roteador) que pode rotear o tráfego para outras redes. Em uma rede, um gateway padrão geralmente é um roteador que tem um endereço IP local no mesmo intervalo de endereços que outros hosts na rede local, pode aceitar dados na rede local e encaminhar dados para fora da rede local e rotear o tráfego para outras redes. Uma tabela de roteamento do host normalmente inclui um gateway padrão. No IPv4, o host recebe o endereço IPv4 do gateway padrão dinamicamente via DHCP ou é configurado manualmente. No IPv6, o roteador anuncia o endereço de gateway padrão ou o host pode ser configurado manualmente. Em um host do Windows, o comando <strong>route print</strong> ou o comando <strong>netstat-r</strong> pode ser usado para exibir a tabela de roteamento do host.</p><p><strong>Tabela de Roteamento</strong><br>Quando um host envia um pacote para outro host, ele consulta sua tabela de roteamento para determinar para onde enviar o pacote. Se o host de destino estiver em uma rede remota, o pacote será encaminhado para o gateway padrão, que geralmente é o roteador local. O que acontece quando um pacote chega na interface do roteador? O roteador examina o endereço IP de destino do pacote e pesquisa sua tabela de roteamento para determinar para onde encaminhar o pacote. A tabela de roteamento contém uma lista de todos os endereços de rede conhecidos (prefixos) e para onde encaminhar o pacote. Essas entradas são conhecidas como entradas de rota ou rotas. O roteador encaminhará o pacote usando a melhor (mais longa) entrada de rota correspondente. </p><p>A tabela de roteamento de um roteador armazena três tipos de entradas de rota: redes conectadas diretamente, redes remotas e uma rota padrão. Os roteadores aprendem sobre redes remotas manualmente ou dinamicamente usando um protocolo de roteamento dinâmico. Rotas estáticas são entradas de rota configuradas manualmente. As rotas estáticas incluem o endereço de rede remota e o endereço IP do roteador de salto seguinte. OSPF e EIGRP são dois protocolos de roteamento dinâmico. O comando de modo EXEC privilegiado <strong>show ip route </strong> é usado para exibir a tabela de roteamento IPv4 em um roteador Cisco IOS No início de uma tabela de roteamento IPv4 é um código que é usado para identificar o tipo de rota ou como a rota foi aprendida. As fontes comuns de rotas (códigos) incluem:</p><p> <strong>L</strong> - Endereço IP da interface local diretamente conectada <br><strong>C </strong>- Rede conectada diretamente <br><strong>S</strong> - A rota estática foi configurada manualmente por um administrador <br><strong>O</strong> - Abra o caminho mais curto primeiro (OSPF) <br><strong>D</strong> - Protocolo de roteamento de gateway interior aprimorado (EIGRP)  </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O Que Eu Aprendi Neste Módulo?",
+    "_oldId": "6614e470d5984c0999bc84672d9b72fe",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "225a31fbb8804f71945f5b501aa1c47d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "151f2162-2449-4d4b-8357-9aaddebeaf90",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "225a31fbb8804f71945f5b501aa1c47d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "23fb981f-b177-45d6-a431-b99c2750e614",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0b83bc051c534ceea4207b7746ff6fa2",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "0b83bc051c534ceea4207b7746ff6fa2",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/7a42a90ee0b446fa9350c99dc8792195.png",
+      "small": "pt-BR/assets/7a42a90ee0b446fa9350c99dc8792195.png",
+      "attribution": ""
+    },
+    "_parentId": "866f65f09fa44de783748d91de2a753f",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "86fa648b-c323-49dd-a473-dc4234ee775a",
+    "instruction": "",
+    "_oldParentId": "866f65f09fa44de783748d91de2a753f",
+    "displayTitle": "",
+    "_activityParentId": "2dd015c4-5e88-4408-b539-5dd231f3983f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "ae641e88144741ec986d45116da3dc99",
+    "body": "<p>Talvez você não trabalhe em um hospital, mas se você está aqui agora é porque, como Kishori, você usa computadores e quer saber mais sobre redes. </p><p>Você sabia que a Internet é uma enorme rede de redes que são conectadas, direta ou indiretamente, entre si? É como a Rede na qual que eu vivo. Uma parte pode ser quebrada, mas a minha Rede não se desfaz; Posso corrigi-la e até fortalecê-la. </p><p>Você gostaria de fazer isso pela sua rede?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "ae641e88144741ec986d45116da3dc99",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "866f65f09fa44de783748d91de2a753f",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "b00d5540-f3c5-4c0e-91d2-52d77ae5f1a8",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 12,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "866f65f09fa44de783748d91de2a753f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "2dd015c4-5e88-4408-b539-5dd231f3983f",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f3ac8a9a44e54ad4b9eb1abb2991ff96",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "f3ac8a9a44e54ad4b9eb1abb2991ff96",
+    "_classes": "",
+    "_parentId": "642d82462336444493741bd2c445d6fb",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "b06df0ed-e4af-4b87-a4e0-bb6958301c06",
+    "_isOptional": true,
+    "_oldParentId": "642d82462336444493741bd2c445d6fb",
+    "_activityParentId": "05a4fc35-e3f1-46fb-a0f0-05dd8a95844a"
+  },
+  {
+    "_id": "3eaff82696114913a5c28a358e864d4d",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "3eaff82696114913a5c28a358e864d4d",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Roteamento no questionário da camada de rede",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "f069a8f039b549579ea67293c1f0a34e",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2faaa272-0e8a-4b1f-b779-09e0eaa51f9b",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "f069a8f039b549579ea67293c1f0a34e",
+    "displayTitle": "",
+    "_activityParentId": "00372bc6-fb87-4a6a-8d31-2e5c9ba40b95",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0860cdf512734e1893b26e9f9a837ced",
+    "body": "Um computador pode acessar dispositivos na mesma rede, mas não pode acessar dispositivos em outras redes. Qual é a provável causa desse problema?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "O cabo não está conectado corretamente à NIC.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O computador tem um endereço IP inválido.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O computador tem uma máscara de sub-rede incorreta.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O computador tem um endereço de gateway padrão inválido.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "0860cdf512734e1893b26e9f9a837ced",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O gateway padrão é o endereço do dispositivo que um host usa para acessar a Internet ou outra rede. Se o gateway padrão estiver ausente ou incorreto, esse host não poderá se comunicar para fora da rede local. Como o host pode acessar outros hosts na rede local, o cabo de rede e as outras partes da configuração de IP estão funcionando.</p>",
+      "_incorrect": {
+        "final": "<p>O gateway padrão é o endereço do dispositivo que um host usa para acessar a Internet ou outra rede. Se o gateway padrão estiver ausente ou incorreto, esse host não poderá se comunicar para fora da rede local. Como o host pode acessar outros hosts na rede local, o cabo de rede e as outras partes da configuração de IP estão funcionando.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a4da48d5fcb24ce2931c7abf3e1c9396",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ebffa0d2-ed03-4c18-9aa3-f2b91fc0f032",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a4da48d5fcb24ce2931c7abf3e1c9396",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206627",
+    "_activityParentId": "15ada313-fedd-4612-9449-4bef4f15351a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7a4403a290b54a81bd6185fd41a89206",
+    "body": "Quais informações o teste de loopback fornece?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "A pilha de TCP/IP no dispositivo está funcionando corretamente.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "O dispositivo tem conectividade de ponta a ponta.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O DHCP está funcionando corretamente.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O cabo Ethernet está funcionando corretamente.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O dispositivo tem o endereço IP correto na rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "7a4403a290b54a81bd6185fd41a89206",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Como o teste de loopback envia os pacotes de volta para o dispositivo host, ele não fornece informações sobre a conectividade de rede para outros hosts. O teste de loopback verifica se a NIC do host, os drivers e a pilha de TCP/IP estão funcionando.</p>",
+      "_incorrect": {
+        "final": "<p>Como o teste de loopback envia os pacotes de volta para o dispositivo host, ele não fornece informações sobre a conectividade de rede para outros hosts. O teste de loopback verifica se a NIC do host, os drivers e a pilha de TCP/IP estão funcionando.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1fddbed3dc15423c83ca2fb3f114f521",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "84b2ecc9-7847-439b-862e-1b5424a534d3",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1fddbed3dc15423c83ca2fb3f114f521",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208171",
+    "_activityParentId": "7b5aee96-0210-48d9-a37b-6f0bab52e439",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ea91372ff4c34f44b51eecc0a6219884",
+    "body": "Qual dois comandos pode ser usado em um host Windows para exibir a tabela de roteamento? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "<b>netstat -s</b>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<b>route print</b>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "<b>show ip route</b>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<b>netstat -r</b>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "<b>tracert</b>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ea91372ff4c34f44b51eecc0a6219884",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Em um host do Windows, os comandos <b>route print</b> ou <b>netstat -r</b> podem ser usados para exibir a tabela de roteamento do host. Ambos os comandos geram a mesma saída. Em um roteador, o comando <b>show ip route</b> é usado para exibir a tabela de roteamento. O comando <b>netstat – s</b> é usado para exibir estatísticas por protocolo. O comando<b> tracert </b>é usado para exibir o caminho que um pacote percorre até seu destino.</p>",
+      "_incorrect": {
+        "final": "<p>Em um host do Windows, os comandos <b>route print</b> ou <b>netstat -r</b> podem ser usados para exibir a tabela de roteamento do host. Ambos os comandos geram a mesma saída. Em um roteador, o comando <b>show ip route</b> é usado para exibir a tabela de roteamento. O comando <b>netstat – s</b> é usado para exibir estatísticas por protocolo. O <b>comando tracert </b>é usado para exibir o caminho que um pacote percorre até seu destino.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "578ce9b0b9424c67989a2a3f53dcae87",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9829c9a4-1578-4060-bf7b-5bfe363f3e45",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "578ce9b0b9424c67989a2a3f53dcae87",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208822",
+    "_activityParentId": "5ddd1e08-eabb-4bd9-9b24-a7970a68b132",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2b4d07dd55cb45139739736f22b55022",
+    "body": "Durante o processo de encaminhamento de  tráfego , o que o roteador fará imediatamente depois de fazer a correspondência do endereço IP destino com uma rede conectada diretamente pela entrada da tabela?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "descartar o tráfego após consultar a tabela de rota",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "procurar o endereço de próximo salto do pacote",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "comutar o pacote para a interface conectada diretamente",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "analisar o endereço IP de destino",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2b4d07dd55cb45139739736f22b55022",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um roteador recebe um pacote em uma interfacee vê o endereço IP destino. Ele consulta sua tabela de roteamento e combina o endereço IP de destino com uma entrada da tabela de roteamento. O roteador descobre que precisa enviar o pacote para o endereço de próximo salto ou para uma interface diretamente conectada. Quando o endereço de destino está em uma interface diretamente conectada, o pacote é comutado para essa interface.</p>",
+      "_incorrect": {
+        "final": "<p>Um roteador recebe um pacote em uma interface e vê o endereço IP destino. Ele consulta sua tabela de roteamento e combina o endereço IP de destino com uma entrada da tabela de roteamento. O roteador descobre que precisa enviar o pacote para o endereço de próximo salto ou para uma interface diretamente conectada. Quando o endereço de destino está em uma interface diretamente conectada, o pacote é comutado para essa interface.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a486eff451f54b78bb0790e4fee7828e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1dd22e8a-f7d6-4944-bc89-13e97bffca1c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a486eff451f54b78bb0790e4fee7828e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208827",
+    "_activityParentId": "4ed8ee27-fcd4-4608-894a-09b2b9754693",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "a2ed91ff2c5543ec845710e0a5826cb5",
+    "body": "Um roteador recebe um pacote da interface Gigabit 0/0 e determina que o pacote precisa ser encaminhado para fora da interface Gigabit 0/1. O que o roteador fará a seguir?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Rotear o pacote para fora da interface Gigabit 0/1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Criar um novo quadro Ethernet de camada 2 a ser enviado para o destino",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Procurar no cache ARP para determinar o endereço IP de destino",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Procurar na tabela de roteamento para determinar se a rede de destino está na tabela de roteamento",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a2ed91ff2c5543ec845710e0a5826cb5",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Depois que um roteador recebe um pacote e olha dentro do cabeçalho para determinar a rede de destino, o roteador compara a rede de destino com a tabela de roteamento para determinar se o pacote deve ser roteado ou descartado. Se roteado, o roteador anexará um novo cabeçalho de Camada 2 com base na tecnologia usada pela porta de saída usada. O pacote é então roteado para fora da porta de destino conforme designado pela tabela de roteamento. O cache ARP é usado para corresponder um endereço IP com um endereço MAC.</p>",
+      "_incorrect": {
+        "final": "<p>Depois que um roteador recebe um pacote e olha dentro do cabeçalho para determinar a rede de destino, o roteador compara a rede de destino com a tabela de roteamento para determinar se o pacote deve ser roteado ou descartado. Se roteado, o roteador anexará um novo cabeçalho de Camada 2 com base na tecnologia usada pela porta de saída usada. O pacote é então roteado para fora da porta de destino conforme designado pela tabela de roteamento. O cache ARP é usado para corresponder um endereço IP com um endereço MAC.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6a60c16c17ce475083b41edf55c2dd84",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "73e0de46-5734-41a6-969b-c9c706b7eae7",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6a60c16c17ce475083b41edf55c2dd84",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "209401",
+    "_activityParentId": "c9162c22-6aa8-4928-9ed5-e5baacf81c3d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d1637b161c814b48825c5a5dddcfa47c",
+    "body": "Que tipo de rota é indicada pelo código C em uma tabela de roteamento IPv4 em um roteador da Cisco?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "rota estática",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rota padrão",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rota diretamente conectada",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "rota dinâmica aprendida por EIGRP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d1637b161c814b48825c5a5dddcfa47c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Alguns dos códigos da tabela de roteamento IPv4 incluem o seguinte:<ul><li>C - conectado diretamente</li><li>S - estático</li><li>D – EIGRP</li><li>* - candidata padrão</li></ul></p>",
+      "_incorrect": {
+        "final": "<p>Alguns dos códigos da tabela de roteamento IPv4 incluem o seguinte:<ul><li>C  - conectado diretamente</li><li>S - estático</li><li>D – EIGRP</li><li>* - candidata padrão</li></ul></p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a29eede9395440659ebf29d65c3adcbe",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2505de2d-e3ef-4f04-82b2-29050bcebcdf",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a29eede9395440659ebf29d65c3adcbe",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "264450",
+    "_activityParentId": "5b2af65a-a57b-4b1c-8e34-a36f66e77c16",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b349ce16391a49bfb20fbaee0610340b",
+    "body": "Quando um roteador recebe um pacote, quais informações devem ser analisadas para que o pacote seja encaminhado a um destino remoto?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Endereço MAC de destino",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Endereço IP de origem",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Endereço IP destino",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Endereço MAC origem",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "b349ce16391a49bfb20fbaee0610340b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando um roteador recebe um pacote, ele examina o endereço destino do pacote e usa a tabela de roteamento para procurar o melhor caminho para essa rede.</p>",
+      "_incorrect": {
+        "final": "<p>Quando um roteador recebe um pacote, ele examina o endereço destino do pacote e usa a tabela de roteamento para procurar o melhor caminho para essa rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9c6f56cdb8f54bcb9272c65271859778",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "761661d9-df6f-4d6b-b238-5bf33fbcc1a9",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9c6f56cdb8f54bcb9272c65271859778",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "331768",
+    "_activityParentId": "98168d71-869b-449e-927a-b5d3eb4048a7",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "eae495c617ff49c49a3310a2b93b6e60",
+    "body": "Que tipo de rota é criado quando um administrador de rede configura manualmente uma rota que tem uma interface de saída ativa?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "estática",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "diretamente conectada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "local",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "dinâmico",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "eae495c617ff49c49a3310a2b93b6e60",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Uma rota estática é configurada manualmente pelo administrador de rede.</p>",
+      "_incorrect": {
+        "final": "<p>Uma rota estática é aquela configurada manualmente pelo administrador da rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1882fe063f234dbeb07302595a780432",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7f7df6c4-3a88-486f-9eb1-2559d92c3a19",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1882fe063f234dbeb07302595a780432",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "362650",
+    "_activityParentId": "833a20ce-ef03-4b54-8415-ac2fb42798df",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "dfc6897cce40487fa106b64681346c8f",
+    "body": "Se uma empresa decidiu não usar o roteamento estático para os quatro roteadores dentro da empresa, qual seria uma solução alternativa?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Utilizar DHCP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Habilitar um protocolo de roteamento.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Usar etiquetas de fluxo automáticas.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Permitir que o provedor de Internet faça o roteamento.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "dfc6897cce40487fa106b64681346c8f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Existem dois tipos básicos de roteamento: estático e dinâmico. O roteamento estático ocorre quando as rotas são inseridas manualmente. O roteamento dinâmico utiliza um protocolo de roteamento que é configurado e mantido pela empresa.</p>",
+      "_incorrect": {
+        "final": "<p>Existem dois tipos básicos de roteamento: estático e dinâmico. O roteamento estático ocorre quando as rotas são inseridas manualmente. O roteamento dinâmico utiliza um protocolo de roteamento que é configurado e mantido pela empresa.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ed63871aff8444a8bcd4c01af9bf14b7",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "fd08cef1-f7d6-4c4e-8766-c300b0d084e5",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ed63871aff8444a8bcd4c01af9bf14b7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "370128",
+    "_activityParentId": "10c4df47-e69d-4056-b2a0-d85800e15736",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ad41354b2bb34518b21ec7c6fb629686",
+    "body": "Quais duas instruções descrevem recursos de uma tabela de roteamento IPv4 em um roteador? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "O comando <b> netstat -r  </b> pode ser usado para exibir a tabela de roteamento de um roteador.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "As interfaces conectadas diretamente terão dois códigos-fonte de rota na tabela de roteamento: <b>C  </b>e<b> S</b>.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "A tabela de roteamento armazena informações sobre rotas derivadas das interfaces do roteador ativo.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Se uma rota estática padrão for configurada no roteador, uma entrada será incluída na tabela de roteamento com o código-fonte <b>S</b>. ",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A tabela de roteamento lista os endereços MAC de cada interface ativa.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ad41354b2bb34518b21ec7c6fb629686",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O comando <b>show ip route</b> é usado para exibir a tabela de roteamento IP do roteador. No IPv4, interfaces diretamente conectadas terão um código-fonte: <b>C</b>.  A tabela de roteamento armazena informações sobre rotas diretamente conectadas e rotas remotas. Uma entrada na tabela de roteamento com um código-fonte <b>S   </b>é incluída se uma rota estática padrão estiver configurada no roteador.</p>",
+      "_incorrect": {
+        "final": "<p>O comando <b>show ip route</b> é usado para exibir a tabela de roteamento IP do roteador. No IPv4, interfaces diretamente conectadas terão um código-fonte: <b>C</b>.  A tabela de roteamento armazena informações sobre rotas diretamente conectadas e rotas remotas. Uma entrada na tabela de roteamento com um código-fonte <b>S   </b>é incluída se uma rota estática padrão estiver configurada no roteador.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a2cfaadb27764922a1c50160b515246b",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3dc9dcf0-dd19-49af-99fa-0512171d28ca",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a2cfaadb27764922a1c50160b515246b",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "370713",
+    "_activityParentId": "3f45e0b0-d2f0-4fd1-85b6-6d7021070be6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "96047d3f6f844435b20e54775413062d",
+    "body": "Um roteador está recebendo um fluxo de pacotes de entrada e não contém uma rota para a rede de destino remoto. Qual configuração um administrador de rede pode aplicar para encaminhar com êxito os pacotes de entrada?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Adicionar um rota padrão.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Habilitar um protocolo de roteamento dinâmico.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Compartilhar a tabela de roteamento com os hosts na rede local.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Alterar o endereço IP da interface de entrada para corresponder à rede de destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "96047d3f6f844435b20e54775413062d",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um roteador contém uma tabela de rotamento com todas as redes diretamente conectadas e as interfaces que se conectam a essas redes. As tabelas de roteamento também podem conter as rotas que o roteador usa para acessar redes remotas. As entradas podem ser feitas na tabela de roteamento de duas maneiras. A primeira é que o roteador, usando um protocolo de roteamento, pode ser atualizado dinamicamente por meio de informações recebidas de outros roteadores na rede. A segunda é que as entradas podem ser inseridas manualmente por um administrador de rede. Se o roteador não puder determinar para onde encaminhar um pacote, ele o descartará. Os administradores de rede podem configurar uma rota padrão para evitar que um pacote seja descartado pelo fato do caminho para a rede de destino não estar na tabela de roteamento. Uma rota padrão é a interface através da qual o roteador encaminha um pacote contendo um endereço de rede IP de destino que é desconhecido.</p>",
+      "_incorrect": {
+        "final": "<p>Um roteador contém uma tabela de rotamento com todas as redes diretamente conectadas e as interfaces que se conectam a essas redes. As tabelas de roteamento também podem conter as rotas que o roteador usa para acessar redes remotas. As entradas podem ser feitas na tabela de roteamento de duas maneiras. A primeira é que o roteador, usando um protocolo de roteamento, pode ser atualizado dinamicamente por meio de informações recebidas de outros roteadores na rede. A segunda é que as entradas podem ser inseridas manualmente por um administrador de rede. Se o roteador não puder determinar para onde encaminhar um pacote, ele o descartará. Os administradores de rede podem configurar uma rota padrão para evitar que um pacote seja descartado pelo fato do caminho para a rede de destino não estar na tabela de roteamento. Uma rota padrão é a interface através da qual o roteador encaminha um pacote contendo um endereço de rede IP de destino que é desconhecido.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "16126e5bd3844f21b98f97b21c92f3fa",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9d7f3c03-a19a-4d30-9580-42df79224082",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "16126e5bd3844f21b98f97b21c92f3fa",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "384975",
+    "_activityParentId": "024a23d4-9bed-48cb-8ab3-e008feed4131",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3a984d6a6777484d889f8f25fd8965c3",
+    "body": "Qual endereço deve ser configurado como o endereço de gateway padrão de um dispositivo cliente?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "o endereço de camada 2 da interface de gerenciamento do switch",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o endereço de camada 2 da porta do switch que está conectada à estação de trabalho",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o endereço IPv4 da interface do roteador conectada à mesma LAN",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "o endereço IPv4 da interface do roteador conectada à Internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "3a984d6a6777484d889f8f25fd8965c3",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O gateway padrão é usado quando um host precisa enviar mensagens para destinos localizados em redes remotas. O endereço do gateway padrão é configurado no host como sendo o endereço IPv4 da interface do roteador que está conectada à mesma rede local desse host</p>",
+      "_incorrect": {
+        "final": "<p>O gateway padrão é usado quando um host precisa enviar mensagens para destinos localizados em redes remotas. O endereço do gateway padrão é configurado no host como sendo o endereço IPv4 da interface do roteador que está conectada à mesma rede local desse host</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3ff1b3f5c24f4603b5da3f1968383565",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "52c2e0c2-adc2-4188-b8cc-387b53b054e7",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "3ff1b3f5c24f4603b5da3f1968383565",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "386397",
+    "_activityParentId": "2d8366ed-f3eb-4e12-88a0-4214ef14bcce",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7632b32d0cfb4775af351e250d6b5b62",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Selecione Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><strong><span style=\"color:#000000\">Parabéns, você passou no teste!</span></strong></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "7632b32d0cfb4775af351e250d6b5b62",
+    "_retry": {
+      "button": "O host pode se comunicar com outros hosts em redes remotas, mas não consegue se comunicar com hosts na rede local.",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "71266b05b67a4b5caa6f97b7ee5fd0fd",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "97b7be7a-2b18-4748-ae31-7e8427a4dd8f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "71266b05b67a4b5caa6f97b7ee5fd0fd",
+    "displayTitle": "",
+    "_assessmentId": "6201f7ed67dc45c7aa718290bd6db572",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "3f45d09d-27e6-4752-84ae-cc877ae87d3e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "a2762fb0d45b48218f4b0b1602063de2",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "a2762fb0d45b48218f4b0b1602063de2",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "a9640cc2f87e44b1a2b904b4f22de601",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "6ec50132-06b5-4e83-ab9b-3d5c9c851bb0",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "a9640cc2f87e44b1a2b904b4f22de601",
+    "displayTitle": "",
+    "_activityParentId": "e446829c-9ba4-4a41-8938-c88483bcc7d3"
+  }
+]

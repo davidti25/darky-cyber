@@ -1,0 +1,240 @@
+[
+  {
+    "_component": "text",
+    "_classes": "no-element-backgrounds",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": false,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Introdução ao curso",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>Introdução ao curso</span></span></span></h1>",
+    "_id": "98dadc67821644fb88383c6144b93545",
+    "_parentId": "ca3d82d7fda24e018095863c62e83066",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": false,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Introdução ao curso",
+    "displayTitle": "",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_id": "a85c659060024297bbea57bba2fc8e21",
+    "_parentId": "0d8a088b43774f1e811f9d54c2cd0938",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "animated pulse infinite",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_type": "component",
+    "_component": "graphic",
+    "_setCompletionOn": "inview",
+    "title": "Primeira vez neste curso",
+    "displayTitle": "",
+    "body": "",
+    "_id": "65f072c2c67b4063ab8dd5b7d6c15571",
+    "_parentId": "86f1756695af4119bca7facfc3e80b73",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "netacad-media"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "useGlobalAssetsDir": true,
+    "_graphic": {
+      "large": "media/35509820-cabf-11ea-950f-8d6509d3bd45/2f2eb690-e0e3-11ea-a9e5-a13ba5e257a4.jpg",
+      "small": "media/35509820-cabf-11ea-950f-8d6509d3bd45/2f2eb690-e0e3-11ea-a9e5-a13ba5e257a4.jpg",
+      "alt": "rectangular gray corded device on black rack"
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": false,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Primeira vez neste curso",
+    "displayTitle": "",
+    "body": "<p>O curso Fundamentos de Redes ensina os fundamentos da rede, abordando os conceitos básicos e as habilidades necessárias para configurar e gerenciar sua rede de pequeno escritório ou home office (SOHO). O aluno é apresentado a uma visão atrativa e exploratória das redes, dos dispositivos que as compõem, como funcionam e ferramentas e técnicas básicas de solução de problemas. O objetivo deste curso é proporcionar ao aluno uma visão atraente e exploratória das redes, inclusive da Internet. Após a conclusão do curso Fundamentos de Redes, os alunos serão capazes de realizar as seguintes tarefas: <ul><li>Explicar conceito importantes em comunicação de rede.</li><li>Explique os tipos, os componentes e as conexões de rede.</li><li>Configurar dispositivos móveis para conectividade sem fio.</li><li>Configurar um roteador sem fio integrado e cliente sem fio para estabelecer uma conexão segura com a Internet.</li><li>Explicar a importância de padrões e protocolos nas comunicações de rede.</li><li>Descrever mídias de rede comuns.</li><li>Explicar como ocorre a comunicação em redes Ethernet.</li><li>Explicar os recursos de um endereço IP.</li><li>Explicar como os endereços IPv4 são usados na comunicação e segmentação de rede.</li><li>Explicar os recursos do IPv6</li><li>Configurar um servidor DHCP.</li><li>Explicar como os roteadores conectam as redes.</li><li>Explique como o ARP possibilita a comunicação em uma rede.</li><li>Criar uma LAN totalmente conectada.</li><li>Explicar como os clientes acessam os serviços de Internet.</li><li>Explicar a função dos serviços comuns da camada de aplicação.</li><li>Usar várias ferramentas para testar e resolver problemas de conectividade de rede. </li></ul></p>",
+    "_id": "cbc3e80c0d5e4fa4979c856b605caf06",
+    "_parentId": "bc8f60f157984efeb1f5a6d2458c4d7e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "animated pulse infinite",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_type": "component",
+    "_component": "graphic",
+    "_setCompletionOn": "inview",
+    "title": "Recursos do Aluno",
+    "displayTitle": "",
+    "body": "",
+    "_id": "a24238df17e04f528cd6f408abc54a90",
+    "_parentId": "b1e35ce3c6dc441a8e109194b076b423",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "netacad-media"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_graphic": {
+      "large": "media/755e2210-a77f-11ea-870f-efaeeeb60fab/0388e190-bbd2-11ea-ad83-037352f9187a.jpg",
+      "small": "media/755e2210-a77f-11ea-870f-efaeeeb60fab/0388e190-bbd2-11ea-ad83-037352f9187a.jpg",
+      "alt": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": false,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Recursos do Aluno",
+    "displayTitle": "",
+    "body": "<p>Há uma série de ferramentas e recursos disponíveis para você que o ajudarão em sua jornada à medida que você desenvolve suas habilidades em redes e se prepara para oportunidades de emprego.</p><p><strong>Packet Tracer</strong><br>O Packet Tracer simula o funcionamento interno de uma rede e é usado neste curso. </p><p>Se você é novo no Packet Tracer, faça este curso online GRATUITO: <a href='{{baseOrigin}}/courses/getting-started-cisco-packet-tracer?courseLang=pt-BR' target='_blank' rel='noopener noreferrer'>Introdução ao Cisco Packet Tracer.</a></p><p>Você pode usar seu smartphone, tablet ou desktop para acessar seu curso ; entretanto, as atividades do Packet Tracer, bem como algumas outras atividades, questionários e exames, são mais bem experimentadas usando um PC.</p><p> <strong>Ambiente de laboratório</strong><br> Nenhum equipamento é necessário   </p><p><strong>Recursos disponíveis para você</strong><br>Perguntas frequentes do podem ser encontradas em <a href='{{baseOrigin}}/help' target='_blank' rel='noopener noreferrer'>{{baseOrigin}}/help</a>, ou clicando em Ajuda na barra de navegação superior. Para obter ajuda sobre o download do Packet Tracer, acesse <a href='{{baseOrigin}}/resources/lab-downloads?courseLang=pt-BR' target='_blank' rel='noopener noreferrer'>{{baseOrigin}}/resources/lab-downloads</a> e role para baixo até Recursos de aprendizagem.</p><p>Você pode encontrar mais perguntas frequentes visitando nosso assistente virtual, Morgan. Clique no ícone de bate-papo no canto superior direito para escolher uma lista de tópicos ou digite sua pergunta. A ajuda de Morgan inclui informações sobre o Packet Tracer, certificados e crachás.</p>",
+    "_id": "bfd1bccd58dc4ac48a8c5821ba943231",
+    "_parentId": "47d8bde5bec443f6ab1b7c770258dbb6",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "animated pulse infinite",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": false,
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Télécharger Cisco Packet Tracer",
+    "displayTitle": "",
+    "body": "<p>Pour obtenir et installer votre copie de Cisco Packet Tracer, suivez les instructions à partir du lien ci-dessous: <a href='{{baseOrigin}}/resources/lab-downloads?courseLang=pt-BR' target='_blank'>{{baseOrigin}}/resources/lab-downloads</a></p>",
+    "_id": "9a214569adea4eaa91942d7e1db1ac21",
+    "_parentId": "8ad0e407f9814505b785c98c7aebebdf",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "animated pulse infinite",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_search": {
+      "_isEnabled": true,
+      "_drawerOrder": 1,
+      "keywords": ""
+    },
+    "instruction": ""
+  }
+]

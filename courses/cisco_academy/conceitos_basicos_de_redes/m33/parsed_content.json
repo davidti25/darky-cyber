@@ -1,0 +1,594 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Oi, é Webster novamente! Bem, esse último módulo contém muitas informações novas para mim. E agora há um novo tipo de endereço IP - IPv6! Mas estou confiante de que posso aprender isso.\nHalimah sabe muito sobre endereçamento IPv6 e está feliz em ver que ele está incorporado de forma estratégica à rede da empresa. Isso ajudará a rede da empresa a continuar crescendo e mudando.\nAqui está sua chance de atualizar o IPv6 também!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de Endereço IPv6",
+      "content": "{{_moduleNumber}}.1 Tipos de Endereço IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de Endereço IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Unicast, Multicast, Anycast",
+      "content": "Tal como acontece com o IPv4, existem diferentes tipos de endereços IPv6. Na verdade, existem três grandes categorias de endereços IPv6:\nUnicast – Um endereço IPv6 unicast identifica exclusivamente uma interface em um dispositivo habilitado para IPv6.\nMulticast – Um endereço IPv6 multicast é usado para enviar um único pacote IPv6 para vários destinos.\nAnycast – Um endereço IPv6 anycast é qualquer endereço IPv6 unicast que possa ser atribuído a vários dispositivos. Um pacote enviado a um endereço de anycast é roteado para o dispositivo mais próximo que tenha esse endereço. Os endereços anycast estão fora do escopo deste curso.\nAo contrário do IPv4, o IPv6 não possui um endereço de broadcast. No entanto, há um endereço multicast para todos os nós IPv6 que fornece basicamente o mesmo resultado."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Comprimento do Prefixo IPv6",
+      "content": "Lembre-se de que o prefixo (a parte de rede) de um endereço IPv4 pode ser identificado pelo comprimento do prefixo (notação em barra) ou por uma máscara de sub-rede decimal com pontos. Por exemplo, o endereço IPv4 192.168.1.10 com máscara de sub-rede decimal com pontos 255.255.255.0 é equivalente a 192.168.1.10/24.\nNo IPv6 é chamado de comprimento do prefixo. O IPv6 não usa a notação decimal com pontos da máscara de sub-rede. Como o IPv4, o comprimento do prefixo é representado na notação de barra e é usado para indicar a parte da rede de um endereço IPv6.\nO comprimento do prefixo pode variar de 0 a 128. O comprimento do prefixo IPv6 recomendado para LANs e a maioria dos outros tipos de redes é /64, conforme mostrado na figura.\nComprimento do Prefixo IPv6",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Comprimento do prefixo IPv6",
+      "content": "Isso significa que o prefixo ou a parte de rede do endereço é de 64 bits, restando outros 64 bits para a ID da interface (parte de host) do endereço.\nÉ altamente recomendável usar um ID de interface de 64 bits para a maioria das redes. Isso ocorre porque a configuração automática de endereço sem estado (SLAAC) usa 64 bits para o ID de interface. Também facilita a criação e o gerenciamento de sub-redes."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Endereços unicast IPv6",
+      "content": "Um endereço IPv6 unicast identifica exclusivamente uma interface em um dispositivo habilitado para IPv6. Um pacote enviado a um endereço unicast é recebido pela interface à qual foi atribuído esse endereço. Semelhante ao IPv4, o endereço IPv6 origem deve ser um endereço unicast. O endereço IPv6 destino pode ser um endereço unicast ou multicast. A figura mostra os diferentes tipos de endereços unicast IPv6.\nEndereços IPv6 unicast",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Ao contrário dos dispositivos IPv4 que têm apenas um único endereço, os endereços IPv6 normalmente têm dois endereços unicast:\nUm endereço unicast global(GUA) - E semelhante a um endereço IPv4 público. São endereços de Internet roteáveis e globalmente exclusivos. GUAs podem ser configurados estaticamente ou dinamicamente distribuídos\nEndereço de Link-Local (LLA) - Isso é necessário para cada dispositivo habilitado para IPv6. Os LLAs são usados para se comunicar com outros dispositivos no mesmo link local. No IPv6, o termo link se refere a uma sub-rede. LLAs são limitados a um único enlace. Sua exclusividade só deve ser confirmada nesse link, porque eles não são roteáveis além do link. Em outras palavras, os roteadores não encaminham pacotes com um endereço de link local origem ou destino."
+    },
+    {
+      "type": "text",
+      "title": ".1.4 Uma observação sobre o endereço local exclusivo",
+      "content": "Endereços locais exclusivos (intervalo fc00::/7 a fdff::/7) ainda não são comumente implementados. Portanto, este módulo abrange apenas a configuração GUA e LLA. No entanto, endereços locais exclusivos podem eventualmente ser usados para endereçar dispositivos que não devem ser acessíveis de fora, como servidores internos e impressoras.\nOs endereços IPv6 unique local têm alguma semelhança com endereços privados do RFC 1918 para o IPv4, mas há diferenças significativas:\nOs endereços unique local são utilizados para endereçamento local dentro de um site ou entre um número limitado de sites.\nOs endereços unique local podem ser usados para dispositivos que nunca precisarão ou terão acesso por outra rede.\nEndereços locais exclusivos não são globalmente roteados ou traduzidos para um endereço IPv6 global.\nNota: Muitos sites usam a natureza privada dos endereços RFC 1918 para tentar proteger ou ocultar sua rede de possíveis riscos à segurança. No entanto, essa nunca foi a finalidade dessas tecnologias. A IETF sempre recomendou que os sites tomassem as devidas precauções de segurança em seu roteador de Internet."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.5 IPv6 GUA",
+      "content": "O endereço IPv6 unicast global (GUA) é globalmente exclusivo e roteável na Internet IPv6. Esses endereços são equivalentes aos endereços públicos do IPv4. O Internet Committee for Assigned Names and Numbers (ICANN), o operador de Internet Assigned Numbers Authority (IANA), aloca os blocos de endereço IPv6 para os cinco RIRs. No momento, somente endereços unicast globais com os primeiros três bits de 001 ou 2000::/3 estão sendo atribuídos\nA figura mostra o intervalo de valores para o primeiro hextet onde o primeiro dígito hexadecimal para GUAs atualmente disponíveis começa com um 2 ou um 3. Isso é apenas um oitavo do espaço de endereço IPv6 total disponível, excluindo uma parte muito pequena de outros tipos de endereços unicast e multicast.\nNota: O endereço 2001:0DB8::/32 foi reservado para fins de documentação, incluindo uso nos exemplos.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Endereço IPv6 com prefixo de roteamento global /48 e prefixo /64",
+      "content": "A figura seguinte mostra a estrutura e o alcance de um GUA.\nEndereço IPv6 com prefixo de roteamento global /48 e prefixo /64",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.5 IPv6 GUA",
+      "content": "Um GUA tem três partes:\nPrefixo global de roteamento\nID da Sub-Rede\nID da interface"
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Estrutura IPv6 GUA",
+      "content": "Prefixo Global de Roteamento\nO prefixo global de roteamento é o prefixo (parte de rede) do endereço que é atribuído pelo provedor (como um ISP) a um cliente ou um site. Por exemplo, é comum que os ISPs atribuam um prefixo de roteamento global /48 a seus clientes. O prefixo de roteamento global geralmente varia dependendo das políticas do ISP.\nA figura anterior mostra um GUA usando um prefixo de roteamento global /48. Os prefixos /48 são os prefixos de roteamento global mais comuns atribuídos e serão usados na maioria dos casos ao longo deste curso.\nPor exemplo, o endereço IPv6 2001:db8:acad::/ 48 possui um prefixo de roteamento global que indica que os primeiros 48 bits (3 hextets) (2001:db8:acad) são como o ISP conhece esse prefixo (rede). Dois-pontos duplo (::) antes do comprimento de prefixo /48 significa que o restante do endereço contém apenas 0s. O tamanho do prefixo de roteamento global determina o tamanho da ID da sub-rede.\nID da Sub-Rede\nO campo ID da sub-rede é a área entre o Prefixo de Roteamento Global e o ID da interface. Ao contrário do IPv4, onde você deve pedir bits emprestados da parte do host para criar sub-redes, o IPv6 foi projetado tendo em mente a sub-rede. O ID da sub-rede é usado por uma organização para identificar sub-redes dentro da sua localização. Quanto maior a ID da sub-rede, mais sub-redes disponíveis.\nNota: Muitas organizações estão recebendo um prefixo de roteamento global /32. Usando o prefixo /64 recomendado para criar um ID de interface de 64 bits, deixa um ID de sub-rede de 32 bits. Isso significa que uma organização com um prefixo de roteamento global /32 e um ID de sub-rede de 32 bits terá 4,3 bilhões de sub-redes, cada uma com 18 quintilhões de dispositivos por sub-rede. Isso equivale a tantas sub-redes quantos endereços IPv4 públicos\nO endereço IPv6 na figura anterior tem um prefixo de roteamento global /48, que é comum entre muitas redes corporativas. Isso torna especialmente fácil examinar as diferentes partes do endereço. Usando um tamanho típico de prefixo / 64, os quatro primeiros hextetos são para a parte da rede do endereço, com o quarto hexteto indicando o ID da sub-rede. Os quatro hextets restantes são para o ID da interface.\nID da interface\nA ID da interface IPv6 equivale à parte de host de um endereço IPv4. O termo ID da interface é usado porque um único host pode ter várias interfaces, cada uma com um ou mais endereços IPv6. A figura mostra um exemplo da estrutura de um GUA IPv6. É altamente recomendável que as sub-redes /64 sejam usadas na maioria dos casos. Um ID de interface de 64 bits permite 18 quintilhões de dispositivos ou hosts por sub-rede.\nUma sub-rede /64 ou prefixo (Global Routing Prefix + Subnet ID) deixa 64 bits para o ID da interface. Isso é recomendado para permitir que dispositivos habilitados para SLAAC criem seu próprio ID de interface de 64 bits. Também torna o desenvolvimento de um plano de endereçamento IPv6 simples e eficaz.\nNota: Ao contrário do IPv4, no IPv6, todos os endereços de host de all-0s e de all-1s podem ser atribuídos a um dispositivo. O endereço todos-1s pode ser usado porque os endereços de broadcast não são usados dentro do IPv6. O endereço de all-0s também pode ser usado, mas é reservado como endereço de anycast de subnet-router, e deve ser atribuído somente aos roteadores."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Comunicações IPv6 de Link Local",
+      "content": "Um endereço IPv6 de link-local permite que um dispositivo se comunique com outros dispositivos habilitados para IPv6 no mesmo link e somente nesse link (sub-rede). Os pacotes com endereço de link local origem ou destino não podem ser roteados além do link de onde o pacote foi originado.\nO GUA não é um requisito. No entanto, cada interface de rede habilitada para IPv6 deve ter um LLA.\nSe um LLA não estiver configurado manualmente em uma interface, o dispositivo criará automaticamente um próprio, sem se comunicar com um servidor DHCP. Os hosts habilitados para LLA IPv6 criarão um endereço IPv6 mesmo que não tenha sido atribuído um endereço IPv6 unicast global ao dispositivo. Isso permite que dispositivos habilitados para IPv6 se comuniquem com outros dispositivos semelhantes na mesma sub-rede. Isso inclui a comunicação com o gateway padrão (roteador).\nOs LLAs IPv6 estão no intervalo fe80: :/10. O /10 Indica que os primeiros 10 bits são 1111 1110 10xx xxxx. O primeiro hextet tem um intervalo de 1111 1110 10 00 0000 (FE80) a 1111 1110 10 11 1111   (FEBF).\nA Figura mostra um exemplo de comunicação usando endereços LLA IPv6. O PC é capaz de se comunicar diretamente com a impressora usando os LLAs.\nComunicações IPv6 de Link Local",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.7 LLA IPv6",
+      "content": "A figura seguinte mostra alguns dos usos para LLAs IPv6 .",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Configuração Estática do GUA e do LLA",
+      "content": "{{_moduleNumber}}.2 Configuração Estática do GUA e do LLA"
+    },
+    {
+      "type": "text",
+      "title": ".2 Configuração Estática do GUA e do LLA",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Exemplo de Topologia",
+      "content": "Como você aprendeu no tópico anterior, as GUAs IPv6 são iguais aos endereços IPv4 públicos. O endereço IPv6 unicast global (GUA) é globalmente exclusivo e roteável na Internet IPv6. Um LLA IPv6 permite que dois dispositivos habilitados para IPv6 se comuniquem uns com os outros no mesmo link (sub-rede). É fácil configurar estaticamente GUAs e LLAs IPv6 em roteadores para ajudá-lo a criar uma rede IPv6. Este tópico ensina como fazer exatamente isso!\nA maioria dos comandos de configuração e verificação do IPv6 no Cisco IOS são semelhantes aos seus equivalentes no IPv4. Em muitos casos a única diferença é o uso do ipv6  em vez doip  dentro dos comandos.\nPor exemplo, o comando Cisco IOS para configurar um endereço IPv4 em uma interface é  ip address  endereço-IP  máscara-de-subrede. Em contraste, o comando para configurar um GUA IPv6 em uma interface é  ipv6 address  endereço-ipv6/comprimento do prefixo.\nObserve que não um espaço entre ipv6-address  e prefix-length .\nO exemplo de configuração usa a topologia mostrada na Figura e as seguintes sub-redes IPv6:\n2001:db8:acad:1::/64\n2001:db8:acad:2::/64\n2001:db8:acad:3። /64\nExemplo de Topologia",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Configuração de GUA Estático em um Host Windows",
+      "content": "Configurar manualmente o endereço IPv6 em um host é semelhante a configurar um endereço IPv4.\nConforme mostrado na figura, o endereço de gateway padrão configurado para PC1 é 2001:db8:acad: 1::1. Essa é a GUA da interface R1 GigabitEthernet na mesma rede. Como alternativa, o endereço de gateway padrão pode ser configurado para corresponder ao endereço LLA da interface Gigabit Ethernet. O uso do LLA do roteador como endereço de gateway padrão é considerado prática recomendada. Qualquer uma das configurações funcionará.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Configuração de GUA Estático em um Host Windows",
+      "content": "Assim como ocorre no IPv4, a configuração de endereços estáticos em clientes não escala para ambientes maiores. Por esse motivo, a maioria dos administradores de redes IPv6 permite a atribuição dinâmica de endereços IPv6.\nHá duas maneiras de um dispositivo obter um endereço IPv6 unicast global automaticamente:\nConfiguração automática do endereço sem estado (SLAAC)\nDHCPv6 com estado\nO SLAAC e o DHCPv6 são abordados no tópico seguinte.\nNota: Quando DHCPv6 ou SLAAC é usado, o LLA do roteador será especificado automaticamente como o endereço de gateway padrão."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Exemplo de Topologia com LLAs",
+      "content": "A configuração manual do LLA permite criar um endereço reconhecível e fácil de lembrar. Geralmente, só é necessário criar endereços de link local reconhecíveis nos roteadores. Isso é benéfico porque os LLAs do roteador são usados como endereços de gateway padrão e no roteamento de mensagens de anúncio.\nOs LLAS podem ser configurados manualmente usando o comando ipv6 address  endereço-de-link-local-ipv6  link-local . Quando um endereço começa com esse hextet dentro do intervalo de fe80 a febf, o parâmetro link-local deve seguir o endereço.\nA figura mostra um exemplo de topologia com LLAs em cada interface.\nExemplo de Topologia com LLAs",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os LLAs configurados estaticamente são usados para torná-los mais facilmente reconhecíveis como pertencentes ao roteador R1. Neste exemplo, todas as interfaces do roteador R1 foram configuradas com um LLA que começa com fe80::n::1\nNota: O mesmo LLA pode ser configurado em cada link, desde que seja exclusivo nesse link. Isso é possível porque as interfaces de link local só precisam ser exclusivas nesse link. No entanto, a prática comum é criar um LLA diferente em cada interface do roteador para facilitar a identificação do roteador e da interface específica."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Atribua GUAs e LLAs IPv6 às interfaces especificadas no roteador R1.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Endereçamento dinâmico para GUAs IPv6",
+      "content": "{{_moduleNumber}}.3 Endereçamento dinâmico para GUAs IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".3 Endereçamento dinâmico para GUAs IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Mensagens ICMPv6 RS e RA",
+      "content": "Se você não quiser configurar as GUAs IPv6 estaticamente, não precisa se preocupar. A maioria dos dispositivos obtém suas GUAs IPv6 dinamicamente. Este tópico explica como esse processo funciona usando mensagens de anúncio de roteador (RA) e solicitação de roteador (RS). Este tópico fica bastante técnico, mas quando você entende a diferença entre os três métodos que um anúncio de roteador pode usar, bem como o processo EUI-64 para criar um ID de interface difere de um processo gerado aleatoriamente, você terá dado um grande salto em sua experiência IPv6!\nPara o GUA, um dispositivo obtém o endereço dinamicamente através de mensagens ICMPv6 (Internet Control Message Protocol versão 6). Os roteadores IPv6 enviam mensagens ICMPv6 de RA a cada 200 segundos para todos os dispositivos habilitados para IPv6 na rede. Uma mensagem de RA também é enviada em resposta a um host que envie uma mensagem ICMPv6 de RS (Solicitação de Roteador). Ambas as mensagens são mostradas na figura.\nMensagens ICMPv6 RS e RA",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Mensagens RS e RA",
+      "content": "As mensagens de RA estão em interfaces Ethernet de roteador IPv6. O roteador deve estar habilitado para roteamento IPv6, que não vem habilitado por padrão. Para habilitar  um roteador como um  roteador IPv6, o comando deconfiguração global ipv6 unicast-routing deve ser usado.\nA mensagem ICMPv6 de RA é uma sugestão para um dispositivo sobre como obter um endereço IPv6 unicast global. A decisão final é do sistema operacional do dispositivo. A mensagem ICMPv6 de RA inclui:\nPrefixo de rede e comprimento do prefixo  – Informa ao dispositivo a que rede ele pertence.\nEndereço do gateway padrão  – É um endereço LLA IPv6, o endereço IPv6 origem da mensagem de RA.\nEndereços DNS e nome de domínio  – Endereços de servidores DNS e um nome de domínio.\nExistem três métodos para mensagens RA:\nMétodo 1:  SLAAC  - “Eu tenho tudo o que você precisa, incluindo o prefixo, comprimento do prefixo e endereço de gateway padrão.”\nMétodo 2: SLAAC com um servidor DHCPv6 sem estado - \"Aqui estão as minhas informações, mas você precisa obter outras informações, como endereços DNS, de um servidor DHCPv6 sem estado\".\nMétodo 3: DHCPv6  com estado (sem SLAAC)- “Posso dar-lhe o seu endereço de gateway padrão. Você precisa pedir a um servidor DHCPv6 com estado todas as suas outras informações.”"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.3 Método 1: SLAAC",
+      "content": "SLAAC é um método que permite que um dispositivo crie seu próprio GUA sem os serviços do DHCPv6. Com SLAAC, os dispositivos dependem das mensagens ICMPv6 de RA (Anúncio de Roteador) do roteador local para obter as informações necessárias.\nPor padrão, a mensagem de RA sugere que o dispositivo de recebimento use as informações dessa mensagem para criar seu próprio endereço IPv6 unicast global e para todas as demais informações. Os serviços de um servidor DHCPv6 não são obrigatórios.\nSLAAC é stateless, o que significa que não existe servidor central (por exemplo, um servidor DHCPv6 stateful) alocando endereços unicast globais e mantendo uma lista de dispositivos e seus endereços. Com SLAAC, o dispositivo cliente usa as informações da mensagem de RA para criar seu próprio endereço unicast global. Como mostrado na Figura , as duas partes do endereço são criadas da seguinte forma:\nPrefixo - Isso é anunciado na mensagem RA.\nID da Interface - Isso usa o processo EUI-64 ou gera um número aleatório de 64 bits, dependendo do sistema operacional do dispositivo.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.4 Método 2: SLAAC e DHCPv6 sem esstado",
+      "content": "Uma interface de roteador pode ser configurada para enviar um anúncio de roteador usando SLAAC e DHCPv6 sem estado.\nComo mostrado na figura, com esse método, a mensagem RA sugere que os dispositivos usem o seguinte:\nSLAAC para criar seu próprio IPv6 GUA\nO LLA do roteador, que é o endereço IPv6 de origem RA, como o endereço de gateway padrão.\nUm servidor DHCPv6 sem estado (stateless) para obter outras informações como o endereço de um servidor DNS e um nome de domínio.\nNota: Um servidor DHCPv6 sem estado distribui endereços do servidor DNS e nomes de domínio. Não atribui GUAs.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.5 Método 3: DHCPv6 com estado",
+      "content": "Uma interface de roteador pode ser configurada para enviar um RA usando apenas DHCPv6 com estado.\nO DHCPv6 stateful é semelhante ao DHCP para IPv4. Um dispositivo pode receber automaticamente suas informações de endereçamento, incluindo uma GUA, tamanho do prefixo e os endereços dos servidores DNS de um servidor DHCPv6 com monitoração de estado.\nComo mostrado na figura, com esse método, a mensagem RA sugere que os dispositivos usam o seguinte:\nO LLA do roteador, que é o endereço IPv6 de origem RA, como o endereço de gateway padrão\nUm servidor DHCPv6 stateful para obter o endereço unicast global, o endereço do servidor DNS, o nome do domínio e todas as demais informações.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3.5 Método 3: DHCPv6 com estado",
+      "content": "Um servidor DHCPv6 com estado aloca e mantém uma lista dos dispositivos que recebem endereços IPv6.  DHCP para IPv4 é com estado (stateful).\nNota: O endereço de gateway padrão só pode ser obtido dinamicamente da mensagem de RA. O servidor DHCPv6 sem estado ou com estado não fornece o endereço de gateway padrão."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Criando dinamicamente um ID de interface",
+      "content": "Quando a mensagem de RA é SLAAC ou SLAAC com DHCPv6 sem estado, o cliente deve gerar sua própria ID da interface. O cliente conhece a parte de prefixo do endereço da mensagem de RA, mas deve criar sua própria ID da interface. A ID da interface pode ser criada por meio do processo EUI-64 ou de um número de 64 bits gerado aleatoriamente, como mostrado na Figura 1.\nCriando dinamicamente um ID de interface",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.7 Processo EUI-64",
+      "content": "AIEEE definiu o identificador exclusivo estendido (EUI) ou processo EUI-64 modificado. Esse processo usa o endereço MAC Ethernet de 48 bits de um cliente e insere outros 16 bits no meio do endereço MAC de 48 bits para criar uma ID da interface de 64 bits.\nGeralmente representados em hexadecimal, os endereços MAC de Ethernet são compostos de duas partes:\nOrganizationally unique identifier (OUI) – O OUI é um código de fornecedor de 24 bits (6 dígitos hexadecimais) designado pelo IEEE.\nIdentificador de dispositivo – O identificador do dispositivo é um valor exclusivo de 24 bits (6 dígitos hexadecimais) com um OUI em comum.\nUm ID de interface EUI-64 é representado em binário e composto por três partes:\nOUI de 24 bits do endereço MAC do cliente, mas o sétimo bit (o bit universal/local (U/L)) é invertido. Isso significa que, se o sétimo bit for 0, ele se tornará 1, e vice-versa.\nO valor de 16 bits fffe (em hexadecimal) inserido.\nIdentificador do dispositivo de 24 bits do endereço MAC do cliente.\nO processo EUI-64 está ilustrado na Figura 2, usando o endereço MAC Gigabit Ethernet de R1 fc99:4775:cee0.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3.7 Processo EUI-64",
+      "content": "Etapa 1: Divida o endereço MAC entre o OUI e o identificador do dispositivo.\nEtapa 2: Insira o valor hexadecimal FFFE, o qual em binário: 1111 1111 1111 1110.\nEtapa 3: Converta os primeiros 2 valores hexadecimais do OUI em binário e inicie o bit de U/L (7 bits). Neste exemplo, o 0 do bit 7 é alterado para 1.\nO resultado é um ID de interface gerado pela EUI-64 de fe99: 47ff: fe75: cee0.\nObservação : O uso do bit de U/L e os motivos para reverter o valor são discutidos em RFC 5342."
+    },
+    {
+      "type": "text",
+      "title": ".3.8 IDs da Interface Geradas Aleatoriamente",
+      "content": "Nota: Para garantir a exclusividade de qualquer endereço IPv6 unicast, o cliente pode usar um processo conhecido como detecção de endereço duplicado (DAD). Isso equivale a uma solicitação ARP para seu próprio endereço. Se não houver resposta, significa que o endereço é exclusivo."
+    },
+    {
+      "type": "text",
+      "title": ".4 Endereçamento Dinâmico para LLAs IPv6",
+      "content": "{{_moduleNumber}}.4 Endereçamento Dinâmico para LLAs IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".4 Endereçamento Dinâmico para LLAs IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 LLAs dinâmicos",
+      "content": "Todos os dispositivos IPv6 devem ter um IPv6 LLA. Assim como IPv6 GUAs, você também pode criar LLAs dinamicamente. Independentemente de como você cria seus LLAS (e seus GUAs), é importante que você verifique toda a configuração de endereço IPv6. Este tópico explica a verificação de configuração de LLAs e IPv6 gerados dinamicamente.\nA Figura 1 mostra que o endereço de link local é criado dinamicamente com o prefixo FE80::/10 e que a ID da interface é criada por meio do processo EUI-64 ou por um número de 64 bits gerado aleatoriamente.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "A Figura mostra a topologia.",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".4.4 Verificando a Configuração de Endereço IPv6",
+      "content": "**show ipv6 interface brief:** A saída do comando show ipv6 interface brief exibe  endereços IPv6 configurados nas interface Ethernet. EUI-64 usa esse endereço MAC para gerar a ID da interface para o endereço de link local. Além disso, o comando show ipv6 interface brief exibe a saída abreviada para cada uma das interfaces. A saída [up/up] na mesma linha que a interface indica o estado da Camada 1/Camada 2 da interface. Isso equivalente é o mesmo que as colunas de status e de protocolo no comando IPv4 .\nObserve que aqui cada interface tem dois endereços IPv6. O segundo endereço para cada interface é o GUA que foi configurado. O primeiro endereço, que começa com FE80, é o endereço de link local unicast da interface. Lembre-se de que o endereço de link local será automaticamente adicionado à interface quando um endereço unicast global for atribuído.\nAlém disso, observe que o endereço de link local da serial 0/0/0 de R1 é o mesmo da sua interface Gigabit Ethernet 0/0. Como as interfaces seriais não têm endereços MAC Ethernet, o Cisco IOS usa o endereço MAC da primeira interface Ethernet disponível. Isso é possível porque as interfaces de link local só precisam ser exclusivas nesse link.\nO comando show ipv6 interface brief no R1\n\n**show ipv6 route:** Como mostrado no exemplo, o comando show ipv6 route pode ser usado para verificar que redes IPv6 e endereços IPv6 específicos tenham sido instalados tabela de roteamento IPv6. O comando show ipv6 route só exibirá redes IPv6, não redes IPv4.\nNa tabela de rotas, um C próximo a uma rota indica que é uma rede conectada diretamente. Quando a interface de um roteador está configurada com um endereço unicast global e se encontra no estado “up/up”, o prefixo IPv6 e o comprimento do prefixo são adicionados à tabela de roteamento IPv6 como uma rota conectada.\nNota: O  L indica uma rota local, o endereço IPv6 específico atribuído à interface. Isto não é um LLA. Os endereços de link local não são incluídos na tabela de roteamento do roteador, pois não são endereços roteáveis.\nO endereço IPv6 unicast global configurado na interface também é instalado na tabela de roteamento como uma rota local. A rota local tem um prefixo /128. As rotas locais são usadas pela tabela de roteamento para processar de forma eficiente pacotes com um endereço destino igual ao endereço da interface do roteador.\nO comando show ipv6 route no R1\n\n**ping:** O comando ping para IPv6 é idêntico ao comando usado com IPv4, exceto pelo fato de que um endereço IPv6 é usado. Como mostrado na Figura 3, o comando serve para verificar a conectividade da Camada 3 entre R1 e PC1. Ao fazer ping de um roteador para um endereço de link local, o Cisco IOS solicitará que o usuário escolha a interface de saída. Como o endereço de link local de destino pode estar em um ou mais de seus links ou redes, o roteador precisa saber para qual interface enviar o ping.\nO comando ping no R1"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "Use comandos show para verificar a configuração do endereço IPv6 nas interfaces do roteador R1.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5 Endereços IPv6 Multicast",
+      "content": "{{_moduleNumber}}.5 Endereços IPv6 Multicast"
+    },
+    {
+      "type": "text",
+      "title": ".5 Endereços IPv6 Multicast",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".5.1 Endereços multicast IPv6 atribuídos",
+      "content": "Anteriormente neste módulo, você aprendeu que existem três grandes categorias de endereços IPv6: unicast, anycast e multicast. Este tópico entra em mais detalhes sobre endereços multicast.\nOs endereços IPv6 multicast são semelhantes aos endereços IPv4 multicast. Lembre-se de que um endereço multicast é usado para enviar um único pacote a um ou mais destinos (grupo multicast). Os endereços multicast IPv6 têm o prefixo ff00::/8.\nNota: Os endereços multicast só podem ser endereços destino e não endereços origem.\nHá dois tipos de endereços IPv6 multicast:\nEndereços multicast conhecidos\nEndereços multicast de nó solicitado."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Multicast de todos os nós IPv6: mensagem RA",
+      "content": "Endereços multicast IPv6 bem conhecidos são atribuídos. Os endereços multicast atribuídos são endereços multicast reservados para grupos predefinidos de dispositivos. Um endereço multicast atribuído é um único endereço usado para acessar um grupo de dispositivos que executam um serviço ou um protocolo comum. Os endereços multicast atribuídos são usados no contexto com protocolos específicos, como o DHCPv6.\nEstes são dois grupos multicast atribuídos ao IPv6 comuns:\nff02::1 Grupo multicast de todos os nós – Esse é um grupo de multicast que todos os dispositivos com IPv6 habilitado participam. Um pacote enviado para esse grupo é recebido e processado por todas as interfaces IPv6 no link ou rede. Isso tem o mesmo efeito que um endereço de broadcast em IPv4. A figura mostra um exemplo de comunicação usando o endereço multicast all-nodes. Um roteador IPv6 envia mensagens RA ICMPv6 ao grupo multicast de todos os nós.\nff02::2 Grupo multicast de todos os roteadores  – Esse é um grupo multicast que todos os roteadores IPv6 participam. Um roteador se torna um membro desse grupo quando é habilitado com um roteador IPv6 com o comando de configuração global ipv6 unicast-routing . Um pacote enviado para esse grupo é recebido e processado por todos os roteadores IPv6 no link ou rede.\nIPv6 All-Nodes Multicast: RA Message",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5.2 Tipos de Fibra",
+      "content": "Os dispositivos habilitados para IPv6 enviam mensagens ICMPv6 RS para o endereço multicast de todos os roteadores. A mensagem de RS solicita uma mensagem de RA do roteador IPv6 para ajudar o dispositivo em sua configuração de endereço. O roteador IPv6 responde com uma mensagem RA, conforme mostrado."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.3 Endereços multicast IPv6 de nó solicitado",
+      "content": "Um endereço multicast de nó solicitado é semelhante ao endereço multicast all-nodes(todos os nós). A vantagem do endereço multicast  nó solicitado é que ele é mapeado para um endereço multicast Ethernet especial. Isso permite que a placa de rede Ethernet filtre o quadro, examinando o endereço MAC de destino sem enviá-lo ao processo IPv6 para ver se o dispositivo é o alvo pretendido do pacote IPv6.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo de Endereçamento IPv6",
+      "content": "{{_moduleNumber}}.6 Resumo de Endereçamento IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo de Endereçamento IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".6.1 O que aprendi neste módulo?",
+      "content": "**Tipos de Endereço IPv6:** Há três tipos de endereços IPv6: unicast, multicast e anycast. O IPv6 não usa a notação decimal com pontos da máscara de sub-rede. Como o IPv4, o comprimento do prefixo é representado na notação de barra e é usado para indicar a parte da rede de um endereço IPv6. Um endereço IPv6 unicast identifica exclusivamente uma interface em um dispositivo habilitado para IPv6. Os endereços IPv6 normalmente têm dois endereços unicast: GUA e LLA. Os endereços locais exclusivos IPv6 têm os seguintes usos: eles são usados para endereçamento local dentro de um site ou entre um número limitado de sites, eles podem ser usados para dispositivos que nunca precisarão acessar outra rede e não são globalmente roteados ou traduzidos para um endereço IPv6 global. O endereço IPv6 unicast global (GUA) é globalmente exclusivo e roteável na Internet IPv6. Esses endereços são equivalentes aos endereços públicos do IPv4. Um GUA tem três partes: um prefixo de roteamento global, um ID de sub-rede e um ID de interface. Um endereço IPv6 de link-local permite que um dispositivo se comunique com outros dispositivos habilitados para IPv6 no mesmo link e somente nesse link (sub-rede). Os dispositivos podem obter um LLA estaticamente ou dinamicamente.\n\n**Configuração Estática do GUA e do LLA:** O comando Cisco IOS para configurar um endereço IPv4 em uma interface é  ip address endereço-IP  máscara-de-subrede. Em contraste, o comando para configurar um GUA IPv6 em uma interface é  ipv6 address endereço-ipv6/comprimento do prefixo. Assim como ocorre no IPv4, a configuração de endereços estáticos em clientes não escala para ambientes maiores. Por esse motivo, a maioria dos administradores de redes IPv6 permite a atribuição dinâmica de endereços IPv6. A configuração manual do LLA permite criar um endereço reconhecível e fácil de lembrar. Geralmente, só é necessário criar endereços de link local reconhecíveis nos roteadores. Os LLAS podem ser configurados manualmente usando o comando ipv6 address endereço-de-link-local-ipv6  link-local .\n\n**Endereçamento dinâmico para GUAs IPv6:** Um dispositivo obtém um GUA dinamicamente através de mensagens ICMPv6. Os roteadores IPv6 enviam mensagens ICMPv6 de RA a cada 200 segundos para todos os dispositivos habilitados para IPv6 na rede. Uma mensagem de RA também é enviada em resposta a um host que envie uma mensagem ICMPv6 de RS (Solicitação de Roteador). A mensagem de RA ICMPv6 inclui: prefixo de rede e comprimento do prefixo, endereço de gateway padrão e endereços DNS e nome de domínio. As mensagens de RA têm três métodos: SLAAC, SLAAC com um servidor DHCPv6 sem estado e DHCPv6 com estado (sem SLAAC). Com o SLAAC, o dispositivo cliente usa as informações na mensagem RA para criar seu próprio GUA porque a mensagem contém o prefixo e o ID da interface. Com o SLAAC com DHCPv6 sem estado, a mensagem RA sugere que os dispositivos usam SLAAC para criar seu próprio IPv6 GUA, usar o roteador LLA como o endereço de gateway padrão e usar um servidor DHCPv6 sem estado para obter outras informações necessárias.\nCom o DHCPv6 com estado, o RA sugere que os dispositivos usam o roteador LLA como o endereço de gateway padrão e o servidor DHCPv6 com estado para obter um GUA, um endereço de servidor DNS, nome de domínio e todas as outras informações necessárias. A ID da interface pode ser criada por meio do processo EUI-64 ou de um número de 64 bits gerado aleatoriamente Esse processo usa o endereço MAC Ethernet de 48 bits de um cliente e insere outros 16 bits no meio do endereço MAC de 48 bits para criar uma ID da interface de 64 bits. Dependendo do sistema operacional, um dispositivo pode usar uma solicitação de ID de interface gerada aleatoriamente.\n\n**Endereçamento Dinâmico para LLAs IPv6:** Todos os dispositivos IPv6 devem ter um LLA IPv6 . Um LLA pode ser configurado manualmente ou criado dinamicamente. Sistemas operacionais, como o Windows, normalmente usarão o mesmo método para um GUA criado pelo SLAAC e um LLA atribuído dinamicamente. Os roteadores Cisco criam automaticamente um endereço IPv6 de link local sempre que um endereço unicast global é atribuído à interface. Por padrão, os roteadores Cisco IOS usam o EUI-64 para gerar a ID da interface de todos os endereços de link local em interfaces IPv6. Em interfaces seriais, o roteador usará o endereço MAC de uma interface Ethernet. Para tornar mais fácil reconhecer esses endereços em roteadores e lembrar deles, é comum configurar estaticamente endereços IPv6 de link local nos roteadores. Para verificar a configuração do endereço IPv6, use os três comandos a seguir: show ipv6 interface brief, show ipv6 route e ping.\n\n**Endereços IPv6 Multicast:** Existem dois tipos de endereços multicast IPv6: endereços multicast bem conhecidos e endereços multicast de nós solicitados. Os endereços multicast atribuídos são endereços multicast reservados para grupos predefinidos de dispositivos. Endereços multicast bem conhecidos são atribuídos. Dois grupos de multicast atribuídos comuns são: ff02: :1 Grupo de multicast de todos os nós e ff02: :2 Grupo de multicast de todos os roteadores. Um endereço multicast nó solicitado é semelhante ao endereço multicast all-nodes. A vantagem do endereço multicastnó solicitado é que ele é mapeado para um endereço multicast Ethernet especial."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Webster - Questões para Reflexão",
+      "content": "Webster está ao seu serviço novamente!\nEste módulo tinha muitas informações sobre IPv6.. Você aprendeu que há três tipos de mensagens IPv6: unicast, multicast e anycast. O IPv6 não usa a notação decimal com pontos na máscara de sub-rede.\nO que você aprendeu sobre o endereçamento estático de LLA e GUA?\nQual é a vantagem do endereçamento estático?\nNo seu escritório ou universidade, qual seria a desvantagem do endereçamento estático?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Configurar o Endereçamento IPv6 no Roteador\nParte 2: Configurar o Endereçamento IPv6 em Servidores\nParte 3: Configurar o Endereçamento IPv6 em Clientes\nParte 4: Testar e Verificar a Conectividade da Rede\nHistórico\nNesta atividade, você vai praticar a configuração de endereços IPv6 em servidores, clientes e um roteador. Também vai praticar a verificação da implementação de endereçamento IPv6.\nParte 1: Configurar o Endereçamento IPv6 no Roteador\nEtapa 1: Habilite o roteador para encaminhar pacotes IPv6.\na.     Clique em R1 e depois na guia CLI. Pressione Enter.\nb.     Entrar no modo EXEC privilegiado.\nc.     Insira o comando de configuração global ipv6 unicast-routing. Este comando deve ser digitado para permitir que o roteador encaminhe pacotes IPv6.\nR1(config)# ipv6 unicast-routing\nEtapa 2: Configure o endereçamento IPv6 em GigabitEthernet0/0.\na.     Digite os comandos necessários para mover para o modo de configuração da interface para GigabiteTherNet0/0.\nb.     Configure o endereço IPv6 com o seguinte comando:\nR1(config-if)# ipv6 address 2001:db8:1:1::1/64\nc.     Configure o endereço IPv6 de link local com o seguinte comando:\nR1(config-if)#ipv6 address fe80::1 link-local\nd.     Ative a interface.\nR1(config-if)# no shutdown\nEtapa 3: Configure o endereçamento IPv6 em GigabitEthernet0/1.\na.     Digite os comandos necessários para mover para o modo de configuração da interface para GigabitEthernet0/1.\nb.     Consulte o endereço IPv6 na Tabela de Endereçamento.\nc.     Configure o endereço IPv6 e o endereço de link local e ative a interface.\nEtapa 4: Configure o endereçamento IPv6 em Serial0/0/0.\na.     Digite os comandos necessários para passar para o modo de configuração de interface para Serial 0/0/0.\nb.     Consulte o endereço IPv6 na Tabela de Endereçamento.\nc.     Configure o endereço IPv6 e o endereço de link local e ative a interface.\nEtapa 5: Verifique o endereçamento IPv6 em R1.\nÉ uma boa prática verificar o endereçamento quando estiver concluído, comparando valores configurados com os valores na tabela de endereçamento.\na.     Sair do modo de configuração em R1.\nb.     Verifique o endereçamento configurado emitindo o seguinte comando:\nR1#show ipv6 interface brief\nc.     Se algum endereço estiver incorreto, repita as etapas acima conforme necessário para fazer qualquer correção.\nObservação: Para fazer uma alteração no endereçamento com IPv6, você deve remover o endereço incorreto ou então o endereço correto e o endereço incorreto permanecerão configurados na interface.\nExemplo:\nR1(config-if)# no ipv6 address 2001:db8:1:5::1/64\nd.     Salve a configuração do roteador na NVRAM.\nParte 2: Configurar o Endereçamento IPv6 em Servidores\nEtapa 1: Configure o endereçamento IPv6 no servidor Contabilidade (Contabilidade).\na.     Clique em Contabilidade e clique na guia Desktop > IP Configuration.\nb.     Defina o Endereço IPv6 como 2001:db8:1:1::4 com o prefixo /64.\nc.     Defina o Gateway IPv6 como o endereço de link local, fe80::1.\nEtapa 2: Configure o endereçamento IPv6 no servidor CAD.\nConfigure o servidor CAD com endereços como foi feito na Etapa 1. Consulte o endereço IPv6 na Tabela de Endereçamento.\nParte 3: Configurar o Endereçamento IPv6 em Clientes\nEtapa 1: Configure o endereçamento IPv6 nos clientes Vendas (Vendas) e Faturamento (Cobrança).\na.     Clique em Cobrança e selecione a guia Desktop seguida de Configuração de IP.\nb.     Defina o Endereço IPv6 como 2001:db8:1:1::3 com o prefixo /64.\nc.     Defina o Gateway IPv6 como o endereço de link local, fe80::1.\nd.     Repita as etapas 1a a 1c para Vendas. Consulte o endereço IPv6 na Tabela de Endereçamento.\nEtapa 2: Configure o endereçamento IPv6 nos clientes Projeto (Projeto) e Engenharia (Engenharia).\na.     Clique em Engenharia e selecione a guia Desktop seguida de IP Configuration.\nb.     Defina IPv6 Address (Endereço IPv6) como 2001:db8:1:2::3 com o prefixo /64.\nc.     Defina o Gateway IPv6 como o endereço de link local, fe80::1.\nd.     Repita as etapas 2a a 2c para Projeto. Consulte o endereço IPv6 na Tabela de Endereçamento.\nParte 4: Testar e Verificar a Conectividade da Rede\nEtapa 1: Abra as páginas Web do servidor nos clientes.\na.     Clique em Vendas e na guia Desktop. Feche a janela IP Configuration (Configuração de IP), se necessário.\nb.     Clique em Web Browser. Digite 2001:db8:1:1::4na caixa URL e clique em Ir. O site Contabilidade (Contabilidade) será exibido.\nc.     Digite 2001:db8:1:1::4na caixa URL e clique em Ir. O site CAD será exibido.\nd.     Repita as etapas 1a a 1d para o restante dos clientes.\nEtapa 2: Faça ping no ISP.\na.     Clique em qualquer cliente.\nb.     Clique na guia Desktop > Command Prompt (Prompt de comando).\nc.     Teste a conectividade com o ISP inserindo o seguinte comando:\nPC> ping 2001:db8:1:a001::1\nd.     Repita o comando ping com outros clientes até que toda conectividade seja verificada."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "© 2016 - 2022 Cisco e/ou suas afiliadas. Todos os direitos reservados. Público da Cisco"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Topologia"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Prática com diferentes tipos de endereços IPv6\nParte 2: Examinar o Endereço e a Interface de Rede de um Host IPv6\nHistórico/Cenário\nCom a redução do espaço de endereços de rede IPv4 (Protocolo de Internet versão 4) e a adoção/transição para o IPv6, os profissionais de rede precisam entender como funcionam as redes IPv4 e IPv6. Muitos dispositivos e aplicações já são compatíveis com IPv6. Isso inclui o amplo suporte do Cisco Internetwork Operating System (IOS) dos dispositivos e o suporte dos sistemas operacionais de servidores/estações de trabalho, como Windows e Linux.\nEste laboratório se concentra nos endereços IPv6 e nos componentes do endereço. Na Parte 1, você identificará os tipos de endereço IPv6 e a abreviação de endereços IPv6. Na Parte 2, você visualizará as configurações IPv6 em um PC.\nRecursos necessários\n=   1 PC (Windows com acesso à Internet)\nInstruções\nParte 1: Prática com diferentes tipos de endereços IPv6\nNesta parte, você identificará os diferentes tipos de endereços IPv6 e praticará compactação e descompactação de endereços IPv6.\nEtapa 1: Associe o endereço IPv6 ao seu tipo.\nCorrelacione os endereços IPv6 ao tipo de endereço correspondente. Observe que os endereços foram compactados na notação abreviada e que o número de prefixo da rede com barra não é exibido. Algumas opções de resposta devem ser usadas mais de uma vez.\nOpções de Resposta:\na.     Endereço de loopback\nb.     Endereço unicast global\nc.     Endereço de link local\nd.      Endereço Unique-local\ne.     Endereço multicast\nClique em Mostrar resposta para ver alguns exemplos."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Pratique a compactação e a descompactação de endereços IPv6.\nPerguntas:\nUsando as regras de abreviação de endereços IPv6, compacte ou descompacte os seguintes endereços:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Examinar o Endereço e a Interface de Rede de um Host IPv6\nNa Parte 2, você verificará as configurações de rede IPv6 do PC para identificar o endereço IPv6 da interface de rede.\nEtapa 1: Verifique as configurações do endereço de rede IPv6 do PC.\nConfira se o protocolo IPv6 está instalado e ativo em PC-A (verifique as configurações da Conexão local).\na.     Navegue até o Painel de Controle.\nb.     Clique no ícone Central de Rede e Compartilhamento. Clique em Exibir status e tarefas da rede.\nc.     Na janela Central de Rede e Compartilhamento, você verá suas redes ativas.\nd.     No lado esquerdo da janela, clique em Alterar as configurações do adaptador. Agora você verá ícones representando os adaptadores de rede instalados. Clique com o botão direito do mouse na interface de rede ativa ( pode ser uma Ethernet ou Wi-Fi) e clique em Propriedades.\ne.     Percorra a lista de itens para determinar se o IPv6 está presente, o que indica que está instalado, e também se ele está marcado, o que indica que está ativo.\nf.      Selecione Protocolo TCP/IP versão 6 (TCP/IPv6) e clique em Propriedades. Você verá as configurações IPv6 da sua interface de rede. A janela de propriedades IPv6 provavelmente estará definida como Obter um endereço IPv6 automaticamente. Isso não significa que o IPv6 depende do protocolo DHCP. Em vez de usar o DHCP, o IPv6 recorre ao roteador local para obter informações de rede IPv6 e configura automaticamente seus próprios endereços IPv6. Para configurar manualmente o IPv6, você deve fornecer o endereço IPv6, o comprimento do prefixo da sub-rede e o gateway padrão. Clique em Cancelar para fechar a janela de propriedades.\nObservação: o roteador local pode recorrer a solicitações de host para obter informações IPv6, especialmente informações sobre DNS (Domain Name System), de um servidor DHCPv6 na rede.\ng.     Depois de conferir que o IPv6 está instalado e ativo no PC, você deve verificar as informações do endereço IPv6.\nEtapa 2: Verifique as configurações de endereço IPv6 usando o prompt de comando.\na.     Abra um prompt de comando e digite o comando ipconfig /all . A saída deve ser semelhante a:\nC:\\Users\\user> ipconfig /all\nWindows IP Configuration\n<output omitted>\nWireless LAN adapter Wireless Network Connection:\nConnection-specific DNS Suffix  . :\nDescription . . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6200 AGN\nPhysical Address. . . . . . . . . : 02-37-10-41-FB-48\nDHCP Enabled. . . . . . . . . . . : Yes\nAutoconfiguration Enabled . . . . : Yes\nLink-local IPv6 Address . . . . . : fe80::8d4f:4f4d:3237:95e2%14(Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.2.106(Preferred)\nSubnet Mask . . . . . . . . . . . : 255.255.255.0\nLease Obtained. . . . . . . . . . : Sunday, January 06, 2013 9:47:36 AM\nLease Expires . . . . . . . . . . : Monday, January 07, 2013 9:47:38 AM\nDefault Gateway . . . . . . . . . : 192.168.2.1\nDHCP Server . . . . . . . . . . . : 192.168.2.1\nDHCPv6 IAID . . . . . . . . . . . : 335554320\nDHCPv6 Client DUID. . . . . . . . : 00-01-00-01-14-57-84-B1-1C-C1-DE-91-C3-5D\nDNS Servers . . . . . . . . . . . : 192.168.1.1\n8.8.4.4\n<output omitted>\nb.     Você pode ver na saída que o PC cliente tem um endereço de link local IPv6 com a ID de interface gerada aleatoriamente.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Perguntas para reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual é o comprimento do prefixo recomendado para a maioria das sub-redes IPv6?",
+      "options": [
+        "/32",
+        "/48",
+        "/64",
+        "/128"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA maioria das sub-redes IPv6 terá um comprimento de prefixo de /64.",
+      "raw_id": "0ca8d107ecd042018a2221ef2f00a6f6"
+    },
+    {
+      "question": "Qual parte de um GUA é atribuída pelo ISP?",
+      "options": [
+        "Prefixo de roteamento global",
+        "Prefixo de roteamento global e ID de sub-rede",
+        "Prefixo",
+        "Prefixo RIR"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO prefixo de roteamento global é a parte de um GUA atribuída por um ISP.",
+      "raw_id": "401b708b6ec349a4a65571093d1d4c26"
+    },
+    {
+      "question": "Que tipo de endereço unicast IPv6 não é roteável entre redes?",
+      "options": [
+        "Endereço local exclusivo",
+        "GUA",
+        "Endereço IPv4 incorporado",
+        "LLA"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nEndereços IPv6 de link local são apenas para comunicação de link e não são roteáveis.",
+      "raw_id": "601cbf459e9940d39d659826e69c50d2"
+    },
+    {
+      "question": "Verdadeiro ou falso?  O campo ID de sub-rede em um GUA deve usar bits emprestados do ID da interface.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falso. GUAs não usam um bit do ID da interface para criar sub-redes.",
+      "raw_id": "ed431caf033b47e38125d47344ebeccb"
+    },
+    {
+      "question": "Que tipo de endereço IPv6 começa com fe80?",
+      "options": [
+        "GUA",
+        "LLA",
+        "Endereço de multicast",
+        "Nenhum. Um endereço IPv6 deve começar com 2001"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nEndereços IPv6 de link local começam com o prefixo fe80.",
+      "raw_id": "7f1b50dd09cc4aa1b5b993171e4e9553"
+    },
+    {
+      "question": "Verdadeiro ou falso? As mensagens de RA são enviadas a todos os roteadores IPv6 por hosts solicitando informações de endereçamento.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é falso. As mensagens de anúncio do roteador (RA) são enviadas para todos os nós IPv6. Se o Método 1 (somente SLAAC) for usado, o RA incluirá informações de prefixo de rede, prefixo e gateway padrão.",
+      "raw_id": "a81d1cb5764547e7ad2435ba0e7bc947"
+    },
+    {
+      "question": "Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos dependem exclusivamente do conteúdo da mensagem RA para suas informações de endereçamento?",
+      "options": [
+        "Método 1: SLAAC",
+        "Método 2: SLAAC e DHCPv6 sem estado (stateless)",
+        "Método 3: DHCPv6 com estado (stateful)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nSLAAC é um método onde os dispositivos criam seu próprio GUA sem os serviços do DHCPv6. Com SLAAC, os dispositivos dependem das mensagens ICMPv6 de RA (Anúncio de Roteador) do roteador local para obter as informações necessárias.",
+      "raw_id": "fa778506fc6b42f89151a301e4927872"
+    },
+    {
+      "question": "Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos contam apenas com um servidor DHCPv6 para obter suas informações de endereçamento?",
+      "options": [
+        "Método 1: SLAAC",
+        "Método 2: SLAAC e DHCPv6 stateless",
+        "Método 3: DHCPv6 com estado"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUm dispositivo pode receber automaticamente suas informações de endereçamento, incluindo uma GUA, tamanho do prefixo e os endereços dos servidores DNS de um servidor DHCPv6 com monitoração de estado.",
+      "raw_id": "0b0d860907f04db3830aa4336a178b60"
+    },
+    {
+      "question": "Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos obtêm sua configuração IPv6 em uma mensagem RA e solicitam informações DNS de um servidor DHCPv6?",
+      "options": [
+        "Método 1: SLAAC",
+        "Método 2: SLAAC e DHCPv6 sem estado",
+        "Método 3: DHCPv6 com estado"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nSLAAC e DHCPv6 sem estado é um método em que os dispositivos usam SLAAC para o GUA e endereço de gateway padrão. Em seguida, os dispositivos usam um servidor DHCPv6 sem estado para servidores DNS e outras informações de endereçamento.",
+      "raw_id": "dbc53bb118014d11a0d54cf77f568ca5"
+    },
+    {
+      "question": "Quais são os dois métodos que um dispositivo pode usar para gerar seu próprio ID de interface IPv6? (Selecione dois)",
+      "options": [
+        "SLAAC",
+        "DHCPv6 sem estado",
+        "DHCPv6 com estado",
+        "EUI-64",
+        "Gerado Aleatoriamente"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nQuando a mensagem de RA é SLAAC ou SLAAC com DHCPv6 sem estado, o cliente deve gerar sua própria ID da interface.",
+      "raw_id": "99f08b2d11854c5d9edcb416e4863838"
+    },
+    {
+      "question": "Que tipo de endereço IPv6 não  roteável e usado apenas para comunicação em uma única sub-rede?",
+      "options": [
+        "Endereço unicast global",
+        "Endereço de link-local",
+        "Endereço de loopback",
+        "Endereço local exclusivo",
+        "Endereço não especificado"
+      ],
+      "correctIndex": 1,
+      "explanation": "O endereço de link-local têm relevância apenas na conexão local. Em outras palavras, os roteadores não encaminham pacotes com um endereço de link local origem ou destino.",
+      "raw_id": "8539d744209a46cd9b3d20f291f96eed"
+    },
+    {
+      "question": "Quais são as três partes de um  endereço unicast global IPv6? (Escolha três.)",
+      "options": [
+        "Endereço de broadcast",
+        "Prefixo de roteamento global",
+        "Máscara de sub-rede",
+        "ID da sub-rede",
+        "ID da interface"
+      ],
+      "correctIndex": 4,
+      "explanation": "O formato geral para endereços unicast globais de IPv6 inclui um prefixo de roteamento global, uma ID de sub-rede e uma ID de interface. O prefixo de roteamento global é a porção de rede do endereço. Um prefixo de roteamento global típico é / 48 atribuído pelo provedor de Internet. A parte da ID de sub-rede pode ser usada por uma empresa para criar vários números de sub-rede. O ID da interface é semelhante à parte do host de um endereço IPv4.",
+      "raw_id": "3fbf5a74adc44e95ad5dc124e2f18d2b"
+    },
+    {
+      "question": "Quais são os dois tipos de  endereços unicastIPv6? (Escolha duas.)",
+      "options": [
+        "multicast",
+        "loopback",
+        "link local",
+        "anycast",
+        "transmissão"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multicast, anycast, e unicast são tipols de endereços IPv6. Não há endereço de broadcast no IPv6. Loopback e link-local são tipos específicos de endereços de unicast.",
+      "raw_id": "f2c957eb25724925af123f2756bd2163"
+    },
+    {
+      "question": "Uma empresa usa o método SLAAC para configurar endereços IPv6 para as estações de trabalho dos funcionários. Qual endereço um cliente usará como gateway padrão?",
+      "options": [
+        "o endereço de multicast dos roteadores",
+        "o endereço link-local da interface do roteador conectada à rede",
+        "o endereço local exclusivo da interface do roteador conectado à rede",
+        "o endereço unicast global da interface do roteador conectada à rede"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quando um PC é configurado para usar o método SLAAC para configurar endereços IPv6, ele usa as informações de prefixo e comprimento do prefixo contidas na mensagem RA, combinadas com uma ID de interface de 64 bits (obtida pelo processo EUI-64) ou usando um número aleatório gerado pelo sistema operacional do cliente) para formar um endereço IPv6. Ele usa o endereço link-local da interface do roteador anexada ao segmento de LAN como seu endereço de gateway padrão IPv6.",
+      "raw_id": "ac377068ed4c4a2ca2d3181d4a7393cc"
+    },
+    {
+      "question": "O que são ULAs IPv6?",
+      "options": [
+        "um método de conversão de endereços IPv6 em endereços IPv4",
+        "um intervalo de endereços IPv6 privado usado para comunicação em um site local",
+        "qualquer dispositivo que possa executar simultaneamente uma pilha de protocolo IPv6 e IPv4",
+        "protocolos de tunelamento que permitem que duas redes IPv6 se comuniquem em uma rede IPv4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os endereços locais únicos (ULAs) IPv6 são uma faixa de endereços privados, semelhantes aos endereços RFC 1918, que podem ser usados para endereçar endpoints em uma rede local. Eles não precisam ser roteáveis na Internet.",
+      "raw_id": "31a09a904db64123b050ba754b6056a7"
+    },
+    {
+      "question": "Qual tipo de endereço não é suportado no IPv6?",
+      "options": [
+        "privado",
+        "multicast",
+        "unicast",
+        "transmissão"
+      ],
+      "correctIndex": 3,
+      "explanation": "O IPv6 suporta endereços unicast, privados e multicast, mas não suporta broadcasts de Camada 3.",
+      "raw_id": "a9410fda22ef4d4885928311c870b0b4"
+    },
+    {
+      "question": "Qual serviço fornece endereçamento IPV6 global dinâmico a dispositivos finais sem usar um servidor para manter um registro dos endereços IPv6 disponíveis?",
+      "options": [
+        "DHCPv6 com estado (stateful)",
+        "SLAAC",
+        "Endereçamento IPv6 estático",
+        "DHCPv6 sem estado (stateless)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Usando a configuração automática de endereços stateless (SLAAC), o computador pode requisitar um roteador e receber o tamanho do prefixo da rede. Com essa informação, o computador pode criar seu próprio endereço IPv6 unicast global.",
+      "raw_id": "dab5c3287a754f2d98640d8b8de7c07f"
+    },
+    {
+      "question": "No mínimo, qual é o endereço exigido para interfaces habilitadas para IPv6?",
+      "options": [
+        "link local",
+        "unique local",
+        "site local",
+        "unicast global"
+      ],
+      "correctIndex": 0,
+      "explanation": "Todas as interfaces habilitadas para IPv6 devem ter pelo menos um endereço de link local. Outros endereços IPv6 podem ser atribuídos à interface, conforme necessário.",
+      "raw_id": "bc619c74b22946dc9e026c9ce3a80058"
+    },
+    {
+      "question": "Qual é o tipo de endereço IPv6 que se refere a um endereço unicast atribuído a vários hosts?",
+      "options": [
+        "unique local",
+        "unicast global",
+        "link local",
+        "anycast"
+      ],
+      "correctIndex": 3,
+      "explanation": "As especificações IPv6 incluem endereços anycast. O endereço anycast é todo endereço IPv6 unicast atribuído a diversos dispositivos.",
+      "raw_id": "8b59f26ad267449a9abd3b727db12e3f"
+    },
+    {
+      "question": "Qual endereço é usado para obter uma ID de interface IPv6 usando o método EUI-64?",
+      "options": [
+        "IPv4",
+        "MAC",
+        "Multicast",
+        "Camada 4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uma ID de interface IPv6 usando o método EUI-64 é gerada ao inserir o FFFE de dígitos hexadecimais entre os primeiros e últimos 24 bits do endereço MAC da interface e, em seguida, inverter o sétimo bit.",
+      "raw_id": "22be8fa2867e45488daf346812cecddd"
+    },
+    {
+      "question": "Qual tipo de mensagem de ICMPv6 contém informações de configuração de rede para clientes que estão executando o SLAAC?",
+      "options": [
+        "Anúncio do roteador (RA)",
+        "Solicitação de roteador (RS)",
+        "Anúncio vizinho (NA)",
+        "Solicitação do vizinho (NS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ao realizar o SLAAC, os clientes IPv6 recebem informações de configuração de rede de mensagens de anúncio de roteador que são enviadas por um roteador local.",
+      "raw_id": "446eefb60f714d1f9a8b9fb12b011c2b"
+    },
+    {
+      "question": "Quantos bits de um endereço IPv6 são usados para identificar ID da interface?",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "128"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um endereço IPv6 é dividido em um prefixo de 64 bits e um ID de interface de 64 bits.",
+      "raw_id": "b68fc5aa6789422384fb34ce064a08ae"
+    }
+  ],
+  "images": []
+}

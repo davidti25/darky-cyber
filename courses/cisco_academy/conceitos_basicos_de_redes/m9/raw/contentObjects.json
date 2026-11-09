@@ -1,0 +1,447 @@
+[
+  {
+    "_id": "e3a761da-5404-484f-9574-60f5d9209e17",
+    "body": "<p><span>Compreendendo IPv4 e segmentação de rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "e3a761da-5404-484f-9574-60f5d9209e17",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8bff48d51cd4475a941a7f84796741f",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "a466c812-9146-427e-923a-ce5642c2b37e",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg",
+        "_small": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg",
+        "_medium": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg",
+        "_small": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg",
+        "_medium": "pt-BR/assets/97c3ba6cdaa54a2e95d923a224c6533a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d8bff48d51cd4475a941a7f84796741f",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "94e07230-921c-418e-a008-7bb631bdf88e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "cbcff002-29b5-4fd9-89d8-75a8e5f61275",
+    "body": "<p><span>Comparar as características e os usos dos endereços IPv4 unicast, multicast e broadcast.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Unicast, broadcast e multicast IPv4",
+    "_oldId": "cbcff002-29b5-4fd9-89d8-75a8e5f61275",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8bff48d51cd4475a941a7f84796741f",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "0fd55099-eca7-43cb-97c2-43b7bf1c438b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg",
+        "_small": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg",
+        "_medium": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg",
+        "_small": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg",
+        "_medium": "pt-BR/assets/91adfb11483640dd8d2ad5587324b501.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d8bff48d51cd4475a941a7f84796741f",
+    "displayTitle": "{{_moduleNumber}}.1. Unicast, broadcast e multicast IPv4",
+    "_isPageTracer": false,
+    "_activityParentId": "94e07230-921c-418e-a008-7bb631bdf88e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c9778f4f-3788-46ab-8c5e-de409cbfeb5b",
+    "body": "<p><span>Explicar os endereços IPv4 públicos, privados e reservados.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Tipos de endereços IPv4",
+    "_oldId": "c9778f4f-3788-46ab-8c5e-de409cbfeb5b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8bff48d51cd4475a941a7f84796741f",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "57fdc129-f04f-4ffe-8b9b-68faa6774bfc",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg",
+        "_small": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg",
+        "_medium": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg",
+        "_small": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg",
+        "_medium": "pt-BR/assets/22997aa3d2c5459a81ea8a79c3c58304.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d8bff48d51cd4475a941a7f84796741f",
+    "displayTitle": "{{_moduleNumber}}.2. Tipos de endereços IPv4",
+    "_isPageTracer": false,
+    "_activityParentId": "94e07230-921c-418e-a008-7bb631bdf88e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "4b3ffb36-05f5-4e43-a694-7e7a0783ef11",
+    "body": "<p><span>Explicar como a divisão em sub-redes segmenta uma rede para facilitar a comunicação.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Segmentação de Rede",
+    "_oldId": "4b3ffb36-05f5-4e43-a694-7e7a0783ef11",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8bff48d51cd4475a941a7f84796741f",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "769777c7-2184-48ec-865a-51fd3f52991b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg",
+        "_small": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg",
+        "_medium": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg",
+        "_small": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg",
+        "_medium": "pt-BR/assets/09efdd5585d943e682191590d1339a00.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d8bff48d51cd4475a941a7f84796741f",
+    "displayTitle": "{{_moduleNumber}}.3. Segmentação de Rede",
+    "_isPageTracer": false,
+    "_activityParentId": "94e07230-921c-418e-a008-7bb631bdf88e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2dc2f374-a7cb-4ea3-88c6-9e1fbf442ba9",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Resumo - IPv4 e segmentação de rede",
+    "_oldId": "2dc2f374-a7cb-4ea3-88c6-9e1fbf442ba9",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8bff48d51cd4475a941a7f84796741f",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "52f0b75f-9d6f-4d2e-8379-99dfd1958a4d",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg",
+        "_small": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg",
+        "_medium": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg",
+        "_small": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg",
+        "_medium": "pt-BR/assets/f41f45b74cf248baadc2e889f5097a45.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d8bff48d51cd4475a941a7f84796741f",
+    "displayTitle": "{{_moduleNumber}}.4. Resumo - IPv4 e segmentação de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "94e07230-921c-418e-a008-7bb631bdf88e",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

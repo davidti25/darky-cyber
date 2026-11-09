@@ -1,0 +1,4494 @@
+[
+  {
+    "_id": "4b3b43ede8224cd59c6fc5667bb6b682",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "4b3b43ede8224cd59c6fc5667bb6b682",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cb2ebec9726642b9b1e7137698c6a5a2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b5e59f84-7428-4cf6-94f3-7af710c4f8ea",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "cb2ebec9726642b9b1e7137698c6a5a2",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "e5bfb7a1-f3d5-4cf3-a74c-e42e3f2fa3e0",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e5465adb986140aca6d9c9c12b09cbe0",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "e5465adb986140aca6d9c9c12b09cbe0",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "43b9fe952d1c443890c142e84919d529",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "00620f2d-6128-4022-870b-41d04539c2aa",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "43b9fe952d1c443890c142e84919d529",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e7308249-67de-4443-9380-f7a856bd96c1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "427b5977df2e4125a950a24d90b7d560",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "427b5977df2e4125a950a24d90b7d560",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/23168c56e6ea43c7981a077eb2ae26bc.png",
+      "small": "pt-BR/assets/23168c56e6ea43c7981a077eb2ae26bc.png",
+      "attribution": ""
+    },
+    "_parentId": "759acd5e841742318a9a387a5824e4dc",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "469a4479-9d41-4b12-8742-b169fe1e9b2d",
+    "instruction": "",
+    "_oldParentId": "759acd5e841742318a9a387a5824e4dc",
+    "displayTitle": "",
+    "_activityParentId": "53e50f43-9836-4929-9026-cf0bbada2f5b",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "a264b3d4f3a244bab0fdf2ddec8bd04c",
+    "body": "<p>Kishori chega cedo ao trabalho para fazer uma chamada de videoconferência no computador da estação de enfermagem. Ela entra na sessão sobre o protocolo de máscara no hospital. Ao ouvir atentamente o apresentador, ela percebe algumas palavras descartadas. Ela se pergunta se há algum problema com a rede. Isso é semelhante ao tablet perder a conexão por um momento? Mas ela se lembra de que está usando um computador conectado à rede.</p><p>Imediatamente após a chamada, ela envia um e-mail para Madhav no departamento de TI. Madhav vem até a mesa de Kishori. Ela está confusa porque todos os dispositivos parecem estar conectados. Madhav explica que UDP e TCP são protocolos de camada de transporte que operam um pouco diferente. Ele diz a ela que o UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento. O UDP é preferível para aplicações como a transmissão de áudio e vídeo ao vivo, e Voz sobre IP (VoIP). O UDP é usado para chamadas de videoconferência.</p><p>Kishori nunca tinha ouvido falar nisso. E você, já? Neste módulo, você comparará esses protocolos. Continue lendo!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "a264b3d4f3a244bab0fdf2ddec8bd04c",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "759acd5e841742318a9a387a5824e4dc",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2b963477-a650-4b08-87c7-e808a82cf644",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "759acd5e841742318a9a387a5824e4dc",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "53e50f43-9836-4929-9026-cf0bbada2f5b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "071cf5f71b864ac793a2c31a49c932cd",
+    "body": "<p><strong>Título do módulo: </strong> TCP e UDP</p><p><strong>Objetivo do Módulo: </strong>Explicar como os clientes acessam os serviços de Internet.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "TCP e UDP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Comparar as funções da camada de transporte TCP e UDP.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Números de porta",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar como o TCP e o UDP usam números de porta.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "071cf5f71b864ac793a2c31a49c932cd",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "a8fc6e0595ff46f7b9af646719f31a2b",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "88db83c6-5fb7-4159-81ec-67f001d961a3",
+    "_oldParentId": "a8fc6e0595ff46f7b9af646719f31a2b",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "929dbecd-34c2-4f54-a6c9-d2d1c140c7ea",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "3d92d7eeba95434885ef83bf57cf0809",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "3d92d7eeba95434885ef83bf57cf0809",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "4b782dd4037b4f0581be70f65a45869e",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "a7f8dc25-a235-4664-8f1a-cfa14ab91ff2",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "4b782dd4037b4f0581be70f65a45869e",
+    "displayTitle": "",
+    "_activityParentId": "c0cefdf0-fc86-4086-9f6c-95ddbf602d77"
+  },
+  {
+    "_id": "7a6f92cea04f4463b716e32ac570a3c0",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 TCP e UDP</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 TCP e UDP",
+    "_oldId": "7a6f92cea04f4463b716e32ac570a3c0",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f747f8e764b949c38193a673955a6dc9",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8566af9b-ea6b-4c62-8760-42f56c024d86",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f747f8e764b949c38193a673955a6dc9",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "68a04c3f-ccf3-44ef-85e0-fd50fc0462bb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "eb9ca9574afd46afaac6fff6577d35e5",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 TCP e UDP",
+    "_oldId": "eb9ca9574afd46afaac6fff6577d35e5",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "animated-hide",
+    "_graphic": {
+      "alt": "",
+      "large": "pt-BR/assets/159fd9a4b6564dc8bd7b956af35f2e98.png",
+      "small": "pt-BR/assets/159fd9a4b6564dc8bd7b956af35f2e98.png",
+      "attribution": ""
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f747f8e764b949c38193a673955a6dc9",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "a7bf33b7-52ab-49d0-9f01-cb54daf5374f",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "f747f8e764b949c38193a673955a6dc9",
+    "displayTitle": "",
+    "_activityParentId": "68a04c3f-ccf3-44ef-85e0-fd50fc0462bb",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c2015692ccae4f8b961f2db3d535fb75",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 TCP e UDP",
+    "_oldId": "c2015692ccae4f8b961f2db3d535fb75",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bb3c70db9352455cadc9ebb74cfe01c3",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f63c2507-3236-49b2-b4b3-fa3b6fffde66",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bb3c70db9352455cadc9ebb74cfe01c3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e7e47af5-a409-4e45-bb33-07afd93cd3ef",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fd38eaf163bf44d3a5df6a799c022604",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Operação do TCP e UDP",
+    "_oldId": "fd38eaf163bf44d3a5df6a799c022604",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250025753001",
+    "videoIds": [
+      "cf510f60-b708-449e-9ee1-49e0bf371502"
+    ],
+    "_parentId": "e03b137bce84418dbf7a54c22e63aa8c",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "carimbos de data/hora (Timestamps) ",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "fadac07b-f27f-4ce3-bece-5dba5ee67af8",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "e03b137bce84418dbf7a54c22e63aa8c",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "1e3b2ca5-01cf-403d-9c02-71fc94e9f82f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "7c16ffd779464000b4da04237e78ada4",
+    "body": "<p><span style=\"color:#000000\">Qual camada do modelo TCP / IP é responsável por garantir que os pacotes sejam enviados de forma confiável e que os pacotes ausentes sejam reenviados?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Camada de aplicação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "camada de transporte",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": " camada de inter-redes",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "camada de acesso à rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "7c16ffd779464000b4da04237e78ada4",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>A camada de transporte nos modelos TCP / IP e OSI é responsável por garantir que os pacotes sejam enviados de forma confiável e que os pacotes ausentes sejam reenviados.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>A camada de transporte nos modelos TCP / IP e OSI é responsável por garantir que os pacotes sejam enviados de forma confiável e que os pacotes ausentes sejam reenviados.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ffbbf370d3ae450f8e12402445b5d1f4",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "adbc1c53-eb7a-4f67-81a7-f7a5b0ff1dad",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Transmissão confiável",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "ffbbf370d3ae450f8e12402445b5d1f4",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "7c16ffd779464000b4da04237e78ada4",
+    "_activityParentId": "9e28110a-430b-411c-a7f3-60c068d5828d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "dc8bfcab4fb9446bb05d7f02977179a8",
+    "body": "<p><span style=\"color:#000000\">Verdadeiro ou falso: O Transport Control Protocol (TCP) não controla os segmentos enviados para o destino.</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "verdadeiro",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "falso",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "dc8bfcab4fb9446bb05d7f02977179a8",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>Falso. O TCP monitora o número de segmentos que foram enviados a um host específico de um aplicativo específico.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>Falso. O TCP monitora o número de segmentos que foram enviados a um host específico de um aplicativo específico.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ab29f395c8c24403bc4d06d64404443c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "bd13c281-5457-4d4a-bc54-87df29cccc5d",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "TCP",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "ab29f395c8c24403bc4d06d64404443c",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "dc8bfcab4fb9446bb05d7f02977179a8",
+    "_activityParentId": "8553a4e9-1f37-4d98-a31f-bf1b96172b0b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "79d9a2ac4c3448239a5cd5b67888affa",
+    "body": "<p><span style=\"color:#000000\">Verdadeiro ou falso: O User Datagram Protocol (UDP) não usa confirmações para rastrear o recebimento de segmentos.</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "verdadeiro",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "falso",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "79d9a2ac4c3448239a5cd5b67888affa",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>Verdadeiro. O UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>Verdadeiro. O UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cce48189c5c24ee2971f3352d3f28a60",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "60e7962e-c172-4eb8-9fab-96866c370fca",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "UDP",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cce48189c5c24ee2971f3352d3f28a60",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "79d9a2ac4c3448239a5cd5b67888affa",
+    "_activityParentId": "4e85285b-4671-4652-a23e-f06ade1d475d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "10e30648bc9543eb806da7db69bb9b30",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "10e30648bc9543eb806da7db69bb9b30",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "5dfc32e43a714e23ad5c547fd574ff92",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "21cea549-953f-4fd4-82f2-77e4b25ba34f",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "5dfc32e43a714e23ad5c547fd574ff92",
+    "displayTitle": "",
+    "_activityParentId": "fd3c028f-b549-462e-8fe9-78aac823e2d0"
+  },
+  {
+    "_id": "77cd91f4f3194c88801624c77237cc4c",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Números de porta</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Números de porta",
+    "_oldId": "77cd91f4f3194c88801624c77237cc4c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d114b0100b9e4a74abeb257df9c779ef",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7e890d32-8b55-4eb3-ab34-245e9e2274e4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d114b0100b9e4a74abeb257df9c779ef",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "8d5b9039-f9db-4948-81a0-759b992d0d0e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "053285505dc74fd6bd37b9f6441a4802",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 TCP e UDP",
+    "_oldId": "053285505dc74fd6bd37b9f6441a4802",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "animated-hide",
+    "_graphic": {
+      "alt": "",
+      "large": "pt-BR/assets/1bf1008592d84318b6e398d10ebe70fc.png",
+      "small": "pt-BR/assets/1bf1008592d84318b6e398d10ebe70fc.png",
+      "attribution": ""
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d114b0100b9e4a74abeb257df9c779ef",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "faf7e0b8-9c58-4411-ab81-c8525d029c23",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "d114b0100b9e4a74abeb257df9c779ef",
+    "displayTitle": "",
+    "_activityParentId": "8d5b9039-f9db-4948-81a0-759b992d0d0e",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "e59ce83696974609a811b74ab9d28593",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Números de porta",
+    "_oldId": "e59ce83696974609a811b74ab9d28593",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d672b7022a2649d1b0ea5cc35115778f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "30031876-3b75-464c-bdd5-3866ee450a65",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d672b7022a2649d1b0ea5cc35115778f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e431dc4a-5a21-41bc-b0c3-9cb0846d859d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "62f0ce598d3a4db78789747aca62ec3a",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Vídeo - Números de porta da camada de transporte",
+    "_oldId": "62f0ce598d3a4db78789747aca62ec3a",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250027663001",
+    "videoIds": [
+      "23eb486a-adb4-439c-bf1b-ce04450f1466"
+    ],
+    "_parentId": "d361b6254b504385a411ea9ab25e8c8b",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "carimbos de data/hora (Timestamps) ",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "40f63758-c238-42d6-a910-7678565553bc",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "d361b6254b504385a411ea9ab25e8c8b",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "08230a72-a1c7-4781-85a4-98dd5b615ab6",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "28cc8df8e4254d429cdcb6512ce3100c",
+    "body": "<p>São muitos os serviços que acessamos pela Internet ao longo do dia. DNS, Web, E-mail, FTP, Mensagem instantânea e VoIP são apenas alguns desses serviços que são disponibilizados por sistemas cliente/servidor em todo o mundo. Eles podem ser fornecidos por um único servidor ou por vários servidores em grandes datacenters.</p><p>Quando uma mensagem é entregue usando o TCP ou o UDP, os protocolos e os serviços são identificados por um número de porta. Uma porta é um identificador numérico dentro de cada segmento que é usado para rastrear conversas específicas entre um cliente e um servidor. Cada mensagem que um host envia contém uma porta origem e destino.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Números de porta TCP e UDP",
+    "_oldId": "28cc8df8e4254d429cdcb6512ce3100c",
+    "details": {
+      "uuid": "ecd28a30-e7b1-11ea-99b9-4b66b2692234",
+      "texts": [
+        {
+          "text": "Aplicação",
+          "class": "text1"
+        },
+        {
+          "text": "Transporte",
+          "class": "text2"
+        },
+        {
+          "text": "Internet",
+          "class": "text3"
+        },
+        {
+          "text": "Acesso à rede",
+          "class": "text4"
+        },
+        {
+          "text": "HTTP",
+          "class": "text5"
+        },
+        {
+          "text": "SMTP",
+          "class": "text6"
+        },
+        {
+          "text": "DNS",
+          "class": "text7"
+        },
+        {
+          "text": "TCP",
+          "class": "text8"
+        },
+        {
+          "text": "UDP",
+          "class": "text9"
+        },
+        {
+          "text": "IP",
+          "class": "text10"
+        },
+        {
+          "text": "HTTP",
+          "class": "text11"
+        },
+        {
+          "text": "SMTP",
+          "class": "text12"
+        },
+        {
+          "text": "DNS",
+          "class": "text13"
+        },
+        {
+          "text": "TCP",
+          "class": "text14"
+        },
+        {
+          "text": "UDP",
+          "class": "text15"
+        },
+        {
+          "text": "IP",
+          "class": "text16"
+        },
+        {
+          "text": "Rede",
+          "class": "text17"
+        },
+        {
+          "text": "Cliente",
+          "class": "text18"
+        },
+        {
+          "text": "Servidor",
+          "class": "text19"
+        },
+        {
+          "text": "Porta",
+          "class": "text20"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/ecd28a30-e7b1-11ea-99b9-4b66b2692234/ab463347-22cf-4752-89ac-61b8d60deaae.css",
+      "aspect_ratio": "671/452",
+      "primary_image": "media/ecd28a30-e7b1-11ea-99b9-4b66b2692234/f9486d73-f95e-4373-97f9-75700186a8e7.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "0632a0f27d3a4130b1b8deb53113f9e2",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "963c7bd5-8b07-411b-aad1-562c822f8d94",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "0632a0f27d3a4130b1b8deb53113f9e2",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure depicts the four layers of the TCP/IP model in a conversation between a client and a server. It shows HTTP, SMTP, and DNS at the Application layer, TCP and UDP at the Transport layer, IP at the Internet layer, and a network cloud at the Network Access layer. The HTTP application is identified as targeting a destination of port 80 using TCP. The SMTP application is identified as targeting a destination port number of 25 using TCP. The DNS application is identified as targeting a destiination port number of 53 using UDP.",
+    "_activityParentId": "687d9360-23df-40fa-a1fc-222339b1f81a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "6df87fcd2d574638b6294eec42da5618",
+    "body": "<p>Quando uma mensagem é recebida por um servidor, é necessário que o servidor consiga determinar qual serviço está sendo solicitado pelo cliente. Os clientes são pré-configurados para usar uma porta de destino que foi registrada na Internet para cada serviço. Um exemplo disso são os clientes de navegador da Web, que são configurados previamente para enviar solicitações para servidores da Web pela porta 80, a porta usada normalmente para serviços da Web em HTTP.</p><p>As portas são atribuídas e gerenciadas por uma organização conhecida como ICANN (Internet Corporation for Assigned Names and Numbers, Corporação da Internet para Atribuição de Nomes e Números). As portas foram divididas em três categorias e variam em número de 1 a 65.535.</p><ul><li><b>Portas bem conhecidas </b>– As portas de destino que estão associadas a aplicativos de rede comuns são identificadas como portas bem conhecidas. Elas estão no intervalo de 1 a 1.023.</li><li><b>Portas registradas – </b>As portas 1.024 a 49.151 podem ser usadas como portas de destino ou de origem. Elas podem ser usadas por empresas para registrar aplicativos específicos, como os de mensagem instantânea.</li><li><b>Portas privadas –</b> As portas de 49.152 a 65.535 são  geralmente utilizadas como portas de origem. Elas podem ser usadas por qualquer aplicativo.</li></ul><p>A tabela exibe alguns números de porta conhecidos comuns e seus aplicativos associados.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Número da Porta",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Transporte",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Protocolo de aplicação",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "20",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo de Transferência de Arquivos (FTP) - Dados",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "21",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "FTP -Controle",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "22",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Secure Shell(Shell seguro) - SSH",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "23",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Telnet",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "25",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo SMTP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "53",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "UDP, TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo DNS",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "67",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "UDP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Dynamic Host Configuration Protocol (DHCP) - Servidor",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "68",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "UDP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Cliente DHCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "69",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "UDP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo de Transferência Trivial de Arquivo (TFTP)",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "80",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo HTTP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "110",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo POP3 (Post Office Protocol - Protocolo dos Correios)",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "143",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo IMAP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "161",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "UDP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Protocolo de Gerenciamento Simples de Rede (SNMP)",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "443",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "TCP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "HTTPS (Secure Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto Seguro)",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "Table Widget",
+    "_oldId": "6df87fcd2d574638b6294eec42da5618",
+    "_layout": "full",
+    "_classes": "",
+    "_minWidth": 800,
+    "_parentId": "52d863efe6ae464d909b062ce0f5751d",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "ecf85788-ad7b-4582-a86b-46339804c011",
+    "_oldParentId": "52d863efe6ae464d909b062ce0f5751d",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_activityParentId": "7c8b89a8-b2f1-4e0a-b9de-cc93e774f03b",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c986251ba4ed4378ab0bb091606fdb3f",
+    "body": "<p>Algumas aplicações podem usar tanto TCP quanto UDP. Por exemplo, o DNS usa o protocolo UDP quando os clientes enviam requisições a um servidor DNS. Contudo, a comunicação entre dois servidores DNS sempre usa TCP.</p><p>Pesquise no site da IANA o registro de portas para visualizar a lista completa de números de portas e aplicativos associados.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "c986251ba4ed4378ab0bb091606fdb3f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d8cfa82f88c8499382be5fe4d73ca3a0",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f4c1561b-7ee5-4385-bbdb-dc7a9e1fb83b",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d8cfa82f88c8499382be5fe4d73ca3a0",
+    "displayTitle": "",
+    "_activityParentId": "fa6f4c12-34f4-4bab-a6d1-8e91642e474d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fcd2c3114d474e3fadb41d10565f8936",
+    "body": "<p>As portas origem e destino são colocadas no segmento. Os segmentos são encapsulados em um pacote IP. O pacote IP contém o endereço IP de origem e destino. A combinação do endereço IP de origem e o número de porta de origem, ou do endereço IP de destino e o número de porta de destino é conhecida como um socket.</p><p>No exemplo na figura, o PC está solicitando simultaneamente serviços FTP e Web do servidor de destino.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Pares de Soquetes",
+    "_oldId": "fcd2c3114d474e3fadb41d10565f8936",
+    "details": {
+      "uuid": "2e5ff630-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "00-07-E9-42-AC- 28",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "00-07-E9-63-CE-53",
+          "class": "ID_txt10"
+        },
+        {
+          "text": "192.168.1.5",
+          "class": "ID_txt11"
+        },
+        {
+          "text": "192.168.1.7",
+          "class": "ID_txt12"
+        },
+        {
+          "text": "1099",
+          "class": "ID_txt13"
+        },
+        {
+          "text": "80",
+          "class": "ID_txt14"
+        },
+        {
+          "text": "Dados do usuário",
+          "class": "ID_txt15"
+        },
+        {
+          "text": "Trailer",
+          "class": "ID_txt16"
+        },
+        {
+          "text": "MAC destino",
+          "class": "ID_txt29"
+        },
+        {
+          "text": "MAC origem",
+          "class": "ID_txt30"
+        },
+        {
+          "text": "IP de origem",
+          "class": "ID_txt31"
+        },
+        {
+          "text": "IP de destino",
+          "class": "ID_txt32"
+        },
+        {
+          "text": "Porta de origem",
+          "class": "ID_txt33"
+        },
+        {
+          "text": "Porta de destino",
+          "class": "ID_txt34"
+        },
+        {
+          "text": "00-07-E9-42-AC- 28",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "00-07-E9-63-CE-53",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "192.168.1.5",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "192.168.1.7",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "1305",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "21",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Dados do usuário",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "Trailer",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "Porta de origem do cliente FTP: 1305",
+          "class": "ID_txt17"
+        },
+        {
+          "text": "Porta de origem do cliente Web: 1099",
+          "class": "ID_txt18"
+        },
+        {
+          "text": "Porta de destino do servidor FTP: 21",
+          "class": "ID_txt19"
+        },
+        {
+          "text": "Porta de destino do servidor Web: 80",
+          "class": "ID_txt20"
+        },
+        {
+          "text": "Conexão FTP",
+          "class": "ID_txt21"
+        },
+        {
+          "text": "Conexão Web",
+          "class": "ID_txt22"
+        },
+        {
+          "text": "MAC destino",
+          "class": "ID_txt23"
+        },
+        {
+          "text": "MAC origem",
+          "class": "ID_txt24"
+        },
+        {
+          "text": "Orig. origem",
+          "class": "ID_txt25"
+        },
+        {
+          "text": "IP de destino",
+          "class": "ID_txt26"
+        },
+        {
+          "text": "Porta<br />de origem",
+          "class": "ID_txt27"
+        },
+        {
+          "text": "Porta de<br />destino",
+          "class": "ID_txt28"
+        },
+        {
+          "text": "<strong>Fonte</strong><br />192.168.1.5<br />00-07-E9-63-CE-53",
+          "class": "ID_txt35"
+        },
+        {
+          "text": "<strong>Destino</strong><br />192.168.1.7<br />00-07-E9-42-AC-28",
+          "class": "ID_txt36"
+        },
+        {
+          "text": "FTP",
+          "class": "ID_txt37"
+        },
+        {
+          "text": "Web",
+          "class": "ID_txt38"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e5ff630-1c25-11ea-a010-eb2108469056/2e5ff632-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/474",
+      "primary_image": "media/2e5ff630-1c25-11ea-a010-eb2108469056/2e5ff633-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "ebd4ede51a174278a79b2c99156f920b",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "9b3dacc6-0555-4cce-b94c-75c08ac8a01c",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ebd4ede51a174278a79b2c99156f920b",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A figura mostra um PC estabelecendo uma conexão FTP e Web com um servidor. The requests have source and destination port numbers which identify the host PC and the requested application service respectively.",
+    "_activityParentId": "d3538f5a-1e7f-445d-bdf6-67c5b43598f8",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "952c580c22374affba33af6e6f4cbea1",
+    "body": "<p>No exemplo, a solicitação FTP gerada pelo PC inclui os endereços MAC da Camada 2 e os endereços IP da Camada 3. A solicitação também identifica o número da porta de origem 1305 (ou seja, gerado dinamicamente pelo host) e a porta de destino, identificando os serviços de FTP na porta 21. O host também solicitou uma página da Web do servidor usando os mesmos endereços de Camada 2 e Camada 3. No entanto, ele está usando o número da porta de origem 1099 (ou seja, gerado dinamicamente pelo host) e a porta de destino identificando o serviço Web na porta 80.</p><p>O socket é usado para identificar o servidor e o serviço que está sendo solicitado pelo cliente. Um socket do cliente pode ser assim, com 1099 representando o número da porta de origem: 192.168.1.5:1099</p><p>O soquete em um servidor da web pode ser 192.168.1.7:80</p><p>Juntos, esses dois sockets se combinam para formar um par de sockets: 192.168.1.5:1099, 192.168.1.7:80</p><p>Os sockets permitem que vários processos em execução em um cliente se diferenciem uns dos outros, e várias conexões com um processo no servidor sejam diferentes umas das outras.</p><p>Este número de porta age como um endereço de retorno para a aplicação que faz a solicitação. A camada de transporte rastreia essa porta e a aplicação que iniciou a solicitação, de modo que quando uma resposta é retornada, ela pode ser encaminhada para a aplicação correta.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "952c580c22374affba33af6e6f4cbea1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2c6dc59ee413476a9ee059546f30281c",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f4e8f958-e888-4e39-864c-cdda53567ac9",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2c6dc59ee413476a9ee059546f30281c",
+    "displayTitle": "",
+    "_activityParentId": "ab592ca0-e1a3-43b3-bd94-d98f8f1675c1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bb605e4e8a48414fa382019d6c09438d",
+    "body": "<p>Conexões TCP desconhecidas podem representar uma grande ameaça à segurança. Elas podem indicar que algo ou alguém está conectado ao host local. Às vezes é necessário conhecer quais conexões TCP ativas estão abertas e sendo executadas em um host de rede. O netstat é um utilitário de rede importante que pode ser usado para verificar essas conexões. Como mostrado abaixo, digite o comando <b>netstat</b> para listar os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.4 O Comando netstat",
+    "_oldId": "bb605e4e8a48414fa382019d6c09438d",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "precode": [
+      {
+        "text": "C:&#x2216;> netstat"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;"
+      },
+      {
+        "text": "Active Connections"
+      },
+      {
+        "text": "&nbsp;&nbsp;&nbsp;"
+      },
+      {
+        "text": "&nbsp;&nbsp;Proto&nbsp;Local Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foreign Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State"
+      },
+      {
+        "text": "&nbsp;&nbsp;TCP&nbsp;&nbsp;&nbsp;192.168.1.124:3126&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.0.2:netbios-ssn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTABLISHED"
+      },
+      {
+        "text": "&nbsp;&nbsp;TCP&nbsp;&nbsp;&nbsp;192.168.1.124:3158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;207.138.126.152:http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTABLISHED"
+      },
+      {
+        "text": "&nbsp;&nbsp;TCP&nbsp;&nbsp;&nbsp;192.168.1.124:3159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;207.138.126.169:http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTABLISHED"
+      },
+      {
+        "text": "&nbsp;&nbsp;TCP&nbsp;&nbsp;&nbsp;192.168.1.124:3161&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sc.msn.com:http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTABLISHED"
+      },
+      {
+        "text": "&nbsp;&nbsp;TCP&nbsp;&nbsp;&nbsp;192.168.1.124:3166&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;www.cisco.com:http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTABLISHED"
+      },
+      {
+        "text": "(output omitted)"
+      },
+      {
+        "text": "C:&#x2216;> netstat"
+      }
+    ],
+    "_classes": "animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a8b457e336db49b5814e917e5f50e7d0",
+    "_component": "commandWindow",
+    "_isDeleted": false,
+    "_activityId": "fa41ec15-c7ec-49a2-b771-0d7768f44dfa",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a8b457e336db49b5814e917e5f50e7d0",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "a2e02364-ec69-4eb4-8291-0b2dfcb14ce6",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "bd486d7500b6467882eee762cf6f9131",
+    "body": "<p>Por padrão, o comando <b>netstat</b> tentará resolver os endereços IP para os nomes de domínio e os números de porta para aplicações bem conhecidas. A opção <b>n </b>pode ser usada para exibir endereços IP e números de porta em sua forma numérica.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "bd486d7500b6467882eee762cf6f9131",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "056ebd88549349eebac3bf44486fe03e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c8337506-422b-4ce9-baa7-e8d8a4d4e27e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "056ebd88549349eebac3bf44486fe03e",
+    "displayTitle": "",
+    "_activityParentId": "e94d964a-887e-4c33-b2eb-21f2eb84045f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6faaaba76ad14c7290c4b7bd5466465b",
+    "body": "<p><span style=\"color:#000000\">Suponha que um host com endereço IP 10.1.1.10 deseja solicitar serviços Web de um servidor em 10.1.1.254. Qual das opções a seguir exibe o par de soquetes correto?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "1099:10 .1.1.10, 80:10 .1.1.254",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.1.1. 10:80, 10.1.1. 254:1099",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10.1.1. 10:1099, 10.1.1. 254:80",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "80:10 .1.1.10, 1099:10 .1.1.254",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6faaaba76ad14c7290c4b7bd5466465b",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O par de soquetes para um host com endereço IP 10.1.1.10 solicitando serviços Web de um servidor em 10.1.1.254 seria 10.1.1. 10:1099, 10.1.1. 254:80.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">O par de soquetes para um host com endereço IP 10.1.1.10 solicitando serviços Web de um servidor em 10.1.1.254 seria 10.1.1. 10:1099, 10.1.1. 254:80.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8ea6c81c5e0644e38a3a3945c1214124",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "913ec694-b935-4a50-8451-be94edf46a48",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Pares de sockets",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8ea6c81c5e0644e38a3a3945c1214124",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "6faaaba76ad14c7290c4b7bd5466465b",
+    "_activityParentId": "4ace216d-d4da-455d-a04a-574f6b4209a9",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "4702228e32f54767839015a58f18c340",
+    "body": "<p><span style=\"color:#000000\">Qual grupo de portas inclui números de porta para aplicativos FTP, HTTP e TFTP?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "portas dinâmicas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "portas privadas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "portas registradas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "portas bem conhecidas",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "4702228e32f54767839015a58f18c340",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Os números de porta de aplicativos FTP, HTTP e TFTP são definidos no grupo de números de porta bem conhecido.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">Os números de porta de aplicativos FTP, HTTP e TFTP são definidos no grupo de números de porta bem conhecido.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cd0e8c53b848401a9c834446e4ad4938",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "a64e7ca8-3e99-4d1f-b5ad-2d31219bfb2b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Grupos de portas",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cd0e8c53b848401a9c834446e4ad4938",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "4702228e32f54767839015a58f18c340",
+    "_activityParentId": "1118189d-39fe-4dee-93b3-d992a8337eef",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "93c3ca712ad0426eb8e972b5449553b3",
+    "body": "<p><span style=\"color:#000000\">Qual comando do Windows exibirá os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "ipconfig/all",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ping",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "netstat",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "traceroute",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "93c3ca712ad0426eb8e972b5449553b3",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O comando <b>netstat</b> do  windows exibe protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">O comando <b>netstat</b> do  windows exibe protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "21d7281001a14672bfec14418d42a828",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "a3dc7005-223b-4c19-b597-3aafc254445f",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Verificar soquetes",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "21d7281001a14672bfec14418d42a828",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "93c3ca712ad0426eb8e972b5449553b3",
+    "_activityParentId": "c8a2813c-22c3-46dd-b090-10f4094f6134",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "c0d28bb9327c4b9b8fb08dfaab34729c",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "c0d28bb9327c4b9b8fb08dfaab34729c",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "92c0cd1ecc4445dca4d0e4fd5371b462",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "168a532d-7eae-4204-bd58-b1d68b90f0b7",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "92c0cd1ecc4445dca4d0e4fd5371b462",
+    "displayTitle": "",
+    "_activityParentId": "0b11ab5c-c1de-46df-9c87-6dd0a4668cd0"
+  },
+  {
+    "_id": "4c0f919988514462bcdc8dd39c5c934e",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo da TCP e UDP</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo da TCP e UDP",
+    "_oldId": "4c0f919988514462bcdc8dd39c5c934e",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5a033ea52a454aa0be88c7232eaf0540",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1de08ec7-568c-4786-9aac-fdb1240cfd1c",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5a033ea52a454aa0be88c7232eaf0540",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "a999eac2-2529-4001-b01b-e2fac0f36f26",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ca11b965298440239e21dd9c2bee05bc",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo da TCP e UDP",
+    "_oldId": "ca11b965298440239e21dd9c2bee05bc",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c5c2fe7b7c0e4034af64e50f56c86975",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e15c3e20-e624-43e6-8ee8-43fe59e9738f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c5c2fe7b7c0e4034af64e50f56c86975",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e9c63475-13dc-4bcc-8363-c9bdc22a2f3d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "48b70bae5bd14894805c822b5bbf2678",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>O UDP é um sistema de entrega de melhor esforço que não requer confirmação de recebimento. O UDP é preferível para aplicações como a transmissão de áudio e vídeo ao vivo, e Voz sobre IP (VoIP). Confirmações retardariam a entrega e retransmissões são indesejáveis. Os pacotes seguem um caminho da origem até um destino. Alguns pacotes podem ser perdidos, mas isso geralmente não é percebido.</p><p>Os pacotes TCP seguem um caminho da origem até o destino. No entanto, cada um dos pacotes tem um número de sequência. O TCP divide uma mensagem em pequenos pedaços conhecidos como segmentos. Os segmentos são numerados em sequência e passados para o processo IP para montagem em pacotes. O TCP monitora o número de segmentos que foram enviados a um host específico de um aplicativo específico. Quando o remetente não recebe uma confirmação dentro de um certo período, ele supõe que os segmentos foram perdidos e transmite-os novamente. Somente a parte da mensagem perdida é reenviada, e não toda a mensagem.</p>",
+        "title": "TCP e UDP",
+        "_classes": ""
+      },
+      {
+        "body": "<p>Quando uma mensagem é entregue usando o TCP ou o UDP, os protocolos e os serviços são identificados por um número de porta. Uma porta é um identificador numérico dentro de cada segmento que é usado para rastrear conversas específicas entre um cliente e um servidor. Cada mensagem que um host envia contém uma porta origem e destino.</p><p>Quando uma mensagem é recebida por um servidor, é necessário que o servidor consiga determinar qual serviço está sendo solicitado pelo cliente. Os clientes são pré-configurados para usar uma porta de destino que foi registrada na Internet para cada serviço.</p><p>As portas são atribuídas e gerenciadas por uma organização conhecida como ICANN (Corporação da Internet para Atribuição de Nomes e Números). As portas foram divididas em três categorias e variam em número de 1 a 65.535.</p><ul><li><b>Portas bem conhecidas </b>– As portas de destino que estão associadas a aplicativos de rede comuns são identificadas como portas bem conhecidas. Elas estão no intervalo de 1 a 1.023.</li><li><b>Portas registradas – </b>As portas 1.024 a 49.151 podem ser usadas como portas de destino ou de origem. Elas podem ser usadas por empresas para registrar aplicativos específicos, como os de mensagem instantânea.</li><li><b>Portas privadas –</b> As portas de 49.152 a 65.535 são  geralmente utilizadas como portas de origem. Elas podem ser usadas por qualquer aplicativo.</li></ul><p>O número da porta de origem é gerado dinamicamente pelo dispositivo de envio para identificar uma conversação entre dois dispositivos. Este processo permite que várias conversações ocorram simultaneamente. É comum que um dispositivo envie várias solicitações de serviço HTTP para um servidor Web ao mesmo tempo. Cada conversa HTTP separada é rastreada com base em portas origem.</p><p>O cliente preenche um número de porta destino no segmento para informar o servidor destino qual serviço está sendo solicitado. Um servidor pode oferecer mais de um serviço simultaneamente como serviços Web na porta 80, ao mesmo tempo que oferece o estabelecimento de uma conexão FTP na porta 21.</p><p>Conexões TCP desconhecidas podem representar uma grande ameaça à segurança. Elas podem indicar que algo ou alguém está conectado ao host local. Às vezes é necessário conhecer quais conexões TCP ativas estão abertas e sendo executadas em um host de rede. O netstat é um utilitário de rede importante que pode ser usado para verificar essas conexões. O comando netstat é usado para listar os protocolos em uso, o endereço e os números de porta locais, o endereço e os números de porta externos, e o estado da conexão.</p>",
+        "title": "Números de porta",
+        "_classes": ""
+      }
+    ],
+    "_oldId": "48b70bae5bd14894805c822b5bbf2678",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "b97439bd28544382912817fcf08cc2d1",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "c4f6ba3a-29b6-4d00-b7ce-20cea227b120",
+    "instruction": "",
+    "_oldParentId": "b97439bd28544382912817fcf08cc2d1",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "afae204e-72db-4a8e-a5a7-431b10f15757",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "e2a0e9cf061e48219d443a8714c70ed6",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "e2a0e9cf061e48219d443a8714c70ed6",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/23168c56e6ea43c7981a077eb2ae26bc.png",
+      "small": "pt-BR/assets/23168c56e6ea43c7981a077eb2ae26bc.png",
+      "attribution": ""
+    },
+    "_parentId": "2e85045831b946dab2bf489c8e964ebf",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "07b2ef56-8537-4bf0-a15d-4740b7785610",
+    "instruction": "",
+    "_oldParentId": "2e85045831b946dab2bf489c8e964ebf",
+    "displayTitle": "",
+    "_activityParentId": "284014b2-0ef8-49ce-aa95-a42206f07238",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "e08426a1cf874d64868c930f3768db0e",
+    "body": "<p>Uma vez, pedi móveis de uma dessas lojas online. Foi enviado para mim em três caixas diferentes, ao longo de duas semanas Não estava preocupado com a falta de algo, pois recebi atualizações por e-mail que detalhavam a localização de cada caixa ao longo de sua rota desde a loja até minha casa. Esse exemplo é como o TCP. Durante todo o percurso, há verificações integradas para garantir que o que precisa ser entregue seja entregue e na ordem certa.</p><p>Ainda há uma  necessidade de UDP na rede. Eu não gostaria de transmitir um filme onde ele para por minutos a fio, esperando que a rede envie a próxima cena. Você consegue pensar em uma boa analogia para o UDP?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "e08426a1cf874d64868c930f3768db0e",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2e85045831b946dab2bf489c8e964ebf",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "e175c555-eb33-4f4d-b521-c8ab53d655d9",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2e85045831b946dab2bf489c8e964ebf",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "284014b2-0ef8-49ce-aa95-a42206f07238",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "74a131deab4e41cdbc30a5de05a2513d",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "74a131deab4e41cdbc30a5de05a2513d",
+    "_classes": "",
+    "_parentId": "5009db953d1542ef90b6ba63477ce9bd",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "ebc83b1b-8270-4d24-a736-589f1dfe3ae8",
+    "_isOptional": true,
+    "_oldParentId": "5009db953d1542ef90b6ba63477ce9bd",
+    "_activityParentId": "6ff9d9b6-fd2d-4d01-ab60-6d91de88abb1"
+  },
+  {
+    "_id": "cb6f8ed942524dcb95ab2bdd6d0154e9",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "cb6f8ed942524dcb95ab2bdd6d0154e9",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário sobre TCP e UDP",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "4d3ec20d4d654adaabe7ff264926269c",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2a89202d-2019-4b6b-b902-c1e8b37b4a02",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "4d3ec20d4d654adaabe7ff264926269c",
+    "displayTitle": "",
+    "_activityParentId": "968525d4-dfe9-4710-af76-0e3e8fbe677f",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d14706ebb65d4aa3a73fcda5a20f7fd1",
+    "body": "Quais protocolos operam na camada da aplicação do modelo TCP/IP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "IP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "TCP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "HTTP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "ICMP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d14706ebb65d4aa3a73fcda5a20f7fd1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os protocolos estão associados às seguintes camadas TCP/IP: <br /><br />HTTP> camada de aplicação<br /> TCP> camada de transporte<br /> IP e ICMP> camada de Internet.</p>",
+      "_incorrect": {
+        "final": "<p>Os protocolos estão associados às seguintes camadas TCP/IP: <br /><br />HTTP> camada de aplicação<br /> TCP> camada de transporte<br /> IP e ICMP> camada de Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "63fbe0b1651c4e9bb4b5b31c5fb8c76b",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8c910ff3-d1ec-4abc-84f3-d6df9c9e4594",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "63fbe0b1651c4e9bb4b5b31c5fb8c76b",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "202040",
+    "_activityParentId": "765761a8-10f9-48c1-a880-e04b5df331e2",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "881e2461b43b407c9cd6cf145a3367cb",
+    "body": "Qual é a característica do UTP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Ele estabelece sessões com um handshake de três vias.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele usa números de sequência para remontar segmentos.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele adiciona 20 bytes de sobrecarga aos dados da camada do aplicativo.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele oferece entrega não confiável de segmentos.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "881e2461b43b407c9cd6cf145a3367cb",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O UDP é um protocolo sem conexão que oferece  entrega não confiável de segmentos.</p>",
+      "_incorrect": {
+        "final": "<p>O UDP é um protocolo sem conexão que oferece  entrega não confiável de segmentos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bcda76c060414852ac34f37dbed4f771",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cb83eaa7-c7b3-4c3a-b90b-af1a45fd1a1d",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bcda76c060414852ac34f37dbed4f771",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206113",
+    "_activityParentId": "d40f5755-dd9d-4faf-82da-a4878a8cecfa",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "a58a6f86165844178bb772df1b12bdb7",
+    "body": "Quais tipos de aplicações são mais adequados para usar o UDP como protocolo da camada de transporte?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "aplicações que precisam de controle de fluxo de dados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "aplicações que exigem que os dados sejam remontados em um pedido específico",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "aplicações que exigem um atraso mínimo de transmissão",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "aplicações que exigem sessões stateful",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a58a6f86165844178bb772df1b12bdb7",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O UDP é um protocolo leve sem conexão, adequado para aplicações suscetíveis a atraso ou que não precisam dos recursos fornecidos pelo TCP (entrega garantida, controle de fluxo ou sequenciamento).</p>",
+      "_incorrect": {
+        "final": "<p>O UDP é um protocolo leve sem conexão, adequado para aplicações suscetíveis a atraso ou que não precisam dos recursos fornecidos pelo TCP (entrega garantida, controle de fluxo ou sequenciamento).</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8de01a6504b3411bac9c08be86ba8c60",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f3971dd2-97d2-4d6a-9fa3-8783e3b1cfd1",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8de01a6504b3411bac9c08be86ba8c60",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206118",
+    "_activityParentId": "fc86760f-865a-48ad-9aaa-2e55eeba5017",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9e5fb73d74664c428d489241704bb44e",
+    "body": "Um aluno está enviando arquivos de um telefone para um computador pela rede. Qual camada do modelo TCP / IP é responsável pela remontagem dessas mensagens quando elas são recebidas no computador?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Aplicação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Transporte",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Acesso à rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "9e5fb73d74664c428d489241704bb44e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A camada de transporte do modelo TCP / IP é responsável pelo seguinte:</p><ul><li>Fornecer mecanismos de confiabilidade para garantir que toda a mensagem seja recebida</li><li>Remontagem de uma mensagem à medida que é recebida</li><li>Identificação de quais aplicações de rede estão enviando e recebendo dados</li></ul>",
+      "_incorrect": {
+        "final": "<p>A camada de transporte do modelo TCP / IP é responsável pelo seguinte:</p><ul><li>Fornecer mecanismos de confiabilidade para garantir que toda a mensagem seja recebida</li><li>Remontagem de uma mensagem à medida que é recebida</li><li>Identificação de quais aplicações de rede estão enviando e recebendo dados</li></ul>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d79b5114e4da4061bdcd89207453896e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "50e894a9-a406-4ad2-9036-8a14b66cd08e",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d79b5114e4da4061bdcd89207453896e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "282826",
+    "_activityParentId": "4a16064e-b64d-4e3b-8b67-e1eb0b4500ee",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "94ef5a6d0ffa472c9fd985c6b5fa11a9",
+    "body": "Em que camada do modelo TCP/IP ocorre o TCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "transporte",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "aplicação",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "accesso à rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "94ef5a6d0ffa472c9fd985c6b5fa11a9",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>TCP é o Transmission Control Protocol e opera na camada de transporte do modelo TCP/IP. O TCP garante a transmissão confiável dos pacotes IP.</p>",
+      "_incorrect": {
+        "final": "<p>TCP é o Transmission Control Protocol e opera na camada de transporte do modelo TCP/IP. O TCP garante a transmissão confiável dos pacotes IP.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e542f287769841bf9935fa26db30bad9",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6b19da9e-2a4a-43f4-ae61-8ab9b7b787fb",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e542f287769841bf9935fa26db30bad9",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "285500",
+    "_activityParentId": "ce21688f-0462-4128-bc75-d28b354acddc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "244f35d518fc448f9c9b525bd5a14627",
+    "body": "Quais informações de cabeçalho de protocolo são usadas na camada de transporte para identificar um aplicativo de destino?<br />",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "número da porta",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Endereço IP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Número sequencial",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Endereço MAC",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "244f35d518fc448f9c9b525bd5a14627",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A camada de transporte TCP/IP usa números de porta para identificar aplicativos de destino. Cada aplicativo de rede (servidor ou cliente) tem um número de porta atribuído ao aplicativo.</p>",
+      "_incorrect": {
+        "final": "<p>A camada de transporte TCP/IP usa números de porta para identificar aplicativos de destino. Cada aplicativo de rede (servidor ou cliente) tem um número de porta atribuído ao aplicativo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cf09c142c997402298e38c25cbc3c314",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "914c1510-702c-4b1f-ae3c-1d2de82c8f75",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "cf09c142c997402298e38c25cbc3c314",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206078",
+    "_activityParentId": "d2b9295b-6afe-4998-bf72-f2cf0a4a81d5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "72f0fedaa52e4cd79c47dfeb85afb96f",
+    "body": "Que tipo de número de porta é atribuído pela IANA para serviços e aplicações usadas com frequência?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "portas bem conhecidas",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "portas registradas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "portas dinâmicas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "portas privadas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "72f0fedaa52e4cd79c47dfeb85afb96f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Portas bem conhecidas (0 a 1023) são reservadas para aplicações e serviços comuns. As portas registradas (1024 a 49151) são atribuídas aos processos e aplicativos do usuário. Portas dinâmicas, privadas ou efêmeras (49152 a 65535) são atribuídas a aplicativos cliente ao iniciar uma conexão.</p>",
+      "_incorrect": {
+        "final": "<p>Portas bem conhecidas (0 a 1023) são reservadas para aplicações e serviços comuns. As portas registradas (1024 a 49151) são atribuídas aos processos e aplicativos do usuário. Portas dinâmicas, privadas ou efêmeras (49152 a 65535) são atribuídas a aplicativos cliente ao iniciar uma conexão.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "75addace2bd845088906b7cbd6af3958",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "753e2cf8-4300-43e2-85b7-c2928f5edb4c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "75addace2bd845088906b7cbd6af3958",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206083",
+    "_activityParentId": "f59692dc-0ad2-456e-ab3d-5a1f7bb0bbe3",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "361712b1bfb6489c9eb6ef63a5ee4c41",
+    "body": "Qual é o propósito de usar um número de porta de origem em uma comunicação TCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Para notificar o dispositivo remoto de que a conversa acabou",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Para montar os segmentos que chegaram fora de ordem",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Para manter o controle de várias conversas entre dispositivos",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Para pesquisar um segmento não recebido",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "361712b1bfb6489c9eb6ef63a5ee4c41",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O número da porta de origem em um cabeçalho de segmento é usado para manter o controle de várias conversas entre dispositivos. Também usado para manter uma entrada aberta para a resposta do servidor. As opções incorretas estão mais relacionadas ao controle de fluxo e entrega garantida.</p>",
+      "_incorrect": {
+        "final": "<p>O número da porta de origem em um cabeçalho de segmento é usado para manter o controle de várias conversas entre dispositivos. Também usado para manter uma entrada aberta para a resposta do servidor. As opções incorretas estão mais relacionadas ao controle de fluxo e entrega garantida.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c233900a97454c18991cde13f2516d5c",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "843e9dde-7b0a-4514-81e7-0f7b539816ff",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c233900a97454c18991cde13f2516d5c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208958",
+    "_activityParentId": "4fd3a4ae-a9e5-4263-9c2c-feca6842acdc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6f6377ab029f415d82080186654f8da1",
+    "body": "O que é uma vantagem do UDP sobre TCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "A comunicação UDP requer menos sobrecarga.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A comunicação UDP é mais confiável.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O UDP reordena os segmentos recebidos fora de ordem.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O UDP confirma os dados recebidos.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6f6377ab029f415d82080186654f8da1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O TCP é um protocolo mais confiável e usa números de sequência para realinhar pacotes que chegam fora de ordem ao destino. O UDP e o TCP usam números de porta para identificar as aplicações. O UDP tem menos sobrecarga do que o TCP porque o cabeçalho do UDP tem menos bytes e o UDP não confirma o recebimento de pacotes.</p>",
+      "_incorrect": {
+        "final": "<p>O TCP é um protocolo mais confiável e usa números de sequência para realinhar pacotes que chegam fora de ordem ao destino. O UDP e o TCP usam números de porta para identificar as aplicações. O UDP tem menos sobrecarga do que o TCP porque o cabeçalho do UDP tem menos bytes e o UDP não confirma o recebimento de pacotes.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "848063f7ad8d449ca6ca63f6d3d67f48",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b7e30ccb-6fd0-45a1-8741-4a58bc3fd4fe",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "848063f7ad8d449ca6ca63f6d3d67f48",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206081",
+    "_activityParentId": "47409608-c67e-4046-b8fe-edc210af1466",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6c9a232d5c864daba3456590e206b034",
+    "body": "Quando o UDP  é preferível ao TCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "quando um cliente envia um segmento para um servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "quando todos os dados devem ser totalmente recebidos antes de qualquer parte ser considerada útil",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "quando uma aplicação pode tolerar a perda de dados durante a transmissão",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "quando  segmentos precisam chegar em uma sequência específica para serem processadas corretamente.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6c9a232d5c864daba3456590e206b034",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O UDP pode ser usado quando uma aplicação pode tolerar a perda de dados. O UDP é o protocolo preferido para aplicações que oferecem voz ou vídeo que não toleram atrasos.</p>",
+      "_incorrect": {
+        "final": "<p>O UDP pode ser usado quando uma aplicação pode tolerar a perda de dados. O UDP é o protocolo preferido para aplicações que oferecem voz ou vídeo que não toleram atrasos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "869be28be2d14744ab813aae8c0ad437",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6d29a37f-6da6-4715-bc9a-e10e70ce5437",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "869be28be2d14744ab813aae8c0ad437",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208927",
+    "_activityParentId": "a5b5686b-86aa-4bb8-9df0-64bbbb7ee13b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "dfbb7a8d31344007a79bc11f2c855d65",
+    "body": "Qual afirmação descreve corretamente a transmissão de dados na camada de transporte?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "A retransmissão de pacotes perdidos é fornecida pelo TCP e pelo UDP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "A segmentação é fornecida pelo campo de tamanho da janela quando o protocolo TCP é usado.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um único datagrama pode incluir um cabeçalho TCP e UDP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Tanto o UDP quanto o TCP usam números de porta.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A segmentação é fornecida pelos números de sequência quando o UDP é usado.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "dfbb7a8d31344007a79bc11f2c855d65",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A segmentação é tratada na Camada 4 pelos números de sequência TCP. O UDP não tem números de sequência no cabeçalho, deixando assim que o aplicativo manipule a reordenação, se necessário. Somente o TCP fornece dados confiáveis e retransmite os dados. Cada segmento tem um cabeçalho TCP ou UDP; não pode conter os dois.</p>",
+      "_incorrect": {
+        "final": "<p>A segmentação é tratada na Camada 4 pelos números de sequência TCP. O UDP não tem números de sequência no cabeçalho, deixando assim que o aplicativo manipule a reordenação, se necessário. Somente o TCP fornece dados confiáveis e retransmite os dados. Cada segmento tem um cabeçalho TCP ou UDP; não pode conter os dois.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2259550a23a842dc85f2112f974d2e92",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e4edbf1a-2335-43f3-b421-2f68d6bd614c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2259550a23a842dc85f2112f974d2e92",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "206133",
+    "_activityParentId": "db48825f-55e2-4d06-9f0b-a92d50e08441",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bc74d948cf4b46de8fd5bebee1373e96",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste!</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "bc74d948cf4b46de8fd5bebee1373e96",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d80cead9782647568b5b5df535c172e8",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "239227ff-ad37-4a02-88e4-c70b9f5dea33",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d80cead9782647568b5b5df535c172e8",
+    "displayTitle": "",
+    "_assessmentId": "9cac1c572d0d4408b67fc8f0db6b52f3",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "ed6dbb1a-1a7d-4817-b18a-b3f97a608b3e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "fdc9c656b8a04f3e91e414ccbf268484",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "fdc9c656b8a04f3e91e414ccbf268484",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "5b981b9cbfff41f296599aa6f79bee95",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "64c8f1ce-9aa1-4552-9af1-892523b8a16f",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "5b981b9cbfff41f296599aa6f79bee95",
+    "displayTitle": "",
+    "_activityParentId": "f9d96f5c-46f5-4a31-9ac7-75eb7210753c"
+  }
+]

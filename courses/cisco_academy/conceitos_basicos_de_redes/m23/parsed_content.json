@@ -1,0 +1,324 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Bob investigou a rede atual e garantiu a Marcy e Vincent que eles podem usá-la até que ele faça as atualizações. Bob convenceu Marcy e Vincent a criar uma nova rede hierárquica que usará serviços em nuvem. Com as pesquisas de Bob e as explicações sobre redes, eles têm certeza de que essa é a melhor solução para eles. Eles realmente apreciam o conhecimento de Bob!\nVocê pode ter um longo caminho a percorrer antes de ter todo o conhecimento e a habilidade de Bob, mas acho que você está no caminho certo! Este módulo vai se aprofundar no estrutura do endereço IPv4. Preparado? Continue lendo."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Estrutura do endereço IPv4",
+      "content": "{{_moduleNumber}}.1 Estrutura do endereço IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".1 Estrutura do endereço IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Endereço IPv4",
+      "content": "Um endereço IPv4 é um endereço hierárquico de 32-bits, composto por uma parte da rede e uma parte do host. Ao determinar a parte da rede versus a parte do host, você deve observar o fluxo de 32-bits, conforme mostrado na figura.\nEndereço IPv4",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Porções de Rede e Host",
+      "content": "Os bits na parte de rede do endereço devem ser iguais em todos os dispositivos que residem na mesma rede. Os bits na parte de host do endereço devem ser exclusivos para identificar um host específico dentro de uma rede. Se dois hosts tiverem o mesmo padrão de bits na parte de rede especificada do fluxo de 32 bits, esses dois hosts residirão na mesma rede.\nMas como os hosts sabem qual parte dos 32 bits identifica a rede e qual identifica o host? Esse é o papel da máscara de sub-rede."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 A Máscara de Sub-Rede",
+      "content": "Conforme mostrado na figura, atribuir um endereço IPv4 a um host requer o seguinte:\nEndereço IPv4 - este é o endereço IPv4 exclusivo do host.\nMáscara de sub-rede – É usada para determinar a parte de rede de um endereço IPv4.\nConfiguração IPv4 em um computador Windows",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Máscara de sub-rede",
+      "content": "Observação: Um endereço IPv4 de gateway padrão é necessário para acessar redes remotas e os endereços IPv4 do servidor DNS são necessários para converter nomes de domínio em endereços IPv4.\nA máscara de sub-rede IPv4 é usada para diferenciar a parte da rede da parte do host de um endereço IPv4. Quando um endereço IPv4 é atribuído a um dispositivo, a máscara de sub-rede é usada para determinar o endereço de rede do dispositivo. O endereço de rede representa todos os dispositivos na mesma rede.\nA próxima figura mostra uma máscara de sub-rede de 32 bits em formatos decimais e binários com pontos.\nMáscara de Sub-Rede",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Associando um endereço IPv4 à sua máscara de sub-rede",
+      "content": "Observe como a máscara de sub-rede é uma sequência consecutiva de 1 bits, seguida por uma sequência consecutiva de 0 bits.\nPara identificar as partes da rede e do host de um endereço IPv4, a máscara de sub-rede é comparada com o endereço IPv4 bit por bit, da esquerda para a direita, conforme mostrado na figura.\nAssociando um endereço IPv4 à sua máscara de sub-rede",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.2 A Máscara de Sub-Rede",
+      "content": "Observe que, na verdade, a máscara de sub-rede não contém a parte da rede ou host de um endereço IPv4, apenas informa ao computador onde procurar a parte do endereço IPv4 que é a parte da rede e qual parte é a parte do host.\nO processo real usado para identificar a parte da rede e a parte de host é chamado de AND."
+    },
+    {
+      "type": "text",
+      "title": ".1.3 O Comprimento do Prefixo",
+      "content": "Observação: Um endereço de rede também é conhecido como prefixo ou prefixo de rede. Portanto, o comprimento do prefixo é o número de 1 bits na máscara de sub-rede.\nAo representar um endereço IPv4 usando um comprimento de prefixo, o endereço IPv4 é gravado seguido do comprimento do prefixo sem espaços. Por exemplo, 192.168.10.10 255.255.255.0 seria gravado como 192.168.10.10/24. O uso de vários tipos de comprimentos do prefixo será discutido mais tarde. Por enquanto, o foco estará no prefixo /24 (ou seja, 255.255.255.0)"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Determinando a rede: \"AND\" lógico",
+      "content": "Um AND lógico é uma das três operações booleanas usadas na lógica booleana ou digital. As outras duas são OR e NOT. A operação AND é usada para determinar o endereço de rede.\nAND lógico é a comparação de dois bits que produz os resultados mostrados abaixo. Observe como somente 1 AND 1 produz um 1. Qualquer outra combinação resulta em um 0.\n1 E 1 = 1\n0 E 1 = 0\n1 E 0 = 0\n0 E 0 = 0\nObservação : Na lógica digital, 1 representa Verdadeiro e 0 representa Falso. Ao usar uma operação AND, ambos os valores de entrada devem ser Verdadeiro (1) para que o resultado seja Verdadeiro (1).\nPara identificar o endereço de rede de um host IPv4, é feito um AND lógico, bit a bit, entre o endereço IPv4 e a máscara de sub-rede. Quando se usa AND entre o endereço e a máscara de sub-rede, o resultado é o endereço de rede.\nPara ilustrar como AND é usado para descobrir um endereço de rede, considere um host com endereço IPv4 192.168.10.10 e máscara de sub-rede 255.255.255.0, conforme mostrado na figura:\nEndereço de host IPv4 (192.168.10.10) - O endereço IPv4 do host em formato decimal com pontos e binário.\nMáscara de sub-rede (255.255.255.0) - A máscara de sub-rede do host nos formatos decimal com pontos e binário.\nEndereço de rede (192.168.10.0) - A operação lógica AND entre o endereço IPv4 e a máscara de sub-rede resulta em um endereço de rede IPv4 mostrado nos formatos decimal com pontos e binário.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1.4 Determinando a rede: \"AND\" lógico",
+      "content": "Usando a primeira sequência de bits como exemplo, observe que a operação AND é executada no 1 bit do endereço do host com o 1 bit da máscara de sub-rede. Isso resulta em um bit 1 para o endereço de rede. 1 AND 1 = 1.\nA operação AND entre um endereço de host IPv4 e uma máscara de sub-rede resulta no endereço de rede IPv4 para este host. Neste exemplo, a operação AND entre o endereço de host 192.168.10.10 e a máscara de sub-rede 255.255.255.0 (/24) resulta no endereço de rede IPv4 192.168.10.0/24. Esta é uma operação IPv4 importante, pois informa ao host a qual rede pertence."
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo do Estrutura do endereço IPv4",
+      "content": "{{_moduleNumber}}.2 Resumo do Estrutura do endereço IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo do endereçamento IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 O que eu aprendi neste módulo?",
+      "content": "Estrutura de endereço IPv4\nUm endereço IPv4 é um endereço hierárquico de 32 bits composto por uma parte de rede e uma parte de host. Ao determinar a parte da rede versus a parte do host, você deve observar o fluxo de 32 bits. Os bits na parte de rede do endereço devem ser iguais em todos os dispositivos que residem na mesma rede. Os bits na parte de host do endereço devem ser exclusivos para identificar um host específico dentro de uma rede. Se dois hosts tiverem o mesmo padrão de bits na parte de rede especificada do fluxo de 32 bits, esses dois hosts residirão na mesma rede.\nA máscara de sub-rede IPv4 é usada para diferenciar a parte da rede da parte do host de um endereço IPv4. Quando um endereço IPv4 é atribuído a um dispositivo, a máscara de sub-rede é usada para determinar o endereço de rede do dispositivo. O endereço de rede representa todos os dispositivos na mesma rede.\nUm método alternativo de identificar uma máscara de sub-rede, um método chamado comprimento do prefixo. O comprimento do prefixo é o número de bits definido como 1 na máscara de sub-rede. Está escrito em \"notação de barra\", que é anotada por uma barra (/) seguida pelo número de bits definido como 1. Por exemplo, 192.168.10.10 255.255.255.0 seria gravado como 192.168.10.10/24.\nA operação AND é usada para determinar o endereço de rede. O AND lógico é a comparação de dois bits. Observe como somente 1 AND 1 produz um 1. Qualquer outra combinação resulta em um 0.\n1 E 1 = 1\n0 E 1 = 0\n1 E 0 = 0\n0 E 0 = 0\nPara identificar o endereço de rede de um host IPv4, é feito um AND lógico, bit a bit, entre o endereço IPv4 e a máscara de sub-rede. Quando se usa AND entre o endereço e a máscara de sub-rede, o resultado é o endereço de rede."
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Webster - Perguntas para reflexão",
+      "content": "Antes de estudar este módulo, eu estava me sentindo como Marcy e Vincent. Eu não tinha uma boa noção de como os números no endereço IPv4 eram importantes. Você conhecia o endereço hierárquico de 32 bits que é composto por uma porção de rede e uma porção de host? Você consegue explorar isso em sua própria rede? E quem sabia sobre ANDing e a máscara de sub-rede?\nEstou me sentindo um pouco mais como Bob depois deste módulo e espero que você também esteja."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Qual é o endereço de rede do Host-A?",
+      "options": [
+        "10.0.0.0",
+        "10.5.0.0",
+        "10.5.4.0",
+        "10.5.4.100"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO endereço de rede para 10.5.4.100 com uma máscara de sub-rede de 255.255.255.0 é 10.5.4.0.",
+      "raw_id": "cd86965727b943ecb59c1b074251d2ea"
+    },
+    {
+      "question": "O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Qual é o endereço de rede do Host-A?",
+      "options": [
+        "172.0.0.0",
+        "172.16.0.0",
+        "172.16.4.0",
+        "172.16.4.100"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO endereço de rede para 172.16.4.100 com uma máscara de sub-rede de 255.255.0.0 é 172.16.0.0.",
+      "raw_id": "1b8bbdb7fa464e7a8277327ce40f7fab"
+    },
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 10.5.4.100 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "10.5.4.1",
+        "10.5.0.1",
+        "10.5.4.99",
+        "10.0.0.98",
+        "10.5.100.4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO Host A está na rede 10.5.4.0. Portanto, os dispositivos com os endereços IPv4 10.5.4.1 e 10.5.4.99 estão na mesma rede.",
+      "raw_id": "d1fe9dc3d1c1442bb773b77f21cba9a7"
+    },
+    {
+      "question": "O Host-A tem endereço IPv4 e  máscara de sub-rede 172.16.4.100 255.255.0.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "172.16.4.99",
+        "172.16.0.1",
+        "172.17.4.99",
+        "172.17.4.1",
+        "172.18.4.1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO host A está na rede 172.16.0.0. Portanto, os dispositivos com os endereços IPv4 172.16.4.99 e 172.16.0.1 estão na mesma rede.",
+      "raw_id": "97d77a3fea834eca8a66d177641c7ae4"
+    },
+    {
+      "question": "O Host-A tem o endereço IPv4 e a máscara de sub-rede 192.168.1.50 255.255.255.0. Quais dos seguintes endereços IPv4 estariam na mesma rede que o Host-A? (Escolha todas que se aplicam)",
+      "options": [
+        "192.168.0.1",
+        "192.168.0.100",
+        "192.168.1.1",
+        "192.168.1.100",
+        "192.168.2.1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO Host A está na rede 192.168.1.0. Portanto, os dispositivos com os endereços IPv4 192.168.1.1 e 192.168.1.100 estão na mesma rede.",
+      "raw_id": "7e9dbce7444d4546a357aa918317a4fe"
+    },
+    {
+      "question": "Qual afirmação descreve o endereçamento IPv4?",
+      "options": [
+        "Os roteadores usam o endereço IP completo de 32 bits para determinar a localização de cada host individual.",
+        "A parte de rede de um endereço IP de destino é obtida executando uma operação AND entre um endereço IP do host e uma máscara de sub-rede.",
+        "Um endereço IPv4 contém duas partes: uma parte de rede e uma parte de sub-rede.",
+        "Dois hosts com a mesma máscara de sub-rede estão na mesma rede."
+      ],
+      "correctIndex": 1,
+      "explanation": "Um endereço IPv4 consiste em duas partes: a parte da rede e a parte do host. Os roteadores só precisam saber a porção de rede de cada endereço IP para encaminhar o pacote ao seu destino. Quando um roteador precisa identificar a parte da rede de um endereço IPv4, uma operação AND é executada entre o endereço IP e a máscara de sub-rede. A máscara de sub-rede identifica a parte de rede do endereço IP do host, não o próprio endereço IP da rede, e é por isso que dois hosts com a mesma máscara de sub-rede não estão necessariamente na mesma rede.",
+      "raw_id": "f66389cc44e84cceb064c03fa226bc0b"
+    },
+    {
+      "question": "Qual declaração descreve uma finalidade da configuração da máscara de sub-rede para um host?",
+      "options": [
+        "É usado para descrever o tipo de sub-rede.",
+        "É usado para identificar o gateway padrão.",
+        "É usado para determinar a qual rede o host está conectado.",
+        "É usado para determinar o número máximo de bits em um pacote que pode ser colocado em uma rede específica."
+      ],
+      "correctIndex": 2,
+      "explanation": "Um endereço IPv4 contém duas partes. A porção de rede define a rede (ou uma sub-rede) onde o host está localizado e a porção de host identifica o endereço do host na rede. A máscara de sub-rede é usada para definir a porção de rede do endereçamento IPv4 através do AND lógico do endereço IP e da máscara de sub-rede.",
+      "raw_id": "78971f7a194a4ac495ceb9a666e1e68a"
+    },
+    {
+      "question": "Quantos octetos existem em um endereço  IPv4?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cada octeto comporta 8 bits e um endereço IPv4 contém 32 bits. Portanto, um endereço IPv4 contém quatro octetos.",
+      "raw_id": "3b5a02a0692643a8b2dae7baef59698d"
+    },
+    {
+      "question": "Qual faixa completa de valores decimais válida em um octeto de um endereço IPv4?",
+      "options": [
+        "0 a 31",
+        "1 a 64",
+        "0 a 128",
+        "0 a 255",
+        "1 a 256"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um octeto pode conter 8 bits. Cada bit pode ser 1 ou 0 porque utiliza o sistema binário. Para determinar o número de valores que podem ser representados por um número específico de bits, use a fórmula 2x onde o x representa um número específico de bits. Para 8 bits, 28 = 256. Os números de 0 a 255 são os valores válidos. Outra maneira de analisar é que o menor valor seria 8 0s ou 00000000 (0 decimal). O valor mais alto é 8 1s ou 11111111 (decimal 255).",
+      "raw_id": "edc4b87ae5ca438fab135e2063d65e3f"
+    },
+    {
+      "question": "Para qual finalidade os  endereços IPv4 são utilizados?",
+      "options": [
+        "Um endereço IPv4 é usado para identificar exclusivamente um dispositivo em uma rede IP.",
+        "Um endereço IPv4 é gravado na placa de rede para identificar exclusivamente um dispositivo.",
+        "Um endereço IPv4 é usado para identificar exclusivamente a aplicação que solicitou as informações de um dispositivo remoto.",
+        "Um endereço IPv4 é usado para identificar o número de redes IP disponíveis."
+      ],
+      "correctIndex": 0,
+      "explanation": "Um endereço MAC é gravado em uma NIC para identificar exclusivamente um dispositivo. Um número de porta é usado para identificar exclusivamente a aplicação que solicitou informações. A máscara de sub-rede identifica quantos hosts podem estar em uma rede e o número da rede. Não há realmente nenhum parâmetro que identifique o número de redes IP livres.",
+      "raw_id": "348bfcdb37a54aebafabc27a4941645a"
+    },
+    {
+      "question": "Qual é a notação de comprimento do prefixo para a máscara de sub-rede 255.255.255.224?",
+      "options": [
+        "/25",
+        "/26",
+        "/27",
+        "/28"
+      ],
+      "correctIndex": 2,
+      "explanation": "O formato binário para 255.255.255.224 é 111111111111.1111111111.1111.11100000. O comprimento do prefixo é o número de 1s consecutivos na máscara de sub-rede. Portanto, o comprimento do prefixo é /27.",
+      "raw_id": "f1720787766942b98ecfec26146b855e"
+    },
+    {
+      "question": "Quais duas partes são componentes de um endereço IPv4? (Escolha duas.)",
+      "options": [
+        "parte de sub-rede",
+        "parte da rede",
+        "parte lógica",
+        "parte de host",
+        "parte física",
+        "parte de broadcast"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um endereço IPv4 é dividido em duas partes: uma parte da rede - para identificar a rede específica na qual um host reside e uma parte do host - para identificar hosts específicos em uma rede. Uma máscara de sub-rede é usada para identificar o comprimento de cada porção.",
+      "raw_id": "b632780c55e6425192989a9113211287"
+    },
+    {
+      "question": "O que é obtido ao ANDing do endereço 192.168.65.3/18 com sua máscara de sub-rede?",
+      "options": [
+        "192.168.0.0",
+        "192.168.16.0",
+        "192.168.32.0",
+        "192.168.64.0"
+      ],
+      "correctIndex": 3,
+      "explanation": "O valor do endereço IP 192.168.65.3 em binário é 11000000.10101000.01001110.00000011. O valor da máscara de sub-rede em binário é 11111111.11111111.11000000.00000000. Ao efetuar o ANDing entre os dois, o resultado é 11000000.10101000.01000000.00000000, que por sua vez, converte em 192.168.64.0.",
+      "raw_id": "bbb0802fd74e432089d1a8754f86c219"
+    },
+    {
+      "question": "O que os dispositivos na mesma sub-rede IPv4 têm em comum?",
+      "options": [
+        "Todos eles usam o mesmo gateway padrão.",
+        "Todos eles têm uma máscara de sub-rede de / 8, / 16 ou / 24.",
+        "Todos eles têm o mesmo último octeto em seus endereços IPv4.",
+        "Todos eles têm o mesmo número nos três primeiros octetos de seus endereços IPv4."
+      ],
+      "correctIndex": 0,
+      "explanation": "Os dispositivos na mesma sub-rede compartilharão o mesmo número de rede, máscara de sub-rede e gateway padrão. O gateway padrão é o endereço IPv4 do dispositivo de Camada 3 que permite que os dispositivos na mesma sub-rede se comuniquem com outras redes.",
+      "raw_id": "3fb82ad808054c23b743ad60f4145c25"
+    },
+    {
+      "question": "Quantos endereços exclusivos estão disponíveis para atribuição a hosts na rede de 10.100.16.0 com máscara de sub-rede 255.255.252.0?",
+      "options": [
+        "254",
+        "510",
+        "1022",
+        "4094"
+      ],
+      "correctIndex": 2,
+      "explanation": "Para calcular quantos endereços exclusivos estão disponíveis com uma determinada rede e máscara de sub-rede, use a seguinte fórmula:\n2^n - 2 = número de endereços\nem que n = número de bits de ordem inferior representando bits de host.\n2 ^ 10 - 2 = 1022",
+      "raw_id": "95cd4212d11f4f7bbaac04d790afcb8d"
+    },
+    {
+      "question": "Qual é um endereço de gateway padrão válido para um host configurado com o endereço IP 10.25.1.110 e uma máscara de sub-rede de 255.255.255.192?",
+      "options": [
+        "10.25.1.65",
+        "10.25.1.1",
+        "10.0.0.1",
+        "10.25.1.127"
+      ],
+      "correctIndex": 0,
+      "explanation": "Para ser válido, o endereço de gateway padrão deve estar na mesma sub-rede que o host. Um host com um endereço IP 10.25.1.110 e uma máscara de sub-rede de 255.255.255.192 é um membro da sub-rede 10.25.1.64. Essa sub-rede tem um intervalo de endereço do host utilizável de 10.25.1.65 a 10.25.1.126. Qualquer endereço dentro desse intervalo, com exceção do endereço já configurado no host e o endereço de broadcast da sub-rede, é válido para um gateway padrão.",
+      "raw_id": "c8d468f6876c449b8db8928af0d76c8a"
+    },
+    {
+      "question": "Quando o endereçamento IPv4 é configurado manualmente em um servidor web, que propriedade da configuração IPv4 identifica as partes de host e de rede de um endereço IPv4?",
+      "options": [
+        "endereço do servidor DNS",
+        "máscara de sub-rede",
+        "gateway padrão",
+        "endereço do servidor DHCP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vários componentes precisam ser especificados durante a configuração IPv4 em um dispositivo final:\nEndereço IPv4 - identifica exclusivamente um dispositivo final na rede\nMáscara de sub-rede - determina a parte de rede e de host de um endereço IPv4\nGateway padrão - o endereço IP da interface do roteador usado para comunicação com hosts em outra rede\nEndereço do servidor DNS - o endereço IP do servidor Domain Name System (DNS)\nO endereço do servidor DHCP (se o DHCP for usado) não é configurado manualmente nos dispositivos finais. Ele será fornecido por um servidor DHCP quando um dispositivo final requisitar um endereço IP.",
+      "raw_id": "8dd54721ff134e56b420c150a3dd07af"
+    }
+  ],
+  "images": []
+}

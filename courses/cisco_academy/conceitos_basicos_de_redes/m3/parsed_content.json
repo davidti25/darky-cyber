@@ -1,0 +1,275 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishari acabou de terminar seu turno de 10 horas no hospital. Enquanto ela caminha até o carro, o celular toca. É o filho dela, Shridhar, ligando para lembrá-la de pegar o jantar que ele pediu. Enquanto eles estão verificando seus planos, Kishari entra em seu carro e dá partida no motor. Sua conversa é transferida do celular para os alto-falantes no carro. Ela confirma que vai pegar a comida e que vai vê-lo em uma hora. Antes de ir embora, ela faz uma pesquisa na Internet pelo restaurante e clica no link de Rotas. Ela ouve as instruções que chegam pelos alto-falantes. “O destino está à esquerda.” Ela compra a comida e vai para casa. Enquanto Kishari e Sridhar desfrutam do jantar, Kishari diz a Sridhar como ela está começando a pensar em toda essa tecnologia em casa e no trabalho. Ela sabe como usá-la, mas não entende como funciona. Ela dá o exemplo do telefone celular. Hoje ela atendeu a chamadas, mensagens de texto, fez uma pesquisa na Internet e usou-a para obter instruções de rota. Como isso tudo funciona? Como o telefone se conecta a tudo isso? Shridhar está familiarizado com os diferentes tipos de redes usadas por dispositivos móveis. Shridhar explica a rede móvel 4G / 5G, GPS, Bluetooth, NFC e Wi-Fi.\nSe você não tem um amigo ou um membro da família como o Shridhar para explicar isso, não se preocupe! Neste módulo, você aprenderá sobre as várias formas de comunicação dos dispositivos móveis. Pronto para saber mais?"
+    },
+    {
+      "type": "text",
+      "title": ".1 Redes sem fio",
+      "content": "{{_moduleNumber}}.1 Redes Wireless"
+    },
+    {
+      "type": "text",
+      "title": ".1 Redes sem fio",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".1.3 Outras redes sem fio",
+      "content": "**GPS:** Sistema de Posicionamento Global\nGPS (Sistema de posicionamento global) usa satélites para transmitir sinais no mundo todo. O smartphone pode receber esses sinais e calcular a localização do telefone com uma precisão de 10 metros.\n\n**Wi-Fi:** Wi-Fi\nWi-Fi – Transmissores e receptores Wi-Fi localizados no smartphone permitem que o telefone se conecte a redes locais e à Internet. Para receber e enviar dados em uma rede Wi-Fi, o telefone deve estar dentro do alcance do sinal de um access point de rede sem fio. As redes Wi-Fi normalmente pertencem a proprietários particulares, mas costumam oferecer hotspots de acesso público ou para convidado. Um hotspot é uma área onde os sinais de Wi-Fi estão disponíveis. As conexões de rede Wi-Fi no telefone são semelhantes às conexões de rede em um notebook.\n\n**Bluetooth:** Bluetooth\nBluetooth – Tecnologia sem fio de curto alcance e com baixo consumo de energia que substitui a conectividade com fio para acessórios como alto-falantes, microfones e fones de ouvido. O Bluetooth também pode ser usado para conectar um smartwatch a um smartphone. Como a tecnologia Bluetooth serve para transmitir tanto dados como voz, ela pode ser usada para criar pequenas redes locais. Bluetooth é uma tecnologia sem fio que permite que os dispositivos se comuniquem em distâncias pequenas. É possível conectar vários dispositivos ao mesmo tempo com Bluetooth.\n\n**NFC:** Comunicação de Campo Próximo (Near Field Communications - NFC)\nNFC (Comunicação de Campo Próximo) é uma tecnologia de conexão sem fio que permite que dados sejam trocados entre dispositivos que estão muito próximos um do outro. Por exemplo, NFC pode ser usado para conectar um smartphone a um sistema de pagamento. O NFC usa campos eletromagnéticos para transmitir dados."
+    },
+    {
+      "type": "text",
+      "title": ".2 Conectividade de dispositivo móvel",
+      "content": "{{_moduleNumber}}.2 Conectividade de dispositivo móvel"
+    },
+    {
+      "type": "text",
+      "title": ".2 Conectividade de dispositivos móveis",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Dispositivos Móveis e Wi-Fi",
+      "content": "Com os dispositivos móveis, temos liberdade para trabalhar, aprender, jogar e nos comunicar onde quisermos. As pessoas que usam dispositivos móveis não precisam estar vinculadas a um local físico para enviar e receber comunicações de voz, vídeo e dados. Além disso, instalações com redes sem fio, como cibercafés, estão disponíveis em muitos países. Os campi de universidades usam redes sem fio para possibilitar que os alunos se inscrevam em aulas, assistam a palestras e enviem tarefas em áreas em que as conexões físicas à rede estão indisponíveis. Com os dispositivos móveis se tornando cada vez mais poderosos, muitas tarefas que precisavam ser realizadas em computadores grandes conectados a redes físicas hoje podem ser realizadas usando dispositivos móveis em redes sem fio.\nQuase todos os dispositivos móveis podem se conectar a redes Wi-Fi. É aconselhável conectar-se a redes Wi-Fi quando possível porque os dados usados por Wi-Fi não contam no plano de dados do celular. Além disso, como os sinais de Wi-Fi usam menos energia que os sinais celulares, conectar-se a redes Wi-Fi economiza energia da bateria. Como outros dispositivos compatíveis com Wi-Fi, é importante usar a segurança ao se conectar a redes Wi-Fi. É preciso tomar essas precauções para proteger as comunicações Wi-Fi em dispositivos móveis:\nNunca envie informações de login ou senha usando um texto não criptografado (texto simples).\nUse uma conexão VPN quando possível se você estiver enviando dados confidenciais.\nAtive a segurança em redes domésticas.\nUse criptografia WPA2 ou superior para segurança."
+    },
+    {
+      "type": "accordion",
+      "title": ".2.2 Configurações de Wi-Fi",
+      "content": "**Chave Wi-Fi para Android:** \n\n**IOS Wi-Fi Switch:** "
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Para conectar um dispositivo Android ou iOS quando estiver dentro do alcance de cobertura de uma rede Wi-Fi, ative o Wi-Fi e o dispositivo pesquisará todas as redes Wi-Fi disponíveis e as exibirá em uma lista. Toque em uma rede Wi-Fi na lista para conectar. Insira uma senha, se necessário.\nQuando um dispositivo móvel está fora do alcance da rede Wi-Fi, ele tenta se conectar a outra rede Wi-Fi. Se nenhuma rede Wi-Fi estiver ao alcance, o dispositivo móvel se conectará à rede de dados móvel. Quando o Wi-Fi estiver ativado, ele se conectará automaticamente a qualquer rede Wi-Fi à qual ele tenha se conectado anteriormente. Se a rede for nova, o dispositivo móvel exibirá uma lista de redes disponíveis que podem ser usadas ou perguntará se deve se conectar a ela."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Configurar a Conectividade Wi-Fi Móvel",
+      "content": "Se o seu dispositivo móvel não solicitar a conexão com uma rede Wi-Fi, talvez o broadcast de SSID da rede esteja desativado ou o dispositivo não esteja definido para conectar-se automaticamente. Defina manualmente as configurações de Wi-Fi no dispositivo móvel. Lembre-se de que os SSIDs e as senhas devem ser digitados exatamente como foram inseridos na configuração do roteador sem fio. Caso contrário, o dispositivo não será conectado corretamente, como mostrado na figura. SSID é o nome atribuído a uma rede sem fio. A senha é o que normalmente usamos como a \"senha da rede sem fio\".",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Para conectar-se a uma rede Wi-Fi manualmente em um dispositivo Android, siga estes etapas:\nEtapa 1. Selecione Configurações > Adicionar rede.\nEtapa 2. Insira o SSID da rede.\nEtapa 3. Toque em Segurança e selecione um tipo de segurança.\nEtapa 4. Toque em Senha e digite a senha.\nEtapa 5. Toque em Salvar\nOs sistemas operacionais para dispositivos móveis são atualizados com frequência e podem ser personalizados pelo fabricante do dispositivo. Os comandos listados acima podem não ser exatamente os mesmos no seu dispositivo. Existem manuais on-line para cada tipo de dispositivo que geralmente são acessíveis no site do fabricante.\nPara conectar-se a uma rede Wi-Fi manualmente em um dispositivo iOS, siga estes etapas:\nEtapa 1. Selecione Configurações > Wi-Fi > Outros.\nEtapa 2. Insira o SSID da rede.\nEtapa 3. Toque em Segurança e selecione um tipo de segurança.\nEtapa 4. Toque em Outra Rede.\nEtapa 5. Toque em Senha e digite a senha.\nEtapa 6. Toque em Conectar."
+    },
+    {
+      "type": "accordion",
+      "title": ".2.4 Definir configurações de dados móveis",
+      "content": "**Dados móveis no Android:** Dados móveis no Android\nPara ativar ou desativar os dados móveis em um dispositivo Android, conforme mostrado na figura, use o seguinte caminho:\nConfigurações > Toque em Mais em Redes Sem Fio > Toque em Redes Móveis > Toque em Dados móveis e ative a opção\n\n**Dados móveis no IOS:** Dados móveis no IOS\nPara ativar ou desativar os dados móveis em um dispositivo iOS, conforme mostrado na figura, use o seguinte caminho:\nAjustes > Dados do Celular > ative ou desative os dados móveis"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os dispositivos móveis são pré-programados para usar uma rede Wi-Fi para Internet (se houver uma disponível) e o dispositivo pode se conectar ao access point e receber um endereço IP. Se não existir uma rede Wi-Fi disponível, o dispositivo usará o recurso de dados móveis configurado. Na maioria das vezes, as transições de uma rede para outra não são óbvias para o usuário. Quando um dispositivo móvel sai de uma área de cobertura 4G para outra com cobertura 3G, o sinal 4G é desligado e o sinal 3G é ativado. As conexões não são perdidas durante essa transição."
+    },
+    {
+      "type": "text",
+      "title": ".2.6 Conectividade Simples com Bluetooth",
+      "content": "Os dispositivos móveis se conectam usando muitos métodos diferentes. Redes de Celular e Wi-Fi podem ser difíceis de configurar e exigir equipamentos extras, como torres e pontos de acesso. As conexões a cabo nem sempre são práticas ao conectar fones de ouvido ou alto-falantes. A tecnologia Bluetooth proporciona um modo simples para os dispositivos móveis se conectarem uns aos outros e a acessórios sem fio. O Bluetooth é sem fio, automático e usa muito pouca energia, o que ajuda a economizar a bateria. Até oito dispositivos Bluetooth podem ser conectados ao mesmo tempo.\nEstes são alguns exemplos de como os dispositivos usam o Bluetooth:\nFone de ouvido viva- voz - Um pequeno fone de ouvido com microfone pode ser usado para fazer e receber chamadas.\nTeclado ou mouse - Um teclado ou mouse pode ser conectado a um dispositivo móvel para facilitar a entrada de dados.\nControle de sistema de som – Um dispositivo móvel pode se conectar a um sistema de som residencial ou veicular para tocar música.\nAlto- falante do carro - Um dispositivo que contém um alto-falante e um microfone pode ser usado para fazer e receber chamadas.\nTethering - Um dispositivo móvel pode se conectar a outro dispositivo móvel ou computador para compartilhar uma conexão de rede. O compartilhamento de Internet também pode ser realizado com uma conexão Wi-Fi ou uma conexão a cabo, como USB.\nAlto-falante móvel - alto-falantes portáteis podem se conectar a dispositivos móveis para fornecer áudio de alta qualidade sem um sistema de som."
+    },
+    {
+      "type": "text",
+      "title": ".2.7 Pareamento (ou emparelhamento) Bluetooth",
+      "content": "O pareamento Bluetooth ocorre quando dois dispositivos Bluetooth estabelecem uma conexão para compartilhar recursos. Para que os dispositivos se emparelhem, os rádios Bluetooth são ativados e um dispositivo começa a procurar outros dispositivos. Outros dispositivos devem estar configurados no modo detectável, também chamado visível, para que possam ser detectados. Quando um dispositivo Bluetooth está no modo detectável, ele transmite as seguintes informações quando outro dispositivo Bluetooth as solicita:\nNome\nClasse de Bluetooth\nServiços que o dispositivo pode usar\nInformações técnicas, como funcionalidades ou a especificação de Bluetooth compatível\nDurante o processo de emparelhamento, um número de identificação pessoal (PIN) pode ser solicitado para autenticar o processo de emparelhamento. O PIN é muitas vezes um número, mas também pode ser um código numérico ou senha. O PIN é armazenado usando serviços de emparelhamento, por isso ele não precisa ser inserido na próxima vez que o dispositivo tentar se conectar. Isso é conveniente ao usar um fone de ouvido com um smartphone, porque eles são emparelhados automaticamente quando o fone de ouvido está ativado e dentro do alcance.\nPara emparelhar um dispositivo Bluetooth com um dispositivo Android, siga estes etapas:\nEtapa 1. Siga as instruções do seu dispositivo para colocá-lo no modo detectável.\nEtapa 2. Verifique as instruções do seu dispositivo para encontrar o PIN da conexão.\nEtapa 3. Selecione Configurações > Redes Sem Fio.\nEtapa 4.  Toque em  Bluetooth para ativá-lo.\nEtapa 5. Toque na guia Bluetooth.\nEtapa 6. Toque em Procurar dispositivos.\nEtapa 7. Toque no dispositivo descoberto para selecioná-lo.\nEtapa 8. Digite o PIN.\nEtapa 9. Toque no nome do dispositivo novamente para se conectar a ele.\nPara parear um dispositivo Bluetooth com um dispositivo iOS, siga estes etapas:\nEtapa 1. Siga as instruções do seu dispositivo para colocá-lo no modo detectável.\nEtapa 2. Verifique as instruções do seu dispositivo para encontrar o PIN da conexão.\nEtapa 3. Selecione Configurações > Bluetooth.\nEtapa 4.  Toque em  Bluetooth para ativá-lo.\nEtapa 5. Toque no dispositivo descoberto para selecioná-lo.\nEtapa 6. Digite o PIN.\nLembre-se de que os sistemas operacionais do dispositivo móvel são atualizados com frequência. Consulte sempre a documentação do fabricante do seu modelo de dispositivo específico para obter a referência de comando mais recente."
+    },
+    {
+      "type": "text",
+      "title": ".2.8 Explore suas configurações de rede em seu dispositivo móvel",
+      "content": "Agora que você revisou as etapas para configurar e verificar o acesso Wi-Fi, celular e Bluetooth, explore essas configurações em seu próprio telefone. Se você tiver acesso a um dispositivo Bluetooth, como fones de ouvido ou alto-falante, conecte-o ao telefone. Observe que você pode usar todos os três serviços sem fio simultaneamente, cada um servindo a uma função diferente. Você pode ouvir música (Bluetooth), pesquisar na Internet (Wi-Fi) e receber mensagens de texto (celular)."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de redes sem fio e móveis",
+      "content": "{{_moduleNumber}}.3 Resumo de redes sem fio e móveis"
+    },
+    {
+      "type": "text",
+      "title": "Resumo: Redes sem fio e móveis",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O Que Eu Aprendi Neste Módulo?",
+      "content": "**Redes Wireless:** Os celulares usam ondas de rádio para transmitir sinais de voz a antenas montadas em torres localizadas em regiões específicas. Quando é feita uma ligação telefônica, o sinal de voz é retransmitido de uma torre a outra até chegar ao destino. Esse tipo de rede é usado quando você faz uma chamada para outro telefone celular ou para um telefone fixo. Também serve para enviar mensagens diretamente do telefone. O tipo mais comum de rede de telefonia celular é uma rede GSM. As abreviações 3G, 4G,  4G-LTE e 5G são usadas para descrever as redes de celular avançadas que foram otimizadas para transmissão rápida de dados. Atualmente, o 4G ainda domina como a rede móvel atual usada pela maioria dos telefones.\nAlém dos transmissores e receptores GSM e 4G/5G, os smartphones fazem conexões de várias maneiras.\nWi-Fi – Transmissores e receptores Wi-Fi localizados no smartphone permitem que o telefone se conecte a redes locais e à Internet. As redes Wi-Fi normalmente pertencem a proprietários particulares, mas costumam oferecer hotspots de acesso público ou para convidado. Um hotspot é uma área onde os sinais de Wi-Fi estão disponíveis.\nBluetooth é uma tecnologia sem fio que permite que os dispositivos se comuniquem em distâncias pequenas. É possível conectar vários dispositivos ao mesmo tempo com Bluetooth.\nÉ uma tecnologia de comunicação sem fio que permite a troca de dados entre dispositivos que estejam bem próximos uns dos outros, normalmente apenas alguns centímetros.\n\n**Conectividade de dispositivo móvel:** Quase todos os dispositivos móveis podem se conectar a redes Wi-Fi. É preciso tomar essas precauções para proteger as comunicações Wi-Fi em dispositivos móveis:\nNunca envie informações de login ou senha usando um texto não criptografado (texto simples).\nUse uma conexão VPN quando possível se você estiver enviando dados confidenciais.\nAtive a segurança em redes domésticas.\nUse criptografia WPA2 ou superior para segurança.\nApple iOS e Android são os dois dos sistemas operacionais mais conhecidos para dispositivos móveis. Os dispositivos móveis são pré-programados para usar uma rede Wi-Fi para Internet (se houver uma disponível) e o dispositivo pode se conectar ao access point e receber um endereço IP. Se não existir uma rede Wi-Fi disponível, o dispositivo usará o recurso de dados móveis configurado.\nA tecnologia Bluetooth proporciona um modo simples para os dispositivos móveis se conectarem uns aos outros e a acessórios sem fio. O Bluetooth é sem fio, automático e usa muito pouca energia, o que ajuda a economizar a bateria. Alguns exemplos de dispositivos que usam Bluetooth incluem fones de ouvido, teclados, mouse, controles de som, alto-falantes para carros e alto-falantes móveis.\nO pareamento Bluetooth ocorre quando dois dispositivos Bluetooth estabelecem uma conexão para compartilhar recursos. Para que os dispositivos se emparelhem, os rádios Bluetooth são ativados e um dispositivo começa a procurar outros dispositivos. Outros dispositivos devem estar configurados no modo detectável, também chamado visível, para que possam ser detectados.\nQuando um dispositivo Bluetooth está no modo detectável, ele transmite as seguintes informações quando outro dispositivo Bluetooth as solicita:\nNome\nClasse de Bluetooth\nServiços que o dispositivo pode usar\nInformações técnicas, como funcionalidades ou a especificação de Bluetooth compatível\nDurante o processo de emparelhamento, um PIN pode ser solicitado para autenticar o processo de emparelhamento"
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Perguntas para reflexão",
+      "content": "Acho fascinante poder enviar e receber dados sem conectar um dispositivo a outro usando um cabo. Vou comprar um tablet para que eu possa fazer este curso enquanto estiver na praia! De quantas maneiras seu tablet ou smartphone se comunica quando você está longe da rede doméstica?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual das opções a seguir é uma tecnologia sem fio de baixo consumo e alcance mais curto que se destina a substituir a conectividade com fio para acessórios como alto-falantes ou mouse?",
+      "options": [
+        "NFC",
+        "GPS",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nBluetooth – Tecnologia sem fio de curto alcance e com baixo consumo de energia que substitui a conectividade com fio para acessórios como alto-falantes, microfones e fones de ouvido. O Bluetooth também pode ser usado para conectar um smartwatch a um smartphone.",
+      "raw_id": "b123dea13cd8499bbdd61dff49ba00c1"
+    },
+    {
+      "question": "Qual das seguintes opções é uma tecnologia de comunicação sem fio que permite que um smartphone se comunique com um sistema de pagamento a poucos centímetros de distância?",
+      "options": [
+        "NFC",
+        "GPS",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nNFC (Comunicação de Campo Próximo) é uma tecnologia de conexão sem fio que permite que dados sejam trocados entre dispositivos que estão muito próximos um do outro.",
+      "raw_id": "787da42455fa44b3a9d5a25e7f6fcace"
+    },
+    {
+      "question": "Que termo é usado para descrever a conexão de um dispositivo móvel a outro dispositivo móvel ou computador para compartilhar uma conexão de rede?",
+      "options": [
+        "juntar",
+        "sincronizar",
+        "parear",
+        "tethering"
+      ],
+      "correctIndex": 3,
+      "explanation": "O emparelhamento descreve a conexão de dois dispositivos usando Bluetooth. Sincronização é o termo usado para descrever a sincronização de e-mails e calendários em vários dispositivos.",
+      "raw_id": "60e943ec763e40e888b3fc2f2a5398c1"
+    },
+    {
+      "question": "Qual tecnologia sem fio usa um processo de emparelhamento de dispositivo para se comunicar e operar em curtas distâncias de 100 metros?",
+      "options": [
+        "rede de área ampla sem fio",
+        "Wi-Fi",
+        "Bluetooth",
+        "GPS"
+      ],
+      "correctIndex": 2,
+      "explanation": "As redes sem fio podem ser classificadas da seguinte forma:\nRede de área ampla sem fio (WWAN) - opera na faixa de quilômetros.\nWi-Fi - opera a distâncias de até 0,28 milhas e fornece acesso à rede para usuários domésticos e corporativos, além de incluir tráfego de dados, voz e vídeo.\nBluetooth - Ele usa um processo de emparelhamento de dispositivo para se comunicar a distâncias de até 0,05 milhas.\nGPS - Utiliza satélites para transmitir sinais que cobrem o globo.",
+      "raw_id": "1e9f8e2df27a478a8c33c7f929708679"
+    },
+    {
+      "question": "Que tecnologia permite que um telefone celular seja usado como um dispositivo de viva-voz?",
+      "options": [
+        "Wi-Fi",
+        "Bluetooth",
+        "4G",
+        "NFC"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Bluetooth oferece uma forma de conectar dispositivos sem fio, como fones de ouvido, a um dispositivo móvel próximo. O Wi-Fi e o 4G fornecem acesso WAN para voz e dados. A NFC é usada para sistemas de pagamento por aproximação.",
+      "raw_id": "3e6ed0fdeffc4eca9c0696e7913453e1"
+    },
+    {
+      "question": "Um aluno comprou um novo tablet habilitado para Wi-Fi. O que é necessário para conectar este dispositivo à Internet?",
+      "options": [
+        "uma rede 3G ou 4G",
+        "Uma Companhia Telefônica",
+        "Uma LAN sem fio",
+        "um provedor de serviços de telefonia móvel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Para acessar a Internet usando Wi-Fi, o tablet precisará acessar uma LAN sem fio.",
+      "raw_id": "9c97b5a0ebcc4e64990ce3cb919dff8f"
+    },
+    {
+      "question": "Qual é a tecnologia que permite que um dispositivo móvel estabeleça uma comunicação sem fio com outro dispositivo móvel encostando os dois dispositivos?",
+      "options": [
+        "Bluetooth",
+        "NFC",
+        "GPS",
+        "4G"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Comunicação de campo próximo, ou NFC, normalmente é usada para estabelecer uma comunicação por rádio entre dois dispositivos colocando-os próximos um do outro ou encostando-os.",
+      "raw_id": "af80eaa5af514eff93ea92cb60d21d94"
+    },
+    {
+      "question": "Qual tecnologia permitirá que um dispositivo móvel compartilhe uma conexão com a Internet com outros dispositivos via tethering?",
+      "options": [
+        "GPS",
+        "Bluetooth",
+        "NFC (Near Field Communication)",
+        "Wi-Fi"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Tethering normalmente é feito por Bluetooth ou por um cabo USB. Um hotspot móvel é outra forma de compartilhar a Internet e é proporcionado por WiFi.",
+      "raw_id": "c4573e7f50864320904f88662e75825f"
+    },
+    {
+      "question": "Quais são os dois métodos normalmente usados em um dispositivo móvel para fornecer conectividade com a Internet? (Escolha duas.)",
+      "options": [
+        "Celular",
+        "Bluetooth",
+        "Wi-Fi",
+        "NFC",
+        "GPS"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os dispositivos móveis normalmente usam Wi-Fi e celular para se conectarem à Internet. A conexão celular usa a rede de dados celular mediante o pagamento de uma taxa. A conexão Wi-Fi usa uma rede sem fio 802,11 na área para conectar-se à Internet.",
+      "raw_id": "f36a0d2c96074f41b1d0d4c3888a153c"
+    },
+    {
+      "question": "Qual tecnologia sem fio permite que um cliente se conecte a um sistema de pagamento com um smartphone?",
+      "options": [
+        "NFC",
+        "Wi-Fi",
+        "GPS",
+        "Bluetooth"
+      ],
+      "correctIndex": 0,
+      "explanation": "NFC, ou Near Field Communications, é uma tecnologia sem fio para comunicação entre dispositivos, a distâncias extremamente curtas, e é usada em sistemas de pagamento por aproximação.",
+      "raw_id": "53b1cf28fc634940b98708b5e6cac98c"
+    },
+    {
+      "question": "Um vendedor está usando um aplicativo de mapas do smartphone para localizar uma empresa. Qual tecnologia sem fio permite que o smartphone receba informações de localização geográfica por satélite do aplicativo de mapa?",
+      "options": [
+        "GPS",
+        "NFC",
+        "Wi-Fi",
+        "Bluetooth"
+      ],
+      "correctIndex": 0,
+      "explanation": "O GPS, ou sistema de posicionamento global, fornece os serviços de localização geográfica usados pelos smartphones para calcular a posição do telefone.",
+      "raw_id": "cfdd0698c85a4c12889da268a40db4a0"
+    },
+    {
+      "question": "Quais são as duas informações necessárias ao conectar manualmente um dispositivo iOS ou um dispositivo Android a uma rede sem fio segura? (Escolha duas.)",
+      "options": [
+        "o endereço IP",
+        "o SSID",
+        "o nome de usuário",
+        "a senha"
+      ],
+      "correctIndex": 3,
+      "explanation": "Para conectar um dispositivo Android ou iOS a uma rede Wi-Fi manualmente, o SSID e a senha são necessários para se conectar.",
+      "raw_id": "e839fcd5039a47a7983f298cdc37c861"
+    },
+    {
+      "question": "Que tecnologia de conexão sem fio pode ser usada para conectar fones de ouvido sem fio a um computador?",
+      "options": [
+        "NFC",
+        "Bluetooth",
+        "Wi-Fi",
+        "4G"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bluetooth é uma tecnologia de baixo consumo, sem fio e de curto alcance que fornece conectividade para acessórios como alto-falantes, fones de ouvido e microfones.",
+      "raw_id": "056ef31faf1d4489a3a26f89693442af"
+    }
+  ],
+  "images": []
+}

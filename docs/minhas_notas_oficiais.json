@@ -1,0 +1,1522 @@
+{
+  "disciplina": "Fundamentos de Redes (Turma 1 - Prof. Felipe)",
+  "aluno": "David Brasil Fernandes",
+  "exames_oficiais": {
+    "Exame de ponto de verificação: Construir uma pequena rede": "95/100 (95%)",
+    "Exame de ponto de verificação: acesso à rede": "81/100 (81%)"
+  },
+  "modulos_concluidos": {
+    "m1": 19,
+    "m2": 19,
+    "m3": 13,
+    "m4": 18,
+    "m5": 19,
+    "m6": 15,
+    "m7": 19
+  },
+  "total_questoes_quizzes": 122,
+  "detalhes_quizzes": {
+    "m1": [
+      {
+        "question": "Qual tipo de rede permite que computadores em um escritório ou em casa o conectem a uma rede corporativa?",
+        "options": [
+          "rede doméstica inteligente",
+          "rede SOHO",
+          "redes médias a grandes",
+          "rede mundial"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nA rede de pequeno escritório / escritório doméstico (SOHO) permite que computadores em um escritório doméstico ou remoto se conectem a uma rede corporativa ou acessem recursos compartilhados centralizados.",
+        "raw_id": "54eb723c87c14ed9afd85695975b118d"
+      },
+      {
+        "question": "O que pode ser colocado dentro ou sobre um pacote para que ele possa ser rastreado?",
+        "options": [
+          "placa de interface de Rede",
+          "sensor",
+          "um atuador",
+          "tag de RFID"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nAs etiquetas de RFID (Identificação por radiofrequência) podem ser colocadas dentro de objetos ou sobre eles para controlá-los ou monitorar sensores em muitas circunstâncias.",
+        "raw_id": "c0b8faa8fdaa450b935b669c2a5e8f19"
+      },
+      {
+        "question": "Uma unidade básica de informação que representa um dos dois estados distintos é conhecida como:",
+        "options": [
+          "bit",
+          "byte",
+          "octeto",
+          "sinal elétrico"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nUm dígito binário (bit) representa um dos dois estados discretos, 0 ou 1.",
+        "raw_id": "87eb6d9615b547a2b4644950caed1b50"
+      },
+      {
+        "question": "Ao usar o cartão de crédito para fazer compras em vários locais, a empresa do cartão de crédito pode usar essas informações para saber mais sobre sua localização e suas preferências. Esse tipo de dados pessoais é conhecido como:",
+        "options": [
+          "dados secretos",
+          "dados voluntários",
+          "dados observados",
+          "dados inferidos"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nDados inferidos, como pontuação de crédito, são baseados na análise de dados voluntários ou observados.",
+        "raw_id": "d2e929686c9145c0b61274c541a98bb0"
+      },
+      {
+        "question": "Qual dos seguintes métodos de transmissão de sinal usa frequências ou pulsos de luz?",
+        "options": [
+          "sinais elétricos",
+          "sinais ópticos",
+          "sinais sem fio"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nSinais ópticos converte sinais elétricos em pulsos de luz",
+        "raw_id": "89b0fc4fd4c447cea842db5235503b73"
+      },
+      {
+        "question": "A capacidade de um meio físico transportar dados é conhecida como:",
+        "options": [
+          "taxa de transferência",
+          "velocidade",
+          "largura de banda",
+          "taxa de dados"
+        ],
+        "correctIndex": 2,
+        "explanation": "Está certo.\nLargura de banda é a capacidade de um meio de transportar dados.",
+        "raw_id": "3a426aef173449fd87a2d86838f98474"
+      },
+      {
+        "question": "Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?",
+        "options": [
+          "taxa de transferência",
+          "velocidade",
+          "largura de banda",
+          "taxa de dados"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nA quantidade de dados, o tipo de dados e a latência da rede são combinados para fazer com que a taxa de transferência não corresponda à largura de banda.",
+        "raw_id": "2876ad6b423746e38d08c2cc524f0ff6"
+      },
+      {
+        "question": "Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?",
+        "options": [
+          "número total de bytes",
+          "bytes por segundo",
+          "bytes por milissegundo",
+          "número total de bits",
+          "bits por segundo",
+          "bits por milissegundo"
+        ],
+        "correctIndex": 4,
+        "explanation": "Está certo.\nA largura de banda costuma ser medida pelo número de bits que (teoricamente) podem ser enviados através do meio físico  em um segundo.",
+        "raw_id": "da69cdf3dc0f448bb52bbe367af949c4"
+      },
+      {
+        "question": "O que é a Internet?",
+        "options": [
+          "o tipo de mídia física usada por computadores para acessar a World Wide Web",
+          "uma rede de redes",
+          "um aplicativo usado para acessar a World Wide Web",
+          "uma pequena rede interna isolada de uma empresa"
+        ],
+        "correctIndex": 1,
+        "explanation": "A internet é essencialmente uma rede de redes. Cada usuário se conecta à Internet usando um cabo físico ou por meio de mídia sem fio. Debaixo dessa rede de redes, há um backbone muito real de conexões que levam o mundo aos dispositivos de computação pessoal.",
+        "raw_id": "9bb1814deb1040648c47baede1291aff"
+      },
+      {
+        "question": "Qual das opções é um exemplo de um valor binário da vida cotidiana?",
+        "options": [
+          "temperatura ambiente",
+          "um interruptor de luz simples",
+          "a velocidade de um carro em movimento",
+          "o brilho de uma lâmpada"
+        ],
+        "correctIndex": 1,
+        "explanation": "Um dígito binário (ou bit) tem dois valores possíveis, 0 ou 1. Os estados ligado e desligado de um interruptor simples é um exemplo dos dois estados representados por um bit.",
+        "raw_id": "52d1298d0b9d47399ec60668f160701c"
+      },
+      {
+        "question": "Qual categoria de componentes de rede inclui fios e cabos usados em uma rede com fio?",
+        "options": [
+          "mídias",
+          "dispositivos",
+          "periféricos",
+          "hosts"
+        ],
+        "correctIndex": 0,
+        "explanation": "O termo \"mídia de rede\" descreve os cabos e os fios usados em redes com fio, além das ondas de radiofrequência usadas em redes sem fio.",
+        "raw_id": "da322da983834f829be19d6fab396ab8"
+      },
+      {
+        "question": "Que tipo de dispositivo é capaz de criar movimento físico?",
+        "options": [
+          "um atuador",
+          "sensor",
+          "tag de RFID",
+          "Console"
+        ],
+        "correctIndex": 0,
+        "explanation": "Os atuadores são um tipo de dispositivo usado para produzir movimento físico.",
+        "raw_id": "52c483061219417c9384eeb53cef99b4"
+      },
+      {
+        "question": "Quais são as três opções para transmissão de sinal em uma rede? (Escolha três.)",
+        "options": [
+          "ondas de rádio",
+          "pulsos vibratórios",
+          "ondas sonoras",
+          "pulsos elétricos",
+          "pulsos de luz"
+        ],
+        "correctIndex": 4,
+        "explanation": "Existem três métodos comuns de transmissão de sinal usados em redes:\nSinais elétricos – A transmissão é obtida pela representação dos dados como pulsos elétricos em fios de cobre.\nSinais ópticos – A transmissão é obtida pela conversão dos sinais elétricos em pulsos de luz.\nSinais sem fio – A transmissão é obtida pelo uso de infravermelho, micro-ondas ou ondas de rádio pelo ar.",
+        "raw_id": "0ca898bd778c42d29b376f6e94e948e5"
+      },
+      {
+        "question": "Quem é o dono da Internet?",
+        "options": [
+          "Bill Gates",
+          "Cisco",
+          "O governo",
+          "Nenhuma pessoa ou grupo"
+        ],
+        "correctIndex": 3,
+        "explanation": "A Internet não é de propriedade de nenhuma pessoa, grupo de pessoas ou governo. A Internet é uma coleção de redes interconectadas globalmente",
+        "raw_id": "96071d04e73d49baa8a4b20cbfe6a06f"
+      },
+      {
+        "question": "Que tipo de dispositivo conectado é colocado em objetos para acompanhá-los e monitorá-los?",
+        "options": [
+          "etiquetas RFID",
+          "sensores",
+          "atuadores",
+          "Consoleconsoles"
+        ],
+        "correctIndex": 0,
+        "explanation": "As etiquetas de identificação por radiofrequência (RFID) usam campos eletromagnéticos  para identificar e rastrear objetos.",
+        "raw_id": "834c2b4df1e64c97a557e3cac401a677"
+      },
+      {
+        "question": "Um byte consiste em quantos bits?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "correctIndex": 2,
+        "explanation": "Um byte é igual a 8 bits.",
+        "raw_id": "b742b7cb096b4247a85c795a3f640bfc"
+      },
+      {
+        "question": "Quais dois números são possíveis valores de um bit? (Escolha duas.)",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "8",
+          "16"
+        ],
+        "correctIndex": 1,
+        "explanation": "Um bit tem apenas dois valores possíveis: 0 e 1.",
+        "raw_id": "ea0e3350be4943eaac81a9919b68da5d"
+      },
+      {
+        "question": "Que medida é usada para indicar milhares de bits por segundo?",
+        "options": [
+          "Kbps",
+          "Mbps",
+          "Tbps",
+          "Gbps"
+        ],
+        "correctIndex": 0,
+        "explanation": "Medições de largura de banda comuns são as seguintes:\nMilhares de bits por segundo (Kbps) ou Kilobits por segundo\nMilhões de bits por segundo (Mbps) ou Megabits por segundo\nBilhões de bits por segundo (Gbps) ou Gigabits por segundo\nTrilhões de bits por segundo (Tbps) ou Terabits por segundo",
+        "raw_id": "194811868c984316bf27b548cc4b5911"
+      },
+      {
+        "question": "Que tipo de rede deve um usuário doméstico acessar para fazer compras on-line?",
+        "options": [
+          "uma rede SOHO",
+          "a Internet",
+          "Uma rede local"
+        ],
+        "correctIndex": 1,
+        "explanation": "Os usuários domésticos vão fazer compras on-line pela Internet porque os fornecedores on-line são acessados pela Internet. Uma rede SOHO permite que computadores em um escritório doméstico ou em um escritório remoto se conectem a uma rede corporativa ou acessem recursos compartilhados e centralizados.",
+        "raw_id": "bba39cfa828d4fca87fb045ffb7ee116"
+      }
+    ],
+    "m2": [
+      {
+        "question": "Um computador com software instalado para fornecer informações como e-mail ou páginas da Web para outros dispositivos é conhecido como:",
+        "options": [
+          "cliente",
+          "servidor",
+          "smartphone",
+          "host inteligente"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nServidores são hosts que têm um software instalado que os permite fornecer informações, como e-mail ou páginas Web, a outros hosts na rede.",
+        "raw_id": "79dbf3f3e1564572afe53665ade27e35"
+      },
+      {
+        "question": "Um smartphone (telefone inteligente) usa um software de navegador da Web para solicitar e exibir uma página da Web. O smartphone (telefone inteligente) é considerado que tipo de computador?",
+        "options": [
+          "cliente",
+          "servidor",
+          "solicitante",
+          "host inteligente"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nClientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor.",
+        "raw_id": "3f026924a7964f9ea27fc1dbddf95555"
+      },
+      {
+        "question": "Uma rede em que dois computadores estão se comunicando como cliente e como servidor é conhecida como:",
+        "options": [
+          "rede cliente-servidor",
+          "rede cliente-cliente",
+          "rede servidor-servidor",
+          "rede ponto-a-ponto"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nUma rede ponto-a-ponto consiste de dois computadores diretamente conectados onde ambos computadores são capazes de trocar dados e serviços com o outro, agindo como cliente ou servidor quando necessário",
+        "raw_id": "061c566cd092423b94a269c6b9967598"
+      },
+      {
+        "question": "Marjani mora em uma fazenda a vários quilômetros de Msolwa, na Tanzânia. Qual dos dispositivos finais a seguir é mais provável que ela use para se conectar à Internet? (Escolha duas.)",
+        "options": [
+          "smartphone",
+          "impressora da rede",
+          "Terminal de telepresença",
+          "tablet sem fio",
+          "roteador sem fio"
+        ],
+        "correctIndex": 3,
+        "explanation": "Isso mesmo! Muito bem.\nEm áreas rurais que não têm uma infraestrutura de telecomunicações com fio, o acesso sem fio através de um serviço de celular é muitas vezes a única opção para acesso à Internet. As opções para Marjani incluem um smartphone ou tablet.",
+        "raw_id": "d8724c8abb874dc3b1083d6181b28164"
+      },
+      {
+        "question": "Eilert conseguiu recentemente um emprego em uma empresa de serviços de suporte a computadores em sua cidade natal, Falun, na Suécia. Um cliente solicitou que alguém conectasse a rede doméstica à Internet. Ele têm apenas um modem a cabo. Qual dos seguintes dispositivos intermediários Eilert provavelmente levaria ele para o trabalho?",
+        "options": [
+          "Switch multicamada",
+          "dispositivo de firewall",
+          "roteador sem fio",
+          "Computador desktop",
+          "switch LAN"
+        ],
+        "correctIndex": 2,
+        "explanation": "Isso mesmo! Muito bem.\nAs redes domésticas normalmente se conectam ao provedor de Internet usando um modem e um roteador com recursos sem fio. Às vezes, esses dois dispositivos são combinados em um único dispositivo. Nesse cenário, Eilert precisará levar o roteador sem fio para a casa do cliente, pois ele só tem o modem.",
+        "raw_id": "b7e63e28a5dc422c931d5f9ff77e7051"
+      },
+      {
+        "question": "Rosalía trabalha como agente de saúde comunitária em Rio Claro, Brasil. A maior parte do tempo é gasta fazendo visitas domiciliares para fornecer atendimento primário às pessoas em sua comunidade. No entanto, ela precisa de acesso à Internet para manter seus registros de pacientes e oferecer videoconferência com um médico, quando necessário. Que tipo de dispositivo final e mídia a Rosalía provavelmente usa? (Escolha duas.)",
+        "options": [
+          "roteador",
+          "tablet",
+          "Computador desktop",
+          "Mídia WAN",
+          "Mídia LAN",
+          "Mídia Sem Fio"
+        ],
+        "correctIndex": 5,
+        "explanation": "Isso mesmo! Muito bem.\nOs agentes de saúde comunitários que viajam de casa em casa durante suas rondas diárias dependem muito do acesso sem fio. Portanto, Rosalía provavelmente usaria um tablet e uma mídia sem fio para se conectar à Internet para atualizar os registros médicos e fazer videoconferência com outro médico, quando necessário.",
+        "raw_id": "aa1fe2e3b3f94f93bb8e18719f735df0"
+      },
+      {
+        "question": "O que é um serviço que fornece um sinal de dados da Internet na mesma rede que oferece serviços de transmissão de televisão e telefone?",
+        "options": [
+          "Internet a cabo",
+          "Plano de dados de celular",
+          "Digital Subscriber Line (DSL )",
+          "Acesso para convidados"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nO cabo de Internet fornece um sinal de dados de Internet na mesma rede que oferece serviços de televisão e telefone de transmissão.",
+        "raw_id": "11cb7ab5e530435691febe43388622be"
+      },
+      {
+        "question": "O que é um serviço que fornece conexão de banda larga sempre ativa, usando fios de telefonia fixa existentes?",
+        "options": [
+          "Acesso para convidados",
+          "Plano de dados de celular",
+          "Internet a cabo",
+          "Digital Subscriber Line (DSL )"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nUma conexão Digital Subscriber Line (DSL) é um serviço que fornece banda larga sempre ativa, usando fios de telefonia fixa existentes.",
+        "raw_id": "9ae407bbed494f8dabccfeb1d7cb2660"
+      },
+      {
+        "question": "O que é um serviço de Internet que usa redes de telefonia móvel para transmitir dados?",
+        "options": [
+          "Internet a cabo",
+          "Plano de dados de celular",
+          "Digital Subscriber Line (DSL )",
+          "Acesso para convidados"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nUm plano de dados de celular é um serviço de Internet que usa redes de telefonia móvel para transmitir dados.",
+        "raw_id": "a854b4e96e8b4c3fbb16aa5f27293731"
+      },
+      {
+        "question": "Que tipo de rede é definida por dois computadores que podem enviar e receber solicitações para recursos?",
+        "options": [
+          "cliente/servidor",
+          "ponto-a-ponto",
+          "empresa",
+          "campus"
+        ],
+        "correctIndex": 1,
+        "explanation": "A forma de rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio.",
+        "raw_id": "827940640b474641ad185ec1af53becc"
+      },
+      {
+        "question": "Quais são as duas funções dos dispositivos finais na rede? (Escolha duas.)",
+        "options": [
+          "Eles originam os dados que fluem na rede.",
+          "Eles direcionam os dados por caminhos alternativos em caso de falhas de link.",
+          "Eles filtram o fluxo de dados para melhorar a segurança.",
+          "Eles são a interface entre as pessoas e a rede de comunicação.",
+          "Eles oferecem um canal para o percurso da mensagem na rede."
+        ],
+        "correctIndex": 3,
+        "explanation": "Os dispositivos finais originam os dados que fluem na rede. Os dispositivos intermediários direcionam os dados por caminhos alternativos em caso de falhas de link e filtram o fluxo de dados para melhorar a segurança. O meio físico de rede é o canal que as mensagens percorrem na rede.",
+        "raw_id": "8ad0c0ac91f440bf944c0a4474ba454e"
+      },
+      {
+        "question": "Um usuário doméstico está procurando a conexão de um ISP que oferece transmissão digital de alta velocidade através de linhas telefônicas regulares. Que tipo de conexão de ISP deve ser usada?",
+        "options": [
+          "DSL",
+          "conexão discada",
+          "satélite",
+          "modem celular",
+          "cable modem"
+        ],
+        "correctIndex": 0,
+        "explanation": "DSL é a melhor tecnologia para usar em linhas telefônicas existentes. Muitos ISPs têm uma pesquisa em seu site onde você pode inserir seu número de telefone e ver se eles podem oferecer o serviço.",
+        "raw_id": "5d56cdf656a749a78af5f231e22fc66c"
+      },
+      {
+        "question": "Que tipo de conexão com a Internet seria melhor para uma residência em uma área remota sem cobertura de celular ou conectividade cabeada?",
+        "options": [
+          "conexão discada",
+          "celular",
+          "satélite",
+          "DSL"
+        ],
+        "correctIndex": 2,
+        "explanation": "O serviço de Internet via satélite fornece a melhor opção para um usuário doméstico que, de outra forma, não teria nenhuma conexão à Internet. A Internet do celular está disponível somente em áreas com cobertura de telefone celular.",
+        "raw_id": "aa0e2526ec774cff893c1a927362d18c"
+      },
+      {
+        "question": "Qual termo descreve corretamente a função de um ISP?",
+        "options": [
+          "responsável pelo gerenciamento de redes locais",
+          "responsável pela manutenção das redes SOHO",
+          "responsável por fornecer o link entre uma rede privada e a Internet.",
+          "responsável por fornecer segurança em redes privadas"
+        ],
+        "correctIndex": 2,
+        "explanation": "ISP significa Provedor de Serviços de Internet. Um ISP é responsável por fornecer o link entre uma rede privada, tal como uma rede doméstica ou comercial, e a Internet.",
+        "raw_id": "42a657f90d1f4e7495700c46649e22fb"
+      },
+      {
+        "question": "Qual dispositivo é um dispositivo intermediário?",
+        "options": [
+          "firewall",
+          "PC",
+          "servidor",
+          "dispositivo inteligente"
+        ],
+        "correctIndex": 0,
+        "explanation": "Um dispositivo intermediário envia mensagens de rede para um destino final. Exemplos de dispositivos intermediários incluem um firewall, roteador, switch, switch multicamada e roteador sem fio.",
+        "raw_id": "bc2db8ed4bd449e5b583b4b55e476284"
+      },
+      {
+        "question": "Qual cenário descreve uma rede ponto-a-ponto?",
+        "options": [
+          "Os usuários acessam arquivos compartilhados por um servidor de arquivos.",
+          "Um usuário acessa uma página da Web no site da empresa.",
+          "Um usuário compartilhou uma impressora conectada à estação de trabalho.",
+          "Os usuários imprimem documentos de uma impressora da rede com uma placa de rede incorporada."
+        ],
+        "correctIndex": 2,
+        "explanation": "Em uma rede ponto-a-ponto, não há um servidor dedicado ou centralizado. Um computador do usuário pode ser um cliente que solicita o serviço de outro computador do usuário, e um servidor que compartilha um recurso de rede (como uma impressora) com outros usuários.",
+        "raw_id": "c4d54ca6a0e74eebaff4a7777e3bc7ba"
+      },
+      {
+        "question": "Que termo é usado para descrever um dispositivo de rede com a função principal de fornecer informações a outros dispositivos?",
+        "options": [
+          "estação de trabalho",
+          "console",
+          "servidor",
+          "cliente"
+        ],
+        "correctIndex": 2,
+        "explanation": "Os servidores são dispositivos com um software instalado que possibilitam que eles forneçam informações, como páginas da Web ou e-mails.",
+        "raw_id": "5fe60b6fc0754b5cadea90b8de75145b"
+      },
+      {
+        "question": "Qual é uma vantagem do modelo de rede ponto-a-ponto?",
+        "options": [
+          "escalabilidade",
+          "alto nível de segurança",
+          "facilidade de configuração",
+          "administração centralizada"
+        ],
+        "correctIndex": 2,
+        "explanation": "A rede ponto-a-pontor mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio. As vantagens da rede ponto-a-ponto incluem facilidade de configuração, baixo custo e complexidade menor.",
+        "raw_id": "476d2cb22b224843b3d00549b03bbb02"
+      },
+      {
+        "question": "Qual é uma característica de um aplicativo ponto a ponto?",
+        "options": [
+          "Cada dispositivo que usa o aplicativo provê uma interface de usuário e executa um serviço em segundo plano.",
+          "Cada dispositivo pode atuar como um cliente ou um servidor, mas não ao mesmo tempo.",
+          "Os recursos necessários para o aplicativo são centralizados.",
+          "Um dispositivo é designado como servidor e um dispositivo é designado como cliente para todas as comunicações e serviços"
+        ],
+        "correctIndex": 0,
+        "explanation": "As redes ponto a ponto existem diretamente entre os dispositivos cliente, sem recursos centralizados ou autenticação. Também existem sistemas híbridos ponto a ponto que descentralizam o compartilhamento de recursos, mas podem usar índices centralizados para apontar para os locais de recursos.",
+        "raw_id": "1312861ba3e4409294b558ba6ef62c1a"
+      }
+    ],
+    "m3": [
+      {
+        "question": "Qual das opções a seguir é uma tecnologia sem fio de baixo consumo e alcance mais curto que se destina a substituir a conectividade com fio para acessórios como alto-falantes ou mouse?",
+        "options": [
+          "NFC",
+          "GPS",
+          "Wi-Fi",
+          "Bluetooth"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nBluetooth – Tecnologia sem fio de curto alcance e com baixo consumo de energia que substitui a conectividade com fio para acessórios como alto-falantes, microfones e fones de ouvido. O Bluetooth também pode ser usado para conectar um smartwatch a um smartphone.",
+        "raw_id": "b123dea13cd8499bbdd61dff49ba00c1"
+      },
+      {
+        "question": "Qual das seguintes opções é uma tecnologia de comunicação sem fio que permite que um smartphone se comunique com um sistema de pagamento a poucos centímetros de distância?",
+        "options": [
+          "NFC",
+          "GPS",
+          "Wi-Fi",
+          "Bluetooth"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nNFC (Comunicação de Campo Próximo) é uma tecnologia de conexão sem fio que permite que dados sejam trocados entre dispositivos que estão muito próximos um do outro.",
+        "raw_id": "787da42455fa44b3a9d5a25e7f6fcace"
+      },
+      {
+        "question": "Que termo é usado para descrever a conexão de um dispositivo móvel a outro dispositivo móvel ou computador para compartilhar uma conexão de rede?",
+        "options": [
+          "juntar",
+          "sincronizar",
+          "parear",
+          "tethering"
+        ],
+        "correctIndex": 3,
+        "explanation": "O emparelhamento descreve a conexão de dois dispositivos usando Bluetooth. Sincronização é o termo usado para descrever a sincronização de e-mails e calendários em vários dispositivos.",
+        "raw_id": "60e943ec763e40e888b3fc2f2a5398c1"
+      },
+      {
+        "question": "Qual tecnologia sem fio usa um processo de emparelhamento de dispositivo para se comunicar e operar em curtas distâncias de 100 metros?",
+        "options": [
+          "rede de área ampla sem fio",
+          "Wi-Fi",
+          "Bluetooth",
+          "GPS"
+        ],
+        "correctIndex": 2,
+        "explanation": "As redes sem fio podem ser classificadas da seguinte forma:\nRede de área ampla sem fio (WWAN) - opera na faixa de quilômetros.\nWi-Fi - opera a distâncias de até 0,28 milhas e fornece acesso à rede para usuários domésticos e corporativos, além de incluir tráfego de dados, voz e vídeo.\nBluetooth - Ele usa um processo de emparelhamento de dispositivo para se comunicar a distâncias de até 0,05 milhas.\nGPS - Utiliza satélites para transmitir sinais que cobrem o globo.",
+        "raw_id": "1e9f8e2df27a478a8c33c7f929708679"
+      },
+      {
+        "question": "Que tecnologia permite que um telefone celular seja usado como um dispositivo de viva-voz?",
+        "options": [
+          "Wi-Fi",
+          "Bluetooth",
+          "4G",
+          "NFC"
+        ],
+        "correctIndex": 1,
+        "explanation": "O Bluetooth oferece uma forma de conectar dispositivos sem fio, como fones de ouvido, a um dispositivo móvel próximo. O Wi-Fi e o 4G fornecem acesso WAN para voz e dados. A NFC é usada para sistemas de pagamento por aproximação.",
+        "raw_id": "3e6ed0fdeffc4eca9c0696e7913453e1"
+      },
+      {
+        "question": "Um aluno comprou um novo tablet habilitado para Wi-Fi. O que é necessário para conectar este dispositivo à Internet?",
+        "options": [
+          "uma rede 3G ou 4G",
+          "Uma Companhia Telefônica",
+          "Uma LAN sem fio",
+          "um provedor de serviços de telefonia móvel"
+        ],
+        "correctIndex": 2,
+        "explanation": "Para acessar a Internet usando Wi-Fi, o tablet precisará acessar uma LAN sem fio.",
+        "raw_id": "9c97b5a0ebcc4e64990ce3cb919dff8f"
+      },
+      {
+        "question": "Qual é a tecnologia que permite que um dispositivo móvel estabeleça uma comunicação sem fio com outro dispositivo móvel encostando os dois dispositivos?",
+        "options": [
+          "Bluetooth",
+          "NFC",
+          "GPS",
+          "4G"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Comunicação de campo próximo, ou NFC, normalmente é usada para estabelecer uma comunicação por rádio entre dois dispositivos colocando-os próximos um do outro ou encostando-os.",
+        "raw_id": "af80eaa5af514eff93ea92cb60d21d94"
+      },
+      {
+        "question": "Qual tecnologia permitirá que um dispositivo móvel compartilhe uma conexão com a Internet com outros dispositivos via tethering?",
+        "options": [
+          "GPS",
+          "Bluetooth",
+          "NFC (Near Field Communication)",
+          "Wi-Fi"
+        ],
+        "correctIndex": 1,
+        "explanation": "O Tethering normalmente é feito por Bluetooth ou por um cabo USB. Um hotspot móvel é outra forma de compartilhar a Internet e é proporcionado por WiFi.",
+        "raw_id": "c4573e7f50864320904f88662e75825f"
+      },
+      {
+        "question": "Quais são os dois métodos normalmente usados em um dispositivo móvel para fornecer conectividade com a Internet? (Escolha duas.)",
+        "options": [
+          "Celular",
+          "Bluetooth",
+          "Wi-Fi",
+          "NFC",
+          "GPS"
+        ],
+        "correctIndex": 2,
+        "explanation": "Os dispositivos móveis normalmente usam Wi-Fi e celular para se conectarem à Internet. A conexão celular usa a rede de dados celular mediante o pagamento de uma taxa. A conexão Wi-Fi usa uma rede sem fio 802,11 na área para conectar-se à Internet.",
+        "raw_id": "f36a0d2c96074f41b1d0d4c3888a153c"
+      },
+      {
+        "question": "Qual tecnologia sem fio permite que um cliente se conecte a um sistema de pagamento com um smartphone?",
+        "options": [
+          "NFC",
+          "Wi-Fi",
+          "GPS",
+          "Bluetooth"
+        ],
+        "correctIndex": 0,
+        "explanation": "NFC, ou Near Field Communications, é uma tecnologia sem fio para comunicação entre dispositivos, a distâncias extremamente curtas, e é usada em sistemas de pagamento por aproximação.",
+        "raw_id": "53b1cf28fc634940b98708b5e6cac98c"
+      },
+      {
+        "question": "Um vendedor está usando um aplicativo de mapas do smartphone para localizar uma empresa. Qual tecnologia sem fio permite que o smartphone receba informações de localização geográfica por satélite do aplicativo de mapa?",
+        "options": [
+          "GPS",
+          "NFC",
+          "Wi-Fi",
+          "Bluetooth"
+        ],
+        "correctIndex": 0,
+        "explanation": "O GPS, ou sistema de posicionamento global, fornece os serviços de localização geográfica usados pelos smartphones para calcular a posição do telefone.",
+        "raw_id": "cfdd0698c85a4c12889da268a40db4a0"
+      },
+      {
+        "question": "Quais são as duas informações necessárias ao conectar manualmente um dispositivo iOS ou um dispositivo Android a uma rede sem fio segura? (Escolha duas.)",
+        "options": [
+          "o endereço IP",
+          "o SSID",
+          "o nome de usuário",
+          "a senha"
+        ],
+        "correctIndex": 3,
+        "explanation": "Para conectar um dispositivo Android ou iOS a uma rede Wi-Fi manualmente, o SSID e a senha são necessários para se conectar.",
+        "raw_id": "e839fcd5039a47a7983f298cdc37c861"
+      },
+      {
+        "question": "Que tecnologia de conexão sem fio pode ser usada para conectar fones de ouvido sem fio a um computador?",
+        "options": [
+          "NFC",
+          "Bluetooth",
+          "Wi-Fi",
+          "4G"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bluetooth é uma tecnologia de baixo consumo, sem fio e de curto alcance que fornece conectividade para acessórios como alto-falantes, fones de ouvido e microfones.",
+        "raw_id": "056ef31faf1d4489a3a26f89693442af"
+      }
+    ],
+    "m4": [
+      {
+        "question": "Verdadeiro ou falso?\nUm roteador doméstico normalmente só oferece acesso com fio à rede. Você precisa comprar um dispositivo separado para acesso sem fio.",
+        "options": [
+          "verdadeiro",
+          "falso"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nA resposta correta é falsa. Normalmente, uma rede doméstica usa um roteador integrado equipado com recursos com e sem fio.",
+        "raw_id": "862b011ebfab459f847309728f71e347"
+      },
+      {
+        "question": "Qual das opções a seguir é usada para conectar um dispositivo com fio ao switch interno do roteador doméstico?",
+        "options": [
+          "Porta Ethernet",
+          "porta Internet",
+          "Porta sem fio",
+          "PORTA DE ADAPTADOR DE ENERGIA"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nAs portas Ethernet se conectam à parte interna do switch do roteador. Essas portas são geralmente rotuladas como \"Ethernet\" ou \"LAN\".",
+        "raw_id": "28808f9fcae34c758e073c08864be301"
+      },
+      {
+        "question": "Verdadeiro ou falso?\nDeterminadas áreas do espectro eletromagnético podem ser usadas sem permissão.",
+        "options": [
+          "verdadeiro",
+          "falso"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nA resposta correta é verdadeira. Determinadas áreas do espectro foram reservadas para permitir a utilização pública sem a restrição de ter que solicitar autorizações especiais.",
+        "raw_id": "6860afb3bcec43a583625657cbc2c0aa"
+      },
+      {
+        "question": "Verdadeiro ou falso?\nWi-Fi, Bluetooth e telefones sem fio usam os mesmos intervalos de frequência.",
+        "options": [
+          "verdadeiro",
+          "falso"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nA resposta correta é falsa. O Wi-Fi usa duas faixas de frequência diferentes: 2,4 GHz e 5 GHz. O Bluetooth também usa a faixa de frequência de 2,4 GHz. No entanto, os telefones sem fio operam em uma faixa de frequência ~ 900 MHz mais baixa.",
+        "raw_id": "27bdb7e3ee614c85a8f18baaebde8dbd"
+      },
+      {
+        "question": "Qual tecnologia de rede com fio tem um fio interno envolto por uma camada isolante tubular, que é, então, envolto por uma blindagem condutiva tubular.",
+        "options": [
+          "Cabo categoria 5 (Cat5)",
+          "Cabo coaxial",
+          "Cabo de fibra ótica"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nO cabo coaxial possui um fio interno circundado por uma camada isolante tubular, que é então circundada por uma blindagem condutora tubular.",
+        "raw_id": "d3d85f7fee1247108424bcc9849081b8"
+      },
+      {
+        "question": "Qual organização é responsável por testar os dispositivos de LAN sem fio?",
+        "options": [
+          "IEEE",
+          "Wi-Fi Alliance",
+          "IETF",
+          "TIA/EIA"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nO Wi-Fi Alliance, é responsável por testar dispositivos de LAN sem fio de diferentes fabricantes.",
+        "raw_id": "47d4c914639146a0a46d828fb108fadb"
+      },
+      {
+        "question": "O que é usado para identificar uma rede sem fio?",
+        "options": [
+          "Identificador do Conjunto de Serviços (SSID – Service Set Identifier)",
+          "O endereço de rede.",
+          "o endereço IP do roteador",
+          "o modo de rede."
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nO SSID é usado para identificar o nome da rede sem fio. É basicamente o nome da rede.",
+        "raw_id": "f9dceb67b63843a0b2afac7ea8af4c41"
+      },
+      {
+        "question": "Verdadeiro ou falso?\nSe houver dispositivos na rede sem fio que usem uma variedade de diferentes padrões 802.11, então você deve definir a rede para o padrão mais alto para obter a melhor taxa de transferência.",
+        "options": [
+          "verdadeiro",
+          "falso"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nA resposta correta é falsa. A rede deve ser configurada para o modo misto para incluir dispositivos que usem qualquer um dos padrões de Wi-Fi atuais.",
+        "raw_id": "82a3ed8faf2f47eb80cd30500e3cfc9e"
+      },
+      {
+        "question": "Que tipo de comunicação sem fio se baseia nos padrões 802.11?",
+        "options": [
+          "Wi-Fi",
+          "WAN por Celular",
+          "Bluetooth",
+          "Infravermelho"
+        ],
+        "correctIndex": 0,
+        "explanation": "Os padrões IEEE 802.11 definem as especificações de LAN sem fio Wi-Fi.",
+        "raw_id": "78b07fa9c81043dd9ea3175639104576"
+      },
+      {
+        "question": "Qual configuração de roteador sem fio impediria que intrusos usassem sua rede doméstica?",
+        "options": [
+          "Endereço IP",
+          "criptografia",
+          "o local dos roteadores",
+          "nome da rede"
+        ],
+        "correctIndex": 1,
+        "explanation": "A criptografia configurada no roteador sem fio pode fornecer comunicações seguras e impedir que intrusos usem sua rede doméstica.",
+        "raw_id": "3c5644388d0e4249a2270d545b71f3f2"
+      },
+      {
+        "question": "Que tipo de dispositivo geralmente é conectado às portas Ethernet em um roteador sem fio doméstico?",
+        "options": [
+          "modem DSL",
+          "cable modem",
+          "antena sem fio",
+          "dispositivo LAN"
+        ],
+        "correctIndex": 3,
+        "explanation": "Os dispositivos de rede de área local (LAN) normalmente são conectados às portas Ethernet de um roteador sem fio para se comunicarem na mesma rede com fio local.",
+        "raw_id": "7149c6b88f284ef9be3933797331937d"
+      },
+      {
+        "question": "Que tipo de tecnologia de rede é usada para a comunicação de baixa velocidade entre dispositivos periféricos?",
+        "options": [
+          "Bluetooth",
+          "Ethernet",
+          "802.11",
+          "próprios e adquiridos"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bluetooth é uma tecnologia de conexão sem fio que usa a frequência de 2,4 GHz para conectar dispositivos periféricos em uma conexão de curta distância e de baixa velocidade.",
+        "raw_id": "a4eaaad8e00740f5bcaf89e70d55aefb"
+      },
+      {
+        "question": "O que pode ser usado para permitir que dispositivos móveis visitantes se conectem a uma rede sem fio e restrinja o acesso desses dispositivos somente à Internet?",
+        "options": [
+          "filtragem de endereços MAC",
+          "SSID de convidado",
+          "criptografia",
+          "autenticação"
+        ],
+        "correctIndex": 1,
+        "explanation": "Muitos roteadores sem fio oferecem suporte a um SSID de convidado especial que permite que dispositivos não confiáveis acessem a Internet, mas restringem o acesso deles aos recursos de rede local.",
+        "raw_id": "12aaf53faba64a3fa47dd14b4af64383"
+      },
+      {
+        "question": "Qual seria o objetivo de um usuário doméstico ter implementado WiFi?",
+        "options": [
+          "para ouvir várias estações de rádio",
+          "para conectar um teclado a um PC",
+          "para conectar fones de ouvido sem fio a um dispositivo móvel",
+          "para criar uma rede sem fio que pode ser usada por outros dispositivos"
+        ],
+        "correctIndex": 3,
+        "explanation": "Uma rede WiFi ou LAN sem fio é usada para se conectar a um roteador sem fio que, por sua vez, se conecta à Internet. Os dispositivos sem fio conectam-se à rede WiFi pelo roteador sem fio.",
+        "raw_id": "ea64cf01767547918113821dc1cbc9e9"
+      },
+      {
+        "question": "Qual é o outro termo para a porta de Internet de um roteador sem fio?",
+        "options": [
+          "porta WAN",
+          "porta LAN",
+          "porta local",
+          "porta do switch"
+        ],
+        "correctIndex": 0,
+        "explanation": "A porta da Internet de um roteador sem fio também pode ser conhecida ou rotulada como a porta WAN. Esta porta conecta o roteador para a Internet  usado modem DSL ou a cabo.",
+        "raw_id": "0f43847b54334e26b398e0cfbdd1c4d7"
+      },
+      {
+        "question": "Que tipo de cabo de rede consiste em 4 pares de fios trançados?",
+        "options": [
+          "Categorias  5e",
+          "coaxial",
+          "Ethernet sobre linha de energia (Ethernet sobre powerline)",
+          "Fibra Óptica"
+        ],
+        "correctIndex": 0,
+        "explanation": "O cabo de categoria 5e, que é um cabo de par trançado não blindado, consiste em 4 pares de fios trançados para reduzir a interferência elétrica.",
+        "raw_id": "3477a8a5956940fcb8fad023dfcc7fb3"
+      },
+      {
+        "question": "Qual é a configuração padrão para broadcast em um  roteador sem fio?",
+        "options": [
+          "Habilitado",
+          "Desabilitado",
+          "Automático",
+          "Desativado"
+        ],
+        "correctIndex": 0,
+        "explanation": "Quando um roteador sem fio está sendo configurado, a configuração padrão para o broadcast SSID é ativada. Isso significa que o roteador sem fio transmitirá o SSID para todos os dispositivos. Isso pode ser uma preocupação de segurança e a melhor prática é desativar a configuração de broadcast.",
+        "raw_id": "c699b23e85e2488f9d7e4032581c5269"
+      },
+      {
+        "question": "Qual é uma característica do SSID da rede?",
+        "options": [
+          "Ele é case sensitive",
+          "Ele contém exatamente 16 caracteres.",
+          "Ele é criptografado por padrão",
+          "Isso só é necessário para acesso para convidados."
+        ],
+        "correctIndex": 0,
+        "explanation": "O SSID é o nome da rede e faz distinção entre maiúsculas e minúsculas. Pode conter até 32 caracteres. Todos os computadores que se conectam à rede sem fio devem saber o SSID.",
+        "raw_id": "ffb4eb53b9f7411bbb9d0606a702a908"
+      }
+    ],
+    "m5": [
+      {
+        "question": "Bianka, uma viajante polaca em Hanói, no Vietnã, para e pergunta a Nguyệt como chegar ao templo de Ngoc Son. Eles se comunicam verbalmente e determinam que os dois falam inglês. Depois de receber instruções em inglês para chegar no templo, Bianka as repete para Nguyệt. Nguyệt diz: \"Sim, isso está correto.\" Selecione a ordem dos protocolos de comunicação usados neste cenário?",
+        "options": [
+          "confirmação, método, idioma",
+          "idioma, método, confirmação",
+          "método, confirmação, idioma",
+          "método, idioma, confirmação"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nBianka e Nguyệt primeiro decidiram sobre o método de comunicação (verbal). Então eles determinaram que ambos falam inglês (idioma). Por fim, Bianka repetiu as instruções (confirmação).",
+        "raw_id": "2e8b321f12354a2b84987d11e421dbba"
+      },
+      {
+        "question": "Rory está estudando os campos dentro de um quadro Ethernet para um próximo teste e percebe que o endereço MAC (Media Access Control) de destino é listado primeiro antes do endereço MAC de origem. Qual das seguintes características de protocolo que Rory está investigando?",
+        "options": [
+          "encapsulamento",
+          "temporização",
+          "codificação",
+          "temporização de mensagem",
+          "padrão de mensagem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nOs protocolos de rede geralmente têm algum tipo de informação de endereçamento para indicar a origem e o destino da mensagem.",
+        "raw_id": "e5ee2fc70b0047b5b44c0dd77cb296c7"
+      },
+      {
+        "question": "À medida que Rory continua estudando Ethernet, ele descobre que um quadro pode normalmente ter de 64 a 1518 bytes de informações que são convertidas em uma série de bits antes de serem enviadas para a rede. Quais são as duas características do protocolo Ethernet que Rory aprendeu?",
+        "options": [
+          "padrão de mensagem",
+          "temporização",
+          "codificação",
+          "encapsulamento",
+          "tamanho da mensagem"
+        ],
+        "correctIndex": 4,
+        "explanation": "Está certo.\nOs protocolos de rede normalmente especificam o tamanho máximo de uma mensagem. No caso do Ethernet, também há um tamanho mínimo de 64 bytes. Além disso, o Ethernet especifica um método para codificar os bits para que o destino possa decodificar a mensagem.",
+        "raw_id": "b593eb6ad1944846bfa92f92954b8428"
+      },
+      {
+        "question": "As regras que regem as comunicações de rede, incluindo o formato, o tamanho, o tempo e o encapsulamento, são conhecidas como:",
+        "options": [
+          "codificação",
+          "sinalização",
+          "mensagens",
+          "protocolos"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nProtocolos são as regras que regem as comunicações de rede, incluindo o formato, o tamanho, a temporização e o encapsulamento da mensagem.",
+        "raw_id": "f76a102274e14a2e807c0cee14f44562"
+      },
+      {
+        "question": "A IETF (Internet Engineering Task Force) registra e publica padrões da Internet em documentos conhecidos como:",
+        "options": [
+          "Request for Comments (RFC)",
+          "Internet Protocol Standards (IPS)",
+          "Internet Specification Standards (ISS)",
+          "IETF Standards Documentos (ISD)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nO IETF publica padrões da Internet conhecidos como RFCs.",
+        "raw_id": "3622b184021d4d44963096c10cc263d9"
+      },
+      {
+        "question": "Que protocolo é responsável por garantir a entrega confiável de informações?",
+        "options": [
+          "HTTP",
+          "TCP",
+          "IP",
+          "Ethernet"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nO Transport Control Protocol (TCP) é responsável por garantir a entrega confiável.",
+        "raw_id": "4f6f2b8d6ec9428eb934d45b34ed583b"
+      },
+      {
+        "question": "Qual protocolo é usado pelos roteadores para encaminhar mensagens?",
+        "options": [
+          "HTTP",
+          "TCP",
+          "IP",
+          "Ethernet"
+        ],
+        "correctIndex": 2,
+        "explanation": "Está certo.\nO protocolo Internet (IP) é usado pelos roteadores para encaminhar mensagens.",
+        "raw_id": "29a43713c7ec4a6c9b824b196ed25029"
+      },
+      {
+        "question": "Quais duas camadas do modelo OSI mapeiam diretamente para uma  camada única de acesso à rede no modelo TCP IP? (Escolha duas)",
+        "options": [
+          "aplicação",
+          "apresentação",
+          "sessão",
+          "transporte",
+          "rede",
+          "enlace de dados",
+          "físico"
+        ],
+        "correctIndex": 6,
+        "explanation": "Está certo.\nAs camadas de rede e enlace de dados corrspondem à camada de acesso à rede do modelo TCP/IP.",
+        "raw_id": "d39e676ab5b844978b85379b720c2279"
+      },
+      {
+        "question": "O endereçamento IP ocorre em qual camada do modelo OSI?",
+        "options": [
+          "aplicação",
+          "apresentação",
+          "sessão",
+          "transporte",
+          "rede",
+          "enlace de dados",
+          "físico"
+        ],
+        "correctIndex": 4,
+        "explanation": "Está certo.\nEndereçamento IP ocorre na camada de rede.",
+        "raw_id": "8309d8100c5047d79f28cc1b78fd365f"
+      },
+      {
+        "question": "Qual é a finalidade da camada física do modelo OSI?",
+        "options": [
+          "controle de acesso ao meio",
+          "transmissão de bits no meio físico local",
+          "detecção de erros nos quadros recebidos",
+          "troca de quadros entre nós no meio físico de rede física"
+        ],
+        "correctIndex": 1,
+        "explanation": "A camada física é responsável por transmitir os sinais reais através do meio físico em forma de bits. Troca de quadros, controle de acesso ao meio e detecção de erros são funções da camada de Enlace de Dados.",
+        "raw_id": "c8b1bddc934245b6872002b9d6cdc334"
+      },
+      {
+        "question": "Qual afirmação sobre protocolos de rede está correta?",
+        "options": [
+          "Os protocolos de rede definem o tipo de hardware usado e como este é montado em racks.",
+          "Eles definem como as mensagens são trocadas entre a origem e o destino.",
+          "Todos eles funcionam na camada de acesso à rede do TCP/IP.",
+          "Eles são necessários apenas para troca de mensagens entre dispositivos em redes remotas."
+        ],
+        "correctIndex": 1,
+        "explanation": "Os protocolos de rede são implementados em hardware, software ou ambos. Eles interagem entre si em diferentes camadas de uma pilha de protocolos. Os protocolos não têm nada a ver com a instalação do equipamentos de rede. Os protocolos de rede são necessários para a troca de informações entre dispositivos de origem e destino em redes locais e remotas",
+        "raw_id": "a39fad51bba94c2ba0042ee6e0abaad0"
+      },
+      {
+        "question": "Quais são os três acrônimos/siglas que representam as organizações padronizadoras? (Escolha três.)",
+        "options": [
+          "IANA",
+          "TCP/IP",
+          "IEEE",
+          "IETF",
+          "OSI",
+          "MAC"
+        ],
+        "correctIndex": 3,
+        "explanation": "O TCP/IP é uma pilha de protocolos que contém muitos outros protocolos, como HTTP, FTP e DNS. A pilha de protocolos TCP/IP é necessária para a comunicação na Internet. Um endereço MAC é um endereço que é gravado em uma placa de rede Ethernet. OSI é o modelo de sete camadas usado para explicar o funcionamento das redes.",
+        "raw_id": "05db9d14d274493db75a684fefb3d30d"
+      },
+      {
+        "question": "Qual termo de rede descreve um conjunto específico de regras em uma camada que rege a comunicação nessa camada?",
+        "options": [
+          "duplex",
+          "encapsulamento",
+          "Verificação de erros",
+          "protocolo"
+        ],
+        "correctIndex": 3,
+        "explanation": "Um protocolo dita como uma mensagem é formatada e define as regras em partes específicas do processo de comunicação.",
+        "raw_id": "73c8417f6c6b4b58b84d4876fa9bdb05"
+      },
+      {
+        "question": "Qual camada do modelo OSI define serviços para segmentar e remontar os dados das comunicações entre os dispositivos finais:",
+        "options": [
+          "aplicação",
+          "apresentação",
+          "sessão",
+          "transporte",
+          "rede"
+        ],
+        "correctIndex": 3,
+        "explanation": "O modelo OSI consiste em sete camadas: aplicação, apresentação, sessão, transporte, rede, enlace de dados e física. A camada de transporte define serviços para segmentar, transferir e remontar os dados para comunicações individuais entre os dispositivos finais.",
+        "raw_id": "7147a6973b184c6da083bb149a9a6fbd"
+      },
+      {
+        "question": "Qual é a finalidade dos protocolos nas comunicações de dados?",
+        "options": [
+          "especificar a largura de banda do canal ou meio físico para cada tipo de comunicação",
+          "especificar os sistemas operacionais dos dispositivos que suportam a comunicação",
+          "fornecer as regras necessárias para possibilitar um tipo específico de comunicação",
+          "exibir o conteúdo da mensagem enviada durante a comunicação"
+        ],
+        "correctIndex": 2,
+        "explanation": "Os protocolos fornecem as regras que definem como uma mensagem é transmitida em uma rede. Os requisitos de implementação, como detalhes eletrônicos e de largura de banda para a comunicação de dados, são especificados por padrões. Os sistemas operacionais não são especificados por protocolos, mas implementam os protocolos. Os protocolos determinam como e quando enviar uma mensagem, mas não controlam o conteúdo da mensagem.",
+        "raw_id": "a1944509de244ef3b7e80788a1d864db"
+      },
+      {
+        "question": "Qual termo se refere ao conjunto de regras que definem como uma rede opera?",
+        "options": [
+          "padrão",
+          "protocolo",
+          "modelo",
+          "domínio"
+        ],
+        "correctIndex": 0,
+        "explanation": "Os padrões garantem que dispositivos diferentes conectados à rede consigam se comunicar entre si. Em redes, há muitos padrões que definem como a rede deve operar e que todos os componentes implementem os mesmos protocolos.",
+        "raw_id": "b6778e7c262346d688a36e4d7a65d559"
+      },
+      {
+        "question": "Quais são as três camadas de modelos OSI que comõem a camada da aplicação do modelo TCP/IP? (Escolha três.)",
+        "options": [
+          "enlace de dados",
+          "rede",
+          "transporte",
+          "sessão",
+          "apresentação",
+          "aplicação"
+        ],
+        "correctIndex": 5,
+        "explanation": "As três camadas superiores do modelo OSI, sessão, apresentação e aplicação, são mapeadas para as funções da única camada de aplicação TCP/IP.",
+        "raw_id": "5a7c0873404a41f7bf93906f8fb7eb77"
+      },
+      {
+        "question": "Qual organização publica e gerencia os documentos Request for Comments (RFC)?",
+        "options": [
+          "IEEE",
+          "ISO",
+          "IETF",
+          "TIA/EIA"
+        ],
+        "correctIndex": 2,
+        "explanation": "A organização Internet Engineering Task Force (IETF) publica e gerencia o Request For Comments (RFC).",
+        "raw_id": "cfe6f1e8439440c9ba22e1f846007345"
+      },
+      {
+        "question": "Quais duas camadas do modelo OSI têm a mesma funcionalidade que uma única camada do modelo TCP/IP?(Escolha duas.)",
+        "options": [
+          "enlace de dados",
+          "rede",
+          "físico",
+          "sessão",
+          "transporte"
+        ],
+        "correctIndex": 2,
+        "explanation": "As camadas de enlace de dados e física do modelo OSI juntas equivalem à camada de acesso à rede do TCP/IP. A camada de transporte do modelo OSI é funcionalmente equivalente à camada de transporte do TCP/IP e a camada de rede do modelo OSI é equivalente à camada de Internet do TCP/IP. As camadas de aplicação, apresentação e sessão OSI são funcionalmente equivalentes à camada de aplicação no modelo TCP/IP.",
+        "raw_id": "300fef0b2b9b4aa6a0283482194abebf"
+      }
+    ],
+    "m6": [
+      {
+        "question": "Qual das seguintes opções NÃO é um critério para escolher uma mídia de rede?",
+        "options": [
+          "O tipo de dados que pode ser transmitido",
+          "A distância máxima que a mídia pode transportar com sucesso um sinal",
+          "O custo da instalação da mídia",
+          "O ambiente no qual a mídia foi instalada"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nOs critérios para escolher uma mídia de rede incluem a distância máxima de transmissão, o ambiente, a quantidade e a velocidade dos dados a serem transmitidos e o custo da mídia e da instalação.",
+        "raw_id": "bd0606ede81a489ca78a3b0b782e62e8"
+      },
+      {
+        "question": "Qual é o tipo mais comum de mídia com fio usada pelas empresas de TV para conectar e transmitir sinais para um decodificador em uma residência?",
+        "options": [
+          "cabo de par trançado",
+          "cabo coaxial",
+          "cabo de fibra ótica"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nO cabo coaxial é o tipo mais comum de mídia usado pelas empresas de TV a cabo.",
+        "raw_id": "7b0ef6183a41412cb90ec2917b9eca1d"
+      },
+      {
+        "question": "Que tipo de mídia com fio é usada para transportar informações digitais em velocidades muito altas por longas distâncias?",
+        "options": [
+          "cabo de par trançado",
+          "cabo coaxial",
+          "cabo de fibra ótica"
+        ],
+        "correctIndex": 2,
+        "explanation": "Está certo.\nO cabo de fibra óptica é usado para transportar informações digitais em velocidades muito altas em longas distâncias.",
+        "raw_id": "e4b0c0184b48463d8945fba1ef6fccfc"
+      },
+      {
+        "question": "Qual é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet?",
+        "options": [
+          "cabo de par trançado",
+          "cabo coaxial",
+          "cabo de fibra ótica"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nO cabo de par trançado é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet.",
+        "raw_id": "021da227084d4e68a61d7575264e6b0e"
+      },
+      {
+        "question": "Um técnico de rede está estendendo a rede do edifício principal por várias centenas de metros até uma nova estação de segurança. A estação de segurança precisa de uma conexão de alta velocidade para oferecer suporte à vigilância por vídeo do edifício principal. Que tipo de cabo é mais adequado para conectar a estação de segurança ao restante da rede do escritório principal?",
+        "options": [
+          "coaxial",
+          "Fibra Óptica",
+          "par trançado blindado (STP)",
+          "par trançado não blindado"
+        ],
+        "correctIndex": 1,
+        "explanation": "O cabo de fibra óptica pode transmitir sinais a distâncias de vários quilômetros. Como usa luz, a fibra é imune a RFI e EMI e é superior a sinais enviados por fiação de cobre ou alumínio.",
+        "raw_id": "13ab72bbef0045e8b7becce131132919"
+      },
+      {
+        "question": "Quais são as duas mídias comuns usadas nas redes? (Escolha duas.)",
+        "options": [
+          "cobre",
+          "água",
+          "nylon",
+          "fibra",
+          "madeira"
+        ],
+        "correctIndex": 3,
+        "explanation": "As mídias comuns usadas em redes incluem cobre, fibra ótica de plástico ou vidro e sem fio.",
+        "raw_id": "3e698d396b7042f3ac42afffef9a0ec4"
+      },
+      {
+        "question": "Que tipo de cabo de rede normalmente é usado para conectar computadores de escritório à rede local?",
+        "options": [
+          "cabo coaxial",
+          "cabo de par trançado",
+          "cabo de fibra ótica de vidro",
+          "cabo de fibra ótica de plástico"
+        ],
+        "correctIndex": 1,
+        "explanation": "O par trançado é um tipo de cabo de cobre usado para interconectar dispositivos em uma rede local.",
+        "raw_id": "2cbfa17496f543bf90c909100759ff1e"
+      },
+      {
+        "question": "Quais são os três fatores que devem ser considerados ao escolher mídias de rede adequadas? (Escolha três.)",
+        "options": [
+          "a velocidade da CPU e a quantidade de memória nos servidores",
+          "o ambiente no qual a mídia foi instalada",
+          "o requisito de segurança de dados e de tolerância a falhas",
+          "o volume de dados e a taxa de transferência de dados desejada",
+          "a distância entre os hosts que a mídia conectará",
+          "os sistemas operacionais usados em dispositivos de rede na rede"
+        ],
+        "correctIndex": 4,
+        "explanation": "Vários critérios devem ser considerados ao selecionar a mídia de rede:\nO custo da mídia e instalação\nO ambiente no qual a mídia foi instalada\nO volume de dados e a taxa de transferência de dados desejada\nA distância entre os hosts que a mídia conectará",
+        "raw_id": "da757bc2008d421e8ddba2ed0d6f1745"
+      },
+      {
+        "question": "Consulte o gráfico. Que tipo de cabeamento é mostrado?",
+        "options": [
+          "STP",
+          "UTP",
+          "coaxial",
+          "fibra"
+        ],
+        "correctIndex": 3,
+        "explanation": "O cabeamento de rede inclui diferentes tipos de cabos:\nO cabo UTP consiste em quatro pares de fios codificados por cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível.\nO cabo STP usa quatro pares de fios, cada um enrolado em uma blindagem de alumínio, que é então enrolada em uma trança ou folha metálica geral.\nO cabo coaxial usa um condutor de cobre e uma camada de isolamento plástico flexível envolve o condutor de cobre.\nO cabo de fibra é um fio de vidro flexível, extremamente fino e transparente cercado por isolamento plástico.",
+        "raw_id": "e0e0cd4ea37841618acfe69e25555143"
+      },
+      {
+        "question": "O que torna a fibra preferível ao cabeamento de cobre para interconexão de edifícios? (Escolha três.)",
+        "options": [
+          "distâncias maiores por cabo",
+          "menor custo de instalação",
+          "susceptibilidade limitada ao IME/RFI",
+          "conexões duráveis",
+          "maior potencial de largura de banda",
+          "terminada facilmente"
+        ],
+        "correctIndex": 4,
+        "explanation": "O cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. Diferentemente dos fios de cobre, o cabo de fibra óptica pode transmitir sinais com menos atenuação e é completamente imune à interferência de EMI e RFI.",
+        "raw_id": "e2c4eba80bdc4fba826d50c8ed137dc8"
+      },
+      {
+        "question": "Que tipo de mídia de rede transporta dados codificados em impulsos elétricos?",
+        "options": [
+          "Cabo de cobre",
+          "Mídia Sem Fio",
+          "cabo de fibra ótica",
+          "meios de comunicação celular"
+        ],
+        "correctIndex": 0,
+        "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+        "raw_id": "a0e35b2b9bcf40eabde8ca9d79e68569"
+      },
+      {
+        "question": "Quais dois tipos de mídia de rede transportam dados codificados em impulsos elétricos? (Escolha duas.)",
+        "options": [
+          "cabo coaxial",
+          "Mídia Sem Fio",
+          "cabo de par trançado",
+          "cabo de fibra ótica de vidro",
+          "cabo de fibra ótica de plástico"
+        ],
+        "correctIndex": 2,
+        "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet de par trançado e o cabo coaxial são dois tipos de cabos de cobre.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+        "raw_id": "2d261c63d6eb4b5290afb95dc9bb64c9"
+      },
+      {
+        "question": "Que tipo de mídia de rede transporta dados codificados em impulsos de luz?",
+        "options": [
+          "cabo coaxial",
+          "Mídia Sem Fio",
+          "cabo de fibra ótica",
+          "cabo de par trançado"
+        ],
+        "correctIndex": 2,
+        "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet trançado e o cabo coaxial são dois tipos de cabo de cobre.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+        "raw_id": "55b4d046e0054c6880477c73c0a2a6d9"
+      },
+      {
+        "question": "Um administrador de rede em um pequeno escritório está atualizando a rede local dentro do edifício. Novos cabos de rede são necessários para conectar computadores de escritório e dispositivos de rede. Qual mídia de rede o administrador deve usar?",
+        "options": [
+          "cabo coaxial",
+          "solução sem fio",
+          "cabo de fibra ótica",
+          "cabo de par trançado"
+        ],
+        "correctIndex": 3,
+        "explanation": "Os cabos Ethernet de par trançado são usados com mais frequência para conectar fisicamente dispositivos locais em um pequeno escritório à rede local em um edifício.",
+        "raw_id": "3e5cd0dd05dd428aac3c2b995c5007fd"
+      },
+      {
+        "question": "Qual é a finalidade de usar pares trançados de fios em um cabo Ethernet?",
+        "options": [
+          "para reduzir a interferência",
+          "para oferecer maior largura de banda",
+          "identificar caminhos de fluxo de dados",
+          "para garantir que a transmissão de sinais elétricos se estenda a uma distância maior"
+        ],
+        "correctIndex": 0,
+        "explanation": "A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Em um cabo de par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência.",
+        "raw_id": "497456f18edf4876a9e2422098ea4a27"
+      }
+    ],
+    "m7": [
+      {
+        "question": "O processo de anexar informações de protocolo com informações de outro protocolo é chamado:",
+        "options": [
+          "enquadramento",
+          "encapsulamento",
+          "codificação",
+          "empacotamento"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nEncapsulamento é o processo de anexar um prefixo de informações de protocolo, com informações de outro protocolo.",
+        "raw_id": "66b2d21917374a9fba6f8c2f4478b78b"
+      },
+      {
+        "question": "Quando um quadro Ethernet é enviado,  o endereço MAC de destino indica:",
+        "options": [
+          "O endereço MAC do dispositivo, que está nesta rede, que receberá o quadro Ethernet.",
+          "O endereço MAC da placa de rede (NIC) de um dispositivo que esteja nesta rede ou em outra rede e  que receberá o quadro Ethernet.",
+          "O endereço MAC da placa de rede (NIC) do dispositivo que enviou o quadro Ethernet.",
+          "O endereço MAC do roteador"
+        ],
+        "correctIndex": 0,
+        "explanation": "Está certo.\nQuando um quadro Ethernet é  enviado em  uma interface, o endereço MAC de destino indica o endereço MAC do dispositivo, que está nesta rede e que receberá o quadro Ethernet",
+        "raw_id": "718c839f271b4da6b5aba4cccd0315ed"
+      },
+      {
+        "question": "Qual campo do quadro Ethernet indica o início de um quadro Ethernet?",
+        "options": [
+          "Tipo/tamanho",
+          "Endereço MAC de destino",
+          "FCS",
+          "Preâmbulo e SFD"
+        ],
+        "correctIndex": 3,
+        "explanation": "Está certo.\nO preâmbulo e o Delimitador de Início de Quadro (SFD- Start Frame Delimiter) indicam o início de um quadro Ethernet.",
+        "raw_id": "0104c57138db476fa511c006ea9eb92e"
+      },
+      {
+        "question": "O protocolo Ethernet está em qual camada do modelo OSI?",
+        "options": [
+          "Camada 1 Física",
+          "Camada 2 Enlace de dados",
+          "Camada 3 Rede",
+          "Camada 4 Transporte"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nEthernet opera na camada 2, a camada de enlace de dados do modelo OSI.",
+        "raw_id": "3a5f3dd2fd264e31b9259ee346dd5207"
+      },
+      {
+        "question": "Os switches Ethernet tomam a decisão de encaminhamento com base em qual campo do quadro Ethernet?",
+        "options": [
+          "SFD (Delimitador de Início de Quadro)",
+          "Endereço MAC destino",
+          "Endereço MAC origem",
+          "Tipo/tamanho",
+          "FCS"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nOs switches Ethernet tomam sua decisão de encaminhamento com base no endereço MAC de destino.",
+        "raw_id": "2512b17f2058403297859c0d8560ee61"
+      },
+      {
+        "question": "Os switches Ethernet adicionam entradas à tabela de endereços MAC com base em qual campo do quadro Ethernet?",
+        "options": [
+          "SFD (Delimitador de Início de Quadro)",
+          "endereço MAC destino",
+          "Endereço MAC origem",
+          "Tipo/tamanho",
+          "FCS"
+        ],
+        "correctIndex": 2,
+        "explanation": "Está certo.\nOs switches Ethernet adicionam entradas à sua tabela de endereços MAC com base no endereço MAC de origem.",
+        "raw_id": "592bd40c1f3c407f9b8aa0bcfad10531"
+      },
+      {
+        "question": "Quando um switch recebe um quadro Ethernet e o endereço MAC de destino desse quadro não está em sua tabela de endereços MAC, o switch:",
+        "options": [
+          "Adciiona o endereço MAC de destino à tabela",
+          "Adiciona o endereço MAC de origem à tabela",
+          "Encaminha o quadro para todas as portas de saída exceto a porta pela qual recebeu o quadro",
+          "Descarta o quadro."
+        ],
+        "correctIndex": 2,
+        "explanation": "Está certo.\nAo receber um quadro de entrada com um endereço MAC de destino que não está listado na tabela de endereços MAC, o switch encaminha o quadro para todas as portas, exceto para a porta de entrada do quadro.",
+        "raw_id": "0d340e4493a44257aa0b6c0d58efef7a"
+      },
+      {
+        "question": "Os hubs Ethernet são considerados:",
+        "options": [
+          "inovadores",
+          "Obsoletos",
+          "um dispositivo de segurança",
+          "um dispositivo sem fio"
+        ],
+        "correctIndex": 1,
+        "explanation": "Está certo.\nOs hubs Ethernet são considerados obsoletos.",
+        "raw_id": "a2a5d178210b40f38c0b1f3d7a73b749"
+      },
+      {
+        "question": "O que um switch de Camada 2 fará quando o endereço MAC de destino de um quadro recebido não estiver na tabela MAC?",
+        "options": [
+          "Ele inicia uma solicitação ARP.",
+          "Ele transmite o quadro em broadcast, para fora, por todas as portas do switch.",
+          "Ele notifica o host, que originou o envio, de que o quadro não pode ser entregue.",
+          "Encaminha o quadro para todas as portas, exceto a porta na qual o quadro foi recebido."
+        ],
+        "correctIndex": 3,
+        "explanation": "Um switch de camada 2 determina como lidar com os quadros recebidos usando sua tabela de endereços MAC. Quando um quadro recebido contém um endereço MAC de destino que não está na tabela, o switch encaminha o quadro para todas as portas, exceto a porta na qual o quadro foi recebida.",
+        "raw_id": "6451d6b5d8774f2d98a4b07f25e0bd86"
+      },
+      {
+        "question": "Qual dispositivo de rede tem a função principal de enviar dados para um destino específico com base nas informações encontradas na tabela de endereços MAC?",
+        "options": [
+          "hub",
+          "roteador",
+          "switch",
+          "modem"
+        ],
+        "correctIndex": 2,
+        "explanation": "Se um endereço MAC for encontrado na tabela de endereços MAC, os dados serão enviados para a porta do switch associada. Se o endereço MAC não for encontrado na tabela de endereços MAC, os dados serão enviados para todas as portas de switch que têm dispositivos conectados à mesma rede.",
+        "raw_id": "02e3a657a90945ed8eb27aadf61fa103"
+      },
+      {
+        "question": "Que informações de endereçamento são registradas por um switch para construir sua tabela de endereços MAC?",
+        "options": [
+          "o endereço destino da camada 3 dos pacotes recebidos",
+          "o endereço destino da camada 2 dos quadros enviados",
+          "o endereço origem da camada 3 dos pacotes enviados",
+          "o endereço origem da camada 2 dos quadros recebidos"
+        ],
+        "correctIndex": 3,
+        "explanation": "Um switch cria uma tabela de endereços MAC inspecionando os quadros da camada 2 recebidos e registrando o endereço MAC de origem encontrado no cabeçalho do quadro. O endereço MAC detectado e registrado é então associado à porta usada para receber o quadro.",
+        "raw_id": "07b3f6dac3f243788e01696d036bbb99"
+      },
+      {
+        "question": "Qual é a finalidade do campo FCS em um quadro?",
+        "options": [
+          "para obter o endereço MAC do nó remetente",
+          "para verificar o endereço lógico do nó de envio",
+          "para calcular o cabeçalho CRC do campo de dados",
+          "para determinar se ocorreram erros na transmissão e recepção"
+        ],
+        "correctIndex": 3,
+        "explanation": "O campo FCS em um quadro é usado para detectar erros na transmissão e no recebimento de um quadro. Isso é feito ao comparar o valor de CRC contido no quadro com o valor calculado de CRC deste quadro. Se não houver correspondência entre os dois valores, o quadro será descartado.",
+        "raw_id": "ec7e5720ff6346ff833ac63edda15966"
+      },
+      {
+        "question": "Qual é uma função de um switch de Camada 2?",
+        "options": [
+          "encaminha dados com base em endereçamento lógico",
+          "duplica o sinal elétrico de cada quadro para cada porta",
+          "aprende a porta atribuída a um host examinando o endereço MAC de destino",
+          "determina qual interface é usada para encaminhar um quadro com base no endereço MAC de destino"
+        ],
+        "correctIndex": 3,
+        "explanation": "Um switch cria uma tabela MAC com endereços MAC e números de porta associados examinando o endereço MAC de origem encontrado nos quadros que chegam ao switch. Para encaminhar um quadro adiante, o switch examina o endereço MAC de destino, procura na tabela MAC o número de porta associado a esse endereço MAC de destino e o envia para a porta específica. Se o endereço MAC de destino não estiver na tabela, o switch encaminha o quadro para todas as portas, exceto a porta de entrada que recebeu o quadro.",
+        "raw_id": "3f3bc451568f41f6bc382f5e009a83b1"
+      },
+      {
+        "question": "Quais informações um switch usa para manter as informações da tabela de endereços MAC atualizadas?",
+        "options": [
+          "o endereço MAC de destino e a porta de entrada",
+          "o endereço MAC de destino e a porta de saída",
+          "os endereços MAC de origem e destino e a porta de entrada",
+          "os endereços MAC de origem e destino e a porta de saída",
+          "o endereço MAC de origem e a porta de entrada"
+        ],
+        "correctIndex": 4,
+        "explanation": "Para manter a tabela de endereços MAC, o switch usa o endereço MAC de origem dos pacotes de entrada e a porta que os pacotes entram. O endereço de destino é usado para selecionar a porta de saída.",
+        "raw_id": "1a699005ddcc4a5fa557ebc7f76ef326"
+      },
+      {
+        "question": "Qual é o processo usado para inserir uma mensagem dentro de outra mensagem para a transferência da origem para o destino?",
+        "options": [
+          "controle de acesso",
+          "decodificação",
+          "encapsulamento",
+          "controle de fluxo",
+          "o endereço MAC de origem e a porta de entrada"
+        ],
+        "correctIndex": 2,
+        "explanation": "Encapsulamento é o processo de inserir um formato de mensagem dentro de outro formato de mensagem. Um exemplo é a forma como um pacote é completamente inserido no campo de dados enquanto está encapsulado em um quadro.",
+        "raw_id": "d6ad1e863d074646824deba43521e3de"
+      },
+      {
+        "question": "Consulte a figura. A figura mostra uma pequena rede comutada e o conteúdo da tabela de endereços MAC do switch. O PC1 enviou um quadro com destino a PC3. O que o switch fará com o quadro?",
+        "options": [
+          "O switch descartará o quadro.",
+          "O switch encaminhará o quadro somente para a porta 2.",
+          "O switch encaminhará o quadro para todas as portas, exceto a porta 4.",
+          "O switch encaminhará o quadro para todas as portas.",
+          "O switch encaminhará o quadro apenas para as portas 1 e 3."
+        ],
+        "correctIndex": 2,
+        "explanation": "O endereço MAC do PC3 não está presente na tabela MAC do switch. Como o switch não sabe para onde enviar o quadro endereçado a PC3, ele encaminhará o quadro para todas as portas do switch, exceto a porta 4, que é a porta por onde o quadro foi recebido.",
+        "raw_id": "65c77ed48a01443c86f144ed15580584"
+      },
+      {
+        "question": "Quais são os três campos encontrados em um quadro Ethernet 802.3? (Escolha três.)",
+        "options": [
+          "endereço físico de origem",
+          "endereço lógico de origem",
+          "identificador do tipo de mídia",
+          "sequência de verificação de quadro (FCS)",
+          "endereço físico de destino",
+          "endereço lógico de destino"
+        ],
+        "correctIndex": 4,
+        "explanation": "Os campos de um quadro Ethernet são preâmbulo, endereço de destino e endereço de origem, comprimento, dados e FCS.",
+        "raw_id": "72afb3c67159405da8bf63e93dfcbfa6"
+      },
+      {
+        "question": "O que um host em uma rede Ethernet fará se receber um quadro com um endereço MAC de destino unicast que não corresponde ao seu próprio endereço MAC?",
+        "options": [
+          "Ele descartará o quadro.",
+          "Ele encaminhará o quadro para o próximo host.",
+          "Ele removerá o quadro da mídia.",
+          "Ele removerá o quadro de link de dados para verificar o endereço IP de destino."
+        ],
+        "correctIndex": 0,
+        "explanation": "Em uma rede Ethernet, cada NIC na rede verifica cada quadro que chega para verificar se o endereço MAC de destino no quadro corresponde ao seu próprio endereço MAC. Se não houver correspondência, o dispositivo descartará o quadro. Se houver uma correspondência, o NIC passa o quadro para a próxima camada OSI.",
+        "raw_id": "320216f1fdf1403db357d15157f0cd82"
+      },
+      {
+        "question": "Qual das afirmativas abaixo, relacionada a decisões de encaminhamento dos quadros de switch da Ethernet, está correta?",
+        "options": [
+          "As decisões de encaminhamento de quadros são baseadas no endereço MAC e nos mapeamentos de porta na tabela de endereços MAC.",
+          "Os quadros endereçados a endereços MAC desconhecidos são descartados.",
+          "Os switches constroem suas tabelas de endereços MAC com base no endereço MAC de destino dos quadros de entrada.",
+          "Os quadros unicast são sempre encaminhados, independentemente do endereço MAC de destino."
+        ],
+        "correctIndex": 0,
+        "explanation": "Os switches constroem suas tabelas de endereços MAC com base nos endereços MAC de origem dos quadros recebidos. Quadros de broadcast e quadros com um endereço MAC de destino que não está na tabela de endereços MAC são inundados por todas as portas ativas, exceto por aquela que recebeu o quadro. Os quadros unicast nem sempre são encaminhados. Não são encaminhados os quadros recebidos com um endereço MAC de destino associado à porta do switch que o recebeu, porque o destino está no segmento de rede conectado àquela porta.",
+        "raw_id": "82e149485881414fa51ae03aa4c6f89a"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3322 @@
+[
+  {
+    "_id": "c2fa7f841812439783dda9506bf0c039",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "c2fa7f841812439783dda9506bf0c039",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "317ea6404bdd47ff9510a1c0706c34da",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "18655f25-0504-4f20-bc4e-0b11bd6f6ab2",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "317ea6404bdd47ff9510a1c0706c34da",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "4e8df62d-df3f-47d6-9ff2-db9c30464d6a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fd5c493878ac43318afb04eadba354d5",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "fd5c493878ac43318afb04eadba354d5",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "41bcac003ac14ba5a1614651c948146e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "55c79ff6-a8d8-43d3-ad6d-d30fa458eeb0",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "41bcac003ac14ba5a1614651c948146e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "a769759e-e439-4ae3-bd9f-d4ecca6de460",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9cf61af197054ef69603218faf0e95c8",
+    "body": "<p>Kishori recebe um e-mail de Rina perguntando se elas podem se encontrar no refeitório para o almoço. Kishori conhece Rina e está ansiosa para lhe fazer mais algumas perguntas sobre redes. Rina está sempre feliz em compartilhar seu conhecimento. Quando Kishori estava conversando com Madhav, ela soube que seu departamento faz parte de uma LAN. Cada departamento dentro do hospital tem sua própria LAN. Kishori pergunta a Rina como ela consegue enviar e receber e-mails que estão fora de sua rede. Rina explica que os gateways e a Tradução de Endereço de Rede (NAT) possibilitam tudo isso. Rina está impressionada com o novo conhecimento e o interesse de Kishori pelas redes! Ela cita que há vários enfermeiros no hospital que têm esse conhecimento e recebem mais por serem capazes de solucionar os problemas dos aparelhos no quarto do paciente. Ela recomenda que Kishori faça alguns cursos para que ela possa se candidatar a essa promoção. Uau! Quem diria que os enfermeiros podem ser promovidos aprendendo tecnologia! </p><p>Este módulo ajudará a Kishori a entender gateways e NAT. Você quer saber mais? Vamos lá!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "9cf61af197054ef69603218faf0e95c8",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ea511c861b0344e7b2af208e7d982bde",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1eac9a8e-395d-408c-8215-26a9ee943953",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ea511c861b0344e7b2af208e7d982bde",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "6f811ecf-7d7f-48d1-9795-8d6eb91da89f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5d8ba6a165c24c8eaa9d51e0570930c6",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "5d8ba6a165c24c8eaa9d51e0570930c6",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/e2c1e304b86d4afc9b5ceb50c73a438a.png",
+      "small": "pt-BR/assets/e2c1e304b86d4afc9b5ceb50c73a438a.png",
+      "attribution": ""
+    },
+    "_parentId": "ea511c861b0344e7b2af208e7d982bde",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "c1a4a292-4332-4aa3-8dd1-4fb259df56f0",
+    "instruction": "",
+    "_oldParentId": "ea511c861b0344e7b2af208e7d982bde",
+    "displayTitle": "",
+    "_activityParentId": "6f811ecf-7d7f-48d1-9795-8d6eb91da89f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "52aaba916dc94f4ea6c388f79c4e91ad",
+    "body": "<p><strong>Título do módulo:</strong> Gateways para outras redes</p><p><strong>Objetivo do módulo:</strong> Explicar como os roteadores conectam as redes.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Limites de rede",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Descrever os limites da rede.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Tradução de Endereço de Rede",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar o propósito de Tradução de Endereço de Rede em redes pequenas.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "52aaba916dc94f4ea6c388f79c4e91ad",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "89bcf2d66da545ac8fbad8b0a8941139",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "4eee01fc-3c2a-4b22-a064-4ea6018588f6",
+    "_oldParentId": "89bcf2d66da545ac8fbad8b0a8941139",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "2760a596-3b57-49f3-b227-c8d2238e30ca",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "3e75e8514a5b4ec0aef427ee745d99af",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "3e75e8514a5b4ec0aef427ee745d99af",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "83735ddfa4f048e09b5e48bc73f9d2b3",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "f07574c4-df0e-4347-bad1-ef007a65cd13",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "83735ddfa4f048e09b5e48bc73f9d2b3",
+    "displayTitle": "",
+    "_activityParentId": "5c3f89e8-01bc-4960-af61-874e1ad18e2a"
+  },
+  {
+    "_id": "fc4de445617c4e29b25e225c82b81234",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Limites de rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Limites de rede",
+    "_oldId": "fc4de445617c4e29b25e225c82b81234",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1ef51652f87a418190d55d9b4f335e04",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e8568cdf-0b13-4ec6-a881-3dad23425808",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1ef51652f87a418190d55d9b4f335e04",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "457ece91-98d1-40e1-a832-fdddaa8b5d25",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "13b0774ff474406192e50e71178d86f2",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Limites da rede",
+    "_oldId": "13b0774ff474406192e50e71178d86f2",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "01913d66a1ac46758cd9621e9b87b05a",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c9c654bd-61a9-4893-908b-bb279af48c31",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "01913d66a1ac46758cd9621e9b87b05a",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "516f6072-9032-492c-9ba4-50fba5393843",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bfd6e12864cf4b8798d00d19ec55ef5a",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir o vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Gateways para outras redes",
+    "_oldId": "bfd6e12864cf4b8798d00d19ec55ef5a",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250019532001",
+    "videoIds": [
+      "aeacfe9d-0640-44fc-9ec4-23cf93cff2e9"
+    ],
+    "_parentId": "8430f4db123c470bb4d7f44585e6f38d",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": false
+    },
+    "_activityId": "394aa47e-de0c-4275-b2cb-9baf16e1da6b",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "8430f4db123c470bb4d7f44585e6f38d",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "32b62d07-8eec-4266-bbf6-9f6242b46ceb",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "68b8cd119b964eb98fbb6de3fabfc292",
+    "body": "<p>O roteador fornece um gateway pelo qual os hosts de uma rede podem se comunicar com hosts de diferentes redes. Cada interface em um roteador está conectada a uma rede separada.</p><p>O endereço IPv4 atribuído à interface identifica a rede local que está diretamente conectada a ele.</p><p>Todo host de uma rede deve usar o roteador como um gateway para outras redes. Portanto, cada host deve conhecer o endereço IPv4 da interface do roteador conectada à rede na qual o host está conectado. Esse endereço é conhecido como endereço de gateway padrão. Ele pode ser configurado estaticamente no host ou recebido dinamicamente por DHCP.</p><p>Quando um roteador sem fio está configurado para ser um servidor DHCP da rede local, ele envia automaticamente o endereço IPv4 correto da interface para os hosts como o endereço de gateway padrão. Dessa forma, todos os hosts na rede podem usar o endereço IPv4 para encaminhar mensagens aos hosts localizados no ISP e obter acesso a hosts na Internet. Os roteadores sem fio geralmente são definidos para serem servidores DHCP por padrão.</p><p>O endereço IPv4 dessa interface do roteador local passa a ser o endereço de gateway padrão para a configuração do host. O gateway padrão é fornecido estaticamente ou por DHCP.</p><p>Quando um roteador sem fio está configurado como servidor DHCP, ele fornece seu próprio endereço IPv4 interno como gateway padrão aos clientes DHCP. Também fornece a eles seu endereço IPv4 e sua máscara de sub-rede, como mostrado na figura.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Roteadores como Gateways",
+    "_oldId": "68b8cd119b964eb98fbb6de3fabfc292",
+    "details": {
+      "uuid": "20691bc0-e6e5-11ea-92cb-7be9d6b6de7d",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "text1"
+        },
+        {
+          "text": "Fronteira da Rede",
+          "class": "text2"
+        },
+        {
+          "text": "Cliente DHCP",
+          "class": "text3"
+        },
+        {
+          "text": "Endereço interno do gateway: <font color=\\\"#cc0000\\\">192.168.1.1</font><br/>\nMáscara de sub-rede: <font color=\\\"#0000ff\\\">255.255.255.0</font>",
+          "class": "text4"
+        },
+        {
+          "text": " Servidor DHCP ",
+          "class": "text5"
+        },
+        {
+          "text": "Endereço IPv4: <font color=\\\"#006600\\\">192.168.1.101</font><br/>\nMáscara de sub-rede: <font color=\\\"#0000ff\\\">255.255.255.0</font><br/>\nGateway padrão: <font color=\\\"#cc0000\\\">192.168.1.1</font>",
+          "class": "text6"
+        },
+        {
+          "text": "Host de Rede Local",
+          "class": "text7"
+        },
+        {
+          "text": "Gateway padrão",
+          "class": "text8"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/20691bc0-e6e5-11ea-92cb-7be9d6b6de7d/472dc63c-f9c6-4d74-baed-6bd99c7f5f94.css",
+      "aspect_ratio": "581/400",
+      "primary_image": "media/20691bc0-e6e5-11ea-92cb-7be9d6b6de7d/ce0ef9eb-30e0-4dde-9bf0-22d0d85d0da9.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f5f4692c68ea4a03b6493caab90cf648",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "e303ad95-8799-40bd-9294-e2c3baf3e770",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "f5f4692c68ea4a03b6493caab90cf648",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure is a topology. At the top is a cloud representing the Internet. It is connected to a Wireless router which is a DHCP server. This server is the network boundary. It is also the default gateway of the network. It is connected to a local network host which is also a DHCP client. A text block for the default gateway router reads Internal gateway address 192.168.1.1 and subnet mask 255.255.255.0. A text block for the local network host reads IP address 192.168.1.101 Subnet mask 255.255.255.0 and default gateway 192.168.1.1.",
+    "_activityParentId": "ce1a35d5-b937-477d-80b5-f481cb51dc92",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "3b930798dfb047af889a2e9af017f11f",
+    "body": "<p>O roteador sem fio atua como servidor DHCP para todos os hosts locais conectados a ele, por cabo de Ethernet ou sem fio. Esses hosts locais estão localizados em uma rede interna. A maioria dos servidores DHCP são configurados para atribuir endereços privados aos hosts na rede interna, em vez de endereços públicos roteáveis da Internet. Isso garante que, por padrão, a rede interna não possa ser acessada diretamente da Internet.</p><p>O endereço IPv4 padrão configurado na interface do roteador local sem fio geralmente é o primeiro endereço de host naquela rede. Os hosts internos devem receber endereços dentro da mesma rede do roteador sem fio, sejam eles configurados estaticamente ou através do DHCP. Quando configurado como um servidor DHCP, o roteador sem fio fornece endereços nesse intervalo. Ele também fornece informações de máscara de sub-rede e seu próprio endereço IPv4 da interface como gateway padrão, como mostrado na figura.</p><p>Muitos ISPs usam o servidor DHCP para fornecer endereços IPv4 do lado de Internet do roteador sem fio localizado nas instalações de clientes. A rede atribuída ao lado de Internet do roteador sem fio é conhecida como rede externa.</p><p>Quando um roteador sem fio está conectado a um ISP, ele atua como um cliente DHCP para receber o endereço IPv4 correto de rede externa para a interface de Internet. Os ISPs normalmente fornecem um endereço roteável pela Internet, o que permite que os hosts conectados ao roteador sem fio tenham acesso à Internet.</p><p>O roteador sem fio serve como limite entre a rede interna local e a Internet externa.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Roteadores como limites entre redes",
+    "_oldId": "3b930798dfb047af889a2e9af017f11f",
+    "details": {
+      "uuid": "2079e4a0-e6e5-11ea-92cb-7be9d6b6de7d",
+      "texts": [
+        {
+          "text": "Endereços privados internos",
+          "class": "text1"
+        },
+        {
+          "text": "Endereço IPv4: 192.168.1.3<br/>Máscara de sub-rede: 255.255.255.0<br/>Gateway padrão: 192.168.1.1",
+          "class": "text2"
+        },
+        {
+          "text": "Endereço IPv4: 192.168.1.4<br/>Máscara de sub-rede: 255.255.255.0<br/>Gateway padrão: 192.168.1.1",
+          "class": "text3"
+        },
+        {
+          "text": "DHCP<br/>Cliente",
+          "class": "text4"
+        },
+        {
+          "text": "DHCP<br/>Cliente",
+          "class": "text11"
+        },
+        {
+          "text": "DHCP<br/>Cliente",
+          "class": "text12"
+        },
+        {
+          "text": "Endereço IPv4: 192.168.1.2<br/>Máscara de sub-rede: 255.255.255.0<br/>Gateway padrão: 192.168.1.1",
+          "class": "text5"
+        },
+        {
+          "text": "Servidor DHCP<br/>Endereço privado interno<br/>192.168.1.1",
+          "class": "text6"
+        },
+        {
+          "text": "Servidor DHCP",
+          "class": "text7"
+        },
+        {
+          "text": "ISP",
+          "class": "text8"
+        },
+        {
+          "text": "Roteador sem fio",
+          "class": "text9"
+        },
+        {
+          "text": "Cliente DHCP<br/>Endereço público externo<br/>192.150.45.3",
+          "class": "text10"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2079e4a0-e6e5-11ea-92cb-7be9d6b6de7d/c29ffe04-a1d1-415a-9939-951b02c754af.css",
+      "aspect_ratio": "688/376",
+      "primary_image": "media/2079e4a0-e6e5-11ea-92cb-7be9d6b6de7d/a9df7d5e-9124-4258-ad15-c76c60b6d7bf.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "71f0c1dc10fa41ec826697ce130f4c4d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "ef179142-cae7-45ad-b0e3-37e59310b350",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "71f0c1dc10fa41ec826697ce130f4c4d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows a cloud with a DHCP server and an ISP router inside of it. To the right of the cloud is a wireless router. There are two text boxes for this router. One reads DHCP server Internal Private Address 192.168.1.1. The other box reads DHCP client External Public Address 192.150.45.3. This router is connected to 3 DHCP clients. The text box for the first client reads IP address 192.168.1.2 Subnet mask 255.255.255.0 Default gateway 192.168.1.1. The text box for the second client has the IP address of 192.168.1.3 with the same subnet mask and default gateway as the first client. The text box for the third client has the IP address of 192.168.1.4 and the same subnet mask and default gateway as the other clients. ",
+    "_activityParentId": "47602aaf-46f6-4530-8d86-f80b64a9ba3d",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "7a92a02eab884a13b519fcf96c4a758e",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "7a92a02eab884a13b519fcf96c4a758e",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "64d37c9444eb425f9b84fc91d0f5de46",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "a1f4bc17-242a-47b9-b5f5-dd77e5f68b31",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "64d37c9444eb425f9b84fc91d0f5de46",
+    "displayTitle": "",
+    "_activityParentId": "e32e96e4-f0fd-46e1-9e0f-a0d1c4222771",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a52ba610459d475f90d9bf3de12ce7c1",
+    "body": "<p>Para dois hosts que estão na mesma rede, quais das seguintes afirmações são verdadeiras? (Escolha três.)</p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Ambos os hosts terão o mesmo endereço MAC.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ambos os hosts terão o mesmo endereço IP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ambos os hosts terão o mesmo endereço de gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ambos os hosts terão diferentes endereços MAC.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ambos os hosts terão endereços IP diferentes.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ambos os hosts terão os diferentes endereços de gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a52ba610459d475f90d9bf3de12ce7c1",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Os hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Os hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.</p><p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c113d015356c4981822eab0905768ee9",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "a7afc80a-3bd4-4fc8-868d-6a83961b38f4",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Dois hosts na mesma LAN",
+      "_isEnabled": true,
+      "_onCorrectValue": 50,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "c113d015356c4981822eab0905768ee9",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "a52ba610459d475f90d9bf3de12ce7c1",
+    "_activityParentId": "ba950c8f-4a62-4d55-9f40-3dbc96af227b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "c8ed9204320b4c8fb18c29c7d3a7e207",
+    "body": "<p>Para dois hosts, cada um em uma rede diferente, quais das afirmações a seguir são verdadeiras? (Escolha três.)</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Ambos os hosts terão o mesmo endereço MAC.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ambos os hosts terão o mesmo endereço IP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ambos os hosts terão o mesmo endereço de gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ambos os hosts terão diferentes endereços MAC.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ambos os hosts terão endereços IP diferentes.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ambos os hosts terão os diferentes endereços de gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "c8ed9204320b4c8fb18c29c7d3a7e207",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir='ltr'>Os hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir='ltr'>Os hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.</p><p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e222639506b545f29bdc07fe52075637",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "88f402c3-2668-463e-a2df-f8c0344b0195",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Dois hosts em LANs diferentes",
+      "_isEnabled": true,
+      "_onCorrectValue": 50,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e222639506b545f29bdc07fe52075637",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "c8ed9204320b4c8fb18c29c7d3a7e207",
+    "_activityParentId": "d72937a1-8fd6-418f-a0fb-d66c03701ffc",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "1a30d79eb87747bcad59e47a943c3e6b",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "1a30d79eb87747bcad59e47a943c3e6b",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "365ffbd053f14554bcaa78292c3bda1e",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "44d6eeb3-1fe4-4cf6-866f-d2161d227668",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "365ffbd053f14554bcaa78292c3bda1e",
+    "displayTitle": "",
+    "_activityParentId": "832593f3-59cb-4e25-b7ce-d76999bf6ce1"
+  },
+  {
+    "_id": "afb0e52e073f4ffabfebb98f31c656e6",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Tradução de Endereço de Rede (NAT)</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tradução de Endereço de Rede (NAT)",
+    "_oldId": "afb0e52e073f4ffabfebb98f31c656e6",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "938c9ac1ad4b4c108eb8500ac2e3541e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "40e21e56-a7e0-40ff-b107-c504aa63894e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "938c9ac1ad4b4c108eb8500ac2e3541e",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "b16cb7b6-2e69-4d2f-b455-b3caeb7c1b91",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d4d2a1380220434fb26f1b3f8b2b6c75",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Tradução de Endereço de Rede (NAT)",
+    "_oldId": "d4d2a1380220434fb26f1b3f8b2b6c75",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a0823a09382542efb92147a965c1887e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5b00bbff-49c1-47f1-8909-19f29ad99c41",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a0823a09382542efb92147a965c1887e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "f3f204c3-ba8b-4aa9-a12e-54742dce0a18",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4e7bc56f1cb24ebf8d00aa52c6ae8d8f",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir o vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Vídeo - Introdução à NAT",
+    "_oldId": "4e7bc56f1cb24ebf8d00aa52c6ae8d8f",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250020348001",
+    "videoIds": [
+      "15622167-fc6b-426f-a018-9b5d5e264d00"
+    ],
+    "_parentId": "c6287608aca547dd9257188c8d1dc7bd",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": false
+    },
+    "_activityId": "bc7b9499-5dc7-4569-86a3-c580828a1a4f",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "c6287608aca547dd9257188c8d1dc7bd",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "2600d2a1-9a2b-4a3d-8b93-8a6b7a70c756",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "65cfa6982bb744f791f9cefe9f374daa",
+    "body": "<p>Nesta atividade, você completará os seguintes objetivos:</p><ul><li>Examinar a configuração da NAT em um roteador sem fio</li><li>Configurar 4 PCs para que se conectem a um roteador sem fio com DHCP</li><li>Examinar o tráfego que cruza a rede usando NAT</li><ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Packet Tracer – Examinando o NAT em um roteador sem fio",
+    "_items": [
+      {
+        "url": "pt-BR/assets/12.2.2--packet-tracer---examine-nat-on-a-wireless-router.pka_pt-BR_d8ac844d-e4a2-4ec4-aadf-07d83c097386.pka",
+        "_classes": "",
+        "_buttonText": "Examinando o NAT em um roteador sem fio",
+        "fileExtension": "pka",
+        "_closeButtonText": "Fechar",
+        "downloadFileName": "Examinando o NAT em um roteador sem fio",
+        "articleRenderingID": "13502bcd-94e8-4aa9-97f6-5cd482c4b8f0",
+        "_downloadHtmlButton": "Baixar HTML",
+        "downloadLinkButtonText": "Examinando o NAT em um roteador sem fio",
+        "isPageTracerPopupBtnEnable": true,
+        "isPacketTracerDownloadEnable": true
+      }
+    ],
+    "_oldId": "65cfa6982bb744f791f9cefe9f374daa",
+    "_layout": "full",
+    "_search": {
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "020c6fba16964a748d7bed48e5ef54b7",
+    "_component": "pageTracer",
+    "_isDeleted": false,
+    "_activityId": "01945d3b-a065-4cc0-9348-391bb2f0dd86",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "020c6fba16964a748d7bed48e5ef54b7",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "60edcf78-59fe-4742-95c8-5adcbfd436ab",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "1ad347c04ad64aaeb0d2a98cd17ea4d7",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "1ad347c04ad64aaeb0d2a98cd17ea4d7",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "co-10",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": true
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_parentId": "d39fba21f232481fa4ec7c749dd65778",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "none",
+    "_activityId": "3d9ce768-e5e4-44eb-a626-6669d2eb3caf",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "d39fba21f232481fa4ec7c749dd65778",
+    "displayTitle": "",
+    "_activityParentId": "0887ce9d-f9fe-4c89-a0de-a7b0867cb667"
+  },
+  {
+    "_id": "11bb79fba7194db097286c4a86663af5",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo: Gateways para Outras Redes</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo: Gateways para Outras Redes",
+    "_oldId": "11bb79fba7194db097286c4a86663af5",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "116e7e2ff60e418cb88080ed1b79ffd7",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2985c8d4-0f86-4327-b909-f50cf88a80a6",
+    "_isOptional": true,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "116e7e2ff60e418cb88080ed1b79ffd7",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "76813fab-9565-42c2-b03c-676e970741e5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4229ef0f9349435ab3775cede691198c",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo: Gateways para Outras Redes",
+    "_oldId": "4229ef0f9349435ab3775cede691198c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fe8e74f700fc4ccca206a39f5a359d6f",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "76f7fa11-af03-4ced-972c-5b498d9c04cc",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fe8e74f700fc4ccca206a39f5a359d6f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "111e172a-dc15-445a-a10b-ea701e83d2d8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2778e9fbed114362878ba56cd0455ad6",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>Todo host de uma rede deve usar o roteador como um gateway para outras redes. Portanto, cada host deve conhecer o endereço IPv4 da interface do roteador conectada à rede na qual o host está conectado. Esse endereço é conhecido como endereço de gateway padrão. Ele pode ser configurado estaticamente no host ou recebido dinamicamente por DHCP. </p><p>O roteador sem fio atua como servidor DHCP para todos os hosts locais conectados a ele, por cabo de Ethernet ou sem fio. Esses hosts locais estão localizados em uma rede interna. Quando um roteador sem fio está conectado a um ISP, ele atua como um cliente DHCP para receber o endereço IPv4 correto de rede externa para a interface de Internet. Os ISPs normalmente fornecem um endereço roteável pela Internet, o que permite que os hosts conectados ao roteador sem fio tenham acesso à Internet. O roteador sem fio serve como limite entre a rede interna local e a Internet externa.</p>",
+        "title": "Limites de rede",
+        "_comment": "Supported classes = 'align-image-left' | 'align-image-right'. Additional classes can be used but they must be predefined in one of the Less files"
+      },
+      {
+        "body": "<p>O roteador sem fio recebe um endereço público do ISP, que permite que ele envie e receba pacotes pela internet. Ele, por sua vez, fornece endereços privados para clientes da rede local.</p><p>O processo usado para converter endereços privados em endereços roteáveis pela Internet é chamado de NAT. Com o NAT, um endereço IPv4 de origem privado (local) é convertido em um endereço público (global). O processo é o inverso para pacotes que chegam. Usando NAT, o roteador sem fio é capaz de converter vários endereços IPv4 internos no mesmo endereço público.</p><p>Só precisam ser convertidos pacotes destinados para outras redes. Esses pacotes devem passar pelo gateway. Nele, o roteador sem fio substitui o endereço IPv4 privado do host de origem pelo seu próprio endereço IPv4 público.</p>",
+        "title": "Operação NAT",
+        "_classes": ""
+      }
+    ],
+    "_oldId": "2778e9fbed114362878ba56cd0455ad6",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "setCompletionOn = inview | allItems",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "0ac20d849b67485c98d03386fbd8eb6e",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "a9c81429-26d9-40a5-adbe-e0daf224a27d",
+    "instruction": "",
+    "_oldParentId": "0ac20d849b67485c98d03386fbd8eb6e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "0e47c5d4-e971-4591-b8e5-92c4bddb6d95",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "63a8c31d2d7a4512b2fe2ee9887d001b",
+    "body": "<p>Acontece que os endereços IPv4 nos dispositivos na minha rede doméstica são endereços privados que são usados apenas na minha LAN. Mas se eu precisar me aventurar além da minha rede doméstica, talvez acessar a Internet ou enviar um e-mail para alguém fora da minha rede, meu dispositivo precisará receber um endereço público. Como o roteador sabe se você está tentando obter acesso a um dispositivo ou site que esteja fora da LAN? Como você sabe que seu endereço privado foi traduzido para um endereço público?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "63a8c31d2d7a4512b2fe2ee9887d001b",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5f7f8f45679c45119cfb1b68066422b8",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "05751699-f6b5-4a14-b93c-18aea138dcd0",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5f7f8f45679c45119cfb1b68066422b8",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "fff4c743-9de9-481e-91fb-257afa0c3a20",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "26f7d70143784138bcba527cb4793d6a",
+    "body": "",
+    "_type": "component",
+    "_zoom": {
+      "_isEnabled": true
+    },
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "26f7d70143784138bcba527cb4793d6a",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "large": "pt-BR/assets/e2c1e304b86d4afc9b5ceb50c73a438a.png",
+      "small": "pt-BR/assets/e2c1e304b86d4afc9b5ceb50c73a438a.png",
+      "attribution": ""
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5f7f8f45679c45119cfb1b68066422b8",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "0b41105e-65b3-4769-863f-978c0393bf8d",
+    "_isOptional": true,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5f7f8f45679c45119cfb1b68066422b8",
+    "displayTitle": "",
+    "_activityParentId": "fff4c743-9de9-481e-91fb-257afa0c3a20",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c3bfa64149434ee99e6ebc04c41024de",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "c3bfa64149434ee99e6ebc04c41024de",
+    "_classes": "",
+    "_parentId": "1e8fece786de4d38b088d13ae8e12356",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "a28092e5-7c6e-485c-bf5e-055ae577f545",
+    "_isOptional": true,
+    "_oldParentId": "1e8fece786de4d38b088d13ae8e12356",
+    "_activityParentId": "32122df5-b446-4c9d-8a70-4983f0d7d602"
+  },
+  {
+    "_id": "55d292612a9046bf88f1b14855ffeef6",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "55d292612a9046bf88f1b14855ffeef6",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Quiz sobre Gateways para Outras Redes",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "9b8c3434a3934036a4281994b668bdad",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c575bd08-5a99-4096-b710-2a0662c513ed",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "9b8c3434a3934036a4281994b668bdad",
+    "displayTitle": "",
+    "_activityParentId": "9efd2305-7fdd-4019-a49d-9c2b0b37da72",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4fee8419bf6f42e3a74e240002b94326",
+    "body": "<p>Um computador tem de enviar um pacote para um host de destino na mesma LAN. Como o pacote será enviado?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "O pacote será enviado primeiro para o gateway padrão e, em seguida, dependendo da resposta do gateway, ele pode ser enviado para o host de destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O pacote será enviado diretamente para o host de destino.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "O pacote será enviado primeiro para o gateway padrão e, em seguida, a partir do gateway padrão, ele será enviado diretamente para o host de destino.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O pacote será enviado apenas para o gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "4fee8419bf6f42e3a74e240002b94326",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Se o host de destino estiver na mesma LAN que o host de origem, não há necessidade de um gateway padrão. Um gateway padrão é necessário se um pacote precisar ser enviado fora da LAN.</p>",
+      "_incorrect": {
+        "final": "<p>Se o host de destino estiver na mesma LAN que o host de origem, não há necessidade de um gateway padrão. Um gateway padrão é necessário se um pacote precisar ser enviado fora da LAN.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ba23bf48cad145e98615335114e9eed1",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c89c159a-aa2e-4572-b4ab-facd33ff3c68",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "ba23bf48cad145e98615335114e9eed1",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208837",
+    "_activityParentId": "bfb57f82-0228-4557-8622-bcead3f62289",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "f01c90d08d004505b96fc758fcf80e65",
+    "body": "<p>Normalmente, qual dispositivo de rede seria usado para executar  NAT em um ambiente corporativo?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "servidor DHCP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "dispositivo host",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "roteador",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "switch",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "f01c90d08d004505b96fc758fcf80e65",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Normalmente, a conversão de endereços IP privados para endereços IP públicos é realizada em roteadores em ambientes corporativos. Em um ambiente doméstico, esse dispositivo pode ser um access point com capacidade de roteamento ou o modem/router DSL ou o cable modem.</p>",
+      "_incorrect": {
+        "final": "<p>Normalmente, a conversão de endereços IP privados para endereços IP públicos é realizada em roteadores em ambientes corporativos. Em um ambiente doméstico, esse dispositivo pode ser um access point com capacidade de roteamento ou o modem/router DSL ou o cable modem.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b4d0e3eec5fb465ab480180f528d6c64",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "2397bcd2-5126-4d3f-991e-84a96ceb1a47",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "b4d0e3eec5fb465ab480180f528d6c64",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "212287",
+    "_activityParentId": "8fafc96a-1882-45c2-9ed8-f2fb8d33458b",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "80657b35a61e4f8f8a543c3fce45ae34",
+    "body": "<p>Quais características descrevem o gateway padrão de um host?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "o endereço lógico da interface do roteador na mesma rede que o host",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "o endereço físico da interface do switch conectada ao host",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o endereço físico da interface do roteador na mesma rede que o host",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o endereço lógico atribuído à interface do switch conectada ao roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "80657b35a61e4f8f8a543c3fce45ae34",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O gateway padrão é o endereço IP ds interface do roteador na mesma rede do host emissor.</p>",
+      "_incorrect": {
+        "final": "<p>O gateway padrão é o endereço IP ds interface do roteador na mesma rede do host emissor.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bbc2bf8a19c4194a0c6a8bba6b865f8",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "d4667769-9fcf-4e01-a6c1-c1704f8a5ee8",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bbc2bf8a19c4194a0c6a8bba6b865f8",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "271259",
+    "_activityParentId": "f7176b75-c794-4bd1-ba23-d502c82fc222",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "969e3ca655254c9fbb8fc91fe94873e0",
+    "body": "<p>Qual é a finalidade de configurar um endereço de gateway padrão em um host?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "fornecer um endereço permanente a um computador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "identificar a rede à qual um computador está conectado",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "identificar o endereço lógico de um computador na rede e identificá-lo de forma única para o restante da rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "identificar o dispositivo que permite que computadores de rede local se comuniquem com dispositivos em outras redes",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "969e3ca655254c9fbb8fc91fe94873e0",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando um host ou dispositivo precisa se comunicar com hosts ou dispositivos em outras redes, a configuração de um endereço de gateway padrão é necessária para que o host ou dispositivo possa enviar dados para redes remotas.</p>",
+      "_incorrect": {
+        "final": "<p>Quando um host ou dispositivo precisa se comunicar com hosts ou dispositivos em outras redes, a configuração de um endereço de gateway padrão é necessária para que o host ou dispositivo possa enviar dados para redes remotas.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2fd15caa7c0446e4bd49eed051ff94ed",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "862d3ff5-97db-4f1f-b25e-001dbdebe652",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2fd15caa7c0446e4bd49eed051ff94ed",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "287347",
+    "_activityParentId": "fa0251cc-0355-4daa-8974-e3de325565dd",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "22180bf3688241c4a1eab407be84a3fd",
+    "body": "<p>Se o gateway padrão está configurado incorretamente em um host, qual será o impacto nas comunicações?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "O host não consegue se comunicar com outros hosts na rede local.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O host não consegue se comunicar com hosts em redes remotas.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "O host não consegue se comunicar com hosts nas redes remota e local.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O host não consegue obter um endereço IP do servidor DHCP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "22180bf3688241c4a1eab407be84a3fd",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Na comunicação de dados, o dispositivo de gateway padrão é envolvido apenas quando um host precisa se comunicar com hosts em outra rede. O endereço de gateway padrão identifica um dispositivo de rede que um dispositivo host usa para se comunicar com dispositivos em outras redes. O dispositivo de gateway padrão não é usado quando um host se comunica com hosts na mesma rede.</p>",
+      "_incorrect": {
+        "final": "<p>Na comunicação de dados, o dispositivo de gateway padrão é envolvido apenas quando um host precisa se comunicar com hosts emoutra rede. O endereço de gateway padrão identifica um dispositivo de rede que um dispositivo host usa para se comunicar com dispositivos em outras redes. O dispositivo de gateway padrão não é usado quando um host se comunica com hosts na mesma rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a53d2ffdb37242059baa6c7dce84cfce",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "aec33819-64c8-4dba-abc7-76d7b7e9f78a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a53d2ffdb37242059baa6c7dce84cfce",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "287348",
+    "_activityParentId": "4ba759fe-9941-43ad-a325-02fe1f41cdf5",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "33b142bea7184e71ae5cdd5a6a051943",
+    "body": "<p>Quais dos três endereços de rede IPv4 são endereços IP privados? (Escolha três.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "10.0.0.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "172.32.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.157.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "172.16.0.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.0.0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "224.6.0.0",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "33b142bea7184e71ae5cdd5a6a051943",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os endereços de rede IPv4 privados reservados incluem 10.0.0.0 a 10.255.255.255, 172.16.0.0 a 172.31.255.255 e 192.168.0.0 a 192.168.255.255.</p>",
+      "_incorrect": {
+        "final": "<p>Os endereços de rede IPv4 privados reservados incluem 10.0.0.0 a 10.255.255.255, 172.16.0.0 a 172.31.255.255 e 192.168.0.0 a 192.168.255.255.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2dcbb88dde4b43779c32bf10e77a6d35",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "bde8b07d-2f3d-404a-b5de-d69c1838d3b4",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2dcbb88dde4b43779c32bf10e77a6d35",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410429",
+    "_activityParentId": "4cb59bf8-1778-40a3-b4f3-045903772857",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "fa7f9d4576da4dc6bd2551b39e215526",
+    "body": "<p>Qual é a finalidade de um NAT?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "permitir que hosts configurados com endereços IP públicos registrados acessem a Internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "traduzir endereços IP privados para um endereço IP público registrado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "rotear endereços IP privados pela internet pública",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "atribuir um endereço IP privado a um host para acesso à Internet",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "fa7f9d4576da4dc6bd2551b39e215526",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O NAT converte endereços IP privados internos do host em um ou mais endereços IP públicos registrados para que o host acesse sites pela Internet.</p>",
+      "_incorrect": {
+        "final": "<p>O NAT converte endereços IP privados internos do host em um ou mais endereços IP públicos registrados para que o host acesse sites pela Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c9638d64845d408da83644d1281bb876",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "e9851480-774f-448a-8349-144c53bf6549",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "c9638d64845d408da83644d1281bb876",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410430",
+    "_activityParentId": "77e7b4d9-8031-4c4f-bdbf-1129e509f654",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "ed5aa2720efe4702bc34588e21252f23",
+    "body": "<p>Qual é a principal vantagem de se usar NAT?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "permite que um grande grupo de usuários compartilhe um ou mais endereços IP públicos",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "permite que um grande grupo de usuários compartilhe o mesmo endereço IP privado em uma LAN",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "permite o mapeamento estático de endereços internos públicos para endereços externos privados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "permite o mapeamento dinâmico de endereços internos registrados para endereços externos privados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ed5aa2720efe4702bc34588e21252f23",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A tradução de endereço de rede (Network Address Translation - NAT) pode permitir que um grande grupo de hosts, endereçados de forma privada, compartilhe um ou mais endereços IP públicos registrados de modo a rotear os pacotes pela Internet.</p>",
+      "_incorrect": {
+        "final": "<p>A tradução de endereço de rede (Network Address Translation - NAT) pode permitir que um grande grupo de hosts, endereçados de forma privada, compartilhe um ou mais endereços IP públicos registrados de modo a rotear os pacotes pela Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "927930efabc34422a8ea363707c14bf6",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "a6394aaf-14c6-46ff-99ba-306cc888c898",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "927930efabc34422a8ea363707c14bf6",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410431",
+    "_activityParentId": "b64cc635-6109-42ea-875b-04252d79b447",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "53c515726f5344c0a4bac664a79a25fe",
+    "body": "<p>Quais são as três configurações que devem ser configuradas em um PC para que ele se comunique com os dispositivos localizados na Internet?  (Escolha três.)</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Endereço IP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "máscara de sub-rede",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "endereço do gateway padrão",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "endereço do servidor DHCP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "nome de host",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "53c515726f5344c0a4bac664a79a25fe",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Um PC precisa ser configurado com um endereco IP, mascara de subrede e um Gateway padrdo para ser capaz de se comunicar com outros dispositivos em Redes IP diferentes. Isso inclui dispositivos que sdo alcangaveis através da Internet.",
+      "_incorrect": {
+        "final": "Um PC precisa ser configurado com um endereco IP, mascara de subrede e um Gateway padrdo para ser capaz de se comunicar com outros dispositivos em Redes IP diferentes. Isso inclui dispositivos que sdo alcangaveis através da Internet.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cdd1c3f40d8e463da926e354d2944a04",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "5e858e2e-1773-4e50-a497-3d17a67c960c",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cdd1c3f40d8e463da926e354d2944a04",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410481",
+    "_activityParentId": "69891eb4-f6cc-4aa7-9298-1eb9d300ef75",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "35c02cc037bf41dea5be3338512a0666",
+    "body": "<p>A configuração padrão em um roteador sem fio doméstico fornece quais tipos de endereços para dispositivos usando DHCP?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Endereço IP privado",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "endereços IPv4 públicos registrados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereços IPv6 públicos registrados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "endereços MAC específicos do fornecedor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "35c02cc037bf41dea5be3338512a0666",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Por padrão, os roteadores sem fio domésticos distribuem endereços IPv4 privados para dispositivos na rede doméstica.  Esses endereços geralmente estão no intervalo reservado 192.168.0.0.</p>",
+      "_incorrect": {
+        "final": "<p>Por padrão, os roteadores sem fio domésticos distribuem endereços IPv4 privados para dispositivos na rede doméstica.  Esses endereços geralmente estão no intervalo reservado 192.168.0.0.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2c762a48b8d74aaf8db3290eab5c1dd8",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "1930f099-0f8a-4b04-ba37-00002f2cca3a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2c762a48b8d74aaf8db3290eab5c1dd8",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410484",
+    "_activityParentId": "d517324d-a745-4a30-882b-588196fcb892",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "6ede0287b7d64ba492fab527fc2f652e",
+    "body": "<p>Que tipo de dispositivo intermediário atua como um limite entre uma rede doméstica sem fio e a Internet?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "switch de Camada 2",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "access point",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Servidor DNS",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "roteador sem fio",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "6ede0287b7d64ba492fab527fc2f652e",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um roteador sem fio atua como um limite de rede para as redes IP conectadas.  A maioria dos roteadores sem fio de rede doméstica conecta uma LAN local endereçada de forma privada a uma rede IP externa conectada a um ISP.</p>",
+      "_incorrect": {
+        "final": "<p>Um roteador sem fio atua como um limite de rede para as redes IP conectadas.  A maioria dos roteadores sem fio de rede doméstica conecta uma LAN local endereçada de forma privada a uma rede IP externa conectada a um ISP.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e51d91a9013a473fb1a2fb6ce94f64be",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "7ad9f93d-3cda-4ddd-8036-6ebd8fa5f854",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e51d91a9013a473fb1a2fb6ce94f64be",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410491",
+    "_activityParentId": "401a1f50-6841-4fe9-94c1-34875c11adb0",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "df9d2a429af846eebe790951a3851227",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste!</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "df9d2a429af846eebe790951a3851227",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4aed6e74377146a5babdbc56dd5faf53",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "fe58722f-1620-4b10-a284-f6ebd29d60d0",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "4aed6e74377146a5babdbc56dd5faf53",
+    "displayTitle": "",
+    "_assessmentId": "e3b589b3e0e64cbeabb4b1667447f5f7",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "906596b6-3570-4e24-955e-8ceab2913dd8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "53738c6b3c5f45c792001f89cc36a156",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "53738c6b3c5f45c792001f89cc36a156",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "e87f229eb5564cf98948e29500ba22f8",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "d0667bad-4b1b-4a24-b288-b2a0177a6283",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "e87f229eb5564cf98948e29500ba22f8",
+    "displayTitle": "",
+    "_activityParentId": "a342b3a8-201a-48c9-bc7e-d96165096da1",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "320944e0-1208-4cde-9621-b52879dbcd06",
+    "body": "<h2><span lang=\"PT-BR\">Objetivos</span></h2> <p class=\"Bulletlevel1\"><span lang=\"PT-BR\" style=\"font-size: 7.0pt;line-height:115%;font-family:Webdings\">=</span><span>&nbsp;&nbsp;</span><span lang=\"PT-BR\">Examinar a configuração do NAT em um roteador sem fio</span></p> <p class=\"Bulletlevel1\"><span lang=\"PT-BR\" style=\"font-size: 7.0pt;line-height:115%;font-family:Webdings\">=</span><span>&nbsp;&nbsp;</span><span lang=\"PT-BR\">Configurar 4 PCs para que se conectem a um roteador sem fio com DHCP</span></p> <p class=\"Bulletlevel1\"><span lang=\"PT-BR\" style=\"font-size: 7.0pt;line-height:115%;font-family:Webdings\">=</span><span>&nbsp;&nbsp;</span><span lang=\"PT-BR\">Examinar o tráfego que cruza a rede usando NAT</span></p> <h2><span lang=\"PT-BR\">Instruções</span></h2> <h2><span lang=\"PT-BR\">Parte 1: </span><span lang=\"PT-BR\">Examine a configuração para acessar a rede externa.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Adicione 1 PC e conecte-o ao roteador wireless com um cabo direto. Aguarde que todas as luzes dos links fiquem verdes antes de passar para a próxima etapa ou clique em <b>Fast Forward</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;No PC, clique em<b> Desktop</b>. Selecione <b>IP Configuration</b>. Clique em <b>DHCP</b> para permitir que cada dispositivo receba um endereço IP através do DHCP no roteador sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Anote o endereço IP do gateway padrão. Feche a janela <b>IP Configuration</b> ao terminar.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Navegue &nbsp; até o&nbsp; web browser e insira o endereço IP do gateway padrão no campo URL. Entre com username <b>admin</b> e password <b>admin</b> quando solicitado.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique na opção do menu <b>Status</b> no canto superior direito. Quando essa opção estiver selecionada, a página do sub-menu Router é exibida.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Role a página do roteador para baixo para ver a opção Internet connection . O endereço IP atribuído aqui é o atribuído pelo ISP. Se não houver nenhum endereço IP (0.0.0.0 é exibido), feche a janela, aguarde alguns segundos e tente novamente. O roteador sem fio está no processo de obtenção de endereço IP do servidor DHCP do ISP.</span></p> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">O endereço visto aqui é o endereço atribuído à porta Internet no roteador wireless.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "320944e0-1208-4cde-9621-b52879dbcd06",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "39e2e2d1-c5f9-404c-a6f8-7ea7c6c7a264",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "56b31586-50a1-46c1-b0f6-6e9c28413da4",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "39e2e2d1-c5f9-404c-a6f8-7ea7c6c7a264",
+    "displayTitle": "",
+    "_activityParentId": "cdf1b5b6-07b7-4603-8143-e2ed94c52ab8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "529d16a4-06e4-4b07-88c2-712c2bf6d830",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "529d16a4-06e4-4b07-88c2-712c2bf6d830",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Ele é um endereço público ou privado?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "71969e51-bd56-48cd-8ece-b9ce3bcea135",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\" border:none\"><span style=\"border:none\">Endereço IP público </span></span></span></p>",
+    "_activityId": "86763aee-0fe1-4f58-83af-f528b4a4a46d",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "71969e51-bd56-48cd-8ece-b9ce3bcea135",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "e4f16534-6441-4a2f-8c32-3f88a0c4f533",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5b5fe06f-4332-4e6d-971b-2bf0c5842505",
+    "body": "<h2><span lang=\"PT-BR\">Parte 2: </span><span lang=\"PT-BR\">Examine as configurações para acessar a rede externa.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em <b>Local Network</b> na barra do sub-menu Status.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Role para baixo e examine as informações da Rede Local. Este é o endereço atribuído para a rede interna.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Role mais para baixo e examine as informações do servidor DHCP e a faixa dos endereços IP que podem ser atribuídos para conectar hosts.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "5b5fe06f-4332-4e6d-971b-2bf0c5842505",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e5b4d574-ace0-4281-936b-aceba9ba93e7",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7c39cd1c-2089-49b3-86b8-96554e282ac9",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e5b4d574-ace0-4281-936b-aceba9ba93e7",
+    "displayTitle": "",
+    "_activityParentId": "d710b44d-4f9d-46a4-a2d1-13b8edc4d173",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "48dd5f78-ac98-4ce9-aba7-d2f0ac799f89",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "48dd5f78-ac98-4ce9-aba7-d2f0ac799f89",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Esses endereços são públicos ou privados?</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "fab151eb-91eb-40a4-b53c-c12ef7a7c4c3",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\" border:none\"><span style=\"border:none\">Endereço IP privado </span></span></span></p>",
+    "_activityId": "36fd6f32-3d37-41e5-b44e-0e650b7d026d",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "fab151eb-91eb-40a4-b53c-c12ef7a7c4c3",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "c47cf972-e181-43c7-8e42-194fdd9c7869",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6dc1fb97-6384-4524-969a-7907fa433e5a",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Feche a janela de configuração do roteador sem fio.</span></p> <h2><span lang=\"PT-BR\">Parte 3: </span><span lang=\"PT-BR\">Conecte 3 PCs ao roteador sem fio.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Adicione mais 3 PCs e conecte-os ao roteador wireless com cabos diretos. Aguarde que todas as luzes dos links fiquem verdes antes de passar para a próxima etapa ou clique em <b>Fast Forward</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Em cada PC, clique em <b>Desktop</b>. Selecione IP <b>Configuration</b>. Clique em <b>DHCP</b> para permitir que cada dispositivo receba um endereço IP através do DHCP no roteador sem fio. Feche a janela <b>IP Configuration</b> ao terminar.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em <b>Command Prompt</b> para verificar a configuração IP de cada dispositivo usando o comando <b>ipconfig /all.</b></span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação</span></b><span lang=\"PT-BR\">: esses dispositivos receberão um endereço privado. Endereços privados não conseguem cruzar a Internet, portanto, a tradução NAT deve ocorrer.</span></p> <h2><span lang=\"PT-BR\">Parte 4: </span><span lang=\"PT-BR\">Visualize a tradução NAT no roteador sem fio.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Entre no Modo de Simulação ao clicar na guia Simulation no canto inferior direito. O botão Simulation está localizada ao lado do botão Realtime e possui um símbolo de cronômetro.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Visualize &nbsp; o tráfego ao criar uma PDU complexa no Simulation mode.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">1)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">A partir do Simulation Panel, clique <b>Show All/None</b> para alterar eventos visualizáveis para nenhum. Agora, clique em <b>Edit Filters</b>, e na guia <b>Misc</b>, marque as caixas <b>TCP</b> e <b>HTTP</b>. Feche a janela quando terminar.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">2)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Adicione uma PDU Complexa clicando no envelope aberto localizado no menu superior.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">3)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em um dos PCs para especificá-lo como a origem.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Especifique as configurações de PDU complexa ao alterar o seguinte na janela de PDU complexa: </span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">1)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Em <b>PDU Settings</b> &gt; Select Application deve estar setado para: <b>HTTP</b>.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">2)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique no servidor <b>ciscolearn.nat.com</b> para especificá-lo como o dispositivo de destino. </span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">3)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Em Source Port, insira <b>1000</b>.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">4)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Em Simulation Settings, selecione <b>Periodic</b>. Defina <b>120</b> segundos como o Interval.</span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">5)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique <b>Create PDU</b> na janela Create Complex PDU.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique duas vezes em simulation panel para destacá-lo da janela PT. Isso permite mover o painel de simulação para visualizar toda a topologia da rede.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Observe o fluxo de tráfego clicando em<b> Play</b> no simulation panel. Acelere a animação movendo o controle deslizante de reprodução para a direita. </span></p> <p class=\"BodyTextL50\"><b><span lang=\"PT-BR\">Observação</span></b><span lang=\"PT-BR\">: clique em<b> View Previous Events</b> quando a mensagem de Buffer cheio for exibida.</span></p> <h2><span lang=\"PT-BR\">Parte 5: </span><span lang=\"PT-BR\">Visualize as informações de cabeçalho dos pacotes que trafegaram através da rede.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Examine os cabeçalhos dos pacotes enviados entre um PC e o servidor da Web. </span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">1)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">No Painel de Simulação, clique duas vezes na terceira linha de baixo na lista de eventos. Essa ação exibirá um envelope na área de trabalho representando essa linha. </span></p> <p class=\"SubStepNum\"><span lang=\"PT-BR\">2)<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique no envelope na janela da área de trabalho para visualizar as informações do pacote e do cabeçalho. </span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique na guia Detalhes da PDU de Entrada (Inbound) Examine as informações de endereço IP de origem (SRC) e o endereço IP de destino do pacote.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique na guia Detalhes da PDU de Saída (Outbound) Examine as informações de endereço IP de origem (SRC) e o endereço IP de destino do pacote. </span></p> <p class=\"BodyTextL50\"><span lang=\"PT-BR\">Observe a alteração no endereço IP SRC.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em outras linhas de evento para visualizar os cabeçalhos durante o processo.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Quando terminar, clique em Check Results para verificar seu trabalho.</span></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "6dc1fb97-6384-4524-969a-7907fa433e5a",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5233bd71-5cc5-4232-8d80-47a5dcf6965d",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "962f3d3e-8239-4027-8b16-121282f4b7c6",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "5233bd71-5cc5-4232-8d80-47a5dcf6965d",
+    "displayTitle": "",
+    "_activityParentId": "7ecac100-5b12-4a3b-b96e-02a9afbc1d54",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  }
+]

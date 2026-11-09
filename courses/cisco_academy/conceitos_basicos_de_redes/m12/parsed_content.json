@@ -1,0 +1,253 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori recebe um e-mail de Rina perguntando se elas podem se encontrar no refeitório para o almoço. Kishori conhece Rina e está ansiosa para lhe fazer mais algumas perguntas sobre redes. Rina está sempre feliz em compartilhar seu conhecimento. Quando Kishori estava conversando com Madhav, ela soube que seu departamento faz parte de uma LAN. Cada departamento dentro do hospital tem sua própria LAN. Kishori pergunta a Rina como ela consegue enviar e receber e-mails que estão fora de sua rede. Rina explica que os gateways e a Tradução de Endereço de Rede (NAT) possibilitam tudo isso. Rina está impressionada com o novo conhecimento e o interesse de Kishori pelas redes! Ela cita que há vários enfermeiros no hospital que têm esse conhecimento e recebem mais por serem capazes de solucionar os problemas dos aparelhos no quarto do paciente. Ela recomenda que Kishori faça alguns cursos para que ela possa se candidatar a essa promoção. Uau! Quem diria que os enfermeiros podem ser promovidos aprendendo tecnologia!\nEste módulo ajudará a Kishori a entender gateways e NAT. Você quer saber mais? Vamos lá!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Limites de rede",
+      "content": "{{_moduleNumber}}.1 Limites de rede"
+    },
+    {
+      "type": "text",
+      "title": ".1 Limites da rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Roteadores como Gateways",
+      "content": "O roteador fornece um gateway pelo qual os hosts de uma rede podem se comunicar com hosts de diferentes redes. Cada interface em um roteador está conectada a uma rede separada.\nO endereço IPv4 atribuído à interface identifica a rede local que está diretamente conectada a ele.\nTodo host de uma rede deve usar o roteador como um gateway para outras redes. Portanto, cada host deve conhecer o endereço IPv4 da interface do roteador conectada à rede na qual o host está conectado. Esse endereço é conhecido como endereço de gateway padrão. Ele pode ser configurado estaticamente no host ou recebido dinamicamente por DHCP.\nQuando um roteador sem fio está configurado para ser um servidor DHCP da rede local, ele envia automaticamente o endereço IPv4 correto da interface para os hosts como o endereço de gateway padrão. Dessa forma, todos os hosts na rede podem usar o endereço IPv4 para encaminhar mensagens aos hosts localizados no ISP e obter acesso a hosts na Internet. Os roteadores sem fio geralmente são definidos para serem servidores DHCP por padrão.\nO endereço IPv4 dessa interface do roteador local passa a ser o endereço de gateway padrão para a configuração do host. O gateway padrão é fornecido estaticamente ou por DHCP.\nQuando um roteador sem fio está configurado como servidor DHCP, ele fornece seu próprio endereço IPv4 interno como gateway padrão aos clientes DHCP. Também fornece a eles seu endereço IPv4 e sua máscara de sub-rede, como mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Roteadores como limites entre redes",
+      "content": "O roteador sem fio atua como servidor DHCP para todos os hosts locais conectados a ele, por cabo de Ethernet ou sem fio. Esses hosts locais estão localizados em uma rede interna. A maioria dos servidores DHCP são configurados para atribuir endereços privados aos hosts na rede interna, em vez de endereços públicos roteáveis da Internet. Isso garante que, por padrão, a rede interna não possa ser acessada diretamente da Internet.\nO endereço IPv4 padrão configurado na interface do roteador local sem fio geralmente é o primeiro endereço de host naquela rede. Os hosts internos devem receber endereços dentro da mesma rede do roteador sem fio, sejam eles configurados estaticamente ou através do DHCP. Quando configurado como um servidor DHCP, o roteador sem fio fornece endereços nesse intervalo. Ele também fornece informações de máscara de sub-rede e seu próprio endereço IPv4 da interface como gateway padrão, como mostrado na figura.\nMuitos ISPs usam o servidor DHCP para fornecer endereços IPv4 do lado de Internet do roteador sem fio localizado nas instalações de clientes. A rede atribuída ao lado de Internet do roteador sem fio é conhecida como rede externa.\nQuando um roteador sem fio está conectado a um ISP, ele atua como um cliente DHCP para receber o endereço IPv4 correto de rede externa para a interface de Internet. Os ISPs normalmente fornecem um endereço roteável pela Internet, o que permite que os hosts conectados ao roteador sem fio tenham acesso à Internet.\nO roteador sem fio serve como limite entre a rede interna local e a Internet externa.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Tradução de Endereço de Rede (NAT)",
+      "content": "{{_moduleNumber}}.2 Tradução de Endereço de Rede (NAT)"
+    },
+    {
+      "type": "text",
+      "title": ".2 Tradução de Endereço de Rede (NAT)",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo: Gateways para Outras Redes",
+      "content": "{{_moduleNumber}}.3 Resumo: Gateways para Outras Redes"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo: Gateways para Outras Redes",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Limites de rede:** Todo host de uma rede deve usar o roteador como um gateway para outras redes. Portanto, cada host deve conhecer o endereço IPv4 da interface do roteador conectada à rede na qual o host está conectado. Esse endereço é conhecido como endereço de gateway padrão. Ele pode ser configurado estaticamente no host ou recebido dinamicamente por DHCP.\nO roteador sem fio atua como servidor DHCP para todos os hosts locais conectados a ele, por cabo de Ethernet ou sem fio. Esses hosts locais estão localizados em uma rede interna. Quando um roteador sem fio está conectado a um ISP, ele atua como um cliente DHCP para receber o endereço IPv4 correto de rede externa para a interface de Internet. Os ISPs normalmente fornecem um endereço roteável pela Internet, o que permite que os hosts conectados ao roteador sem fio tenham acesso à Internet. O roteador sem fio serve como limite entre a rede interna local e a Internet externa.\n\n**Operação NAT:** O roteador sem fio recebe um endereço público do ISP, que permite que ele envie e receba pacotes pela internet. Ele, por sua vez, fornece endereços privados para clientes da rede local.\nO processo usado para converter endereços privados em endereços roteáveis pela Internet é chamado de NAT. Com o NAT, um endereço IPv4 de origem privado (local) é convertido em um endereço público (global). O processo é o inverso para pacotes que chegam. Usando NAT, o roteador sem fio é capaz de converter vários endereços IPv4 internos no mesmo endereço público.\nSó precisam ser convertidos pacotes destinados para outras redes. Esses pacotes devem passar pelo gateway. Nele, o roteador sem fio substitui o endereço IPv4 privado do host de origem pelo seu próprio endereço IPv4 público."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Acontece que os endereços IPv4 nos dispositivos na minha rede doméstica são endereços privados que são usados apenas na minha LAN. Mas se eu precisar me aventurar além da minha rede doméstica, talvez acessar a Internet ou enviar um e-mail para alguém fora da minha rede, meu dispositivo precisará receber um endereço público. Como o roteador sabe se você está tentando obter acesso a um dispositivo ou site que esteja fora da LAN? Como você sabe que seu endereço privado foi traduzido para um endereço público?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=  Examinar a configuração do NAT em um roteador sem fio\n=  Configurar 4 PCs para que se conectem a um roteador sem fio com DHCP\n=  Examinar o tráfego que cruza a rede usando NAT\nInstruções\nParte 1: Examine a configuração para acessar a rede externa.\na.   Adicione 1 PC e conecte-o ao roteador wireless com um cabo direto. Aguarde que todas as luzes dos links fiquem verdes antes de passar para a próxima etapa ou clique em Fast Forward.\nb.   No PC, clique em Desktop. Selecione IP Configuration. Clique em DHCP para permitir que cada dispositivo receba um endereço IP através do DHCP no roteador sem fio.\nc.   Anote o endereço IP do gateway padrão. Feche a janela IP Configuration ao terminar.\nd.   Navegue   até o  web browser e insira o endereço IP do gateway padrão no campo URL. Entre com username admin e password admin quando solicitado.\ne.  Clique na opção do menu Status no canto superior direito. Quando essa opção estiver selecionada, a página do sub-menu Router é exibida.\nf.   Role a página do roteador para baixo para ver a opção Internet connection . O endereço IP atribuído aqui é o atribuído pelo ISP. Se não houver nenhum endereço IP (0.0.0.0 é exibido), feche a janela, aguarde alguns segundos e tente novamente. O roteador sem fio está no processo de obtenção de endereço IP do servidor DHCP do ISP.\nO endereço visto aqui é o endereço atribuído à porta Internet no roteador wireless.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Examine as configurações para acessar a rede externa.\na.  Clique em Local Network na barra do sub-menu Status.\nb.  Role para baixo e examine as informações da Rede Local. Este é o endereço atribuído para a rede interna.\nc.  Role mais para baixo e examine as informações do servidor DHCP e a faixa dos endereços IP que podem ser atribuídos para conectar hosts.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Feche a janela de configuração do roteador sem fio.\nParte 3: Conecte 3 PCs ao roteador sem fio.\na.  Adicione mais 3 PCs e conecte-os ao roteador wireless com cabos diretos. Aguarde que todas as luzes dos links fiquem verdes antes de passar para a próxima etapa ou clique em Fast Forward.\nb.  Em cada PC, clique em Desktop. Selecione IP Configuration. Clique em DHCP para permitir que cada dispositivo receba um endereço IP através do DHCP no roteador sem fio. Feche a janela IP Configuration ao terminar.\nc.  Clique em Command Prompt para verificar a configuração IP de cada dispositivo usando o comando ipconfig /all.\nObservação: esses dispositivos receberão um endereço privado. Endereços privados não conseguem cruzar a Internet, portanto, a tradução NAT deve ocorrer.\nParte 4: Visualize a tradução NAT no roteador sem fio.\na.  Entre no Modo de Simulação ao clicar na guia Simulation no canto inferior direito. O botão Simulation está localizada ao lado do botão Realtime e possui um símbolo de cronômetro.\nb.   Visualize   o tráfego ao criar uma PDU complexa no Simulation mode.\n1)  A partir do Simulation Panel, clique Show All/None para alterar eventos visualizáveis para nenhum. Agora, clique em Edit Filters, e na guia Misc, marque as caixas TCP e HTTP. Feche a janela quando terminar.\n2)  Adicione uma PDU Complexa clicando no envelope aberto localizado no menu superior.\n3)  Clique em um dos PCs para especificá-lo como a origem.\nc.  Especifique as configurações de PDU complexa ao alterar o seguinte na janela de PDU complexa:\n1)  Em PDU Settings > Select Application deve estar setado para: HTTP.\n2)  Clique no servidor ciscolearn.nat.com para especificá-lo como o dispositivo de destino.\n3)  Em Source Port, insira 1000.\n4)  Em Simulation Settings, selecione Periodic. Defina 120 segundos como o Interval.\n5)  Clique Create PDU na janela Create Complex PDU.\nd.  Clique duas vezes em simulation panel para destacá-lo da janela PT. Isso permite mover o painel de simulação para visualizar toda a topologia da rede.\ne.  Observe o fluxo de tráfego clicando em Play no simulation panel. Acelere a animação movendo o controle deslizante de reprodução para a direita.\nObservação: clique em View Previous Events quando a mensagem de Buffer cheio for exibida.\nParte 5: Visualize as informações de cabeçalho dos pacotes que trafegaram através da rede.\na.  Examine os cabeçalhos dos pacotes enviados entre um PC e o servidor da Web.\n1)  No Painel de Simulação, clique duas vezes na terceira linha de baixo na lista de eventos. Essa ação exibirá um envelope na área de trabalho representando essa linha.\n2)  Clique no envelope na janela da área de trabalho para visualizar as informações do pacote e do cabeçalho.\nb.  Clique na guia Detalhes da PDU de Entrada (Inbound) Examine as informações de endereço IP de origem (SRC) e o endereço IP de destino do pacote.\nc.  Clique na guia Detalhes da PDU de Saída (Outbound) Examine as informações de endereço IP de origem (SRC) e o endereço IP de destino do pacote.\nObserve a alteração no endereço IP SRC.\nd.  Clique em outras linhas de evento para visualizar os cabeçalhos durante o processo.\ne.  Quando terminar, clique em Check Results para verificar seu trabalho."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Para dois hosts que estão na mesma rede, quais das seguintes afirmações são verdadeiras? (Escolha três.)",
+      "options": [
+        "Ambos os hosts terão o mesmo endereço MAC.",
+        "Ambos os hosts terão o mesmo endereço IP.",
+        "Ambos os hosts terão o mesmo endereço de gateway padrão.",
+        "Ambos os hosts terão diferentes endereços MAC.",
+        "Ambos os hosts terão endereços IP diferentes.",
+        "Ambos os hosts terão os diferentes endereços de gateway padrão."
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nOs hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.",
+      "raw_id": "a52ba610459d475f90d9bf3de12ce7c1"
+    },
+    {
+      "question": "Para dois hosts, cada um em uma rede diferente, quais das afirmações a seguir são verdadeiras? (Escolha três.)",
+      "options": [
+        "Ambos os hosts terão o mesmo endereço MAC.",
+        "Ambos os hosts terão o mesmo endereço IP.",
+        "Ambos os hosts terão o mesmo endereço de gateway padrão.",
+        "Ambos os hosts terão diferentes endereços MAC.",
+        "Ambos os hosts terão endereços IP diferentes.",
+        "Ambos os hosts terão os diferentes endereços de gateway padrão."
+      ],
+      "correctIndex": 5,
+      "explanation": "Está certo.\nOs hosts normalmente sempre terão diferentes endereços IP e MAC. No entanto, os hosts na mesma rede usarão o mesmo endereço de gateway padrão. Um host em outra rede usaria um endereço de gateway padrão diferente.",
+      "raw_id": "c8ed9204320b4c8fb18c29c7d3a7e207"
+    },
+    {
+      "question": "Um computador tem de enviar um pacote para um host de destino na mesma LAN. Como o pacote será enviado?",
+      "options": [
+        "O pacote será enviado primeiro para o gateway padrão e, em seguida, dependendo da resposta do gateway, ele pode ser enviado para o host de destino.",
+        "O pacote será enviado diretamente para o host de destino.",
+        "O pacote será enviado primeiro para o gateway padrão e, em seguida, a partir do gateway padrão, ele será enviado diretamente para o host de destino.",
+        "O pacote será enviado apenas para o gateway padrão."
+      ],
+      "correctIndex": 1,
+      "explanation": "Se o host de destino estiver na mesma LAN que o host de origem, não há necessidade de um gateway padrão. Um gateway padrão é necessário se um pacote precisar ser enviado fora da LAN.",
+      "raw_id": "4fee8419bf6f42e3a74e240002b94326"
+    },
+    {
+      "question": "Normalmente, qual dispositivo de rede seria usado para executar  NAT em um ambiente corporativo?",
+      "options": [
+        "servidor DHCP",
+        "dispositivo host",
+        "roteador",
+        "servidor",
+        "switch"
+      ],
+      "correctIndex": 2,
+      "explanation": "Normalmente, a conversão de endereços IP privados para endereços IP públicos é realizada em roteadores em ambientes corporativos. Em um ambiente doméstico, esse dispositivo pode ser um access point com capacidade de roteamento ou o modem/router DSL ou o cable modem.",
+      "raw_id": "f01c90d08d004505b96fc758fcf80e65"
+    },
+    {
+      "question": "Quais características descrevem o gateway padrão de um host?",
+      "options": [
+        "o endereço lógico da interface do roteador na mesma rede que o host",
+        "o endereço físico da interface do switch conectada ao host",
+        "o endereço físico da interface do roteador na mesma rede que o host",
+        "o endereço lógico atribuído à interface do switch conectada ao roteador"
+      ],
+      "correctIndex": 0,
+      "explanation": "O gateway padrão é o endereço IP ds interface do roteador na mesma rede do host emissor.",
+      "raw_id": "80657b35a61e4f8f8a543c3fce45ae34"
+    },
+    {
+      "question": "Qual é a finalidade de configurar um endereço de gateway padrão em um host?",
+      "options": [
+        "fornecer um endereço permanente a um computador",
+        "identificar a rede à qual um computador está conectado",
+        "identificar o endereço lógico de um computador na rede e identificá-lo de forma única para o restante da rede",
+        "identificar o dispositivo que permite que computadores de rede local se comuniquem com dispositivos em outras redes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um host ou dispositivo precisa se comunicar com hosts ou dispositivos em outras redes, a configuração de um endereço de gateway padrão é necessária para que o host ou dispositivo possa enviar dados para redes remotas.",
+      "raw_id": "969e3ca655254c9fbb8fc91fe94873e0"
+    },
+    {
+      "question": "Se o gateway padrão está configurado incorretamente em um host, qual será o impacto nas comunicações?",
+      "options": [
+        "O host não consegue se comunicar com outros hosts na rede local.",
+        "O host não consegue se comunicar com hosts em redes remotas.",
+        "O host não consegue se comunicar com hosts nas redes remota e local.",
+        "O host não consegue obter um endereço IP do servidor DHCP."
+      ],
+      "correctIndex": 1,
+      "explanation": "Na comunicação de dados, o dispositivo de gateway padrão é envolvido apenas quando um host precisa se comunicar com hosts em outra rede. O endereço de gateway padrão identifica um dispositivo de rede que um dispositivo host usa para se comunicar com dispositivos em outras redes. O dispositivo de gateway padrão não é usado quando um host se comunica com hosts na mesma rede.",
+      "raw_id": "22180bf3688241c4a1eab407be84a3fd"
+    },
+    {
+      "question": "Quais dos três endereços de rede IPv4 são endereços IP privados? (Escolha três.)",
+      "options": [
+        "10.0.0.0",
+        "172.32.0.0",
+        "192.157.0.0",
+        "172.16.0.0",
+        "192.168.0.0",
+        "224.6.0.0"
+      ],
+      "correctIndex": 4,
+      "explanation": "Os endereços de rede IPv4 privados reservados incluem 10.0.0.0 a 10.255.255.255, 172.16.0.0 a 172.31.255.255 e 192.168.0.0 a 192.168.255.255.",
+      "raw_id": "33b142bea7184e71ae5cdd5a6a051943"
+    },
+    {
+      "question": "Qual é a finalidade de um NAT?",
+      "options": [
+        "permitir que hosts configurados com endereços IP públicos registrados acessem a Internet",
+        "traduzir endereços IP privados para um endereço IP público registrado",
+        "rotear endereços IP privados pela internet pública",
+        "atribuir um endereço IP privado a um host para acesso à Internet"
+      ],
+      "correctIndex": 1,
+      "explanation": "O NAT converte endereços IP privados internos do host em um ou mais endereços IP públicos registrados para que o host acesse sites pela Internet.",
+      "raw_id": "fa7f9d4576da4dc6bd2551b39e215526"
+    },
+    {
+      "question": "Qual é a principal vantagem de se usar NAT?",
+      "options": [
+        "permite que um grande grupo de usuários compartilhe um ou mais endereços IP públicos",
+        "permite que um grande grupo de usuários compartilhe o mesmo endereço IP privado em uma LAN",
+        "permite o mapeamento estático de endereços internos públicos para endereços externos privados",
+        "permite o mapeamento dinâmico de endereços internos registrados para endereços externos privados"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tradução de endereço de rede (Network Address Translation - NAT) pode permitir que um grande grupo de hosts, endereçados de forma privada, compartilhe um ou mais endereços IP públicos registrados de modo a rotear os pacotes pela Internet.",
+      "raw_id": "ed5aa2720efe4702bc34588e21252f23"
+    },
+    {
+      "question": "Quais são as três configurações que devem ser configuradas em um PC para que ele se comunique com os dispositivos localizados na Internet?  (Escolha três.)",
+      "options": [
+        "Endereço IP",
+        "máscara de sub-rede",
+        "endereço do gateway padrão",
+        "endereço do servidor DHCP",
+        "nome de host"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um PC precisa ser configurado com um endereco IP, mascara de subrede e um Gateway padrdo para ser capaz de se comunicar com outros dispositivos em Redes IP diferentes. Isso inclui dispositivos que sdo alcangaveis através da Internet.",
+      "raw_id": "53c515726f5344c0a4bac664a79a25fe"
+    },
+    {
+      "question": "A configuração padrão em um roteador sem fio doméstico fornece quais tipos de endereços para dispositivos usando DHCP?",
+      "options": [
+        "Endereço IP privado",
+        "endereços IPv4 públicos registrados",
+        "endereços IPv6 públicos registrados",
+        "endereços MAC específicos do fornecedor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Por padrão, os roteadores sem fio domésticos distribuem endereços IPv4 privados para dispositivos na rede doméstica.  Esses endereços geralmente estão no intervalo reservado 192.168.0.0.",
+      "raw_id": "35c02cc037bf41dea5be3338512a0666"
+    },
+    {
+      "question": "Que tipo de dispositivo intermediário atua como um limite entre uma rede doméstica sem fio e a Internet?",
+      "options": [
+        "switch de Camada 2",
+        "access point",
+        "Servidor DNS",
+        "roteador sem fio"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um roteador sem fio atua como um limite de rede para as redes IP conectadas.  A maioria dos roteadores sem fio de rede doméstica conecta uma LAN local endereçada de forma privada a uma rede IP externa conectada a um ISP.",
+      "raw_id": "6ede0287b7d64ba492fab527fc2f652e"
+    }
+  ],
+  "images": []
+}

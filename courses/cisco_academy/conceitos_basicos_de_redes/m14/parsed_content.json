@@ -1,0 +1,437 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori deixa o trabalho durante o dia e começa seu caminho de casa. Sua amiga ligou para avisá-la de que há muito congestionamento em sua rota habitual para casa. Ela usou o GPS do telefone para redirecionar para uma estrada menos congestionada. Kishori se pergunta se as redes podem ficar congestionadas. Eles encontram uma rota mais rápida?\nÓtima pergunta, Kishori! As redes também podem ter esse problema de congestionamento retardando o desempenho. Em uma rede, o roteador pode determinar o melhor caminho. Como uma rede fica congestionada? O que você pode fazer para limitar esse congestionamento? Você e Kishori vão descobrir neste módulo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 A necessidade do roteamento",
+      "content": "{{_moduleNumber}}.1 A necessidade do Roteamento"
+    },
+    {
+      "type": "text",
+      "title": ".1 A necessidade do Roteamento",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2 A tabela de roteamento",
+      "content": "{{_moduleNumber}}.2 A tabela de roteamento"
+    },
+    {
+      "type": "text",
+      "title": ".2 A tabela de roteamento",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.4 Entradas da Tabela de Roteamento",
+      "content": "Os roteadores movem informações entre redes locais e remotas. Para fazer isso, eles têm que usar tabelas de roteamento para armazenar informações. As tabelas de roteamento não estão relacionadas aos endereços de hosts individuais. Tabelas de roteamento contêm endereços de redes e o melhor caminho para acessar essas redes. As entradas podem ser feitas na tabela de roteamento de duas maneiras: atualizadas dinamicamente por informações recebidas de outros roteadores na rede ou inseridas manualmente por um administrador de rede. Os roteadores usam as tabelas de roteamento para determinar qual interface deve ser usada para encaminhar uma mensagem para o destino desejado.\nSe o roteador não conseguir determinar para onde encaminhar uma mensagem, ele a descartará. Os administradores de rede podem configurar uma rota padrão que é inserida na tabela de roteamento para evitar que o pacote não seja descartado pelo fato do caminho para a rede de destino não estar na tabela de roteamento. Uma rota padrão é a interface através da qual o roteador encaminha um pacote contendo um endereço de rede IP de destino que é desconhecido. Essa rota padrão normalmente se conecta a outro roteador que pode encaminhar o pacote para a rede de destino final.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tipo - O tipo de conexão C para diretamente conectado\nRede - O endereço de rede\nPorta - Interface usada para encaminhar pacotes para a rede"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.5 O Gateway Padrão",
+      "content": "O método que um host utiliza para enviar mensagens para um destino em uma rede remota difere da forma como um host envia mensagens na mesma rede local. Quando um host precisa enviar uma mensagem para outro host localizado na mesma rede, ele pode encaminhar a mensagem diretamente. Um host usará o ARP para descobrir o endereço MAC do host de destino. O pacote IPv4 contém o endereço IPv4 de destino, encapsula o pacote em um quadro com o endereço MAC de destino e o encaminha para fora.\nQuando um host precisa enviar uma mensagem para uma rede remota, ele deve usar o roteador. O host inclui o endereço IP do host de destino dentro do pacote, exatamente como antes. Entretanto, quando ele encapsula o pacote em um quadro, usa o endereço MAC do roteador como destino do quadro. Dessa forma, o roteador receberá e aceitará o quadro baseado no endereço MAC.\nComo o host de origem determina o endereço MAC do roteador? Um host conhece o endereço IPv4 do roteador por meio do endereço de gateway padrão configurado em suas configurações de TCP/IP. O endereço do gateway padrão é o endereço da interface do roteador conectada à mesma rede local do host de origem. Todos os hosts na rede local usam o endereço do gateway padrão para enviar mensagens ao roteador. Quando o host conhece o endereço IPv4 do gateway padrão, ele pode usar o ARP para determinar o endereço MAC. O endereço MAC do roteador é colocado no quadro, destinado a outra rede.\nÉ importante que o gateway padrão correto esteja configurado em cada host na rede local. Se não houver um gateway padrão definido nas configurações TCP/IP do host ou se estiver especificado um gateway padrão incorreto, não será possível entregar as mensagens endereçadas aos hosts nas redes remotas.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Criando uma LAN",
+      "content": "{{_moduleNumber}}.3 Criando uma LAN"
+    },
+    {
+      "type": "text",
+      "title": ".3 Criando uma LAN",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.1 Redes de Área Local",
+      "content": "O termo Rede de Área Local (LAN) se refere a uma rede local ou a um grupo de redes locais interconectadas que estão sob o mesmo controle administrativo. No início das redes de computadores, as LANs eram definidas como pequenas redes que existiam em uma única localização física. Embora as LANs possam ser uma única rede local instalada em uma casa ou pequeno escritório, a definição de LAN evoluiu para incluir redes locais interconectadas, consistindo em muitas centenas de hosts, instalados em vários prédios e locais.\nÉ importante lembrar que todas as redes locais dentro de uma LAN estão sob um controle administrativo. Outras características comuns das LANs são que elas normalmente usam protocolos Ethernet ou Wireless e suportam altas taxas de transmissão de dados.\nO termo Intranet geralmente é usado para se referir a uma LAN privada que pertence a uma organização e foi projetada para ser acessada somente por membros da organização, funcionários ou terceiros com autorização.",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".3.2 Segmentos de rede local e remota",
+      "content": "**Todos os hosts em um segmento de rede local:** Colocar todos os hosts em uma única rede local permite que eles sejam vistos por todos os outros hosts. Isso ocorre porque existe um domínio da broadcast e os hosts usam o ARP para se localizarem.\nEm um projeto de rede simples, pode ser vantajoso manter todos os hosts em uma única rede local. Entretanto, à medida que as redes crescem, o aumento de tráfego diminui a velocidade e o desempenho da rede. Nesse caso, pode valer a pena mover alguns hosts para uma rede remota.\nVantagens de um único segmento local:\nAdequado para redes mais simples\nMenos complexidade e menor custo de rede\nPermite que os dispositivos sejam “vistos” por outros dispositivos\nTransferência de dados mais rápida - comunicação mais direta\nFacilidade de acesso ao dispositivo\nDesvantagens de um único segmento local:\nTodos os hosts estão em um domínio de broadcast que causa mais tráfego no segmento e pode retardar o desempenho da rede\nMais difícil de implementar QoS\nMais difícil de implementar segurança\n\n**Hosts em um segmento remoto:** Colocando hosts adicionais em uma rede remota diminuirá o impacto em demandas de tráfego. No entanto, os hosts em uma rede não poderão se comunicar com hosts na outra rede sem o uso de roteamento. Os roteadores aumentam a complexidade da configuração de rede e podem introduzir latência (ou seja, atraso) nos pacotes enviados de uma rede local para outra.\nVantagens:\nMais adequado para redes maiores e mais complexas\nDivide domínios de transmissão e reduz o tráfego\nPode melhorar o desempenho em cada segmento\nDeixa as máquinas invisíveis para as pessoas em outros segmentos de rede local\nPode fornecer segurança avançada\nPode melhorar a organização de rede\nDesvantagens:\nExige o uso de roteamento (camada de distribuição)\nO roteador pode retardar o tráfego entre segmentos\nMais complexidade e custos (exige roteador)"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo de Roteamento entre Redes",
+      "content": "{{_moduleNumber}}.4 Resumo de Roteamento entre Redes"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo do Roteamento entre Redes",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que aprendi neste módulo?",
+      "content": "**A necessidade do roteamento:** À medida que as redes crescem, geralmente é necessário dividir uma rede de camada de acesso em várias redes de camada de acesso. As diversas formas de divisão de redes são definidas por critérios diferentes.\nContenção de broadcast - Roteadores na camada de distribuição podem limitar broadcasts somente para a rede local onde devam ser escutados.\nRequisitos de segurança - Os roteadores na camada de distribuição podem separar e proteger determinados grupos de computadores onde residem informações confidenciais.\nLocalização físicos - Os roteadores na camada de distribuição podem ser usados para interconectar redes locais em vários locais de uma organização que estão separados geograficamente.\nAgrupamento lógico - Os roteadores na camada de distribuição podem ser usados para agrupar logicamente usuários, como departamentos de uma empresa, que tenham necessidades comuns ou acesso a recursos.\nA camada de distribuição conecta estas redes locais independentes e controla o fluxo do tráfego entre elas. Ela é responsável por garantir que o tráfego entre hosts na rede local permaneça local.\nUm roteador é um dispositivo de rede que conecta várias redes IP de Camada 3. Na camada de distribuição da rede, os roteadores direcionam o tráfego e realizam outras funções essenciais em uma operação de rede eficiente. Os roteadores, como switches, conseguem decodificar e ler as mensagens que são enviadas para eles. Ao contrário dos switches, que tomam uma decisão de encaminhamento com base no endereço MAC da Camada 2, os roteadores fundamentam suas decisões de encaminhamento no endereço IP da Camada 3.\nSempre que a porção de rede dos endereços IP dos hosts de origem e de destino não coincidir, deverá ser usado um roteador para encaminhar a mensagem.\n\n**A tabela de roteamento:** Cada porta ou interface em um roteador conecta-se a uma rede local diferente. Cada roteador contém uma tabela de todas as redes localmente conectadas e as interfaces que se conectam a essas redes.\nQuando um roteador recebe um quadro, ele decodifica o quadro para obter o pacote que contém o endereço IP de destino. Ele combina a porção de rede do endereço IP de destino com as redes listadas na tabela de roteamento. Se o endereço de rede de destino estiver na tabela, o roteador encapsulará o pacote em um novo quadro para enviá-lo. Ele encaminha o novo quadro para a rede de destino, fora da interface associada ao caminho. O processo de encaminhamento de pacotes para a rede destino é chamado de roteamento.\nUm roteador encaminha um pacote para um destes dois locais: a) uma rede diretamente conectada que contém o host de destino real ou b) outro roteador no caminho para o host de destino. Quando um roteador encapsula o quadro para encaminhá-lo para uma interface roteada, ele deve incluir um endereço MAC de destino. Se o roteador precisar encaminhar o pacote para outro roteador por meio de uma interface roteada, ele usará o endereço MAC do roteador conectado. Os roteadores obtêm esses endereços MAC nas tabelas ARP.\nUm host conhece o endereço IPv4 do roteador por meio do endereço de gateway padrão configurado em suas configurações de TCP/IP. O endereço do gateway padrão é o endereço da interface do roteador conectada à mesma rede local do host de origem. Todos os hosts na rede local usam o endereço do gateway padrão para enviar mensagens ao roteador.\nTabelas de roteamento contêm endereços de redes e o melhor caminho para acessar essas redes. As entradas podem ser feitas na tabela de roteamento de duas maneiras: atualizadas dinamicamente por informações recebidas de outros roteadores na rede ou inseridas manualmente por um administrador de rede.\n\n**Criando uma LAN:** LAN refere-se a uma rede local ou a um grupo de redes locais interconectadas que estão sob o mesmo controle administrativo. Todas as redes locais dentro de uma LAN estão sob um controle administrativo. Outras características comuns das LANs são que elas normalmente usam protocolos Ethernet ou Wireless e suportam altas taxas de transmissão de dados.\nDentro de uma LAN, é possível colocar todos os hosts em uma única rede local ou dividi-los entre várias redes conectadas por um dispositivo na camada de distribuição.\nColocar todos os hosts em uma única rede local permite que eles sejam vistos por todos os outros hosts. Isso ocorre porque existe um domínio da broadcast e os hosts usam o ARP para se localizarem.\nColocando hosts adicionais em uma rede remota diminuirá o impacto em demandas de tráfego. No entanto, os hosts em uma rede não poderão se comunicar com hosts na outra rede sem o uso de roteamento. Os roteadores aumentam a complexidade da configuração de rede e podem introduzir latência (ou seja, atraso) nos pacotes enviados de uma rede local para outra."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Na minha rede doméstica (LAN), geralmente não tenho tráfego de rede suficiente para que haja congestionamento, embora isso possa acontecer quando todos os meus filhos estiverem transmitindo filmes diferentes e eu estiver tentando enviar um documento para o meu trabalho. Você consegue pensar em uma maneira de dividir minha LAN em várias redes?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Observar o fluxo de tráfego em uma LAN não roteada\nParte 2: Reconfigurar a Rede para Roteamento entre LANs\nParte 3: Observar o fluxo de tráfego na Rede Roteada\nHistórico/Cenário\nFoi pedido à empresa na qual você trabalha que propusesse um novo design de rede para a XYZ LLC. A empresa XYZ é uma startup que recentemente obteve sucesso ofertando seus produtos. Eles estão se expandindo e sua rede precisa crescer junto com eles. Atualmente, a rede está configurada com uma única rede IP para hosts em todos os departamentos. Esse design tornou-se ineficiente e os atrasos de rede estão se tornando cada vez mais perceptíveis. Você foi indicado para ajudar a equipe de vendas a preparar a proposta. A equipe de vendas proporá uma solução na qual a eficiência da rede é aprimorada pela implementação de roteamento entre redes separadas para diferentes departamentos. Você está trabalhando uma demonstração de como ter várias redes roteadas em uma empresa pode melhorar a eficiência da rede. Siga as instruções para passar a demonstração que ajudará a propor uma nova rede à XYZ LLC.\nInstruções\nParte 1: Observar o fluxo de tráfego em uma LAN não roteada\nA rede XYZ consiste em cerca de 150 dispositivos conectados a uma LAN. A LAN é configurada em uma única rede IPv4. Hosts em diferentes departamentos são conectados a switches que são conectados ao roteador Edge (roteador de borda). O roteador apenas roteia o tráfego entre a LAN e a internet, representada pela nuvem ISP. Como apenas uma rede IP é usada na LAN, todos os departamentos estão na mesma rede.\nA topologia do Packet Tracer está simplificada. Ele mostra apenas alguns dos departamentos e hots. Considere que o comportamento que você irá demonstrar está acontecendo em uma escala muito maior do que o que é mostrado na rede PT.\nNesta parte, você usará o modo de simulação do Packet Tracer para observar como o tráfego flui através de LANs não roteadas.\nEtapa 1: Limpe o cache do ARP do host Sales 1.\nPasse o mouse sobre o host Sales 1 para ver seu endereço IP. Tome nota disso.\na.  Clique em Sales 1 > guia Desktop> Command Prompt e insira o comando arp -a Não deverá haver endereços MAC no cache ARP. Se houver entradas no cache ARP, use o comando arp -d para excluí-las.\nEtapa 2: Observe o fluxo de tráfego na rede.\na.  Clique no botão Simulation mode no canto inferior direito da janela do PT para alternar do modo em Realtime (Tempo Real) para o modo Simulation (Simulação).\nb.  Abra o Command Prompt para o Sales 2 e, em seguida, insira o comando ping seguido pelo endereço IP de Sales 1.\nc.  Use o botão Capture then Forward (o triângulo apontando para a direita com uma barra vertical anexada) nos Play Controls do Simulation Panel para que o comando ping comece a ser executado. Você verá um ícone de envelope colorido ao lado de Sales 2. Isso representa uma PDU. Clique no botão Capture then Forward para mover a PDU para o primeiro dispositivo do caminho rumo ao dispositivo de destino. Clique no envelope da PDU para inspecionar o conteúdo.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Avance as PDUs pela rede até que uma nova PDU (cor diferente) seja criada em Sales 2.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Uma nova PDU com uma cor diferente apareceu em Sales 2. Clique na nova PDU e inspecione seu conteúdo. Veja o Outbound PDU Details\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Volte ao modo Realtime.\nParte 2: Reconfigure a rede para rotear entre LANs.\nNesta parte, você demonstrará os benefícios do roteamento entre redes de departamentos. Primeiro, você irá cabear cada switch da rede para conectar-se diretamente a uma interface do roteador. Em seguida, você reconfigurará os hosts para receber endereços em duas novas redes IPv4 criadas pelo roteador.\nEtapa 1: Alterar as conexões dos dispositivos.\nOs três switches são conectados entre si com cabos diretos de cobre (straight through).\na.  Para o cabo que conecta o switch Accounting ao switch Finance, clique no triângulo verde mais próximo do switch Accounting.\nb.  Arraste essa extremidade do cabo para o roteador Edge e conecte o cabo à porta GigabitEthernet 1/0.\nc.  Repita esta etapa para o link entre Finance e Sales. Conecte à porta GigabitEthernet disponível.\nEtapa 2: Configure os hosts com endereços nas novas LANs.\nCada interface do roteador Edge foi previamente configurada para colocar cada departamento em sua própria rede IPv4. Os hosts receberão do roteador seus novos endereços IP. No entanto, levará algum tempo para que os hosts nas redes Finance e Sales recebam seus novos endereços IP. (Os hosts na rede Accounting permanecerão em 192.168.1.0/24.)\na.  Para acelerar o processo de obtenção de novos endereços IP, abra um Command Prompt em cada um dos quatro dispositivos nas redes Finance e Sales.\nb.  Digite o comando ipconfig /renew. Isso forçará o host a solicitar um novo endereço IP ao servidor DHCP que está sendo executado no roteador Edge. Você deverá ver a confirmação do novo endereçamento IP."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 3: Observe o fluxo de tráfego na rede roteada.\nNesta parte, você observará como o tráfego agora flui através de uma rede roteada.\nEtapa 1: Ping Sales 1 a partir de Sales 2\na.  Retorne ao Command Prompt de Sales 2 e verifique se o cache ARP está vazio. Se não estiver, exclua todas as entradas.\nb.  Mude para o modo Simulation.\nc.  Ping Sales 1 a partir de Sales 2\nd.  Use o botão Capture then Forward para que as PDUs percorram a rede. Observe como a mensagem de solicitação ARP flui pela rede desta vez.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Pingue outros hosts.\nRepita esta demonstração pingando outros hosts e o internet server. Observe o fluxo das PDUs de ARP request.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: a topologia de rede usada na atividade é apenas para fins de demonstração. Embora seja possível que uma rede corporativa real possa usar um roteador dessa maneira, existem topologias mais adequadas para atingir esses resultados. Você aprenderá sobre outras abordagens de design em cursos de rede posteriores."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=  Conectar hosts e dispositivos de rede\n=  Configurar dispositivos com endereçamento IPv4\n=  Verificar a configuração do dispositivo final e a conectividade\n=  Usar os comandos de rede para exibir informações de host\nHistórico/Cenário\nUma nova filial está sendo aberta e pediram para você configurar a LAN. Os dispositivos de rede já estão configurados, mas você precisa conectá-los aos hosts. Você também precisa configurar o endereçamento IPv4 dos dispositivos finais e verificar se eles podem alcançar recursos locais e remotos.\nInstruções\nParte 1: Conectar dispositivos de rede e hosts\nEtapa 1: Ligue os dispositivos finais e o Office Router.\na.  Clique em cada dispositivo e abra a guia Physical. Nota: Não há chave de alimentação no modelo de switch usado nesta atividade.\nb.  Localize o  botão liga / desliga de cada dispositivo na janela de exibição de dispositivos físicos.\nc.  Clique no botão liga / desliga para ligar o dispositivo. Você deverá ver uma luz verde perto do botão liga/desliga indicando que o dispositivo está ligado.\nEtapa 2: Conecte os dispositivos finais.\nUse a tabela e as instruções para conectar os dispositivos de rede e hosts para criar a rede física.\nTabela de conexões"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Nota: Na tabela acima, as interfaces designadas com G são interfaces GigabitEthernet. As interfaces designadas com F são interfaces FastEthernet.\na.  Conecte os dispositivos de rede de acordo com as informações na Tabela de conexões usando cabos Ethernet copper straight-through . Para a conexão da Internet com o Office Router, selecione o dispositivo e a porta nos menus suspensos que aparecem quando você clica na nuvem com a ferramenta de conexões selecionada.\nb.  Conecte os dois PCs e a impressora ao switch do escritório de acordo com as informações na tabela de conexões. Use cabos copper straight-through (diretos)\nc.  Você verá luzes de link verdes em todas as conexões após um breve intervalo de tempo.\nParte 2: Configurar dispositivos com endereçamento IPv4\nEtapa 1: Configure os hosts com as informações de endereçamento.\na.  Os PCs Admin e Manager devem receber as informações de endereçamento IP via DHCP. O Office Router foi configurado para fornecer endereços IP aos hosts na LAN da filial. Clique nos PCs e vá para as guias Desktop em cada PC. Abra o aplicativo IP Configuration e configure os PCs para receberem seus endereços IP dinamicamente.\nb.  Impressoras e servidores geralmente são configurados manualmente com endereçamento porque outros dispositivos na rede são configurados para acessá-los usando endereços IP. A configuração manual com um endereço estático garantirá que os endereços IP desses dispositivos não sejam alterados.\n1)  Clique na impressora e abra a guia Config.\n2)  Clique na interface FastEthernet0 no painel esquerdo.\n3)  Insira as informações de endereçamento da tabela de endereçamento.\nc.  Como os dois computadores estão na mesma rede, seus endereços IPv4 serão semelhantes, suas máscaras de sub-rede e gateways padrão serão idênticos.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 3: Verificar a configuração do dispositivo final e a conectividade\nEtapa 1: Verifique a conectividade entre os dois PCs.\na.  Acesse os desktops dos PCs e verifique a configuração de endereçamento IP. Você deverá ver que os PCs receberam endereços IP dinamicamente na rede 192.168.1.0 255.255.255.0. Você também deverá ver que eles receberam endereços para configurar o Gateway padrão e o servidor DNS.\nb.  No prompt de comando do Admin PC, pingue o endereço IP da impressora. Repita este processo para o Manager PC. Você deverá ver pings bem-sucedidos para cada um. Isso verifica se os PCs e a impressora estão ligados e conectados e endereçados corretamente.\nEtapa 2: Verifique a conectividade com a internet.\nNo Desktop dos PCs, abra o navegador Web. Digite o endereço IP do servidor de internet para exibir a página web. Repita o processo, mas conecte usando a URL do servidor.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 4: Use os comandos de rede para exibir informações de host\nOs comandos de rede disponíveis no prompt de comando em PCs são muito semelhantes aos disponíveis no Windows. Nesta parte da atividade, você usará ipconfig e tracert conhecer melhor a LAN.\nEtapa 1: Use o comando ipconfig.\nO comando ipconfig exibe detalhes sobre o endereçamento configurado em um host.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Use o comando tracert\nO comando tracert usa o ICMP para retornar informações sobre os roteadores que são passadas à medida que os pacotes vão do PC de origem para o destino.\nRastreie o caminho para um destino remoto abrindo um dos PCs e digitando tracert seguido da URL do servidor web.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Razões para dividir uma rede em várias redes menores. (Escolha duas.)",
+      "options": [
+        "Para ter domínios de broadcast menores",
+        "A solução de problemas é mais difícil em redes grandes.",
+        "Os dispositivos recebem todo o tráfego de rede",
+        "aumentar a segurança de rede"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nVocê dividiria uma rede em várias redes menores para manter domínios de broadcast menores e aumentar a segurança da rede.",
+      "raw_id": "c1e1ca3bbc664c5aae9f902b635023a9"
+    },
+    {
+      "question": "Qual dos dispositivos a seguir é usado para dividir uma rede em redes menores?",
+      "options": [
+        "Switches",
+        "Bridges",
+        "Roteadores",
+        "Hubs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs roteadores dividem uma rede em redes menores.",
+      "raw_id": "5c20344e321c4bc3b460dc897a2ba4e8"
+    },
+    {
+      "question": "O que é roteamento?",
+      "options": [
+        "O roteamento é um processo para determinar o melhor caminho até um destino.",
+        "O roteamento é uma forma de conectar dispositivos em uma rede local.",
+        "O roteamento transfere dados entre dispositivos."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO roteamento é um processo para determinar o melhor caminho até um destino.",
+      "raw_id": "2be8327b6af54dedaf5be51330754ef1"
+    },
+    {
+      "question": "Qual é o gateway padrão para H1?",
+      "options": [
+        "10.0.0.1",
+        "10.168.1.1",
+        "172.16.0.50",
+        "172.16.1.1",
+        "192.0.0.1",
+        "192.168.1.1"
+      ],
+      "correctIndex": 5,
+      "explanation": "Está certo.\nO gateway padrão para H1 é 192.168.1.1.",
+      "raw_id": "006c3f81665b4c21bb2590a56a066de5"
+    },
+    {
+      "question": "Qual é o gateway padrão para H2?",
+      "options": [
+        "10.0.0.1",
+        "10.168.1.1",
+        "172.16.0.50",
+        "172.16.1.1",
+        "192.0.0.1",
+        "192.168.1.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO gateway padrão para H2 é 10.0.0.1.",
+      "raw_id": "8e3e4653627d48219725748592b4aba6"
+    },
+    {
+      "question": "Qual é o gateway padrão para H3?",
+      "options": [
+        "10.0.0.1",
+        "10.168.1.1",
+        "172.16.0.50",
+        "172.16.1.1",
+        "192.0.0.1",
+        "192.168.1.1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO gateway padrão para H3 é 172.16.0.50.",
+      "raw_id": "2211e47a17d04c15acf5da5b65b4b27b"
+    },
+    {
+      "question": "Quais informações no pacote IP o roteador usa para determinar por qual interface encaminhar o pacote?",
+      "options": [
+        "endereço MAC de destino",
+        "endereço IP origem",
+        "endereço IP destino",
+        "endereço MAC origem"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO roteador usa o endereço IP de destino para determinar por qual interface encaminhar o pacote",
+      "raw_id": "52f5a313259b4633b563cc5d5334527a"
+    },
+    {
+      "question": "Verdadeiro ou falso? Se o Host-A tiver um pacote IP para enviar ao Host-B, e o Host-A determinar que o Host-B está em uma rede diferente. O Host-A encapsulará o pacote IP em um quadro Ethernet com o endereço MAC de destino do gateway padrão.",
+      "options": [
+        "verdadeiro",
+        "falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA resposta correta é verdadeira. Um host usará o endereço MAC de destino do gateway padrão para todos os pacotes destinados a redes diferentes.",
+      "raw_id": "91dce372d267467ebb1d3233d94639b1"
+    },
+    {
+      "question": "Uma rota padrão é a interface pela qual o roteador encaminha:",
+      "options": [
+        "todos os pacotes",
+        "qualquer pacote quando um host não receber uma resposta de ARP",
+        "um pacote que contém um endereço de rede IP de origem que não está na tabela de roteamento do roteador",
+        "um pacote que contém um endereço de rede IP de destino que não está na tabela de roteamento do roteador"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nSe um roteador não tiver uma rota para uma rede de destino, ele usará o roteador padrão.",
+      "raw_id": "36797e39b6444c32869956a82218519a"
+    },
+    {
+      "question": "Um host enviará um pacote para o gateway padrão quando:",
+      "options": [
+        "o endereço IP de origem está em uma rede diferente",
+        "o endereço IP de destino está em uma rede diferente",
+        "ele não recebe uma resposta ARP",
+        "todos os pacotes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm host envia pacotes, destinados a uma rede diferente, para o gateway padrão.",
+      "raw_id": "505d3fbbf25d446ba94c89f7504e7131"
+    },
+    {
+      "question": "Quais informações são usadas pelos roteadores para encaminhar um pacote de dados para seu destino?",
+      "options": [
+        "Endereço IP de origem",
+        "Endereço IP destino",
+        "Endereço de enlace de origem",
+        "Endereço de enlace de destino"
+      ],
+      "correctIndex": 1,
+      "explanation": "O endereço IP de destino é o endereço IP do dispositivo receptor. Esse endereço IP é usado por roteadores para encaminhar o pacote para seu destino.",
+      "raw_id": "8dbe3303e471472eb79c615d931ee295"
+    },
+    {
+      "question": "O gateway padrão está configurado incorretamente no host. Qual é o impacto nas comunicações?",
+      "options": [
+        "O host não consegue se comunicar com outros hosts na rede local.",
+        "O host pode se comunicar com outros hosts na rede local, mas não consegue se comunicar com os hosts em redes remotas.",
+        "O host pode se comunicar com outros hosts em redes remotas, mas não consegue se comunicar com os hosts na rede local.",
+        "Não há impacto nas comunicações."
+      ],
+      "correctIndex": 1,
+      "explanation": "Um gateway padrão só é necessário para comunicação com dispositivos em outra rede. A ausência de um gateway padrão não afeta a conectividade entre os dispositivos na mesma rede local.",
+      "raw_id": "8fae1fd38e6944129c65ac3ebed1cd38"
+    },
+    {
+      "question": "Qual é a função de um roteador em uma rede?",
+      "options": [
+        "encaminhar broadcasts de camada 2",
+        "encaminhar quadros com base em um endereço MAC",
+        "selecionar o caminho para redes de destino",
+        "conectando redes menores em um único domínio de broadcast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um computador envia um pacote na rede, o pacote inclui um endereço IP de origem e de destino. Os roteadores usam o endereço IP de destino em um pacote para encaminhá-lo para a rede de destino correta.",
+      "raw_id": "5657c9966062488e960f1b5b0c5c92d0"
+    },
+    {
+      "question": "Qual endereço deve ser configurado como o endereço de gateway padrão de um dispositivo cliente?",
+      "options": [
+        "o endereço de camada 2 da interface de gerenciamento do switch",
+        "o endereço de camada 2 da porta do switch que está conectada à estação de trabalho",
+        "o endereço IPv4 da interface do roteador conectada à mesma LAN",
+        "o endereço IPv4 da interface do roteador conectada à Internet"
+      ],
+      "correctIndex": 2,
+      "explanation": "O gateway padrão é usado quando um host precisa enviar mensagens para destinos localizados em redes remotas. O endereço do gateway padrão é configurado no host como sendo o endereço IPv4 da interface do roteador que está conectada à mesma rede local desse host",
+      "raw_id": "4b755f6682734e719a301c04a9d34e79"
+    },
+    {
+      "question": "Qual dispositivo é usado para transferir dados de uma rede IP local para uma rede remota?",
+      "options": [
+        "placa de rede",
+        "switch",
+        "roteador",
+        "servidor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um roteador é um dispositivo de rede que conecta várias redes IP. O roteamento é o processo de identificação do melhor caminho de uma rede para outra rede remota.",
+      "raw_id": "716c7315fdd94649b4cc250b5704b7a8"
+    },
+    {
+      "question": "Consulte a figura. Para permitir a comunicação IP entre as duas redes separadas, que tipo de dispositivo é necessário?",
+      "options": [
+        "servidor",
+        "roteador",
+        "switch",
+        "access point"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os roteadores possibilitam a comunicação entre duas ou mais redes IP diferentes.  Servidores, switches e access points são dispositivos conectados a uma rede IP local.",
+      "raw_id": "047c4b167e08478b8232ad8ad1d81327"
+    },
+    {
+      "question": "Qual é a vantagem de adicionar um roteador em uma rede IP?",
+      "options": [
+        "aumenta o tamanho da rede local",
+        "mantém os  broadcasts contidos em uma rede local",
+        "reduz o número de hosts que podem se conectar à rede",
+        "controla o tráfego host a host em uma única rede local"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os roteadores podem dividir ou segmentar uma rede. Como os roteadores não encaminham broadcasts, eles podem mantê-los isolados em uma rede local.",
+      "raw_id": "7aecb9fdb9f141ab95147184a26cbb19"
+    },
+    {
+      "question": "Consulte a figura.O host H7 envia um pacote com o endereço IP de destino 255.255.255.255.O que o roteador R1 faz quando recebe o pacote do host H7?",
+      "options": [
+        "examina o pacote recebido na interface FastEthernet0/1 e não encaminha o pacote",
+        "altera as informações de cabeçalho da Camada 2 e encaminha o pacote para todas as interfaces conectadas",
+        "verifica A tabela de roteamento e encaminha a interface de pacote fora FastEthernet0/0",
+        "altera o endereço IP de destino e encaminha a interface de envio de pacotes FastEthernet0/0"
+      ],
+      "correctIndex": 0,
+      "explanation": "O endereço IP 255.255.255.255 é um endereço de broadcast.  Os roteadores não encaminham broadcasts para outras redes.  O roteador R1 examina o cabeçalho do pacote para determinar se o endereço IP de destino está em outra rede ou é um broadcast.",
+      "raw_id": "b6a3c020882d4e43904b6fb34f3beb8f"
+    },
+    {
+      "question": "Que ação um roteador tomará quando receber um quadro com um endereço MAC de broadcast?",
+      "options": [
+        "Não encaminhará o quadro para outra rede.",
+        "Ele encaminha o quadro de volta para o host remetente.",
+        "Ele encaminha o quadro para todas as interfaces conectadas.",
+        "Ele encaminha o quadro de volta pela interface de recebimento."
+      ],
+      "correctIndex": 0,
+      "explanation": "Os roteadores não encaminham broadcasts para outras redes. Os roteadores examinam os broadcasts para determinar se precisam agir, como em uma solicitação ARP ou em uma mensagem DHCP DISCOVER. Se o roteador não precisar responder ao broadcast, ele será descartado.",
+      "raw_id": "783da74f9c4f4138b57f6645e8ca83de"
+    },
+    {
+      "question": "Quais são dois motivos para instalar roteadores para segmentar uma rede? (Escolha dois.)",
+      "options": [
+        "para limitar o número de dispositivos que podem se conectar à rede",
+        "para expandir a rede para uma localização geográfica diferente",
+        "para criar domínios de broadcast menores na rede",
+        "para reduzir o número de switches necessários para conectar dispositivos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Há uma série de razões para usar roteadores para dividir uma rede em segmentos menores.  Expandir a rede para uma localização geográfica diferente pode exigir o uso de roteadores em ambos os locais.  Outro motivo é limitar os broadcasts os quais têm que ser processados por todos os dispositivos no segmento de rede.  Os roteadores não encaminham o tráfego de broadcast para fora do segmento de rede local.",
+      "raw_id": "5cd0905da27849f69d711438153917ec"
+    },
+    {
+      "question": "Qual tabela um roteador usa para determinar qual interface usar para enviar pacotes para a rede de destino?",
+      "options": [
+        "tabela ARP",
+        "tabela de roteamento",
+        "tabela de rede",
+        "tabela de encaminhamento"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tabelas de roteamento contêm endereços de redes e o melhor caminho para acessar essas redes.  Os roteadores usam as tabelas de roteamento para determinar qual interface deve ser usada para encaminhar uma mensagem para o destino desejado.",
+      "raw_id": "11c817062f9f43fcbc2ef16aa5886b50"
+    },
+    {
+      "question": "Que ação o roteador executa quando não encontra uma rota para a rede de destino em sua tabela de roteamento?",
+      "options": [
+        "Ele descarta o pacote",
+        "Ele envia o pacote como broadcast.",
+        "Ele devolve o pacote para o remetente.",
+        "Ele envia o pacote por todas as interfaces conectadas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Quando não há uma rota para a rede de destino contida na tabela de roteamento, o roteador descarta o pacote.",
+      "raw_id": "e21bcf98d7fc41de95d4afbf82ac023e"
+    }
+  ],
+  "images": []
+}

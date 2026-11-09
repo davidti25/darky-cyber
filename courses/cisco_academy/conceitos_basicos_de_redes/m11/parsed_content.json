@@ -1,0 +1,252 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "A estação de enfermagem de Kishori acabou de receber um novo laptop do departamento de TI. O especialista de TI, Madhav, está preparando a mesa e tentando se conectar à rede. Ele pede a Kishori para fazer login no computador. Ela digita o nome de usuário e a senha e tenta acessar o prontuário do paciente. Ela explica que deve haver um erro de conexão. Madhav senta para investigar. Madhav verifica o cabo e ele está conectado. Em seu tablet, ele exibe a lista de endereços IPv4 de todos os computadores neste andar nessa rede. Ele encontrou o problema! Há um erro no endereço IPv4. Madhav explica que o estagiário em seu departamento pode ter configurado manualmente as informações de rede neste host, em vez de usar o DHCP (Dynamic Host Configuration Protocol). Kishori nunca ouviu falar sobre DHCP. Ela vai ler sobre esse assunto.\nVocê está pronto para aprender sobre DHCP? Estou aqui para ajudar! Vamos começar este módulo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Endereçamento estático e dinâmico",
+      "content": "{{_moduleNumber}}.1 Endereçamento estático e dinâmico"
+    },
+    {
+      "type": "text",
+      "title": ".1 Endereçamento estático e dinâmico",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Atribuição de endereço IPv4 estático",
+      "content": "Os endereços IPv4 podem ser atribuídos estática ou dinamicamente.\nCom uma atribuição estática, o administrador de rede deve configurar manualmente as informações da rede para um host. No mínimo, isso inclui o seguinte:\nEndereço IP– Identifica o computador na rede.\nMáscara de Sub-rede - Identifica a rede à qual o host está conectado\nGateway padrão – Identifica o dispositivo de rede que o host usa para acessar a Internet ou outra rede remota.\nOs endereços estáticos têm algumas vantagens. Por exemplo, são úteis para impressoras, servidores e outros dispositivos de rede que precisam estar acessíveis para clientes na rede. Se os hosts normalmente acessam um servidor em um determinado endereço IPv4, não seria bom que esse endereço mudasse.\nEmbora a atribuição estática de informações de endereçamento possa proporcionar um controle maior dos recursos de rede, a digitação de informações em cada host pode ficar demorada. Quando os endereços IPv4 são inseridos estaticamente, o host executa apenas verificações básicas de erro no endereço IPv4. Isso aumenta a probabilidade de que ocorram erros.\nAo usar endereçamento IPv4 estático, é importante manter uma lista precisa de quais endereços IPv4 estão atribuídos a quais dispositivos. Além disso, como são endereços permanentes, normalmente eles não são reutilizados.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Atribuição dinâmica de endereço IPv4",
+      "content": "Nas redes locais, geralmente, a população de usuários muda com frequência. Novos usuários chegam com notebooks e precisam de uma conexão. Outros têm novas estações de trabalho que precisam ser conectadas. Em vez de fazer com que o administrador de rede atribua endereços IPv4 em cada estação de trabalho, é mais eficiente ter endereços IPv4 atribuídos automaticamente. Isso é feito com um protocolo conhecido como Dynamic Host Configuration Protocol (DHCP).\nO DHCP fornece um mecanismo para atribuição automática de informações de endereçamento, como endereço IPv4, máscara de sub-rede, gateway padrão e outras informações de configuração, como mostrado na figura.\nO DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada.\nOutro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado. Isso é especialmente útil com usuários móveis que vêm e vão em uma rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Servidores DHCP",
+      "content": "Se você inserir um hotspot sem fio em um aeroporto ou uma lanchonete, o DHCP possibilitará o acesso à Internet. Ao entrar na área, o cliente DHCP de seu laptop entra em contato com o servidor DHCP local via conexão sem fio. O servidor DHCP atribui um endereço IPv4 ao seu notebook.\nVários tipos de dispositivos podem ser servidores DHCP, desde que executem software de serviço DHCP. Na maioria das redes médias a grandes, o servidor DHCP normalmente é um servidor local dedicado baseado em PC.\nNas redes residenciais, é provável que o servidor DHCP esteja localizado no ISP. Um host na rede residencial recebe a configuração IPv4 diretamente do ISP, como mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Muitas redes de residências e pequenas empresas usam um modem e um roteador sem fio. Nesse caso, o roteador sem fio é tanto servidor como cliente DHCP. O roteador sem fio atua como cliente para receber a configuração de IPv4 do ISP e atua como servidor DHCP para hosts internos na rede local. O roteador recebe o endereço IPv4 público do ISP e, em sua função como servidor DHCP, distribui endereços privados para os hosts internos.\nAlém de servidores baseados em PC e roteadores sem fio, outros tipos de dispositivos de rede (como roteadores dedicados) podem fornecer serviços DHCP aos clientes, embora isso não seja tão comum."
+    },
+    {
+      "type": "text",
+      "title": ".2 Configuração do DHCPv4",
+      "content": "{{_moduleNumber}}.2 Configuração do DHCPv4"
+    },
+    {
+      "type": "text",
+      "title": ".2 Configuração do DHCPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo Endereçamento Dinâmico com DHCP",
+      "content": "{{_moduleNumber}}.3 Resumo Endereçamento Dinâmico com DHCP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo Endereçamento Dinâmico com DHCP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Endereçamento estático e dinâmico:** Com uma atribuição estática, o administrador de rede deve configurar manualmente as informações da rede para um host. No mínimo, isso inclui o endereço IPv4, a máscara de sub-rede e o gateway padrão do host. Embora a atribuição estática de informações de endereçamento possa proporcionar um controle maior dos recursos de rede, a digitação de informações em cada host pode ficar demorada. Ao usar endereçamento IPv4 estático, é importante manter uma lista precisa de quais endereços IPv4 estão atribuídos a quais dispositivos.\nOs endereços IPv4 podem ser atribuídos automaticamente usando um protocolo conhecido como DHCP. O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada. Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado.\nAssim que você entra na área com um ponto de acesso sem fio, o cliente DHCP do seu notebook entra em contato com o servidor DHCP local por meio de uma conexão sem fio. O servidor DHCP atribui um endereço IPv4 ao seu notebook. Nas redes residenciais, é provável que o servidor DHCP esteja localizado no ISP e um  host na rede residencial recebe a configuração IPv4 diretamente do ISP. Muitas redes de residências e pequenas empresas usam um modem e um roteador sem fio. Nesse caso, o roteador sem fio é tanto servidor como cliente DHCP.\n\n**Configuração do DHCPv4:** O servidor DHCP é configurado com um intervalo (ou pool) de endereços IPv4 que podem ser atribuídos a clientes DHCP. Um cliente que precise de um endereço IPv4 enviará uma mensagem de descoberta DHCP que é um broadcast com o endereço IPv4 de destino 255.255.255.255 (32 uns) e o endereço MAC de destino FF-FF-FF-FF-FF-FF (48 uns). Todos os hosts na rede receberão esse quadro DHCP de broadcast, mas apenas um servidor DHCP responderá. O servidor responderá com uma oferta DHCP, sugerindo um endereço IPv4 para o cliente. O host então envia uma solicitação DHCP pedindo para usar o endereço IPv4 sugerido O servidor responde com um DHCP Acknowledgment.\nNa maioria das redes de residências e pequenas empresas, um roteador sem fio fornece serviços DHCP aos clientes de rede local. Para configurar um roteador sem fio residencial, acesse a interface gráfica Web abrindo o navegador e inserindo o endereço IPv4 padrão do roteador  O endereço IPv4 192.168.0.1 e a máscara de sub-rede 255.255.255.0 são os padrões para a interface interna do roteador. Este é o gateway padrão para todos os hosts na rede local e também o endereço IPv4 interno do servidor DHCP. A maioria dos roteadores sem fio residenciais têm o servidor DHCP ativado por padrão."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Você inseriu manualmente um endereço IPv4 para todos os dispositivos em sua rede doméstica? Eles são chamados de endereços estáticos. Fiz isso na minha rede doméstica e cometi um erro ao inserir o endereço do tablet. Eu tive que refazê-lo. Você pode imaginar ter que fazer isso em uma grande rede corporativa com centenas ou até milhares de dispositivos? Quais são as outras vantagens de usar o DHCP para endereçamento de dispositivos?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nConectar 3 PCs a um roteador sem fio\nAlterar a configuração do DHCP para uma faixa de rede específica\nConfigurar os clientes para obter seus endereços por DHCP\nHistórico/Cenário\nUm usuário doméstico quer usar um roteador sem fio para conectar 3 PCs. Todos os 3 PCs devem obter seus endereços automaticamente a partir do roteador sem fio.\nInstruções\nParte 1: Configurar a topologia de rede\na.  Adicione três PCs genéricos.\nb.  Conecte cada PC a uma porta Ethernet a um roteador sem fio com cabos diretos.\nParte 2: Observar as configurações DHCP padrão\na.  Após as luzes amarelas ficarem verdes, clique em PC0. Clique na guia Desktop. Selecione IP Configuration. Selecione DHCP para receber um endereço IP do roteador habilitado para DHCP.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Feche a janela IP Configuration.\nc.  Abra um Navegador Web.\nd.  Digite o endereço IP do gateway padrão registrado anteriormente no campo URL. Quando solicitado, insira o nome de usuário admin e a senha admin.\ne.  Role pela página Configuração Básica para visualizar as configurações padrão, incluindo o endereço IP padrão do roteador sem fio.\nf.   Observe que o DHCP está ativado, o endereço inicial da faixa DHCP e a faixa dos endereços disponíveis aos clientes.\nParte 3: Altere os endereços IP padrão do roteador sem fio.\na.  Na seção Configurações do IP do Roteador, altere o endereço IP para: 192.168.5.1.\nb.   Vá até o final da página e clique em Save Settings (Salvar Configurações).\nc.  Se tudo for feito corretamente, a página Web exibirá uma mensagem de erro. Feche o navegador Web.\nd.  Clique em IP Configuration para renovar o endereço IP atribuído. Clique em Static (Estático). Clique em DHCP para receber novas informações de endereço IP do roteador sem fio.\ne.  Abra o Navegador Web, digite o endereço IP 192.168.5.1 no campo URL. Quando solicitado, insira o nome de usuário admin e a senha admin.\nParte 4: Altere o intervalo de endereços DHCP padrão.\na.  Observe que o endereço IP inicial do servidor DHCP é atualizado para a mesma rede do IP do roteador.\nb.  Altere o endereço IP inicial de 192.168.5.100 para 192.168.5.126.\nc.  Altere o Número Máximo de Usuários para 75.\nd.   Vá até o final da página e clique em Save Settings (Salvar Configurações). Feche o Navegador Web.\ne.  Clique em IP Configuration para renovar o endereço IP atribuído. Clique em  Static (Estático). Clique em DHCP para receber novas informações de endereço IP do roteador sem fio.\nf.   Selecione Command Prompt. Insira ipconfig.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 5: Ative o DHCP nos outros PCs.\na.  Clique em PC1.\nb.  Selecione a guia Desktop.\nc.  Selecione Configuração de IP.\nd.  Clique em DHCP.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Feche a janela de configuração de\nf.   Ative o DHCP no PC2 seguindo as etapas para o PC1.\nParte 6: Verifique a conectividade\na.  Clique no PC2 e selecione a guia Desktop.\nb.  Selecione Command Prompt.\nc.  Digite ipconfig no prompt para visualizar a configuração de IP.\nd.   No prompt, digite ping 192.168.5.1 para pingar o roteador wireless.\ne.  Execute o comando ping 192.168.5.126 para fazer ping em PC0.\nf.   No prompt, digite ping 192.168.5.127 para fazer ping em PC1.\ng.  Os pings para todos os dispositivos devem ser bem-sucedidos."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Quem é responsável por atribuir estaticamente as informações de endereçamento IP?",
+      "options": [
+        "o usuário do dispositivo",
+        "o fabricante do dispositivo",
+        "o sistema operacional instalado no dispositivo",
+        "o administrador de redes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nEmbora um usuário possa atribuir informações de endereçamento IP, isso geralmente é de responsabilidade do administrador de rede.",
+      "raw_id": "58e6a78569b84140b51e42d9735417ec"
+    },
+    {
+      "question": "Qual protocolo é responsável pela atribuição automática de informações de endereçamento IP?",
+      "options": [
+        "IPv4",
+        "NAT",
+        "DHCP",
+        "IETF"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nDHCP (Protocolo de Configuração Dinâmica de Host) é responsável pela atribuição automática de informações de endereçamento IP.",
+      "raw_id": "2ec6189448644a088a537c17d1a09030"
+    },
+    {
+      "question": "Quais são os dois motivos que geralmente tornam o DHCP o método preferido de atribuição de endereços IP a hosts em redes grandes? (Escolha duas.)",
+      "options": [
+        "Ele elimina a maioria dos erros de configuração de endereço",
+        "Ele garante que os endereços sejam aplicados apenas a dispositivos que exigem um endereço permanente.",
+        "Ele garante que cada dispositivo que precisa de um endereço obtenha um.",
+        "Ele fornece um endereço apenas para dispositivos autorizados a serem conectados à rede.",
+        "Isso reduz a carga sobre a equipe de suporte de rede."
+      ],
+      "correctIndex": 4,
+      "explanation": "O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada. No entanto, o próprio DHCP não discrimina entre dispositivos autorizados e não autorizados e atribuirá parâmetros de configuração para todos os dispositivos solicitantes Os servidores DHCP geralmente são configurados para atribuir endereços de um intervalo de sub-rede, então não há garantia de que cada dispositivo que precisa de um endereço obtenha um.",
+      "raw_id": "688d753904ef4b739518b1042201dae7"
+    },
+    {
+      "question": "Qual mensagem um host IPv4 usa para responder quando recebe uma mensagem DHCPOFFER de um servidor DHCP?",
+      "options": [
+        "DHCPACK",
+        "DHCPDISCOVER",
+        "DHCPOFFER",
+        "DHCPREQUEST"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando o cliente recebe o DHCPOFFER do servidor, ele envia de volta uma mensagem DHCPREQUEST para o endereço de broadcast. Ao receber a mensagem DHCPREQUEST, o servidor responde com uma mensagem DHCPACK unicast.",
+      "raw_id": "623ec4c6ab394e30ba498f7357738c69"
+    },
+    {
+      "question": "Qual endereço IPv4 destino é usado pelo cliente DHCPv4 para enviar o pacote DHCP Discover inicial quando o cliente está procurando um servidor DHCP?",
+      "options": [
+        "127.0.0.1",
+        "224.0.0.1",
+        "255.255.255.255",
+        "o endereço IP do gateway padrão."
+      ],
+      "correctIndex": 2,
+      "explanation": "As comunicações de transmissão em uma rede podem ser direcionadas ou limitadas. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Uma broadcast limitado é enviado para 255.255.255.255. Quando um cliente DHCP precisa enviar um pacote DHCP Discover para procurar servidores DHCP, o cliente usará esse endereço IP de 255.255.255.255 como destino no cabeçalho IP porque ele não tem conhecimento quanto aos endereços IP dos servidores DHCP.",
+      "raw_id": "72024afcb9ed4043acd1763a862318c9"
+    },
+    {
+      "question": "Que tipo de pacote é enviado por um servidor DHCP após receber uma mensagem de DHCP Discover?",
+      "options": [
+        "DHCP ACK",
+        "DHCP Discover",
+        "Oferta de DHCP",
+        "Solicitação de DHCP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um servidor DHCP recebe um pacote DHCP Discover de um cliente, o servidor responde com um pacote de Oferta DHCP para informar ao cliente que um endereço IP está disponível e reservado para o cliente.",
+      "raw_id": "6860b6b82d014f9a8f50fd935e60f2c2"
+    },
+    {
+      "question": "Qual é a vantagem de usar o DHCP para atribuir endereços a dispositivos móveis?",
+      "options": [
+        "As concessões de endereço são temporárias e retornam ao pool quando o dispositivo é desligado.",
+        "Os endereços são atribuídos permanentemente ao dispositivo móvel e são válidos em qualquer rede.",
+        "O uso do DHCP cria muito mais endereços IPv4 registrados.",
+        "O DHCP permite que vários endereços IPv4 internos usem um único endereço global registrado."
+      ],
+      "correctIndex": 0,
+      "explanation": "Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado. Isso é especialmente útil com usuários móveis que vêm e vão em uma rede.",
+      "raw_id": "7a0888cff1eb4c9ea78a217af93da27b"
+    },
+    {
+      "question": "Exibir  mostra uma parte da tela de definição da configuração de rede da GUI em um roteador sem fio doméstico. O IP do roteador está definido como 192.168.0.1 máscara de sub-rede  255.255.255.0.  Abaixo das configurações de IP do roteador estão as configurações do servidor DHCP. Servidor DHCP está habilitado Endereço IP inicial é 192.168.0.100. Número máximo de usuários está definido em 50. Faixa de Endereço IP é 192.168.0.100 - 149.\" style=\"min-width: 50%;\">\nConsulte a figura. O roteador doméstico está configurado como um servidor DHCP. A faixa  de endereços IP está configurado para ser 192.168.0.100 - 149.  Qual endereço IP será atribuído automaticamente ao primeiro dispositivo que se conecta ao roteador sem fio?",
+      "options": [
+        "192.168.0.1",
+        "192.168.0.50",
+        "192.168.0.100",
+        "192.168.0.149"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando o primeiro dispositivo se conectar ao roteador sem fio, ele receberá o primeiro endereço configurado no pool.  Os dispositivos subsequentes receberão um endereço do pool até que todos os endereços sejam atribuídos.",
+      "raw_id": "aa733d0bcd044e8a8e4d0c1497774419"
+    },
+    {
+      "question": "Consulte a figura. PC1 foi configurado para obter um endereço IP dinâmico de um servidor DHCP O PC1 foi desligado por duas semanas. Quando o PC1 inicializa e tenta solicitar um endereço IP disponível, qual endereço IP de destino o PC1 colocará no cabeçalho IP?",
+      "options": [
+        "192.168.1.1",
+        "192.168.1.8",
+        "192.168.1.255",
+        "255.255.255.255"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um host é inicializado e foi configurado para endereçamento IP dinâmico, o dispositivo tenta obter um endereço IP válido. Ele envia uma mensagem de DHCPDISCOVER. Esta é uma mensagem de broadcast porque o endereço do servidor DHCP é desconhecido (por padrão). O endereço IP de destino no cabeçalho IP é 255.255.255.255 e o endereço MAC de destino é FF: FF: FF: FF: FF: FF.",
+      "raw_id": "e86b9030bdfb43bcb5d6ab3cefe77037"
+    },
+    {
+      "question": "Que tipo de servidor atribui dinamicamente um endereço IP a um host?",
+      "options": [
+        "ARP",
+        "DHCP",
+        "DNS",
+        "FTP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os servidores DHCP podem ser computadores ou dispositivos de rede configurados para atribuir endereços IPv4 a dispositivos conectados à rede.",
+      "raw_id": "ac9fd7a2583a4d77949986b5690fadcb"
+    },
+    {
+      "question": "Quais das três instruções descrevem uma mensagem de descoberta de DHCP? (Escolha três.)",
+      "options": [
+        "O endereço MAC de origem é 48 uns(FF-FF-FF-FF-FF-FF).",
+        "O endereço IP de destino é  255.255.255.255",
+        "A mensagem vem de um servidor que oferece um endereço IP.",
+        "A mensagem vem de um cliente que procura um endereço IP.",
+        "Todos os hosts recebem a mensagem, mas apenas um servidor DHCP responde.",
+        "Somente o servidor DHCP recebe a mensagem."
+      ],
+      "correctIndex": 4,
+      "explanation": "Quando um host configurado para usar DHCP é ligado em uma rede, ele envia uma mensagem DHCPDISCOVER. FF-FF-FF-FF-FF-FF é o endereço broadcast L2. Um servidor DHCP responde com uma mensagem DHCPOFFER unicast de volta ao host.",
+      "raw_id": "cc2b612c6b194bdbb37085e57dc722a8"
+    },
+    {
+      "question": "Um PC está tentando conceder um endereço através do DHCP. Que mensagem é enviada pelo servidor para que o cliente saiba que é capaz de usar as informações de IP fornecidas?",
+      "options": [
+        "DHCPDISCOVER",
+        "DHCPOFFER",
+        "DHCPREQUEST",
+        "DHCPACK"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um host usa DHCP para configurar automaticamente um endereço IP, normalmente envia duas mensagens: a mensagem DHCPDISCOVER e a mensagem DHCPREQUEST. Essas duas mensagens geralmente são enviadas como broadcasts para garantir que todos os servidores DHCP irão recebê-las. Os servidores respondem a essas mensagens usando mensagens DHCPOFFER, DHCPACK e DHCPNACK, dependendo da circunstância.",
+      "raw_id": "eca445bd37fd40fcbff7e947c3d87f0f"
+    }
+  ],
+  "images": []
+}

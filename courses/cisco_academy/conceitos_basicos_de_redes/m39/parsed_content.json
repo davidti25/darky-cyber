@@ -1,0 +1,986 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para começar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Por que devo fazer este módulo?",
+      "content": "Olá de novo! A campanha de conscientização em que Lara trabalhou foi um sucesso. Por causa disso, a faculdade convidou Lara para trabalhar em um comitê para desenvolver a política de segurança da faculdade. A política de segurança é um documento que ajuda os administradores da faculdade, a equipe de TI e os usuários da faculdade a defender a rede e os terminais.\nLara revisará as políticas de segurança atuais neste comitê e ajudará a desenvolver novas. Essas políticas informam à equipe de TI como manter a confidencialidade dos dados, garantir a integridade dos dados e garantir que a rede esteja disponível para todos os usuários. Ele também define como a web pode ser acessada, quais sistemas e dispositivos serão usados para protegê-la e como proteger dispositivos terminais e acesso sem fio. Vamos trabalhar neste módulo para saber mais sobre o que podemos fazer para defender a rede e seus terminais."
+    },
+    {
+      "type": "text",
+      "title": ".1 Fundamentos de Segurança",
+      "content": "{{_moduleNumber}}.1 Fundamentos de Segurança"
+    },
+    {
+      "type": "text",
+      "title": ".1 Fundamentos de Segurança",
+      "content": "Role para começar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 O Cubo de Cibersegurança",
+      "content": "Você já ouviu falar do cubo de segurança digital? Ele fornece uma maneira útil de refletir sobre a proteção de dados. O cubo nos mostra o que a tarefa de proteger dados envolve, incluindo as três dimensões da segurança da informação.\nRole para baixo para explorar cada uma delas."
+    },
+    {
+      "type": "text",
+      "title": "1. Princípios de segurança",
+      "content": "A primeira dimensão do cubo de segurança cibernética identifica os objetivos para proteger o espaço cibernético. Os princípios fundamentais de confidencialidade, integridade e disponibilidade de dados fornecem um foco que permite que o especialista em segurança cibernética priorize ações ao proteger qualquer sistema em rede.\nA confidencialidade dos dados impede a divulgação de informações a pessoas, recursos ou processos não autorizados.\nA integridade dos dados refere-se à precisão, consistência e confiabilidade dos dados.\nA disponibilidade de dados garante que as informações sejam acessíveis por usuários autorizados quando necessário.\nUse o acrônimo CIA para se lembrar desses três princípios."
+    },
+    {
+      "type": "text",
+      "title": "2. Estado dos Dados",
+      "content": "O domínio do ciberespaço contém uma quantidade considerável de dados extremamente importantes. Mas em que estado?\nA segunda dimensão do cubo de segurança digital representa os três possíveis estados dos dados.\nDados em trânsito.\nDados inativos ou em armazenamento.\nDados em processamento.\nA segurança digital eficaz exige a proteção de dados nos três estados. Não podemos nos concentrar apenas na proteção dos dados que estão sendo processados, nem apenas nos dados armazenados."
+    },
+    {
+      "type": "text",
+      "title": "3. Proteção",
+      "content": "A terceira dimensão do cubo de segurança digital define os pilares nos quais precisamos basear nossas defesas de segurança digital para proteger dados e infraestrutura.\nSão contramedidas de proteção: tecnologia, políticas e práticas e a conscientização de pessoas.\nOs profissionais de segurança cibernética devem usar uma variedade de diferentes qualificações profissionais e disciplinas disponíveis a eles, ao proteger os dados no espaço cibernético."
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Confidencialidade, Integridade e Disponibilidade",
+      "content": "É verdade que a lista de tipos de ataque de rede é longa. Mas existem muitas práticas recomendadas que você pode usar para defender sua rede, como você aprenderá neste tópico.\nA segurança da rede consiste em proteger informações e sistemas de informações contra acesso não autorizado, uso, divulgação, interrupção, modificação ou destruição.\nA maioria das organizações segue a tríade de segurança da informação CIA. Uma vez que constitui a base da prática de segurança cibernética, é importante que você tenha uma compreensão detalhada dos três princípios:\nConfidencialidade - Apenas indivíduos, entidades ou processos autorizados podem acessar informações sensíveis. Ele pode exigir o uso de algoritmos de criptografia como AES para criptografar e descriptografar dados.\nIntegridade - Refere-se à proteção dos dados contra alterações não autorizadas. Requer o uso de algoritmos de hash criptográfico, como o SHA.\nDisponibilidade - Os usuários autorizados devem ter acesso contínuo a recursos e dados importantes. Requer a implementação de serviços, gateways e links redundantes.\nA figura mostra a Tríade CIA composta por Confidencialidade, Integridade e Disponibilidade."
+    },
+    {
+      "type": "text",
+      "title": ".1.3 Tríade da CIA - O Princípio da Confidencialidade",
+      "content": "Para obter confidencialidade sem usar criptografia, a tokenização é uma técnica de substituição que pode isolar os elementos de dados da exposição a outros sistemas de dados. Um valor aleatório sem relacionamento matemático substitui os dados originais. Fora do sistema, um token não tem valor e não faz sentido. A tokenização pode preservar o formato dos dados (tipo e comprimento dos dados), o que os torna úteis para bancos de dados e processamento de pagamento com cartão."
+    },
+    {
+      "type": "text",
+      "title": "10.1.3 Tríade da CIA - O princípio da confidencialidade",
+      "content": "O gerenciamento de direitos abrange o  gerenciamento de direitos digitais (DRM) e o gerenciamento de direitos de informação (IRM). Ambos protegem os dados contra acesso não autorizado usando criptografia.\nO DRM protege materiais protegidos por direitos autorais, como músicas, filmes ou livros. Quando qualquer conteúdo desse tipo aparece em formato digital - por exemplo, em CD, mp3 ou e-book - ele é criptografado e, portanto, a mídia não pode ser copiada sem a chave de descriptografia. A chave de descriptografia está disponível apenas para partes licenciadas.\nO IRM é usado com e-mail e outros arquivos que são relevantes para as atividades e comunicações de uma empresa. Quando essas informações são compartilhadas com outras pessoas, o IRM permite que o proprietário do documento, a empresa ou um de seus membros controle e gerencie o acesso ao documento."
+    },
+    {
+      "type": "accordion",
+      "title": ".1.7 Garantia de Disponibilidade",
+      "content": "**Manutenção de equipamentos:** A manutenção regular do equipamento pode melhorar bastante o tempo de atividade do sistema. A manutenção inclui a substituição, limpeza e alinhamento do componente.\n\n**Sistemas operacionais e atualizações e patches de software:** Sistemas operacionais, aplicativos e softwares modernos são atualizados continuamente para corrigir erros e eliminar vulnerabilidades. Em todas as organizações, todos os sistemas, aplicativos e softwares devem ser atualizados regularmente. Os profissionais de segurança cibernética podem se registrar para alertas que anunciam novas versões de atualização.\n\n**Teste de backup:** O backup dos dados da organização, dos dados de configuração e dos dados pessoais ajuda a garantir a disponibilidade. Os sistemas de backup e os dados de backup também devem ser testados para garantir que funcionem corretamente e que os dados possam ser recuperados em caso de perda de dados.\n\n**Planejamento contra desastres:** O planejamento contra desastres é uma parte crítica da disponibilidade crescente do sistema. Os funcionários e os clientes devem saber como responder a um desastre. A equipe de segurança cibernética deve praticar protocolos de resposta, testar sistemas de backup e estar familiarizada com os procedimentos para restaurar sistemas críticos.\n\n**Implementações de novas tecnologias:** A alta disponibilidade requer avaliação contínua e teste de novas tecnologias, para considerar novas ameaças e ataques. Os criminosos cibernéticos utilizam as mais recentes ferramentas e truques, por isso os profissionais de segurança cibernética também são obrigados a se manter atualizados utilizando novas tecnologias, produtos e dispositivos.\n\n**Monitoramento de atividades:** O monitoramento do sistema contínuo aumenta a disponibilidade do sistema. Monitorar logs de eventos, alertas do sistema e registros de acesso fornece ao profissional de segurança cibernética informações em tempo real sobre o sistema. Esse monitoramento pode identificar ataques em questão de segundos e permitir que os profissionais de segurança cibernética se defendam contra eles quando ocorrerem.\n\n**Teste de disponibilidade:** Todos os sistemas devem ser testados para encontrar vulnerabilidades. O teste pode incluir varreduras de porta, varreduras de vulnerabilidade e testes de penetração."
+    },
+    {
+      "type": "text",
+      "title": ".2 Controle de acesso",
+      "content": "{{_moduleNumber}}.2 Controle de acesso"
+    },
+    {
+      "type": "text",
+      "title": ".2 Controle de acesso",
+      "content": "Role para começar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Controles de Acesso Físico",
+      "content": "Controles de acesso físico são barreiras reais implantadas para evitar o contato direto com os sistemas. A meta é prevenir que usuários não autorizados acessem fisicamente as instalações, equipamentos e outros ativos organizacionais.\nPor exemplo, o controle de acesso físico determina quem pode entrar (ou sair), onde podem entrar (ou sair) e quando podem entrar (ou sair).\nAqui estão alguns exemplos de controles de acesso físicos:\nGuardas que monitoram a instalação.\nCercas que protegem o perímetro.\nDetectores de movimento que detectam objetos em movimento.\nTravas de laptop que impedem o roubo de equipamentos portáteis.\nPortas trancadas para impedir o acesso não autorizado.\nCartões de acesso para permitir o acesso a uma área restrita.\nCães de guarda para proteger a instalação.\nCâmeras de vídeo para monitorar uma instalação coletando e gravando imagens.\nSistemas de entrada estilo Mantrap para escalonar o fluxo de pessoas na área protegida e prender visitantes indesejados.\nAlarmes para detectar intrusão."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Controles de Acesso Lógico",
+      "content": "Controles de acesso lógico são as soluções de hardware e software usadas para gerenciar o acesso aos recursos e sistemas. Essas soluções baseadas em tecnologia incluem ferramentas e protocolos que os sistemas de computador utilizam para identificação, autenticação, autorização e contabilização.\nExemplos de controle de acesso lógico incluem:\nA criptografia é o processo de pegar o texto claro e criar o texto codificado.\nOs cartões inteligentes possuem um microchip integrado.\nAs senhas são strings de caracteres protegidos.\nA biometria se refere às características físicas dos usuários.\nAs listas de controle de acesso (ACLs) definem o tipo de tráfego permitido em uma rede.\nOs protocolos são conjuntos de regras que regem a troca de dados entre os dispositivos.\nOs firewalls impedem o tráfego de rede indesejado.\nOs roteadores conectam pelo menos duas redes.\nOs sistemas de detecção de invasão monitoram as atividades suspeitas de uma rede.\nOs níveis de corte são determinados pelos limites permitidos para erros antes de acionar uma bandeira vermelha."
+    },
+    {
+      "type": "text",
+      "title": ".2.3 Controles de Acesso Administrativo",
+      "content": "Os controles de acesso administrativo são as políticas e procedimentos definidos pelas empresas para implementar e aplicar todos os aspectos de controle de acesso não autorizado.\nOs controles administrativos se concentram nas seguintes práticas de pessoal e negócios."
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Políticas são ideias ou ações aprovadas que orientam o comportamento.\nProcedimentos são as etapas detalhadas necessárias para realizar uma atividade.\nAs práticas de contratação definem as etapas que uma organização adota para encontrar funcionários qualificados.\nAs verificações de antecedentes são um tipo de triagem de funcionários que inclui a verificação de empregos anteriores, histórico de crédito e histórico criminal.\nA classificação de dados categoriza os dados com base em sua sensibilidade.\nO treinamento de segurança educa os funcionários sobre as políticas de segurança em uma organização.\nAs revisões avaliam o desempenho no trabalho de um funcionário."
+    },
+    {
+      "type": "accordion",
+      "title": ".2.4 Autenticação, autorização e contabilidade (AAA)",
+      "content": "**Autenticação:** O primeiro A no AAA representa a autenticação. A autenticação é a verificação da identidade de cada usuário, para evitar acesso não autorizado. Os usuários provam sua identidade com um nome de usuário ou um ID. Além disso, os usuários precisam verificar sua identidade fornecendo um dos seguintes:\nAlgo que saibam (como uma senha)\nAlgo que tenham (como um token ou cartão)\nAlgo que eles são (como uma impressão digital)\nNo caso da autenticação de dois fatores, que está se tornando cada vez mais comum, a autenticação requer uma combinação de dois dos elementos mencionados anteriormente em vez de apenas um.\n\n**Autorização:** Serviços de autorização  determinam quais recursos os usuários podem acessar, juntamente com as operações que os usuários podem realizar.\nAlguns sistemas fazem isso usando uma lista de controle de acesso, ou uma ACL. Uma ACL determina se um usuário tem certos privilégios de acesso depois de se autenticar. Só porque você pode fazer logon na rede corporativa não significa que você tenha permissão para usar a impressora colorida de alta velocidade, por exemplo.\nA autorização também pode controlar quando um usuário tem acesso a um recurso específico. Por exemplo, os funcionários podem ter acesso a um banco de dados de vendas durante o horário comercial, mas o sistema os bloqueia, depois de horas.\n\n**Accounting:** Não relacionado à contabilidade financeira, a contabilidade em AAA (Autenticação, Autorização e Contabilidade) registra o que os usuários fazem - incluindo o que eles acessam, a quantidade de tempo que acessam e quaisquer alterações que façam.\nPor exemplo, um banco mantém o controle da conta de cada cliente. Uma auditoria do sistema pode revelar o tempo e o valor de todas as transações e o funcionário ou o sistema que executou as transações. Serviços de accounting de segurança cibernética funcionam da mesma maneira. O sistema controla cada transação de dados e fornece os resultados da auditoria. Os administradores de sistema podem configurar políticas de computador para habilitar a auditoria do sistema.\nO conceito do AAA é semelhante ao uso de um cartão de crédito. O cartão de crédito identifica quem pode usá-lo, determina quanto o usuário pode gastar e contabiliza os itens ou serviços que o usuário comprou.\nA contabilidade de cibersegurança acompanha e monitora as atividades dos usuários em tempo real."
+    },
+    {
+      "type": "text",
+      "title": ".2.5 O que é identificação?",
+      "content": "A identificação aplica as regras estabelecidas pela política de autorização. Sempre que o acesso a um recurso é solicitado, os controles de acesso determinam se o acesso deve ser concedido ou negado.\nUm identificador único assegura a devida associação entre as atividades permitidas e os indivíduos. Um nome de usuário é o método mais comum usado para identificar um usuário. Um nome de usuário pode ser uma combinação alfanumérica, um número de identificação pessoal (PIN), um cartão inteligente ou um recurso biométrico - como uma impressão digital, um escaneamento da retina ou reconhecimento de voz.\nUm identificador único assegura que um sistema possa identificar cada usuário individualmente; portanto, permite que um usuário autorizado realize as ações apropriadas em um recurso específico."
+    },
+    {
+      "type": "text",
+      "title": ".2.6 Gerenciamento de identidade federada",
+      "content": "A gestão de identidade federada (FIM) refere-se a várias empresas que permitem que seus usuários usem as mesmas credenciais de identificação para acessar as redes de todas as empresas do grupo. Embora o FIM forneça conveniência para usuários e administradores, se o sistema for explorado por hackers, eles terão acesso a vários sistemas em vez de apenas um.\nEm termos gerais, uma identidade federada vincula a identidade eletrônica de um sujeito em sistemas separados de gerenciamento de identidade. Isso pode permitir o acesso a vários sites usando as mesmas credenciais de login social, por exemplo.\nO objetivo da gestão de identidade federada é compartilhar informações de identidade automaticamente entre as fronteiras empresariais. Do ponto de vista do usuário individual, isso significa um único login em várias redes.\nÉ imperativo que as organizações examinem as informações de identificação que são compartilhadas com parceiros, mesmo dentro do mesmo grupo corporativo. O compartilhamento de números de CPF, nomes e endereços pode permitir que ladrões de identidade roubem essas informações de um parceiro para cometer fraudes. A maneira mais comum de proteger a identidade federada é vincular a identidade do usuário a dispositivos autorizados, como estações de trabalho e telefones."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".2.7 Métodos de Autenticação",
+      "content": "**O que você sabe:** Senhas, frases secretas ou PINs são exemplos de algo que o usuário conhece. As senhas são o método mais popular usado para autenticação.\nOs termos passphrase, passcode, passkey e PIN são geralmente referidos genericamente como senha. Uma senha é uma string de caracteres protegidos usada para comprovar a identidade de um usuário. Se essa sequência de caracteres estiver relacionada a um usuário (por exemplo, se for seu nome, data de nascimento ou endereço), será mais fácil para os cibercriminosos adivinharem a senha desse usuário.\nVárias publicações recomendam que uma senha tenha pelo menos oito caracteres. Os usuários não devem criar uma senha muito grande que seja difícil de memorizar ou, por outro lado, tão pequena que se torne vulnerável à quebra de senha. A complexidade da senha deve incluir uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais.\nOs usuários precisam usar senhas diferentes para sistemas diferentes porque, se um criminoso quebrar a senha do usuário uma vez, o criminoso terá acesso a todas as contas do usuário. Um gerenciador de senhas pode ajudá-lo a criar e usar senhas fortes — e torna desnecessário lembrar tantas senhas complexas.\n\n**O que você tem:** Os cartões inteligentes e os dispositivos de segurança são exemplos de objetos que os usuários possuem e que podem ser usados para fins de autenticação.\nUm cartão inteligente é um pequeno cartão de plástico, do tamanho de um cartão de crédito, com um pequeno chip embutido nele. O chip é um portador de dados inteligente, capaz de processar, armazenar e proteger dados. Os cartões inteligentes contêm informações privadas, como números de contas bancárias, identificação pessoal, registros médicos e assinaturas digitais, usando criptografia para manter os dados seguros e fornecer um meio de autenticação.\nUm chaveiro de segurança é um dispositivo pequeno o suficiente para ser anexado a um chaveiro. Na maioria dos casos, as chaves de segurança são usadas para autenticação de dois fatores (2FA), que é muito mais segura do que uma combinação de nome de usuário e senha.\nPor exemplo, vamos supor que você queira acessar o seu banco online, que utiliza autenticação em duas etapas. Primeiro, insira seu nome de usuário (identificação). Em seguida, você insere a senha, que é o seu primeiro fator de autenticação. Depois disso, você precisa de um segundo meio de autenticação, pois o sistema usa 2FA. Você insere um PIN no seu dispositivo de segurança, e ele exibe um número. Isso prova que você tem acesso físico a este dispositivo, que foi emitido para você. Este número é o segundo fator. Você o insere para fazer login na conta do e-banking.\n\n**Quem você é:** Características físicas únicas, como impressão digital, padrão de retina ou impressão de voz. Essas características biométricas pessoais identificam exclusivamente uma pessoa específica. A segurança biométrica compara as características físicas aos perfis armazenados para autenticar os usuários. Neste caso, um perfil é um arquivo de dados contendo características conhecidas de um indivíduo. O sistema concede ao usuário o acesso se suas características corresponderem às informações salvas em seu perfil. Um leitor de impressão digital é um dispositivo biométrico comum.\nExistem dois tipos de identificadores biométricos:\nCaracterísticas físicas — impressões digitais, DNA, rosto, mãos, retina ou características da orelha.\nCaracterísticas comportamentais —  padrões de comportamento como gestos, voz, caminhar ou ritmo de digitação.\nA biometria está se tornando cada vez mais popular em sistemas de segurança pública, dispositivos eletrônicos do consumidor e aplicações de ponto de venda. Implementar biometria envolve um leitor ou dispositivo de escaneamento, um software que converte as informações escaneadas em formato digital e um banco de dados que armazena os dados biométricos para comparação."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Nos roteadores Cisco, os espaços à esquerda são ignorados em senhas, mas os espaços após o primeiro caractere não são ignorados. Portanto, um método para criar uma senha forte é utilizar a barra de espaço e criar uma frase feita de muitas palavras. Isso se chama frase secreta. Uma frase secreta é geralmente mais fácil de lembrar do que uma senha simples. Também é maior e mais difícil de ser descoberta.\nGerenciadores de senhas\nUse um gerenciador de senhas para proteger as senhas das suas atividades online na internet. Considerada a melhor prática para proteger as senhas, o Gerenciador de Senhas gera automaticamente senhas complexas para você e as inserirá automaticamente quando você acessar esses sites. Você só precisa inserir uma senha principal para ativar esse recurso.\nAutenticação de múltiplos fatores\nUse a autenticação de múltiplos fatores sempre que disponível. Isso significa que a autenticação requer dois ou mais meios independentes de verificação. Por exemplo, quando você insere uma senha, também terá que inserir um código que é enviado para você por meio de e-mail ou mensagem de texto."
+    },
+    {
+      "type": "text",
+      "title": ".2.9 Autenticação Multifator",
+      "content": "Como abordamos anteriormente, a autenticação multifatorial usa pelo menos dois métodos de verificação - como uma senha e algo que você tem, por exemplo, um chaveiro de segurança. Isso pode ser levado um passo adiante adicionando algo que você é, como uma verificação de impressão digital.\nA autenticação multifator pode reduzir a incidência de roubo de identidade online porque significa que saber uma senha não dará aos cibercriminosos acesso à conta de um usuário.\nPor exemplo, um site de banco on-line pode exigir uma senha e um PIN que o usuário recebe em seu smartphone. Nesse caso, o primeiro fator é a senha e o segundo, o PIN temporário, porque prova que você tem acesso ao que é registrado como seu telefone.\nRetirar dinheiro de um caixa eletrônico é outro exemplo simples de autenticação multifatorial, pois o usuário deve ter o cartão do banco e saber o PIN antes de o caixa eletrônico distribuir dinheiro.\nObserve que a autenticação de dois fatores (2FA) é um método de autenticação de vários fatores que envolve dois fatores em particular, mas os dois termos são frequentemente usados de forma alternada."
+    },
+    {
+      "type": "text",
+      "title": ".3 Defesa de sistemas e dispositivos",
+      "content": "{{_moduleNumber}}.3 Defesa de sistemas e dispositivos"
+    },
+    {
+      "type": "text",
+      "title": ".3 Defesa de sistemas e dispositivos",
+      "content": "Role para começar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.3 Tipos de Anitmalware",
+      "content": "**Cuidado com produtos antivírus invasores:** Tenha cuidado com produtos antivírus nocivos maliciosos que aparecem durante a navegação na Internet. A maioria exibe um anúncio ou pop-up que parece um aviso real do Windows. Eles avisam que o malware está infectando o computador e solicitam que o usuário o limpe. Mas eles não vêm de fontes legítimas, e clicar em qualquer lugar dentro da janela pode baixar e instalar malware.\n\n**Ataques de malware sem arquivo são difíceis de detectar e remover:** O malware sem arquivo usa programas legítimos para infectar um computador. Indo direto para a memória, esse tipo de malware não depende de arquivos, então não deixa pegada. Um ataque sem arquivo termina quando o sistema é reiniciado. Vírus sem arquivo usam linguagens de script como o Windows PowerShell e são difíceis de detectar.\n\n**Os scripts também podem ser malware:** Linguagens de script como Python, Bash (a linguagem de linha de comando para macOS da Apple e a maioria das distribuições Linux) ou Visual Basic for Applications (ou VBA, usado em macros da Microsoft) podem ser usadas para criar scripts que são malware.\n\n**Sempre remova software não aprovado:** Software não aprovado ou não compatível pode ser instalado involuntariamente em um computador. Os usuários também podem instalar intencionalmente programas não autorizados. Embora o software não aprovado possa não ser mal-intencionado, ele ainda pode violar a política de segurança e interferir no software ou nos serviços de rede da empresa. O software não compatível deve ser removido imediatamente."
+    },
+    {
+      "type": "text",
+      "title": ".3.6 Criptografia do host",
+      "content": "O recurso Windows Encrypting File System (EFS) permite que os usuários criptografem arquivos, pastas ou um disco rígido inteiro. A criptografia de disco completo (FDE) criptografa todo o conteúdo de uma unidade (incluindo arquivos temporários e memória). O Microsoft Windows usa o BitLocker para FDE.\nPara usar o BitLocker, o usuário precisa habilitar um Módulo de Plataforma Confiável (TPM) na BIOS. Um TPM é um chip especializado na placa-mãe que armazena informações sobre o sistema host, como chaves de criptografia, certificados digitais e medições de integridade do sistema. Quando ativado, o BitLocker pode usar o chip do TPM.\nDa mesma forma, o BitLocker To Go é uma ferramenta que criptografa unidades removíveis. Ele não usa um chip TPM, mas ainda criptografa os dados, exigindo uma senha para descriptografá-los. Unidades de autocriptografia (SEDS) criptografam automaticamente todos os dados na unidade para impedir que invasores acessem os dados por meio de seu sistema operacional. A criptografia SEDS é implementada no hardware da unidade pelo fabricante."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".3.8 Recursos de segurança do sistema Apple",
+      "content": "**Hardware com foco em segurança:** A plataforma de hardware possui recursos avançados de segurança, como um processador de segurança especial, integridade de inicialização e um mecanismo dedicado de criptografia AES. Esses recursos estão incluídos em um sistema especial em um chip chamado Secure Enclave.\n\n**Armazenamento criptografado:** A criptografia de armazenamento de dados Apple Data Protection e FileVault é compatível com o mecanismo de criptografia AES de hardware. Isso permite a criptografia e a descriptografia de arquivos à medida que eles são gravados ou lidos, sem expor as chaves de criptografia para a CPU principal, sistema operacional ou aplicativos em execução.\n\n**Inicialização segura:** A ROM de inicialização protege o hardware de nível inferior e só permite a execução de software Apple OS genuíno e inalterado.\n\n**Proteção a dados biométricos:** Os dados de autenticação biométrica são processados no sistema de hardware de segurança. Isso o mantém separado do SO e da execução de software de aplicativo, incluindo malware.\n\n**Find My Mac:** O Find My Mac ajuda a encontrar dispositivos macOS perdidos ou roubados por meio da função de rastreamento de localização. Ele também permite o bloqueio remoto do dispositivo e o apagamento do armazenamento se dados essenciais estiverem em risco.\n\n**XProtect:** A tecnologia antimalware XProtect impede a execução de malware através da detecção de malware por assinatura. Ele também alerta os usuários sobre a existência de malware e oferece a opção de remover os arquivos de malware detectados.\n\n**Ferramenta de remoção de malware (MRT):** A Ferramenta de Remoção de Malware (MRT) detecta e remove as infecções de malware atuais quando as regras de detecção são atualizadas automaticamente pela Apple. Ele também monitora infecções por malware na reinicialização do sistema e no login de usuários.\n\n**Gatekeeper (Guardião):** O Gatekeeper garante que apenas o software autêntico, assinado digitalmente, criado por um desenvolvedor de software autenticado pela Apple, tenha permissão para ser instalado."
+    },
+    {
+      "type": "text",
+      "title": ".4 Proteção Antimalware",
+      "content": "{{_moduleNumber}}.4 Proteção Antimalware"
+    },
+    {
+      "type": "text",
+      "title": ".4 Proteção Antimalware",
+      "content": "Role para começar"
+    },
+    {
+      "type": "text",
+      "title": ".4.1 Ameaças a Endpoints",
+      "content": "O termo “endpoint” é definido de várias maneiras. Para fins deste curso, podemos definir endpoints como hosts na rede que podem acessar ou ser acessados por outros hosts na rede. Isso obviamente inclui computadores e servidores, no entanto muitos outros dispositivos também podem acessar a rede. Com o rápido crescimento da Internet das Coisas (IoT), outros tipos de dispositivos são agora endpoints na rede. Isso inclui câmeras de segurança em rede, controladores e até mesmo lâmpadas e aparelhos. Cada ponto de extremidade é potencialmente uma forma de software malicioso obter acesso a uma rede. Além disso, as novas tecnologias, como a nuvem, expandem os limites das redes empresariais para incluir locais na Internet pelos quais as empresas não são responsáveis.\nUma pesquisa recente com profissionais de segurança cibernética perguntou aos participantes quais são os desafios de segurança com os quais eles mais se deparam. Conforme mostrado na figura, os três principais estão relacionados a ameaças de endpoint. O ransomware (53%) está no topo da lista, seguindo o recente aumento de ataques de ransomware. O próximo maior desafio de segurança é a mudança para o trabalho remoto e os riscos resultantes (47%), introduzidos após a pandemia de Covid-19. A visibilidade limitada das ameaças cibernéticas (41%) completa os três principais desafios de segurança enfrentados pelos profissionais de segurança cibernética."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Segurança de Endpoints",
+      "content": "A mídia de notícias geralmente cobre ataques de rede externa em redes corporativas. Estes são alguns exemplos de tais ataques:\nAtaques de negação de serviço (DoS) em uma rede de uma organização têm como objetivo degradar ou até mesmo interromper o acesso público a ela.\nViolando o servidor web de uma organização para desfigurar sua presença na web.\nViolando os servidores de dados e hosts de uma organização para roubar informações confidenciais.\nVários dispositivos de segurança de rede são necessários para proteger o perímetro da rede contra acesso externo. Como mostrado na figura, esses dispositivos podem incluir um roteador reforçado que está fornecendo serviços VPN, um firewall de próxima geração (ASA, na figura), um appliance IPS e um servidor de serviços de autenticação, autorização e contabilidade (AAA) (Servidor AAA, na figura).",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "No entanto, muitos ataques se originam de dentro da rede. Portanto, proteger uma LAN interna é quase tão importante quanto proteger o perímetro externo da rede. Sem uma LAN segura, os usuários de uma organização ainda são suscetíveis a ameaças de rede e paralisações que podem afetar diretamente a produtividade e a margem de lucro de uma organização. Depois que um host interno é infiltrado, ele pode se tornar um ponto de partida para um invasor obter acesso a dispositivos críticos do sistema, como servidores e informações confidenciais.\nEspecificamente, há dois elementos LAN internos para proteger:\nEndpoints - Os hosts comumente consistem em laptops, desktops, impressoras, servidores e telefones IP, todos os quais são suscetíveis a ataques relacionados a malware.\nInfraestrutura de rede - Os dispositivos de infraestrutura de LAN interconectam os endpoints e geralmente incluem switches, dispositivos sem fio e dispositivos de telefonia IP. A maioria desses dispositivos é suscetível a ataques relacionados à LAN, incluindo ataques de estouro de tabela de endereços MAC, ataques de falsificação, ataques relacionados a DHCP, ataques de tempestade de LAN, ataques de manipulação de STP e ataques de VLAN."
+    },
+    {
+      "type": "accordion",
+      "title": ".4.3 Proteção contra malware baseada em host",
+      "content": "**Software antivírus/antimalware:** Este é um software instalado em um host para detectar e mitigar vírus e malware. Exemplos são o Windows Defender Virus & Threat Protection, Cisco AMP for Endpoints, Norton Security, McAfee, Trend Micro e outros. Programas antimalware podem detectar vírus usando três abordagens diferentes:\nBaseado em assinaturas - Esta abordagem reconhece várias características de arquivos de malware conhecidos.\nBaseado em heurísticas - Esta abordagem reconhece características gerais compartilhadas por vários tipos de malware.\nBaseado em comportamento - Esta abordagem emprega a análise de comportamentos suspeitos.\nMuitos programas antivírus são capazes de fornecer proteção em tempo real analisando dados conforme eles são usados pelo endpoint. Esses programas também verificam se há malware existente que pode ter entrado no sistema antes de ser reconhecível em tempo real.\nA proteção antivírus baseada em host também é conhecida como baseada em agentes. O antivírus baseado em agente é executado em todas as máquinas protegidas. A proteção antivírus sem agente executa verificações em hosts a partir de um sistema centralizado. Os sistemas sem agente tornaram-se populares para ambientes virtualizados nos quais várias instâncias de SO estão sendo executadas em um host simultaneamente. Antivírus baseado em agente executado em cada sistema virtualizado pode ser um sério desperdício de recursos do sistema. O antivírus sem agente para hosts virtuais envolve o uso de um appliance virtual de segurança especial que executa tarefas de varredura otimizadas nos hosts virtuais. Um exemplo disso é o vShield da VMware.\n\n**Firewall de host:** Este software está instalado em um host. Restringe conexões de entrada e saída a conexões iniciadas somente por esse host. Alguns softwares de firewall também podem impedir que um host se infecte e impedir que hosts infectados espalhem malware para outros hosts. Esta função está incluída em alguns sistemas operacionais. Por exemplo, o Windows inclui o Firewall do Windows Defender com Segurança Avançada, conforme mostrado na figura.\nOutras soluções são produzidas por outras empresas ou organizações. As ferramentas Linux iptables e TCP Wrappers são exemplos. Os firewalls baseados em host são discutidos com mais detalhes posteriormente neste módulo.\n\n**Suites de segurança baseadas em host:** Recomenda-se instalar um conjunto de produtos de segurança baseado em host em redes domésticas e também em redes comerciais. Esses pacotes de segurança baseados em host incluem antivírus, anti-phishing, navegação segura, sistema de prevenção de intrusões baseado em host e recursos de firewall. Essas várias medidas de segurança fornecem uma defesa em camadas que protegerá contra as ameaças mais comuns.\nAlém da funcionalidade de proteção fornecida pelos produtos de segurança baseados em host é a função de telemetria. A maioria dos softwares de segurança baseados em host inclui funcionalidade de registro robusta que é essencial para operações de segurança cibernética. Alguns programas de segurança baseados em host enviarão logs para um local central para análise.\nHá muitos programas e pacotes de segurança baseados em host disponíveis para usuários e empresas. O laboratório de testes independente AV-TEST fornece análises de alta qualidade de proteções baseadas em host, bem como informações sobre muitos outros produtos de segurança.\nPesquise na Internet a organização AVTest para saber mais sobre o AV-TEST."
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "As novas arquiteturas de segurança para a rede sem fronteiras enfrentam os desafios de segurança fazendo com que os endpoints usem elementos de varredura de rede. Esses dispositivos fornecem muito mais camadas de varredura do que um único ponto de extremidade possivelmente poderia. Dispositivos de prevenção de malware baseados em rede também são capazes de compartilhar informações entre si para tomar decisões melhor informadas.\nA proteção de endpoints em uma rede sem fronteiras pode ser realizada usando técnicas baseadas em rede, bem como baseadas em host, como mostrado na figura acima. Veja a seguir exemplos de dispositivos e técnicas que implementam proteções de host no nível da rede.\nCisco Secure Endpoint - É uma solução que fornece proteção para endpoints contra vírus e malware.\nCisco Secure Email - É uma solução que oferece filtragem de SPAM e emails potencialmente maliciosos antes que eles cheguem ao endpoint. Um exemplo é o Cisco ESA.\nCisco Umbrella -  É uma solução que utiliza solicitações DNS para fornecer filtragem de websites e listas de bloqueio para evitar que hosts acessem locais perigosos na web. O Cisco Umbrella fornece controle sobre como os usuários acessam a internet e pode fazer cumprir políticas de uso aceitáveis, controlar o acesso a sites e serviços específicos e realizar varreduras em busca de malware.\nNetwork Admission Control (NAC) - Permite apenas sistemas autorizados e em conformidade se conectarem à rede."
+    },
+    {
+      "type": "text",
+      "title": ".5 Prevenção de Intrusão Baseada em Host e Firewalls",
+      "content": "{{_moduleNumber}}.5 Prevenção de Intrusão Baseada em Host e Firewalls"
+    },
+    {
+      "type": "text",
+      "title": "3.5 Firewalls e Prevenção de Intrusão Baseada em Host",
+      "content": "Role para começar"
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Outros métodos de implementação de firewalls incluem:\nFirewall baseado em host (servidor e pessoal) -Um PC ou servidor com software de firewall em execução.\nFirewall transparente -  Filtra o tráfego IP entre um par de interfaces em modo bridge.\nFirewall híbrido - Uma combinação dos vários tipos de firewalls. Por exemplo, um firewall de inspeção de aplicações combina um firewall com estado com um firewall de gateway de aplicativo."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".5.4 Benefícios e Limitações do firewall de Filtragem de Pacotes",
+      "content": "Os firewalls de filtragem de pacotes geralmente fazem parte de um firewall de roteador, que permite ou nega tráfego com base nas informações da Camada 3 e da Camada 4. Eles são firewalls sem estado que usam uma consulta de tabela de política simples que filtra o tráfego com base em critérios específicos, conforme mostrado na figura. Por exemplo, os servidores SMTP escutam a porta 25 por padrão. Um administrador pode configurar o firewall de filtragem de pacotes para bloquear a porta 25 de uma estação de trabalho específica para evitar que ela transmita um vírus de e-mail.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Existem várias vantagens de usar um firewall de filtragem de pacotes:\nOs filtros de pacote implementam conjuntos de regras de permissão simples ou negam.\nOs filtros de pacotes têm um baixo impacto no desempenho da rede.\nOs filtros de pacotes são fáceis de implementar e são suportados pela maioria dos roteadores.\nOs filtros de pacote fornecem um grau inicial de segurança na camada de rede.\nOs filtros de pacotes executam quase todas as tarefas de um firewall high-end a um custo muito menor.\nOs filtros de pacotes não representam uma solução de firewall completa, mas são um elemento importante de uma política de segurança de firewall. Existem várias desvantagens de usar um firewall de filtragem de pacotes:\nOs filtros de pacote de informação são suscetíveis à falsificação de IP. Os atores de ameaça podem enviar pacotes arbitrários que atendem aos critérios ACL e passam pelo filtro.\nOs filtros de pacotes não filtram de forma confiável pacotes fragmentados. Como os pacotes IP fragmentados carregam o cabeçalho TCP no primeiro fragmento e filtro de filtros de pacote na informação de cabeçalho TCP, todos os fragmentos após o primeiro fragmento são passados incondicionalmente. As decisões de usar filtros de pacote supõem que o filtro do primeiro fragmento impõe com precisão a política.\nOs filtros de pacotes usam ACLs complexas, que podem ser difíceis de implementar e manter.\nOs filtros de pacotes não podem filtrar dinamicamente determinados serviços. Por exemplo, as sessões que usam negociações de porta dinâmica são difíceis de filtrar sem abrir o acesso a toda uma variedade de portas.\nOs filtros de pacotes são sem estado. Eles examinam cada pacote individualmente ao invés de verificar o contexto do estado de uma conexão."
+    },
+    {
+      "type": "accordion",
+      "title": ".5.6 Firewalls baseados em host",
+      "content": "**Firewall do Windows Defender:** Incluído pela primeira vez no Windows XP, o Firewall do Windows (agora Windows Defender Firewall) usa uma abordagem baseada em perfil para a funcionalidade do firewall. O acesso a redes públicas é atribuído ao perfil restritivo do firewall Público. O perfil Privado é para computadores que estão isolados da Internet por outros dispositivos de segurança, como um roteador doméstico com funcionalidade de firewall. O perfil Domínio é o terceiro perfil disponível. Ele é escolhido para conexões com uma rede confiável, como uma rede de negócios que se supõe ter uma infra-estrutura de segurança adequada. O Firewall do Windows tem funcionalidade de registo e pode ser gerido centralmente com políticas de segurança de grupo personalizadas a partir de um servidor de gestão, como o System Center 2012 Configuration Manager.\n\n**iptables:** Este é um aplicativo que permite aos administradores do sistema Linux configurar regras de acesso à rede que fazem parte dos módulos Netfilter do kernel Linux.\n\n**nftables:** O sucessor do iptables, o nftables é um aplicativo de firewall do Linux que usa uma máquina virtual simples no kernel do Linux. O código é executado dentro da máquina virtual que inspeciona pacotes de rede e implementa regras de decisão relativas à aceitação e encaminhamento de pacotes.\n\n**Wrappers TCP:** Este é um sistema de registro e controle de acesso baseado em regras para Linux. A filtragem de pacotes é baseada em endereços IP e serviços de rede."
+    },
+    {
+      "type": "accordion",
+      "title": ".5.7 Programas Antimalware",
+      "content": "**Proteção antivírus:** Este programa monitora continuamente a presença de vírus. Quando um vírus é detectado, o usuário é avisado e o programa tenta colocar o vírus em quarentena ou excluí-lo.\n\n**Proteção contra adware:** Este programa procura continuamente por programas que exibam publicidade em seu computador.\n\n**Proteção contra phishing:** Este programa bloqueia os endereços IP de sites de phishing conhecidos e avisa o usuário sobre sites suspeitos.\n\n**Proteção contra spyware:** Este programa verifica keyloggers e outros spywares.\n\n**Fontes confiáveis / não confiáveis:** Este programa avisa sobre programas inseguros prestes a serem instalados ou sites inseguros antes de serem visitados."
+    },
+    {
+      "type": "text",
+      "title": ".5.8 Windows Defender Firewall",
+      "content": "Um firewall nega, seletivamente, o tráfego a um computador ou a um segmento de rede. Os firewalls trabalham, geralmente, abrindo e fechando as portas usadas por vários aplicativos. Ao abrir apenas as portas necessárias em um firewall, você está implementando uma política de segurança restritiva. Qualquer pacote não explicitamente permitido é negado. Ao contrário, uma política de segurança permissiva permite acesso por todas as portas, exceto aquelas explicitamente negadas. Antigamente, software e hardware eram enviados com configurações permissivas. Como os usuários negligenciavam a configuração do equipamento, as configurações permissivas padrão deixavam muitos dispositivos expostos a invasores. Agora, a maioria dos dispositivos é enviada com configurações o mais restritivas possível, mesmo que permitindo ainda uma configuração fácil.\nPara permitir o acesso de programas através do Firewall do Windows Defender, pesquise por Painéis de Controle e em seguida localize e clique em Firewall do Windows Defender  para abri-lo. Clique em Permitir um aplicativo ou recurso por meio do Firewall do Windows Defender, conforme mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".5.8 Windows Defender Firewall",
+      "content": "Se desejar usar um firewall por software diferente, você precisará desativar o firewall do Windows. Para desativar o Firewall do Windows, clique em Ativar ou desativar o Firewall do Windows, como mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".5.8 Windows Defender Firewall",
+      "content": "O Windows Defender Firewall inclui muitos recursos adicionais. Clique em Configurações avançadas para abri-las, conforme mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".5.8 Windows Defender Firewall",
+      "content": "Aqui você pode criar regras de tráfego de entrada ou saída com base em critérios diferentes. Você também pode importar e exportar políticas ou monitorar diferentes aspectos do firewall, como mostrado na figura."
+    },
+    {
+      "type": "text",
+      "title": ".6 Acesso sem fio seguro",
+      "content": "{{_moduleNumber}}.6 Acesso sem fio seguro"
+    },
+    {
+      "type": "text",
+      "title": ".6 Acesso sem fio seguro",
+      "content": "Role para começar"
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Visão geral da segurança sem fio",
+      "content": "Uma WLAN está aberta a qualquer pessoa dentro do alcance de um ponto de acesso sem fio (AP) e com as credenciais apropriadas para se associar a ele. Com uma placa de rede sem fio (NIC) e conhecimento de técnicas de quebra de segurança, um invasor pode não precisar entrar fisicamente no local de trabalho para obter acesso à sua rede por meio de uma WLAN.\nAtaques podem ser gerados por pessoas externas, funcionários insatisfeitos e até mesmo acidentalmente. Redes sem fio são especialmente suscetíveis a uma série de ameaças, incluindo:\nInterceptação de dados - Os dados sem fio devem ser criptografados para evitar que sejam lidos por pessoas que estejam bisbilhotando.\nIntrusos sem fio - Usuários não autorizados que tentam acessar recursos de rede podem ser impedidos por meio de técnicas eficazes de autenticação.\nAtaques de Negação de Serviço (DoS) - O acesso aos serviços WLAN pode ser comprometido tanto acidentalmente quanto de forma maliciosa. Existem várias soluções, dependendo da origem do ataque DoS.\nRogue APs - Pontos de acesso não autorizados instalados por um usuário bem-intencionado ou com propósitos maliciosos podem ser detectados usando software de gerenciamento de rede sem fio."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.3 Ataques DoS",
+      "content": "Os ataques de DoS sem fio podem ser o resultado de:\nDispositivos configurados incorretamente - Erros de configuração podem desabilitar a WLAN. Por exemplo, um administrador pode alterar acidentalmente uma configuração e desativar a rede, ou um invasor com privilégios de administrador pode desativar intencionalmente uma WLAN.\nUm usuário malicioso interfere intencionalmente na comunicação sem fio - Seu objetivo é desabilitar completamente a rede sem fio ou a ponto de nenhum dispositivo legítimo poder acessar o meio.\nInterferência acidental - WLANs são suscetíveis a interferência de outros dispositivos sem fio, incluindo fornos de micro-ondas, telefones sem fio, babás eletrônicas e outros, como mostrado na figura. A banda de 2,4 GHz é mais propensa a interferências do que a banda de 5 GHz.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Para minimizar o risco de um ataque de negação de serviço devido a dispositivos mal configurados e ataques maliciosos, proteja todos os dispositivos, mantenha as senhas seguras, crie backups e garanta que todas as alterações na configuração sejam incorporadas fora do horário comercial.\nMonitore a WLAN quanto a problemas de interferência acidental e resolva-os assim que aparecerem. Como a banda de 2,4 GHz é usada por outros tipos de dispositivos, os 5 GHz devem ser usados em áreas propensas a interferências."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.4 Pontos de acesso não autorizados",
+      "content": "Um ponto de acesso não autorizado é um ponto de acesso ou roteador sem fio que foi conectado a uma rede corporativa sem autorização explícita e contra a política corporativa. Qualquer pessoa com acesso às instalações pode instalar (de forma maliciosa ou não maliciosa) um roteador sem fio barato que possa permitir o acesso a um recurso de rede seguro.\nUma vez conectado, o ponto de acesso não autorizado pode ser usado por um invasor para capturar endereços MAC, capturar pacotes de dados, obter acesso a recursos de rede ou iniciar um ataque intermediário.\nUm hotspot de rede pessoal também pode ser usado como um ponto de acesso não autorizado. Por exemplo, um usuário com acesso seguro à rede permite que seu host autorizado do Windows se torne um ponto de acesso Wi-Fi. Isso evita as medidas de segurança e outros dispositivos não autorizados agora podem acessar os recursos de rede como um dispositivo compartilhado.\nPara evitar a instalação de pontos de acesso não autorizados, as organizações devem configurar controladores de LAN sem fio (WLCs) com políticas de pontos de acesso não autorizados, conforme mostrado na figura, e utilizar software de monitoramento para monitorar ativamente o espectro de rádio em busca de pontos de acesso não autorizados.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.5 Ataque Man-in-the-Middle",
+      "content": "Em um ataque de \"man-in-the-middle\" (MITM), o hacker se posiciona entre duas entidades legítimas para ler ou modificar os dados que passam entre as duas partes. Existem várias maneiras de criar um ataque MITM.\nUm ataque MITM sem fio popular é chamado de ataque de \"AP gêmeo do mal\", (“evil twin AP”) em que um invasor introduz um ponto de acesso não autorizado e o configura com o mesmo SSID que um ponto de acesso legítimo, como mostra a figura. Locais que oferecem Wi-Fi gratuito, como aeroportos, cafés e restaurantes, são locais particularmente populares para esse tipo de ataque devido à autenticação aberta.\nOs ataques MITM e suas variações são freqüentemente chamados de ataques no caminho.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "Os clientes sem fio que tentam se conectar a uma WLAN verão dois APs com o mesmo SSID oferecendo acesso sem fio. Aqueles perto do ponto de acesso não autorizado encontram o sinal mais forte e provavelmente se associam a ele. O tráfego do usuário agora é enviado ao ponto de acesso não autorizado, que por sua vez captura os dados e os encaminha ao ponto de acesso legítimo, como mostra a figura. O tráfego de retorno do ponto de acesso legítimo é enviado ao ponto de acesso não autorizado, capturado e depois encaminhado ao usuário inocente. O invasor pode roubar as senhas e informações pessoais do usuário, obter acesso ao dispositivo e comprometer o sistema.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "Impedir um ataque como um ataque Man in the middle (MITM) depende da sofisticação da infraestrutura da WLAN e da vigilância no monitoramento da atividade na rede. O processo começa com a identificação de dispositivos legítimos na WLAN. Para fazer isso, os usuários devem ser autenticados. Depois que todos os dispositivos legítimos são conhecidos, a rede pode ser monitorada quanto a dispositivos ou tráfego anormais. Para isso, os usuários devem ser autenticados."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.8 Ocultação do SSID e filtragem de endereço MAC",
+      "content": "Os sinais sem fio podem viajar através de materiais sólidos, como tetos, pisos, paredes, fora de casa ou escritórios. Sem medidas rigorosas de segurança, a instalação de uma WLAN pode ser equivalente a colocar portas Ethernet em qualquer lugar, mesmo fora do escritorio ou casa.\nPara lidar com as ameaças de impedir invasores sem fio e proteger dados, dois recursos de segurança anteriores foram usados e ainda estão disponíveis na maioria dos roteadores e pontos de acesso: camuflagem SSID e filtragem de endereço MAC.\nOcultação do SSID\nOs pontos de acesso e alguns roteadores sem fio permitem que o quadro de sinalização SSID seja desativado, conforme mostrado na figura. Os clientes sem fio devem configurar manualmente o SSID para se conectar à rede.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "Filtragem de endereços MAC\nUm administrador pode permitir ou negar manualmente o acesso sem fio dos clientes com base em seu endereço físico de hardware MAC. Na figura, o roteador está configurado para permitir dois endereços MAC. Dispositivos com endereços MAC diferentes não poderão ingressar na WLAN de 2,4 GHz.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.9   Métodos de Autenticação 802.11",
+      "content": "Embora esses dois recursos dissuadem a maioria dos usuários, a realidade é que nem a ocultação do SSID nem a filtragem de endereços MAC impediriam um intruso astuto. Os SSIDs são facilmente descobertos mesmo se os APs não os transmitirem e os endereços MAC podem ser falsificados. A melhor maneira de proteger uma rede sem fio é usar sistemas de autenticação e criptografia.\nDois tipos de autenticação foram introduzidos com o padrão 802.11 original:\nAutenticação de sistema aberto - Qualquer cliente sem fio poderá se conectar facilmente. A autenticação de sistema aberto deve ser usada apenas em situações em que a segurança não é uma preocupação, como em locais que fornecem acesso gratuito à internet, como cafés, hotéis e áreas remotas. O cliente sem fio é responsável por fornecer segurança, como por exemplo, usando uma rede virtual privada (VPN) para se conectar de forma segura. As VPNs fornecem serviços de autenticação e criptografia. As VPNs estão além do escopo deste tópico.\nA autenticação de chave compartilhada - Isso fornece mecanismos como WEP, WPA, WPA2 e WPA3 para autenticar e criptografar dados entre um cliente sem fio e um ponto de acesso (AP). No entanto, a senha deve ser pré-compartilhada entre as duas partes para se conectar.\nO gráfico a seguir resume esses métodos de autenticação.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.11 Autenticando um Usuário Doméstico",
+      "content": "Os roteadores domésticos geralmente têm duas opções para autenticação: WPA e WPA2. WPA2 é o mais forte dos dois. A figura mostra a opção para selecionar um dos dois métodos de autenticação WPA2:\nPersonal - Destinado a redes domésticas ou de pequenos escritórios, os usuários autenticam-se usando uma chave pré-compartilhada (PSK). Os clientes sem fio se autenticam com o roteador sem fio usando uma senha pré-compartilhada. Nenhum servidor de autenticação especial é necessário.\nEnterprise - Destinado a redes empresariais, porém requer um servidor de autenticação Remote Authentication Dial-In User Service (RADIUS). Embora seja mais complicado de configurar, ele fornece segurança adicional. O dispositivo deve ser autenticado pelo servidor RADIUS e os usuários devem se autenticar usando o padrão 802.1X, que usa o EAP (Extensible Authentication Protocol) para autenticação.\nNa figura, o administrador está configurando o roteador sem fio com autenticação pessoal WPA2 na faixa de 2,4 GHz.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.12 Métodos de Criptografia",
+      "content": "Criptografia é usada para proteger os dados. Se um invasor capturar dados criptografados, não poderá decifrá-los em um período de tempo razoável.\nOs padrões WPA e WPA2 usam os seguintes protocolos de criptografia:\nTemporal Key Integrity Protocol (TKIP) - O TKIP é o método de criptografia usado pelo WPA. Ele fornece suporte para equipamentos WLAN herdados, abordando as falhas originais associadas ao método de criptografia 802.11 WEP. Ele usa o WEP, mas criptografa a carga útil da camada 2 usando o TKIP e executa um MIC (Message Integrity Check) no pacote criptografado para garantir que a mensagem não seja alterada.\nAdvanced Encryption Standard (AES) - AES é o método de criptografia usado pelo WPA2. É o método preferido porque é um método muito mais forte de criptografia. Ele usa o Modo de Cifra de Contador com o Protocolo de Código de Autenticação de Mensagem em Cadeia de Blocos (CCMP - Chaining Message Authentication Code Protocol) que permite que os hosts de destino reconheçam se os bits criptografados e não criptografados foram alterados.\nNa figura, o administrador está configurando o roteador sem fio para usar WPA2 com criptografia AES na faixa de 2,4 GHz.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.13 Autenticação na Empresa",
+      "content": "Em redes com requisitos de segurança mais rígidos, é necessária uma autenticação ou login adicional para conceder acesso a clientes sem fio. A opção do modo de segurança corporativa requer um servidor RADIUS de autenticação, autorização e contabilidade (AAA - Authentication, Authorization, and Accounting).\nEndereço IP do servidor RADIUS - Este é o endereço acessível do servidor RADIUS.\nNúmeros de porta UDP - As portas UDP oficialmente designadas são 1812 para autenticação RADIUS e 1813 para contabilidade RADIUS, mas também podem operar usando as portas UDP 1645 e 1646, como mostrado na figura.\nChave compartilhada - Usada para autenticar o ponto de acesso (AP) com o servidor RADIUS.\nNa figura, o administrador está configurando o roteador sem fio com autenticação WPA2 Enterprise usando criptografia AES. O endereço IPv4 do servidor RADIUS também é configurado com uma senha forte para ser usada entre o roteador sem fio e o servidor RADIUS.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Novo título do componente",
+      "content": "A chave compartilhada não é um parâmetro que deve ser configurado em um cliente sem fio. É necessário apenas no ponto de acesso para se autenticar com o servidor RADIUS. A autenticação e autorização do usuário são tratadas pelo padrão 802.1X, que fornece uma autenticação centralizada e baseada em servidor dos usuários finais.\nO processo de login 802.1X usa o EAP para se comunicar com o servidor AP e RADIUS. O EAP é uma estrutura para autenticar o acesso à rede. Ele pode fornecer um mecanismo de autenticação segura e negociar uma chave privada segura que pode ser usada para uma sessão de criptografia sem fio usando a criptografia TKIP ou AES."
+    },
+    {
+      "type": "accordion",
+      "title": ".6.14 WPA3",
+      "content": "**WPA3-Personal (Pessoal):** No WPA2-Personal, os atores de ameaças podem ouvir o “aperto de mão” (handshake) entre um cliente sem fio e o AP e usar um ataque de força bruta para tentar adivinhar o PSK. O WPA3-Personal impede esse ataque usando a autenticação simultânea de iguais (SAE), um recurso especificado no IEEE 802.11-2016. O PSK nunca é exposto, tornando impossível para o atacante adivinhar.\n\n**WPA3-Enterprise (Corporativo):** O WPA3-Enterprise ainda usa autenticação 802.1X / EAP. No entanto, requer o uso de um conjunto criptográfico de 192 bits e elimina a mistura de protocolos de segurança para os padrões 802.11 anteriores. O WPA3-Enterprise adere ao conjunto comercial de algoritmos de segurança nacional (CNSA - Commercial National Security Algorithm), que é comumente usado em redes Wi-Fi de alta segurança.\n\n**Redes abertas:** As redes abertas no WPA2 enviam o tráfego do usuário em texto não autenticado e limpo. No WPA3, as redes Wi-Fi abertas ou públicas ainda não usam autenticação. No entanto, eles usam o OWE (Opportunistic Wireless Encryption) para criptografar todo o tráfego sem fio.\n\n**Integração da IoT:** Embora o WPA2 tenha incluído o Wi-Fi Protected Setup (WPS) para dispositivos embarcados rapidamente, sem configurá-los primeiro, o WPS é vulnerável a uma variedade de ataques e não é recomendado. Além disso, os dispositivos IoT geralmente são \"headless\", ou seja, não possuem interface gráfica integrada para configuração e precisam de uma maneira fácil de se conectar à rede sem fio. O Protocolo de provisionamento de dispositivo (DPP - Device Provisioning Protocol) foi projetado para atender a essa necessidade. Cada dispositivo projetado para operar sem tela, teclado e mouse possui uma chave pública codificada diretamente no seu firmware ou hardware. A chave é tipicamente impressa na parte externa do dispositivo ou em sua embalagem como um código de resposta rápida (QR Code). O administrador da rede pode digitalizar o código QR e integrar rapidamente o dispositivo. Embora não faça parte estritamente do padrão WPA3, o DPP substituirá o WPS ao longo do tempo."
+    },
+    {
+      "type": "text",
+      "title": ".7 Resumo de Segurança de Rede",
+      "content": "{{_moduleNumber}}.7 Resumo de Segurança de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".7 Resumo de Segurança de Rede",
+      "content": "Role para começar"
+    },
+    {
+      "type": "accordion",
+      "title": ".7.1 O que aprendi neste módulo?",
+      "content": "**Fundamentos de Segurança:** O cubo de segurança cibernética fornece uma maneira útil de pensar sobre a proteção de dados. A primeira dimensão do cubo identifica os objetivos de confidencialidade, integridade e disponibilidade (CIA). A confidencialidade diz respeito à prevenção da divulgação de informações a pessoas não autorizadas. Integridade refere-se à precisão, consistência e confiabilidade dos dados. Os estados dos dados estão em trânsito, em repouso no armazenamento ou em processo. Os pilares da defesa são pessoas, tecnologia e políticas e práticas. Confidencialidade, integridade e disponibilidade também são referidos como a tríade da CIA.\nA integridade dos dados garante que os dados não sejam alterados por entidades não autorizadas enquanto são capturados, armazenados, recuperados, atualizados e transferidos. Os métodos usados para garantir a integridade de dados incluem hashing, verificações de validação de dados, verificações de consistência dos dados e controles de acesso.\nA disponibilidade refere-se à necessidade de tornar os dados acessíveis a todos os usuários autorizados sempre que eles precisarem. Ataques cibernéticos e falhas de sistema podem desconectar os usuários dos dados de que precisam. A disponibilidade pode ser assegurada pela manutenção adequada do equipamento, mantendo o software e os sistemas atualizados, testando backups e fallbacks, implementando novas tecnologias, monitorando a atividade da rede e analisando vulnerabilidades para detectar ameaças.\n\n**Controle de acesso:** Os controles de acesso físico impedem que usuários não autorizados acessem fisicamente redes, dados e equipamentos. Os controles de acesso físico determinam quem, onde e quando as pessoas podem entrar ou sair de uma instalação. Os controles de acesso físico incluem guardas, cercas de perímetro, detectores de movimento, fechaduras de dispositivos e portas trancadas que só podem ser acessadas com cartões magnéticos ou combinações. Medidas adicionais de segurança física são cães de guarda, câmeras de vídeo e alarmes.\nControles de acesso lógico são as soluções de hardware e software usadas para gerenciar o acesso aos recursos e sistemas. Essas soluções baseadas em tecnologia incluem ferramentas e protocolos que os sistemas de computador usam para identificação, autenticação, autorização e contabilidade (AAA). Exemplos desses controles são criptografia, cartões inteligentes com chips embutidos, senhas, biometria, listas de controle de acesso (ACLs), firewalls e sistemas de detecção de intrusão.\nOs controles de acesso administrativo são as políticas e procedimentos definidos pelas empresas para implementar e aplicar todos os aspectos de controle de acesso não autorizado. Exemplos são políticas aprovadas, procedimentos definidos, verificações de antecedentes e classificação de dados.\nOs controles de acesso administrativo envolvem três serviços de segurança: autenticação, autorização e contabilidade (AAA). A autenticação é a verificação da identidade de cada usuário, para evitar acesso não autorizado. Os serviços de autorização determinam quais recursos os usuários podem acessar, juntamente com as operações que os usuários podem realizar e até mesmo quando eles podem realizá-las. A contabilidade acompanha o que os usuários fazem na rede, como o que acessam, quando acessam e o que fazem com ela. Esta informação é compilada em logs.\nA identificação aplica as regras estabelecidas pela política de autorização. Identificadores exclusivos são nomes de usuário e senhas, números de identificação pessoal ou biometria, como impressões digitais, varreduras de retina ou reconhecimento de voz.\nA gestão de identidade federada (FIM) refere-se a várias empresas que permitem que seus usuários usem as mesmas credenciais de identificação para acessar as redes de todas as empresas do grupo. Enquanto o FIM oferece conveniência para usuários e administradores, se o sistema for explorado por hackers, eles terão acesso a muitos sistemas ou aplicativos em vez de apenas um.\nAs políticas de senha ajudam a garantir que as senhas atendam aos requisitos de comprimento e complexidade. As senhas devem ter pelo menos de 8 a 10 caracteres. As senhas devem incluir uma combinação de caracteres maiúsculos e minúsculos, números e símbolos.\nCombinar outros meios de identidade com senhas, como autenticação multifator, é cada vez mais popular.\nA Contabilidade rastreia uma ação de volta a uma pessoa ou processo. A Contabilidade então coleta essas informações e relata os dados de uso. A empresa pode usar esses dados para determinadas finalidades, como auditoria ou cobrança.\n\n**Defesa de sistemas e dispositivos:** Uma organização precisa de um bom administrador para configurar sistemas operacionais a fim de se proteger contra ameaças externas. É necessária uma abordagem sistemática para estabelecer procedimentos de monitoramento de segurança, avaliar atualizações de software e instalar atualizações usando um plano documentado. As linhas de base ajudam a indicar o comprometimento do sistema quando o desempenho se desvia significativamente da linha de base.\nAtaques de malware sem arquivo são difíceis de detectar e não deixam rastros. Eles podem explorar shells de comando programáveis. Os scripts Python, Bash e Visual Basic for Applications (VBA) podem ser maliciosos.\nPara ficar à frente dos cibercriminosos, o software deve ser corrigido proativamente para eliminar vulnerabilidades. Os sistemas operacionais verificam regularmente os patches, mas os administradores devem avaliar os patches antes de instalá-los. Os sistemas automatizados de gerenciamento de patches fornecem aos administradores controle sobre a data e a hora das atualizações e relatórios sobre o status dos sistemas e patches.\nA segurança de endpoint baseada em host inclui firewalls baseados em host que podem bloquear tráfego de entrada e saída, sistemas de detecção de intrusão de host (HIDS) que monitoram sistemas e segurança de login e eventos do sistema. Os sistemas de prevenção de intrusões em hosts (HIPS) detectam atividades maliciosas e podem enviar um alarme, registrar a atividade maliciosa, redefinir a conexão e/ou descartar os pacotes. Endpoint detection and response (EDR) é uma solução de segurança integrada que monitora e coleta continuamente dados de dispositivos de ponto de extremidade. As ferramentas de prevenção contra perda de dados (DLP) fornecem uma maneira centralizada de garantir que dados sensíveis não sejam perdidos, utilizados indevidamente ou acessados por usuários não autorizados. Firewalls de próxima geração (NGFW) combinam firewalls tradicionais com outras funções de filtragem de dispositivos de rede.\nOs dados podem ser protegidos por meio de criptografia de host pelo Windows Encrypting Files System (EFS), que pode criptografar arquivos ou unidades inteiras (criptografia de disco completo – FDE) com BitLocker. O BitLocker requer um Trusted Platform Module (TPM) no BIOS. BitLocker To Go é uma ferramenta que criptografa unidades removíveis.\nA integridade de inicialização garante que o sistema seja confiável e não tenha sido alterado enquanto o sistema operacional é carregado. A inicialização segura é um padrão de segurança para garantir que um dispositivo inicialize usando software confiável.\nA Apple fornece hardware de sistema e recursos de segurança do macOS que oferecem uma proteção avançada para endpoints. A plataforma de hardware Mac possui recursos de segurança aprimorados, como um processador de segurança especial, integridade de inicialização e um mecanismo de criptografia AES dedicado. A criptografia de armazenamento de dados Apple Data Protection e FileVault é compatível com o mecanismo de criptografia AES de hardware. Os dados biométricos são processados em hardware de segurança, isolando-os do sistema operacional. A Apple também inclui um recurso de localizar meu dispositivo, tecnologia antimalware XProtect, uma ferramenta de remoção de malware (MRT) e Gatekeeper, que garante que somente software Apple autêntico e assinado digitalmente possa ser instalado.\nA proteção física de dispositivos inclui o controle de acesso a equipamentos e instalações, usando travas de cabo, fechaduras com chave ou cifra, e inventário e rastreamento de dispositivos com sistemas de identificação por radiofrequência (RFID).\n\n**Proteção Antimalware:** Vários dispositivos de segurança de rede são necessários para proteger o perímetro da rede contra acesso externo. Esses dispositivos podem incluir um roteador protegido que fornece serviços de VPN, um firewall de próxima geração, um appliance IPS e um servidor de serviços AAA. No entanto, garantir a segurança de uma LAN interna é quase tão importante quanto garantir a segurança da perímetro da rede externa. Os endpoints e a infraestrutura de rede exigem proteção.\nExistem três tipos de programas antimalware; baseado em assinatura, baseado em heruística e baseado em comportamento. A proteção antivírus baseada em host também é conhecida como baseada em agentes. O antivírus baseado em agente é executado em todas as máquinas protegidas. A proteção antivírus sem agente executa verificações em hosts a partir de um sistema centralizado. Firewalls baseados em host restringem as conexões de entrada e saída para conexões iniciadas apenas pelo próprio host. Exemplos são Windows Defender Firewall com Segurança Avançada e iptables e TCP Wrappers no Linux.\nA proteção de endpoints em uma rede sem fronteiras pode ser realizada usando técnicas baseadas em rede, bem como baseadas em host. Dispositivos e técnicas que implementam proteções de host no nível da rede incluem Cisco Secure Endpoint, Cisco Secure Email, Cisco Umbrella e sistemas de controle e admissão de rede (NAC). Essas tecnologias funcionam em conjunto com sistemas baseados em host para proteger a empresa.\n\n**Firewalls e Proteção contra Intrusões Baseada em Host:** Os firewalls resistem a ataques de rede, servem como o único ponto entre redes internas e externas e impõem políticas de controle de acesso. Eles protegem os hosts contra exposição, limpam o fluxo do protocolo e bloqueiam dados maliciosos de servidores e clientes. Os firewalls são ineficazes se mal configurados ou desatualizados. Eles podem tornar as redes lentas e alguns dados não podem ser transmitidos por eles.\nExistem vários tipos de firewalls. Firewalls de filtragem de pacotes (stateless) geralmente fazem parte de um firewall de roteador. Permitem ou negam o tráfego baseado na informação da camada 3 e da camada 4. Firewalls com estado são as tecnologias de firewall mais versáteis e mais comuns em uso. Filtragem com estado é uma arquitetura de firewall classificada na camada de rede. Ele também analisa o tráfego na camada 4 da OSI e na camada 5. Um aplicativo gateway firewall (proxy firewall) filtra informações nas Camadas 3, 4, 5 e 7 do modelo de referência OSI. Firewalls de próxima geração (NGFW) vão além dos firewalls stateful. Firewalls transparentes filtram o tráfego entre duas interfaces em ponte. Os firewalls híbridos combinam atributos dos outros tipos de firewall.\nFirewalls de filtragem de pacotes geralmente fazem parte de um firewall de roteador. Eles usam regras simples de permissão ou negação, têm baixo impacto no desempenho da rede, são fáceis de implementar e fornecem segurança inicial na camada de rede. Eles são suscetíveis a falsificação de IP, podem não ser eficazes contra pacotes fragmentados e podem usar ACLs complexas que são difíceis de usar e manter. Firewalls stateful são frequentemente o principal meio de defesa, filtrando tráfego indesejado, desnecessário e indesejável. Eles geralmente são mais eficazes do que os firewalls sem estado. No entanto, eles não podem impedir ataques de camada de aplicativo, são menos eficazes contra protocolos sem estado, têm dificuldade em rastrear a negociação de porta dinâmica e não usam autenticação.\nFirewalls pessoais baseados em host são programas de software autônomos que controlam o tráfego que entra ou sai de um computador. Firewalls baseados em host podem usar um conjunto de políticas predefinidas, ou perfis, para controlar pacotes que entram e saem de um computador. Eles também podem ter regras que podem ser diretamente modificadas ou criadas para controlar o acesso com base em endereços, protocolos e portas. Exemplos incluem Firewalls do Windows Defender, iptables, nftables e TCP Wrappers.\nA proteção antimalware consiste em proteção antivírus, adware, phishing e spyware. Alguns softwares antimalware combinam recursos de diferentes tipos.\n\n**Acesso sem fio seguro:** Redes sem fio são suscetíveis a uma série de ameaças, incluindo: interceptação de dados, invasores sem fio, ataques de negação de serviço (DoS) e pontos de acesso (APs) falsos. Os ataques DoS podem resultar de dispositivos configurados incorretamente, interferência maliciosa do usuário e interferência acidental. Pontos de acesso (APs) falsos podem ser usados por um atacante para capturar endereços MAC, capturar pacotes de dados, obter acesso a recursos de rede ou lançar um ataque de homem-no-meio (MitM). Em um ataque de homem-no-meio (MitM), o hacker se posiciona entre duas entidades legítimas para ler ou modificar os dados que passam entre as duas partes.\nNa camuflagem de SSID, o frame beacon SSID é desabilitado. Para filtragem de endereço MAC, um administrador pode manualmente permitir ou negar o acesso sem fio de clientes com base no endereço MAC físico do hardware deles.\nA autenticação de sistema aberto deve ser usada apenas em situações em que a segurança não é uma preocupação. A autenticação de chave compartilhada fornece mecanismos como WEP, WPA, WPA2 e WPA3 para autenticar e criptografar dados entre um cliente sem fio e um ponto de acesso (AP). A autenticação WEP e WPA está desatualizada e insegura. WPA2 é recomendado no mínimo com WPA3 preferencial quando estiver disponível.\nA autenticação pessoal requer a configuração de um nome de usuário e senha pré-compartilhada. A autenticação corporativa requer o uso de um servidor de autenticação RADIUS usando 802.1x com Extensible Authentication Protocol (EAP).\nA criptografia protege os dados, tornando-os ilegíveis se interceptados. WPA2 usa Temporal Key Integrity Protocol (TKIP) ou Advanced Encryption Standard (AES).\nWPA3, quando disponível, é o método de autenticação 802.11 recomendado. Inclui WPA3-Personal, WPA3-Enterprise, Open Networks e integração de IoT. Redes Wi-Fi abertas ou públicas com WPA3 ainda não utilizam nenhuma forma de autenticação. No entanto, eles usam o OWE (Opportunistic Wireless Encryption) para criptografar todo o tráfego sem fio. Para a integração de dispositivos IoT, o WPA3 utiliza o Protocolo de Provisionamento de Dispositivos (DPP) para integrar de forma segura os dispositivos IoT."
+    },
+    {
+      "type": "text",
+      "title": ".7.2 Webster - Perguntas para reflexão",
+      "content": "Minha amiga, Lara, tem estado muito ocupada trabalhando na faculdade. Ela criou um guia de solução de problemas para novos técnicos de help desk e, em seguida, trabalhou em uma campanha de conscientização sobre segurança cibernética para educar todos os usuários da faculdade. Por fim, ela ajudou a revisar e desenvolver políticas de segurança para proteger a faculdade e seus usuários.\nComo você pode ver, há muitas coisas que um técnico de helpdesk deve saber. Mas isso é emocionante porque sempre há algo novo para aprender. Você pode ser um técnico prático de suporte técnico em uma equipe de um departamento de TI?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".7.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Objetivos\nParte 1: Configurar e usar credenciais de autenticação AAA\nParte 2: Configurar e Verificar Serviços de E-mail\nParte 3: Configurar e usar serviços de FTP\nHistórico / Cenário\nAutenticação e autorização são processos de segurança distintos no mundo do gerenciamento de identidade e acesso (IAM). A autenticação usa senhas e outros métodos de identificação para confirmar que os usuários são quem eles dizem ser. Por outro lado, a autorização atribui permissões de usuário aos recursos aos quais o usuário tem permissão. Nesta atividade do Packet Tracer (PT), você configurará a autenticação e a autorização para serviços de rede, incluindo acesso à rede sem fio, e-mail e serviços de FTP.\nNota: Esta atividade é executada no modo físico. No entanto, se você preferir, pode completá-la também no modo Lógico.\nObservação: a maioria das tarefas nesta atividade é classificada. Clique em Verificar resultados a qualquer momento para ver seus itens de avaliação corretos e incorretos."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Instruções\nParte 1: Configurar e usar credenciais de autenticação AAA\nPasso 1: Configurar contas de usuário no servidor AAA.\nNavegue até a sede e clique no Wiring Closet, que é o gabinete do servidor alto e preto no canto inferior esquerdo.\nNo lado direito do Rack, clique em AAA-RADIUS server > guia Services e, em seguida, em AAA sob SERVICES.\nAtive o serviço AAA.\nEm Configuração de Usuário, adicione os seguintes nomes de usuário / senhas.\nuser1 / PASSuser1!\nuser2 / PASSuser2!\nPasso 2: Configure a autenticação wireless no HQ-Laptop-1.\nNavegue de volta para HQ e clique em HQ-Laptop-1. Está localizado a duas salas à direita do  Wiring Closet.\nClique na guia Config e, em seguida, em INTERFACE, clique em Wireless0.\nNa caixa SSID, digite HQ-INT.\nNa área de \"Autenticação\", clique em WPA2.\nNa caixa User ID, digite \"user1\" e na caixa \"Password\", digite PASSuser1!.\nNo espaço \"IP Configuration\", clique em \"DHCP\". Aguarde alguns momentos para a oferta do DHCP ser aceita, Verifique se o HQ-Laptop-1 recebeu a configuração de endereço IP e se foi atribuído um endereço na rede 192.168.50.0/24.\nObservação: Pode ser necessário alternar entre as opções Static (estático) e \"DHCP\" para forçar o Packet Tracer a convergir nas suas configurações. Além disso, clique em  Check Results para garantir que você configurou corretamente o servidor AAA e as configurações sem fio no laptop. Clicar em \"Check Results\" também pode forçar o Packet Tracer a convergir. Se tudo estiver configurado corretamente, prossiga para a configuração do \"HQ-Laptop-2\" e, em seguida, retorne ao \"HQ-Laptop-1\" para verificar sua configuração de IP. Esse problema normalmente é resolvido.\nPasso 3: Configure a autenticação wireless no HQ-Laptop-2.\nClique em \"HQ-Laptop-2\", que está localizado no canto superior direito do  \"HQ\".\nRepita os passos anteriores para configurar as configurações sem fio para \"HQ-Laptop-2\", usando as credenciais do \"user2\".\nVerifique se o \"HQ-Laptop-2\" recebeu uma configuração de endereço IP e foi atribuído um endereço na rede 192.168.50.0/24."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Passo 3: Enviar um e-mail como Suk-Yi.\nNo PC 1-1, clique em Compor.\nComponha um email para Ajulo em BRuser1@mail.cyberhq.com. Insira um assunto e uma mensagem de e-mail de sua escolha. Clique em Enviar quando terminar.\nObservação: O Packet Tracer pode levar alguns segundos para convergir antes de você ver uma mensagem \"Envio bem-sucedido\" na parte inferior da janela.\nObservção: O Packet Tracer não classifica esta etapa. Verifique se você completou corretamente esta etapa recebendo o e-mail enviado por Suk-Yi no PC de Ajulo (PC2-3).\nNavegue até o PC2-3 de Ajulo. Se necessário, clique na guia \"Desktop\"  e depois em \"Email\".\nClique em \"Receber\" e leia o e-mail de Suk-Yi."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Verifique se cada usuário foi criado corretamente e feche o servidor.\nEtapa 3: Transferir arquivos entre o Net-Admin e o servidor FTP.\nClique em Net-Admin PC e então clique em Desktop > Command Prompt.\nDigite o comando \"ftp 192.168.75.2\" para fazer login no servidor FTP e, em seguida, autentique com o nome de usuário \"sukyi\" e a senha \"cisco123\".\nInsira o comando dir para listar os arquivos no servidor FTP.\nUtilize o comando \"get\" para baixar o arquivo \"aMessage.txt\".\nSaia da sessão de FTP.\nFeche o prompt de comando, clique em Text Editor e em File  > Open. Abra o arquivo baixado aMessage.txt."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Clique File > New. Digite uma mensagem de texto de sua escolha.\nClique em File > Save e salve o novo arquivo como aMessage_new.txt. Feche o Editor de Text.\nClique em Prompt de comando e faça login novamente no servidor FTP como usuário sukyi.\nUse o comando put para fazer upload do arquivo aMessage_new.txt.\nSaia da sessão de FTP.\nEtapa 4: Verificar se os privilégios de usuário do FTP estão funcionando conforme configurado.\nPara retornar ao HQ e clicar em HQ-Laptop-1, vá até a guia \"Desktop\" e clique em \"Command Prompt\".\nFaça login no servidor FTP em 192.168.75.2 com o nome de usuário malia e a senha cisco123.\nUse o comando delete para tentar remover o arquivo recém-carregado aMessage_new.txt."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configurando Segurança Básica em Redes sem Fios",
+      "content": "Objetivos\nConfigure a segurança básica para redes sem fio usando WPA2 Personal.\nHistórico / Cenário\nO dono de uma pequena empresa descobre que redes sem fio devem ser protegidas contra acessos não autorizados. Ele decide usar WPA2 Personal para a rede."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "Instruções\nParte 1: Verificar conectividade\na. Acesse Desktop > Web Browser no laptop.\nb. Digite \"www.cisco.pka\" na barra de endereço (URL). A página Web deve aparecer.\nParte 2: Configurar segurança básica sem fio.\na. Digite \"192.168.1.1\" na barra de endereço do navegador para acessar o roteador sem fio. Insira admin como nome de usuário e senha.\nb. Click no menu \"Wireless\". Selecione Segurança Wireless no menu.\nc. O modo de segurança está desativado no momento. Para rede de 2,4 GHz, altere o modo de segurança para WPA2 Pessoal. Para as redes de 5 GHz, você pode deixá-las como desativadas.\nd. no campo Passphrase, digite Network123.\ne. Role para baixo até a parte inferior da página e clique em Salvar configurações. Feche o web browser.\nParte 3: Atualizar as configurações sem fio no Laptop.\na. Clique em PC Wireless na guia Desktop.\nb. Clique na guia conectar. Selecione a Academia e clique em Conectar.\nc. Digite Network123 como a chave pré-compartilhada. Clique Conectar.\nd. Feche a janela PC Wireless.\nParte 4: Verificar conectividade.\na. Acesse o Web Browser.\nb. Digite \"www.cisco.pk\" na URL. A página Web deve aparecer assim que a configuração básica da rede sem fio for adicionada.\nc. Se você não conseguir acessar a página da web, verifique as configurações sem fio no roteador sem fio e no laptop. Se não for possível acessar a página Web, verifique as configurações da rede sem fio no roteador sem fio e no laptop."
+    },
+    {
+      "type": "text",
+      "title": "Packet Tracer - Configure o Controle de Acesso",
+      "content": "© 2017 - 2022 Cisco and/or its affiliates. All rights reserved. Cisco Public"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Um membro da equipe de contabilidade deixou o token de segurança no trem a caminho do trabalho. A equipe de segurança cibernética deseja garantir que este incidente não leve a uma violação de segurança. Qual é a combinação de autenticação multifator mais segura a ser usada para evitar tal violação de segurança?",
+      "options": [
+        "Senha e PIN de usuário",
+        "Um chaveiro de segurança (security key fob) e um cartão inteligente (smart card)",
+        "Impressão digital, PIN e chave de segurança FOB",
+        "Cartão inteligente, PIN e chave de segurança FOB"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nImpressão digital, PIN e chave de segurança seriam a combinação de autenticação mais segura, pois cada um dos requisitos de segurança requer um método de autenticação diferente - algo que você sabe (PIN), algo que você possui (chave de segurança) e quem você é (impressão digital).",
+      "raw_id": "63b89a529ff40a064d7c4eb3"
+    },
+    {
+      "question": "Qual característica descreve o malware sem arquivo?",
+      "options": [
+        "Ele exibe um anúncio ou pop-up que se parece com um aviso real do Windows.",
+        "Ele registra as teclas pressionadas para acessar senhas, informações confidenciais e spyware.",
+        "Ele usa programas legítimos para infectar um computador.",
+        "Ele usa os endereços IP de sites de phishing conhecidos."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO malware sem arquivo usa programas legítimos para infectar um computador. Indo direto para a memória, esse tipo de malware não depende de arquivos, então não deixa pegada.",
+      "raw_id": "63d0dc1474d7bc0645c99e9b"
+    },
+    {
+      "question": "Verdadeiro ou falso:\nUm sistema de detecção de invasão de host não pode monitorar o tráfego de rede que não atinge o sistema host.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm sistema de detecção de invasão do host (HIDS) não pode monitorar nenhum tráfego de rede que não chegue ao sistema do host, mas monitora o sistema operacional e processos críticos do sistema específicos desse host.",
+      "raw_id": "63d0dd4574d7bc0645c99e9e"
+    },
+    {
+      "question": "Qual dispositivo de segurança de rede baseado em host combina um firewall tradicional com outras funções de filtragem de dispositivos de rede, como DPI?",
+      "options": [
+        "HIPS",
+        "HIDS",
+        "EDR",
+        "NGFW"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nNGFW (Next-Generation Firewall) é um dispositivo de segurança de rede que combina um firewall tradicional com outras funções de filtragem de dispositivos de rede, como Inspeção Profunda de Pacotes (DPI).",
+      "raw_id": "63d0dda274d7bc0645c99ea1"
+    },
+    {
+      "question": "Qual ferramenta da Microsoft pode ser usada para criptografar unidades removíveis sem o uso de um chip TPM?",
+      "options": [
+        "BitLocker",
+        "BitLocker To Go",
+        "XProtect",
+        "MRT"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nBitLocker To Go é uma ferramenta da Microsoft que criptografa unidades removíveis. Ele não utiliza um chip TPM, mas ainda assim criptografa os dados. Requer uma senha para descriptografar os dados.",
+      "raw_id": "63d0de035c981b05c0864de2"
+    },
+    {
+      "question": "Qual é a finalidade do chip TPM na placa-mãe?",
+      "options": [
+        "Ele armazena informações sobre o sistema hospedeiro, como chaves de criptografia, certificados digitais e senhas.",
+        "Ele é usado para verificar malware de keylogging instalado no sistema.",
+        "É usado para criptografar todo o conteúdo de uma unidade (incluindo arquivos temporários e memória).",
+        "É usado para detectar vírus sem arquivos usando linguagens de script como o Windows PowerShell."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nTPM é um chip específico na placa-mãe que armazena informações específicas do sistema computacional como chaves de criptografia, certificados digitais e senhas.",
+      "raw_id": "63d0de735c981b05c0864de5"
+    },
+    {
+      "question": "Qual recurso de segurança da Apple protege o hardware de baixo nível e permite apenas a execução de software genuíno e não alterado do sistema operacional Apple?",
+      "options": [
+        "XProtect",
+        "MRT",
+        "Gatekeeper (Guardião)",
+        "Secure Boot"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nSecure Boot - O Boot ROM protege o hardware em nível baixo e permite apenas a execução de software genuíno e não adulterado do sistema operacional da Apple.",
+      "raw_id": "63d0df145c981b05c0864de8"
+    },
+    {
+      "question": "Verdadeiro ou Falso:\nEndpoints são hosts ou dispositivos na rede que podem acessar ou serem acessados por outros hosts na rede.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs \"endpoints\" são quaisquer dispositivos que estão conectados à rede e podem ser acessados por outros dispositivos da rede.",
+      "raw_id": "63ad3caf185ad308b0ee2da6"
+    },
+    {
+      "question": "Que tipo de software antimalware reconhece várias características de arquivos de malware conhecidos?",
+      "options": [
+        "baseado em heurística",
+        "baseado em assinatura",
+        "baseado no comportamento",
+        "baseado em auto-navegação"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO software antivírus/antimalware baseado em assinaturas detecta vírus com base em detalhes específicos de arquivos de vírus.",
+      "raw_id": "63ad3e7a566dad023639b954"
+    },
+    {
+      "question": "Qual tipo de proteção de endpoint inclui iptables e TCP Wrappers?",
+      "options": [
+        "admissão e controle de rede",
+        "aparelho de segurança web",
+        "software antivírus/antimalware",
+        "firewall baseado em host"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nIPTABLES e TCP Wrappers são exemplos de software de firewall baseado em host baseado em Linux.",
+      "raw_id": "63ad3f38185ad308b0ee2da8"
+    },
+    {
+      "question": "Quais dispositivos e técnicas fornecem filtragem de sites e listas de bloqueio para impedir que os endpoints acessem páginas da web maliciosas?",
+      "options": [
+        "Appliance de segurança web",
+        "Appliance de segurança de e-mail",
+        "Contra malware totalmente integrada",
+        "Admissão e controle de rede"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm appliance de segurança da Web filtra solicitações para a Internet e usa a lista negra para impedir que endpoints acessem sites mal-intencionados.",
+      "raw_id": "63ad3fb55b32bd08d6d84897"
+    },
+    {
+      "question": "Que tipo de proteção de endpoint permite que apenas dispositivos autorizados e compatíveis se conectem à rede?",
+      "options": [
+        "Segurança baseada no host",
+        "Firewall baseado em host",
+        "Software antimalware",
+        "Admissão e Controle de Rede (NAC)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO Network Admission and Control (NAC) permite que apenas dispositivos autorizados e compatíveis acessem a rede.",
+      "raw_id": "63ad4068566dad023639b957"
+    },
+    {
+      "question": "Que tipo de firewall filtra informações nas Camadas 3, 4, 5 e 7 do modelo de referência OSI?",
+      "options": [
+        "Baseado em host",
+        "Híbrido",
+        "Gateway de Aplicativo",
+        "Filtragem de pacotes",
+        "Com estado"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUm firewall de gateway de aplicativo filtra informações nas Camadas 3, 4, 5 e 7 do modelo de referência OSI.",
+      "raw_id": "63ad430a5b32bd08d6d848ba"
+    },
+    {
+      "question": "Que tipo de firewall é uma combinação de vários tipos de firewall?",
+      "options": [
+        "Híbrido",
+        "Filtragem de pacotes",
+        "NGFW (Última geração)",
+        "Proxy",
+        "Baseado em host",
+        "Com estado",
+        "Transparent (Transparente)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm firewall híbrido é uma combinação dos vários tipos de firewall.",
+      "raw_id": "63ad430a5b32bd08d6d848bc"
+    },
+    {
+      "question": "Que tipo de firewall faz parte de um firewall de roteador, permitindo ou negando tráfego com base nas informações da Camada 3 e da Camada 4?",
+      "options": [
+        "Baseado em host",
+        "Híbrido",
+        "NGFW (Última geração)",
+        "Filtragem de pacotes",
+        "Transparent (Transparente)",
+        "Proxy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nUm firewall de filtragem de pacotes faz parte de um firewall de roteador que permite ou nega tráfego com base nas informações da Camada 3 e da Camada 4.",
+      "raw_id": "63ad430b5b32bd08d6d848bd"
+    },
+    {
+      "question": "Que tipo de firewall é um PC ou servidor com software de firewall em execução?",
+      "options": [
+        "Proxy",
+        "Híbrido",
+        "Filtragem de pacotes",
+        "Transparent (Transparente)",
+        "Com estado",
+        "NGFW (Última geração)",
+        "Baseado em host"
+      ],
+      "correctIndex": 6,
+      "explanation": "Está certo.\nFirewalls baseados em host é um PC ou servidor com software de firewall em execução nele.",
+      "raw_id": "63ad5b741422220804915666"
+    },
+    {
+      "question": "Que tipo de firewall filtra o tráfego IP entre um par de interfaces em ponte?",
+      "options": [
+        "Baseado em host",
+        "Proxy",
+        "NGFW (Última geração)",
+        "Com estado",
+        "Filtragem de pacotes",
+        "Transparent (Transparente)",
+        "Híbrido"
+      ],
+      "correctIndex": 5,
+      "explanation": "Está certo.\nUm firewall transparente filtra o tráfego IP entre um par de interfaces em ponte.",
+      "raw_id": "63ad5b7fe183b10deca02f8d"
+    },
+    {
+      "question": "Qual é uma característica de um firewall de filtragem de pacotes?",
+      "options": [
+        "Eles implementam conjuntos de regras simples de permissão ou negação.",
+        "Eles são suscetíveis ao spoofing IP.",
+        "Eles são um Firewall Stateful.",
+        "Eles não filtram pacotes fragmentados de forma confiável."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nExistem várias vantagens de usar um firewall de filtragem de pacotes:\nOs filtros de pacote implementam conjuntos de regras de permissão simples ou negam.\nOs filtros de pacotes têm um baixo impacto no desempenho da rede.\nOs filtros de pacotes são fáceis de implementar e são suportados pela maioria dos roteadores.\nOs filtros de pacote fornecem um grau inicial de segurança na camada de rede.\nOs filtros de pacotes executam quase todas as tarefas de um firewall high-end a um custo muito menor.",
+      "raw_id": "63d0f65f5c981b05c0864dec"
+    },
+    {
+      "question": "Verdadeiro ou Falso:\nOs filtros de pacotes não podem filtrar dinamicamente determinados serviços.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs filtros de pacotes não podem filtrar dinamicamente determinados serviços. Por exemplo, as sessões que usam negociações de porta dinâmica são difíceis de filtrar sem abrir o acesso a toda uma variedade de portas.",
+      "raw_id": "63d0f77574d7bc0645c99ea5"
+    },
+    {
+      "question": "Qual perfil do Windows Defender é adequado para um ambiente doméstico?",
+      "options": [
+        "Privado",
+        "Pública",
+        "Domínio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO acesso a redes públicas é atribuído ao perfil restritivo do firewall Público. O perfil Privado é para computadores que estão isolados da Internet por outros dispositivos de segurança, como um roteador doméstico com funcionalidade de firewall. O perfil de Domínio é escolhido para conexões a uma rede confiável, como uma rede empresarial que se presume ter uma infraestrutura de segurança adequada.",
+      "raw_id": "63d0f81874d7bc0645c99ea8"
+    },
+    {
+      "question": "Um firewall baseado em host usa uma máquina virtual dentro da qual o código é executado. O código inspeciona pacotes de rede e implementa regras de decisão relacionadas à aceitação e encaminhamento dos pacotes. Qual firewall baseado em host isso descreve?",
+      "options": [
+        "Windows Defender",
+        "nftables",
+        "Firewall de gateway de aplicativo",
+        "Firewall transparente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO nftables é um aplicativo de firewall do Linux que usa uma máquina virtual simples no kernel do Linux. O código é executado dentro da máquina virtual que inspeciona pacotes de rede e implementa regras de decisão relativas à aceitação e encaminhamento de pacotes.",
+      "raw_id": "63d0f89174d7bc0645c99eaa"
+    },
+    {
+      "question": "Qual ferramenta do Windows 10 é a proteção interna contra vírus e spyware?",
+      "options": [
+        "Windows Defender",
+        "Firewall de gateway de aplicativo",
+        "Firewall de próxima geração",
+        "Firewall transparente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO Windows tem proteção interna contra vírus e spyware chamada Windows Defender. O Windows Defender está ativado por padrão para fornecer proteção em tempo real contra infecções.",
+      "raw_id": "63d0f91f5c981b05c0864df0"
+    },
+    {
+      "question": "Qual ameaça WLAN normalmente NÃO é a fonte de um ataque DoS sem fio?",
+      "options": [
+        "AP não autorizado",
+        "dispositivos configurados incorretamente",
+        "interferência de rádio",
+        "usuário malicioso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nDispositivos configurados incorretamente, usuários mal-intencionados e interferências acidentais são fontes prováveis de um ataque de DoS sem fio.",
+      "raw_id": "63ad774f5f817a0dc60c0b60"
+    },
+    {
+      "question": "Verdadeiro ou falso:\nUm AP não autorizado é um AP mal configurado conectado à rede e uma possível fonte de ataques DoS.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm ponto de acesso não autorizado é um ponto de acesso ou roteador sem fio que foi conectado a uma rede corporativa sem autorização explícita e contra a política corporativa.",
+      "raw_id": "63ad774f5f817a0dc60c0b62"
+    },
+    {
+      "question": "Que tipo de ataque é chamado de ataque \"evil twin AP\"?",
+      "options": [
+        "Intruso sem fio",
+        "MITM",
+        "Interferência de Rádio",
+        "DoS"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm ataque de \"AP gêmeo do mal\" é um ataque MITM sem fio popular, em que um invasor introduz um AP não autorizado e o configura com o mesmo SSID que um ponto de acesso legítimo",
+      "raw_id": "63ad77505f817a0dc60c0b65"
+    },
+    {
+      "question": "Quais são as duas melhores maneiras de garantir a segurança das WLANs? (Escolha duas.)",
+      "options": [
+        "Ocultação do SSID",
+        "Autenticação",
+        "Filtragem de endereços MAC",
+        "Criptografia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nAs melhores maneiras de garantir a segurança de uma rede sem fio são usar sistemas de autenticação e criptografia. Nem a ocultação do SSID nem a filtragem de endereços MAC impediriam um intruso astuto.",
+      "raw_id": "63ad8ff58fc73e0da0810921"
+    },
+    {
+      "question": "Qual método de autenticação NÃO utiliza uma senha compartilhada entre o cliente sem fio e o ponto de acesso (AP)?",
+      "options": [
+        "WPA3",
+        "WPA2",
+        "WEP",
+        "WPA",
+        "Aberto"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nWEP, WPA, WPA2 e WPA3 usam uma senha pré-compartilhada entre o cliente sem fio e o ponto de acesso.",
+      "raw_id": "63ad8ff58fc73e0da0810923"
+    },
+    {
+      "question": "Qual dos seguintes métodos de autenticação não usa uma senha compartilhada entre o cliente sem fio e o ponto de acesso?",
+      "options": [
+        "TKIP",
+        "RC4",
+        "AES",
+        "EAP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA especificação 802.11 original foi projetada para proteger os dados usando o método de criptografia Rivest Cipher 4 (RC4) com uma chave estática.",
+      "raw_id": "63ad8ff58fc73e0da0810924"
+    },
+    {
+      "question": "Qual método de criptografia utiliza o CCMP para reconhecer se os bits criptografados e não criptografados foram alterados?",
+      "options": [
+        "RC4",
+        "TKIP",
+        "AES"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO AES usa o Modo de Cifra de Contador com o Protocolo de Código de Autenticação de Mensagem em Cadeia de Blocos (CCMP - Chaining Message Authentication Code Protocol) que permite que os hosts de destino reconheçam se os bits criptografados e não criptografados foram alterados.",
+      "raw_id": "63ad9221d87d92082a056f41"
+    },
+    {
+      "question": "Quais são os dois métodos de autenticação que exigem que o usuário insira uma senha pré-compartilhada? (Escolha duas.)",
+      "options": [
+        "WPA Personal (Pessoal)",
+        "Aberto",
+        "WPA2 Enterprise (Corporativo)",
+        "WPA2 Personal",
+        "WPA Enterprise (Corporativa)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO WPA Personal e o WPA2 Personal usam uma senha pré-compartilhada que os clientes sem fio usam para se autenticar com o AP.",
+      "raw_id": "63ad922c1422220804915688"
+    },
+    {
+      "question": "Qual é o nível de necessidade de integridade de dados em uma organização de comércio eletrônico?",
+      "options": [
+        "baixa",
+        "média",
+        "alta",
+        "crítica"
+      ],
+      "correctIndex": 2,
+      "explanation": "A importância da integridade dos dados varia com base em como uma organização utiliza os dados:\nNível crítico de necessidade: A integridade dos dados pode ser uma questão de vida ou morte em uma organização de saúde. Por exemplo, as informações de prescrição devem ser precisas. Portanto, todos os dados são continuamente validados, testados e verificados.\nAlta necessidade: Em uma organização de comércio eletrônico ou baseada em análise, as transações e contas dos clientes devem ser precisas. Todos os dados são validados e verificados em intervalos frequentes.\nNível médio de necessidade: As vendas online e os mecanismos de busca coletam dados que foram publicamente divulgados. Pouca verificação é realizada, e os dados não são totalmente confiáveis.\nNível baixo de necessidade: Blogs, fóruns e páginas pessoais em redes sociais são alimentados pela opinião pública e contribuição aberta. Os dados podem não ser verificados e o nível de confiança no conteúdo é baixo.",
+      "raw_id": "63ad9a45142222080491568f"
+    },
+    {
+      "question": "Quais são três soluções que são exemplos de controle de acesso lógico? (Escolha três.)",
+      "options": [
+        "firewall",
+        "lista de controle de acesso",
+        "biometria",
+        "cerca",
+        "trava de laptop",
+        "cartão de acesso"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alguns exemplos de controles de acesso lógico incluem criptografia, cartões inteligentes, senhas, biometria, listas de controle de acesso, protocolos, firewalls, roteadores, sistemas de detecção de intrusões e níveis de autorização. Alguns exemplos de controles de acesso físico incluem guardas de segurança, cercas, detectores de movimento, travas para laptops, portas trancadas, cartões de acesso, cães de guarda, câmeras de vídeo, sistemas de entrada estilo mantrap e alarmes.",
+      "raw_id": "63ad9a45142222080491568a01"
+    },
+    {
+      "question": "Qual solução baseada em host é instalada em um dispositivo ou servidor para monitorar chamadas do sistema e acesso ao sistema de arquivos para detectar solicitações maliciosas?",
+      "options": [
+        "firewall baseado em host",
+        "sistema de detecção de intrusão de host",
+        "criptografia de host",
+        "prevenção de perda de dados"
+      ],
+      "correctIndex": 1,
+      "explanation": "O software do sistema de detecção de intrusão em hosts (HIDS) é instalado em um dispositivo ou servidor para monitorar atividades suspeitas. Ele monitora chamadas de sistema e acesso ao sistema de arquivos para detectar solicitações maliciosas. Ele também pode monitorar informações de configuração sobre o dispositivo mantido no registro do sistema.",
+      "raw_id": "63ad9a45142222080491568a2"
+    },
+    {
+      "question": "Qual é o objetivo de usar a ferramenta Windows BitLocker To Go?",
+      "options": [
+        "para criptografar unidades removíveis",
+        "para reformatar unidades removíveis",
+        "para gerenciar partições em unidades removíveis",
+        "para gerenciar com segurança a inserção e remoção de unidades removíveis"
+      ],
+      "correctIndex": 0,
+      "explanation": "O BitLocker to Go é uma ferramenta que criptografa unidades removíveis.",
+      "raw_id": "63ad9a45142222080491568a3"
+    },
+    {
+      "question": "Qual recurso de segurança do Apple macOS impede a execução de malware por meio da detecção de malware baseada em assinatura?",
+      "options": [
+        "XProtect",
+        "MRT",
+        "Gatekeeper (Guardião)",
+        "Hardware focado em segurança"
+      ],
+      "correctIndex": 0,
+      "explanation": "O recurso de segurança XProtect do Apple macOS impede a execução de malware por meio de detecção de malware baseada em assinaturas. Ele também alerta os usuários sobre malware e fornece a opção de remover arquivos de malware detectados.",
+      "raw_id": "63ad9a45142222080491568a4"
+    },
+    {
+      "question": "Que tipo de firewall inspecionará e filtrará o tráfego de rede com base nas informações das Camadas 3 e 4 do modelo OSI?",
+      "options": [
+        "filtragem de pacotes",
+        "firewall stateful",
+        "firewall de gateway de aplicações",
+        "firewall de última geração"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os firewalls de filtragem de pacotes geralmente fazem parte de um firewall de roteador, que permite ou nega o tráfego com base nas informações da Camada 3 e 4. Os firewalls sem estado (stateless) utilizam uma simples tabela de políticas para filtrar o tráfego com base em critérios específicos.",
+      "raw_id": "63ad9a45142222080491568a5"
+    },
+    {
+      "question": "Qual é o benefício de usar um firewall com estado em uma rede?",
+      "options": [
+        "Ele pode prevenir ataques de camada de aplicação porque examina o conteúdo real da conexão HTTP.",
+        "Ele analisa o tráfego nas camadas 4 e 5 do modelo OSI.",
+        "Ele filtra o tráfego IP entre interfaces em bridge na camada 7 do modelo OSI.",
+        "Ele fortalece a filtragem de pacotes fornecendo um controle mais rigoroso sobre a segurança."
+      ],
+      "correctIndex": 3,
+      "explanation": "Existem vários benefícios em usar um firewall com estado em uma rede:\nFirewalls com estado são frequentemente usados como um meio primário de defesa, filtrando tráfego indesejado ou desnecessário.\nFirewalls com estado fortalecem a filtragem de pacotes fornecendo um controle mais rigoroso sobre a segurança.\nFirewalls com estado melhoram o desempenho em relação aos filtros de pacotes ou servidores proxy.\nFirewalls com estado se defendem contra ataques de falsificação e DoS, determinando se os pacotes pertencem a uma conexão existente ou são de uma origem não autorizada.\nOs firewalls com estado (stateful) fornecem mais informações de log do que os firewalls de filtragem de pacotes.",
+      "raw_id": "63ad9a45142222080491568a6"
+    },
+    {
+      "question": "Qual declaração descreve um firewall baseado em host TCP Wrappers?",
+      "options": [
+        "É um firewall que utiliza uma abordagem baseada em perfis para a funcionalidade de firewall.",
+        "É um aplicativo que permite aos administradores de sistemas Linux configurar regras de acesso à rede que fazem parte dos módulos Netfilter do kernel Linux.",
+        "É um aplicativo de firewall que usa uma máquina virtual simples no kernel do Linux.",
+        "É um sistema de controle de acesso baseado em regras e registro de atividades para o Linux."
+      ],
+      "correctIndex": 3,
+      "explanation": "O firewall baseado em host TCP Wrappers é um sistema de controle de acesso e registro baseado em regras para o Linux. A filtragem de pacotes é baseada em endereços IP e serviços de rede.",
+      "raw_id": "63ad9a45142222080491568a7"
+    },
+    {
+      "question": "Qual método de autenticação usa AES para criptografia?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "WPA3-Enterprise ou Corporativo"
+      ],
+      "correctIndex": 2,
+      "explanation": "O WPA2 é o padrão atual da indústria para a segurança de redes sem fio e utiliza o Advanced Encryption Standard (AES) para criptografia.",
+      "raw_id": "63ad9a45142222080491568a8"
+    },
+    {
+      "question": "Qual método de autenticação de WLAN é recomendado para redes domésticas ou de pequenos escritórios?",
+      "options": [
+        "WPA Personal (Pessoal)",
+        "WPA Enterprise (Corporativa)",
+        "WPA2 Personal",
+        "WPA2 Enterprise (Corporativo)"
+      ],
+      "correctIndex": 2,
+      "explanation": "O WPA2 Personal é recomendado para redes domésticas ou de pequenos escritórios. Os clientes sem fio se autenticam com o roteador sem fio usando uma senha pré-compartilhada.",
+      "raw_id": "63ad9a45142222080491568a9"
+    },
+    {
+      "question": "Qual método de autenticação no WPA3 melhora o processo de integração de dispositivos IoT para ingressar na rede sem fio?",
+      "options": [
+        "DPP",
+        "WPS",
+        "CCMP",
+        "EAP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Embora o WPA2 tenha incluído o Wi-Fi Protected Setup (WPS) para facilitar a conexão de dispositivos sem a necessidade de configuração prévia, o WPS é vulnerável a vários ataques e não é recomendado. No WPA3, o Device Provisioning Protocol (DDP) aborda essa necessidade, fornecendo uma maneira fácil para dispositivos IoT sem interface de usuário se conectarem à rede sem fio. Cada dispositivo IoT tem uma chave pública codificada normalmente estampada na parte externa do dispositivo ou na embalagem como um código QR. O administrador de rede escaneia o código QR e rapidamente adiciona o dispositivo à rede.",
+      "raw_id": "63ad9a45142222080491568b1"
+    },
+    {
+      "question": "Que declaração descreve o princípio da confidencialidade na tríade de segurança da informação da CIA?",
+      "options": [
+        "Os usuários autorizados devem ter acesso ininterrupto a recursos e dados importantes.",
+        "Os dados devem ser protegidos contra alterações não autorizadas.",
+        "Apenas indivíduos, entidades ou processos autorizados podem acessar informações sensíveis.",
+        "Serviços, gateways e links redundantes devem ser implementados."
+      ],
+      "correctIndex": 2,
+      "explanation": "De acordo com a tríade de segurança da informação CIA, confidencialidade significa que apenas indivíduos, entidades ou processos autorizados podem acessar informações sensíveis. Ele pode exigir o uso de algoritmos de criptografia criptográficas como AES para criptografar e descriptografar dados.",
+      "raw_id": "63ad9a45142222080491568b2"
+    },
+    {
+      "question": "Que declaração descreve o princípio da integridade na tríade de segurança da informação da CIA?",
+      "options": [
+        "Os usuários autorizados devem ter acesso ininterrupto a recursos e dados importantes.",
+        "Os dados devem ser protegidos contra alterações não autorizadas.",
+        "Apenas indivíduos, entidades ou processos autorizados podem acessar informações sensíveis.",
+        "Serviços, gateways e links redundantes devem ser implementados."
+      ],
+      "correctIndex": 1,
+      "explanation": "De acordo com a tríade de segurança da informação da CIA, o princípio da integridade significa que os dados devem ser protegidos contra alterações não autorizadas. Requer o uso de algoritmos de hash criptográfico, como o SHA.",
+      "raw_id": "63ad9a45142222080491568b3"
+    },
+    {
+      "question": "Qual é um exemplo de uma característica física?",
+      "options": [
+        "características da orelha",
+        "gestos",
+        "voz",
+        "maneira de andar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Existem dois tipos de identificadores biométricos:\nCaracterísticas físicas: impressões digitais, DNA, rosto, mãos, retina ou características da orelha.\nCaracterísticas comportamentais: padrões de comportamento como gestos, voz, caminhar ou ritmo de digitação.",
+      "raw_id": "63ad9a45142222080491568b4"
+    },
+    {
+      "question": "Qual princípio de segurança se aplica à primeira dimensão do cubo de segurança cibernética da tríade da CIA?",
+      "options": [
+        "Contabilidade",
+        "Disponibilidade",
+        "Política",
+        "Tecnologia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A primeira dimensão do cubo de segurança cibernética identifica os objetivos para proteger o espaço cibernético. Os princípios fundamentais de confidencialidade, integridade e disponibilidade de dados fornecem um foco que permite que o especialista em segurança cibernética priorize ações ao proteger qualquer sistema em rede.",
+      "raw_id": "63ad9a45142222080491568b5"
+    }
+  ],
+  "images": []
+}

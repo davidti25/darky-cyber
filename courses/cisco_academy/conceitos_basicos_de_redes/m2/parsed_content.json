@@ -1,0 +1,386 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori ainda não entende as funções de dispositivo de infraestrutura de rede na rede, incluindo dispositivos finais, dispositivos intermediários e mídia de rede. Quando ela começou sua carreira de enfermeira, ela estava escrevendo anotações médicas em um caderno de papel! Em casa, a Kishori tem apenas um laptop, um smartphone e um tablet. Isso a torna mais familiarizada com os dispositivos finais ou hosts. Ela entende que esses dispositivos estão conectados à Internet de alguma forma através da caixa no canto da sala de estar. No trabalho, ela usa um laptop, um desktop, uma impressora e outros equipamentos hospitalares conectados à rede. Ela quer saber mais sobre os componentes de rede e como eles se conectam.\nKishori sai do quarto da paciente, coloca o laptop no chão e continua seu trabalho no computador da estação de enfermagem. Ela se pergunta como as anotações eletrônicas que acabou de tirar no laptop aparecem no prontuário do paciente no computador desktop. Como eles estão conectados? Como o computador chega à Internet? Kishori tem muito a aprender e você também pode! Aproveite este módulo para saber mais."
+    },
+    {
+      "type": "text",
+      "title": ".1 Clientes e Servidores",
+      "content": "{{_moduleNumber}}.1 Clientes e Servidores"
+    },
+    {
+      "type": "text",
+      "title": ".1 Clientes e Servidores",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Funções de Clientes e Servidores",
+      "content": "Todos os computadores conectados a uma rede que participam diretamente na comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagens na rede. Nas redes modernas, um host pode atuar como cliente, servidor ou ambos. O software instalado no computador determina qual função o computador desempenha.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Redes Ponto-a-Ponto",
+      "content": "Os softwares de cliente e de servidor geralmente são executados em computadores separados, mas também é possível que um computador execute as duas funções ao mesmo tempo. Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é chamado de rede ponto a ponto(P2P).\nA rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por uma conexão com ou sem fio. Ambos os computadores podem usar essa rede simples para trocar dados e serviços entre si, atuando como cliente ou servidor conforme necessário.\nVários PCs também podem ser conectados para criar uma rede ponto-a-ponto maior, mas isso exige um dispositivo de rede (como um switch) para interconectar os computadores.\nA principal desvantagem de um ambiente ponto-a-ponto é que o desempenho de um host pode ser reduzido se ele estiver atuando como cliente e servidor ao mesmo tempo. A figura lista algumas das vantagens e desvantagens das redes ponto-a-ponto.\nEm empresas de grande porte, devido ao potencial para quantidades altas de tráfego de rede, geralmente é necessário ter servidores dedicados para suportar o número de solicitações de serviço.\nAs vantagens e desvantagens das redes P2P são resumidas na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "As vantagens da rede ponto-a-ponto:\nFácil de configurar;\nMenos complexo;\nMenor custo porque os dispositivos de rede e os servidores dedicados podem não ser necessários;\nPode ser usada para tarefas simples como transferir arquivos e compartilhar impressoras.\nAs desvantagens das rede ponto-a-ponto:\nNenhuma administração centralizada;\nNão é tão segura;\nNão é escalável\nTodos os dispositivos podem atuar como clientes e servidores, podendo deixar seu desempenho lento."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.4 Aplicações Ponto-a-ponto",
+      "content": "Um aplicação P2P permite que um dispositivo atue como cliente e servidor na mesma comunicação, como mostra a figura. Nesse modelo, todo cliente é um servidor e todo servidor é um cliente. Aplicações P2P exigem que cada dispositivo final forneça uma interface de usuário e execute um serviço em segundo plano.\nAlgumas aplicações P2P utilizam um sistema híbrido no qual o compartilhamento de recursos é descentralizado, mas os índices que apontam para as localizações de recursos são armazenados em um diretório centralizado. Em um sistema híbrido, cada peer acessa um servidor de índice para obter a localização de um recurso armazenado em outro peer.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Ambos os clientes podem enviar e receber mensagens simultaneamente."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.5 Múltiplas Funções na Rede",
+      "content": "Um computador com software de servidor pode fornecer serviços simultaneamente a um ou vários clientes, como mostrado na figura.\nAlém disso, um único computador pode executar vários tipos de software de servidor. Em casa ou em uma empresa pequena, pode ser necessário que um computador atue como um servidor de arquivos, um servidor Web e um servidor de e-mail.\nUm único computador pode também executar vários tipos de software cliente. Deve haver um software cliente para cada serviço necessário. Com vários softwares cliente instalados, um cliente pode se conectar a vários servidores ao mesmo tempo. Por exemplo, um usuário pode verificar e-mails e exibir uma página Web enquanto envia mensagens instantâneas e ouve rádio pela Internet.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2. Compontes de Rede",
+      "content": "{{_moduleNumber}}.2 Componentes de rede"
+    },
+    {
+      "type": "text",
+      "title": ".2. Compontes de Rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Infraestrutura de Rede",
+      "content": "O caminho que uma mensagem percorre da sua origem ao destino pode ser tão simples quanto um único cabo conectando um computador a outro ou tão complexo quanto uma rede que literalmente atravessa o globo. A infraestrutura de rede é a plataforma que suporta a rede. Ela fornece o canal estável e confiável sobre o qual nossas comunicações podem ocorrer.\nA infraestrutura de rede contém três categorias de componentes de rede, como mostrada na figura:\nDispositivos finais\nDispositivos intermediários\nMeios físicos de rede",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Dispositivos e meios físicos são os elementos físicos ou o hardware da rede. O hardware é geralmente composto pelos componentes visíveis da plataforma de rede, tais como um laptop, um PC, um switch, um roteador, um access point sem fio ou os cabos usados para conectar os dispositivos. Ocasionalmente, alguns componentes podem não ser tão visíveis. No caso de meios físicos sem fio, as mensagens são transmitidas pelo ar com a utilização de freqüência de rádio invisível ou ondas infravermelhas.\nFaça uma lista dos componentes de infraestrutura de rede instalados na rede residencial. Inclua os cabos ou os pontos de acessos sem fio que fornecem as conexões de rede."
+    },
+    {
+      "type": "text",
+      "title": ".3 Opções de conectividade com o ISP",
+      "content": "{{_moduleNumber}}.3 Opções de conectividade com o ISP"
+    },
+    {
+      "type": "text",
+      "title": ".3 Opções de conectividade com o ISP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.1 Serviços ISP",
+      "content": "Um provedor de serviços de Internet (ISP) fornece o link entre a rede doméstica e a Internet. Um ISP pode ser o provedor de TV a cabo local, um provedor de serviços de telefonia fixa, a rede celular que fornece seu serviço de smartphone ou um provedor independente que aluga largura de banda na infraestrutura de rede física de outra empresa.\nMuitos ISPs também oferecem serviços adicionais aos assinantes, como mostrado na figura. Esses serviços podem englobar contas de e-mail, armazenamento de rede, hospedagem de sites e serviços de segurança ou backup automático.\nOs ISPs são essenciais para a comunicação na Internet global. Cada ISP conecta-se a outros ISPs para formar uma rede de links que interconectam usuários em todo o mundo. Os ISPs são conectados de maneira hierárquica que garante que o tráfego da Internet geralmente siga o caminho mais curto da origem ao destino.\nO backbone de Internet é como uma autoestrada de informações que fornece links de dados de alta velocidade para conectar as diversas redes de provedores de serviços nas grandes áreas metropolitanas do mundo todo. O principal meio físico que conecta o backbone de Internet é o cabo de fibra óptica. Esse cabo normalmente é instalado no subterrâneo para conectar cidades dentro de continentes. Os cabos de fibra óptica também passam sob o mar para conectar continentes, países e cidades.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Conexões ISP",
+      "content": "A interconexão de ISPs, que forma a espinha dorsal da internet, é uma teia complexa de cabos de fibra ótica com switches e roteadores de rede caros que direcionam o fluxo de informações entre os hosts de origem e destino. Os usuários domésticos médios não estão cientes da infraestrutura fora de sua rede. Para ele, conectar-se ao ISP é um processo bastante simples.\nA parte superior da figura mostra a opção mais simples de conexão com o ISP. Consiste em um modem que fornece uma conexão direta entre um computador e o ISP. Esta opção não deve ser usada, pois seu computador não está protegido na internet.\nComo mostrado na parte inferior da figura, é necessário um roteador para conectar com segurança um computador a um ISP. Esta é a opção de conexão mais comum. Consiste em usar um roteador integrado sem fio para se conectar ao ISP. O roteador inclui um switch para conectar hosts com fio e um AP sem fio para conectar hosts sem fio. O roteador também fornece informações de endereçamento IP do cliente e segurança para hosts internos.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.3 Conexões de Cabo e DSL",
+      "content": "A maioria dos usuários de rede doméstica não se conecta aos provedores de serviços com cabos de fibra óptica. A figura ilustra as opções comuns de conexão para usuários de residências e pequenos escritórios. Os dois métodos mais comuns são os seguintes:\nCabo - Normalmente oferecido por provedores de serviços de televisão a cabo, o sinal de dados de internet é transportado no mesmo cabo coaxial que entrega a televisão a cabo. Ele fornece uma conexão com a internet sempre ativa com alta largura de banda. Um cable modem especial separa o sinal de dados da Internet dos outros sinais transmitidos pelo cabo e fornece uma conexão Ethernet para um computador host ou LAN.\nDSL - Linha digital do Assinante fornece uma conexão com a internet sempre ativa e com alta largura de banda. Ele requer um modem especial de alta velocidade que separa o sinal DSL do sinal de telefone e fornece uma conexão Ethernet para um computador host ou LAN. A DSL passa por uma linha telefônica, com a linha dividida em três canais. Um canal é usado para chamadas telefônicas. Esse canal permite que um indivíduo receba chamadas telefônicas sem se desconectar da Internet. Um segundo canal é um canal de download mais rápido, usado para receber informações da Internet. O terceiro canal é usado para enviar ou carregar informações. Esse canal geralmente é um pouco mais lento do que o canal de download. A qualidade e a velocidade da conexão DSL depende principalmente da qualidade da linha telefônica e da distância da central telefônica da operadora de telefonia. Quanto mais longe você estiver da central telefônica, mais lenta será a conexão.",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".3.4 Opções Adicionais para Conectividade",
+      "content": "**Celular:** O acesso do celular à Internet usa uma rede de telefonia celular para se conectar. Onde quer que você possa obter um sinal de celular, você pode obter acesso à Internet por celular. O desempenho será limitado pelos recursos do telefone e da torre do celular à qual ele está conectado. A disponibilidade do acesso à Internet via celular é um benefício real para pessoas que vivem em áreas que, de outra forma, não teriam nenhuma conectividade à Internet ou para aquelas que estão sempre em movimento. O problema da conectividade por celular é que a operadora geralmente mede o uso da largura de banda da conexão e pode cobrar taxas extras caso ele exceda o plano de dados do contrato.\n\n**Satélite:** Serviço de satélite é uma boa opção para casas ou escritórios que não tenham acesso a DSL ou cabo. As antenas parabólicas (veja a figura) exigem uma linha de visão clara para o satélite e isso pode ser difícil de conseguir em áreas muito arborizadas ou em locais com outras obstruções aéreas. As velocidades variam de acordo com o contrato, embora geralmente sejam boas. Os custos de equipamento e instalação podem ser altos (consulte o provedor para ofertas especiais), com uma taxa mensal moderada a partir de então. Assim como o acesso por celular, a disponibilidade de acesso à Internet via satélite é um benefício real em áreas que, de outra forma, não teriam nenhuma conectividade com a Internet.\n\n**Conexão discada (dial-up):** Uma opção de baixo custo que usa qualquer linha telefônica e um modem. Para se conectar ao ISP, um usuário chama o número de telefone de acesso do ISP. A pequena largura de banda fornecida por uma conexão discada via modem geralmente não é suficiente para grandes transferências de dados, mas pode ser útil quando se esta deslocando em viagens. Uma conexão discada por modem só deve ser considerada quando as opções de conexão de velocidade mais alta não estiverem disponíveis."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Satellite Connection",
+      "content": "Em áreas metropolitanas, muitos apartamentos e pequenos escritórios estão conectados diretamente com cabos de fibra óptica. Isso permite que um provedor de serviços de Internet forneça velocidades de largura de banda mais altas e suporte a mais serviços, como Internet, telefone e TV.\nA escolha da conexão varia dependendo da localização geográfica e da disponibilidade do provedor de serviço.\nConexão via Satélite",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo de componentes de rede, tipos e conexões",
+      "content": "{{_moduleNumber}}.4 Resumo de componentes de rede, tipos e conexões"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo de componentes de rede, tipos e conexões",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que aprendi neste módulo?",
+      "content": "**Clientes e Servidores:** Todos os computadores conectados a uma rede que participam diretamente na comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagens na rede. Nas redes modernas, um host pode atuar como cliente, servidor ou ambos. O software instalado no computador determina qual função o computador desempenha.\nOs softwares de cliente e de servidor geralmente são executados em computadores separados, mas também é possível que um computador execute as duas funções ao mesmo tempo. Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é chamado de rede ponto a ponto(P2P). Em empresas de grande porte, devido ao potencial para quantidades altas de tráfego de rede, geralmente é necessário ter servidores dedicados para suportar o número de solicitações de serviço. As redes P2P são fáceis de configurar, menos complexas, de custo mais baixo e podem ser usadas para tarefas simples, como transferência de arquivos e compartilhamento de impressoras. No entanto, não existe uma administração centralizada. Elas têm menos segurança, não são escaláveis e podem ter um desempenho mais lento.\n\n**Componentes de Rede:** Existem símbolos que representam vários tipos de equipamentos de rede. A infraestrutura de rede é a plataforma que suporta a rede. Ela fornece o canal estável e confiável sobre o qual nossas comunicações podem ocorrer. A infraestrutura de rede contém três categorias de componentes de hardware: dispositivos intermediários, dispositivos final e meios físicos de rede. O hardware é geralmente composto pelos componentes visíveis da plataforma de rede, tais como um laptop, um PC, um switch, um roteador, um access point sem fio ou os cabos usados para conectar os dispositivos. Os componentes que não estão visíveis incluem mídia sem fio.\nOs dispositivos finais, ou hosts, formam a interface entre os usuários e a rede de comunicação subjacente. Alguns exemplos de dispositivos finais são:\nComputadores (estações de trabalho, laptops, servidores de arquivo, servidores Web);\nImpressoras de rede\nTelefones e equipamento de teleconferência\nCâmeras de segurança\nDispositivos móveis (como smartphones, tablets, PDAs, leitores de cartão de débito/crédito sem fio e scanners de código de barras)\n\n**Opções de conectividade com o ISP:** Um ISP fornece um link entre a rede doméstica e a Internet. Um ISP pode ser o provedor de TV a cabo local, um provedor de serviços de telefonia fixa, a rede celular que fornece seu serviço de smartphone ou um provedor independente que aluga largura de banda na infraestrutura de rede física de outra empresa. Cada ISP conecta-se a outros ISPs para formar uma rede de links que interconectam usuários em todo o mundo. Os ISPs são conectados de maneira hierárquica que garante que o tráfego da Internet geralmente siga o caminho mais curto da origem ao destino.\nA interconexão de ISPs, que forma a espinha dorsal da internet, é uma teia complexa de cabos de fibra ótica com switches e roteadores de rede caros que direcionam o fluxo de informações entre os hosts de origem e destino.\nPara ele, conectar-se ao ISP é um processo bastante simples. Esta é a opção de conexão mais comum. Consiste em usar um roteador integrado sem fio para se conectar ao ISP. O roteador inclui um switch para conectar hosts com fio e um AP sem fio para conectar hosts sem fio. O roteador também fornece informações de endereçamento IP do cliente e segurança para hosts internos. Os dois métodos mais comuns são cabo e DSL. Outras opções  incluem celular, satélite e conexão discada  usando uma linha telefônica."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Você já pediu algum móvel que precisava montar? A caixa tem todas as peças e partes necessárias, juntamente com as instruções de montagem. Ele ajuda você a analisar todos esses itens enquanto lê as instruções. Pense na sua rede. Você sabia quais eram os diferentes dispositivos e tipos de conexão antes de usar este módulo? Você observa essas peças e partes de forma diferente agora?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Um computador com software instalado para fornecer informações como e-mail ou páginas da Web para outros dispositivos é conhecido como:",
+      "options": [
+        "cliente",
+        "servidor",
+        "smartphone",
+        "host inteligente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nServidores são hosts que têm um software instalado que os permite fornecer informações, como e-mail ou páginas Web, a outros hosts na rede.",
+      "raw_id": "79dbf3f3e1564572afe53665ade27e35"
+    },
+    {
+      "question": "Um smartphone (telefone inteligente) usa um software de navegador da Web para solicitar e exibir uma página da Web. O smartphone (telefone inteligente) é considerado que tipo de computador?",
+      "options": [
+        "cliente",
+        "servidor",
+        "solicitante",
+        "host inteligente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nClientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor.",
+      "raw_id": "3f026924a7964f9ea27fc1dbddf95555"
+    },
+    {
+      "question": "Uma rede em que dois computadores estão se comunicando como cliente e como servidor é conhecida como:",
+      "options": [
+        "rede cliente-servidor",
+        "rede cliente-cliente",
+        "rede servidor-servidor",
+        "rede ponto-a-ponto"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nUma rede ponto-a-ponto consiste de dois computadores diretamente conectados onde ambos computadores são capazes de trocar dados e serviços com o outro, agindo como cliente ou servidor quando necessário",
+      "raw_id": "061c566cd092423b94a269c6b9967598"
+    },
+    {
+      "question": "Marjani mora em uma fazenda a vários quilômetros de Msolwa, na Tanzânia. Qual dos dispositivos finais a seguir é mais provável que ela use para se conectar à Internet? (Escolha duas.)",
+      "options": [
+        "smartphone",
+        "impressora da rede",
+        "Terminal de telepresença",
+        "tablet sem fio",
+        "roteador sem fio"
+      ],
+      "correctIndex": 3,
+      "explanation": "Isso mesmo! Muito bem.\nEm áreas rurais que não têm uma infraestrutura de telecomunicações com fio, o acesso sem fio através de um serviço de celular é muitas vezes a única opção para acesso à Internet. As opções para Marjani incluem um smartphone ou tablet.",
+      "raw_id": "d8724c8abb874dc3b1083d6181b28164"
+    },
+    {
+      "question": "Eilert conseguiu recentemente um emprego em uma empresa de serviços de suporte a computadores em sua cidade natal, Falun, na Suécia. Um cliente solicitou que alguém conectasse a rede doméstica à Internet. Ele têm apenas um modem a cabo. Qual dos seguintes dispositivos intermediários Eilert provavelmente levaria ele para o trabalho?",
+      "options": [
+        "Switch multicamada",
+        "dispositivo de firewall",
+        "roteador sem fio",
+        "Computador desktop",
+        "switch LAN"
+      ],
+      "correctIndex": 2,
+      "explanation": "Isso mesmo! Muito bem.\nAs redes domésticas normalmente se conectam ao provedor de Internet usando um modem e um roteador com recursos sem fio. Às vezes, esses dois dispositivos são combinados em um único dispositivo. Nesse cenário, Eilert precisará levar o roteador sem fio para a casa do cliente, pois ele só tem o modem.",
+      "raw_id": "b7e63e28a5dc422c931d5f9ff77e7051"
+    },
+    {
+      "question": "Rosalía trabalha como agente de saúde comunitária em Rio Claro, Brasil. A maior parte do tempo é gasta fazendo visitas domiciliares para fornecer atendimento primário às pessoas em sua comunidade. No entanto, ela precisa de acesso à Internet para manter seus registros de pacientes e oferecer videoconferência com um médico, quando necessário. Que tipo de dispositivo final e mídia a Rosalía provavelmente usa? (Escolha duas.)",
+      "options": [
+        "roteador",
+        "tablet",
+        "Computador desktop",
+        "Mídia WAN",
+        "Mídia LAN",
+        "Mídia Sem Fio"
+      ],
+      "correctIndex": 5,
+      "explanation": "Isso mesmo! Muito bem.\nOs agentes de saúde comunitários que viajam de casa em casa durante suas rondas diárias dependem muito do acesso sem fio. Portanto, Rosalía provavelmente usaria um tablet e uma mídia sem fio para se conectar à Internet para atualizar os registros médicos e fazer videoconferência com outro médico, quando necessário.",
+      "raw_id": "aa1fe2e3b3f94f93bb8e18719f735df0"
+    },
+    {
+      "question": "O que é um serviço que fornece um sinal de dados da Internet na mesma rede que oferece serviços de transmissão de televisão e telefone?",
+      "options": [
+        "Internet a cabo",
+        "Plano de dados de celular",
+        "Digital Subscriber Line (DSL )",
+        "Acesso para convidados"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO cabo de Internet fornece um sinal de dados de Internet na mesma rede que oferece serviços de televisão e telefone de transmissão.",
+      "raw_id": "11cb7ab5e530435691febe43388622be"
+    },
+    {
+      "question": "O que é um serviço que fornece conexão de banda larga sempre ativa, usando fios de telefonia fixa existentes?",
+      "options": [
+        "Acesso para convidados",
+        "Plano de dados de celular",
+        "Internet a cabo",
+        "Digital Subscriber Line (DSL )"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nUma conexão Digital Subscriber Line (DSL) é um serviço que fornece banda larga sempre ativa, usando fios de telefonia fixa existentes.",
+      "raw_id": "9ae407bbed494f8dabccfeb1d7cb2660"
+    },
+    {
+      "question": "O que é um serviço de Internet que usa redes de telefonia móvel para transmitir dados?",
+      "options": [
+        "Internet a cabo",
+        "Plano de dados de celular",
+        "Digital Subscriber Line (DSL )",
+        "Acesso para convidados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm plano de dados de celular é um serviço de Internet que usa redes de telefonia móvel para transmitir dados.",
+      "raw_id": "a854b4e96e8b4c3fbb16aa5f27293731"
+    },
+    {
+      "question": "Que tipo de rede é definida por dois computadores que podem enviar e receber solicitações para recursos?",
+      "options": [
+        "cliente/servidor",
+        "ponto-a-ponto",
+        "empresa",
+        "campus"
+      ],
+      "correctIndex": 1,
+      "explanation": "A forma de rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio.",
+      "raw_id": "827940640b474641ad185ec1af53becc"
+    },
+    {
+      "question": "Quais são as duas funções dos dispositivos finais na rede? (Escolha duas.)",
+      "options": [
+        "Eles originam os dados que fluem na rede.",
+        "Eles direcionam os dados por caminhos alternativos em caso de falhas de link.",
+        "Eles filtram o fluxo de dados para melhorar a segurança.",
+        "Eles são a interface entre as pessoas e a rede de comunicação.",
+        "Eles oferecem um canal para o percurso da mensagem na rede."
+      ],
+      "correctIndex": 3,
+      "explanation": "Os dispositivos finais originam os dados que fluem na rede. Os dispositivos intermediários direcionam os dados por caminhos alternativos em caso de falhas de link e filtram o fluxo de dados para melhorar a segurança. O meio físico de rede é o canal que as mensagens percorrem na rede.",
+      "raw_id": "8ad0c0ac91f440bf944c0a4474ba454e"
+    },
+    {
+      "question": "Um usuário doméstico está procurando a conexão de um ISP que oferece transmissão digital de alta velocidade através de linhas telefônicas regulares. Que tipo de conexão de ISP deve ser usada?",
+      "options": [
+        "DSL",
+        "conexão discada",
+        "satélite",
+        "modem celular",
+        "cable modem"
+      ],
+      "correctIndex": 0,
+      "explanation": "DSL é a melhor tecnologia para usar em linhas telefônicas existentes. Muitos ISPs têm uma pesquisa em seu site onde você pode inserir seu número de telefone e ver se eles podem oferecer o serviço.",
+      "raw_id": "5d56cdf656a749a78af5f231e22fc66c"
+    },
+    {
+      "question": "Que tipo de conexão com a Internet seria melhor para uma residência em uma área remota sem cobertura de celular ou conectividade cabeada?",
+      "options": [
+        "conexão discada",
+        "celular",
+        "satélite",
+        "DSL"
+      ],
+      "correctIndex": 2,
+      "explanation": "O serviço de Internet via satélite fornece a melhor opção para um usuário doméstico que, de outra forma, não teria nenhuma conexão à Internet. A Internet do celular está disponível somente em áreas com cobertura de telefone celular.",
+      "raw_id": "aa0e2526ec774cff893c1a927362d18c"
+    },
+    {
+      "question": "Qual termo descreve corretamente a função de um ISP?",
+      "options": [
+        "responsável pelo gerenciamento de redes locais",
+        "responsável pela manutenção das redes SOHO",
+        "responsável por fornecer o link entre uma rede privada e a Internet.",
+        "responsável por fornecer segurança em redes privadas"
+      ],
+      "correctIndex": 2,
+      "explanation": "ISP significa Provedor de Serviços de Internet. Um ISP é responsável por fornecer o link entre uma rede privada, tal como uma rede doméstica ou comercial, e a Internet.",
+      "raw_id": "42a657f90d1f4e7495700c46649e22fb"
+    },
+    {
+      "question": "Qual dispositivo é um dispositivo intermediário?",
+      "options": [
+        "firewall",
+        "PC",
+        "servidor",
+        "dispositivo inteligente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um dispositivo intermediário envia mensagens de rede para um destino final. Exemplos de dispositivos intermediários incluem um firewall, roteador, switch, switch multicamada e roteador sem fio.",
+      "raw_id": "bc2db8ed4bd449e5b583b4b55e476284"
+    },
+    {
+      "question": "Qual cenário descreve uma rede ponto-a-ponto?",
+      "options": [
+        "Os usuários acessam arquivos compartilhados por um servidor de arquivos.",
+        "Um usuário acessa uma página da Web no site da empresa.",
+        "Um usuário compartilhou uma impressora conectada à estação de trabalho.",
+        "Os usuários imprimem documentos de uma impressora da rede com uma placa de rede incorporada."
+      ],
+      "correctIndex": 2,
+      "explanation": "Em uma rede ponto-a-ponto, não há um servidor dedicado ou centralizado. Um computador do usuário pode ser um cliente que solicita o serviço de outro computador do usuário, e um servidor que compartilha um recurso de rede (como uma impressora) com outros usuários.",
+      "raw_id": "c4d54ca6a0e74eebaff4a7777e3bc7ba"
+    },
+    {
+      "question": "Que termo é usado para descrever um dispositivo de rede com a função principal de fornecer informações a outros dispositivos?",
+      "options": [
+        "estação de trabalho",
+        "console",
+        "servidor",
+        "cliente"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os servidores são dispositivos com um software instalado que possibilitam que eles forneçam informações, como páginas da Web ou e-mails.",
+      "raw_id": "5fe60b6fc0754b5cadea90b8de75145b"
+    },
+    {
+      "question": "Qual é uma vantagem do modelo de rede ponto-a-ponto?",
+      "options": [
+        "escalabilidade",
+        "alto nível de segurança",
+        "facilidade de configuração",
+        "administração centralizada"
+      ],
+      "correctIndex": 2,
+      "explanation": "A rede ponto-a-pontor mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio. As vantagens da rede ponto-a-ponto incluem facilidade de configuração, baixo custo e complexidade menor.",
+      "raw_id": "476d2cb22b224843b3d00549b03bbb02"
+    },
+    {
+      "question": "Qual é uma característica de um aplicativo ponto a ponto?",
+      "options": [
+        "Cada dispositivo que usa o aplicativo provê uma interface de usuário e executa um serviço em segundo plano.",
+        "Cada dispositivo pode atuar como um cliente ou um servidor, mas não ao mesmo tempo.",
+        "Os recursos necessários para o aplicativo são centralizados.",
+        "Um dispositivo é designado como servidor e um dispositivo é designado como cliente para todas as comunicações e serviços"
+      ],
+      "correctIndex": 0,
+      "explanation": "As redes ponto a ponto existem diretamente entre os dispositivos cliente, sem recursos centralizados ou autenticação. Também existem sistemas híbridos ponto a ponto que descentralizam o compartilhamento de recursos, mas podem usar índices centralizados para apontar para os locais de recursos.",
+      "raw_id": "1312861ba3e4409294b558ba6ef62c1a"
+    }
+  ],
+  "images": []
+}

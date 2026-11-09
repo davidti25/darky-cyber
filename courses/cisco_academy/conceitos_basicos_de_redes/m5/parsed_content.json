@@ -1,0 +1,346 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "No dia seguinte, Kishori tem um novo paciente, Srinivas, que acaba de ser admitido em um quarto. Ele é de Narayanpet e fala Telugu. Kishori fala Marathi. Esses dois idiomas indianos são muito diferentes. Kishori e Srinivas não falam a língua nativa do outro. No entanto, os dois falam inglês. Portanto, eles decidem se comunicar usando o inglês.\nAntes de começar a nos comunicar, estabelecemos regras ou acordos para reger a conversa. Assim como Kishori e Srinivas, decidimos que método de comunicação devemos usar e qual linguagem devemos usar. Também podemos precisar confirmar se nossas mensagens foram recebidas. Por exemplo, Kishori pode fazer com que Srinivas assine um documento verificando se ele entendeu as instruções de cuidado de Kishori.\nAs redes também precisam de regras ou protocolos para garantir uma comunicação bem-sucedida. Este módulo abordará os princípios de comunicação em redes. Vamos começar!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Protocolos de comunicação",
+      "content": "{{_moduleNumber}}.1 Protocolos de comunicação"
+    },
+    {
+      "type": "text",
+      "title": ".1 Protocolos de comunicação",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".1.1 Protocolos de comunicação",
+      "content": "**Método:** \n\n**Idioma:** \n\n**Confirmação:** "
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Essas regras, ou protocolos, devem ser seguidas para que a mensagem seja transmitida e entendida adequadamente. Entre os protocolos que direcionam a comunicação humana bem sucedida estão:\nUm emissor e um receptor identificados\nAcordo sobre o método de comunicação (face a face, por telefone, carta, foto)\nLíngua e gramática comum\nVelocidade e ritmo de transmissão\nRequisitos de confirmação ou recepção\nAs técnicas usadas nas comunicações de rede compartilham esses fundamentos com as conversas humanas.\nPense nos protocolos aceitos normalmente para enviar mensagens de texto para seus amigos."
+    },
+    {
+      "type": "text",
+      "title": ".2 Padrões de comunicação",
+      "content": "{{_moduleNumber}}.2 Padrões de comunicação"
+    },
+    {
+      "type": "text",
+      "title": ".2 Padrões de comunicação",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.2. A Internet e os Padrões",
+      "content": "Com o número cada vez maior de novos dispositivos e tecnologias on-line, como é possível gerenciar todas as mudanças e continuar oferecendo serviços como e-mail de maneira confiável? A resposta está nos padrões da Internet.\nUm padrão é um conjunto de regras que determina como algo deve ser feito. Os padrões de rede e de Internet asseguram que todos os dispositivos conectados à rede implementem o mesmo conjunto de regras ou protocolos da mesma forma. O uso de padrões permite que diferentes tipos de dispositivos enviem informações entre si pela Internet. Por exemplo, o modo como um e-mail é formatado, encaminhado e recebido por todos os dispositivos segue um padrão. Se uma pessoa enviar um e-mail através de um computador pessoal, outra pessoa poderá usar um celular para receber e ler o e-mail, desde que o telefone celular utilize os mesmos padrões do computador pessoal."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Organizações de padronização de rede",
+      "content": "Um padrão da Internet é o resultado final de um ciclo completo de discussão, solução de problemas e testes. Esses diferentes padrões são desenvolvidos, publicados e mantidos por diversas organizações, conforme mostrado na figura. Quando um novo padrão é proposto, cada etapa do processo de desenvolvimento e aprovação é registrada em um documento numerado de Solicitação de Comentários (Request for Comments - RFC), para que a evolução do padrão seja monitorada. As RFCs sobre padrões da Internet são publicadas e gerenciadas pelo IETF (Internet Engineering Task Force).\nOutras organizações de padrões que suportam a Internet são mostradas na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Modelos de comunicação de rede",
+      "content": "{{_moduleNumber}}.3 Modelos de comunicação de rede"
+    },
+    {
+      "type": "text",
+      "title": ".3 Modelos de comunicação de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.5 Comparação entre os Modelos OSI e TCP/IP",
+      "content": "Já que o TCP/IP é o conjunto de protocolos usado nas comunicações de Internet, por que precisamos conhecer também o modelo OSI?\nO modelo TCP/IP é um método para visualizar as interações dos diversos protocolos que compõem o conjunto de protocolos TCP/IP. Ele não descreve as funções gerais que são necessárias para todas as comunicações em rede. Ele descreve as funções de rede específicas para os protocolos em uso na pilha de protocolos TCP / IP. Por exemplo: na camada de acesso à rede, o conjunto de protocolos TCP/IP não especifica quais protocolos devem ser usados na transmissão por um meio físico, nem o método de codificar os sinais de transmissão. As Camadas 1 e 2 do modelo OSI discutem os procedimentos necessários para acessar a mídia e o meio físico para enviar dados por uma rede.\nOs protocolos que compõem o conjunto de protocolo TCP/IP podem ser descritos em termos do modelo de referência OSI. As funções que ocorrem na camada de Internet do modelo TCP/IP estão incluídas na camada de rede do modelo OSI, como mostrado na figura. A funcionalidade da camada de transporte é a mesma entre os dois modelos. No entanto, a camada de acesso à rede e a camada de aplicação do modelo TCP/IP são divididas no modelo OSI para descrever funções discretas que devem ocorrer nessas camadas.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "As principais semelhanças estão nas camadas de transporte e rede; no entanto, os dois modelos diferem em como eles se relacionam com as camadas acima e abaixo de cada camada:\nA Camada 3 do modelo OSI, camada de rede, é mapeada diretamente para a camada de Internet TCP/IP. Essa camada é usada para descrever os protocolos que endereçam e encaminham mensagens em uma rede interconectada.\nA Camada OSI 4, a camada de transporte, mapeia diretamente para a camada de transporte TCP/IP. Essa camada descreve os serviços e as funções gerais que fornecem uma entrega ordenada e confiável de dados entre os hosts origem e destino.\nA camada de aplicaplicação  TCP/IP inclui vários protocolos que fornecem funcionalidade específica para uma variedade de aplicações do usuário final. As camadas 5, 6 e 7 do modelo OSI são usadas como referências para desenvolvedores e fornecedores de software de aplicação para produzir aplicaçõesque operam em redes.\nAmbos os modelos TCP/IP e OSI são usados geralmente para referenciar protocolos em várias camadas. Como o modelo OSI separa a camada de enlace de dados da camada física, geralmente é usado para referenciar as camadas inferiores."
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo dos Princípios de comunicação",
+      "content": "{{_moduleNumber}}.4 Resumo dos Princípios de comunicação"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo dos Princípios de comunicação",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que aprendi neste módulo?",
+      "content": "**Protocolo de comunicação:** Os protocolos são necessários para que os computadores se comuniquem corretamente na rede. Isso inclui formato de mensagem, tamanho de mensagem, temporização, codificação, encapsulamento e padrões de mensagem.\nFormato da mensagem - Quando uma mensagem é enviada, ela deve usar um formato ou estrutura específica.\nTamanho da mensagem - As regras que regem o tamanho das peças comunicadas pela rede são muito rígidas. Eles também podem ser diferentes, dependendo do canal usado.\nTemporização - A temporização determina a velocidade na qual os bits são transmitidos pela rede. Também afeta quando um host individual pode enviar dados e a quantidade total de dados que pode ser enviada em qualquer transmissão.\nCodificação - As mensagens enviadas pela rede são primeiro convertidas em bits pelo host de envio. Cada bit é codificado em um padrão de sons, de ondas de luz ou de impulsos elétricos, dependendo da mídia de rede em que os bits são transmitidos.\nEncapsulamento - Cada mensagem transmitida em uma rede deve incluir um cabeçalho que contenha informações de endereçamento que identifiquem os hosts de origem e destino. Encapsulamento é o processo de adicionar essas informações aos dados que compõem a mensagem.\nPadrão de mensagem - Algumas mensagens requerem uma confirmação antes que a próxima mensagem possa ser enviada. Esse tipo de padrão de solicitação/resposta é um aspecto comum em muitos protocolos de rede. No entanto, existem outros tipos de mensagens que podem ser simplesmente transmitidas pela rede, sem a preocupação de chegarem ao seu destino.\n\n**Padrões de comunicação:** As topologias nos permitem ver a rede usando a representação de dispositivos finais e dispositivos intermediários. Como um dispositivo vê uma rede? Pense em um dispositivo em uma bolha. Um dispositivo só vê suas próprias informações de endereçamento. Como o dispositivo sabe que está na mesma rede que outro dispositivo? A resposta é: protocolos de rede. A maioria das comunicações de rede é dividida em unidades de dados menores ou pacotes.\nUm padrão é um conjunto de regras que determina como algo deve ser feito. Os padrões de rede e de Internet asseguram que todos os dispositivos conectados à rede implementem o mesmo conjunto de regras ou protocolos da mesma forma. O uso de padrões permite que diferentes tipos de dispositivos enviem informações entre si pela Internet.\nUm padrão da Internet é o resultado final de um ciclo completo de discussão, solução de problemas e testes. Esses diferentes padrões são desenvolvidos, publicados e mantidos por uma variedade de organizações. Quando um novo padrão é proposto, cada etapa do processo de desenvolvimento e aprovação é registrada em um documento numerado de Solicitação de comentários (RFC), para que a evolução do padrão seja monitorada. As RFCs de padrões da Internet são publicadas e gerenciadas pelo IETF (Internet Engineering Task Force).\n\n**Modelos de comunicação de rede:** Os protocolos são as regras que regem as comunicações. Uma comunicação bem-sucedida entre hosts requer interação entre vários protocolos. Os protocolos incluem HTTP, TCP, IP e Ethernet. Esses protocolos são implementados em software e hardware instalados em cada host e dispositivo de rede.\nA interação entre os diferentes protocolos em um dispositivo pode ser ilustrada como uma pilha de protocolos. Uma pilha ilustra os protocolos como uma hierarquia em camadas, com cada protocolo de alto nível dependendo dos serviços dos protocolos mostrados nos níveis inferiores. A separação das funções permite que cada camada na pilha opere de forma independente das outras.\nA suite de protocolos TCP/IP que é usada para comunicações na Internet segue a estrutura deste modelo:\nAplicativo - Representa dados para o usuário, além de codificação e controle de diálogo\nTransporte - Suporta a comunicação entre vários dispositivos em diversas redes\nInternet - Determina o melhor caminho através da rede\nAcesso à rede - Os dispositivos de hardware e mídia que compõem a rede.\nUm modelo de referência descreve as funções que devem estar em uma camada específica, mas não especifica exatamente como uma função deve ser realizada. A principal finalidade de um modelo de referência é ajudar a entender melhor as funções e os processos necessários para as comunicações de rede.\nO modelo de referência de internetwork mais conhecido foi criado pelo projeto OSI na ISO Internacional. Ele é usado para projeto de redes de dados, especificações de operação e solução de problemas. Esse modelo costuma ser chamado de modelo OSI.\n\n**Descrição das camadas do modelo OSI::** 7 – Aplicação - A camada de aplicação contém protocolos usados para comunicações entre processos.\n6 – Apresentação - A camada de apresentação fornece uma representação comum dos dados transferidos entre os serviços da camada de aplicação.\n5 – Sessão - A camada de sessão fornece serviços à camada de apresentação para organizar seu diálogo e gerenciar a troca de dados.\n4 – Transporte - A camada de transporte define serviços para segmentar, transferir e remontar os dados para comunicações individuais entre os dispositivos finais.\n3 – Rede - A camada de rede fornece serviços para troca de dados individuais pela rede entre dispositivos finais identificados.\n2 - Enlace de dados - Os protocolos da camada de enlace de dados descrevem métodos para troca de quadros de dados entre dispositivos em uma mídia comum\n1 – Física - Os protocolos da camada física descrevem os meios mecânicos, elétricos, funcionais e procedimentais para ativar, manter e desativar conexões físicas para uma transmissão de bits de e para um dispositivo de rede."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Lembre-se que Kishori e Srivinas tinham que determinar uma linguagem comum ... Você tem algum amigo ou parente cujo primeiro idioma seja diferente do seu? Você conhece alguém que usa linguagem de sinais? Como você se comunicaria com eles se não soubesse a linguagem de sinais? Você percebeu que estava usando um protocolo (usando uma linguagem compartilhada ou se comunicando por escrito) para interagir com familiares e amigos?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Bianka, uma viajante polaca em Hanói, no Vietnã, para e pergunta a Nguyệt como chegar ao templo de Ngoc Son. Eles se comunicam verbalmente e determinam que os dois falam inglês. Depois de receber instruções em inglês para chegar no templo, Bianka as repete para Nguyệt. Nguyệt diz: \"Sim, isso está correto.\" Selecione a ordem dos protocolos de comunicação usados neste cenário?",
+      "options": [
+        "confirmação, método, idioma",
+        "idioma, método, confirmação",
+        "método, confirmação, idioma",
+        "método, idioma, confirmação"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nBianka e Nguyệt primeiro decidiram sobre o método de comunicação (verbal). Então eles determinaram que ambos falam inglês (idioma). Por fim, Bianka repetiu as instruções (confirmação).",
+      "raw_id": "2e8b321f12354a2b84987d11e421dbba"
+    },
+    {
+      "question": "Rory está estudando os campos dentro de um quadro Ethernet para um próximo teste e percebe que o endereço MAC (Media Access Control) de destino é listado primeiro antes do endereço MAC de origem. Qual das seguintes características de protocolo que Rory está investigando?",
+      "options": [
+        "encapsulamento",
+        "temporização",
+        "codificação",
+        "temporização de mensagem",
+        "padrão de mensagem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs protocolos de rede geralmente têm algum tipo de informação de endereçamento para indicar a origem e o destino da mensagem.",
+      "raw_id": "e5ee2fc70b0047b5b44c0dd77cb296c7"
+    },
+    {
+      "question": "À medida que Rory continua estudando Ethernet, ele descobre que um quadro pode normalmente ter de 64 a 1518 bytes de informações que são convertidas em uma série de bits antes de serem enviadas para a rede. Quais são as duas características do protocolo Ethernet que Rory aprendeu?",
+      "options": [
+        "padrão de mensagem",
+        "temporização",
+        "codificação",
+        "encapsulamento",
+        "tamanho da mensagem"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nOs protocolos de rede normalmente especificam o tamanho máximo de uma mensagem. No caso do Ethernet, também há um tamanho mínimo de 64 bytes. Além disso, o Ethernet especifica um método para codificar os bits para que o destino possa decodificar a mensagem.",
+      "raw_id": "b593eb6ad1944846bfa92f92954b8428"
+    },
+    {
+      "question": "As regras que regem as comunicações de rede, incluindo o formato, o tamanho, o tempo e o encapsulamento, são conhecidas como:",
+      "options": [
+        "codificação",
+        "sinalização",
+        "mensagens",
+        "protocolos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nProtocolos são as regras que regem as comunicações de rede, incluindo o formato, o tamanho, a temporização e o encapsulamento da mensagem.",
+      "raw_id": "f76a102274e14a2e807c0cee14f44562"
+    },
+    {
+      "question": "A IETF (Internet Engineering Task Force) registra e publica padrões da Internet em documentos conhecidos como:",
+      "options": [
+        "Request for Comments (RFC)",
+        "Internet Protocol Standards (IPS)",
+        "Internet Specification Standards (ISS)",
+        "IETF Standards Documentos (ISD)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO IETF publica padrões da Internet conhecidos como RFCs.",
+      "raw_id": "3622b184021d4d44963096c10cc263d9"
+    },
+    {
+      "question": "Que protocolo é responsável por garantir a entrega confiável de informações?",
+      "options": [
+        "HTTP",
+        "TCP",
+        "IP",
+        "Ethernet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO Transport Control Protocol (TCP) é responsável por garantir a entrega confiável.",
+      "raw_id": "4f6f2b8d6ec9428eb934d45b34ed583b"
+    },
+    {
+      "question": "Qual protocolo é usado pelos roteadores para encaminhar mensagens?",
+      "options": [
+        "HTTP",
+        "TCP",
+        "IP",
+        "Ethernet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO protocolo Internet (IP) é usado pelos roteadores para encaminhar mensagens.",
+      "raw_id": "29a43713c7ec4a6c9b824b196ed25029"
+    },
+    {
+      "question": "Quais duas camadas do modelo OSI mapeiam diretamente para uma  camada única de acesso à rede no modelo TCP IP? (Escolha duas)",
+      "options": [
+        "aplicação",
+        "apresentação",
+        "sessão",
+        "transporte",
+        "rede",
+        "enlace de dados",
+        "físico"
+      ],
+      "correctIndex": 6,
+      "explanation": "Está certo.\nAs camadas de rede e enlace de dados corrspondem à camada de acesso à rede do modelo TCP/IP.",
+      "raw_id": "d39e676ab5b844978b85379b720c2279"
+    },
+    {
+      "question": "O endereçamento IP ocorre em qual camada do modelo OSI?",
+      "options": [
+        "aplicação",
+        "apresentação",
+        "sessão",
+        "transporte",
+        "rede",
+        "enlace de dados",
+        "físico"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nEndereçamento IP ocorre na camada de rede.",
+      "raw_id": "8309d8100c5047d79f28cc1b78fd365f"
+    },
+    {
+      "question": "Qual é a finalidade da camada física do modelo OSI?",
+      "options": [
+        "controle de acesso ao meio",
+        "transmissão de bits no meio físico local",
+        "detecção de erros nos quadros recebidos",
+        "troca de quadros entre nós no meio físico de rede física"
+      ],
+      "correctIndex": 1,
+      "explanation": "A camada física é responsável por transmitir os sinais reais através do meio físico em forma de bits. Troca de quadros, controle de acesso ao meio e detecção de erros são funções da camada de Enlace de Dados.",
+      "raw_id": "c8b1bddc934245b6872002b9d6cdc334"
+    },
+    {
+      "question": "Qual afirmação sobre protocolos de rede está correta?",
+      "options": [
+        "Os protocolos de rede definem o tipo de hardware usado e como este é montado em racks.",
+        "Eles definem como as mensagens são trocadas entre a origem e o destino.",
+        "Todos eles funcionam na camada de acesso à rede do TCP/IP.",
+        "Eles são necessários apenas para troca de mensagens entre dispositivos em redes remotas."
+      ],
+      "correctIndex": 1,
+      "explanation": "Os protocolos de rede são implementados em hardware, software ou ambos. Eles interagem entre si em diferentes camadas de uma pilha de protocolos. Os protocolos não têm nada a ver com a instalação do equipamentos de rede. Os protocolos de rede são necessários para a troca de informações entre dispositivos de origem e destino em redes locais e remotas",
+      "raw_id": "a39fad51bba94c2ba0042ee6e0abaad0"
+    },
+    {
+      "question": "Quais são os três acrônimos/siglas que representam as organizações padronizadoras? (Escolha três.)",
+      "options": [
+        "IANA",
+        "TCP/IP",
+        "IEEE",
+        "IETF",
+        "OSI",
+        "MAC"
+      ],
+      "correctIndex": 3,
+      "explanation": "O TCP/IP é uma pilha de protocolos que contém muitos outros protocolos, como HTTP, FTP e DNS. A pilha de protocolos TCP/IP é necessária para a comunicação na Internet. Um endereço MAC é um endereço que é gravado em uma placa de rede Ethernet. OSI é o modelo de sete camadas usado para explicar o funcionamento das redes.",
+      "raw_id": "05db9d14d274493db75a684fefb3d30d"
+    },
+    {
+      "question": "Qual termo de rede descreve um conjunto específico de regras em uma camada que rege a comunicação nessa camada?",
+      "options": [
+        "duplex",
+        "encapsulamento",
+        "Verificação de erros",
+        "protocolo"
+      ],
+      "correctIndex": 3,
+      "explanation": "Um protocolo dita como uma mensagem é formatada e define as regras em partes específicas do processo de comunicação.",
+      "raw_id": "73c8417f6c6b4b58b84d4876fa9bdb05"
+    },
+    {
+      "question": "Qual camada do modelo OSI define serviços para segmentar e remontar os dados das comunicações entre os dispositivos finais:",
+      "options": [
+        "aplicação",
+        "apresentação",
+        "sessão",
+        "transporte",
+        "rede"
+      ],
+      "correctIndex": 3,
+      "explanation": "O modelo OSI consiste em sete camadas: aplicação, apresentação, sessão, transporte, rede, enlace de dados e física. A camada de transporte define serviços para segmentar, transferir e remontar os dados para comunicações individuais entre os dispositivos finais.",
+      "raw_id": "7147a6973b184c6da083bb149a9a6fbd"
+    },
+    {
+      "question": "Qual é a finalidade dos protocolos nas comunicações de dados?",
+      "options": [
+        "especificar a largura de banda do canal ou meio físico para cada tipo de comunicação",
+        "especificar os sistemas operacionais dos dispositivos que suportam a comunicação",
+        "fornecer as regras necessárias para possibilitar um tipo específico de comunicação",
+        "exibir o conteúdo da mensagem enviada durante a comunicação"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os protocolos fornecem as regras que definem como uma mensagem é transmitida em uma rede. Os requisitos de implementação, como detalhes eletrônicos e de largura de banda para a comunicação de dados, são especificados por padrões. Os sistemas operacionais não são especificados por protocolos, mas implementam os protocolos. Os protocolos determinam como e quando enviar uma mensagem, mas não controlam o conteúdo da mensagem.",
+      "raw_id": "a1944509de244ef3b7e80788a1d864db"
+    },
+    {
+      "question": "Qual termo se refere ao conjunto de regras que definem como uma rede opera?",
+      "options": [
+        "padrão",
+        "protocolo",
+        "modelo",
+        "domínio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os padrões garantem que dispositivos diferentes conectados à rede consigam se comunicar entre si. Em redes, há muitos padrões que definem como a rede deve operar e que todos os componentes implementem os mesmos protocolos.",
+      "raw_id": "b6778e7c262346d688a36e4d7a65d559"
+    },
+    {
+      "question": "Quais são as três camadas de modelos OSI que comõem a camada da aplicação do modelo TCP/IP? (Escolha três.)",
+      "options": [
+        "enlace de dados",
+        "rede",
+        "transporte",
+        "sessão",
+        "apresentação",
+        "aplicação"
+      ],
+      "correctIndex": 5,
+      "explanation": "As três camadas superiores do modelo OSI, sessão, apresentação e aplicação, são mapeadas para as funções da única camada de aplicação TCP/IP.",
+      "raw_id": "5a7c0873404a41f7bf93906f8fb7eb77"
+    },
+    {
+      "question": "Qual organização publica e gerencia os documentos Request for Comments (RFC)?",
+      "options": [
+        "IEEE",
+        "ISO",
+        "IETF",
+        "TIA/EIA"
+      ],
+      "correctIndex": 2,
+      "explanation": "A organização Internet Engineering Task Force (IETF) publica e gerencia o Request For Comments (RFC).",
+      "raw_id": "cfe6f1e8439440c9ba22e1f846007345"
+    },
+    {
+      "question": "Quais duas camadas do modelo OSI têm a mesma funcionalidade que uma única camada do modelo TCP/IP?(Escolha duas.)",
+      "options": [
+        "enlace de dados",
+        "rede",
+        "físico",
+        "sessão",
+        "transporte"
+      ],
+      "correctIndex": 2,
+      "explanation": "As camadas de enlace de dados e física do modelo OSI juntas equivalem à camada de acesso à rede do TCP/IP. A camada de transporte do modelo OSI é funcionalmente equivalente à camada de transporte do TCP/IP e a camada de rede do modelo OSI é equivalente à camada de Internet do TCP/IP. As camadas de aplicação, apresentação e sessão OSI são funcionalmente equivalentes à camada de aplicação no modelo TCP/IP.",
+      "raw_id": "300fef0b2b9b4aa6a0283482194abebf"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,1592 @@
+[
+  {
+    "_id": "cdb545c3-17c4-4f27-bd0b-f6181e2228f1",
+    "body": "<p>Entendendo Suporte de Redes.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "cdb545c3-17c4-4f27-bd0b-f6181e2228f1",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a22ba149-ab43-4551-8031-6633ac63d046",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_small": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_medium": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_small": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_medium": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "1bc12bf7-08c8-4da2-ba43-b6ea72adccb9",
+    "body": "<p>Demonstrar metodologias eficazes de solução de problemas.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Metodologias de Diagnóstico e Solução de Problemas",
+    "_oldId": "1bc12bf7-08c8-4da2-ba43-b6ea72adccb9",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "be6ccc62-02ca-4856-b1f7-371a00deb708",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg",
+        "_small": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg",
+        "_medium": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.1. Metodologias de Diagnóstico e Solução de Problemas",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg",
+        "_small": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg",
+        "_medium": "pt-BR/assets/191b08bfa22641b390f202ddee8877c3.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "a7838118-458b-4d28-ab17-cd3b02043b8b",
+    "body": "<p>Criar documentação de rede.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Documentação da rede",
+    "_oldId": "a7838118-458b-4d28-ab17-cd3b02043b8b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5392f25c-ab02-4030-b8fb-bc3b6f9151fc",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg",
+        "_small": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg",
+        "_medium": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.2. Documentação da rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg",
+        "_small": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg",
+        "_medium": "pt-BR/assets/5d4660fdf4164ea491d02973248f891e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "fe2354c4-98f3-4092-8a73-45040d7910e1",
+    "body": "<p>Explicar as melhores práticas de help desk.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Central de Ajuda (Help Desk)",
+    "_oldId": "fe2354c4-98f3-4092-8a73-45040d7910e1",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e46a2fb8-c26e-424c-a96d-a984ef04debf",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg",
+        "_small": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg",
+        "_medium": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.3. Central de Ajuda (Help Desk)",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg",
+        "_small": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg",
+        "_medium": "pt-BR/assets/7d79577d2b7a4f1cbf7f86e678e4493e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "ab412d41-94d1-49d4-9d68-7df315a48731",
+    "body": "<p>Explicar como verificar a conectividade de rede nos sistemas operacionais de dispositivos Linux, Mac, Android e Apple.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Solucionar problemas de conectividade de endpoint",
+    "_oldId": "ab412d41-94d1-49d4-9d68-7df315a48731",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "bfb3e3a3-40e8-4d07-a13a-ecc2e7ba11ba",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg",
+        "_small": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg",
+        "_medium": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.4. Solucionar problemas de conectividade de endpoint",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg",
+        "_small": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg",
+        "_medium": "pt-BR/assets/29e42c231d9f414faa5c2065dec77ce1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "0337cec4-2b8c-4f76-a772-39cd763502ac",
+    "body": "<p>Solucionar problemas de uma rede.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Solucionar Problemas de uma rede",
+    "_oldId": "0337cec4-2b8c-4f76-a772-39cd763502ac",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5a33082d-43b9-4489-ae75-588ce57b99fd",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg",
+        "_small": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg",
+        "_medium": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.5. Solucionar Problemas de uma rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg",
+        "_small": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg",
+        "_medium": "pt-BR/assets/38d3d7470e634eec94a81ad232f11a3a.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "3dc2ac66-13e5-44db-b5cc-c9c3e9f84f9e",
+    "body": "<p>Explicar como Solucionar problemas de Conectividade Remotamente.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.6. Solucionar problemas de Conectividade Remotamente",
+    "_oldId": "3dc2ac66-13e5-44db-b5cc-c9c3e9f84f9e",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "be7d6e6e-3c41-44dd-988d-08b305b50efd",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg",
+        "_small": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg",
+        "_medium": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.6. Solucionar problemas de Conectividade Remotamente",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg",
+        "_small": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg",
+        "_medium": "pt-BR/assets/2e9c10944b504ecdbbbf0756e7cee922.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "19b3672d-216a-4fe0-bb07-11bfbcd71928",
+    "body": "<p>Analise e verifique seu conhecimento desses tópicos.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.7. Resumo do suporte de rede",
+    "_oldId": "19b3672d-216a-4fe0-bb07-11bfbcd71928",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": false,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e6fb1f25-89a2-4c5f-9d86-53414dccaed4",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_small": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_medium": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.7. Resumo do suporte de rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_small": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg",
+        "_medium": "pt-BR/assets/c9afa7e01a134c2ea799efdab49439ae.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "177eed03-bafc-44bf-ad4e-dc51c9578de5",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}. 1.2.12 Packet Tracer - Use o CDP para Mapear uma Rede",
+    "_oldId": "177eed03-bafc-44bf-ad4e-dc51c9578de5",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 8,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "dd738a3d-50f5-4a04-9495-99722a4574b9",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}. 1.2.12 Packet Tracer - Use o CDP para Mapear uma Rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "1de61db5-0469-456a-960b-f49af25f732d",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}. 1.2.13 Packet Tracer - Desafio de solução de problemas - Documentar a rede",
+    "_oldId": "1de61db5-0469-456a-960b-f49af25f732d",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 9,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "6c92912e-d9a3-4073-b1e6-7043d190939b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}. 1.2.13 Packet Tracer - Desafio de solução de problemas - Documentar a rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "9c80b22b-1d67-4265-80cb-a5c355f8d24b",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}. 1.5.7. Packet Tracer - Desafio de solução de problemas - Use a documentação para resolver problemas",
+    "_oldId": "9c80b22b-1d67-4265-80cb-a5c355f8d24b",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 10,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "84dbb158-8bc1-42c9-b843-2fd7df0acb14",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}. 1.5.7. Packet Tracer - Desafio de solução de problemas - Use a documentação para resolver problemas",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "728541ee-acf8-4bd1-af31-d0a671f40b81",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5.4 Laboratório - Instalar o Wireshark",
+    "_oldId": "728541ee-acf8-4bd1-af31-d0a671f40b81",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 11,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "32473e92-83fc-47f0-b773-ef8b28f74385",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.5.4 Laboratório - Instalar o Wireshark",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "41aef60d-6c5d-4432-8546-8ff1e8eb4310",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5.5 Laboratório - Use o  Wireshark para Visualizar o Tráfego de Rede",
+    "_oldId": "41aef60d-6c5d-4432-8546-8ff1e8eb4310",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 12,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "742f653f-a56a-4340-b7a7-1e1221b0e57a",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.5.5 Laboratório - Use o  Wireshark para Visualizar o Tráfego de Rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "18deb3b6-c426-473a-97da-47087f9e649e",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2.7 Packet Tracer - Conectar uma Rede baseada em um  Diagrama de Rede",
+    "_oldId": "18deb3b6-c426-473a-97da-47087f9e649e",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 13,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "930fa612-6557-4b33-a9da-83077c06a496",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.2.7 Packet Tracer - Conectar uma Rede baseada em um  Diagrama de Rede",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  },
+  {
+    "_id": "8783700d-58c6-4de8-80cc-6e10f7c2b491",
+    "body": "",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4.9 Laboratório - Verifique Endereços com uma Calculadora de Subredes ",
+    "_oldId": "8783700d-58c6-4de8-80cc-6e10f7c2b491",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": false
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 14,
+    "duration": "",
+    "language": "en-US",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "course",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "1d1abd35-f74f-4047-8bab-b77e2d98fe4e",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_originalId": "",
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "course",
+    "displayTitle": "{{_moduleNumber}}.4.9 Laboratório - Verifique Endereços com uma Calculadora de Subredes ",
+    "_ciscoThemeV3": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isPageTracer": false,
+    "_activityParentId": "765699f1-fecc-4bf7-82a5-3ef6c1647d21",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "activeLanguageCode": "en-US",
+    "_originalTrackingId": 0,
+    "_originalLatestTrackingId": 0
+  }
+]

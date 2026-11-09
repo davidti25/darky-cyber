@@ -1,0 +1,460 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Olá! Tenho outro amigo que quero que conheçam. Diego acabou de ser contratado como membro júnior de um novo departamento de TI de uma pequena empresa de produção em Cusco, Peru. Essa empresa cria peças para equipamentos agrícolas e de moagem. Eles atualizaram e expandiram suas operações recentemente. Eles precisam de uma rede no segundo local que esteja conectada à nova rede na sede. A maioria dos equipamentos é fabricada pela Cisco, então Diego precisa aprender rapidamente as funções de linha de comando do Cisco IOS. Felizmente, há ajuda e Diego estará pronto e funcionando em pouco tempo. E você? Se você quiser saber mais sobre as funções de linha de comando do Cisco IOS, então este módulo é para você!"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Navegação IOS",
+      "content": "{{_moduleNumber}}.1 Navegação IOS"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.1 Interface de linha de comando do Cisco IOS",
+      "content": "A interface da linha de comando (CLI) do Cisco IOS é um programa baseado em texto que permite inserir e executar o comandos do Cisco IOS para configurar, monitorar e administrar dispositivos da Cisco. É possível usar a CLI da Cisco com tarefas de gerenciamento em banda ou fora da banda.\nOs comandos da CLI são usados para modificar a configuração de dispositivo e exibir o status atual dos processos no roteador. Para usuários experientes, a CLI oferece muitos recursos de economia de tempo para criar configurações simples e complexas. Quase todos os dispositivos de rede da Cisco usam uma CLI semelhante. Quando o roteador conclui a sequência de inicialização e o prompt Router> aparece, a CLI pode ser usada para inserir comandos do Cisco IOS."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os técnicos familiarizados com os comandos IOS e a operação de CLI facilmente monitoram e configuram diferentes dispositivos de rede porque os mesmos comandos básicos são usados configurar um switch e um roteador. A CLI tem um sistema amplo de ajuda que auxilia os usuários na configuração e no monitoramento de dispositivos."
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Modos de Comando Primários",
+      "content": "Todos os dispositivos de rede requerem um SO e podem ser configurados usando a CLI ou uma GUI.  O uso da CLI pode fornecer ao administrador de rede controle e flexibilidade mais precisos do que usar a GUI. Este tópico aborda o uso da CLI para navegar pelo Cisco IOS.\nComo recurso de segurança, o software Cisco IOS separa o acesso de gerenciamento nestes dois modos de comando:\nModo EXEC do usuário - Este modo tem recursos limitados, mas é útil para operações básicas. Ele permite apenas um número limitado de comandos de monitoramento básicos, mas não permite a execução de nenhum comando que possa alterar a configuração do dispositivo. O modo EXEC usuário é identificado pelo prompt da CLI que termina com o símbolo >.\nModo EXEC privilegiado - Para executar comandos de configuração, um administrador de rede deve acessar o modo EXEC privilegiado. Modos de configuração mais altos, como o modo de configuração global, só podem ser acessados do modo EXEC privilegiado. O modo EXEC privilegiado pode ser identificado pelo prompt que termina com o símbolo #.\nA tabela resume os dois modos e exibe os prompts da CLI padrão de um switch e roteador Cisco."
+    },
+    {
+      "type": "text",
+      "title": ".1.5 Uma observação sobre as atividades do verificador de sintaxe",
+      "content": "Quando estiver aprendendo a modificar as configurações do dispositivo, convém começar em um ambiente seguro e que não seja de produção antes de experimentá-lo em equipamentos reais. O NetACAD oferece diferentes ferramentas de simulação para ajudar a desenvolver suas habilidades de configuração e solução de problemas. Como estas são ferramentas de simulação, elas geralmente não têm toda a funcionalidade de equipamentos reais. Uma dessas ferramentas é o Verificador de Sintaxe. Em cada Verificador de Sintaxe, você recebe um conjunto de instruções para inserir um conjunto específico de comandos. Você não pode progredir no Verificador de Sintaxe a menos que o comando exato e completo seja inserido conforme especificado. Ferramentas de simulação mais avançadas, como o Packet Tracer, permitem que você insira comandos abreviados, assim como faria em equipamentos reais."
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Verificador de sintaxe - Navegar entre modos IOS",
+      "content": "Use a atividade Verificador de sintaxe para navegar entre as linhas de comando do IOS em um switch."
+    },
+    {
+      "type": "text",
+      "title": ".2 A estrutura de comandos",
+      "content": "{{_moduleNumber}}.2 A estrutura de comandos"
+    },
+    {
+      "type": "text",
+      "title": ".2 A estrutura de comandos",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Estrutura de Comandos Básicos do IOS",
+      "content": "Um administrador de rede deve conhecer a estrutura básica de comandos do IOS para poder usar a CLI para a configuração do dispositivo.\nUm dispositivo Cisco IOS é compatível com muitos comandos. Cada comando do IOS possui um formato ou sintaxe específica e pode ser executado apenas no modo apropriado. A sintaxe geral de um comando, mostrada na figura, é o comando seguido por quaisquer palavras-chave e argumentos apropriados."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Palavra-chave - Este é um parâmetro específico definido no sistema operacional (na figura, protocolos ip).\nArgumento - Não é predefinido; é um valor ou variável definida pelo usuário (na figura, 192.168.10.5).\nDepois de inserir cada comando completo, incluindo palavras-chave e argumentos, pressione a tecla Enter para enviar o comando ao interpretador de comandos."
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Sintaxe de Comandos do IOS",
+      "content": "Um comando pode exigir um ou mais argumentos. Para determinar as palavras-chave e os argumentos necessários para um comando, consulte a sintaxe de comando. A sintaxe fornece o padrão, ou formato, que deve ser usado ao inserir um comando.\nConforme identificado na tabela, o texto em negrito indica comandos e palavras-chave inseridas conforme mostrado. O texto em itálico indica um argumento para o qual o usuário fornece o valor."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Por exemplo, a sintaxe para usar o comando description é description  string. O argumento é um valor string fornecido pelo usuário. O comando description é normalmente usado para identificar a finalidade de uma interface. Por exemplo, digitando o comando, description Connects no switch principal do escritório da matriz, descreve onde o outro dispositivo está no final da conexão.\nOs exemplos a seguir demonstram as convenções usadas para documentar e utilizar comandos do IOS:\nping  ip-address - O comando é ping, e o argumento definido pelo usuário ip-address é o endereço IP do dispositivo de destino. Por exemplo, ping 10.10.10.5.\ntraceroute  ip-address - O comando é traceroute, e o argumento definido pelo usuário ip-address é o endereço IP do dispositivo de destino. Por exemplo, traceroute 192.168.254.254.\nSe um comando é complexo com vários argumentos, você pode vê-lo representado assim:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O comando normlamente vem seguido de uma descrição detalhada do comando e cada argumento no Referênica de Comando no Cisco IOS.\nA Referência de Comandos do Cisco IOS é a fonte definitiva de informações para um determinado comando do IOS."
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Teclas de Atalho e Atalhos",
+      "content": "A CLI do IOS fornece teclas de atalho e atalhos que facilitam a configuração, o monitoramento e a solução de problemas.\nOs comandos e as palavras-chave podem ser abreviados para o número mínimo de caracteres que identifica uma seleção exclusiva. Por exemplo, o comando configure pode ser abreviado para  conf porque configure é o único comando que se inicia com conf. Uma versão ainda mais curta , con  não dará certo porque mais de um comando se inicia com con. Palavras-chave também podem ser abreviadas.\nA tabela lista os pressionamentos de teclas para aprimorar a edição da linha de comando."
+    },
+    {
+      "type": "text",
+      "title": ".3 Exibir informações do dispositivo",
+      "content": "{{_moduleNumber}}.3 Exibir Informações do dispositivo"
+    },
+    {
+      "type": "text",
+      "title": ".3 Exibir informações do dispositivo",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": "Accordion Widget",
+      "content": "**show running-config:** show running-config\nVerifique as definições e configurações correntes.\n\n**show interfaces:** show interfaces\nVerifica o status da interface e mostra quaisquer mensagens de erro.\n\n**show ip interface:** show ip interface\nVerifica informação de camada 3 de uma interface.\n\n**show arp:** show arp\nVerifica a lista de hosts conhecidos nas LANs Ethernet locais.\n\n**show ip route:** show ip route\nVerifica as informações de roteamento da Camada 3.\n\n**show protocols:** show protocols\nVerifica quais protocolos estão operacionais.\n\n**show version:** show version\nVerifica a memória, as interfaces e as licenças do dispositivo."
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo Linha de Comando do Cisco IOS",
+      "content": "{{_moduleNumber}}.4 Resumo Linha de Comando do Cisco IOS"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que aprendi neste módulo?",
+      "content": "**Navegar no IOS:** O Cisco IOS CLI é um programa baseado em texto que permite inserir e executar comandos do Cisco IOS para configurar, monitorar e manter dispositivos Cisco. É possível usar a CLI da Cisco com tarefas de gerenciamento em banda ou fora da banda.\nOs comandos da CLI são usados para modificar a configuração de dispositivo e exibir o status atual dos processos no roteador. Quando o roteador conclui a sequência de inicialização e o prompt Router> aparece, a CLI pode ser usada para inserir comandos do Cisco IOS.\nComo recurso de segurança, o software Cisco IOS separa o acesso de gerenciamento nestes dois modos de comando:\nModo EXEC do usuário - Este modo é útil para operações básicas. Ele permite um número limitado de comandos básicos de monitoramento, mas não permite a execução de nenhum comando que possa alterar a configuração do dispositivo. O modo EXEC usuário é identificado pelo prompt da CLI que termina com o símbolo >.\nModo EXEC privilegiado - Para executar comandos de configuração, um administrador de rede deve acessar o modo EXEC privilegiado. O modo EXEC privilegiado pode ser identificado pelo prompt que termina com o símbolo #. Modos de configuração mais altos, como o modo de configuração global, só podem ser acessados do modo EXEC privilegiado. O modo de configuração global é identificado pelo prompt da CLI que termina com (config)#.\nOs comandos usados para navegar entre os diferentes modos de comando do IOS são:\nhabilitar\ndesabilitar\nconfigurar terminal\nsair\nfinalizar\nCtrl+Z\nline console 0\nline vty 0 15\ninterface vlan 1\n\n**A estrutura de comandos:** Cada comando do IOS possui um formato ou sintaxe específica e pode ser executado apenas no modo apropriado. A sintaxe geral para um comando é o comando seguido por quaisquer palavras-chave e argumentos adequados. A palavra-chave é um parâmetro específico definido no sistema operacional. O argumento não é predefinido; é um valor ou variável definida pelo usuário.\nA sintaxe fornece o padrão, ou formato, que deve ser usado ao inserir um comando. O texto em negrito indica comandos e palavras-chave que são inseridos conforme mostrado.\nO texto em itálico indica um argumento para o qual o usuário fornece o valor.\n[x] colchetes indicam um elemento opcional (palavra-chave ou argumento).\n{x} chaves  indicam um elemento obrigatório (palavra-chave ou argumento)."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Você já assistiu a um filme ou programa de televisão em que uma pessoa inteligente estava digitando em um computador para burlar uma medida de segurança e obter acesso não autorizado a arquivos? Eles não estavam digitando um romance; eles estavam usando a interface de linha de comando. Embora você possa empregar uma interface de usuário para configurar a maioria dos dispositivos de rede, familiarizar-se e usar comandos é muito mais rápido. Se você precisar solucionar problemas de sua rede, precisará usar comandos. Sim, é um pouco como aprender um novo idioma, mas você sabe imediatamente se o fez corretamente ou não. Depois de começar a usar os comandos, você poderá nunca mais voltar à interface do usuário. O que você gostaria de fazer com os comandos?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Estabelecer conexões básicas, acesso à CLI e explorar a ajuda\nParte 2: Explorar os modos EXEC\nParte 3: Ajustar o relógio\nHistórico/Cenário\nNesta atividade, você colocará em prática as habilidades necessárias para navegar no Cisco IOS, como diferentes modos de acesso do usuário, vários modos de configuração e comandos comuns usados com frequência. Também vai configurar o comando clock para praticar o acesso à ajuda contextual.\nInstruções\nParte 1: estabelecer conexões básicas, acesso à CLI e explorar a ajuda\nEtapa 1: Conectar o PC1 ao S1 usando um cabo de console.\na.  Clique no ícone Connections (Conexões) (que parece com um raio) no canto inferior esquerdo da janela doPacket Tracer.\nb.  Clique no cabo de Console azul-claro para selecioná-lo. O ponteiro do mouse se transformará no que parece ser um conector com um cabo pendente.\nc.  Clique em PC1. Uma janela exibe uma opção para uma conexão RS-232. Conecte o cabo à porta RS-232.\nd.  Arraste a outra extremidade da conexão do console para o switch S1 e clique no nele para acessar a lista de conexões.\ne.  Selecione a porta do console para concluir a conexão.\nEtapa 2: Estabelecer uma sessão de terminal com S1.\na.  Clique em PC1 e selecione a guia Área de trabalho.\nb.  Clique no ícone do aplicativo Terminal. Verifique se as configurações padrão da porta estão corretas.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Clique em OK.\nd.  A tela exibida pode ter várias mensagens. Em algum lugar na tela deve haver a mensagem Press RETURN to get started!. Pressione ENTER.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 3: Explorar a Ajuda do IOS.\na.  O IOS pode fornecer assistência para comandos dependendo do nível acessado. O prompt exibido no momento é chamado User EXEC e o dispositivo está esperando por um comando. A forma mais básica de ajuda é digitar um ponto de interrogação (?) no prompt para exibir uma lista de comandos.\nS1> ?\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.   No prompt, digite t , seguido de um ponto de interrogação (?).\nS1> t?\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "No prompt, digite te , seguido de um ponto de interrogação (?).\nS1> te?\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Esse tipo de ajuda é conhecido como ajuda sensível ao contexto. Ele apresenta mais informações conforme os comandos são expandidos.\nParte 2: Explorar modos EXEC\nNesta parte da atividade, você alternará para o modo EXEC privilegiado e digitará comandos adicionais.\nEtapa 1: Entrar no modo EXEC privilegiado.\na.  No prompt, digite o ponto de interrogação (?).\nS1> ?\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.   Digite en e pressione a tecla Tab.\nS1> en<Tab>\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Isso é chamado auto-completar comando (ou tab completion). Quando parte de um comando é digitada, a tecla Tab pode ser usada para concluir o comando parcial. Se os caracteres digitados forem suficientes para que o comando seja exclusivo, como no caso do comando enable, a parte restante do comando é exibida.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Digite o comando enable e pressione ENTER.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Quando solicitado, digite o ponto de interrogação (?).\nS1# ?\nUm comando começa com a letra “C” no modo EXEC usuário.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Entre no modo de configuração global\na.  No modo Exec privilegiado, um dos comando que começa com a letra \"C\" é configure. Digite o nome completo do comando ou parte dele que seja suficiente para que seja único. Pressione a tecla <Tab> para escolher o comando e aperte ENTER.\nS1# configure\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Pressione Enter para aceitar o parâmetro padrão entre colchetes [terminal].\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Isso é chamado de modo de configuração global. Este modo será mais explorado nas próximas atividades e em laboratórios. Por enquanto, volte para o modo EXEC privilegiado digitando end, exit ou Ctrl-Z.\nS1(config)# exit\nS1#\nParte 3: Ajustar o Relógio\nEtapa 1: Usar o comando clock.\na.  Use o comando clock para explorar ainda mais a Ajuda e a sintaxe do comando. Digite show clock no prompt EXEC privilegiado.\nS1# show clock\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Use a ajuda sensível ao contexto e o comando clock para definir a hora no comutador para a hora atual. Digite o comando clock e pressione ENTER.\nS1# clock<ENTER>\nPergunta"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  A mensagem “% Incomplete command” é exibida pelo IOS. Isso indica que o comando clock precisa de mais parâmetros. Sempre que houver a necessidade de mais informações, você poderá obter ajuda ao digitar um espaço depois do comando e antes do ponto de interrogação (?).\nS1# clock ?\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Acerte o relógio usando o comando clock set. Prossiga com o comando, executando uma etapa de cada vez.\nS1# clock set ?\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Com base nas informações solicitadas pelo comando clock set ?, insira a hora 3:00 p.m. usando o formato de 24 horas (15:00:00). Verifique se há necessidade de mais parâmetros.\nS1# clock set 15:00:00 ?\nA saída retorna a solicitação para mais informações:\n<1-31>  Day of the month\nMONTH   Month of the year\nf.   Tente ajustar a data para 31/01/2035, com o formato solicitado Pode ser necessário solicitar ajuda adicional por meio da ajuda sensível ao contexto para concluir o processo. Quando terminar, envie o comando show clock para exibir a configuração do relógio. A saída resultante do comando deverá ser exibida como:\nS1# show clock\n*15:0:4.869 UTC Wed Jan 31 2035\ng.  Caso você não tenha sido bem-sucedido, tente o seguinte comando para gerar a saída acima:\nS1# clock set 15:00:00 31 Jan 2035\nEtapa 2: Explorar mensagens adicionais do comando.\na.  O IOS fornece várias saídas para comandos incorretos ou incompletos. Continue usando o comando clock para explorar as mensagens adicionais, que podem ser encontradas à medida que você aprende a usar o IOS.\nb.  Emita os seguintes comandos e registre as mensagens:\nS1# cl<enter>\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "S1# clock\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "S1# clock set 25:00:00\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "S1# clock set 15:00:00 32\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\n=  Usando comandos show do Cisco IOS\nHistórico/Cenário\nOs comandos show do Cisco IOS são usados amplamente quando se trabalha com equipamentos da Cisco. Nesta atividade, você usará os comandos show em um roteador localizado em um ISP.\nInstruções\nParte 1: Conectar ao roteador Cisco 4321 ISP.\nNesta parte, você usará o software de emulação de terminal no ISP PC para se conectar ao roteador Cisco 4321.\na.  Clique em PC ISP.\nb.  Clique na guia Desktop. Selecione Terminal. Revise a configuração do terminal e clique em OK para continuar.\nc.  O prompt ISPRouter > indica que você está no modo EXEC do usuário. Pressione a tecla Enter se o prompt não tiver sido exibido.\nParte 2: Explore os comandos show.\nUse as informações disponibilizadas por esses comandos show para responder às perguntas a seguir.\nEtapa 1: Explore os comandos show no modo User EXEC.\na.  Digite show ? no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Digite show arp no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Digite show flash no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Digite show ip route no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Digite show interfaces no prompt.\nPergunta:\nQual interface está up e funcionando?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Insira show ip interface no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  Digite show version no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "h.  Insira show protocols no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "i.   Digite show running-config no prompt.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Explore os comandos show no modo EXEC privilegiado.\na.  Digite enable no prompt para entrar no modo EXEC privilegiado.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "As respostas variam. Alguns exemplos dos comandos show são: show aaa, show access-list, show file\nb.  Digite show running-config no prompt.\nPergunta:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual modo IOS permite acesso a todos os comandos e recursos?",
+      "options": [
+        "modo de configuração global",
+        "Modo de subconfiguração da interface",
+        "Modo de subconfiguração de console de linha",
+        "⁪modo EXEC privilegiado",
+        "modo EXEC usuário"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO modo EXEC privilegiado permite o acesso a todos os comandos. Comandos de nível superior, como o modo de configuração global e os modos de subconfiguração, só podem ser alcançados apartir do modo EXEC privilegiado.",
+      "raw_id": "0b80b513c561419b916ef74f4518a02f"
+    },
+    {
+      "question": "Em qual modo IOS você está se o prompt Switch(config)# for exibido?",
+      "options": [
+        "modo de configuração global",
+        "Modo de subconfiguração da interface",
+        "Modo de subconfiguração de console de linha",
+        "⁪modo EXEC privilegiado",
+        "modo EXEC usuário"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO modo de configuração global é identificado pelo prompt  (config)#.",
+      "raw_id": "110535ba28f8477fa840dce31a7892a0"
+    },
+    {
+      "question": "Em que modo IOS você está se o prompt Switch> for exibido?",
+      "options": [
+        "modo de configuração global",
+        "Modo de subconfiguração da interface",
+        "Modo de subconfiguração de console de linha",
+        "⁪modo EXEC privilegiado",
+        "modo EXEC usuário"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nO  prompt >após o nome do dispositivo identifica o modo EXEC do usuário.",
+      "raw_id": "b048b4c2187f4c04a4698fe8617ab7ac"
+    },
+    {
+      "question": "Quais dois comandos o retornariam ao prompt EXEC privilegiado, independentemente do modo de configuração em que você está? (Escolha duas.)",
+      "options": [
+        "Ctrl-Z",
+        "disable",
+        "enable",
+        "end",
+        "exit"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nPara retornar de qualquer prompt, até o modo EXEC privilegiado, digite o comando end   ou pressione as  teclas CTRL+Z simultaneamente no teclado.",
+      "raw_id": "dcc099ea8ccd4c0fb122e276ac8d7941"
+    },
+    {
+      "question": "Qual comando um administrador pode executar para determinar qual interface um roteador usará para alcançar redes remotas?",
+      "options": [
+        "show arp",
+        "show interfaces",
+        "show ip route",
+        "show protocols"
+      ],
+      "correctIndex": 2,
+      "explanation": "O comando show ip route é usado para exibir a tabela de roteamento IP do roteador.  A tabela de roteamento IP mostrará uma lista de redes locais e remotas conhecidas e as interfaces que o roteador usará para alcançar essas redes.",
+      "raw_id": "c7b31f9e85634547858c9b779fd5d5ee"
+    },
+    {
+      "question": "Qual comando fornecerá informações sobre o status de todas as interfaces, incluindo o número de gigantes, runts e colisões na interface?",
+      "options": [
+        "show interfaces",
+        "show ip interface brief",
+        "show history",
+        "show running-config"
+      ],
+      "correctIndex": 0,
+      "explanation": "O comando show interfaces é o mais abrangente no fornecimento de informações sobre interfaces. O comando show ip interface brief não fornece informações sobre gigantes, runts ou colisões. O comando show history fornece um histórico dos comandos usados. O comando show running-config mostrará informações de configuração, mas não informações de status.",
+      "raw_id": "d9336c532b854d80ad5717f47330ea0e"
+    },
+    {
+      "question": "Que teclas funcionam com uma combinação de teclas de acesso que é usada para interromper processos do IOS?",
+      "options": [
+        "Ctrl-Shift-X",
+        "Ctrl-Shift-6",
+        "Ctrl-Z",
+        "Ctrl-C"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Cisco IOS fornece teclas de acesso e atalhos para a configuração de roteadores e switches. A combinação de teclas de atalho Ctrl-Shift-6 é usada para interromper um processo IOS, como um ping ou traceroute. Ctrl-Z é usado para sair do modo de configuração. Ctrl-C aborta o comando atual. Ctrl-Shift-X não tem função no IOS.",
+      "raw_id": "98853fd1ce284fbc94571a00938a6c94"
+    },
+    {
+      "question": "Que é a função obtida com o pressionamento da tecla Tab durante a inserção de um comando no IOS?",
+      "options": [
+        "Anula o comando atual e retorna ao modo de configuração.",
+        "Sai do modo de configuração e retorna ao modo EXEC usuário.",
+        "Move o cursor para o início da próxima linha.",
+        "Completa o resto da palavra parcialmente digitada em um comando."
+      ],
+      "correctIndex": 3,
+      "explanation": "O pressionamento da tecla Tab após um comando ter sido parcialmente digitado faz com que o IOS complete o resto do comando.",
+      "raw_id": "cd50bcee64f24247ae48cbcdee5cb3e9"
+    },
+    {
+      "question": "Que comando ou combinação de teclas permite que o usuário retorne ao nível anterior na hierarquia de comandos?",
+      "options": [
+        "end",
+        "exit",
+        "Ctrl-Z",
+        "Ctrl-C"
+      ],
+      "correctIndex": 1,
+      "explanation": "End e CTRL-Z retornam o usuário ao modo EXEC privilegiado. Ctrl-C encerra um comando em execução. O comando exit retorna o usuário ao nível anterior.",
+      "raw_id": "5278dba9084949e488901031a992e3e6"
+    },
+    {
+      "question": "Quais são as duas afirmações verdadeiras sobre o modo EXEC usuário? (Escolha duas.)",
+      "options": [
+        "Todos os comandos do roteador estão disponíveis.",
+        "O modo de configuração global pode ser acessado com a execução do comando enable",
+        "O prompt do dispositivo para este modo termina com o símbolo '>'.",
+        "Interfaces e protocolos de roteamento podem ser configurados.",
+        "Só alguns aspectos da configuração do roteador podem ser visualizados."
+      ],
+      "correctIndex": 4,
+      "explanation": "O modo EXEC do usuário limita o acesso a alguns comandos show e debug. É o primeiro nível da interface de usuário durante a configuração de um roteador e destina-se à investigação de certas funções do dispositivo. O prompt do modo EXEC usuário é identificado com um símbolo \">\".",
+      "raw_id": "7d37a45453a74120bce2febc943cb7d3"
+    },
+    {
+      "question": "Um administrador de rede está trabalhando em um roteador Cisco. O prompt CLI é o Router1(config-if)#. Qual operação provavelmente será configurada pelo administrador a seguir?",
+      "options": [
+        "as linhas vty",
+        "uma interface LAN",
+        "a da porta de console",
+        "a senha exigida para acessar o modo EXEC privilegiado"
+      ],
+      "correctIndex": 1,
+      "explanation": "O Cisco IOS usa diferentes prompts para identificar os modos de configuração específicos. O prompt Router1(config-if)# é um modo de subconfiguração do Router(config)#. Este modo indica que os comandos de configuração a seguir são aplicados a uma interface LAN ou WAN.",
+      "raw_id": "f99241569c3543c6adf409667052310f"
+    },
+    {
+      "question": "No comando  show running-config, qual parte da sintaxe é representada pelo running-config?",
+      "options": [
+        "o comando",
+        "uma palavra-chave",
+        "uma variável",
+        "um prompt"
+      ],
+      "correctIndex": 1,
+      "explanation": "A primeira parte da sintaxe, show, é o comando, e a segunda parte da sintaxe, running-config, é a palavra-chave. A palavra-chave especifica o que deve ser exibido como a saída do comando show.",
+      "raw_id": "0d3e89f2ad784a6c8c092acb0d8b5a86"
+    },
+    {
+      "question": "Um administrador de rede emite o comando Switch (config) # Interface FastEthernet 0/1 em um switch Cisco. Qual termo é usado para descrever a parte \"0/1\" no comando?",
+      "options": [
+        "tecla de atalho",
+        "palavra-chave",
+        "argumento",
+        "comando"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nessa estrutura de comando, a parte Interface é o comando, a parte FastEthernet é uma palavra-chave e a parte 0/1 é um argumento.",
+      "raw_id": "39869859af8241a19845b2587677d2b9"
+    }
+  ],
+  "images": []
+}

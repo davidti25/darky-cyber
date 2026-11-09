@@ -1,0 +1,251 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori sabe que os dispositivos de 15 a 20 no quarto de um paciente se conectam sem fio à rede. Ela também usa um tablet sem fio. Enquanto trabalhava no posto de enfermeiros, ela percebeu que a rede sem fio em seu computador desktop estava desativada. No entanto, ela ainda tem acesso aos prontuários dos pacientes. Como a área de trabalho é conectada?\nComo a comunicação transmite através de uma rede? A resposta é mídia de rede. A mídia fornece o canal sobre o qual a mensagem viaja da origem ao destino. Nas redes modernas, há basicamente três tipos de mídia usados. Você sabe o que são? Aproveite este módulo para saber mais sobre os tipos de mídia."
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de Mídia de Rede",
+      "content": "{{_moduleNumber}}.1 Tipos de Mídia de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de mídia de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Três tipos de Mídia",
+      "content": "Os dados são transmitidos através de uma rede na mídia. A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.\nAs redes modernas usam principalmente três tipos de mídia para interconectar dispositivos, como mostrado na figura:\nFios de metal dentro de cabos- Os dados são codificados em impulsos elétricos.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os quatro critérios principais para a escolha da mídia de rede são estes:\nQual é a distância máxima pela qual o meio físico consegue carregar um sinal com êxito?\nQual é o ambiente em que a mídia será instalada?\nQual é a quantidade de dados e a que velocidade deve ser transmitida?\nQual é o custo do meio físico e da instalação?"
+    },
+    {
+      "type": "accordion",
+      "title": ".1.3 Cabos de Rede Comuns",
+      "content": "**Cabo de Par-trançado:** Cabo de Par-trançado\nA tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Como a Ethernet é a base da maioria das redes locais, o par trançado é o tipo de cabeamento de rede mais comumente encontrado.\nNo par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência. Os pares de fios são coloridos para que você possa identificar o mesmo fio em cada extremidade. Normalmente, em cada par, um dos fios é de cor sólida e seu parceiro é da mesma cor listrada em um fundo branco.\n\n**Cabo Coaxial:** Cabo Coaxial\nO cabo coaxial foi um dos primeiros tipos de cabo de rede desenvolvido. O cabo coaxial é um tipo de cabo de cobre usado por empresas de TV a cabo. Também serve para conectar os diversos componentes que constituem os sistemas de comunicação via satélite. O cabo coaxial tem um único núcleo de cobre rígido que conduz o sinal. Esse núcleo é normalmente cercado por uma camada de isolamento, blindagem de metal trançado e uma capa protetora. É usado como uma linha de transmissão de alta frequência para transportar sinais de alta frequência ou banda larga.\n\n**Cabo de Fibra-óptica:** Cabo de Fibra-óptica\nO cabo de fibra óptica pode ser de vidro ou plástico com diâmetro aproximadamente igual ao de um cabelo humano e pode transportar informações digitais em velocidades muito altas por longas distâncias. Como a luz é usada em vez de eletricidade, a interferência elétrica não afeta o sinal. Os cabos de fibra óptica têm muitas utilidades e muitas possibilidades de comunicação. Eles também são usados em imagens médicas, tratamento médico e inspeção de engenharia mecânica.\nEles têm uma largura de banda muito alta, o que permite que transmitam grandes quantidades de dados. A fibra é usada em redes de backbone, grandes ambientes corporativos e grandes data centers. Ela também é muito usada por companhias telefônicas."
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo - Mídia de rede",
+      "content": "{{_moduleNumber}}.2 Resumo - Mídia de rede"
+    },
+    {
+      "type": "text",
+      "title": "Resumo - Mídia de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 O que eu aprendi neste módulo?",
+      "content": "Tipos de Mídia de Rede\nA comunicação é transmitida através de uma rede na mídia. A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.\nAs redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios de metal dentro de cabos- Os dados são codificados em impulsos elétricos.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.\nOs quatro critérios principais para a escolha da mídia de rede são estes:\nQual é a distância máxima pela qual o meio físico consegue carregar um sinal com êxito?\nQual é o ambiente em que a mídia será instalada?\nQual é a quantidade de dados e a que velocidade deve ser transmitida?\nQual é o  custo da instalação da mídia?\nOs três cabos de rede mais comuns são par trançado, cabo coaxial e cabo de fibra óptica. A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. O cabo coaxial é um tipo de cabo de cobre usado por empresas de TV a cabo. Também serve para conectar os diversos componentes que constituem os sistemas de comunicação via satélite. O cabo de fibra óptica pode ser de vidro ou plástico com diâmetro aproximadamente igual ao de um cabelo humano e pode transportar informações digitais em velocidades muito altas por longas distâncias. Como a luz é usada em vez de eletricidade, a interferência elétrica não afeta o sinal."
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Webster - Questões para Reflexão",
+      "content": "Eu não fazia ideia de que uma rede precisava ter cabos diferentes para usos diferentes, e você? Eu pensei que todos os cabos eram iguais e que todos eles carregavam o mesmo tipo de sinal. E a interferência elétrica? Agora entendo por que minha conexão com o smartphone às vezes cai se eu ficar muito perto do microondas! Você conhece todos os cabos usados na rede da sua escola ou escritório?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual das seguintes opções NÃO é um critério para escolher uma mídia de rede?",
+      "options": [
+        "O tipo de dados que pode ser transmitido",
+        "A distância máxima que a mídia pode transportar com sucesso um sinal",
+        "O custo da instalação da mídia",
+        "O ambiente no qual a mídia foi instalada"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs critérios para escolher uma mídia de rede incluem a distância máxima de transmissão, o ambiente, a quantidade e a velocidade dos dados a serem transmitidos e o custo da mídia e da instalação.",
+      "raw_id": "bd0606ede81a489ca78a3b0b782e62e8"
+    },
+    {
+      "question": "Qual é o tipo mais comum de mídia com fio usada pelas empresas de TV para conectar e transmitir sinais para um decodificador em uma residência?",
+      "options": [
+        "cabo de par trançado",
+        "cabo coaxial",
+        "cabo de fibra ótica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nO cabo coaxial é o tipo mais comum de mídia usado pelas empresas de TV a cabo.",
+      "raw_id": "7b0ef6183a41412cb90ec2917b9eca1d"
+    },
+    {
+      "question": "Que tipo de mídia com fio é usada para transportar informações digitais em velocidades muito altas por longas distâncias?",
+      "options": [
+        "cabo de par trançado",
+        "cabo coaxial",
+        "cabo de fibra ótica"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO cabo de fibra óptica é usado para transportar informações digitais em velocidades muito altas em longas distâncias.",
+      "raw_id": "e4b0c0184b48463d8945fba1ef6fccfc"
+    },
+    {
+      "question": "Qual é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet?",
+      "options": [
+        "cabo de par trançado",
+        "cabo coaxial",
+        "cabo de fibra ótica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO cabo de par trançado é o tipo mais comum de mídia com fio para conectar dispositivos finais a uma LAN Ethernet.",
+      "raw_id": "021da227084d4e68a61d7575264e6b0e"
+    },
+    {
+      "question": "Um técnico de rede está estendendo a rede do edifício principal por várias centenas de metros até uma nova estação de segurança. A estação de segurança precisa de uma conexão de alta velocidade para oferecer suporte à vigilância por vídeo do edifício principal. Que tipo de cabo é mais adequado para conectar a estação de segurança ao restante da rede do escritório principal?",
+      "options": [
+        "coaxial",
+        "Fibra Óptica",
+        "par trançado blindado (STP)",
+        "par trançado não blindado"
+      ],
+      "correctIndex": 1,
+      "explanation": "O cabo de fibra óptica pode transmitir sinais a distâncias de vários quilômetros. Como usa luz, a fibra é imune a RFI e EMI e é superior a sinais enviados por fiação de cobre ou alumínio.",
+      "raw_id": "13ab72bbef0045e8b7becce131132919"
+    },
+    {
+      "question": "Quais são as duas mídias comuns usadas nas redes? (Escolha duas.)",
+      "options": [
+        "cobre",
+        "água",
+        "nylon",
+        "fibra",
+        "madeira"
+      ],
+      "correctIndex": 3,
+      "explanation": "As mídias comuns usadas em redes incluem cobre, fibra ótica de plástico ou vidro e sem fio.",
+      "raw_id": "3e698d396b7042f3ac42afffef9a0ec4"
+    },
+    {
+      "question": "Que tipo de cabo de rede normalmente é usado para conectar computadores de escritório à rede local?",
+      "options": [
+        "cabo coaxial",
+        "cabo de par trançado",
+        "cabo de fibra ótica de vidro",
+        "cabo de fibra ótica de plástico"
+      ],
+      "correctIndex": 1,
+      "explanation": "O par trançado é um tipo de cabo de cobre usado para interconectar dispositivos em uma rede local.",
+      "raw_id": "2cbfa17496f543bf90c909100759ff1e"
+    },
+    {
+      "question": "Quais são os três fatores que devem ser considerados ao escolher mídias de rede adequadas? (Escolha três.)",
+      "options": [
+        "a velocidade da CPU e a quantidade de memória nos servidores",
+        "o ambiente no qual a mídia foi instalada",
+        "o requisito de segurança de dados e de tolerância a falhas",
+        "o volume de dados e a taxa de transferência de dados desejada",
+        "a distância entre os hosts que a mídia conectará",
+        "os sistemas operacionais usados em dispositivos de rede na rede"
+      ],
+      "correctIndex": 4,
+      "explanation": "Vários critérios devem ser considerados ao selecionar a mídia de rede:\nO custo da mídia e instalação\nO ambiente no qual a mídia foi instalada\nO volume de dados e a taxa de transferência de dados desejada\nA distância entre os hosts que a mídia conectará",
+      "raw_id": "da757bc2008d421e8ddba2ed0d6f1745"
+    },
+    {
+      "question": "Consulte o gráfico. Que tipo de cabeamento é mostrado?",
+      "options": [
+        "STP",
+        "UTP",
+        "coaxial",
+        "fibra"
+      ],
+      "correctIndex": 3,
+      "explanation": "O cabeamento de rede inclui diferentes tipos de cabos:\nO cabo UTP consiste em quatro pares de fios codificados por cores que foram torcidos juntos e depois envoltos em uma bainha de plástico flexível.\nO cabo STP usa quatro pares de fios, cada um enrolado em uma blindagem de alumínio, que é então enrolada em uma trança ou folha metálica geral.\nO cabo coaxial usa um condutor de cobre e uma camada de isolamento plástico flexível envolve o condutor de cobre.\nO cabo de fibra é um fio de vidro flexível, extremamente fino e transparente cercado por isolamento plástico.",
+      "raw_id": "e0e0cd4ea37841618acfe69e25555143"
+    },
+    {
+      "question": "O que torna a fibra preferível ao cabeamento de cobre para interconexão de edifícios? (Escolha três.)",
+      "options": [
+        "distâncias maiores por cabo",
+        "menor custo de instalação",
+        "susceptibilidade limitada ao IME/RFI",
+        "conexões duráveis",
+        "maior potencial de largura de banda",
+        "terminada facilmente"
+      ],
+      "correctIndex": 4,
+      "explanation": "O cabo de fibra óptica transmite dados por longas distâncias e a larguras de banda mais altas do que qualquer outra mídia de rede. Diferentemente dos fios de cobre, o cabo de fibra óptica pode transmitir sinais com menos atenuação e é completamente imune à interferência de EMI e RFI.",
+      "raw_id": "e2c4eba80bdc4fba826d50c8ed137dc8"
+    },
+    {
+      "question": "Que tipo de mídia de rede transporta dados codificados em impulsos elétricos?",
+      "options": [
+        "Cabo de cobre",
+        "Mídia Sem Fio",
+        "cabo de fibra ótica",
+        "meios de comunicação celular"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+      "raw_id": "a0e35b2b9bcf40eabde8ca9d79e68569"
+    },
+    {
+      "question": "Quais dois tipos de mídia de rede transportam dados codificados em impulsos elétricos? (Escolha duas.)",
+      "options": [
+        "cabo coaxial",
+        "Mídia Sem Fio",
+        "cabo de par trançado",
+        "cabo de fibra ótica de vidro",
+        "cabo de fibra ótica de plástico"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet de par trançado e o cabo coaxial são dois tipos de cabos de cobre.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+      "raw_id": "2d261c63d6eb4b5290afb95dc9bb64c9"
+    },
+    {
+      "question": "Que tipo de mídia de rede transporta dados codificados em impulsos de luz?",
+      "options": [
+        "cabo coaxial",
+        "Mídia Sem Fio",
+        "cabo de fibra ótica",
+        "cabo de par trançado"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os dados são transmitidos através de uma rede na mídia. As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos:\nFios metálicos dentro dos cabos (cabo de cobre) - Os dados são codificados em impulsos elétricos. O cabo Ethernet trançado e o cabo coaxial são dois tipos de cabo de cobre.\nFibras de vidro ou plástico nos cabos (cabo de fibra óptica)- Os dados são codificados em pulsos de luz.\nTransmissão sem fio- Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.",
+      "raw_id": "55b4d046e0054c6880477c73c0a2a6d9"
+    },
+    {
+      "question": "Um administrador de rede em um pequeno escritório está atualizando a rede local dentro do edifício. Novos cabos de rede são necessários para conectar computadores de escritório e dispositivos de rede. Qual mídia de rede o administrador deve usar?",
+      "options": [
+        "cabo coaxial",
+        "solução sem fio",
+        "cabo de fibra ótica",
+        "cabo de par trançado"
+      ],
+      "correctIndex": 3,
+      "explanation": "Os cabos Ethernet de par trançado são usados com mais frequência para conectar fisicamente dispositivos locais em um pequeno escritório à rede local em um edifício.",
+      "raw_id": "3e5cd0dd05dd428aac3c2b995c5007fd"
+    },
+    {
+      "question": "Qual é a finalidade de usar pares trançados de fios em um cabo Ethernet?",
+      "options": [
+        "para reduzir a interferência",
+        "para oferecer maior largura de banda",
+        "identificar caminhos de fluxo de dados",
+        "para garantir que a transmissão de sinais elétricos se estenda a uma distância maior"
+      ],
+      "correctIndex": 0,
+      "explanation": "A tecnologia Ethernet geralmente usa cabos de par trançado para interconectar dispositivos. Em um cabo de par trançado, os fios são agrupados em pares e torcidos juntos para reduzir a interferência.",
+      "raw_id": "497456f18edf4876a9e2422098ea4a27"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,4913 @@
+[
+  {
+    "_id": "094df3e27a7b40d59c7099c9f74d2855",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "094df3e27a7b40d59c7099c9f74d2855",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "738579ed79114bd78401cf59bd04f729",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7156e9dd-d393-4175-adac-0b37d12246da",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "738579ed79114bd78401cf59bd04f729",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "9656d32f-7456-4fc5-9017-6d541d2b6ab3",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "22c203948d284988ad0d7031c65dbce8",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "22c203948d284988ad0d7031c65dbce8",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b731e6ccb2af4a27a9321340917c710e",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "dc26ec72-a0d0-4520-9b38-0ea51018b341",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b731e6ccb2af4a27a9321340917c710e",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "ab061de3-6f85-480f-8860-55d5843e891b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "73c43d81640c4d2ea4061a9327078aa9",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "73c43d81640c4d2ea4061a9327078aa9",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/6b1e68b8c8cb41d0bc867e497f5a1435.png",
+      "small": "pt-BR/assets/6b1e68b8c8cb41d0bc867e497f5a1435.png",
+      "attribution": ""
+    },
+    "_parentId": "8b63635a7b5a4ae6afc4ba82df7992dd",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "470281a0-198a-4694-92ae-31c3b97378bf",
+    "instruction": "",
+    "_oldParentId": "8b63635a7b5a4ae6afc4ba82df7992dd",
+    "displayTitle": "",
+    "_activityParentId": "00cf1ea2-40a1-4fac-81b0-45b263728d33",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "dd74ca085d514e79bb2f54b1a6984280",
+    "body": "<p>Kishori ainda não entende as funções de dispositivo de infraestrutura de rede na rede, incluindo dispositivos finais, dispositivos intermediários e mídia de rede. Quando ela começou sua carreira de enfermeira, ela estava escrevendo anotações médicas em um caderno de papel! Em casa, a Kishori tem apenas um laptop, um smartphone e um tablet. Isso a torna mais familiarizada com os dispositivos finais ou hosts. Ela entende que esses dispositivos estão conectados à Internet de alguma forma através da caixa no canto da sala de estar. No trabalho, ela usa um laptop, um desktop, uma impressora e outros equipamentos hospitalares conectados à rede. Ela quer saber mais sobre os componentes de rede e como eles se conectam.</p><p>Kishori sai do quarto da paciente, coloca o laptop no chão e continua seu trabalho no computador da estação de enfermagem. Ela se pergunta como as anotações eletrônicas que acabou de tirar no laptop aparecem no prontuário do paciente no computador desktop. Como eles estão conectados? Como o computador chega à Internet? Kishori tem muito a aprender e você também pode! Aproveite este módulo para saber mais.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "dd74ca085d514e79bb2f54b1a6984280",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8b63635a7b5a4ae6afc4ba82df7992dd",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "0075cf1c-328a-4de9-a47b-ce7e6981c72d",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8b63635a7b5a4ae6afc4ba82df7992dd",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "00cf1ea2-40a1-4fac-81b0-45b263728d33",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b2cc465c668344adb1c3e6a2806534a3",
+    "body": "<p><strong>Título do módulo:</strong> Componentes, tipos e conexões de rede</p><p><strong>Objetivo do Módulo:</strong> Explicar os tipos de rede, componentes e conexões.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Clientes e Servidores",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar as funções de clientes e servidores em uma rede.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Componentes de Rede",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Explicar as funções dos dispositivos de infraestrutura de rede.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Opções de conectividade com o ISP",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Descrever as opções de conectividade do ISP.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O Que Vou Aprender Neste Módulo?",
+    "_oldId": "b2cc465c668344adb1c3e6a2806534a3",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "f6c049efd81a4a8dbeebd36c7178e268",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "61675fed-9339-4d4c-8210-44c23cebdfa9",
+    "_oldParentId": "f6c049efd81a4a8dbeebd36c7178e268",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e93ee409-0462-4ae8-9a89-ba59e89dca79",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "bdb20f54f5c84d60a7a156088f334be9",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "bdb20f54f5c84d60a7a156088f334be9",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "742dca33466b44fcb658c66a30f4b49a",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "f17bde31-4769-4893-ad8b-f25219e0a7e1",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "742dca33466b44fcb658c66a30f4b49a",
+    "displayTitle": "",
+    "_activityParentId": "ef6f86e7-013c-4ed0-a23d-f98929f8114f"
+  },
+  {
+    "_id": "2deeffc570704bb1b200f9e56c5699fa",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Clientes e Servidores</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Clientes e Servidores",
+    "_oldId": "2deeffc570704bb1b200f9e56c5699fa",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aa342b3c8f3345ca9a654b3d4651a450",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2e748125-a57c-4b51-b0b3-f587e7a4623d",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "aa342b3c8f3345ca9a654b3d4651a450",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "4fa61f9f-22ae-408a-a25e-5a595c315beb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3ee75ecc5efc48ceab3dfc03d87b09de",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Clientes e Servidores",
+    "_oldId": "3ee75ecc5efc48ceab3dfc03d87b09de",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f7ab35ab23af454a9d60776b855e8ea2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "60a72874-1069-4118-b9e1-ff294294d135",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f7ab35ab23af454a9d60776b855e8ea2",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "0410cd59-ac5f-45b2-a0ef-2843e5cb4918",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e2608c2dcdc745c39b78198ce7af8be1",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Vídeo - Clientes e Servidores",
+    "_oldId": "e2608c2dcdc745c39b78198ce7af8be1",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6298725399001",
+    "videoIds": [
+      "3506fb55-bd5c-48d4-8590-8d016c3dd564"
+    ],
+    "_parentId": "fb65234f59de40b8841368f6f417ab23",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "b77ebf05-af1d-4763-a713-5d89f7ead1b7",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "fb65234f59de40b8841368f6f417ab23",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "e14268e1-8af7-4421-b0c1-a3fe08bf5ee7",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "e2d5bc939d114baca3f0242ba4c0b69e",
+    "body": "<p>Todos os computadores conectados a uma rede que participam diretamente na comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagens na rede. Nas redes modernas, um host pode atuar como cliente, servidor ou ambos. O software instalado no computador determina qual função o computador desempenha.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Funções de Clientes e Servidores",
+    "_oldId": "e2d5bc939d114baca3f0242ba4c0b69e",
+    "details": {
+      "uuid": "2d832ac0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Cliente",
+          "class": "text1"
+        },
+        {
+          "text": "Internet",
+          "class": "text2"
+        },
+        {
+          "text": "Servidor",
+          "class": "text3"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d832ac0-1c25-11ea-a010-eb2108469056/2d8351d1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "550/250",
+      "primary_image": "media/2d832ac0-1c25-11ea-a010-eb2108469056/2d8351d2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "348015fc5cbc4bd4bef07ae1de2dae29",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "0d86308e-5fe6-49d2-a821-6ef9bf187ec0",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "348015fc5cbc4bd4bef07ae1de2dae29",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "PC cliente e um servidor conectado através de uma nuvem simbolizando a Internet",
+    "_activityParentId": "433d0200-8c23-4a17-b90b-81ef24c529ef",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "882229703ed044dca73593c74a5a114e",
+    "body": "<p>Servidores são hosts que têm um software instalado que os permite fornecer informações, como e-mail ou páginas Web, a outros hosts na rede. Cada serviço exige um software de servidor separado. Por exemplo, um servidor exige um software de servidor Web para forneça serviços web à rede. Cada destino que você acessa on-line é fornecido por um servidor localizado em algum lugar de uma rede conectada à Internet global.</p><p>Clientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor. Um exemplo de software cliente é um navegador da Web, como Internet Explorer, Safari, Mozilla Firefox ou Chrome.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Tipo",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Descrição",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "E-mail",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "O servidor de  executa o software do servidor de e-mail. Clientes usam um software de e-mail, como o Microsoft Outlook, para acessar e-mails no servidor.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Web",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "O servidor web executa o software do servidor web. Os clientes usam navegadores, como o Windows Internet Explorer, para acessar páginas da Web no servidor.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Arquivo",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "O servidor de arquivos armazena arquivos corporativos e de usuário em um local central. Os dispositivos clientes acessam esses arquivos com softwares clientes, como o Windows Explorer.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "Table Widget",
+    "_oldId": "882229703ed044dca73593c74a5a114e",
+    "_layout": "full",
+    "_classes": "",
+    "_minWidth": 800,
+    "_parentId": "9b242ca6302b4adc9b53550355ddda1a",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "926cb263-3d31-4b78-a6a9-532d8a9c05a0",
+    "_oldParentId": "9b242ca6302b4adc9b53550355ddda1a",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_activityParentId": "cba01655-4151-42ff-9f8e-6f7b96be6fae",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "Melhor visualizado no modo paisagem.",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a172707815ac4c5394ae6bc428be6970",
+    "body": "<p>Os softwares de cliente e de servidor geralmente são executados em computadores separados, mas também é possível que um computador execute as duas funções ao mesmo tempo. Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é chamado de rede ponto a ponto(P2P).</p><p>A rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por uma conexão com ou sem fio. Ambos os computadores podem usar essa rede simples para trocar dados e serviços entre si, atuando como cliente ou servidor conforme necessário.</p><p>Vários PCs também podem ser conectados para criar uma rede ponto-a-ponto maior, mas isso exige um dispositivo de rede (como um switch) para interconectar os computadores.</p><p></p>A principal desvantagem de um ambiente ponto-a-ponto é que o desempenho de um host pode ser reduzido se ele estiver atuando como cliente e servidor ao mesmo tempo. A figura lista algumas das vantagens e desvantagens das redes ponto-a-ponto.<p>Em empresas de grande porte, devido ao potencial para quantidades altas de tráfego de rede, geralmente é necessário ter servidores dedicados para suportar o número de solicitações de serviço.</p><p>As vantagens e desvantagens das redes P2P são resumidas na figura.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Redes Ponto-a-Ponto",
+    "_oldId": "a172707815ac4c5394ae6bc428be6970",
+    "details": {
+      "uuid": "2d839ff0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Eu tenho uma impressora para compartilhar",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Tenho arquivos para compartilhar",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Compartilhamento de impressão",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Compartilhamento de Arquivos",
+          "class": "ID_txt04"
+        }
+      ],
+      "caption": "<p>As vantagens da rede ponto-a-ponto:</p>\n<ul>\n<li>Fácil de configurar;</li>\n<li>Menos complexo;</li>\n<li>Menor custo porque os dispositivos de rede e os servidores dedicados podem não ser necessários;</li>\n<li>Pode ser usada para tarefas simples como transferir arquivos e compartilhar impressoras.</li>\n</ul>\n<p>As desvantagens das rede ponto-a-ponto:</p>\n<ul>\n<li>Nenhuma administração centralizada;</li>\n<li>Não é tão segura;</li>\n<li>Não é escalável;</li>\n<li>Todos os dispositivos podem atuar como clientes e servidores, podendo deixar seu desempenho lento.</li>\n</ul>\n",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d839ff0-1c25-11ea-a010-eb2108469056/2d839ff2-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "503/170",
+      "primary_image": "media/2d839ff0-1c25-11ea-a010-eb2108469056/2d83c700-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "cfabf98decd049c6bda9438398454c25",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "aa67a95c-f4d8-4bc7-9311-0545b1f86730",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "cfabf98decd049c6bda9438398454c25",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A figura mostra uma pequena rede com três dispositivos. A printer is on the left, connected to a print sharing PC in the middle, which is also connected to a file sharing PC on the right.  Sob a topologia, há uma lista das vantagens e desvantagens da rede ponto a ponto.  The advantages of peer-to-peer networking are: easy to set up, less complex, lower cost because network devices and dedicated servers may not be required, and can be used for simple tasks such as transferring files and sharing printers. The disadvantages of peer-to-peer networking are: no centralized administration, not as secure, not scalable, all devices may act as both clients and servers which can slow their performance.",
+    "_activityParentId": "c358d763-04e9-4ac1-825d-7a6783e5d34a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "8bb0954d3f8b4f3c8af6898f7d0fc52f",
+    "body": "<p>As vantagens da rede ponto-a-ponto: <ul><li><span>Fácil de configurar;</span></li><li><span>Menos complexo;</span></li><li><span>Menor custo porque os dispositivos de rede e os servidores dedicados podem não ser necessários;</span></li><li><span>Pode ser usada para tarefas simples como transferir arquivos e compartilhar impressoras.</span></li></ul></p> <p>As desvantagens das rede ponto-a-ponto: <ul><li><span>Nenhuma administração centralizada;</span></li><li><span>Não é tão segura;</span></li><li>Não é escalável</li><li><span>Todos os dispositivos podem atuar como clientes e servidores, podendo deixar seu desempenho lento.</span></li></ul></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "8bb0954d3f8b4f3c8af6898f7d0fc52f",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3808fc3ba5ca4ee1bfe6da35c21da1b2",
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "8bb686ac-ebc3-40eb-b574-c7cc4c3096dc",
+    "_isOptional": true,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": false,
+    "_oldParentId": "3808fc3ba5ca4ee1bfe6da35c21da1b2",
+    "displayTitle": "",
+    "_activityParentId": "6312e301-e303-4a7c-b2aa-baf0353472c5",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c9d416ad98d94e45822f377a3efcfba9",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "c9d416ad98d94e45822f377a3efcfba9",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a57c64159fc547a6911b423265a472ff",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "97f2aa4e-e876-4059-a791-5f5a0fe84e06",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a57c64159fc547a6911b423265a472ff",
+    "displayTitle": "",
+    "_activityParentId": "833166ac-dcca-4c4a-a08c-92b0f27a11de",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "da62bdaf881b4d2c9ad8dae6f1701dcc",
+    "body": "<p>Um aplicação P2P permite que um dispositivo atue como cliente e servidor na mesma comunicação, como mostra a figura. Nesse modelo, todo cliente é um servidor e todo servidor é um cliente. Aplicações P2P exigem que cada dispositivo final forneça uma interface de usuário e execute um serviço em segundo plano.</p> <p>Algumas aplicações P2P utilizam um sistema híbrido no qual o compartilhamento de recursos é descentralizado, mas os índices que apontam para as localizações de recursos são armazenados em um diretório centralizado. Em um sistema híbrido, cada peer acessa um servidor de índice para obter a localização de um recurso armazenado em outro peer.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Aplicações Ponto-a-ponto",
+    "_oldId": "da62bdaf881b4d2c9ad8dae6f1701dcc",
+    "details": {
+      "uuid": "2e7022d0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Legal.",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Estarei lá.",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Reunião hoje à noite.",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Estarei lá.",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Legal.",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "Reunião hoje à noite.",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Cliente e servidor",
+          "class": "ID_txt15"
+        },
+        {
+          "text": "Rede",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "Cliente e servidor",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Mensagem instantânea",
+          "class": "ID_txt13"
+        },
+        {
+          "text": "Mensagem instantânea",
+          "class": "ID_txt14"
+        },
+        {
+          "text": "Enviar",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "Receber",
+          "class": "ID_txt10"
+        },
+        {
+          "text": "Receber",
+          "class": "ID_txt12"
+        },
+        {
+          "text": "Enviar",
+          "class": "ID_txt11"
+        }
+      ],
+      "caption": "<p>Ambos os clientes podem enviar e receber mensagens simultaneamente.</p>\n",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2e7022d0-1c25-11ea-a010-eb2108469056/2e7022d1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "604/400",
+      "primary_image": "media/2e7022d0-1c25-11ea-a010-eb2108469056/2e7022d2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "623387dbe2934fcbb5294422499577fe",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "b8ea49d5-8609-4da9-ab49-21bb7586d060",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "623387dbe2934fcbb5294422499577fe",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A figura mostra uma conversa por mensagem instantânea com duas máquinas se comunicando pela rede. Cada máquina está atuando como cliente e servidor. The caption states Both clients can simultaneously send and receive messages.",
+    "_activityParentId": "678dc2f0-56d5-40b2-ae4c-240c9045b2d0",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "90715c94613c43b2845726b5c66680a9",
+    "body": "<p>Ambos os clientes podem enviar e receber mensagens simultaneamente.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "90715c94613c43b2845726b5c66680a9",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a12a3a47c17d437e850a5aa71bde2f29",
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "aa966037-7545-4701-a90f-d525302ce66c",
+    "_isOptional": true,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": false,
+    "_oldParentId": "a12a3a47c17d437e850a5aa71bde2f29",
+    "displayTitle": "",
+    "_activityParentId": "12a68baf-cf65-4640-acb7-bb38df1b9a98",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "0bf967f7536045419217584960e5bde8",
+    "body": "<p>Um computador com software de servidor pode fornecer serviços simultaneamente a um ou vários clientes, como mostrado na figura.</p> <p>Além disso, um único computador pode executar vários tipos de software de servidor. Em casa ou em uma empresa pequena, pode ser necessário que um computador atue como um servidor de arquivos, um servidor Web e um servidor de e-mail.</p> <p>Um único computador pode também executar vários tipos de software cliente. Deve haver um software cliente para cada serviço necessário. Com vários softwares cliente instalados, um cliente pode se conectar a vários servidores ao mesmo tempo. Por exemplo, um usuário pode verificar e-mails e exibir uma página Web enquanto envia mensagens instantâneas e ouve rádio pela Internet.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.5 Múltiplas Funções na Rede",
+    "_oldId": "0bf967f7536045419217584960e5bde8",
+    "details": {
+      "uuid": "26e9abc0-e25f-11ea-91d8-e313396efcb7",
+      "texts": [
+        {
+          "text": "Servidor Web<br/>\nServidor de E-mail<br/>\nServidor de Arquivos",
+          "class": "text1"
+        },
+        {
+          "text": "Cliente Acesso a Arquivos",
+          "class": "text2"
+        },
+        {
+          "text": "Navegador Web<br/>\nCliente de E-mail",
+          "class": "text3"
+        },
+        {
+          "text": "Navegador Web<br/>\nCliente Acesso a Arquivos",
+          "class": "text4"
+        },
+        {
+          "text": "Navegador Web<br/>\nCliente de E-mail<br/>\nCliente Acesso a Arquivos",
+          "class": "text5"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/26e9abc0-e25f-11ea-91d8-e313396efcb7/2f494fa0-9f41-413a-ba63-528c259f4372.css",
+      "aspect_ratio": "600/490",
+      "primary_image": "media/26e9abc0-e25f-11ea-91d8-e313396efcb7/15390d73-a380-4a60-a962-3fc626aa6f93.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "99c0fdac6d4848c6b6bae3f21d5bca7d",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "1964ee47-fb33-4f03-93b6-eb752c8ae42b",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "99c0fdac6d4848c6b6bae3f21d5bca7d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows four client PCs connected to a single server that provides email, web, and file services. One client has only a file access client, the next has a web browser and email client, the next has a web browser and a file access client, and the last has a web browser, email client, and a file access client.",
+    "_activityParentId": "fecd1832-4014-4205-a552-72282246a94b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "79dbf3f3e1564572afe53665ade27e35",
+    "body": "<p><span style=\"color:#000000\">Um computador com software instalado para fornecer informações como e-mail ou páginas da Web para outros dispositivos é conhecido como:</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "cliente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "servidor",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "smartphone",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "host inteligente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "79dbf3f3e1564572afe53665ade27e35",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Servidores são hosts que têm um software instalado que os permite fornecer informações, como e-mail ou páginas Web, a outros hosts na rede.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "02d83e50b1254e50875b35b496c97f4f",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "0b205f34-78fd-4d1a-8a1f-c39096a3aa65",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Um computador que fornece informações",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "02d83e50b1254e50875b35b496c97f4f",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "79dbf3f3e1564572afe53665ade27e35",
+    "_activityParentId": "06c31359-9af5-41fa-b045-d8e1dd283cc1",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "3f026924a7964f9ea27fc1dbddf95555",
+    "body": "<p><span style=\"color:#000000\">Um smartphone (telefone inteligente) usa um software de navegador da Web para solicitar e exibir uma página da Web. O smartphone (telefone inteligente) é considerado que tipo de computador?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "cliente",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "solicitante",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "host inteligente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "3f026924a7964f9ea27fc1dbddf95555",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Clientes são computadores host que têm um software instalado que os permite solicitar e exibir as informações obtidas do servidor.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a90538258915454c8db99802effcabba",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "895d5efe-3a87-4e65-9d78-4147e1d34424",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Um fone inteligente",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a90538258915454c8db99802effcabba",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "3f026924a7964f9ea27fc1dbddf95555",
+    "_activityParentId": "53564a74-fd2f-421c-98de-7d31b98757b4",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "061c566cd092423b94a269c6b9967598",
+    "body": "<p><span style=\"color:#000000\">Uma rede em que dois computadores estão se comunicando como cliente e como servidor é conhecida como:</span></p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "rede cliente-servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rede cliente-cliente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rede servidor-servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "rede ponto-a-ponto",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "061c566cd092423b94a269c6b9967598",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Uma rede ponto-a-ponto consiste de dois computadores diretamente conectados onde ambos computadores são capazes de trocar dados e serviços com o outro, agindo como cliente ou servidor quando necessário</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p><p dir=\"ltr\">Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9327237bd6aa4087838622b9c6096d57",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "e796ade6-7efb-478b-85e8-b64d4f56cf80",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Rede com dois computadores",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "9327237bd6aa4087838622b9c6096d57",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "061c566cd092423b94a269c6b9967598",
+    "_activityParentId": "22120dfc-576f-4453-8908-1bba7ad23d52",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "aadf7b7ef96349938f0a99e59d67fd79",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "aadf7b7ef96349938f0a99e59d67fd79",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "6f84999d4ba34f6c9fd751bd16d8b358",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "2f0169b5-52f3-45f3-be1d-42bd4f0d6463",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "6f84999d4ba34f6c9fd751bd16d8b358",
+    "displayTitle": "",
+    "_activityParentId": "a360b80d-78f5-496e-a51f-63b738bcc7eb"
+  },
+  {
+    "_id": "f2707c72168b4d5cb19e8933545fa6dd",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Componentes de rede</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2. Compontes de Rede",
+    "_oldId": "f2707c72168b4d5cb19e8933545fa6dd",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1b3f2ade995a4eabadf238a028a0e83d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "db397ff0-2926-4183-bd96-6809b809a7d9",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1b3f2ade995a4eabadf238a028a0e83d",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "f94dab12-39c6-4012-99f4-4baacd07116e",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9ddb1709d4ec4bf7ac00484d86fc5449",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2. Compontes de Rede",
+    "_oldId": "9ddb1709d4ec4bf7ac00484d86fc5449",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "43bcc410601f44f7a23a4c5ab2df6ae2",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9046922f-1531-4dd4-9c6a-9061f1c920ad",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "43bcc410601f44f7a23a4c5ab2df6ae2",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "d927fd31-fbaa-4789-9d89-2180b265c318",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ac282d8703334327b7742cf15696491f",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Vídeo - Símbolos de infraestrutura de rede",
+    "_oldId": "ac282d8703334327b7742cf15696491f",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6249845490001",
+    "videoIds": [
+      "222ac93e-cf40-45f8-873c-492cf38b59c3"
+    ],
+    "_parentId": "6d017aaa804a42dab553eb21170f30a9",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "a72308cd-e796-4060-b736-ad9814c321ef",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "6d017aaa804a42dab553eb21170f30a9",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "833d40b7-9179-4d6d-854d-4858386dcd50",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "de1c89dac4c14905ad1dc7515ed8a9f3",
+    "body": "<p>O caminho que uma mensagem percorre da sua origem ao destino pode ser tão simples quanto um único cabo conectando um computador a outro ou tão complexo quanto uma rede que literalmente atravessa o globo. A infraestrutura de rede é a plataforma que suporta a rede. Ela fornece o canal estável e confiável sobre o qual nossas comunicações podem ocorrer.</p> <p>A infraestrutura de rede contém três categorias de componentes de rede, como mostrada na figura: <ul><li>Dispositivos finais</li><li>Dispositivos intermediários</span></li><li>Meios físicos de rede</li></ul></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Infraestrutura de Rede",
+    "_oldId": "de1c89dac4c14905ad1dc7515ed8a9f3",
+    "details": {
+      "uuid": "2d86d440-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>Dispositivos finais</strong>",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Computador desktop",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Laptop",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Impressora",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Telefone IP",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Tablet sem fio",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Dispositivo final de TelePresença",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "<strong>Dispositivos intermediários</strong>",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "Roteador sem fio",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "Switch LAN",
+          "class": "ID_txt10"
+        },
+        {
+          "text": "Roteador",
+          "class": "ID_txt11"
+        },
+        {
+          "text": "Switch multicamada",
+          "class": "ID_txt12"
+        },
+        {
+          "text": "Dispositivo de firewall",
+          "class": "ID_txt13"
+        },
+        {
+          "text": "<strong>Meios de rede</strong>",
+          "class": "ID_txt14"
+        },
+        {
+          "text": "Meios sem fio",
+          "class": "ID_txt15"
+        },
+        {
+          "text": "Mídia LAN",
+          "class": "ID_txt16"
+        },
+        {
+          "text": "Mídia WAN",
+          "class": "ID_txt17"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d86d440-1c25-11ea-a010-eb2108469056/2d86d441-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "611/431",
+      "primary_image": "media/2d86d440-1c25-11ea-a010-eb2108469056/2d86d442-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "0dbe6be140f44725a5ba991fe6e05305",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f0b725d7-da78-4049-8ad9-0b52211efd4e",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "0dbe6be140f44725a5ba991fe6e05305",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A imagem mostra símbolos usados em diagramas de rede. At the top are the following end devices: desktop computer, laptop, printer, IP phone, wireless tablet, and TelePresence endpoint. No meio, estão os seguintes dispositivos intermediários: roteador sem fio, switch LAN, roteador, switch multicamada e dispositivo de firewall.  Na parte inferior estão as seguintes mídias de rede: ondas azuis representando mídia sem fio, uma linha preta sólida representando mídia LAN e um parafuso de iluminação vermelho representando mídia WAN.",
+    "_activityParentId": "8cdaf649-8dbe-4dc7-af8c-693c4a0935af",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "c4cbb5b5f5dd4c92936adc5612d51b19",
+    "body": "<p>Dispositivos e meios físicos são os elementos físicos ou o hardware da rede. O hardware é geralmente composto pelos componentes visíveis da plataforma de rede, tais como um laptop, um PC, um switch, um roteador, um access point sem fio ou os cabos usados para conectar os dispositivos. Ocasionalmente, alguns componentes podem não ser tão visíveis. No caso de meios físicos sem fio, as mensagens são transmitidas pelo ar com a utilização de freqüência de rádio invisível ou ondas infravermelhas.</p> <p>Faça uma lista dos componentes de infraestrutura de rede instalados na rede residencial. Inclua os cabos ou os pontos de acessos sem fio que fornecem as conexões de rede.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "c4cbb5b5f5dd4c92936adc5612d51b19",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2b7ff965911a465f9a0e725aa07133c5",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "3d31fc9b-cc85-40d9-ab4e-1872805486e0",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2b7ff965911a465f9a0e725aa07133c5",
+    "displayTitle": "",
+    "_activityParentId": "2f2ee9c4-2143-4fc7-bbe1-7f59ebf15851",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "fda60bc1376e4be1997e6d87dfc07561",
+    "body": "<p>Os dispositivos de rede com os quais as pessoas são mais familiarizadas são chamados de dispositivos finais. Estes dispositivos formam a interface entre usuários e a rede de comunicação subjacente</p> <p>Alguns exemplos de dispositivos finais são: <ul><li><span style='#fff;'>Computadores (estações de trabalho, laptops, servidores de arquivo, servidores Web);</li><li><span style='#fff;'>Impressoras de rede;</li><li><span style='#fff;'>Telefones e equipamento de teleconferência</li><li><span style='#fff;'>Câmeras de segurança;</li><li><span style='#fff;'>Dispositivos móveis (como smartphones, tablets, PDAs, leitores de cartão de débito/crédito sem fio e scanners de código de barras)</li></ul></p> <p>Um dispositivo final (ou host) é a origem ou o destino de uma mensagem transmitida pela rede, como mostrado na animação. Para identificar hosts de forma exclusiva, endereços são usados. Quando um host inicia a comunicação, ele usa o endereço do host de destino para especificar onde a mensagem deve ser enviada.</p> <p>Clique em Play na figura para ver uma animação dos dados fluindo por uma rede.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Dispositivos Finais",
+    "_oldId": "fda60bc1376e4be1997e6d87dfc07561",
+    "details": {
+      "uuid": "2d83ee10-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "id": "End_devices-txt02--UUID",
+          "text": "<strong>Redes Interconectadas</strong>"
+        },
+        {
+          "id": "End_devices-txt031--UUID",
+          "text": "<strong>LAN (Local Area Network)</strong>"
+        },
+        {
+          "id": "End_devices-txt032--UUID",
+          "text": "<strong>LAN (Local Area Network)</strong>"
+        },
+        {
+          "id": "End_devices-txt04--UUID",
+          "text": "As mensagens podem seguir <br /> rotas alternativas."
+        },
+        {
+          "id": "End_devices-txt05--UUID",
+          "text": "Os dados se originam em um dispositivo final, fluem pela rede e chegam a outro dispositivo final."
+        }
+      ],
+      "images": [
+        {
+          "img": "media/2d83ee10-1c25-11ea-a010-eb2108469056/4ad59360-2107-11ea-9609-bb2a86b1a3ff.png",
+          "class": "man"
+        },
+        {
+          "img": "media/2d83ee10-1c25-11ea-a010-eb2108469056/63937fc0-2107-11ea-b11b-8125de4b4c68.png",
+          "class": "seated_woman"
+        }
+      ],
+      "animateFile": "media/2d83ee10-1c25-11ea-a010-eb2108469056/2d841525-1c25-11ea-81a0-ffc2c49b96bc.js",
+      "aspect_ratio": "680/430",
+      "timelineClip": "anim01",
+      "animationName": "End_devices",
+      "animationComposition": "876554F65C06504AA749710BE537CCF7"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f81e4a147da1496296bc74462a8a5020",
+    "_component": "adobe-animate",
+    "_isDeleted": false,
+    "_activityId": "fdbdb14e-a3ea-409f-a774-94aa9f76e971",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "f81e4a147da1496296bc74462a8a5020",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.adobe-animate-container"
+    },
+    "_setCompletionOn": "webComponentEvent",
+    "a11y_description": "A figura mostra uma topologia de rede física com um bloco de LAN, um bloco de InternetWork e um bloco de outra LAN. Da esquerda para a direita, uma LAN tem dois usuários, um telefone IP, um PC e um servidor conectado a um switch. A physical link connects the LAN switch to an edge router that boarders the LAN block and the Internetwork block. The Internetwork block consists of four routers connected in a full mesh topology. Um roteador de borda aborda o bloco de internetwork e um segundo bloco de LAN. O segundo bloco de LAN consiste em dois usuários, um telefone IP, um PC e um servidor. Quando a animação é iniciada, uma mensagem se origina de um dos usuários na primeira LAN e viaja do usuário, para o switch e para o roteador de borda que integra a Internetwork. Na Internetwork, a mensagem é roteada através do outro roteador de borda que os placers com a segunda LAN. A mensagem é encaminhada para a segunda LAN, através do switch e para o usuário final de destino. O texto sob o gráfico lê Os dados se originam com um dispositivo final, fluem pela rede e chegam ao dispositivo final.",
+    "_activityParentId": "421b732f-2792-41e3-9066-c283224444c8",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_classes": "undefined"
+  },
+  {
+    "_id": "5faa952151e2449ba53446ff16e609f0",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "5faa952151e2449ba53446ff16e609f0",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "460d8d9156714b6ab94078836b7fb7ed",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "609665ef-34c1-42d0-86e4-2d46f89cbb99",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "460d8d9156714b6ab94078836b7fb7ed",
+    "displayTitle": "",
+    "_activityParentId": "bbc48554-1a9f-40bd-a438-5f3f012afb8c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d8724c8abb874dc3b1083d6181b28164",
+    "body": "<p><span style=\"color:#000000\">Marjani mora em uma fazenda a vários quilômetros de Msolwa, na Tanzânia. Qual dos dispositivos finais a seguir é mais provável que ela use para se conectar à Internet? (Escolha duas.)</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "smartphone",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "impressora da rede",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Terminal de telepresença",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "tablet sem fio",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "roteador sem fio",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d8724c8abb874dc3b1083d6181b28164",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>Em áreas rurais que não têm uma infraestrutura de telecomunicações com fio, o acesso sem fio através de um serviço de celular é muitas vezes a única opção para acesso à Internet. As opções para Marjani incluem um smartphone ou tablet.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>Em áreas rurais que não têm uma infraestrutura de telecomunicações com fio, o acesso sem fio através de um serviço de celular é muitas vezes a única opção para acesso à Internet. As opções para Marjani incluem um smartphone ou tablet.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>Em áreas rurais que não têm uma infraestrutura de telecomunicações com fio, o acesso sem fio através de um serviço de celular é muitas vezes a única opção para acesso à Internet. As opções para Marjani incluem um smartphone ou tablet.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a698ee3adc4e42dd96a34a84dd6ab9f9",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c3fefc48-4ea4-4a50-9a65-5c57cd3cda55",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Dispositivos Finais 1",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a698ee3adc4e42dd96a34a84dd6ab9f9",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "d8724c8abb874dc3b1083d6181b28164",
+    "_activityParentId": "a2d402b1-b598-4e92-94de-dab84e7db5fb",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "b7e63e28a5dc422c931d5f9ff77e7051",
+    "body": "<p>Eilert conseguiu recentemente um emprego em uma empresa de serviços de suporte a computadores em sua cidade natal, Falun, na Suécia. Um cliente solicitou que alguém conectasse a rede doméstica à Internet. Ele têm apenas um modem a cabo. Qual dos seguintes dispositivos intermediários Eilert provavelmente levaria ele para o trabalho?</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Switch multicamada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "dispositivo de firewall",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "roteador sem fio",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Computador desktop",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "switch LAN",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "b7e63e28a5dc422c931d5f9ff77e7051",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>As redes domésticas normalmente se conectam ao provedor de Internet usando um modem e um roteador com recursos sem fio. Às vezes, esses dois dispositivos são combinados em um único dispositivo. Nesse cenário, Eilert precisará levar o roteador sem fio para a casa do cliente, pois ele só tem o modem.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>As redes domésticas normalmente se conectam ao provedor de Internet usando um modem e um roteador com recursos sem fio. Às vezes, esses dois dispositivos são combinados em um único dispositivo. Nesse cenário, Eilert precisará levar o roteador sem fio para a casa do cliente, pois ele só tem o modem.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>As redes domésticas normalmente se conectam ao provedor de Internet usando um modem e um roteador com recursos sem fio. Às vezes, esses dois dispositivos são combinados em um único dispositivo. Nesse cenário, Eilert precisará levar o roteador sem fio para a casa do cliente, pois ele só tem o modem.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fbd9f1c57ff34ba4a13567c4891f3963",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a41e540f-dd2c-40ac-8e6c-360e034b1587",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Dispositivos Finais 2",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fbd9f1c57ff34ba4a13567c4891f3963",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "b7e63e28a5dc422c931d5f9ff77e7051",
+    "_activityParentId": "9f2ec06f-2488-4b16-906f-e151039779b0",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "aa1fe2e3b3f94f93bb8e18719f735df0",
+    "body": "<p>Rosalía trabalha como agente de saúde comunitária em Rio Claro, Brasil. A maior parte do tempo é gasta fazendo visitas domiciliares para fornecer atendimento primário às pessoas em sua comunidade. No entanto, ela precisa de acesso à Internet para manter seus registros de pacientes e oferecer videoconferência com um médico, quando necessário. Que tipo de dispositivo final e mídia a Rosalía provavelmente usa? (Escolha duas.)</p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "roteador",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "tablet",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Computador desktop",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mídia WAN",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mídia LAN",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Mídia Sem Fio",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "aa1fe2e3b3f94f93bb8e18719f735df0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>Os agentes de saúde comunitários que viajam de casa em casa durante suas rondas diárias dependem muito do acesso sem fio. Portanto, Rosalía provavelmente usaria um tablet e uma mídia sem fio para se conectar à Internet para atualizar os registros médicos e fazer videoconferência com outro médico, quando necessário.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>Os agentes de saúde comunitários que viajam de casa em casa durante suas rondas diárias dependem muito do acesso sem fio. Portanto, Rosalía provavelmente usaria um tablet e uma mídia sem fio para se conectar à Internet para atualizar os registros médicos e fazer videoconferência com outro médico, quando necessário.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>Os agentes de saúde comunitários que viajam de casa em casa durante suas rondas diárias dependem muito do acesso sem fio. Portanto, Rosalía provavelmente usaria um tablet e uma mídia sem fio para se conectar à Internet para atualizar os registros médicos e fazer videoconferência com outro médico, quando necessário. <p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ffa217e432a041d3a7e5ca1f37501356",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e757125b-6575-43e4-8364-09a074362663",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Dispositivos Finais 3",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "ffa217e432a041d3a7e5ca1f37501356",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "aa1fe2e3b3f94f93bb8e18719f735df0",
+    "_activityParentId": "82270985-0121-4ca2-86d6-f3c4ffa96208",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b55b86c1f2904f9ead2417c359d27837",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "b55b86c1f2904f9ead2417c359d27837",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "6d767725ce804201b8c1af3eff6b1f0f",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "1b960595-597e-4658-a9bd-80e2fc41da20",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "6d767725ce804201b8c1af3eff6b1f0f",
+    "displayTitle": "",
+    "_activityParentId": "9e719c15-5cdc-4899-a069-52395b82e793"
+  },
+  {
+    "_id": "07a8b246e28942568fe543bae2289e86",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Opções de conectividade com o ISP</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Opções de conectividade com o ISP",
+    "_oldId": "07a8b246e28942568fe543bae2289e86",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b166e8a784094ffb88b08d20f52f3386",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "42ad8bf1-235b-4427-8736-43b9e521ec80",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b166e8a784094ffb88b08d20f52f3386",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "813f45b2-64c0-4f9f-b29f-25dd32f9a9d5",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4eff62c3aa7242f1a1309d96104b76e2",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Opções de conectividade com o ISP",
+    "_oldId": "4eff62c3aa7242f1a1309d96104b76e2",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7789e304e21d4aa3a53adf54a7a986f0",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d4c84adf-5369-49a6-be8e-6c846ecb63e2",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7789e304e21d4aa3a53adf54a7a986f0",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e0204c2e-2f38-46c7-b12f-cffde19bcfad",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e9431cc1807846c79c26ec45b0195824",
+    "body": "<p>Um provedor de serviços de Internet (ISP) fornece o link entre a rede doméstica e a Internet. Um ISP pode ser o provedor de TV a cabo local, um provedor de serviços de telefonia fixa, a rede celular que fornece seu serviço de smartphone ou um provedor independente que aluga largura de banda na infraestrutura de rede física de outra empresa.<br><br>Muitos ISPs também oferecem serviços adicionais aos assinantes, como mostrado na figura. Esses serviços podem englobar contas de e-mail, armazenamento de rede, hospedagem de sites e serviços de segurança ou backup automático.<br><br>Os ISPs são essenciais para a comunicação na Internet global. Cada ISP conecta-se a outros ISPs para formar uma rede de links que interconectam usuários em todo o mundo. Os ISPs são conectados de maneira hierárquica que garante que o tráfego da Internet geralmente siga o caminho mais curto da origem ao destino.<br><br>O backbone de Internet é como uma autoestrada de informações que fornece links de dados de alta velocidade para conectar as diversas redes de provedores de serviços nas grandes áreas metropolitanas do mundo todo. O principal meio físico que conecta o backbone de Internet é o cabo de fibra óptica. Esse cabo normalmente é instalado no subterrâneo para conectar cidades dentro de continentes. Os cabos de fibra óptica também passam sob o mar para conectar continentes, países e cidades.<br></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 Serviços ISP",
+    "_oldId": "e9431cc1807846c79c26ec45b0195824",
+    "details": {
+      "uuid": "aa465d90-ed56-11ea-ba47-cd0b7bcadc6c",
+      "texts": [
+        {
+          "text": "Hospedagem FTP",
+          "class": "text1"
+        },
+        {
+          "text": "Hospedagem de Aplicações e Mídia",
+          "class": "text2"
+        },
+        {
+          "text": "Hospedagem Web                                                                                                                                                                     ",
+          "class": "text3"
+        },
+        {
+          "text": "ISP Services",
+          "class": "text4"
+        },
+        {
+          "text": "Colocation de Equipamentos",
+          "class": "text5"
+        },
+        {
+          "text": "Acesso à Internet POP",
+          "class": "text6"
+        },
+        {
+          "text": "Suporte Técnico",
+          "class": "text7"
+        },
+        {
+          "text": "Voz sobre IP",
+          "class": "text8"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/aa465d90-ed56-11ea-ba47-cd0b7bcadc6c/cc498059-bdf5-4b4e-8e1c-b471f0af6934.png",
+          "class": "Music-Img"
+        },
+        {
+          "url": "media/aa465d90-ed56-11ea-ba47-cd0b7bcadc6c/4b786650-fc01-11ea-a244-7be5e93eca71.png",
+          "class": "Common-Page-Img"
+        }
+      ],
+      "caption": "",
+      "imageStack": "beforeend",
+      "stylesheet": "media/aa465d90-ed56-11ea-ba47-cd0b7bcadc6c/1d9e3e7f-b975-4c78-93e3-b875b9cb9083.css",
+      "aspect_ratio": "680/490",
+      "primary_image": "media/aa465d90-ed56-11ea-ba47-cd0b7bcadc6c/826e6833-6584-4045-b345-8bf3ee0fc296.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "351cb04dae4f4640b9d193251d56df5a",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "a6b2efd6-057c-4c74-9055-5bd815f7757b",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "351cb04dae4f4640b9d193251d56df5a",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows seven small circles surrounding a big circle in the center. The big circle is labeled ISP Services. The seven small circles are labeled FTP Hosting, Application and Media Hosting, Web Hosting, Equipment Co-Location, POP Internet Access, Voice Over IP, and Technical Support.",
+    "_activityParentId": "cf197ffc-fc2e-4b24-871f-bca7d1eea1b1",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "33e13ff6ace54fa4925205fcecb0cd54",
+    "body": "<p>A interconexão de ISPs, que forma a espinha dorsal da internet, é uma teia complexa de cabos de fibra ótica com switches e roteadores de rede caros que direcionam o fluxo de informações entre os hosts de origem e destino. Os usuários domésticos médios não estão cientes da infraestrutura fora de sua rede. Para ele, conectar-se ao ISP é um processo bastante simples.<br><br>A parte superior da figura mostra a opção mais simples de conexão com o ISP. Consiste em um modem que fornece uma conexão direta entre um computador e o ISP. Esta opção não deve ser usada, pois seu computador não está protegido na internet.<br><br>Como mostrado na parte inferior da figura, é necessário um roteador para conectar com segurança um computador a um ISP. Esta é a opção de conexão mais comum. Consiste em usar um roteador integrado sem fio para se conectar ao ISP. O roteador inclui um switch para conectar hosts com fio e um AP sem fio para conectar hosts sem fio. O roteador também fornece informações de endereçamento IP do cliente e segurança para hosts internos.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Conexões ISP",
+    "_oldId": "33e13ff6ace54fa4925205fcecb0cd54",
+    "details": {
+      "uuid": "aa5eeea0-ed56-11ea-ba47-cd0b7bcadc6c",
+      "texts": [
+        {
+          "text": "Único PC com conexão direta",
+          "class": "text1"
+        },
+        {
+          "text": "Modem",
+          "class": "text2"
+        },
+        {
+          "text": "ISP",
+          "class": "text3"
+        },
+        {
+          "text": "Modem",
+          "class": "text4"
+        },
+        {
+          "text": "Roteador Integrado",
+          "class": "text5"
+        },
+        {
+          "text": "Vários PCs com conexão LAN",
+          "class": "text6"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/aa5eeea0-ed56-11ea-ba47-cd0b7bcadc6c/3af6915c-c729-4df1-86ee-01e33dc18332.css",
+      "aspect_ratio": "619/353",
+      "primary_image": "media/aa5eeea0-ed56-11ea-ba47-cd0b7bcadc6c/c48b1ba0-8841-43ef-bd5a-867e43878aca.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "553f21bb43d24e91b585f1c6d85b6337",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "97b7a8e7-c57b-44ca-aee0-6fd78ac884e2",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "553f21bb43d24e91b585f1c6d85b6337",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows two groups of end devices connect to a cloud depicting ISP through separate modems. From left to right, at the top, a PC with the label Single PC with Direct Connection connects to a modem through a cable and the modem connects to the cloud.  At the bottom, three PCs with the label Multiple PCs with LAN connection connect to a wireless router labeled Integrated Router. The router connects to another modem and the modem connects to the cloud. ",
+    "_activityParentId": "74cd2cbc-9b7b-4905-adc5-0b2f95b4bc07",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "5ba88a3ce6584cdda8f31627a102025f",
+    "body": "<p>A maioria dos usuários de rede doméstica não se conecta aos provedores de serviços com cabos de fibra óptica. A figura ilustra as opções comuns de conexão para usuários de residências e pequenos escritórios. Os dois métodos mais comuns são os seguintes:</p><ul><li><b>Cabo - </b>Normalmente oferecido por provedores de serviços de televisão a cabo, o sinal de dados de internet é transportado no mesmo cabo coaxial que entrega a televisão a cabo. Ele fornece uma conexão com a internet sempre ativa com alta largura de banda. Um cable modem especial separa o sinal de dados da Internet dos outros sinais transmitidos pelo cabo e fornece uma conexão Ethernet para um computador host ou LAN.</li><li><b>DSL - Linha digital do Assinante</b> fornece uma conexão com a internet sempre ativa e com alta largura de banda. Ele requer um modem especial de alta velocidade que separa o sinal DSL do sinal de telefone e fornece uma conexão Ethernet para um computador host ou LAN. A DSL passa por uma linha telefônica, com a linha dividida em três canais. Um canal é usado para chamadas telefônicas. Esse canal permite que um indivíduo receba chamadas telefônicas sem se desconectar da Internet. Um segundo canal é um canal de download mais rápido, usado para receber informações da Internet. O terceiro canal é usado para enviar ou carregar informações. Esse canal geralmente é um pouco mais lento do que o canal de download. A qualidade e a velocidade da conexão DSL depende principalmente da qualidade da linha telefônica e da distância da central telefônica da operadora de telefonia. Quanto mais longe você estiver da central telefônica, mais lenta será a conexão.</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.3 Conexões de Cabo e DSL",
+    "_oldId": "5ba88a3ce6584cdda8f31627a102025f",
+    "details": {
+      "uuid": "2d8f86d0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Usuário doméstico",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "Funcionário remoto",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Escritórios pequenos",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "DSL",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Cabo",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Celular",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Internet",
+          "class": "ID_txt10"
+        },
+        {
+          "text": "Satélite",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "Conexão discada (dial-up)",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "ISP",
+          "class": "ID_txt09"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2d8f86d0-1c25-11ea-a010-eb2108469056/2d8f86d1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "627/370",
+      "primary_image": "media/2d8f86d0-1c25-11ea-a010-eb2108469056/2d8f86d2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "28a237c801454054967d8d923b8f58e8",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "76e236eb-3a43-4b06-a734-214c12461a43",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "28a237c801454054967d8d923b8f58e8",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows common connection options for small office and home office users. Da esquerda para a direita, uma caixa à esquerda mostra três cenários de usuário final: na parte superior há uma empresa e um usuário residencial dentro da casa, no meio há um usuário permanente chamado Teletrabalhador e, na parte inferior, um edifício de escritórios rotulados Small Office. Há outra caixa à direita, que mostra um grande edifício de escritórios chamado Provedor de Serviços de Internet. Quatro métodos de conexão diferentes são mostrados entre a caixa do usuário final e a caixa do ISP. Na parte superior, há uma linha direta DSL. Abaixo da DSL, há outra linha direta chamada Cabo. Abaixo do cabo está uma linha de onda de ar azul rotulada como celular. Abaixo de celular é um satélite que vincula ambas as caixas com receptores / transmissores de antena parabólica Na parte inferior, há outro rótulo de linha telefônica de discagem. À direita, há uma nuvem que representa a Internet. Uma linha de raio mostra a conexão entre o ISP e a Internet.",
+    "_activityParentId": "caa1edf3-8b6c-40cb-8f33-7685846996cc",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "f0ed8a32066840fbb22023206b1715c9",
+    "body": "Outras opções de conexão ISP para usuários domésticos incluem o seguinte:",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.4 Opções Adicionais para Conectividade",
+    "_items": [
+      {
+        "body": "<p>O acesso do celular à Internet usa uma rede de telefonia celular para se conectar. Onde quer que você possa obter um sinal de celular, você pode obter acesso à Internet por celular. O desempenho será limitado pelos recursos do telefone e da torre do celular à qual ele está conectado. A disponibilidade do acesso à Internet via celular é um benefício real para pessoas que vivem em áreas que, de outra forma, não teriam nenhuma conectividade à Internet ou para aquelas que estão sempre em movimento. O problema da conectividade por celular é que a operadora geralmente mede o uso da largura de banda da conexão e pode cobrar taxas extras caso ele exceda o plano de dados do contrato.</p>",
+        "title": "Celular",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      },
+      {
+        "body": "<p>Serviço de satélite é uma boa opção para casas ou escritórios que não tenham acesso a DSL ou cabo. As antenas parabólicas (veja a figura) exigem uma linha de visão clara para o satélite e isso pode ser difícil de conseguir em áreas muito arborizadas ou em locais com outras obstruções aéreas. As velocidades variam de acordo com o contrato, embora geralmente sejam boas. Os custos de equipamento e instalação podem ser altos (consulte o provedor para ofertas especiais), com uma taxa mensal moderada a partir de então. Assim como o acesso por celular, a disponibilidade de acesso à Internet via satélite é um benefício real em áreas que, de outra forma, não teriam nenhuma conectividade com a Internet.</p>",
+        "title": "Satélite",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      },
+      {
+        "body": "<p>Uma opção de baixo custo que usa qualquer linha telefônica e um modem. Para se conectar ao ISP, um usuário chama o número de telefone de acesso do ISP. A pequena largura de banda fornecida por uma conexão discada via modem geralmente não é suficiente para grandes transferências de dados, mas pode ser útil quando se esta deslocando em viagens. Uma conexão discada por modem só deve ser considerada quando as opções de conexão de velocidade mais alta não estiverem disponíveis.</p>",
+        "title": "Conexão discada (dial-up)",
+        "_classes": "",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "_oldId": "f0ed8a32066840fbb22023206b1715c9",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2a477a8076994415a8f99dcc53d3dd68",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "312064f4-c6d0-4e7a-87b2-ab003dccf354",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "2a477a8076994415a8f99dcc53d3dd68",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "c52e3165-7241-4f66-b22c-ab9a8d22b2b8",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "bfb513e1bf7b46209355176a6f6db4a8",
+    "body": "<p>Em áreas metropolitanas, muitos apartamentos e pequenos escritórios estão conectados diretamente com cabos de fibra óptica. Isso permite que um provedor de serviços de Internet forneça velocidades de largura de banda mais altas e suporte a mais serviços, como Internet, telefone e TV.</p><p>A escolha da conexão varia dependendo da localização geográfica e da disponibilidade do provedor de serviço.</p><h2>Conexão via Satélite</h2>",
+    "_type": "component",
+    "title": "Satellite Connection",
+    "_oldId": "bfb513e1bf7b46209355176a6f6db4a8",
+    "details": {
+      "uuid": "adc65c90-ed56-11ea-ba47-cd0b7bcadc6c",
+      "texts": [
+        {
+          "text": "ISP (Provedor de Serviços de Satélite)",
+          "class": "text1"
+        },
+        {
+          "text": "Satélite",
+          "class": "text2"
+        },
+        {
+          "text": "Modem Satélite",
+          "class": "text3"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/adc65c90-ed56-11ea-ba47-cd0b7bcadc6c/d7c8c7df-9454-4a7d-87c5-e003cac1d793.css",
+      "aspect_ratio": "575/256",
+      "primary_image": "media/adc65c90-ed56-11ea-ba47-cd0b7bcadc6c/cf2b0dda-23c3-4c6d-b7b4-78c4f486bc6d.svg"
+    },
+    "_parentId": "1593c01c13f745659377efca462161e8",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "1fd111ba-a895-4bb7-831f-96d5b4770a30",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "1593c01c13f745659377efca462161e8",
+    "displayTitle": "Satellite Connection",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "The figure shows a user connects to ISP through satellite connection. From left to right, a laptop connects to a satellite modem, the satellite modem connects to the satellite using a dish, the satellite connects to a router in ISP through the dish at ISP site. The router is labeled ISP (Satellite Service Provider).",
+    "_activityParentId": "84eb8545-953a-4f83-ae64-0a976d7c255b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "85a80b0bef6c45768802b41238bbbf79",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "85a80b0bef6c45768802b41238bbbf79",
+    "_classes": "",
+    "_parentId": "4fcc18297f324e14b73698e85881f7cc",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "6e09a25f-6c0f-47eb-8817-8c1de4715d5e",
+    "_isOptional": true,
+    "_oldParentId": "4fcc18297f324e14b73698e85881f7cc",
+    "_activityParentId": "612dd5d9-7075-4589-b144-d6e4228aa2ce"
+  },
+  {
+    "_id": "11cb7ab5e530435691febe43388622be",
+    "body": "O que é um serviço que fornece um sinal de dados da Internet na mesma rede que oferece serviços de transmissão de televisão e telefone?",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "Internet a cabo",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Plano de dados de celular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Digital Subscriber Line (DSL )",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Acesso para convidados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "11cb7ab5e530435691febe43388622be",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">O cabo de Internet fornece um sinal de dados de Internet na mesma rede que oferece serviços de televisão e telefone de transmissão.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>O cabo de Internet fornece um sinal de dados de Internet na mesma rede que oferece serviços de televisão e telefone de transmissão.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bf0b3345cb3741a2988c2e2207c1099d",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "501f6dce-d8ae-4d47-a593-cbba65042d21",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Conectando à  Internet 1",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "bf0b3345cb3741a2988c2e2207c1099d",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "11cb7ab5e530435691febe43388622be",
+    "_activityParentId": "c111afa3-a5e9-47e7-8a87-dec6be329086",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "9ae407bbed494f8dabccfeb1d7cb2660",
+    "body": "O que é um serviço que fornece conexão de banda larga sempre ativa, usando fios de telefonia fixa existentes?",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "Acesso para convidados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Plano de dados de celular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Internet a cabo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Digital Subscriber Line (DSL )",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "9ae407bbed494f8dabccfeb1d7cb2660",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Uma conexão Digital Subscriber Line (DSL) é um serviço que fornece banda larga sempre ativa, usando fios de telefonia fixa existentes.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>Uma conexão Digital Subscriber Line (DSL) é um serviço que fornece banda larga sempre ativa, usando fios de telefonia fixa existentes.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cb571f8f52264ed9b9ea6a261f3a8a3b",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "18645023-a2a2-48fd-923b-0d5318b744a5",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Conexão à Internet 2",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "cb571f8f52264ed9b9ea6a261f3a8a3b",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "9ae407bbed494f8dabccfeb1d7cb2660",
+    "_activityParentId": "e5b641ca-d5a0-4a29-88b3-27118f1158df",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "a854b4e96e8b4c3fbb16aa5f27293731",
+    "body": "O que é um serviço de Internet que usa redes de telefonia móvel para transmitir dados?",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "Internet a cabo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Plano de dados de celular",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Digital Subscriber Line (DSL )",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Acesso para convidados",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a854b4e96e8b4c3fbb16aa5f27293731",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">Um plano de dados de celular é um serviço de Internet que usa redes de telefonia móvel para transmitir dados.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>Um plano de dados de celular é um serviço de Internet que usa redes de telefonia móvel para transmitir dados.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "12e5e037c90d4420b8b89bc6f15edf73",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "97b0345b-4e6d-4b68-bc67-74980e1677c6",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Conectando à Internet 3",
+      "_isEnabled": true,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "12e5e037c90d4420b8b89bc6f15edf73",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "a854b4e96e8b4c3fbb16aa5f27293731",
+    "_activityParentId": "aaa9382f-8c66-4d7c-9cc4-72c6a15c8d40",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "a6707c0d5a9047dd86ea63849c8e2786",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "a6707c0d5a9047dd86ea63849c8e2786",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "75e9a4fd72174746a0bfde91c0f48be3",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "adeaf8c2-80dc-4e35-ae63-8fb2d355cca2",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "75e9a4fd72174746a0bfde91c0f48be3",
+    "displayTitle": "",
+    "_activityParentId": "ae197d91-b08c-405f-9e8c-39d186cb904e"
+  },
+  {
+    "_id": "262d25edb187419aa6fb0bdcfabaa03c",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.4 Resumo de componentes de rede, tipos e conexões</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4 Resumo de componentes de rede, tipos e conexões",
+    "_oldId": "262d25edb187419aa6fb0bdcfabaa03c",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "103a07e889644434a8d4c306e5b2c0ab",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "0c311e74-e43e-4c94-8088-810b75ef6446",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "103a07e889644434a8d4c306e5b2c0ab",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "16a9be9a-214f-497a-ac48-8f989eaac8ec",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "029eb36e5f4b4111bdf8615189e5f535",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4 Resumo de componentes de rede, tipos e conexões",
+    "_oldId": "029eb36e5f4b4111bdf8615189e5f535",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "39a68101a5c74fac801b659c0e227acd",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f0ee50de-0da6-4a5d-be14-833419445202",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "39a68101a5c74fac801b659c0e227acd",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "331af24a-04d3-452c-9d7d-e6a1997d84ec",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "76b32d687efc444e90e8a07452b7c47e",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>Todos os computadores conectados a uma rede que participam diretamente na comunicação de rede são classificados como hosts. Os hosts podem enviar e receber mensagens na rede. Nas redes modernas, um host pode atuar como cliente, servidor ou ambos. O software instalado no computador determina qual função o computador desempenha.</p><p>Os softwares de cliente e de servidor geralmente são executados em computadores separados, mas também é possível que um computador execute as duas funções ao mesmo tempo. Em pequenas empresas e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é chamado de rede ponto a ponto(P2P). Em empresas de grande porte, devido ao potencial para quantidades altas de tráfego de rede, geralmente é necessário ter servidores dedicados para suportar o número de solicitações de serviço. As redes P2P são fáceis de configurar, menos complexas, de custo mais baixo e podem ser usadas para tarefas simples, como transferência de arquivos e compartilhamento de impressoras. No entanto, não existe uma administração centralizada. Elas têm menos segurança, não são escaláveis e podem ter um desempenho mais lento.</p>",
+        "title": "Clientes e Servidores",
+        "_classes": ""
+      },
+      {
+        "body": "Existem símbolos que representam vários tipos de equipamentos de rede. A infraestrutura de rede é a plataforma que suporta a rede. Ela fornece o canal estável e confiável sobre o qual nossas comunicações podem ocorrer. A infraestrutura de rede contém três categorias de componentes de hardware: dispositivos intermediários, dispositivos final e meios físicos de rede. O hardware é geralmente composto pelos componentes visíveis da plataforma de rede, tais como um laptop, um PC, um switch, um roteador, um access point sem fio ou os cabos usados para conectar os dispositivos. Os componentes que não estão visíveis incluem mídia sem fio.<p>Os dispositivos finais, ou hosts, formam a interface entre os usuários e a rede de comunicação subjacente. Alguns exemplos de dispositivos finais são:</p><ul><li>Computadores (estações de trabalho, laptops, servidores de arquivo, servidores Web);</li><li>Impressoras de rede</li><li>Telefones e equipamento de teleconferência</li><li>Câmeras de segurança</li><li>Dispositivos móveis (como smartphones, tablets, PDAs, leitores de cartão de débito/crédito sem fio e scanners de código de barras)</li></ul>",
+        "title": "Componentes de Rede",
+        "_classes": ""
+      },
+      {
+        "body": "<p>Um ISP fornece um link entre a rede doméstica e a Internet. Um ISP pode ser o provedor de TV a cabo local, um provedor de serviços de telefonia fixa, a rede celular que fornece seu serviço de smartphone ou um provedor independente que aluga largura de banda na infraestrutura de rede física de outra empresa. Cada ISP conecta-se a outros ISPs para formar uma rede de links que interconectam usuários em todo o mundo. Os ISPs são conectados de maneira hierárquica que garante que o tráfego da Internet geralmente siga o caminho mais curto da origem ao destino.</p><p>A interconexão de ISPs, que forma a espinha dorsal da internet, é uma teia complexa de cabos de fibra ótica com switches e roteadores de rede caros que direcionam o fluxo de informações entre os hosts de origem e destino.</p><p>Para ele, conectar-se ao ISP é um processo bastante simples. Esta é a opção de conexão mais comum. Consiste em usar um roteador integrado sem fio para se conectar ao ISP. O roteador inclui um switch para conectar hosts com fio e um AP sem fio para conectar hosts sem fio. O roteador também fornece informações de endereçamento IP do cliente e segurança para hosts internos. Os dois métodos mais comuns são cabo e DSL. Outras opções  incluem celular, satélite e conexão discada  usando uma linha telefônica.</p>",
+        "title": "Opções de conectividade com o ISP",
+        "_classes": ""
+      }
+    ],
+    "_oldId": "76b32d687efc444e90e8a07452b7c47e",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "a776774f006b4ecbb483f3e597f84231",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "b93feb4e-d69a-4456-95e6-398d69f111a6",
+    "instruction": "",
+    "_oldParentId": "a776774f006b4ecbb483f3e597f84231",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "47ec0f4a-938d-4885-bac2-92581c1a989e",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "00532c0a254c4c5c850e704c946ce9c5",
+    "body": "<a></a href='#'>",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "00532c0a254c4c5c850e704c946ce9c5",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/6b1e68b8c8cb41d0bc867e497f5a1435.png",
+      "small": "pt-BR/assets/6b1e68b8c8cb41d0bc867e497f5a1435.png",
+      "attribution": ""
+    },
+    "_parentId": "40407debb6064d9aab55495a324333c6",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "432487e7-f8bc-4253-b750-baaed4d8995b",
+    "instruction": "",
+    "_oldParentId": "40407debb6064d9aab55495a324333c6",
+    "displayTitle": "",
+    "_activityParentId": "6ba100f2-9af4-41a6-bc8a-f5791d817830",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "408e8a019169400f8fe4f51f0b6f678e",
+    "body": "<p>Você já pediu algum móvel que precisava montar? A caixa tem todas as peças e partes necessárias, juntamente com as instruções de montagem. Ele ajuda você a analisar todos esses itens enquanto lê as instruções. Pense na sua rede. Você sabia quais eram os diferentes dispositivos e tipos de conexão antes de usar este módulo? Você observa essas peças e partes de forma diferente agora?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.4.2 Webster - Questões para Reflexão",
+    "_oldId": "408e8a019169400f8fe4f51f0b6f678e",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "40407debb6064d9aab55495a324333c6",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "8a159b8d-9749-45a7-ab94-9811f3857d40",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 11,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "40407debb6064d9aab55495a324333c6",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "6ba100f2-9af4-41a6-bc8a-f5791d817830",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "4a43be10450846168300d49351d99d93",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "4a43be10450846168300d49351d99d93",
+    "_classes": "",
+    "_parentId": "9cc6b0b937a14022a1556842c3f95e35",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "be977556-5936-46b9-b861-1d510973d5c6",
+    "_isOptional": true,
+    "_oldParentId": "9cc6b0b937a14022a1556842c3f95e35",
+    "_activityParentId": "058df83f-c6d2-4a5b-88ab-a9834e3843d2"
+  },
+  {
+    "_id": "af79317b9f7b43739e027d0aa6329f2a",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "af79317b9f7b43739e027d0aa6329f2a",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Quiz sobre Componentes de Rede, Tipos e Perguntas",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "5a2437b6801942d687b27c41d400a689",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4a18ac72-e07e-4f49-9904-9c97b6a63c75",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "5a2437b6801942d687b27c41d400a689",
+    "displayTitle": "",
+    "_activityParentId": "f91dc3d6-cafc-4b3c-876d-dee2f72cade5",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "827940640b474641ad185ec1af53becc",
+    "body": "Que tipo de rede é definida por dois computadores que podem enviar e receber solicitações para recursos?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "cliente/servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ponto-a-ponto",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "empresa",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "campus",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "827940640b474641ad185ec1af53becc",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A forma de rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio.</p>",
+      "_incorrect": {
+        "final": "<p>A forma de rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "ff1d7beecfae4fd28ab65789750374dc",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "dbe8c839-be52-4f74-b8e1-ea011219682a",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "ff1d7beecfae4fd28ab65789750374dc",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286753",
+    "_activityParentId": "15400420-5b02-4843-8a1b-cb53e83e4e8d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "8ad0c0ac91f440bf944c0a4474ba454e",
+    "body": "Quais são as duas funções dos dispositivos finais na rede? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Eles originam os dados que fluem na rede.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Eles direcionam os dados por caminhos alternativos em caso de falhas de link.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles filtram o fluxo de dados para melhorar a segurança.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Eles são a interface entre as pessoas e a rede de comunicação.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Eles oferecem um canal para o percurso da mensagem na rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "8ad0c0ac91f440bf944c0a4474ba454e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os dispositivos finais originam os dados que fluem na rede. Os dispositivos intermediários direcionam os dados por caminhos alternativos em caso de falhas de link e filtram o fluxo de dados para melhorar a segurança. O meio físico de rede é o canal que as mensagens percorrem na rede.</p>",
+      "_incorrect": {
+        "final": "<p>Os dispositivos finais originam os dados que fluem na rede. Os dispositivos intermediários direcionam os dados por caminhos alternativos em caso de falhas de link e filtram o fluxo de dados para melhorar a segurança. O meio físico de rede é o canal que as mensagens percorrem na rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "323e9c6d05e74f2cbf4958801955032e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "0ecb6c65-e334-4ea9-83e2-eb483f934c38",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "323e9c6d05e74f2cbf4958801955032e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "245478",
+    "_activityParentId": "4a2b3b11-c2ee-4d0a-a56f-ca2125138474",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5d56cdf656a749a78af5f231e22fc66c",
+    "body": "Um usuário doméstico está procurando a conexão de um ISP que oferece transmissão digital de alta velocidade através de linhas telefônicas regulares. Que tipo de conexão de ISP deve ser usada?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "DSL",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "conexão discada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "satélite",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "modem celular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "cable modem",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5d56cdf656a749a78af5f231e22fc66c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">DSL é a melhor tecnologia para usar em linhas telefônicas existentes. Muitos ISPs têm uma pesquisa em seu site onde você pode inserir seu número de telefone e ver se eles podem oferecer o serviço.</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">DSL é a melhor tecnologia para usar em linhas telefônicas existentes. Muitos ISPs têm uma pesquisa em seu site onde você pode inserir seu número de telefone e ver se eles podem oferecer o serviço.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p dir=\"ltr\">DSL é a melhor tecnologia para usar em linhas telefônicas existentes. Muitos ISPs têm uma pesquisa em seu site onde você pode inserir seu número de telefone e ver se eles podem oferecer o serviço.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "525e8b83adf142418d3fd99833fe9f39",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "76d078df-6e90-4ef5-9392-77852ad35853",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "525e8b83adf142418d3fd99833fe9f39",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "223455",
+    "_activityParentId": "1f1e7504-3094-4bcc-8a27-d550c433eb19",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "aa0e2526ec774cff893c1a927362d18c",
+    "body": "Que tipo de conexão com a Internet seria melhor para uma residência em uma área remota sem cobertura de celular ou conectividade cabeada?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "conexão discada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "celular",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "satélite",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "DSL",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "aa0e2526ec774cff893c1a927362d18c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O serviço de Internet via satélite fornece a melhor opção para um usuário doméstico que, de outra forma, não teria nenhuma conexão à Internet. A Internet do celular está disponível somente em áreas com cobertura de telefone celular.</p>",
+      "_incorrect": {
+        "final": "<p>O serviço de Internet via satélite fornece a melhor opção para um usuário doméstico que, de outra forma, não teria nenhuma conexão à Internet. A Internet do celular está disponível somente em áreas com cobertura de telefone celular.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9b83b45ff3d549dea2afb8be250b738c",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "05c49862-b171-4c55-8a8c-397be7aaec00",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9b83b45ff3d549dea2afb8be250b738c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286166",
+    "_activityParentId": "533a6183-961c-45cd-8803-ccba228e0e4f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "42a657f90d1f4e7495700c46649e22fb",
+    "body": "Qual termo descreve corretamente a função de um ISP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "responsável pelo gerenciamento de redes locais",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "responsável pela manutenção das redes SOHO",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "responsável por fornecer o link entre uma rede privada e a Internet.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "responsável por fornecer segurança em redes privadas",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "42a657f90d1f4e7495700c46649e22fb",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>ISP significa Provedor de Serviços de Internet. Um ISP é responsável por fornecer o link entre uma rede privada, tal como uma rede doméstica ou comercial, e a Internet.</p>",
+      "_incorrect": {
+        "final": "<p>ISP significa Provedor de Serviços de Internet. Um ISP é responsável por fornecer o link entre uma rede privada, tal como uma rede doméstica ou comercial, e a Internet.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "bf7ab40c5bb44dd6a0dc9a7e33afb448",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1f86e797-4d6c-4de6-8b99-0a826edd8e82",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "bf7ab40c5bb44dd6a0dc9a7e33afb448",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410437",
+    "_activityParentId": "eb9a2dfe-ac82-4a44-ba71-686c375d8da8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bc2db8ed4bd449e5b583b4b55e476284",
+    "body": "Qual dispositivo é um dispositivo intermediário?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "firewall",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "PC",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "servidor",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "dispositivo inteligente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "bc2db8ed4bd449e5b583b4b55e476284",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Um dispositivo intermediário envia mensagens de rede para um destino final. Exemplos de dispositivos intermediários incluem um firewall, roteador, switch, switch multicamada e roteador sem fio.</p>",
+      "_incorrect": {
+        "final": "<p>Um dispositivo intermediário envia mensagens de rede para um destino final. Exemplos de dispositivos intermediários incluem um firewall, roteador, switch, switch multicamada e roteador sem fio.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b647bebda16a428388e9ad215d22e31e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "bd879f7f-349d-474e-a9f0-4eec7fa60318",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b647bebda16a428388e9ad215d22e31e",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "296853",
+    "_activityParentId": "97b8ae23-3772-4dae-89c3-3efc10ee13f6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c4d54ca6a0e74eebaff4a7777e3bc7ba",
+    "body": "Qual cenário descreve uma rede ponto-a-ponto?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Os usuários acessam arquivos compartilhados por um servidor de arquivos.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um usuário acessa uma página da Web no site da empresa.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um usuário compartilhou uma impressora conectada à estação de trabalho.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Os usuários imprimem documentos de uma impressora da rede com uma placa de rede incorporada.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "c4d54ca6a0e74eebaff4a7777e3bc7ba",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Em uma rede ponto-a-ponto, não há um servidor dedicado ou centralizado. Um computador do usuário pode ser um cliente que solicita o serviço de outro computador do usuário, e um servidor que compartilha um recurso de rede (como uma impressora) com outros usuários.</p>",
+      "_incorrect": {
+        "final": "<p>Em uma rede ponto-a-ponto, não há um servidor dedicado ou centralizado. Um computador do usuário pode ser um cliente que solicita o serviço de outro computador do usuário, e um servidor que compartilha um recurso de rede (como uma impressora) com outros usuários.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "68cc24ae12aa4e33bb3a809fc0ed127d",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "87bbfd8a-fda6-4748-86bd-c2762f498423",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "68cc24ae12aa4e33bb3a809fc0ed127d",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286748",
+    "_activityParentId": "9bbe3234-fc96-4dd6-98b2-f6baf33f93fc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5fe60b6fc0754b5cadea90b8de75145b",
+    "body": "Que termo é usado para descrever um dispositivo de rede com a função principal de fornecer informações a outros dispositivos?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "estação de trabalho",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "console",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "servidor",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "cliente",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5fe60b6fc0754b5cadea90b8de75145b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os servidores são dispositivos com um software instalado que possibilitam que eles forneçam informações, como páginas da Web ou e-mails.</p>",
+      "_incorrect": {
+        "final": "<p>Os servidores são dispositivos com um software instalado que possibilitam que eles forneçam informações, como páginas da Web ou e-mails.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2af1a1077e5641d09284eedc673bf842",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "674ecbab-3931-4c0a-bef6-f24fca81dc7d",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2af1a1077e5641d09284eedc673bf842",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286752",
+    "_activityParentId": "62956f8c-019e-4e19-8bc6-c03c0c8c5194",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "476d2cb22b224843b3d00549b03bbb02",
+    "body": "Qual é uma vantagem do modelo de rede ponto-a-ponto?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "escalabilidade",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "alto nível de segurança",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "facilidade de configuração",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "administração centralizada",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "476d2cb22b224843b3d00549b03bbb02",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>A rede ponto-a-pontor mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio. As vantagens da rede ponto-a-ponto incluem facilidade de configuração, baixo custo e complexidade menor.</p>",
+      "_incorrect": {
+        "final": "<p>A rede ponto-a-ponto mais simples consiste em dois computadores diretamente conectados por meio de uma conexão cabeada ou sem fio. As vantagens da rede ponto-a-ponto incluem facilidade de configuração, baixo custo e complexidade menor.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7847dec5bb9545cc96d7fc24eb771006",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "67cc9d88-9951-456d-ba4a-90054a5b5921",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7847dec5bb9545cc96d7fc24eb771006",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "286761",
+    "_activityParentId": "07d707f8-768d-4265-a5d3-374bb59fadf4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1312861ba3e4409294b558ba6ef62c1a",
+    "body": "Qual é uma característica de um aplicativo ponto a ponto?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Cada dispositivo que usa o aplicativo provê uma interface de usuário e executa um serviço em segundo plano.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Cada dispositivo pode atuar como um cliente ou um servidor, mas não ao mesmo tempo.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Os recursos necessários para o aplicativo são centralizados.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Um dispositivo é designado como servidor e um dispositivo é designado como cliente para todas as comunicações e serviços",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "1312861ba3e4409294b558ba6ef62c1a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>As redes ponto a ponto existem diretamente entre os dispositivos cliente, sem recursos centralizados ou autenticação. Também existem sistemas híbridos ponto a ponto que descentralizam o compartilhamento de recursos, mas podem usar índices centralizados para apontar para os locais de recursos.</p>",
+      "_incorrect": {
+        "final": "<p>As redes ponto a ponto existem diretamente entre os dispositivos cliente, sem recursos centralizados ou autenticação. Também existem sistemas híbridos ponto a ponto que descentralizam o compartilhamento de recursos, mas podem usar índices centralizados para apontar para os locais de recursos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d101dc6455fb45288234d8467062aa7c",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "65844421-ddf4-4ef4-9570-91f9f5ada98b",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d101dc6455fb45288234d8467062aa7c",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410512",
+    "_activityParentId": "db99c68a-9891-49e7-9063-f348cec504c7",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "cb1a8b1f779d4642a4068cca383a1778",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "cb1a8b1f779d4642a4068cca383a1778",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a391d1d2f1e1481d8a0de7c3d0fe5c90",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "43f28bc2-91a6-40d0-81c7-c0d642a5d727",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a391d1d2f1e1481d8a0de7c3d0fe5c90",
+    "displayTitle": "",
+    "_assessmentId": "2c0ecc380ee24aa5b0cb553d3b085954",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "037dc905-8d78-48ec-9dc5-fc11c8c88106",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "190fe998d0864b2cb1e9d8ad99ca1c7c",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "190fe998d0864b2cb1e9d8ad99ca1c7c",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "f1b0e4bf70a9401496792e91d78e96ba",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "a6c51ca1-5f4d-49b1-95cb-392e8afacd11",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "f1b0e4bf70a9401496792e91d78e96ba",
+    "displayTitle": "",
+    "_activityParentId": "8760187a-bbef-4fe7-8094-b708137269e8"
+  }
+]

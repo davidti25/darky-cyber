@@ -1,0 +1,263 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori encontra Rina para almoçar novamente. Kishori está animada para contar a Rina tudo que ela aprendeu sobre endereços IPv4. Rina a parabeniza e pergunta se ela já ouviu falar sobre IPv6. IPv6? Kishori não tem ideia do que é IPv6! E você? Deixe-me ajudá-lo com isso. Vamos começar com este módulo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 Problemas de IPv4",
+      "content": "{{_moduleNumber}}.1 Problemas do IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".1 Problemas de IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "RIR IPv4 Exhaustion Dates",
+      "content": "Você já sabe que o IPv4 está ficando sem endereços. É por isso que você precisa aprender sobre IPv6.\nProjetado para ser o sucessor do IPv4, O IPv6 tem um espaço de endereço maior, de 128 bits, fornecendo 340 undecilhão (ou seja, 340 seguidos por 36 zeros) de endereços possíveis. No entanto, o IPv6 é mais do que, apenas, endereços maiores.\nQuando a IETF começou o desenvolvimento de um sucessor para o IPv4, aproveitou para corrigir as limitações do IPv4 e incluir aprimoramentos. Um exemplo é o ICMPv6 (Internet Control Message Protocol versão 6), que inclui a resolução de endereços e a configuração automática de endereços, não encontradas no ICMP para IPv4 (ICMPv4).\nO esgotamento de endereços IPv4 tem sido o fator motivador para a migração para o IPv6. À medida que África, Ásia e outras áreas do mundo ficarem mais conectadas à Internet, não haverá endereços IPv4 suficientes para acomodar esse crescimento. Conforme mostra a figura, quatro dos cinco RIRs estão com endereços IPv4 esgotados.\nDatas de Esgotamento do IPv4 por RIR",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O IPv4 tem um máximo teórico de 4,3 bilhões de endereços. Os endereços privados em combinação com o Network Address Translation (NAT - tradução de endereços de rede) têm sido fundamentais para retardar o esgotamento do espaço de endereços IPv4. No entanto, o NAT é problemático para muitos aplicativos, cria latência e possui limitações que impedem severamente as comunicações ponto a ponto.\nCom o número cada vez maior de dispositivos móveis, os provedores móveis têm liderado o caminho para a transição para o IPv6. Os dois principais provedores de telefonia móvel nos Estados Unidos relatam que mais de 90% de seu tráfego usa  IPv6.\nA maioria dos principais ISPs e provedores de conteúdo, como YouTube, Facebook e NetFlix, também fizeram a transição. Muitas empresas como Microsoft, Facebook e LinkedIn estão fazendo transição para IPv6 somente internamente. Em 2018, o ISP Comcast de banda larga relatou a implantação de mais de 65% e a British Sky Broadcasting de mais de 86%.\nInternet das Coisas\nA internet de hoje é significativamente diferente da internet das últimas décadas. A internet de hoje é mais do que e-mail, páginas da web e transferências de arquivos entre computadores. A Internet em evolução está se tornando a Internet das Coisas (IoT - Internet of Things). Computadores, tablets e smartphones não serão mais os únicos dispositivos que acessam a internet  Os dispositivos equipados com sensor e prontos para a Internet do amanhã incluirão tudo, desde automóveis e dispositivos biomédicos, até eletrodomésticos e ecossistemas naturais.\nCom uma população cada vez maior na Internet, espaço de endereços IPv4 limitado, problemas com NAT e a Internet das Coisas, chegou o momento de iniciar a transição para o IPv6."
+    },
+    {
+      "type": "accordion",
+      "title": ".1.2 Coexistência entre IPv4 e IPv6",
+      "content": "**Pilha Dupla:** A pilha dupla permite que IPv4 e IPv6 coexistam no mesmo segmento de rede. Os dispositivos de pilha dupla executam os protocolos IPv4 e IPv6 simultaneamente. Conhecido como IPv6 nativo, isso significa que a rede do cliente tem uma conexão IPv6 com seu ISP e é capaz de acessar o conteúdo encontrado na internet através de IPv6.\n\n**Tunelamento:** Tunelamento é um método de transporte de pacote IPv6 através de uma rede IPv4. O pacote IPv6 é encapsulado dentro de um pacote IPv4, de forma semelhante a outros tipos de dados.\n\n**Conversão:** O NAT64 (Network Address Translation 64) permite que os dispositivos habilitados para IPv6 se comuniquem com os dispositivos habilitados para IPv4 usando uma técnica de conversão semelhante ao NAT IPv4. Um pacote IPv6 é traduzido para um pacote IPv4 e um pacote IPv4 é traduzido para um pacote IPv6."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: O tunelamento e a tradução são para transição para IPv6 nativo e só devem ser usados quando necessário. O objetivo deve ser as comunicações IPv6 nativas da origem até o destino."
+    },
+    {
+      "type": "text",
+      "title": ".2 Endereçamento IPv6",
+      "content": "{{_moduleNumber}}.2 Endereçamento IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".2 Endereçamento IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Sistema de numeração hexadecimal",
+      "content": "Antes de abordar o endereçamento IPv6, é importante que você saiba que os endereços IPv6 são representados usando números hexadecimais. Este sistema numérico, de base dezesseis, usa os dígitos de 0 a 9 e as letras de A a F:\n0 1 2 3 4 5 6 7 8 9 A B C D E F\nNos endereços IPv6, esses 16 dígitos são representados por hextetos (discutidos a seguir), permitindo representar esses endereços enormes em um formato muito mais legível."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Segmentos ou Hextets de 16 bits",
+      "content": "O primeiro passo para aprender sobre IPv6 em redes é entender a forma como um endereço IPv6 é escrito e formatado. Os endereços IPv6 são muito maiores do que os endereços IPv4, razão pela qual é improvável que fiquemos sem eles.\nOs endereços IPv6 têm 128 bits e são escritos como uma sequência de valores hexadecimais. Cada 4 bits são representados por um único dígito hexadecimal, totalizando 32 valores hexadecimais, como mostra a Figura 1. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.\nSegmentos de 16 bits ou Hextets",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Formatos e regras de endereçamento IPv6",
+      "content": "{{_moduleNumber}}.3 Resumo de Formatos e regras de endereçamento IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Formatos e regras de endereçamento IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Problemas de IPv4:** O esgotamento de endereços IPv4 tem sido o fator motivador para a migração para o IPv6. O IPv6 tem um espaço de endereços maior, de 128 bits, fornecendo 340 undecilhões de endereços possíveis. Quando a IETF começou o desenvolvimento de um sucessor para o IPv4, aproveitou para corrigir as limitações do IPv4 e incluir aprimoramentos. Um exemplo é o ICMPv6, que inclui resolução de endereços e configuração automática de endereços não encontrados no ICMPv4.\nAmbos IPv4 e IPv6 coexistem e a transição para apenas IPv6 levará vários anos. A IETF criou vários protocolos e ferramentas para ajudar os administradores de rede a migrarem as redes para IPv6. As técnicas de migração podem ser divididas em três categorias: pilha dupla, encapsulamento e tradução. Os dispositivos de pilha dupla executam os protocolos IPv4 e IPv6 simultaneamente. Tunelamento é um método de transporte de pacote IPv6 através de uma rede IPv4. O pacote IPv6 é encapsulado dentro de um pacote IPv4, de forma semelhante a outros tipos de dados. O NAT64 permite que dispositivos habilitados para IPv6 se comuniquem com dispositivos habilitados para IPv4 usando uma técnica de tradução semelhante ao NAT para IPv4. Um pacote IPv6 é traduzido para um pacote IPv4 e um pacote IPv4 é traduzido para um pacote IPv6.\n\n**Endereçamento IPv6:** Os endereços IPv6 têm 128 bits e são escritos como uma sequência de valores hexadecimais. Cada quatro bits são representados por um único dígito hexadecimal; perfazendo um total de 32 dígitos hexadecimais. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas. No IPv6, um hexteto que se refere a um segmento de 16 bits, ou quatro dígitos hexadecimais. Cada “x” é um único hexteto, que tem 16 bits ou quatro dígitos hexadecimais. Formato preferencial significa que o endereço IPv6 é gravado usando todos os 32 dígitos hexadecimais. Aqui está um exemplo - fe80:0000:0000:0000:0123:4567:89ab:cdef.\nExistem duas regras que ajudam a reduzir o número de dígitos necessários para representar um endereço IPv6.\nRegra 1 - omitir zeros à esquerda Você só pode omitir zeros à esquerda, não zeros à direita.\n01AB pode ser representado como 1AB\n09f0 pode ser representado como 9f0\n0a00 pode ser representado como a00\n00ab pode ser representado como ab\nRegra 2 - dois pontos duplos Dois-pontos duplos (::) podem substituir qualquer sequência única e contígua de um ou mais hextetos de 16 bits que consistam em zeros. Por exemplo, 2001:db8:cafe: 1:0:0:0:1 (0s iniciais omitidos) poderia ser representado como 2001:db8:cafe:1::1. Os dois-pontos duplos (::) são usados no lugar dos três hextetos compostos por zeros (0:0:0). Os dois-pontos duplos (::) só podem ser usados uma vez dentro de um endereço, caso contrário, haveria mais de um endereço resultante possível. Se um endereço tiver mais de uma string contígua de hextetos com zero, a melhor prática é usar dois pontos duplos (::) na string mais longa. Se as strings forem iguais, a primeira string deve usar dois pontos duplos (::)."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Quando eu estava começando a entender os endereços IPv4, aprendi sobre os endereços IPv6! Mas, como parece que a maioria das redes usa os dois tipos de endereços, estou feliz por saber um pouco sobre cada tipo. Acho que é como carros na estrada. Alguns são antigos, mas ainda funcionam. Os carros mais novos têm muito mais recursos e opções do que os carros mais antigos. E os carros mais antigos e mais novos estão todos andando na mesma estrada. Qual é uma vantagem óbvia de usar endereços IPv6 em vez de usar endereços IPv4?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual é o fator motivador mais importante para migrar para o IPv6?",
+      "options": [
+        "Melhor desempenho",
+        "Endereços IPv6 que são mais fáceis de trabalhar com",
+        "melhor segurança com IPv6",
+        "Esgotamento do espaço de endereços IPv4"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO driver principal ou fator mais importante para o IPv6 é o esgotamento do espaço de endereços IPv4.",
+      "raw_id": "76dd3a49743a4aceaa0ea2260f79fb50"
+    },
+    {
+      "question": "Verdadeiro ou Falso: 4 em cada 5 RIRs não têm mais endereços IPv4 suficientes para alocar regularmente aos clientes.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA resposta correta é Falso. Quatro dos cinco RIRs, ARIN, APNIC, LACNIC e RIPENCC esgotaram seus pools de endereços IPv4.",
+      "raw_id": "8b503a3e22b945539e3e0608fc1d7b12"
+    },
+    {
+      "question": "Quais das seguintes técnicas usam conectividade IPv6 nativa?",
+      "options": [
+        "pilha dupla",
+        "tunelamento",
+        "tradução",
+        "todos os itens acima"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nSomente a pilha dupla usa conectividade IPv6 nativa.",
+      "raw_id": "f3d0e0ba7f804c30aed660e19401bb2a"
+    },
+    {
+      "question": "Qual é a vantagem de usar o IPv6?",
+      "options": [
+        "mais endereços para redes e hosts",
+        "conectividade mais rápida",
+        "maior largura de banda",
+        "mais frequências"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um endereço IPv6 é composto por 128 bits em contraste aos 32 bits do endereço IPv4. Assim, ele oferece muito mais endereços para redes e hosts do que um endereço IPv4.",
+      "raw_id": "4e55652b89854b20881f94af9dcda87b"
+    },
+    {
+      "question": "Qual foi o motivo para a criação e a implementação do IPv6?",
+      "options": [
+        "Para facilitar a leitura de um endereço de 32 bits",
+        "para aliviar o esgotamento do endereço IPv4",
+        "para fornecer mais espaço de endereços no Registro de Nomes da Internet",
+        "Para permitir o suporte ao NAT para o endereçamento privado"
+      ],
+      "correctIndex": 1,
+      "explanation": "O espaço de endereçamento IPv4 está esgotado, por conta do rápido crescimento da Internet e dos dispositivos conectados à Internet. O IPv6 expande o espaço do endereçamento IP ao aumentar o comprimento do endereço de 32 bits para 128 bits, o que deverá prover endereços suficientes para as futuras necessidades de crescimento da Internet por muitos anos.",
+      "raw_id": "3ae7347f6e44482d829367ec74a80cb9"
+    },
+    {
+      "question": "Qual letra representa o valor hexadecimal do número decimal 15?",
+      "options": [
+        "f",
+        "g",
+        "h",
+        "b"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os números hexadecimais são 0,1,2,3,4,5,6,7,8,9, a, b, c, d, e, f. O número hexadecimal 0 representa 0 em decimal e é representado como 0000 em binário. O número hexadecimal f representa 15 em decimal.",
+      "raw_id": "e20df9c7cadf416ab20def9b1cd5f69d"
+    },
+    {
+      "question": "Um PC é configurado com um endereço IPv4 e IPv6 no mesmo adaptador de rede.Qual estratégia de coexistência IPv4 e IPv6 é implementada no PC?",
+      "options": [
+        "Pilha Dupla",
+        "NAT64",
+        "Tunelamento",
+        "NAT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quando um dispositivo é configurado com ambas as pilhas de protocolo IPv4 e IPv6, o dispositivo está implementando uma estratégia de pilha dupla.",
+      "raw_id": "536da18c05bb4306ae6a7f9f213e35f0"
+    },
+    {
+      "question": "Quais são os dois métodos que podem ser usados para encurtar a notação de um endereço IPv6? (Escolha duas.)",
+      "options": [
+        "uso de dois pontos duplos (::) para representar uma sequência de hextetos zero.",
+        "omitir todos os zeros à esquerda de todos os hextetos no endereço",
+        "remover todos os zeros à direita contidos no endereço IPv6",
+        "usar dois pontos duplo para representar uma sequência do mesmo valor diferente de zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Para ajudar a reduzir a notação de endereços IPv6, dois pontos duplos (::) podem substituir qualquer string única e contígua de um ou mais hextetos de 16 bits compostas de zeros.  Além disso, todos os zeros à esquerda podem ser omitidos de qualquer hexteto na notação.",
+      "raw_id": "4427068165ca451db1c6102d8fdc3a27"
+    },
+    {
+      "question": "Qual técnica de migração de rede encapsula pacotes IPv6 dentro de pacotes IPv4 para transportá-los pelas infraestruturas de rede IPv4?",
+      "options": [
+        "encapsulamento",
+        "tradução",
+        "pilha dupla",
+        "tunelamento"
+      ],
+      "correctIndex": 3,
+      "explanation": "A técnica de migração por tunelamento encapsula um pacote IPv6 dentro de um pacote IPv4. O encapsulamento monta uma mensagem e adiciona informações a cada camada para transmitir os dados pela rede. A tradução é uma técnica de migração que permite que dispositivos habilitados para IPv6 se comuniquem com dispositivos habilitados para IPv4 usando uma técnica de tradução semelhante ao NAT para IPv4. A técnica de migração de pilha dupla permite que pilhas de protocolo IPv4 e IPv6 coexistam na mesma rede simultaneamente.",
+      "raw_id": "5e2df7c580864f0ca56ce84ed2ec870b"
+    },
+    {
+      "question": "O que dois dois pontos (::) representam em uma notação de endereço IPv6?",
+      "options": [
+        "uma sequência contínua de um ou mais hextets que contêm apenas zeros",
+        "pelo menos oito ocorrências do mesmo valor diferente de zero",
+        "o limite entre a porção de rede e a porção de host do endereço",
+        "o início do endereço MAC atribuído ao dispositivo IPv6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Para ajudar a reduzir a notação de endereços IPv6, dois pontos duplos (::) podem substituir qualquer string única e contígua de um ou mais hextetos consistindo em zeros.  Apenas uma instância de dois pontos duplos pode ser usada em qualquer notação IPv6.",
+      "raw_id": "98948e0231c34b529fa4172e4f6426e6"
+    },
+    {
+      "question": "O IPv6 aumenta o tamanho do endereço IP de 32 bits para quantos bits?",
+      "options": [
+        "64",
+        "96",
+        "128",
+        "192",
+        "256"
+      ],
+      "correctIndex": 2,
+      "explanation": "O IPv6 aumenta o tamanho do endereço, de 32 bits no IPv4, para 128 bits.",
+      "raw_id": "d5c7297e5da44c47be725b1805bea46f"
+    },
+    {
+      "question": "Qual tecnologia permite que dispositivos em uma rede somente IPv6 se comuniquem com dispositivos em uma rede somente IPv4?",
+      "options": [
+        "NAT64",
+        "tunelamento",
+        "DHCP",
+        "endereçamento de link-local"
+      ],
+      "correctIndex": 0,
+      "explanation": "O NAT64 pode ser usado em um roteador para traduzir um endereço IPv6 para um endereço IPv4 e para traduzir um endereço IPv4 para um endereço IPv6. Essa tecnologia permite que os dispositivos se comuniquem, mesmo que usem diferentes versões de IP.",
+      "raw_id": "fcb51ee1dc08403c86098f8902b42366"
+    },
+    {
+      "question": "Qual notação de endereço IPv6 é válida?",
+      "options": [
+        "2001:0DB8::ABCD::1234",
+        "ABCD:160D::4GAB:FFAB",
+        "2001:DB8:0:1111::200",
+        "2001::ABCD::"
+      ],
+      "correctIndex": 2,
+      "explanation": "Os endereços IPv6 são representados por 32 dígitos hexadecimais (0-9, A-F). O tamanho da notação pode ser reduzido eliminando zeros à esquerda em qualquer hexteto e substituindo uma única sequência contígua de hextetos contendo todos os zeros por dois pontos duplos, que só podem ser usados uma vez.",
+      "raw_id": "9395db9d216640f0950ddb4ed19bff0a"
+    },
+    {
+      "question": "Quais duas instruções estão corretas sobre endereços IPv4 e IPv6? (Escolha duas.)",
+      "options": [
+        "Os endereços IPv6 são representados por números hexadecimais.",
+        "Os endereços IPv4 são representados por números hexadecimais.",
+        "Os endereços IPv6 têm 32 bits de comprimento.",
+        "Os endereços IPv4 têm 32 bits de comprimento.",
+        "Os endereços IPv4 têm 128 bits de comprimento.",
+        "Os endereços IPv6 têm 64 bits de comprimento."
+      ],
+      "correctIndex": 3,
+      "explanation": "Os endereços IPv4 são representados por números decimais separados por pontos e têm 32 bits de comprimento. Os endereços IPv6 são representados por números hexadecimais e têm 128 bits de comprimento.",
+      "raw_id": "40800fb0d62e43e0977550cbce1c8b77"
+    }
+  ],
+  "images": []
+}

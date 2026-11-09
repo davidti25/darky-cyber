@@ -1,0 +1,351 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori tem um novo paciente, Divya, que foi internado hoje. Como Srinivas, Divya não fala a mesma língua que Kishori fala. O Divya só fala telugu e tem inglês limitado. Kishori quer enviar um e-mail para as enfermeiras no próximo turno para determinar se alguma delas fala Telugu. Kishori pode enviar uma mensagem de e-mail multicast, que é uma única mensagem de e-mail enviada para vários destinatários específicos. Você já sabe sobre a estrutura de endereços IPv4. Agora é a hora de aprender mais sobre eles. Você já ouviu falar de endereços IPv4 unicast, broadcast e multicast? O que são endereços IPv4 públicos e privados? Explore este módulo para entender melhor os endereços IPv4!"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Unicast, broadcast e multicast IPv4",
+      "content": "{{_moduleNumber}}.1 Unicast, broadcast e multicast IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".1 Unicast, Broadcast e Multicast",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação:  Neste curso, todas as comunicações entre dispositivos são unicast, a menos que especificado de outra forma.\nOs endereços de host unicast IPv4 estão no intervalo de endereços de 1.1.1.1 a 223.255.255.255. Contudo, dentro desse intervalo há muitos endereços que já são reservados para fins especiais. Esses endereços para fins especiais serão discutidos mais adiante neste módulo.\nObservação: Na animação, observe que a máscara de sub-rede para 255.255.255.0 é representada usando a notação de barra ou / 24. Isso indica que a máscara de sub-rede tem 24 bits. A máscara de sub-rede 255.255.255.0 em binário é 11111111.11111111.11111111.00000000."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pacotes de transmissão usam recursos na rede e fazem com que todos os hosts receptores da rede processem o pacote. Portanto, o tráfego broadcast deve ser limitado para não prejudicar o desempenho da rede ou dos dispositivos. Como os roteadores separam domínios de broadcast, subdividir as redes pode melhorar seu desempenho ao eliminar o excesso de tráfego broadcast."
+    },
+    {
+      "type": "text",
+      "title": ".2 Tipos de endereços IPv4",
+      "content": "{{_moduleNumber}}.2 Tipos de endereços IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".2 Tipos de endereços IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: Endereços privados são definidos no RFC 1918 e às vezes referido como espaço de endereço RFC 1918."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Private IPv4 Addresses and Network Address Translation (NAT)",
+      "content": "A maioria das redes internas, de grandes empresas a redes domésticas, usa endereços IPv4 privados para endereçar todos os dispositivos internos (intranet), incluindo hosts e roteadores. No entanto, os endereços privados não são globalmente roteáveis.\nNa figura, as redes de clientes 1, 2 e 3 estão enviando pacotes fora de suas redes internas. Esses pacotes têm um endereço IPv4 de origem que é um endereço privado e um endereço IPv4 de destino público (globalmente roteável). Os pacotes com um endereço privado devem ser filtrados (descartados) ou traduzidos para um endereço público antes de encaminhar o pacote para um ISP.\nEndereços IPv4 privados e Tradução de Endereços de Rede (NAT)",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Antes que o ISP possa encaminhar esse pacote, ele deve traduzir o endereço IPv4 de origem, que é um endereço privado, para um endereço IPv4 público usando a Conversão de Endereços de Rede (NAT). O NAT é usado para converter entre endereços IPv4 privados e IPv4 públicos. Isso geralmente é feito no roteador que conecta a rede interna à rede ISP. Os endereços IPv4 privados na intranet da organização serão traduzidos para endereços IPv4 públicos antes do encaminhamento para a Internet."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Endereços locais de link\nOs endereços locais de link (169.254.0.0 / 16 ou 169.254.0.1 a 169.254.255.254) são mais conhecidos como endereços APIPA ( endereçamento IP privado automático ) ou endereços auto-atribuídos. Eles são usados por um cliente Windows para se autoconfigurar caso o cliente não consiga obter um endereçamento IP por outros métodos. Endereços de link local podem ser usados em uma conexão ponto a ponto, mas não são comumente usados para esse fim."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.5 Endereçamento Classful Legado",
+      "content": "Em 1981, os endereços IPv4 foram atribuídos usando o endereço classful, conforme definido na RFC 790 (https://tools.ietf.org/html/rfc790), Números Atribuídos Os clientes receberam um endereço de rede com base em uma das três classes, A, B ou C. A RFC dividiu os intervalos de unicast em classes específicas da seguinte maneira:\nClasse A (0.0.0.0/8 to 127.0.0.0/8) – Projetado para suportar redes extremamente grandes com mais de 16 milhões de endereços de host. A Classe A usou um prefixo fixo /8 com o primeiro octeto para indicar o endereço de rede e os três octetos restantes para endereços de host (mais de 16 milhões de endereços de host por rede).\nClasse B (128.0.0.0 / 16 - 191.255.0.0 / 16) - Projetada para oferecer suporte às necessidades de redes de tamanho moderado a grande com até aproximadamente 65.000 endereços de host. A Classe B usou um prefixo fixo /16 com os dois octetos de alta ordem para indicar o endereço de rede e os dois octetos restantes para endereços de host (mais de 65.000 endereços de host por rede).\nClasse C (192.0.0.0 / 24 - 223.255.255.0 / 24) - Projetado para oferecer suporte a pequenas redes com no máximo 254 hosts. A Classe C usou um prefixo fixo / 24 com os três primeiros octetos para indicar a rede e o octeto restante para os endereços de host (apenas 254 endereços de host por rede).\nObservação: Há também um bloco multicast Classe D consistindo de 224.0.0.0 a 239.0.0.0 e um bloco de endereço experimental Classe E consistindo de 240.0.0.0 - 255.0.0.0.\nNa época, com um número limitado de computadores usando a internet, o endereçamento clássico era um meio eficaz para alocar endereços. Como mostrado na figura, as redes de classe A e B têm um número muito grande de endereços de host e Classe C tem muito poucos. As redes de classe A representaram 50% das redes IPv4. Isso fez com que a maioria dos endereços IPv4 disponíveis não fossem utilizados.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Em meados da década de 1990, com a introdução da World Wide Web (WWW), o endereçamento clássico foi obsoleto para alocar de forma mais eficiente o espaço de endereços IPv4 limitado. A alocação de endereço de classe foi substituída por endereçamento sem classe, que é usado hoje. O endereçamento sem classe ignora as regras das classes (A, B, C). Endereços de rede IPv4 públicos (endereços de rede e máscaras de sub-rede) são alocados com base no número de endereços que podem ser justificados."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Regional Internet Registries",
+      "content": "Endereços IPv4 públicos são endereços roteados globalmente pela Internet. Endereços IPv4 públicos devem ser exclusivos.\nOs endereços IPv4 e IPv6 são gerenciados pela IANA (Internet Assigned Numbers Authority). A IANA gerencia e aloca blocos de endereços IP aos registros regionais de Internet (RIRs). Os cinco RIRs são mostrados na figura.\nOs RIRs são responsáveis por alocar endereços IP aos ISPs que fornecem blocos de endereços IPv4 para organizações e ISPs menores. As organizações também podem obter seus endereços diretamente de um RIR (sujeito às políticas desse RIR).\nRegistros Regionais da Internet",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".5 Endereços IPv4 públicos e privados",
+      "content": "AfriNIC(Centro de Informação de Redes Africanas) - Região da África\nAPNIC(Centro de informações de redes da Ásia-Pacífico) - Região Ásia/Pacífico\nARIN(Registro Americano de Números da Internet) - Região da América do Norte\nLACNIC(Registro regional de endereços IP da América Latina e do Caribe) - América Latina e algumas ilhas do Caribe\nRIPE NCC(Centro de coordenação da rede Réseaux IP Européens) - Europa, Oriente Médio e Ásia Central"
+    },
+    {
+      "type": "text",
+      "title": ".3 Segmentação de Rede",
+      "content": "{{_moduleNumber}}.3 Segmentação de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".3 Segmentação de Rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Domínios de transmissão de segmentos de roteadores",
+      "content": "Você já recebeu um e-mail que foi endereçado a todas as pessoas do seu trabalho ou escola? Este foi um e-mail de transmissão. Felizmente continha informações que cada um de vocês precisava saber. Mas muitas vezes uma transmissão não é realmente pertinente para todos na lista de discussão. Às vezes, apenas um segmento da população precisa ler essa informação.\nEm uma LAN Ethernet, os dispositivos usam broadcast e o Protocolo de Resolução de Endereços (ARP) para localizar outros dispositivos. O ARP envia broadcasts dea Camada 2 para um endereço IPv4 conhecido na rede local para descobrir o endereço MAC associado. Os dispositivos em LANs Ethernet também localizam outros dispositivos usando serviços.  Um host normalmente adquire sua configuração de endereço IPv4 usando o protocolo DHCP (Dynamic Host Configuration Protocol) que envia broadcasts na rede local para localizar um servidor DHCP.\nOs switches propagam broadcasts por todas as interfaces, exceto a interface em que foram recebidos. Por exemplo, se um switch na figura recebesse um broadcast, ele o encaminharia para os outros switches e os outros usuários conectados na rede.\nRoteadores segmentam domínios de broadcast",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Roteadores não propagam broadcasts. Quando um roteador recebe um broadcast, ele não o encaminha por outras interfaces. Por exemplo, quando R1 recebe um broadcast na interface Gigabit Ethernet 0/0, ele não o encaminha por outra interface.\nPortanto, cada interface do roteador se conecta a um domínio de broadcast e as transmissões são propagadas apenas dentro desse domínio de broadcast específico."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Um Domínio de Broadcast Grande",
+      "content": "Um grande domínio de broadcast é uma rede que conecta vários hosts. Um problema desse tipo de domínio é que os hosts podem gerar broadcasts em excesso e afetar a rede de forma negativa. Na figura, a LAN 1 conecta 400 usuários que podem gerar uma quantidade excessiva de tráfego de broadcast. Isso resulta em operações de rede lentas devido à quantidade significativa de tráfego que pode causar e operações de dispositivo lentas porque um dispositivo deve aceitar e processar cada pacote de difusão.\nUm Domínio de Broadcast Grande",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Comunicação entre Redes",
+      "content": "A solução é reduzir o tamanho da rede para criar domínios de broadcast menores em um processo denominado divisão em sub-redes. Os espaços de rede menores são chamados de sub-redes.\nNa figura, os 400 usuários da LAN 1 com endereço de rede 172.16.0.0/16 foram divididos em duas sub-redes de 200 usuários cada: 172.16.0.0/24 e 172.16.1.0/24. Os broadcasts são propagados apenas dentro dos domínios de broadcast menores. Portanto, um broadcast em LAN 1 não se propagaria para LAN 2.\nComunicação entre Redes",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observe como o comprimento do prefixo mudou de /16 para /24. Esta é a base da divisão em sub-redes: usar bits de host para criar sub-redes adicionais.\nObservação: os termos sub-rede e rede costumam ser usados de maneira intercambiável. A maioria das redes são uma sub-rede de um bloco de endereços maior."
+    },
+    {
+      "type": "accordion",
+      "title": ".3.4 Razões para Segmentar Redes",
+      "content": "**Localização:** Divisão em Sub-Redes por Local\n\n**Grupo ou Função:** Sub-redes por grupo ou função\n\n**Tipo de dispositivo:** Divisão em sub-Redes por Tipo de Dispositivo"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os administradores de rede podem criar sub-redes usando qualquer outra divisão que faça sentido para a rede. Observe nas figuras que as sub-redes usam comprimentos de prefixo para identificar redes.\nÉ fundamental que todos os administradores de redes entendam a divisão da rede em sub-redes. Vários métodos foram criados para ajudar a entender esse processo. Embora um pouco esmagador a princípio, preste muita atenção aos detalhes e, com a prática, a sub-rede se tornará mais fácil."
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo - IPv4 e segmentação de rede",
+      "content": "{{_moduleNumber}}.4 Resumo - IPv4 e segmentação de rede"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo - IPv4 e segmentação de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que eu aprendi neste módulo?",
+      "content": "**Unicast, broadcast e multicast IPv4:** Transmissão unicast refere-se a um dispositivo que envia uma mensagem para outro dispositivo em comunicações um-para-um. Um pacote unicast tem um endereço IP de destino que é um endereço unicast que vai para um único destinatário. Um endereço IP de origem só pode ser um endereço unicast, porque o pacote só pode originar-se de uma única origem. Isso independentemente de o endereço IP de destino ser unicast, broadcast ou multicast. Os endereços de host unicast IPv4 estão no intervalo de endereços de 1.1.1.1 a 223.255.255.255.\nTransmissão broadcast refere-se a um dispositivo enviando uma mensagem para todos os dispositivos em uma rede, ou seja, comunicação de um para todos. Um pacote de broadcast possui um endereço IP de destino com todos os (1s) na parte do host ou 32 (um) bits. Um pacote de broadcast deve ser processado por todos os dispositivos no mesmo domínio de difusão. Um broadcast pode ser direcionado ou limitado. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Uma broadcast limitado é enviado para 255.255.255.255. Por padrão, os roteadores não encaminham broadcasts.\nTransmissão multicast reduz o tráfego, permitindo que um host envie um único pacote para um conjunto de hosts selecionados que participem de um grupo multicast. Um pacote multicast é um pacote com um endereço IP de destino que é um endereço multicast. O IPv4 reservou os endereços 224.0.0.0 a 239.255.255.255 como intervalo de multicast. Cada grupo multicast é representado por um único endereço IPv4 multicast de destino. Quando um host IPv4 se inscreve em um grupo multicast, o host processa pacotes endereçados tanto a esse endereço multicast como a seu endereço unicast alocado exclusivamente.\n\n**Tipos de endereços IPv4:** Os endereços IPv4 públicos são endereços roteados globalmente entre os roteadores ISP. No entanto, nem todos os endereços IPv4 disponíveis podem ser usados na Internet . Existem blocos de endereços (conhecidos como endereços privados) que são usados pela maioria das organizações para atribuir endereços IPv4 a hosts internos. A maioria das redes internas, de grandes empresas a redes domésticas, usa endereços IPv4 privados para endereçar todos os dispositivos internos (intranet), incluindo hosts e roteadores. No entanto, os endereços privados não são globalmente roteáveis. Antes que o ISP possa encaminhar esse pacote, ele deve traduzir o endereço IPv4 de origem, que é um endereço privado, para um endereço IPv4 público usando NAT ( Tradução de Endereços de Rede).\nOs endereços de loopback (127.0.0.0 / 8 ou 127.0.0.1 a 127.255.255.254) são mais comumente identificados como apenas 127.0.0.1, esses são endereços especiais usados por um host para direcionar o tráfego para si próprio. Os endereços locais de link (169.254.0.0 / 16 ou 169.254.0.1 a 169.254.255.254) são mais conhecidos como endereços APIPA ( endereçamento IP privado automático ) ou endereços auto-atribuídos. Eles são usados por um cliente DHCP do Windows para auto-configurar no caso de não existirem servidores DHCP disponíveis.\nEm 1981, os endereços IPv4 foram atribuídos usando o endereço classful, conforme definido na RFC 790 (https://tools.ietf.org/html/rfc790), Números Atribuídos Os clientes receberam um endereço de rede com base em uma das três classes, A, B ou C. A RFC dividiu os intervalos de unicast em classes específicas da seguinte maneira:\nClasse A (0.0.0.0/8 to 127.0.0.0/8) – Projetado para suportar redes extremamente grandes com mais de 16 milhões de endereços de host.\nClasse B (128.0.0.0 / 16 - 191.255.0.0 / 16) - Projetada para oferecer suporte às necessidades de redes de tamanho moderado a grande com até aproximadamente 65.000 endereços de host.\nClasse C (192.0.0.0 / 24 - 223.255.255.0 / 24) - Projetado para oferecer suporte a pequenas redes com no máximo 254 hosts.\nHá também um bloco multicast de Classe D que consiste em 224.0.0.0 a 239.0.0.0 e um bloco de endereço experimental de Classe E que consiste em 240.0.0.0 - 255.0.0.0.\nEndereços IPv4 públicos são endereços roteados globalmente pela Internet. Endereços IPv4 públicos devem ser exclusivos. Os endereços IPv4 e IPv6 são gerenciados pela IANA (Internet Assigned Numbers Authority). A IANA gerencia e aloca blocos de endereços IP aos registros regionais de Internet (RIRs). Os RIRs são responsáveis por alocar endereços IP aos ISPs que fornecem blocos de endereços IPv4 para organizações e ISPs menores. As organizações também podem obter seus endereços diretamente de um RIR.\n\n**Segmentação de Rede:** Em uma LAN Ethernet, os dispositivos utilizam broadcast e ARP para localizar outros dispositivos.  O ARP envia broadcast dea Camada 2 para um endereço IPv4 conhecido na rede local para descobrir o endereço MAC associado. Os dispositivos em LANs Ethernet também localizam outros dispositivos usando serviços. Um host normalmente adquire sua configuração de endereço IPv4 usando o protocolo DHCP  que envia broadcasts na rede local para localizar um servidor DHCP. Os switches propagam broadcasts por todas as interfaces, exceto a interface em que foram recebidos.\nUm grande domínio de broadcast é uma rede que conecta vários hosts. Um problema desse tipo de domínio é que os hosts podem gerar broadcasts em excesso e afetar a rede de forma negativa. A solução é reduzir o tamanho da rede para criar domínios de broadcast menores em um processo denominado divisão em sub-redes. Os espaços de rede menores são chamados de sub-redes. Esta é a base da divisão em sub-redes: usar bits de host para criar sub-redes adicionais. A divisão em sub-redes reduz o tráfego total da rede e melhora seu desempenho. Permite o administrador implemente políticas de segurança como, por exemplo, quais sub-redes podem ou não se comunicar com quais sub-redes. Ela  reduz o número de dispositivos afetados pelo tráfego broadcast anormal de devido a configurações incorretas, problemas de hardware/software ou propósito malicioso."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Acabei de enviar convites para uma festa para vários amigos e familiares. Os convites foram para endereços diferentes, mas o cartão dentro é o mesmo para todos. É como um e-mail de multicast, não é? Eu não sabia que era possível fazer isso e também não sabia que era possível enviar um e-mail de broadcast para todas as pessoas na rede! Você consegue pensar em um bom motivo para enviar um e-mail de broadcast a todos na rede? Você consegue pensar em uma razão pela qual deve tomar cuidado antes de enviar um e-mail de broadcast?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Quais duas afirmações estão corretas sobre endereços IPv4 privados?",
+      "options": [
+        "Endereços IPv4 privados são atribuídos a dispositivos dentro da intranet de uma organização (rede interna).",
+        "Os roteadores de Internet normalmente encaminharão qualquer pacote com um endereço de destino que seja um endereço IPv4 privado.",
+        "172.99.1.1 é um endereço IPv4 privado.",
+        "Qualquer organização (casa, escola, escritório, empresa) pode usar o endereço 10.0.0.0/8."
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nEndereços IPv4 privados são atribuídos a dispositivos dentro da intranet de uma organização (rede interna) e qualquer organização (casa, escola, escritório, empresa) pode usar o endereço 10.0.0.0/8.",
+      "raw_id": "def4fc85faf44935ba5fa05ec1729eab"
+    },
+    {
+      "question": "Quais duas afirmações estão corretas sobre endereços IPv4 privados? (Escolha duas)",
+      "options": [
+        "Endereços IPv4 públicos podem ser atribuídos a dispositivos na intranet de uma organização (rede interna).",
+        "Para acessar um dispositivo pela Internet, o endereço IPv4 de destino deve ser um endereço público.",
+        "192.168.1.10 é um endereço IPv4 público.",
+        "O esgotamento do endereço IPv4 público é uma razão pela qual existem endereços IPv4 privados e por que as organizações estão fazendo a transição para o IPv6."
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nPara acessar um dispositivo pela Internet, o endereço IPv4 de destino deve ser um endereço público. O esgotamento do endereço IPv4 público é uma razão pela qual existem endereços IPv4 privados e por que as organizações estão fazendo a transição para o IPv6.",
+      "raw_id": "8894e70074b34abb95f771d08a92d382"
+    },
+    {
+      "question": "Qual organização ou grupo de organizações recebe endereços IP da IANA e é responsável por alocar esses endereços para ISPs e algumas organizações?",
+      "options": [
+        "IETF",
+        "IEEE",
+        "RIR",
+        "ISPs de nível 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs RIRs recebem endereços IP da IANA e são responsáveis por alocar esses endereços para ISPs e algumas outras organizações.",
+      "raw_id": "96e6606e04904d758b76007cabc2f880"
+    },
+    {
+      "question": "Quais dispositivos não encaminharão um pacote de difusão IPv4 por padrão?",
+      "options": [
+        "Switch Ethernet",
+        "roteador",
+        "PC com Windows",
+        "Nenhuma das alternativas acima Todos os dispositivos encaminha pacotes de difusão IPv4 por padrão."
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nPor padrão, os roteadores não encaminham um pacote de transmissão IPv4.",
+      "raw_id": "2e4874fc764646c3a89a2535add2494f"
+    },
+    {
+      "question": "Quais duas situações são o resultado de tráfego excessivo de transmissão? (Escolha duas)",
+      "options": [
+        "operações de rede lentas",
+        "operações de dispositivos lentas",
+        "quando os dispositivos em todas as redes adjacentes são afetados",
+        "quando o roteador tem que encaminhar um número excessivo de pacotes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nOperações de rede lentas e operações lentas de dispositivos são o resultado de tráfego broadcast excessivo .",
+      "raw_id": "9925e15a596e4ac4a7d312191a7bcb0a"
+    },
+    {
+      "question": "Qual afirmação descreve uma finalidade da configuração de máscara de sub-rede para um host?",
+      "options": [
+        "É usado para descrever o tipo de sub-rede.",
+        "É usado para identificar o gateway padrão.",
+        "É usado para determinar a qual rede o host está conectado.",
+        "É usado para determinar o número máximo de bits em um pacote que pode ser colocado em uma rede específica."
+      ],
+      "correctIndex": 2,
+      "explanation": "Um endereço IPv4 contém duas partes. A porção de rede define a rede (ou uma sub-rede) onde o host está localizado e a porção de host identifica o endereço do host na rede. A máscara de sub-rede é usada para definir a porção de rede do endereçamento IPv4 através do AND lógico do endereço IP e da máscara de sub-rede.",
+      "raw_id": "ed93abd632574fcc87f2dc99fc31c628"
+    },
+    {
+      "question": "Qual é um dos motivos para criar sub-redes em uma rede IP?",
+      "options": [
+        "para reduzir o escopo de inundações de broadcast",
+        "para aumentar o número de endereços de host disponíveis na rede",
+        "para eliminar a necessidade de serviços de rede que dependem de broadcast, como DHCP",
+        "para garantir que todos os dispositivos possam se comunicar entre si sem a necessidade de um roteador"
+      ],
+      "correctIndex": 0,
+      "explanation": "Em redes fixas em que todos os hosts estão na mesma rede, os pacotes de broadcast podem degradar rapidamente a qualidade do desempenho da rede.  Com a criação de sub-redes menores, o tráfego de broadcast fica isolado de outras áreas na rede.  Os dispositivos em uma sub-rede precisam enviar tráfego para um roteador para alcançar um host em uma sub-rede diferente, e os roteadores normalmente não encaminham o tráfego de broadcast.",
+      "raw_id": "0374a4c99f4741fa94590b190de83ba5"
+    },
+    {
+      "question": "Uma mensagem é enviada para todos os hosts em uma rede remota. Que tipo de mensagem é essa?",
+      "options": [
+        "broadcast limitado",
+        "multicast",
+        "broadcast direcionado",
+        "unicast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um broadcast direcionado é uma mensagem enviada para todos os hosts em uma rede específica. É útil para enviar um broadcast para todos os hosts em uma rede não local. Uma mensagem multicast é uma mensagem enviada a um grupo selecionado de hosts que fazem parte de um grupo multicast de assinantes. Um broadcast limitado é usado para uma comunicação que é limitada aos hosts na rede local. Uma mensagem de unicast é uma mensagem enviada de um host para outro.",
+      "raw_id": "5dc6bddb114941ee9c1d7872b8d8cfd0"
+    },
+    {
+      "question": "Um usuário não consegue acessar o servidor da empresa de um computador. Ao emitir o comando ipconfig, o usuário descobre que o endereço IP do computador é exibido como 169.254.0.2. Que tipo de endereço é este?",
+      "options": [
+        "privado",
+        "link-local",
+        "loopback",
+        "experimental"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os endereços IPv4 no bloco de endereços 169.254.0.0 a 169.254.255.255 são endereços de link-local. O sistema operacional de um host pode atribuir automaticamente um endereço desse bloco ao host caso nenhuma configuração de IP esteja disponível. Um exemplo é quando um host é configurado para obter um endereço IP dinâmico, mas não pode acessar nenhum servidor DHCP durante o processo de inicialização. Nesse caso, o sistema operacional pode atribuir um endereço local de link.",
+      "raw_id": "e257801e795c48dbad77c7b8879eee43"
+    },
+    {
+      "question": "Quais são os três endereços IP privados? (Escolha três.)",
+      "options": [
+        "10.1.1.1",
+        "172.32.5.2",
+        "192.167.10.10",
+        "172.16.4.4",
+        "192.168.5.5",
+        "224.6.6.6"
+      ],
+      "correctIndex": 4,
+      "explanation": "Os endereços IP privados estão dentro desses três intervalos:\n10.0.0.0 - 10.255.255.255\n172.16.0.0 - 172.31.255.255\n192.168.0.0 - 192.168.255.255",
+      "raw_id": "76d5c7ded20e4f75834165c87eda0490"
+    },
+    {
+      "question": "Qual dispositivo de rede pode servir como um limite para dividir um domínio de broadcast de camada 2 ?",
+      "options": [
+        "roteador",
+        "pontes Ethernet",
+        "Hub Ethernet",
+        "Ponto de Acesso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dispositivos de Camada 1 e 2 (switch LAN e hub Ethernet) e dispositivos access point não filtram quadros de broadcast do endereço MAC. Somente um dispositivo de Cada 3, como um roteador, pode dividir um domínio de broadcast de Camada 2.",
+      "raw_id": "68681f4e6daf4ec19b5551a368bd6a53"
+    },
+    {
+      "question": "Qual é a função da IANA?",
+      "options": [
+        "manter os padrões relacionados à fiação elétrica e aos conectores",
+        "documentar os desenvolvimentos de novos protocolos e atualizar os protocolos atuais",
+        "gerenciar a alocação de endereços IP e nomes de domínio",
+        "promover o desenvolvimento e a evolução da Internet em todo o mundo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quatro organizações muito importantes que criam e mantêm padrões abertos são:\nA Autoridade para atribuição de números da Internet (IANA) supervisiona e gerencia a alocação de endereços IP e nomes de domínio para preservar sua singularidade.\nA Electronic Industries Alliance (EIA) mantém padrões relacionados à fiação e conectores para garantir a interoperabilidade do cabeamento entre dispositivos diferentes.\nA Internet Engineering Task Force (IETF) mantém as tecnologias e os protocolos usados na Internet, como TCP / IP.\nA Internet Society (ISOC) promove o uso da Internet em todo o mundo.",
+      "raw_id": "1aecf2ffe3844d08b98202be1a7803a2"
+    },
+    {
+      "question": "Qual é o intervalo de prefixo de endereço reservado para o multicast IPv4?",
+      "options": [
+        "240.0.0.0 - 254.255.255.255",
+        "224.0.0.0 - 239.255.255.255",
+        "169.254.0.0 - 169.254.255.255",
+        "127.0.0.0 - 127.255.255.255"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endereços IPv4 Multicast usam o intervalo de endereços reservados de Classe D de 224.0.0.0 a 239.255.255.255.",
+      "raw_id": "42da0b6baa80489f98b2c0d00fc95e68"
+    },
+    {
+      "question": "Uma escola secundária em Nova York (escola A) está usando tecnologia de videoconferência para estabelecer interações estudantis com outra escola secundária (escola B) na Rússia. A videoconferência é realizada entre dois dispositivos finais através da Internet. O administrador de rede da escola A configura o dispositivo final com o endereço IP 209.165.201.10. O administrador envia uma solicitação para o endereço IP para o dispositivo final na escola B e a resposta é 192.168.25.10. Nenhuma escola está usando uma VPN. O administrador sabe imediatamente que este IP não funcionará. Por quê?",
+      "options": [
+        "Este é um endereço de loopback.",
+        "Este é um endereço local do link.",
+        "Este é um endereço IP privado.",
+        "Há um conflito de endereço IP."
+      ],
+      "correctIndex": 2,
+      "explanation": "O endereço IP 192.168.25.10 é um endereço privado IPv4. Este endereço não será roteado pela Internet, então a escola A não será capaz de alcançar à escola B. Como o endereço é privado, ele pode ser usado livremente em uma rede interna. Desde que não haja dois dispositivos na rede interna atribuídos ao mesmo IP privado, não há problema de conflito de IP. Os dispositivos que recebem um IP privado precisarão usar NAT para se comunicarem pela Internet.",
+      "raw_id": "cada670e83b0410fa8595167de4f7bc0"
+    },
+    {
+      "question": "Um host está fazendo broadcast de uma transmissão. Qual host ou hosts o receberão?",
+      "options": [
+        "todos os hosts na mesma rede",
+        "um grupo especialmente definido de hosts",
+        "o vizinho mais próximo na mesma rede",
+        "todos os hosts na Internet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um broadcast é entregue a cada host que tenha um endereço IP dentro da mesma rede.",
+      "raw_id": "c5470dbdfa1b4dc2939543ee290cebec"
+    }
+  ],
+  "images": []
+}

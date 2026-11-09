@@ -1,0 +1,331 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "O Webster aqui de novo! Bob é bom nesse negócio de redes. Quando ele estava aprendendo redes, ele tinha que entender sistemas numéricos e você também! Você já usa o sistema decimal de base 10, que usa números inteiros de 0 a 9. Você conhece outros sistemas numéricos? Já vi base-12, base-60 e outras. Você sabe sobre o sistema binário que os computadores usam? O sistema binário usa apenas dois números inteiros, 0 e 1. Hosts, servidores e dispositivos de rede usam endereçamento binário. Há também algo chamado sistema de numeração hexadecimal. Ele é usado em rede para representar endereços IP Versão 6 e endereços Ethernet MAC.\nAproveite este módulo para aprender mais sobre esses sistemas numéricos e como convertê-los!"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Sistema de numeração binário",
+      "content": "{{_moduleNumber}}.1 Sistema de numeração binário"
+    },
+    {
+      "type": "text",
+      "title": ".1 Sistema de numeração binário",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Endereços Binários e IPv4",
+      "content": "Os endereços IPv4 começam como binários, uma série de apenas 1s e 0s. Eles são difíceis de gerenciar, portanto, os administradores de rede devem convertê-los em decimal. Este tópico mostra algumas maneiras de fazer isso.\nBinário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits. Em contraste, o sistema de numeração decimal consiste em 10 dígitos que incluem 0 a 9.\nÉ importante compreender o binário porque hosts, servidores e dispositivos de rede usam esse tipo de endereçamento. Especificamente, eles usam endereços IPv4 binários, como mostrado na figura, para se identificar.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Cada endereço é composto por uma string de 32 bits dividida em quatro seções, chamadas octetos. Cada octeto tem 8 bits (ou 1 byte) separados por um ponto. Por exemplo, o PC1 na figura recebeu o endereço IPv4 11000000.10101000.00001010.00001010. Seu endereço de gateway padrão seria aquele da interface Ethernet Gigabit do R1, 11000000.10101000.00001010.00000001.\nO binário funciona bem com hosts e dispositivos de rede. No entanto, é muito desafiador para os seres humanos trabalharem.\nPara facilitar o uso pelas pessoas, os endereços IPv4 são geralmente expressos em notação decimal pontilhada. O PC1 recebe o endereço IPv4 192.168.10.10 e o endereço de gateway padrão é 192.168.10.1, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Para ter um conhecimento sólido do endereçamento de rede, é preciso saber lidar com endereçamento binário e ter prática na conversão entre endereços IPv4 binários e decimais com pontos. Esta seção abordará como converter entre os sistemas de numeração de base dois (binário) e base 10 (decimal)."
+    },
+    {
+      "type": "text",
+      "title": ".1.8 Atividade – Jogo Binário",
+      "content": "Esta é uma maneira divertida de aprender números binários para redes.\nLink do jogo: https://learningnetwork.cisco.com/docs/DOC-1803\nVocê precisará fazer login no cisco.com para usar este link. Será necessário criar uma conta se você ainda não tiver uma.\nHá também uma variedade de jogos binários gratuitos para dispostivos mobiles. Pesquise \"Binary Games\" na sua loja de aplicativos."
+    },
+    {
+      "type": "text",
+      "title": ".2 Sistema de numeração hexadecimal",
+      "content": "{{_moduleNumber}}.2 Sistema de numeração hexadecimal"
+    },
+    {
+      "type": "text",
+      "title": ".2 Sistema de numeração hexadecimal",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.1 Endereços hexadecimais e IPv6",
+      "content": "Agora você sabe como converter binário para decimal e decimal para binário. Você precisa dessa habilidade para entender o endereçamento IPv4 em sua rede. Mas é igualmente provável que esteja utilizando endereços IPv6 na sua rede. Para entender endereços IPv6, você deve ser capaz de converter hexadecimal para decimal e vice-versa.\nAssim como decimal é um sistema numérico de base dez, hexadecimal é um sistema de base dezesseis. O sistema numérico de base dezesseis usa os dígitos 0 a 9 e as letras A a F. A figura mostra os valores decimais e hexadecimais equivalentes para os binários 0000 a 1111.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Binário e hexadecimal funcionam bem juntos, porque é mais fácil expressar um valor como um único dígito de hexadecimal do que como quatro bits binários.\nO sistema de numeração hexadecimal é usado em rede para representar endereços IP versão 6 e endereços MAC Ethernet.\nOs endereços IPv6 têm 128 bits de comprimento e a cada 4 bits é representado por um único dígito hexadecimal; para um total de 32 valores hexadecimais. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.\nConforme mostrado na figura, o formato preferido para escrever um endereço IPv6 é x:x:x:x:x:x:x:x, com cada \"x\" consistindo em quatro valores hexadecimais. Quando falamos de 8 bits de um endereço IPv4, usamos o termo octeto. No IPv6, um hexteto é o termo não oficial usado para se referir a um segmento de 16 bits ou quatro valores hexadecimais. Cada \"x\" é um único hextet, 16 bits ou quatro dígitos hexadecimais.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "A topologia de exemplo na figura exibe endereços hexadecimais IPv6.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo dos Sistemas Numéricos",
+      "content": "{{_moduleNumber}}.3 Resumo dos sistemas numéricos"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo dos Sistemas Numéricos",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O Que Eu Aprendi Neste Módulo?",
+      "content": "**Sistemas de números binários:** Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits. Por outro lado, o sistema de numeração decimal consiste em 10 dígitos, compreendendo os dígitos de 0 a 9. Hosts, servidores e dispositivos de rede usam endereçamento binário. Especificamente, eles usam endereços IPv4 binários. Para facilitar o uso pelas pessoas, os endereços IPv4 são geralmente expressos em notação decimal com pontos.\nEste sistema decimal usa as potências de dez, ou base 10. Por exemplo, o número 2.146 tem 2 na casa dos milhares, ou dois mil. Tem um 1 na casa das centenas, ou cem. Tem um 4 no lugar das dezenas, ou 40. Tem um 6 no lugar das unidades, ou seis.\nO sistema binário é um sistema numérico de base 2. Cada valor local pode ter um 0 ou um 1. Uma ferramenta útil é a tabela de valores posicionais binários. É comum usar uma tabela com oito espaços reservados. 8 bits equivalem a um byte.\n\n**Sistema de numeração hexadecimal:** O sistema de numeração hexadecimal é usado em rede para representar endereços IP versão 6 e endereços MAC Ethernet. Esse sistema numérico de base dezesseis usa os dígitos de 0 a 9 e as letras A a F. Binário e hexadecimal funcionam bem juntos porque é mais fácil expressar um valor como um único dígito hexadecimal do que como quatro bits binários.\nOs endereços IPv6 têm 128 bits de comprimento e a cada 4 bits é representado por um único dígito hexadecimal; para um total de 32 valores hexadecimais. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Eu não esperava fazer matemática no meio do meu curso de rede, mas fiquei surpreso com o quão divertido é converter números decimais em seus equivalentes binários e hexadecimais. Eu tenho uma melhor compreensão de por que os endereços IP são representados da maneira que os vemos. Antes de fazer este módulo, o que você sabia sobre sistemas de numeração binários e hexadecimais? Dê uma olhada no endereço MAC da NIC do seu computador. O que você reconhece sobre esse endereço que talvez não tenha antes?"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual é o binário equivalente ao endereço IP 192.168.11.10?",
+      "options": [
+        "11000000.11000000.00001011.00001010",
+        "11000000.10101000.00001011.00001010",
+        "11000000.10101000.00001010.00001011",
+        "11000000.10101000.00001011.00010010"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\n192.168.11.10 é equivalente a 11000000.10101000.00001011.00001010",
+      "raw_id": "a14b0566d3e64d6e8ad01423a6ac6e7a"
+    },
+    {
+      "question": "Qual dos seguintes é o binário equivalente ao endereço IP 172.16.31.30?",
+      "options": [
+        "11000000.00010000.00011111.00011110",
+        "10101000.00010000.00011111.00011110",
+        "10101100.00010000.00011110.00011110",
+        "10101100.00010000.00011111.00011110"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\n172.16.31.30 é equivalente a 10101100.00010000.00011111.000111110",
+      "raw_id": "b0002e39e37b4e1588850a0fbca398bc"
+    },
+    {
+      "question": "Qual é o equivalente hexadecimal de 202?",
+      "options": [
+        "B10",
+        "BA",
+        "C10",
+        "CA"
+      ],
+      "correctIndex": 3,
+      "explanation": "Isso mesmo! Muito bem.\nO equivalente hexadecimal de 202 é CA.",
+      "raw_id": "f3a4394ffc8a4f5b9f857ddcd2c2eb9f"
+    },
+    {
+      "question": "Qual é o equivalente hexadecimal de 254?",
+      "options": [
+        "EA",
+        "ED",
+        "FA",
+        "FE"
+      ],
+      "correctIndex": 3,
+      "explanation": "Isso mesmo! Muito bem.\nO equivalente hexadecimal de 254 é FE.",
+      "raw_id": "455f5cf0b55340a28e60c9fc1023d2af"
+    },
+    {
+      "question": "Qual é o equivalente decimal de A9?",
+      "options": [
+        "168",
+        "169",
+        "170",
+        "171"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isso mesmo! Muito bem.\nO equivalente decimal de A9 é 169.",
+      "raw_id": "633fe1d3a1304f80b9f488472d67d363"
+    },
+    {
+      "question": "Qual dos seguintes é o equivalente decimal de 7D?",
+      "options": [
+        "124",
+        "125",
+        "126",
+        "127"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isso mesmo! Muito bem.\nO equivalente decimal de 7D é 125.",
+      "raw_id": "1be34c70ba2f4f89896ff20673485a1e"
+    },
+    {
+      "question": "Qual é a representação binária para o número decimal 173?",
+      "options": [
+        "10100111",
+        "10100101",
+        "10101101",
+        "10110101"
+      ],
+      "correctIndex": 2,
+      "explanation": "decimal 173 = 128 + 0 + 32 + 0 + 8 + 4 + 0 + 1",
+      "raw_id": "1087199a2f5a45a6a7d55010bcac2b7c"
+    },
+    {
+      "question": "Quantos bits compõem um octeto em um endereço IPv4?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um endereço IPv4 consiste em uma string de 32 bits dividida em quatro seções chamadas de octetos. Cada octeto tem 8 bits (ou 1 byte) separados por um ponto.",
+      "raw_id": "26f609b307f14f7ca3c007cbe00e6ba2"
+    },
+    {
+      "question": "Qual é o equivalente decimal de 0xC9?",
+      "options": [
+        "185",
+        "200",
+        "201",
+        "199"
+      ],
+      "correctIndex": 2,
+      "explanation": "0x refere-se ao item como hexadecimal. Converta cada caractere em seu meio byte (nibble) correspondente. Em seguida, combine os meio bytes (Nibbles) juntos e calcule o equivalente decimal resultante. C tem um valor de 12. 12 x 16 = 192. 192 + 9 = 201.",
+      "raw_id": "2a104e2757ad4058a3042a91f2025178"
+    },
+    {
+      "question": "Qual é a representação binária de 0xCA?",
+      "options": [
+        "10111010",
+        "11010101",
+        "11001010",
+        "11011010"
+      ],
+      "correctIndex": 2,
+      "explanation": "Depois de convertido, CA em hexadecimal equivale a 11011010 em binário. Uma forma de realizar a conversão é de um nibble por vez, C = 1100 e A = 1010. A combinação dos dois nibbles resulta em 11001010.",
+      "raw_id": "d7d9c8c7d6e249f193b0401a0b2a44db"
+    },
+    {
+      "question": "Qual é o intervalo de valores hexadecimais que podem ser usados em um hexteto?",
+      "options": [
+        "0000 a 1111",
+        "0000 a ffff",
+        "1111 para aaaa",
+        "0000 a 9999"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um hexteto é um termo usado para se referir a um segmento de 16 bits ou quatro valores hexadecimais. Um único número hexadecimal é composto de 4 bits, portanto, o intervalo de um número hexadecimal é de 0 a f. Um hextet contém 4 números hexadecimais e varia de 0000 a ffff.",
+      "raw_id": "78dad037acab48d7bca8f75a3254ce1e"
+    },
+    {
+      "question": "Qual é o equivalente hexadecimal do número binário 10011101?",
+      "options": [
+        "85",
+        "9D",
+        "A1",
+        "D9"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cada 4 dígitos binários equivale a 1 dígito hexadecimal.\n1001 = 9\n1101 = 13 (decimal) = D (hexadecimal)",
+      "raw_id": "b7f96e13b8c343ec87ce405bd2e4c38d"
+    },
+    {
+      "question": "Quantos bits há em um endereço IPv4?",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "256"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um endereço IPv4 é composto por 4 octetos de dígitos binários, cada um contendo 8 bits, resultando em um endereço de 32 bits.",
+      "raw_id": "636555e7d7b740a398dafd0617e5b5df"
+    },
+    {
+      "question": "Um engenheiro de rede deseja representar dados confidenciais em formato binário. Quais são os dois valores possíveis que o engenheiro pode usar? (Escolha duas.)",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "A",
+        "F"
+      ],
+      "correctIndex": 1,
+      "explanation": "Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits.",
+      "raw_id": "97baa48845424667b0de2812348dc4a0"
+    },
+    {
+      "question": "Qual é o equivalente hexadecimal para o número decimal 139?",
+      "options": [
+        "8 bilhões",
+        "92",
+        "A1",
+        "D7"
+      ],
+      "correctIndex": 0,
+      "explanation": "O decimal 139 em binário é 10001011. 128 + 8 + 2 + 1 = 139.\nCada 4 dígitos binários equivale a 1 dígito hexadecimal.\n1000 = 8\n1011 = 11 (decimal) = B (hexadecimal)",
+      "raw_id": "5de2c21de0b94c91b66f45cfd7dab8c1"
+    },
+    {
+      "question": "Qual é um número hexadecimal válido?",
+      "options": [
+        "f",
+        "g",
+        "h",
+        "j"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os números hexadecimais são 0,1,2,3,4,5,6,7,8,9, a, b, c, d, e, f. O número hexadecimal 0 representa 0 em decimal e é representado como 0000 em binário. O número hexadecimal f representa 15 em decimal.",
+      "raw_id": "2db349eabab8406c88e96d28dba0637b"
+    },
+    {
+      "question": "Qual é o equivalente binário do número decimal 232?",
+      "options": [
+        "11101000",
+        "11000110",
+        "10011000",
+        "11110010"
+      ],
+      "correctIndex": 0,
+      "explanation": "232 em binário é 11101000. 128+64+32+8 = 232",
+      "raw_id": "9806343b8de0425f9e309b93aa4821d0"
+    },
+    {
+      "question": "Dado o endereço binário de 11101100 00010001 00001100 00001010, qual endereço este representa no formato decimal com pontos?",
+      "options": [
+        "234.17.10.9",
+        "234.16.12.10",
+        "236.17.12.6",
+        "236.17.12.10"
+      ],
+      "correctIndex": 3,
+      "explanation": "O número binário 11101100 00010001 00001100 00001010 traduz para 236.17.12.10.",
+      "raw_id": "09bb197fd20149eeab2ee7a6b8cf919a"
+    }
+  ],
+  "images": []
+}

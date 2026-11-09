@@ -1,0 +1,292 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Ao planejar a rede futura, Bob acredita que Marcy e Vincent devem aproveitar os serviços em nuvem e a virtualização. Bob explicou que eles podem alugar serviços de um provedor de nuvem. Marcy e Vincent queriam saber por que deveriam considerar isso. Bob explica que isso consumirá menos energia, exigirá menos equipamento e menos espaço. Também pode ajudar na recuperação de desastres. Ele compara isso com as fotos de Marcy e Vincent em seus telefones celulares sendo copiadas para uma nuvem. Mesmo que o celular seja danificado, as fotos ainda podem ser recuperadas.\nVocê consegue pensar em como usa a nuvem? Quanto você sabe sobre a nuvem e a virtualização? Deixe-me ajudá-lo a aprender mais. Aproveite este módulo!"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Nuvem e Serviços de Nuvem",
+      "content": "{{_moduleNumber}}.1 Nuvem e Serviços de Nuvem"
+    },
+    {
+      "type": "text",
+      "title": ".1 Nuvem e Serviços de Nuvem",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".1.2 Tipos de Nuvens",
+      "content": "Existem quatro modelos de nuvem principais:\nNuvens públicas - Os aplicativos e serviços baseados em nuvem oferecidos em uma nuvem pública são disponibilizados à população em geral. Os serviços podem ser gratuitos ou oferecidos em um modelo de pagamento por uso, como o pagamento de armazenamento online. A nuvem pública usa a Internet para fornecer serviços.\nNuvens privadas - Os serviços e aplicativos na nuvem disponibilizados em uma nuvem privada são indicados para entidades ou empresas específicas, como o governo. Uma nuvem privada pode ser configurada usando a rede privada de uma organização, embora isso possa ser caro para construir e manter. Uma nuvem privada também pode ser gerenciada por uma organização externa com segurança de acesso estrita.\nNuvens híbridas - Uma nuvem híbrida é composta de duas ou mais nuvens (exemplo: parte privada, parte pública), onde cada parte permanece um objeto separado, mas ambas são conectadas usando uma única arquitetura. Indivíduos em uma nuvem híbrida podem ter níveis de acesso a vários serviços baseados em direitos de acesso de usuário.\nNuvens comunitárias - Uma nuvem comunitária é criada para uso exclusivo de uma comunidade específica. As diferenças entre nuvens públicas e comunitárias são as necessidades funcionais que foram personalizadas para a comunidade. Por exemplo, organizações de saúde devem manter a conformidade com políticas e leis (por exemplo, HIPAA) que exigem confidencialidade e autenticação especial."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Servidores dedicados",
+      "content": "Os termos “computação em nuvem” e “virtualização” normalmente podem ser usados de forma intercambiável, no entanto, podem ter significados diferentes. A virtualização é a base da computação em nuvem. Sem ela, a computação em nuvem, como é mais implantada, não seria possível.\nCerca de uma década atrás, a VMware desenvolveu uma tecnologia de virtualização que permitiu a um sistema operacional servidor suportar um ou mais o sistemas operacionais clientes. A maioria das tecnologias de virtualização são baseadas, agora, nessa tecnologia. A transformação de servidores dedicados em servidores virtualizados foi adotada e está sendo feita rapidamente em data centers e em redes empresariais.\nVirtualizar significa criar uma versão virtual, e não física, de um computador. Um exemplo seria a execução de um \"computador Linux\" no seu PC com Windows, que será feito posteriormente no laboratório.\nPara aproveitar totalmente a virtualização, primeiro é necessário entender um pouco do histórico da tecnologia de servidor. Historicamente, os servidores corporativos consistiam em um sistema operacional de servidor, como Windows Server ou Linux Server, instalado em hardware específico, conforme mostrado na figura. Toda a RAM do servidor, poder de processamento e espaço no disco rígido foram dedicados ao serviço fornecido (por exemplo, web, serviços de e-mail, etc.).",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O maior problema com essa configuração é que quando um componente falha, o serviço que é fornecido por esse servidor se torna indisponível. Isso é conhecido como um único ponto de falha. Outro problema era que os servidores dedicados eram subutilizados. Os servidores dedicados geralmente ficavam ociosos por longos períodos, aguardando até que houvesse uma necessidade do serviço específico que eles forneciam. Esses servidores desperdiçavam energia e ocupavam mais espaço do que o garantido pela quantidade de serviço prestado. Isso é conhecido como expansão de servidores."
+    },
+    {
+      "type": "text",
+      "title": ".2 Virtualização",
+      "content": "{{_moduleNumber}}.2 Virtualização"
+    },
+    {
+      "type": "text",
+      "title": ".2 Virtualização",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Vantagens da virtualização",
+      "content": "Uma das principais vantagens da virtualização é o menor custo geral:\nÉ necessário menos equipamento - A virtualização permite a consolidação do servidor, o que requer menos dispositivos físicos e reduz os custos de manutenção.\nMenos energia é consumida - A consolidação de servidores reduz os custos mensais de energia e refrigeração.\nMenos espaço é necessário - A consolidação do servidor reduz a quantidade de espaço necessário.\nSão benefícios adicionais da virtualização:\nPrototipagem mais fácil - Laboratórios independentes, operando em redes isoladas, podem ser criados rapidamente para testes e implementações de prototipagem de rede.\nProvisionamento de servidor mais rápido - Criar um servidor virtual é muito mais rápido do que provisionar um servidor físico.\nMaior tempo de atividade do servidor - A maioria das plataformas de virtualização de servidor agora oferece recursos avançados de tolerância a falhas redundantes.\nRecuperação de desastres aprimorada - A maioria das plataformas de virtualização de servidores corporativos possui software que pode ajudar a testar e automatizar o failover antes que ocorra um desastre.\nSuporte legado - A virtualização pode estender a vida útil dos sistemas operacionais e aplicativos, proporcionando mais tempo para as organizações migrarem para soluções mais recentes."
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Nuvem e Virtualização",
+      "content": "{{_moduleNumber}}.3 Resumo de Nuvem e Virtualização"
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo de Nuvem e Virtualização",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que aprendi neste módulo?",
+      "content": "**Nuvem e Serviços de Nuvem:** Em geral, quando falamos sobre a nuvem, estamos falando sobre três coisas: data centers, computação ou serviços em nuvem e virtualização ou computação virtual. Os data centers geralmente são grandes instalações que fornecem grandes quantidades de energia, refrigeração e largura de banda. Somente empresas muito grandes podem arcar com seus próprios data centers. A maioria das empresas menores aluga os serviços de um provedor de nuvem.\nOs serviços em nuvem incluem o seguinte:\nSaaS – Software como serviço\nPaaS – Plataforma como serviço\nIaaS – Infraestrutura como serviço\nExistem quatro modelos primários de nuvem, conforme mostrado na figura.\nNuvens públicas - As aplicações e os serviços em nuvem oferecidos em uma nuvem pública são disponibilizados à população em geral.\nNuvens privadas - os serviços e aplicativos na nuvem disponibilizados em uma nuvem privada são indicados para entidades ou empresas específicas, como o governo.\nNuvens híbridas - Uma nuvem híbrida é composta de duas ou mais nuvens, onde cada parte permanece um objeto separado, mas ambas são conectadas usando uma única arquitetura.\nNuvens Comunitárias - Uma nuvem da comunidade é criada para uso exclusivo por uma comunidade específica. As diferenças entre nuvens públicas e comunitárias são as necessidades funcionais que foram personalizadas para a comunidade.\nA virtualização é a base da computação em nuvem. Sem ela, a computação em nuvem, como é mais implantada, não seria possível. Virtualizar significa criar uma versão virtual, e não física, de um computador. Um exemplo seria executar um \"computador Linux\" no seu PC Windows.\n\n**Virtualização:** Uma das principais vantagens da virtualização é o menor custo geral:\nMenos equipamentos são requeridos - A virtualização permite a consolidação do servidor, o que requer menos dispositivos físicos e reduz os custos de manutenção.\nMenor consumo de energia - A consolidação de servidores diminui o consumo mensal de energia e os custos de refrigeração.\nMenos espaço requerido - A consolidação do servidor reduz a quantidade de espaço necessário.\nSão benefícios adicionais da virtualização:\nPrototipagem mais simples - Laboratórios independentes, que operam em redes isoladas, podem ser criados rapidamente para implantações de testes e prototipagem de rede.\nProvisionamento de servidor mais rápido - Criar um servidor virtual é muito mais rápido que provisionar um servidor físico.\nMaior tempo de atividade de servidor - A maioria das plataformas de virtualização de servidor agora oferece recursos avançados de tolerância a falhas e redundância.\nRecuperação de desastres aprimorada - A maioria das plataformas de virtualização de servidores corporativos possui software que pode ajudar a testar e automatizar o failover antes que ocorra um desastre.\nSuporte legado - A virtualização pode estender a vida útil dos sistemas operacionais e aplicativos, proporcionando mais tempo para as organizações migrarem para soluções mais recentes.\nO hypervisor é um programa, firmware ou hardware que adiciona uma camada de abstração ao hardware físico. A camada de abstração é usada para criar máquinas virtuais que têm acesso a todo o hardware da máquina física, como CPUs, memória, controladores de disco e NICs. Cada uma dessas máquinas virtuais executa um sistema operacional completo e separado.\nOs hypervisors Tipo 1, também são chamados de abordagem \"bare-metal\", pois o hypervisor é instalado diretamente no hardware. Os hypervisors Tipo 1 são geralmente usados em servidores corporativos e em dispositivos de rede de data center.\nUm hipervisor Tipo 2 é um software que cria e executa instâncias VM. O computador, em que um hypervisor oferece suporte a uma ou mais VMs, é um computador host. Os hypervisors Tipo 2 são também chamados hypervisors hospedados. Isso acontece porque o hypervisor está instalado no topo do SO atual, como Mac OS X, Windows ou Linux. Em seguida, uma ou mais instâncias de SO adicionais são instaladas sobre o hypervisor. Uma grande vantagem dos hipervisores Tipo 2 é que o software do console de gerenciamento não é necessário."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Por enquanto, Bob está sugerindo que Marcy e Vincent usem a nuvem para armazenamento de dados. Eles entendem que é um serviço de assinatura, mas permitirá que eles mantenham seus dados com mais segurança e será mais barato do que comprar seu próprio armazenamento de dados e servidor. Como você já sabe, há muitos outros serviços fornecidos pela nuvem. Marcy e Vincent podem, eventualmente, desejar alguns desses serviços também. Você já teve o disco rígido inativo e não conseguiu recuperar todos os arquivos? E se isso acontecesse com um computador ou até mesmo com um servidor na sua escola ou no seu trabalho? A sua escola ou rede de trabalho usa outros serviços em nuvem? Em caso afirmativo, você sabe quais são e por que foram selecionados? Se você estivesse na situação de Marcy e Vincent, quais serviços em nuvem você consideraria usar, além do armazenamento de dados?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Preparação de um computador para virtualização\nParte 2: Instalar um sistema operacional Linux na máquina virtual\nParte 3: Explorando a GUI\nHistórico / Cenário\nOs recursos e a capacidade de computação foram ampliados extraordinariamente nos últimos 10 anos. Um benefício dos processadores de vários núcleos e da grande quantidade de RAM é a capacidade de usar virtualização ou instalar diversos sistemas operacionais em um único computador.\nCom a virtualização, um ou vários computadores virtuais podem funcionar em um computador físico. Os computadores virtuais executados dentro de computadores físicos são chamados de máquinas virtuais. As máquinas virtuais são chamadas normalmente de convidadas (guests), e os computadores físicos costumam ser chamados de hosts. Qualquer pessoa com um computador e um sistema operacional modernos pode executar máquinas virtuais.\nNeste laboratório, você vai instalar um sistema operacional Linux em uma máquina virtual usando um aplicativo de virtualização de desktop, como o VirtualBox. Depois de concluir a instalação, você explorará a interface gráfica de usuário (GUI). Também vai explorar a interface de linha de comando usando esta máquina virtual em um laboratório posterior neste curso.\nRecursos Necessários\n=  Computador com um mínimo de 2 GB de RAM e 10 GB de espaço livre em disco\n=  Acesso à Internet de alta velocidade para fazer download do Oracle VirtualBox e da imagem do sistema operacional Linux, como o Ubuntu Desktop\nInstruções\nParte 1: Preparar um computador para a virtualização\nNa Parte 1, você fará download e instalação do software de virtualização de desktop e de uma imagem do sistema operacional Linux. Essa imagem pode ser fornecida pelo instrutor.\nEtapa 1: Download e Instalação do VirtualBox.\nVMware Player e Oracle VirtualBox são dois programas de virtualização que você pode baixar e instalar para executar o arquivo de imagem do sistema operacional. Neste laboratório, você usará o aplicativo VirtualBox.\na.  Navegue até https://www.VirtualBox.org/. Clique no link download nesta página.\nb.  Escolha e baixe o arquivo de instalação apropriado para o seu sistema operacional.\nc.  Depois que o arquivo de instalação do VirtualBox for baixado, execute o instalador e aceite as configurações padrão de instalação.\nEtapa 2: Download de uma Imagem do Linux.\na.  Acesse o site do Ubuntu em http://www.Ubuntu.com. Clique no link download nesta página para baixar e salvar uma imagem do Ubuntu Desktop.\nEtapa 3: Crie uma Nova Máquina Virtual.\na.  Clique em Start (Iniciar) e procure Virtualbox. Clique em Oracle VM VirtualBox para abrir o gerenciador. Quando ele estiver aberto, clique em New (Novo) para iniciar a instalação do Ubuntu.\nb.  Na tela Name and operating system (Nome e sistema operacional), digite Ubuntu no campo Name (Nome). No campo Type (Tipo), selecione Linux. No campo  Version (versão), selecione a versão de download correspondente. Clique em Avançar para continuar.\nc.  Na tela Memory size (Tamanho da memória), aumente a quantidade de RAM da máquina virtual, se desejar, desde que ela permaneça na área verde. Ultrapassar esse limite afetaria negativamente o desempenho do host. Clique em Next (Avançar) para continuar.\nd.  Na tela Hard disk (Disco rígido), clique em Create a virtual hard disk now (Criar um disco rígido virtual agora).\ne.  Na tela Hard disk file type (Tipo de arquivo de disco rígido), use as configurações padrão de tipo de arquivo VDI (VirtualBox Disk Image). Clique em Avançar para continuar.\nf.   Na tela Storage on physical hard disk (Armazenamento em disco rígido físico), use as configurações padrão de armazenamento Dynamically allocated (Alocado dinamicamente). Clique em Avançar para continuar.\ng.  Na tela File location and size (Tamanho e local de arquivo), é possível ajustar o disco rígido e alterar o nome e o local do disco rígido virtual. Clique em Create (Criar) para usar as configurações padrão.\nh.  Quando a criação do disco rígido for concluída, a nova máquina virtual será listada na janelaOracle VM VirtualBox Manager(Gerenciador do Oracle VM VirtualBox). Selecione Ubuntu e clique em Start [Iniciar] no menu superior.\nParte 2: Instale o Ubuntu na Máquina Virtual.\nEtapa 1: Monte a imagem.\na.  Na janela Oracle VM Virtualbox Manager, Clique com o botão direito em Ubuntu e selecione Settings (Configurações). Na janela Ubuntu – Settings (Ubuntu – Configurações), clique em Storage (Armazenamento) no painel esquerdo. Clique em Empty (Vazio) no painel intermediário. No painel direito, clique no símbolo do CD e selecione o local do arquivo da imagem do Ubuntu. Clique em OK para continuar.\nb.  Na janela do Oracle VM VirtualBox Manager, clique em Start (Iniciar) no menu superior."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Instale o S.O.\na.  Na tela Welcome (Bem-vindo), você deverá escolher entre experimentar ou instalar o Ubuntu. A opção try não instala o S.O., ele executa o S.O. diretamente da imagem. Neste laboratório, você instalará o SO do Ubuntu nesta máquina virtual. Clique em Install Ubuntu (Instalar Ubuntu).\nb.  Siga as instruções na tela e forneça as informações necessárias quando solicitado.\nNota: se você não estiver conectado à Internet, poderá continuar a instalar e ativar a rede mais tarde.\nc.  Como essa instalação do Ubuntu está em uma máquina virtual, é seguro apagar o disco e instalar o Ubuntu sem afetar o computador host. Selecione Erase disk and install Ubuntu (Apagar disco e instalar Ubuntu). A instalação do Ubuntu em um computador físico apagaria todos os dados no disco e substituiria o sistema operacional atual pelo Ubuntu. Clique em Install Now (Instalar agora) para iniciar a instalação.\nd.  Clique em Continue (Continuar) para apagar o disco e instalar o Ubuntu.\ne.  No Quem é você? tela, forneça seu nome e escolha uma senha. Você pode usar o nome de usuário gerado ou digitar um nome diferente. Insira seu nome de usuário e senha. Se desejar, altere as outras configurações. Clique em Continuar.\nf.   O sistema operacional Ubuntu será instalado na máquina virtual. Isso levará alguns minutos. Quando a mensagem  Installation is complete instalação concluída  for exibida, retorne para a janela Oracle VM VirtualBox Manager. Clique com o botão direito em Ubuntu e selecione Settings (Configurações). Na janela Ubuntu – Settings (Ubuntu – Configurações), clique em Storage (Armazenamento) no painel esquerdo. Clique na imagem do Ubuntu montada no painel do meio. No painel direito, clique no símbolo de CD e clique em Remover Disco da Unidade Virtual. Clique em OK para continuar.\ng.  Na VM do Ubuntu, clique em Reiniciar Agora.\nParte 3: Explore a GUI\nNesta parte, você vai instalar as adições de convidado do VirtualBox e explorar a GUI do Ubuntu.\nEtapa 1: Instale Adições de Convidado.\na.  Faça login na máquina virtual do Ubuntu usando as credenciais de usuário criadas na fase anterior.\nb.  A janela do Ubuntu Desktop poderá ser menor do que o esperado. Isso acontece principalmente em vídeos de alta resolução. Clique em Device > Insert Guest Additions CD image… (Dispositivo > Inserir imagem do CD de Adições de Convidado) para instalar as Adições de Convidado. Isso permite mais funções, como alterar a resolução de tela na máquina virtual."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Clique em Run (Executar) para instalar as adições. Quando for solicitada uma senha, use a mesma senha usada para fazer logon. Clique  em autenticar para continuar.\nd.  Se o computador não tiver sido conectado à Internet durante a instalação, clique em Devices > Network Settings (Dispositivos > Configurações de Rede) no menu do Oracle VirtualBox. Ative os adaptadores de rede e defina a configuração apropriada para conexões de rede conforme necessário. Clique em OK.\ne.  Quando a instalação das adições estiver concluída, reinicie a máquina virtual novamente. Clique no menu no canto superior direito e clique em Desligar. Clique em Restart (Reiniciar) para reiniciar o Ubuntu.\nEtapa 2: Abra um navegador web.\na.  Faça login no Ubuntu mais uma vez. Quando estiver conectado novamente, você poderá redimensionar a janela da máquina virtual.\nb.  Abra um navegador web. Dependendo da distribuição Linux, talvez seja necessário pesquisar um navegador da Web ou há um link para um navegador da Web que já está na área de trabalho.\nc.  Localize um emulador de terminal para acessar a interface de linha de comando. Você usará um emulador de terminal nos laboratórios posteriores.\nd.  Explore a distribuição Linux instalada e localize alguns aplicativos que você pode usar.\nPerguntas para reflexão"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual modelo de nuvem representa duas ou mais nuvens em que cada parte permanece um objeto distinto, mas ambas são conectadas usando uma única arquitetura?",
+      "options": [
+        "nuvem pública",
+        "nuvem privada",
+        "nuvem híbrida",
+        "nuvem comunitária"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO modelo de nuvem híbrida representa duas ou mais nuvens em que cada parte permanece um objeto distinto, mas ambas são conectadas usando uma única arquitetura.",
+      "raw_id": "9f10262666614961a59d0f39120b3b30"
+    },
+    {
+      "question": "Nuvens criadas para atender às necessidades de uma indústria específica, como saúde ou mídia",
+      "options": [
+        "nuvem pública",
+        "nuvem privada",
+        "nuvem híbrida",
+        "nuvem comunitária"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO modelo de nuvem da comunidade é usado para atender às necessidades de um setor específico, como assistência médica ou mídia.",
+      "raw_id": "3a99c82a1c2d4b5d9dcdf74e2ba09bd3"
+    },
+    {
+      "question": "Qual dispositivo usa toda a RAM, a potência de processamento e o espaço no disco rígido dedicado a um serviço?",
+      "options": [
+        "servidor dedicado",
+        "dispositivo móvel",
+        "máquina virtual",
+        "servidor virtual"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm servidor dedicado usa toda a RAM, poder de processamento e espaço em disco rígido dedicado a um serviço.",
+      "raw_id": "e1eb11531b4b412e83af5affa1ab5fb0"
+    },
+    {
+      "question": "Qual termo está associado à computação em nuvem?",
+      "options": [
+        "profissionais remotos",
+        "sem fio",
+        "servidores altos",
+        "virtualização"
+      ],
+      "correctIndex": 3,
+      "explanation": "A computação em nuvem envolve computadores, software, servidores, dispositivos de rede e outros serviços mantidos fisicamente em um local remoto. A virtualização é usada pelos fornecedores de computação em nuvem para que eles possam oferecer vários servidores, redes, aplicativos, sistemas operacionais, etc. aos clientes sem precisar comprar o equipamento para cada um. A virtualização de servidores, por exemplo, permite que vários servidores estejam em um servidor físico. Cada servidor pode ser para um cliente diferente, se necessário.",
+      "raw_id": "6fbe8680039d431dbfa0c4c5e6c9a3d8"
+    },
+    {
+      "question": "Quais dos três recursos representam os benefícios da virtualização? (Escolha três.)",
+      "options": [
+        "menos consumo de energia",
+        "menos treinamento técnico dos funcionários",
+        "menos monitoramento de dispositivos",
+        "menos equipamentos",
+        "melhor recuperação de desastres",
+        "menos requisitos de segurança"
+      ],
+      "correctIndex": 4,
+      "explanation": "A virtualização é a capacidade de executar várias instâncias de um sistema operacional simultaneamente na mesma plataforma de hardware. Isso reduz a quantidade de equipamento necessário, resultando em menos consumo de energia e melhor recuperação de desastres",
+      "raw_id": "bff98a2064574f31b51967b2dc7fa99d"
+    },
+    {
+      "question": "Qual termo descreve o tipo de serviço de computação em nuvem que fornece aplicações pela Web?",
+      "options": [
+        "Iaas",
+        "ITaaS",
+        "PaaS",
+        "SaaS"
+      ],
+      "correctIndex": 3,
+      "explanation": "O software como serviço (SaaS) fornece aplicações pela Web para usuários finais. A infraestrutura como serviço (IaaS) fornece hardware e software para as empresas. Plataforma como serviço (PaaS) fornece ferramentas e serviços usados para entregar aplicações aos usuários finais. A TI como serviço (ITaaS) fornece os talentos dos profissionais de TI às empresas para dar suporte a aplicações, plataformas e dispositivos de infraestrutura.",
+      "raw_id": "9b8e55728fa644359e5282b1555a7a4d"
+    },
+    {
+      "question": "Salvar as fotos em um local de armazenamento mantido pela operadora é um exemplo de ________.",
+      "options": [
+        "virtualização",
+        "Big Data",
+        "computação em nuvem"
+      ],
+      "correctIndex": 2,
+      "explanation": "A computação em nuvem permite que as pessoas salvem, gerenciem e acessem dados em recursos de computador localizados em uma rede remota ou na Internet, em vez de em seus próprios dispositivos.",
+      "raw_id": "3814cd841f1549368968fd03199763c4"
+    },
+    {
+      "question": "Qual modelo de nuvem fornece serviços para uma empresa ou entidade específica?",
+      "options": [
+        "uma nuvem híbrida",
+        "uma nuvem comunitária",
+        "uma nuvem pública",
+        "uma nuvem privada"
+      ],
+      "correctIndex": 3,
+      "explanation": "As nuvens privadas são usadas para fornecer serviços e aplicativos a uma empresa específica e podem ser configuradas na rede privada da empresa ou gerenciadas por uma empresa externa.",
+      "raw_id": "db7a799155a54d34a927c2934d1df649"
+    },
+    {
+      "question": "Uma empresa usa serviços em nuvem e está configurando um novo switch fornecido pelo provedor de nuvem. Qual modelo de nuvem é usado pela empresa?",
+      "options": [
+        "DaaS",
+        "Iaas",
+        "PaaS",
+        "SaaS"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sempre que uma empresa tem um dispositivo de infraestrutura como um roteador ou switch na solução de nuvem da empresa, o modelo de nuvem que está sendo usado é IaaS.",
+      "raw_id": "24e5bfc3d96546258366cfd22968b98d"
+    },
+    {
+      "question": "Qual termo é usado para definir o processo de software que cria VMs e executa abstração de hardware para oferecer suporte a VMs?",
+      "options": [
+        "hipervisor",
+        "contêiner",
+        "Element Manager",
+        "Gerenciador de infraestrutura virtualizada (VIM)"
+      ],
+      "correctIndex": 0,
+      "explanation": "O hypervisor é um software de virtualização que executa a abstração de hardware. Ele permite que várias VMs sejam executadas simultaneamente no ambiente virtual.",
+      "raw_id": "12a4fe047b484b9881541cba743f00e6"
+    },
+    {
+      "question": "Consulte a figura. Que tipo de software é instalado no sistema host para comportar as três máquinas virtuais?",
+      "options": [
+        "Hipervisor tipo 2",
+        "software bare metal",
+        "Hipervisor tipo 1",
+        "software de computação de borda"
+      ],
+      "correctIndex": 0,
+      "explanation": "O software de hypervisor tipo 2 é executado no sistema operacional de uma máquina host. Um hypervisor tipo 1 não exige que o sistema host tenha um sistema operacional adicional para gerenciar os processos de hardware e sistema.",
+      "raw_id": "805d772c3e3449fc90791d1e53e1775b"
+    },
+    {
+      "question": "Qual software é responsável pela criação de máquinas virtuais e pelo acesso a recursos em uma máquina física?",
+      "options": [
+        "hipervisor",
+        "supervisor",
+        "sistema operacional host",
+        "sistema operacional hospedado"
+      ],
+      "correctIndex": 0,
+      "explanation": "O hypervisor cria e gerencia máquinas virtuais. Um hipervisor pode executar várias máquinas virtuais em um único computador host. O hipervisor aloca os recursos do sistema físico, como CPU, RAM e disco rígido, para cada máquina virtual conforme necessário. Isso garante que a operação de uma máquina virtual não interfira na outra.",
+      "raw_id": "46f6be0175e54200b400dfde699df3d7"
+    },
+    {
+      "question": "Qual tipo de nuvem consiste em duas ou mais nuvens conectadas por uma única arquitetura?",
+      "options": [
+        "⁪híbrido",
+        "privado",
+        "público",
+        "community"
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma nuvem híbrida é composta por duas ou mais nuvens conectadas a uma única arquitetura.",
+      "raw_id": "db0710f2a5be4820bb5ea884006a239c"
+    },
+    {
+      "question": "Quais são os hipervisores do tipo 2? (Escolha duas.)",
+      "options": [
+        "Virtualbox",
+        "VMware ESXi",
+        "Xen",
+        "PC virtual",
+        "KVM"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tanto o Virtualbox quanto o Virtual PC são hipervisores do tipo 2. As outras opções são hipervisores do tipo 1.",
+      "raw_id": "e0176df0e9184c00b61f0e5f8af774cf"
+    },
+    {
+      "question": "O que é uma característica de uma nuvem pública?",
+      "options": [
+        "Está disponível para todos.",
+        "Destina-se a uma empresa específica.",
+        "É composto de duas ou mais nuvens.",
+        "Ele é personalizado para atender às necessidades funcionais específicas das empresas."
+      ],
+      "correctIndex": 0,
+      "explanation": "Uma nuvem pública fornece serviços disponíveis para todos e podem ser gratuitos ou podem exigir pagamento.",
+      "raw_id": "ed26f6e76dda40828dd6bf46ccacea3e"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,435 @@
+[
+  {
+    "_id": "b48c4e0d69c64a6ba78b0200ef092491",
+    "body": "<p><span>Entendendo a Camada de Rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "b48c4e0d69c64a6ba78b0200ef092491",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "47ab997a-dc14-4a76-9c17-324ec39c1ab1",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg",
+        "_small": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg",
+        "_medium": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg",
+        "_small": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg",
+        "_medium": "pt-BR/assets/63d64f1cb94b4bbaaf832f34b25f222c.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "07cc02c0-99e7-448a-8ede-3858359dd871",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "987c9d6ddc3a42c7a095030222eba452",
+    "body": "<p><span>Explicar como a camada de rede usa protocolos IP para comunicações confiáveis.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Características de camada de rede",
+    "_oldId": "987c9d6ddc3a42c7a095030222eba452",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "44b78926-8c3d-4bdb-b791-7234044a2adb",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg",
+        "_small": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg",
+        "_medium": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg",
+        "_small": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg",
+        "_medium": "pt-BR/assets/b0aab6db9059497993a96c84e341a7ec.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "displayTitle": "{{_moduleNumber}}.1. Características de camada de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "07cc02c0-99e7-448a-8ede-3858359dd871",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "body": "<p><span>Explicar a função dos principais campos do cabeçalho no pacote IPv4.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Pacote IPv4 ",
+    "_oldId": "1584c01b36d5493dad9f8d4f3743ebd3",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "01305157-a39e-4a46-a9ac-dc6d85ad1939",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg",
+        "_small": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg",
+        "_medium": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg",
+        "_small": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg",
+        "_medium": "pt-BR/assets/2faaac3e865246b59829085ed2ba5f7e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "displayTitle": "{{_moduleNumber}}.2. Pacote IPv4 ",
+    "_isPageTracer": false,
+    "_activityParentId": "07cc02c0-99e7-448a-8ede-3858359dd871",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "aebef9886c0144aea8b7efaecad518cb",
+    "body": "<p><span>Explicar a função dos principais campos do cabeçalho no pacote IPv6.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Pacote IPv6 ",
+    "_oldId": "aebef9886c0144aea8b7efaecad518cb",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "9238c37d-1f14-405b-812e-ab304471ee31",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg",
+        "_small": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg",
+        "_medium": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg",
+        "_small": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg",
+        "_medium": "pt-BR/assets/942a478ce82c4400ba2d86bc92f2a02d.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "displayTitle": "{{_moduleNumber}}.3. Pacote IPv6 ",
+    "_isPageTracer": false,
+    "_activityParentId": "07cc02c0-99e7-448a-8ede-3858359dd871",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "4137ec1a63a0405fa984f848117cfc6d",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Resumo da camada de rede",
+    "_oldId": "4137ec1a63a0405fa984f848117cfc6d",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_activityId": "733b2b66-3f0c-4a7a-9f0d-bd891a8da3e5",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg",
+        "_small": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg",
+        "_medium": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg",
+        "_small": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg",
+        "_medium": "pt-BR/assets/c52cb0c0ad64464fabb62df732455749.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "1bd42ea6e75d4fff9addb679687ab486",
+    "displayTitle": "{{_moduleNumber}}.4. Resumo da camada de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "07cc02c0-99e7-448a-8ede-3858359dd871",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

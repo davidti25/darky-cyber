@@ -1,0 +1,5254 @@
+[
+  {
+    "_id": "1a21fe21-3e1e-4555-bbe6-3f8c15756029",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "1a21fe21-3e1e-4555-bbe6-3f8c15756029",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7308861d-da79-4e3a-befe-839c80b31ce3",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5df0c9e0-2fac-49f8-8cf1-7d1f3cda90fe",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7308861d-da79-4e3a-befe-839c80b31ce3",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "1a65caef-cb90-46a4-9f45-354fafefc268",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "72157432-9d37-4780-9487-9d660f3b4e10",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "72157432-9d37-4780-9487-9d660f3b4e10",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7a256a21-3c92-4f7f-a75e-9fdce9604744",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c1e10775-0844-4677-86a4-a0b388179d08",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "7a256a21-3c92-4f7f-a75e-9fdce9604744",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "333faf7a-7f3b-46d9-ae64-faab6989211d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b03a8932-ac22-41e9-8ecc-dbf2d85f7441",
+    "body": "<p>O Webster aqui de novo! Bob é bom nesse negócio de redes. Quando ele estava aprendendo redes, ele tinha que entender sistemas numéricos e você também! Você já usa o sistema decimal de base 10, que usa números inteiros de 0 a 9. Você conhece outros sistemas numéricos? Já vi base-12, base-60 e outras. Você sabe sobre o sistema binário que os computadores usam? O sistema binário usa apenas dois números inteiros, 0 e 1. Hosts, servidores e dispositivos de rede usam endereçamento binário. Há também algo chamado sistema de numeração hexadecimal. Ele é usado em rede para representar endereços IP Versão 6 e endereços Ethernet MAC.</p><p>Aproveite este módulo para aprender mais sobre esses sistemas numéricos e como convertê-los!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "b03a8932-ac22-41e9-8ecc-dbf2d85f7441",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "b20c1de8-c3f3-4730-821f-ff9b1ef14b73",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "6f285614-99a5-44c8-8c9d-a3329ed69948",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "b20c1de8-c3f3-4730-821f-ff9b1ef14b73",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "812e7863-c270-4a99-b788-f94db9b89a6d",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3df6d3ca-2191-4cd5-91df-2a65d1c4c489",
+    "body": " ",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "3df6d3ca-2191-4cd5-91df-2a65d1c4c489",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/067c50445e3748f5819eeeed829d75fa.png",
+      "small": "pt-BR/assets/067c50445e3748f5819eeeed829d75fa.png",
+      "attribution": ""
+    },
+    "_parentId": "b20c1de8-c3f3-4730-821f-ff9b1ef14b73",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "b35d878e-2e62-4e3a-9d4e-a62b37964bf6",
+    "instruction": "",
+    "_oldParentId": "b20c1de8-c3f3-4730-821f-ff9b1ef14b73",
+    "displayTitle": "",
+    "_activityParentId": "812e7863-c270-4a99-b788-f94db9b89a6d",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "b7368da7-9121-40f7-967d-170bfe81a2bc",
+    "body": "<p><strong>Título do Módulo:</strong> Sistemas Numéricos</p><p><strong>Objetivo do Módulo:</strong> Calcular números entre sistemas decimais, binários e hexadecimais.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Sistema de numeração binário",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Calcular números entre sistemas decimal e binário.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Sistema de numeração hexadecimal",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Calcular números entre sistemas decimal e hexadecimal.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O Que Vou Aprender Neste Módulo?",
+    "_oldId": "b7368da7-9121-40f7-967d-170bfe81a2bc",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "b2ddc3c6-c6a5-4da4-a1ac-6452caee9961",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "02a29d29-bcfd-42bb-9aa2-24e2304aa90e",
+    "instruction": "",
+    "_oldParentId": "b2ddc3c6-c6a5-4da4-a1ac-6452caee9961",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "e7ebb203-1c84-4b17-a6e9-ae1187c09bc9",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6dc099b4-97fe-4c75-b9b9-3ccf38a6dd1d",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "6dc099b4-97fe-4c75-b9b9-3ccf38a6dd1d",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "7513a27a-b6ba-4fb7-af6a-6683c574fddd",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "7f6765e2-4bde-485a-b43a-f82c8e8e1621",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "7513a27a-b6ba-4fb7-af6a-6683c574fddd",
+    "displayTitle": "",
+    "_activityParentId": "61c4bb99-dd2b-4ed3-ba00-bf43fa3b40d2"
+  },
+  {
+    "_id": "a405ad6c-9198-4826-9855-588cb910a3e0",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Sistema de numeração binário</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Sistema de numeração binário",
+    "_oldId": "a405ad6c-9198-4826-9855-588cb910a3e0",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c7c1cf9b-2651-4c28-8147-c9378c1199df",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c6708f60-3e3e-419f-b83b-f654386fac36",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c7c1cf9b-2651-4c28-8147-c9378c1199df",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "f6cd0c81-46fa-4a88-9bf6-6cc31cef73dc",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "62b5961e-10e2-4f60-b355-25bb73520d38",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Sistema de numeração binário",
+    "_oldId": "62b5961e-10e2-4f60-b355-25bb73520d38",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c8d0ac39-1493-4aa3-99b5-ad6a0f26e002",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cc7d7aca-f3de-47f4-8bd1-17e8da9dcc13",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c8d0ac39-1493-4aa3-99b5-ad6a0f26e002",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "37a540d1-7f3e-47cb-8144-f488e38a1b01",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0049a47b-34cf-4588-8ca7-5011d3ae3791",
+    "body": "<p>Os endereços IPv4 começam como binários, uma série de apenas 1s e 0s. Eles são difíceis de gerenciar, portanto, os administradores de rede devem convertê-los em decimal. Este tópico mostra algumas maneiras de fazer isso.</p><p>Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits. Em contraste, o sistema de numeração decimal consiste em 10 dígitos que incluem 0 a 9.</p><p>É importante compreender o binário porque hosts, servidores e dispositivos de rede usam esse tipo de endereçamento. Especificamente, eles usam endereços IPv4 binários, como mostrado na figura, para se identificar.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Endereços Binários e IPv4",
+    "_oldId": "0049a47b-34cf-4588-8ca7-5011d3ae3791",
+    "details": {
+      "uuid": "2de2d6f0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>Endereço de Rede da LAN A</strong><br /> A11000000.10101000.00001010.00000000 /24",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "<strong>Endereço de Rede da LAN B</strong><br>11000000.10101000.00001011.00000000 /24",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de2d6f0-1c25-11ea-a010-eb2108469056/2de2d6f2-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "750/372",
+      "primary_image": "media/2de2d6f0-1c25-11ea-a010-eb2108469056/2de2d6f3-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "171745dc-4d8f-4536-a82d-354b90119af9",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "71645e7c-0917-4b1c-8494-f083b11b7976",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "171745dc-4d8f-4536-a82d-354b90119af9",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Há um roteador central com duas LANs diretamente conectadas e uma WAN conectada a uma nuvem. Cada LAN possui um switch e um PC.  A WAN tem um PC.\nCada dispositivo tem um endereço IPv4 que está em notação binária pontilhada em vez de notação decimal pontilhada.",
+    "_activityParentId": "c7b47b43-84ff-47a8-bb75-1af89c4fa089",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "b689ca3a-2368-4831-aa2c-55839fdd59ce",
+    "body": "<p>Cada endereço é composto por uma string de 32 bits dividida em quatro seções, chamadas octetos. Cada octeto tem 8 bits (ou 1 byte) separados por um ponto. Por exemplo, o PC1 na figura recebeu o endereço IPv4 <span style='word-wrap:break-word'>11000000.10101000.00001010.00001010.</span> Seu endereço de gateway padrão seria aquele da interface Ethernet Gigabit do R1, <span style='word-wrap:break-word'>11000000.10101000.00001010.00000001.</span></p><p>O binário funciona bem com hosts e dispositivos de rede. No entanto, é muito desafiador para os seres humanos trabalharem.</p><p>Para facilitar o uso pelas pessoas, os endereços IPv4 são geralmente expressos em notação decimal pontilhada. O PC1 recebe o endereço IPv4 192.168.10.10 e o endereço de gateway padrão é 192.168.10.1, conforme mostrado na figura.</p>",
+    "_type": "component",
+    "title": "",
+    "_oldId": "b689ca3a-2368-4831-aa2c-55839fdd59ce",
+    "details": {
+      "uuid": "2de2fe00-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>Endereço de rede LAN A</strong><br>192.168.10.0 /24",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "<strong>Endereço de Rede PLAN B</strong><br> 192.168.11.0 /24",
+          "class": "ID_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de2fe00-1c25-11ea-a010-eb2108469056/2de2fe02-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "750/372",
+      "primary_image": "media/2de2fe00-1c25-11ea-a010-eb2108469056/2de2fe03-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "ca38dbcf-76a0-4018-b227-ec6fd690829b",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "8fc2c50e-31d8-4785-8321-6932765f2263",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "ca38dbcf-76a0-4018-b227-ec6fd690829b",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Este diagrama é o mesmo que o primeiro, um roteador central com duas LANs e uma WAN conectada a uma nuvem. \nIsso tem os mesmos dispositivos que o primeiro diagrama; no entanto, em vez de ter o endereçamento IPv4 em binário, ele está em notação decimal pontilhada. ",
+    "_activityParentId": "32fca51a-a035-4790-8436-311f432d4c5c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "54db142b-8631-451a-9163-a3044e370b32",
+    "body": "<p>Para ter um conhecimento sólido do endereçamento de rede, é preciso saber lidar com endereçamento binário e ter prática na conversão entre endereços IPv4 binários e decimais com pontos. Esta seção abordará como converter entre os sistemas de numeração de base dois (binário) e base 10 (decimal).</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "54db142b-8631-451a-9163-a3044e370b32",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 no-element-backgrounds",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3376df92-86cc-419c-8f32-5375b9bf1ea2",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "cc5b7464-ef78-46f0-8535-85d29d97870b",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "3376df92-86cc-419c-8f32-5375b9bf1ea2",
+    "displayTitle": "",
+    "_activityParentId": "38e7cc8f-d92c-4cc5-ba20-44a79a3c042a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "4013094e-5104-40e2-a451-e7b20b834e45",
+    "body": "<p><b>Selecione o botão Reproduzir para assistir ao vídeo.</b></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Vídeo - Convertendo entre sistemas de numeração binária e decimal",
+    "_oldId": "4013094e-5104-40e2-a451-e7b20b834e45",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6253895226001",
+    "videoIds": [
+      "af3c3b37-3d9d-4d43-ba70-217e80f09fd7"
+    ],
+    "_parentId": "7b971922-bd1a-486e-a0f9-fda2d995ec76",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "bc354986-d96b-4e1d-a2f8-c39a45649f49",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "7b971922-bd1a-486e-a0f9-fda2d995ec76",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "bd96a518-d14e-40ba-9c32-d7af8af6fb84",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "0bea3723-fc16-48ed-99b5-c3345b0e4bdd",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "0bea3723-fc16-48ed-99b5-c3345b0e4bdd",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2c793ca2-689a-4a3f-8f13-929da7aa2614",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "eb42e280-6962-40c2-b7a3-9341e3daccc9",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_oldParentId": "2c793ca2-689a-4a3f-8f13-929da7aa2614",
+    "displayTitle": "",
+    "_activityParentId": "e3ff95b0-ba1b-4273-a0c2-bc7e6d136b1c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a14b0566d3e64d6e8ad01423a6ac6e7a",
+    "body": "<p><span style=\"color:#000000\">Qual é o binário equivalente ao endereço IP 192.168.11.10?</span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Verifique Sua Compreensão - Sistema de Número Binário - Pergunta 1",
+    "_items": [
+      {
+        "text": "<span style='word-wrap:break-word;'>11000000.11000000.00001011.00001010</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>11000000.10101000.00001011.00001010</span>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>11000000.10101000.00001010.00001011</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>11000000.10101000.00001011.00010010</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "a14b0566d3e64d6e8ad01423a6ac6e7a",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">192.168.11.10 é equivalente a 11000000.10101000.00001011.00001010</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>192.168.11.10 é equivalente a 11000000.10101000.00001011.00001010<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "73b27cf1-65d6-4772-ba91-e04f8d257439",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "cbbdb829-2ec5-4d83-8815-d68cec44b046",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "73b27cf1-65d6-4772-ba91-e04f8d257439",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "a14b0566d3e64d6e8ad01423a6ac6e7a",
+    "_activityParentId": "5c1e62ee-6cca-4ab7-8776-c9c46f911147",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "b0002e39e37b4e1588850a0fbca398bc",
+    "body": "<p><span style=\"color:#000000\">Qual dos seguintes é o binário equivalente ao endereço IP 172.16.31.30?</span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Verifique Sua Compreensão - Sistema de Número Binário - Pergunta 2",
+    "_items": [
+      {
+        "text": "<span style='word-wrap:break-word;'>11000000.00010000.00011111.00011110</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>10101000.00010000.00011111.00011110</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>10101100.00010000.00011110.00011110</span>",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "<span style='word-wrap:break-word;'>10101100.00010000.00011111.00011110</span>",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "b0002e39e37b4e1588850a0fbca398bc",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\">172.16.31.30 é equivalente a 10101100.00010000.00011111.000111110</p>",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>172.16.31.30 é equivalente a 10101100.00010000.00011111.000111110<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9a9cc501-445a-4c4a-8d0c-c6d915e3c30b",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "fa18645f-efe9-4760-8b41-a5ed2a5b822c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "9a9cc501-445a-4c4a-8d0c-c6d915e3c30b",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "b0002e39e37b4e1588850a0fbca398bc",
+    "_activityParentId": "dde81f60-bda1-4c83-85a5-801bc69d91a6",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "6e186c85d2fe4f32bf5226c2b5dd38d6",
+    "body": "<p><strong>Instruções</strong></p> <p>Esta atividade permite praticar a conversão de binário em decimal de 8 bits, tanto quanto necessário. Recomendamos que você trabalhe com esta ferramenta até que você seja capaz de fazer a conversão sem erros. Converta o número binário mostrado no octeto ao seu valor decimal.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.4 Atividade - Conversões binárias em decimais",
+    "_oldId": "6e186c85d2fe4f32bf5226c2b5dd38d6",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_feedback": {
+      "correct": {
+        "body": "<p>O valor decimal que você inseriu está correto! Clique em <strong>Novo Número</strong> para continuar.</p>",
+        "title": "Correto",
+        "_timeout": 4000
+      },
+      "_incorrect": {
+        "body": "<p>O valor decimal que você inseriu está incorreto! Clique em <strong>Reiniciar</strong> para tentar novamente.</p>",
+        "title": "Incorreto ",
+        "_timeout": 4000
+      }
+    },
+    "_parentId": "224d2f43-fb0d-4e09-8647-384d58c79d5b",
+    "maxlength": 5,
+    "_component": "binaryToDecimal",
+    "_isDeleted": false,
+    "TabelLabels": {
+      "_bit": "Bit",
+      "_base": "Base",
+      "_after": "<strong>Número Binário</strong>",
+      "_before": "<p><strong>Digite a resposta decimal aqui.</p></strong>",
+      "_decimal": "Valor Decimal",
+      "_exponent": "Expoente",
+      "_position": "Posição",
+      "_inputAriaLabel": "entrada decimal"
+    },
+    "_activityId": "a7626223-72ef-4a29-bdf8-723bf1e1d949",
+    "instruction": "",
+    "_oldParentId": "224d2f43-fb0d-4e09-8647-384d58c79d5b",
+    "displayTitle": "",
+    "_actionButtons": {
+      "_show": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Mostrar passo a passo"
+      },
+      "_check": {
+        "ariaLabel": "Selecione aqui para verificar sua resposta.",
+        "buttonText": "Verificar"
+      },
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Reiniciar"
+      },
+      "_change": {
+        "ariaLabel": "",
+        "buttonText": "Novo Número"
+      }
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_ravennaSourceID": "6e186c85d2fe4f32bf5226c2b5dd38d6",
+    "_activityParentId": "db4215b8-2e35-4acc-ba7f-1a24a86e53c8",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "91fe847b-a209-4500-8641-1383934343b8",
+    "body": "<p>Também é preciso saber como converter um endereço IPv4 decimal com pontos para binário. Uma ferramenta útil é a tabela de valores posicionais binários.</p><p><b>Clique em cada posição começando em 128 e trabalhe seu caminho da esquerda para a direita para a posição 1.</b></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.5 Conversão de Decimal para Binário",
+    "_items": [
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao bit mais significativo (<b>128</b>)?</p><ul><li>Se não for, insira o binário <strong>0</strong> no valor posicional <strong>128</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>128</strong> e subtraia <strong>128</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "128 ",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "0fe10a8d-7a44-478e-b039-384019750e50"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo  (<strong>64</strong>)?</p><ul><li>Se não, insira o binário <strong>0</strong> no valor de posição <strong>64</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>64</strong> e subtraia <strong>64</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "64",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "6be5ccf3-6c7f-47fa-b184-594d3d5946f8"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo (<strong>32</strong>)?</p><ul><li>Se não, insira o binário <strong>0</strong> no valor de posição <strong>32</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>32</strong> e subtraia <strong>32</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "32 ",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "0de8eba7-272d-4d40-b286-0dde43cf78e6"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo (<strong>16</strong>)?</p><ul><li>Se não for, insira o binário <strong>0</strong> no valor posicional <strong>16</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>16</strong> e subtraia <strong>16</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "16",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "c3c73e65-c01d-4805-aa22-20d8474125a1"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo (<strong>8</strong>)?</p><ul><li>Se não for, insira o binário <strong>0</strong> no valor posicional <strong>8</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>8</strong> e subtraia <strong>8</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "8",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "723b7dec-bc6a-4aec-afd8-b61512719e39"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo (<strong>4</strong>)?</p><ul><li>Se não, insira o binário <strong>0</strong> no valor de posição <strong>4</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>4</strong> e subtraia <strong>4</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "4",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "de3b8ec3-a3b2-4d65-b0f7-e55e89a2000d"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao próximo bit mais significativo (<strong>2</strong>)?</p><ul><li>Se não, insira o binário <strong>0</strong> no valor de posição<strong>2</strong>. </li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>2</strong> e subtraia <strong>4</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "2 ",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "306b3bca-1061-43fe-b4e6-2f96c4fd28ce"
+        }
+      },
+      {
+        "body": "<p>O número decimal do octeto (n) é igual ou superior ao último bit mais significativo (<strong>1</strong>)?</p><ul><li>Se não for, insira o binário <strong>0</strong> no valor posicional <strong>1</strong>.</li><li>Em caso afirmativo, adicione um binário <strong>1</strong> ao valor posicional <strong>1</strong> e subtraia <strong>1</strong> do número decimal.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "1",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "09da40d6-57fa-40b1-bbb0-67f0a0273d55"
+        }
+      }
+    ],
+    "_oldId": "91fe847b-a209-4500-8641-1383934343b8",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "02bfd95a-762b-4c0d-9b33-7318bbfb6f7f",
+    "_component": "tabs",
+    "_isDeleted": false,
+    "_minHeight": "500px",
+    "_tabLayout": "horizontal",
+    "_activityId": "1ab2435d-187c-4244-be8a-f4526b19a96f",
+    "_oldParentId": "02bfd95a-762b-4c0d-9b33-7318bbfb6f7f",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_activityParentId": "ec035f6c-c8db-453d-8884-ae611dbccd81",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "1e156f8c-b410-4e7f-a9c0-067a669152d0",
+    "body": "<p>Para ajudar a entender o processo, considere o endereço IP <strong>192.168.10.11</strong>.</p><p>O primeiro número de octeto <strong>192</strong> é convertido em binário usando o processo de notação posicional explicado anteriormente.</p><p>É possível ignorar o processo de subtração com números decimais mais fáceis ou menores. Por exemplo, observe que é bastante fácil calcular o terceiro octeto convertido em um número binário sem realmente passar pelo processo de subtração (8 + 2 = 10). O valor binário do terceiro octeto é <strong>00001010</strong>.</p><p>O quarto octeto é 11 (8 + 2 + 1). O valor binário do quarto octeto é <strong>00001011</strong>.</p><p>A conversão entre binário e decimal pode parecer desafiadora a princípio, mas com a prática fica mais fácil.</p><p>Clique em cada etapa para ver a conversão do endereço IP de <strong>192.168.10.11</strong> em binário.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.6 Exemplos de Conversão de Decimal para Binário",
+    "_items": [
+      {
+        "body": "<p>O primeiro número do octeto <strong>192</strong> é igual ou maior que o bit de ordem alta <strong>128</strong>?</p><ul><li>Sim, é, portanto, adicione <strong>1</strong> ao valor posicional de ordem superior para representar <strong>128</strong>.</li><li>Subtraia <strong>128</strong> de <strong>192</strong> para produzir um resto de <strong>64</strong>.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 1",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "93fddff2-5ce9-4f46-a65d-5c0321c08302"
+        }
+      },
+      {
+        "body": "<p>O resto <strong>64</strong> é igual ou maior que o próximo bit de ordem alta <strong>64</strong>?</p><ul><li>É igual, portanto, adicione <strong>1</strong> ao próximo valor posicional de ordem superior.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 2",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "e477d3ae-31e3-4dde-b725-204687eca089"
+        }
+      },
+      {
+        "body": "<p>Como não há resto, insira o binário <strong>0</strong> nos valores posicionais restantes.</p><ul><li>O valor binário do primeiro octeto é <strong>11000000</strong>.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 3",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "d0a1d676-14fe-4f34-8c10-5b2279b7ca16"
+        }
+      },
+      {
+        "body": "<p>O segundo octeto número <strong>168</strong> é igual ou maior que o bit de ordem superior <strong>128</strong>?</p><ul><li>Sim, é, portanto, adicione <strong>1</strong> ao valor posicional de ordem superior para representar <strong>128</strong>.</li><li>Em seguida, subtraia 128 de 168 para produzir o valor 40 como resto.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 4",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "cdf38781-c70f-4881-85f4-eb368539e505"
+        }
+      },
+      {
+        "body": "<p>O resto <strong>40</strong> é igual ou maior que o próximo bit de ordem alta <strong>64</strong>?</p><ul><li>Não, não é, portanto, insira um binário <strong>0</strong> no valor posicional.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 5",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "81378669-d9c1-447f-86d7-c3e3518f882d"
+        }
+      },
+      {
+        "body": "<p>O resto <strong>40</strong> é igual ou maior que o próximo bit de ordem alta <strong>32</strong>?</p><ul><li>Sim, é, portanto, adicione <strong>1</strong> ao valor posicional de ordem superior para representar <strong>32</strong>.</li><li>Em seguida, subtraia <strong>32</strong> de <strong>40</strong> para produzir o valor <strong>8</strong> como resto.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 6",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "4fced801-f398-4d3a-85b3-466e89cc991f"
+        }
+      },
+      {
+        "body": "<p>O resto <strong>8</strong> é igual ou maior que o próximo bit de ordem alta <strong>16</strong>?</p><ul><li>Não, não é, portanto, insira um binário <strong>0</strong> no valor posicional.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 7",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "dc9da613-6231-4263-8763-e7d8ea8d5210"
+        }
+      },
+      {
+        "body": "<p>O resto <strong>8</strong> é igual ou maior que o próximo bit de ordem alta <strong>8</strong>?</p><ul><li>É igual, portanto, adicione <strong>1</strong> ao próximo valor posicional de ordem superior.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 8",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "53e3fa3d-60c3-4b3b-8b1b-f5517e4e0a09"
+        }
+      },
+      {
+        "body": "<p>Como não há resto, insira o binário <strong>0</strong> nos valores posicionais restantes.</p><ul><li>O valor binário do segundo octeto é <strong>10101000</strong>.</li></ul>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 9",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "a6d8cbf6-46b9-4329-b130-d8459df393ee"
+        }
+      },
+      {
+        "body": "<p>O valor binário do terceiro octeto é <strong>00001010</strong>.</p>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 10",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "1101a12c-0eef-494a-8c68-c2fa69e31644"
+        }
+      },
+      {
+        "body": "<p>O valor binário do quarto octeto é <strong>00001011</strong>.</p>",
+        "title": "",
+        "_classes": "",
+        "tabTitle": "Etapa 11",
+        "component": {
+          "type": "dynamic-graphic",
+          "modelid": "79a87e08-bfa2-4724-b343-22fed7c96d4c"
+        }
+      }
+    ],
+    "_oldId": "1e156f8c-b410-4e7f-a9c0-067a669152d0",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "78a39a34-bc38-4edc-a779-0d7049980af3",
+    "_component": "tabs",
+    "_isDeleted": false,
+    "_minHeight": "500px",
+    "_tabLayout": "horizontal",
+    "_activityId": "de0ea312-ae8f-49ba-aee2-925cf114e320",
+    "_oldParentId": "78a39a34-bc38-4edc-a779-0d7049980af3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_activityParentId": "0c3f47df-a47b-41b1-b18c-4c224fa6248f",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "89a1ddc900af45c7805e5d944c47c7c9",
+    "body": "<p>Instruções</p> <p>Esta atividade permite que você pratique a conversão decimal em valores binários de 8 bits. Recomendamos que você trabalhe com esta ferramenta até que você possa fazer uma conversão sem erros. Converta o número decimal mostrado na linha Valor Decimal em seus bits binários.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.7 Atividade - Conversões Decimal para Binário",
+    "_oldId": "89a1ddc900af45c7805e5d944c47c7c9",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_feedback": {
+      "correct": {
+        "body": "<p>O valor decimal que você inseriu está correto! Clique em <strong>Novo Número</strong> para continuar.</p>",
+        "title": "Correto",
+        "_timeout": 4000
+      },
+      "_incorrect": {
+        "body": "<p>O valor decimal que você inseriu está incorreto! Clique em <strong>Reiniciar</strong> para tentar novamente.</p>",
+        "title": "Incorreto",
+        "_timeout": 4000
+      }
+    },
+    "_parentId": "a484463a-6f0a-4c80-8089-8f9296680210",
+    "maxlength": 5,
+    "_component": "decimalToBinary",
+    "_isDeleted": false,
+    "TabelLabels": {
+      "_bit": "Bit",
+      "_base": "Base",
+      "_after": "",
+      "_before": "",
+      "_decimal": "Decimal Value",
+      "_exponent": "Exponent",
+      "_position": "Position",
+      "_inputAriaLabel": "binary input"
+    },
+    "_activityId": "77ab1744-301e-4090-91a6-a879e191a69a",
+    "instruction": "",
+    "_oldParentId": "a484463a-6f0a-4c80-8089-8f9296680210",
+    "displayTitle": "",
+    "_actionButtons": {
+      "_show": {
+        "ariaLabel": "Toque aqui para enviar sua resposta.",
+        "buttonText": "Mostrar passo a passo"
+      },
+      "_check": {
+        "ariaLabel": "Selecione aqui para verificar sua resposta.",
+        "buttonText": "Verificar"
+      },
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": "Reiniciar"
+      },
+      "_change": {
+        "ariaLabel": "",
+        "buttonText": "Novo Número"
+      }
+    },
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_ravennaSourceID": "89a1ddc900af45c7805e5d944c47c7c9",
+    "_activityParentId": "69ddaf98-146e-46e2-92eb-091f3ab1182b",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "fd5265fa-b811-4281-8a3c-c0432bd4f24b",
+    "body": "<p>Esta é uma maneira divertida de aprender números binários para redes.</p><p><strong>Link do jogo: </strong><a target='_blank'href='https://learningnetwork.cisco.com/s/binary-game'>https://learningnetwork.cisco.com/docs/DOC-1803 </a></p> <p>Você precisará fazer login no cisco.com para usar este link. Será necessário criar uma conta se você ainda não tiver uma.</p> <p>Há também uma variedade de jogos binários gratuitos para dispostivos mobiles. Pesquise \"Binary Games\" na sua loja de aplicativos.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.8 Atividade – Jogo Binário",
+    "_oldId": "fd5265fa-b811-4281-8a3c-c0432bd4f24b",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3bb21f3c-41ce-44e6-b374-687a44f3b457",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "88c79e5b-c67d-4b1a-84ef-4af0ee70d4e2",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "3bb21f3c-41ce-44e6-b374-687a44f3b457",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "38515433-14bc-4e3e-92f3-ec1a852c9b61",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "0db54338-b4b8-45e4-b371-8e6a68b9dfe9",
+    "body": "<p>Como mencionado no início deste tópico, roteadores e computadores só entendem binários, enquanto humanos trabalham em decimal. É importante que você obtenha uma compreensão completa desses dois sistemas de numeração e como eles são usados na rede.</p><p><strong>Clique em cada botão para contrastar o endereço decimal com pontos e o endereço de 32 bits.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.9 Endereços IPv4",
+    "_items": [
+      {
+        "body": "<p>192.168.10.10 é um endereço IP atribuído a um computador.</p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "O gráfico mostra os números 192.168.10.10 com o binário em uma caixa laranja em torno dos números decimais pontilhados 192.168.10.10.\n11000000 está abaixo de 192 no primeiro octeto, 10101000 sob 168 no segundo octeto, 00001010 sob 10 no terceiro octeto, e 00001010 sob os últimos 10 no quarto octeto.",
+          "src": "media/2de8f171-1c25-11ea-a010-eb2108469056/2de8f175-1c25-11ea-81a0-ffc2c49b96bc.svg",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Endereço decimal com pontos"
+      },
+      {
+        "body": "<p>Esse endereço é composto por quatro octetos diferentes.</p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "O gráfico mostra os números 192.168.10.10 com o número binário em uma caixa laranja separado abaixo de cada número. Há quatro caixas no total.\n11000000 está abaixo de 192 no primeiro octeto, 10101000 sob 168 no segundo octeto, 00001010 sob 10 no terceiro octeto e 00001010 nos últimos 10 no quarto octeto.",
+          "src": "media/2de91880-1c25-11ea-a010-eb2108469056/2de91883-1c25-11ea-81a0-ffc2c49b96bc.svg",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Octetos"
+      },
+      {
+        "body": "<p>O computador armazena o endereço como o fluxo de dados inteiro de 32 bits.</p>",
+        "title": "",
+        "_classes": "",
+        "_graphic": {
+          "alt": "O gráfico mostra os números 192.168.10.10 com o binário em uma única caixa laranja abaixo do número decimal pontilhado em torno de todos os 32 bits do número binário.\n11000000 está abaixo de 192 no primeiro octeto, 10101000 sob 168 no segundo octeto, 00001010 sob 10 no terceiro octeto, e 00001010 sob os últimos 10 no quarto octeto.",
+          "src": "media/2de93f90-1c25-11ea-a010-eb2108469056/2de93f91-1c25-11ea-81a0-ffc2c49b96bc.svg",
+          "useGlobalAssetsDir": true
+        },
+        "tabTitle": "Endereço de 32 bits"
+      }
+    ],
+    "_oldId": "0db54338-b4b8-45e4-b371-8e6a68b9dfe9",
+    "_layout": "full",
+    "_classes": "",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "f6d715c0-7e4e-4317-a136-8aada2370ea0",
+    "_component": "tabs",
+    "_isDeleted": false,
+    "_minHeight": "500px",
+    "_tabLayout": "horizontal",
+    "_activityId": "f5763406-2e7e-4062-adf7-6541c4101129",
+    "_oldParentId": "f6d715c0-7e4e-4317-a136-8aada2370ea0",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": true,
+      "targetElement": "netacad-media"
+    },
+    "_activityParentId": "35ed59a2-74dc-4e54-a5d2-a72cf18bb955",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "af68565d-b599-4e8c-b9da-d27c95a643fb",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "af68565d-b599-4e8c-b9da-d27c95a643fb",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "67fad75f-4b9d-4826-ad16-6615c1763eb4",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "af44f13d-4d89-4edc-9cfa-8a65f3e8cb3a",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "67fad75f-4b9d-4826-ad16-6615c1763eb4",
+    "displayTitle": "",
+    "_activityParentId": "36049a83-6a89-4a0b-8e1c-487c58d215eb"
+  },
+  {
+    "_id": "0fe10a8d-7a44-478e-b039-384019750e50",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "0fe10a8d-7a44-478e-b039-384019750e50",
+    "details": {
+      "uuid": "2de4abb1-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s1_txt01"
+        },
+        {
+          "text": "<i>n</i>> = 128",
+          "class": "ID_s1_txt02"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s1_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s1_txt04"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s1_txt05"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s1_txt06"
+        },
+        {
+          "text": "<i>n</i> - 128",
+          "class": "ID_s1_txt07"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de4abb1-1c25-11ea-a010-eb2108469056/2de4abb4-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de4abb1-1c25-11ea-a010-eb2108469056/2de4abb5-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "7ec2d7a6-560d-4a9c-9e7c-22a63a1454d9",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "18db5d7f-ca3b-484b-baae-409d553299de",
+    "_oldParentId": "7ec2d7a6-560d-4a9c-9e7c-22a63a1454d9",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "O gráfico mostra uma tabela que tem 8 colunas para um Byte ou 8 bits. A linha superior mostra os valores da esquerda para a direita; 128, 64, 32, 16, 8, 4, 2, 1. À esquerda desta linha superior estão as palavras Valor posicional.\nA linha inferior está em branco, mas o campo em 128 é realçado ao selecionar a guia 128. \nAcima da tabela há um fluxograma que tem apenas uma proposta n > ou = 128. Não é para a esquerda e sim para a direita.\nHá uma linha que vai da proposição no centro, uma linha para a esquerda e uma linha para a direita. \nA linha se move pela parte superior e, em seguida, uma vez que limpa o gráfico, a linha aponta para baixo.\nNo lado Não ou à esquerda há uma caixa com Adicionar zero e uma nova linha aponta para o campo realçado. No lado direito ou Sim, a caixa tem Adicionar um. \nEm seguida, a linha continua e aponta para o campo destacado sob 128.\nSob a caixa Adicionar uma é outra linha que aponta para outra caixa que tem n - 128. Onde o número original irá subtrair 128 dele e, em seguida, considerar a próxima coluna com 64.",
+    "_activityParentId": "d1c242f9-0e8f-4ea1-9269-aec2558d2216",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "6be5ccf3-6c7f-47fa-b184-594d3d5946f8",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "6be5ccf3-6c7f-47fa-b184-594d3d5946f8",
+    "details": {
+      "uuid": "2de4f9d0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s2_txt01"
+        },
+        {
+          "text": "<i>n</i> >= 64",
+          "class": "ID_s2_txt02"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s2_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s2_txt04"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s2_txt05"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s2_txt06"
+        },
+        {
+          "text": "<i>n</i> - 64",
+          "class": "ID_s2_txt07"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de4f9d0-1c25-11ea-a010-eb2108469056/2de4f9d1-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de4f9d0-1c25-11ea-a010-eb2108469056/2de4f9d2-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "d5bc8a40-621a-4c23-aa99-265778f39325",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "3000c4e7-f174-44bb-bf3c-de7bd4670f3a",
+    "_oldParentId": "d5bc8a40-621a-4c23-aa99-265778f39325",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 64 em vez de 128. Além disso, o n> ou = 128 é agora n> ou = 64. O n - 128 na parte inferior mudou para n-64.",
+    "_activityParentId": "d8d99d40-e2ff-4a24-946d-6b85f241d591",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "0de8eba7-272d-4d40-b286-0dde43cf78e6",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "0de8eba7-272d-4d40-b286-0dde43cf78e6",
+    "details": {
+      "uuid": "2de520e0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s3_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s3_txt03"
+        },
+        {
+          "text": "<i>n</i> >= 32",
+          "class": "ID_s3_txt02"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s3_txt04"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s3_txt05"
+        },
+        {
+          "text": "<i>n</i> - 32",
+          "class": "ID_s3_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s3_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de520e0-1c25-11ea-a010-eb2108469056/2de520e3-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de520e0-1c25-11ea-a010-eb2108469056/2de520e4-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "014ea57d-9b33-4e96-ba80-99ec2599067f",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "5ffe381c-4015-4dcf-bdb8-1c16152738ee",
+    "_oldParentId": "014ea57d-9b33-4e96-ba80-99ec2599067f",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 32 em vez de 64. Além disso, o n> ou = 64 é agora n> ou = 32. O n - 64 na parte inferior mudou para n-32.",
+    "_activityParentId": "add02e46-2001-4ecc-a402-7c0f18a89b65",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "c3c73e65-c01d-4805-aa22-20d8474125a1",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "c3c73e65-c01d-4805-aa22-20d8474125a1",
+    "details": {
+      "uuid": "2de547f0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s4_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s4_txt03"
+        },
+        {
+          "text": "<i>n</i> >= 16",
+          "class": "ID_s4_txt02"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s4_txt04"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s4_txt05"
+        },
+        {
+          "text": "<i>n</i> - 16",
+          "class": "ID_s4_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s4_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de547f0-1c25-11ea-a010-eb2108469056/2de56f00-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de547f0-1c25-11ea-a010-eb2108469056/2de56f01-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "62c27b68-b7ad-4fd2-b268-61edc368c8d9",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "13c96661-85f5-4a36-af13-4f8845b380b6",
+    "_oldParentId": "62c27b68-b7ad-4fd2-b268-61edc368c8d9",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 16 em vez de 32. Além disso, o n> ou = 32 é agora n> ou = 16. O n -32 na parte inferior mudou para n-16.",
+    "_activityParentId": "ef8f8ca1-fcca-43c0-8a68-687c609b4e16",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "723b7dec-bc6a-4aec-afd8-b61512719e39",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "723b7dec-bc6a-4aec-afd8-b61512719e39",
+    "details": {
+      "uuid": "2de59610-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s5_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s5_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s5_txt04"
+        },
+        {
+          "text": "<i>n</i> >= 8",
+          "class": "ID_s5_txt02"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s5_txt05"
+        },
+        {
+          "text": "<i>n</i> - 8",
+          "class": "ID_s5_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s5_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de59610-1c25-11ea-a010-eb2108469056/2de59611-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de59610-1c25-11ea-a010-eb2108469056/2de59612-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "32d7981a-d9bc-4720-8251-663a4f638ab7",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "0a6c171e-4914-478a-9595-74a9242ba9b3",
+    "_oldParentId": "32d7981a-d9bc-4720-8251-663a4f638ab7",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 8 em vez de 16. Além disso, o n> ou = 16 é agora n> ou = 8. O n - 16 na parte inferior mudou para n-8.",
+    "_activityParentId": "5c0725e6-7b52-4bac-90ff-4058a0690a32",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "de3b8ec3-a3b2-4d65-b0f7-e55e89a2000d",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "de3b8ec3-a3b2-4d65-b0f7-e55e89a2000d",
+    "details": {
+      "uuid": "2de5bd20-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s6_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s6_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s6_txt04"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s6_txt05"
+        },
+        {
+          "text": "<i>n</i> - 4",
+          "class": "ID_s6_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s6_txt06"
+        },
+        {
+          "text": "<i>n</i>> = 4",
+          "class": "ID_s6_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de5bd20-1c25-11ea-a010-eb2108469056/2de5bd24-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de5bd20-1c25-11ea-a010-eb2108469056/2de5bd25-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "0a0be93b-a35c-4bbe-bdcc-4e2a0e78d9ca",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "42c3c5f7-e40e-45f2-8f2b-b864e45e0c50",
+    "_oldParentId": "0a0be93b-a35c-4bbe-bdcc-4e2a0e78d9ca",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 4 em vez de 8. Além disso, o n> ou = 8 é agora n> ou = 4. O n - 8 na parte inferior mudou para n-4.",
+    "_activityParentId": "f7526d2e-4f12-44bb-99ed-f2c5e409a52d",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "306b3bca-1061-43fe-b4e6-2f96c4fd28ce",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "306b3bca-1061-43fe-b4e6-2f96c4fd28ce",
+    "details": {
+      "uuid": "2de5e430-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s7_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s7_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s7_txt04"
+        },
+        {
+          "text": "<i>n</i>> = 2",
+          "class": "ID_s7_txt02"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s7_txt05"
+        },
+        {
+          "text": "<i>n</i> - 2",
+          "class": "ID_s7_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s7_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de5e430-1c25-11ea-a010-eb2108469056/2de5e438-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de5e430-1c25-11ea-a010-eb2108469056/2de60b40-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "b6ee96cc-31a3-486e-ad42-88bc35224904",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "cabc1f01-6e80-4e73-a950-0157afff32a4",
+    "_oldParentId": "b6ee96cc-31a3-486e-ad42-88bc35224904",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 2em vez de 4. Além disso, o n> ou = 4 é agora n> ou =2. O n - 4 na parte inferior mudou para n-2.",
+    "_activityParentId": "8b4204df-1938-4045-88fa-c5bd8fef904e",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "09da40d6-57fa-40b1-bbb0-67f0a0273d55",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: b1778162f4d94e01845e7b6d6c624a4a",
+    "_oldId": "09da40d6-57fa-40b1-bbb0-67f0a0273d55",
+    "details": {
+      "uuid": "2de63250-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Não",
+          "class": "ID_s8_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s8_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s8_txt04"
+        },
+        {
+          "text": "<i>n</i> >= 1",
+          "class": "ID_s8_txt02"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s8_txt05"
+        },
+        {
+          "text": "<i>n</i> - 1",
+          "class": "ID_s8_txt07"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s8_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de63250-1c25-11ea-a010-eb2108469056/2de63252-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/400",
+      "primary_image": "media/2de63250-1c25-11ea-a010-eb2108469056/2de63253-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "62670482-8fbb-4bf2-8cc7-021dcb7f9a49",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "78a77aa4-ef27-4f97-9f0f-634b2ca9b659",
+    "_oldParentId": "62670482-8fbb-4bf2-8cc7-021dcb7f9a49",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Esta figura é a mesma que a última figura, exceto que aponta para 1 em vez de 2. Além disso, o n> ou = 2 é agora n> ou = 1. O n - 2 na parte inferior mudou para n-1.",
+    "_activityParentId": "dc240be8-2034-4dd1-993c-4a313817d552",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "93fddff2-5ce9-4f46-a65d-5c0321c08302",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "93fddff2-5ce9-4f46-a65d-5c0321c08302",
+    "details": {
+      "uuid": "2de68071-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Examplo: <span class='orangetext'>192</span>.168.10.11",
+          "class": "ID_s1_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s1_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s1_txt04"
+        },
+        {
+          "text": "192 >= 128",
+          "class": "ID_s1_txt02"
+        },
+        {
+          "text": "192 - 128 = 64",
+          "class": "ID_s1_txt06"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s1_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de68071-1c25-11ea-a010-eb2108469056/2de68074-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de68071-1c25-11ea-a010-eb2108469056/2de6a780-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "0e7b5d07-1345-4332-aec1-435bac537732",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "47d48012-b790-403f-be53-a57f288f08e1",
+    "_oldParentId": "0e7b5d07-1345-4332-aec1-435bac537732",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 1, o gráfico indica Exemplo: 192.168.10.11 com 192 em uma cor diferente. À direita disso é um diamante que afirma: 192 > ou = 128. Há um sim no lado direito do diamante.\nUma tabela é mostrada abaixo que contém 8 colunas para um Byte ou 8 bits. \nA linha superior mostra os valores da esquerda para a direita: 128, 64, 32, 16, 8, 4, 2 e 1 com as palavras Valor posicional à esquerda. O campo de linha inferior em 128 é realçado. \nAcima da tabela, a partir do fluxograma diamante com Sim é para a direita é a linha que se move através do topo e, em seguida, uma vez que ele limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar um. \nA linha então continua sob o gráfico e aponta para o campo destacado em 128.\nSob a caixa Adicionar uma é outra linha que aponta para baixo para outra caixa que tem 192 - 128 = 64. Há também um 1 sob o 128 no campo destacado; as outras colunas ainda estão em branco nesta linha.",
+    "_activityParentId": "2b1a6705-25d3-4487-aa58-d652358810fa",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "e477d3ae-31e3-4dde-b725-204687eca089",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "e477d3ae-31e3-4dde-b725-204687eca089",
+    "details": {
+      "uuid": "2de6ce90-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Examplo: <span class='orangetext'>192</span>.168.10.11",
+          "class": "ID_s2_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s2_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s2_txt04"
+        },
+        {
+          "text": "64 >= 64",
+          "class": "ID_s2_txt02"
+        },
+        {
+          "text": "64 - 64 = 0",
+          "class": "ID_s2_txt06"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s2_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de6ce90-1c25-11ea-a010-eb2108469056/2de6ce91-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de6ce90-1c25-11ea-a010-eb2108469056/2de6ce92-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "b8a7e0fe-4a8a-4869-a2dc-4017b6544e88",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "3609c0c4-5463-40d9-bfd3-ac8f98ea8548",
+    "_oldParentId": "b8a7e0fe-4a8a-4869-a2dc-4017b6544e88",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 2, o gráfico indica Exemplo: 192.168.10.11 com 192 em uma cor diferente. À direita disso é um diamante que afirma: 64 > ou = 64. \nHá um sim no lado direito do diamante. De lá para a direita é a linha que se move através do topo e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar um. \nA linha, em seguida, continua sob o gráfico e aponta para o campo destacado contendo um 1 a menos de 64 no gráfico sob a proposição.\nSob a caixa Adicionar uma é outra linha que aponta para baixo para outra caixa que tem 64 - 64 = 0. \nNa tabela que é mostrada abaixo a proposição são 8 colunas para um Byte ou 8 bits. \nA linha superior do gráfico mostra os valores da esquerda para a direita: 128, 64, 32, 16, 8, 4, 2 e 1. As palavras Valor posicional estão à esquerda desta linha na tabela. \nA linha inferior tem um 1 destacado na coluna 128 e 64; as outras colunas ainda estão em branco nesta linha. ",
+    "_activityParentId": "ffa90f08-47f6-4f66-811b-27a8a84d99a5",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "d0a1d676-14fe-4f34-8c10-5b2279b7ca16",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "d0a1d676-14fe-4f34-8c10-5b2279b7ca16",
+    "details": {
+      "uuid": "2de6f5a0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Examplo: <span class='orangetext'>192</span>.168.10.11",
+          "class": "ID_s3_txt01"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s3_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de6f5a0-1c25-11ea-a010-eb2108469056/2de6f5a4-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de6f5a0-1c25-11ea-a010-eb2108469056/2de6f5a5-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "e51fdd77-ae8e-4f1a-bc3f-298141947bcd",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "6e7e7c0e-7ed3-4e37-8ae4-d588e514495f",
+    "_oldParentId": "e51fdd77-ae8e-4f1a-bc3f-298141947bcd",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 3, o gráfico indica Exemplo: 192.168.10.11 com 192 em uma cor diferente. Uma tabela é mostrada abaixo das 8 colunas para um byte ou 8 bits. A linha superior mostra os valores da esquerda para a direita; 128, 64, 32, 16, 8, 4, 2, 1.\nA linha inferior tem um 1 sob o 128 e um 1 sob o 64; ambos os campos são destacados. Há um 0 sob todos os outros números. Sob o gráfico são quatro espaços em branco separados por um período.\nO primeiro espaço em branco é da mesma cor que o destaque e tem o número 11000000. ",
+    "_activityParentId": "b2582790-0bc9-4944-b85c-c71908de6ec3",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "cdf38781-c70f-4881-85f4-eb368539e505",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "cdf38781-c70f-4881-85f4-eb368539e505",
+    "details": {
+      "uuid": "2de71cb0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s4_txt01"
+        },
+        {
+          "text": "168 >= 128",
+          "class": "ID_s4_txt02"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s4_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s4_txt04"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s4_txt05"
+        },
+        {
+          "text": "168 - 128 = 40",
+          "class": "ID_s4_txt06"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de71cb0-1c25-11ea-a010-eb2108469056/2de71cb4-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de71cb0-1c25-11ea-a010-eb2108469056/2de71cb5-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "9e7347e9-7c4c-4ed6-9c21-50c06e0f09ba",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "e4ba31cf-b9d9-4001-8557-76506fbaea0c",
+    "_oldParentId": "9e7347e9-7c4c-4ed6-9c21-50c06e0f09ba",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 4, o gráfico indica Exemplo: 192.168.10.11 com 168 em uma cor diferente. À direita disso é um diamante que afirma: 168 > ou = 128. Há um sim no lado direito do diamante. De lá para a direita é a linha que se move através do topo e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar um. \nA linha, em seguida, continua sob o gráfico e aponta para o campo destacado contendo um 1 o menos 128 no gráfico sob a proposta.\nSob a caixa Adicionar uma é outra linha que aponta para baixo para outra caixa que tem 168 - 128 = 40. \nNa tabela que é mostrada abaixo a proposição são 8 colunas para um Byte ou 8 bits. \nA linha superior do gráfico mostra os valores da esquerda para a direita: 128, 64, 32, 16, 8, 4, 2 e 1. As palavras Valor posicional estão à esquerda desta linha na tabela. \nA linha inferior tem um 1 destacado sob a coluna 128; as outras colunas ainda estão em branco nesta linha.",
+    "_activityParentId": "e90ddf65-d357-4a33-bb6c-b438f86f1c91",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "81378669-d9c1-447f-86d7-c3e3518f882d",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "81378669-d9c1-447f-86d7-c3e3518f882d",
+    "details": {
+      "uuid": "2de743c0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s5_txt01"
+        },
+        {
+          "text": "Não",
+          "class": "ID_s5_txt02"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s5_txt04"
+        },
+        {
+          "text": "40 >= 64",
+          "class": "ID_s5_txt03"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s5_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de743c0-1c25-11ea-a010-eb2108469056/2de743c8-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de743c0-1c25-11ea-a010-eb2108469056/2de76ad0-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "f321d239-9705-465b-9cb9-b82735158ca0",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "3f77c691-bd56-480a-a365-bd093f206221",
+    "_oldParentId": "f321d239-9705-465b-9cb9-b82735158ca0",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 5, o gráfico indica Exemplo: 192.168.10.11 com 168 em uma cor diferente. \nÀ direita é um fluxograma que tem a proposição 40 > ou = 64. Não é à esquerda do diamante. Há uma linha que \nse move pela parte superior e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar 0. Em seguida, a linha continua e aponta para o campo abaixo de 64.\nHá um 1 sob o 128 no campo destacado e um 0 sob o 64 que não está destacado.",
+    "_activityParentId": "f5fe5c6d-308c-4c8c-9391-b3bb60b37b8a",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "4fced801-f398-4d3a-85b3-466e89cc991f",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "4fced801-f398-4d3a-85b3-466e89cc991f",
+    "details": {
+      "uuid": "2de76ad0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s6_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s6_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s6_txt04"
+        },
+        {
+          "text": "40 >= 32",
+          "class": "ID_s6_txt02"
+        },
+        {
+          "text": "40 - 32 = 8",
+          "class": "ID_s6_txt06"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s6_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de76ad0-1c25-11ea-a010-eb2108469056/2de791e0-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/358",
+      "primary_image": "media/2de76ad0-1c25-11ea-a010-eb2108469056/2de791e1-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "40617aa1-4738-460c-86b9-d878fa7a58e7",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "e9054421-acec-4bb5-9eb5-4a7e4e2a7d4d",
+    "_oldParentId": "40617aa1-4738-460c-86b9-d878fa7a58e7",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 6, o gráfico indica Exemplo: 192.168.10.11 com 168 em uma cor diferente. \nÀ direita disso é um diamante que afirma: 40 > ou = 32. Há um sim no lado direito do diamante. De lá para a direita é a linha que se move através do topo e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar um. \nA linha, em seguida, continua sob o gráfico e aponta para o campo destacado contendo um 1 o sob o 32 no gráfico sob a proposta.\nSob a caixa Adicionar uma é outra linha que aponta para baixo para outra caixa que tem 40 - 32 = 8. \nNa tabela que é mostrada abaixo a proposição são 8 colunas para um Byte ou 8 bits. \nA linha superior do gráfico mostra os valores da esquerda para a direita: 128, 64, 32, 16, 8, 4, 2 e 1. As palavras Valor posicional estão à esquerda desta linha na tabela. \nA linha inferior tem um 1 realçado em ambas as colunas 128 e 32, a coluna 64 tem um 0 e as outras colunas ainda estão em branco nesta linha.",
+    "_activityParentId": "1b77d38a-63d1-456d-87c9-4147f168fdee",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "dc9da613-6231-4263-8763-e7d8ea8d5210",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "dc9da613-6231-4263-8763-e7d8ea8d5210",
+    "details": {
+      "uuid": "2de7b8f0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s7_txt01"
+        },
+        {
+          "text": "Não",
+          "class": "ID_s7_txt02"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s7_txt04"
+        },
+        {
+          "text": "8 >= 16",
+          "class": "ID_s7_txt03"
+        },
+        {
+          "text": "Adicionar 0",
+          "class": "ID_s7_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de7b8f0-1c25-11ea-a010-eb2108469056/2de7b8f2-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de7b8f0-1c25-11ea-a010-eb2108469056/2de7b8f3-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "ef373142-1799-4077-87ea-177dfaff4951",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "eebebac7-396f-4d95-b8b4-4414af36023b",
+    "_oldParentId": "ef373142-1799-4077-87ea-177dfaff4951",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 7, o gráfico indica Exemplo: 192.168.10.11 com 168 em uma cor diferente. \nÀ direita é um fluxograma que tem a proposição 8 > ou = 16. Não é à esquerda do diamante. Há uma linha que \nse move pela parte superior e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar 0. Em seguida, a linha continua e aponta para o campo abaixo de 16.\nA linha inferior tem um 1 destacado sob ambas as colunas 128 e 32, ambas as colunas 64 e 16 têm um 0 e as outras colunas ainda estão em branco nesta linha.",
+    "_activityParentId": "3d74fb86-e385-4940-968f-c9f80d84e6c6",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "53e3fa3d-60c3-4b3b-8b1b-f5517e4e0a09",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "53e3fa3d-60c3-4b3b-8b1b-f5517e4e0a09",
+    "details": {
+      "uuid": "2de7e000-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s8_txt01"
+        },
+        {
+          "text": "Sim",
+          "class": "ID_s8_txt03"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s8_txt04"
+        },
+        {
+          "text": "8 >= 8",
+          "class": "ID_s8_txt02"
+        },
+        {
+          "text": "Adicionar 1",
+          "class": "ID_s8_txt05"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de7e000-1c25-11ea-a010-eb2108469056/2de7e003-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de7e000-1c25-11ea-a010-eb2108469056/2de7e004-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "889ecc94-960a-44c0-a34f-ad8e1480a973",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "cd91f11d-3b4c-415d-8d1f-d0c448d85b75",
+    "_oldParentId": "889ecc94-960a-44c0-a34f-ad8e1480a973",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 8, o gráfico mostra uma tabela com 8 colunas para um Byte ou 8 bits. \nÀ direita disso é um diamante que afirma: 8 > ou = 8. Há um sim no lado direito do diamante. De lá para a direita é a linha que se move através do topo e, em seguida, uma vez que limpa o gráfico, a linha aponta diretamente para baixo para uma caixa que tem Adicionar um. \nA linha, em seguida, continua sob o gráfico e aponta para o campo destacado contendo um 1 o sob o 8 no gráfico sob a proposta.\nSob a caixa Adicionar uma é outra linha que aponta para baixo para outra caixa que tem 8 - 8 = 0. \nNa tabela que é mostrada abaixo a proposição são 8 colunas para um Byte ou 8 bits. \nA linha superior do gráfico mostra os valores da esquerda para a direita: 128, 64, 32, 16, 8, 4, 2 e 1. As palavras Valor posicional estão à esquerda desta linha na tabela. \nA linha inferior tem um destacado 1 em colunas para 128, 32 e 8. Ambas as colunas 64 e 16 têm um 0 e as outras colunas para 4, 2 e 1 ainda estão em branco nesta linha.",
+    "_activityParentId": "b177a149-4feb-4d57-aeb8-9aef3727c463",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "a6d8cbf6-46b9-4329-b130-d8459df393ee",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "a6d8cbf6-46b9-4329-b130-d8459df393ee",
+    "details": {
+      "uuid": "2de80710-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Exemplo: 192.<span class='orangetext'>168</span>.10.11",
+          "class": "ID_s9_txt01"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s9_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de80710-1c25-11ea-a010-eb2108469056/2de80714-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de80710-1c25-11ea-a010-eb2108469056/2de80715-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "cb7e862c-2076-49cf-9d59-18622a00b43e",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "f5021845-6318-4f92-9e22-3690572c41f2",
+    "_oldParentId": "cb7e862c-2076-49cf-9d59-18622a00b43e",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 9, o gráfico indica Exemplo: 192.168.10.11 com 168 em uma cor diferente. Uma tabela é mostrada abaixo das 8 colunas para um byte ou 8 bits. A linha superior mostra os valores da esquerda para a direita; 128, 64, 32, 16, 8, 4, 2, 1.\nA linha inferior tem um destacado 1 em colunas para 128, 32 e 8. As colunas para 64, 16, 4, 2 e 1 têm um 0.\nSob o gráfico são quatro espaços em branco separados por um período. Eles representam os octetos do endereço IPv4. O primeiro espaço em branco tem o número 11000000. \nO segundo branco ou octeto, que está na mesma cor que o destaque no gráfico, contém o número 10101000. Os outros dois espaços em branco ou octetos ainda estão vazios.",
+    "_activityParentId": "e809ca6e-1ba6-4230-a4ee-e1ca9de7de71",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "1101a12c-0eef-494a-8c68-c2fa69e31644",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "1101a12c-0eef-494a-8c68-c2fa69e31644",
+    "details": {
+      "uuid": "2de82e20-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Examplo: 192.168.<span class='orangetext'>10</span>.11",
+          "class": "ID_s10_txt01"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s10_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de82e20-1c25-11ea-a010-eb2108469056/2de82e22-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de82e20-1c25-11ea-a010-eb2108469056/2de82e23-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "84c80b37-8378-49a3-bca3-b069a514c26f",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "cf2a2b6f-7425-4e21-8b75-6cb29ed70fac",
+    "_oldParentId": "84c80b37-8378-49a3-bca3-b069a514c26f",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 10, o gráfico indica Exemplo: 192.168.10.11 com 10 em uma cor diferente. Uma tabela é mostrada abaixo das 8 colunas para um byte ou 8 bits. A linha superior mostra os valores da esquerda para a direita; 128, 64, 32, 16, 8, 4, 2, 1.\nA linha inferior tem um destacado 1 sob colunas para 8 e 2. As colunas para 128, 64, 32, 16, 4 e 1 têm um 0.\nSob o gráfico são quatro espaços em branco separados por um período. Eles representam os octetos do endereço IPv4. O primeiro em branco tem o número 11000000, o segundo octeto tem 10101000. \nO terceiro octeto ou branco, que está na mesma cor que o destaque no gráfico, contém o número 00001010. O último branco ou octeto ainda está vazio.",
+    "_activityParentId": "cfb22e67-480b-429e-8cb7-4bd8d17762da",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "79a87e08-bfa2-4724-b343-22fed7c96d4c",
+    "body": "",
+    "_type": "component",
+    "_notes": "Nested in Tabs with ID: 45509123dfd34358b14980276cbce7ea",
+    "_oldId": "79a87e08-bfa2-4724-b343-22fed7c96d4c",
+    "details": {
+      "uuid": "2de85530-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Examplo: 192.168.10.<span class='orangetext'>11</span>",
+          "class": "ID_s11_txt01"
+        },
+        {
+          "text": "Valor Posicional",
+          "class": "ID_s11_txt02"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de85530-1c25-11ea-a010-eb2108469056/2de85531-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "574/357",
+      "primary_image": "media/2de85530-1c25-11ea-a010-eb2108469056/2de85532-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "aa306497-49f2-4a12-920a-3dc0bfb0c6a6",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "107f63f8-6903-46f1-8b08-702c86c896c9",
+    "_oldParentId": "aa306497-49f2-4a12-920a-3dc0bfb0c6a6",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "a11y_description": "Ao selecionar o botão Etapa 11, o gráfico indica Exemplo: 192.168.10.11 com 11 em uma cor diferente. Uma tabela é mostrada abaixo das 8 colunas para um byte ou 8 bits. A linha superior mostra os valores da esquerda para a direita; 128, 64, 32, 16, 8, 4, 2, 1.\nA linha inferior tem um destacado 1 em colunas para 8, 2 e 1. As colunas para 128, 64, 32, 16 e 4 todas têm um 0.\nSob o gráfico são quatro espaços em branco separados por um período. Eles representam os octetos do endereço IPv4. O primeiro em branco tem o número 11000000, o segundo octeto tem 10101000 e o terceiro octeto tem 00001010. \nO quarto em branco ou octeto, que está na mesma cor que o destaque no gráfico, contém o número 00001011.",
+    "_activityParentId": "0b594d31-48d2-4efb-8701-b059259fa9a6",
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "431fa946-4f2e-49be-8b19-d55f0e850ce8",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Sistema de numeração hexadecimal</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Sistema de numeração hexadecimal",
+    "_oldId": "431fa946-4f2e-49be-8b19-d55f0e850ce8",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "46d3cc71-214e-45cf-8f3b-ca5a2ebf5120",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f4bd6aac-7aec-494b-b0d1-0ad20abeec54",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "46d3cc71-214e-45cf-8f3b-ca5a2ebf5120",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "66297f1e-1c03-4b60-bb0a-6e2d7c2d87fd",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9c741e4e-c7e7-466a-a83e-48a668f997c4",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Sistema de numeração hexadecimal",
+    "_oldId": "9c741e4e-c7e7-466a-a83e-48a668f997c4",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4af5154e-4a3f-4ad8-b563-3803d330e410",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "bee2e1cf-ec49-470c-ab61-7e1452b5bd8e",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4af5154e-4a3f-4ad8-b563-3803d330e410",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "9f154c49-4375-4994-a8c4-f4d159e9b84c",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d69d25da-ba39-43fd-9ddd-23f58b3fb443",
+    "body": "<p>Agora você sabe como converter binário para decimal e decimal para binário. Você precisa dessa habilidade para entender o endereçamento IPv4 em sua rede. Mas é igualmente provável que esteja utilizando endereços IPv6 na sua rede. Para entender endereços IPv6, você deve ser capaz de converter hexadecimal para decimal e vice-versa.</p><p>Assim como decimal é um sistema numérico de base dez, hexadecimal é um sistema de base dezesseis. O sistema numérico de base dezesseis usa os dígitos 0 a 9 e as letras A a F. A figura mostra os valores decimais e hexadecimais equivalentes para os binários 0000 a 1111.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Endereços hexadecimais e IPv6",
+    "_oldId": "d69d25da-ba39-43fd-9ddd-23f58b3fb443",
+    "details": {
+      "uuid": "2de98db0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Decimal",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "Binário",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "Hexadecimal",
+          "class": "ID_txt04"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de98db0-1c25-11ea-a010-eb2108469056/2de98db3-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "600/372",
+      "primary_image": "media/2de98db0-1c25-11ea-a010-eb2108469056/2de98db4-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "c2b93b7c-e42f-4a28-84a5-acc33992f6e9",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "8f326c44-5615-4de7-9314-ccb85a6373a8",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "c2b93b7c-e42f-4a28-84a5-acc33992f6e9",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Este gráfico tem três colunas. A primeira coluna tem os números de 0 a 15 em decimal. A segunda coluna tem os números de 0 a 15 em binário. Todos os números em binário são expressos com valores de 4 lugares.\nPor exemplo 0 é 0000, 10 é 1010, 15 é 1111, etc. A terceira coluna é paralela com as outras duas colunas. Esta coluna tem os números de 0 a 15 em hexadecimal.  Estes são expressos com um valor.\nPor exemplo 5 é 5, 10 é A, 11 é B, 12 é C, 13 é D, 14 é E e 15 é F. Deve notar-se que estes podem ser expressos com maiúsculas ou minúsculas. Neste diagrama são todas letras maiúsculas que representam os valores numéricos.",
+    "_activityParentId": "c592c6ba-d99d-4a59-889c-92847d695208",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "4b5a6574-9025-4f83-af3b-f7f733909f1b",
+    "body": "<p>Binário e hexadecimal funcionam bem juntos, porque é mais fácil expressar um valor como um único dígito de hexadecimal do que como quatro bits binários.</p><p>O sistema de numeração hexadecimal é usado em rede para representar endereços IP versão 6 e endereços MAC Ethernet.</p><p>Os endereços IPv6 têm 128 bits de comprimento e a cada 4 bits é representado por um único dígito hexadecimal; para um total de 32 valores hexadecimais. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.</p><p>Conforme mostrado na figura, o formato preferido para escrever um endereço IPv6 é x:x:x:x:x:x:x:x, com cada \"x\" consistindo em quatro valores hexadecimais. Quando falamos de 8 bits de um endereço IPv4, usamos o termo octeto. No IPv6, um <em>hexteto</em> é o termo não oficial usado para se referir a um segmento de 16 bits ou quatro valores hexadecimais. Cada \"x\" é um único hextet, 16 bits ou quatro dígitos hexadecimais.</p>",
+    "_type": "component",
+    "title": "",
+    "_oldId": "4b5a6574-9025-4f83-af3b-f7f733909f1b",
+    "details": {
+      "uuid": "2de9b4c0-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "<strong>4 dígitos hexadecimais = 16 dígitos binários</strong>",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt10"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt11"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt12"
+        },
+        {
+          "text": "até",
+          "class": "ID_txt13"
+        }
+      ],
+      "caption": "",
+      "imageStack": "afterbegin",
+      "stylesheet": "media/2de9b4c0-1c25-11ea-a010-eb2108469056/2de9b4c5-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "750/383",
+      "primary_image": "media/2de9b4c0-1c25-11ea-a010-eb2108469056/2de9b4c6-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_parentId": "2ff826e7-2abd-4338-92f3-607965336af8",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "a7a7855e-3ce8-4927-8df9-f1356601928c",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "2ff826e7-2abd-4338-92f3-607965336af8",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "Este gráfico tem uma linha superior com os 8 hextets do endereço IPv6 expresso como X:X:X:X:X:X:X:X:X:X. Abaixo de cada X estão os números 0000 representando o primeiro número que pode estar neste campo abaixo de cada 0 é o para e abaixo que são os números minúsculos ffff representando o valor máximo que pode ser feito em um único hextet.\nSob o X no quarto hextet é uma seta laranja apontando para os números 0000 para ffff, que estão em uma caixa.  Sob a caixa há outro ponto de seta para baixo para uma seção de números. \nNo centro da seta está a instrução 4 dígitos hexadecimais = 16 dígitos binários. Sob a seta há uma seção de números com quatro partes. Cada uma das quatro partes tem 0000 sob que a palavra para abaixo que os números 1111. \nIsto representa o binário de cada número hexadecimal, uma vez que cada número é feito de 4 dígitos binários e há 4 dígitos hexadecimais em cada hextet para um total de 16 bits.",
+    "_activityParentId": "fbb46340-2262-4bdd-ae41-fc7bbeb83d59",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "cfad7c52-06a0-4fd5-8465-5cff02b41865",
+    "body": "<p>A topologia de exemplo na figura exibe endereços hexadecimais IPv6.</p>",
+    "_lang": "pt-BR",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "cfad7c52-06a0-4fd5-8465-5cff02b41865",
+    "_classes": "box-shadow",
+    "_graphic": {
+      "alt": "Este gráfico exibe um roteador central chamado R1. Fora da interface G0/0 é a primeira LAN à esquerda. \nUm switch é conectado diretamente ao roteador R1 e PC1 está conectado à esquerda do switch.\nAcima desta LAN está o endereço do segmento de rede IPv6 2001:db8:acad:1: :/64.  Na interface G0/0 é atribuida:1 e:10 é atribuído a PC1.\nAbaixo de G0/0 e também à esquerda em R1 está a interface G0/1 para a segunda LAN. \nUm switch é conectado diretamente aos roteadores G0/1 e PC2 está conectado à esquerda deste switch.\nBelow this LAN is the IPv6 Network segment address of 2001:db8:acad:2::/64.  The G0/1 interface is assigned :1 and :10 is assigned to PC2.\nNo lado direito do R1 está a interface S0/0/0 e está conectada a uma nuvem. Acima do cabo serial vermelho conectado à nuvem está o endereço IPv6 2001:db8:acad:3: :/64.\nA interface S0/0/0 recebeu o endereço IPv6:1.",
+      "large": "media/2de9dbd0-1c25-11ea-a010-eb2108469056/2dea02e1-1c25-11ea-81a0-ffc2c49b96bc.svg",
+      "small": "media/2de9dbd0-1c25-11ea-a010-eb2108469056/2dea02e1-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_mediaId": "2de9dbd0-1c25-11ea-a010-eb2108469056",
+    "_parentId": "514cf065-483b-4380-aaf6-09a821f75c67",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_mediaType": "graphic",
+    "_activityId": "42cd9ff1-480f-4805-b536-da320192e919",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "514cf065-483b-4380-aaf6-09a821f75c67",
+    "displayTitle": "",
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.graphic__image-container"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "a70a3de7-01b8-4160-955c-720c9c44d706",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true
+  },
+  {
+    "_id": "349b31bb-5927-4ef0-8fa0-b715a2a4af94",
+    "body": "<b>Selecione o botão Reproduzir para assistir ao vídeo.</b>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Vídeo — Conversão entre sistemas de numeração hexadecimal e decimal",
+    "_oldId": "349b31bb-5927-4ef0-8fa0-b715a2a4af94",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6253896580001",
+    "videoIds": [
+      "80463bd6-b689-48cb-a2e0-a0baaebce5c7"
+    ],
+    "_parentId": "9205619d-ded1-46e9-80de-25d31dd8dd81",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "f15be4af-3cec-4282-93f6-88c5910d5b1c",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "9205619d-ded1-46e9-80de-25d31dd8dd81",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "e1e060b3-e54f-47ec-bbec-d1f7bbe843f6",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "ca155556-7a0c-4ca5-8f1b-b96a32039e30",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "ca155556-7a0c-4ca5-8f1b-b96a32039e30",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "71a07a04-3a6b-4149-89be-f7c118b7fb58",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "483d6f68-3a22-4808-80e0-c39cb44017c9",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "71a07a04-3a6b-4149-89be-f7c118b7fb58",
+    "displayTitle": "",
+    "_activityParentId": "29686f57-f047-41d4-8171-639f4e0d53ef",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f3a4394ffc8a4f5b9f857ddcd2c2eb9f",
+    "body": "<p><span style=\"color:#000000\">Qual é o equivalente hexadecimal de 202?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "B10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "BA",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "C10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "CA",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "f3a4394ffc8a4f5b9f857ddcd2c2eb9f",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>O equivalente hexadecimal de 202 é CA.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente hexadecimal de 202 é CA.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente hexadecimal de 202 é CA.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5837fc0b-b19e-4dcc-bb8a-718383543c82",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "c24963e4-0bc0-4685-9138-1e42566c2fb1",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5837fc0b-b19e-4dcc-bb8a-718383543c82",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "f3a4394ffc8a4f5b9f857ddcd2c2eb9f",
+    "_activityParentId": "8f46e6d9-5f0e-4f0a-8bae-a069f065ce75",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "455f5cf0b55340a28e60c9fc1023d2af",
+    "body": "<p>Qual é o equivalente hexadecimal de 254?</p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "EA",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "ED",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "FA",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "FE",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "455f5cf0b55340a28e60c9fc1023d2af",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>O equivalente hexadecimal de 254 é FE.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente hexadecimal de 254 é FE.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente hexadecimal de 254 é FE.<p>Volte, reinicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8cc98ef4-8846-4e28-875a-74cd1c09bc40",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ce091a60-6c58-4228-b323-46ec0a750159",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8cc98ef4-8846-4e28-875a-74cd1c09bc40",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "455f5cf0b55340a28e60c9fc1023d2af",
+    "_activityParentId": "9b6d4cea-1bd6-4a30-af94-432a6f726a27",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "633fe1d3a1304f80b9f488472d67d363",
+    "body": "<p>Qual é o equivalente decimal de A9?</p>",
+    "_type": "component",
+    "title": "Pergunta 3",
+    "_items": [
+      {
+        "text": "168",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "169",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "170",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "171",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "633fe1d3a1304f80b9f488472d67d363",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>O equivalente decimal de A9 é 169.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente decimal de A9 é 169.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente decimal de A9 é 169.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a30bb4ac-15b5-40da-8950-8681bf69bbcd",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "830cf0db-3bac-4c22-821a-e3299f4cc8f9",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "a30bb4ac-15b5-40da-8950-8681bf69bbcd",
+    "displayTitle": "Pergunta 3",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "633fe1d3a1304f80b9f488472d67d363",
+    "_activityParentId": "c35a7dce-c1f7-4211-980d-e0b9b029ddd3",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1be34c70ba2f4f89896ff20673485a1e",
+    "body": "<p>Qual dos seguintes é o equivalente decimal de 7D?</p>",
+    "_type": "component",
+    "title": "Pergunta 4",
+    "_items": [
+      {
+        "text": "124",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "125",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "126",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "127",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "1be34c70ba2f4f89896ff20673485a1e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1 animated-hide",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Isso mesmo! Muito bem.</strong></p>O equivalente decimal de 7D é 125.",
+      "_incorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente decimal de 7D é 125.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p><strong>Isso não está correto.</strong></p>O equivalente decimal de 7D é 125.<p>Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "animated fadeIn",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4d1bbcb7-a70d-4b7b-bdb8-f8cfcd44a03e",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8932736e-9f5e-4934-bea7-d69f099658de",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "Unidade de informação",
+      "_isEnabled": true,
+      "_onCorrectValue": 16,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "4d1bbcb7-a70d-4b7b-bdb8-f8cfcd44a03e",
+    "displayTitle": "Pergunta 4",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "1be34c70ba2f4f89896ff20673485a1e",
+    "_activityParentId": "c3364aa1-ad2f-434b-bfbc-9d28104e36b1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4bdf8e1f-7a69-4fb4-9d19-b55049337eea",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "4bdf8e1f-7a69-4fb4-9d19-b55049337eea",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "ebd07922-665d-4a53-8a37-d0b2c0115f1e",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "68cc1295-ef50-40e6-8bb9-ddc37d6fd044",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "ebd07922-665d-4a53-8a37-d0b2c0115f1e",
+    "displayTitle": "",
+    "_activityParentId": "ae7f8132-ae01-4d7a-b0ee-d6cce3fed5a4"
+  },
+  {
+    "_id": "a531ca23-90d5-4f08-870a-d8fb6534ccf4",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo dos sistemas numéricos</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo dos Sistemas Numéricos",
+    "_oldId": "a531ca23-90d5-4f08-870a-d8fb6534ccf4",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8a246d0e-c6d9-451d-8bfc-a6220a7ea046",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "4cde0ccb-d096-49cc-bdc5-bbf27e7cc130",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8a246d0e-c6d9-451d-8bfc-a6220a7ea046",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "6137ca94-7b96-4ffc-be3d-844c0144cbb6",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "422c13e8-ce41-4400-ae06-487fe25cc530",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar<i class=\"fa fa-arrow-circle-down\"> </i></span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo dos Sistemas Numéricos",
+    "_oldId": "422c13e8-ce41-4400-ae06-487fe25cc530",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9a93f3e4-8712-4be5-b88e-67a66c83f6b3",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "3dd364dc-2b82-4dfb-9f64-5b36a7058015",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "9a93f3e4-8712-4be5-b88e-67a66c83f6b3",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "8e31b7f5-225a-4311-a9dd-4da7cd4742b8",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "3eb1db34-bd21-4011-b84b-5e33c92ff5e7",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O Que Eu Aprendi Neste Módulo?",
+    "_items": [
+      {
+        "body": "<p>Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits. Por outro lado, o sistema de numeração decimal consiste em 10 dígitos, compreendendo os dígitos de 0 a 9. Hosts, servidores e dispositivos de rede usam endereçamento binário. Especificamente, eles usam endereços IPv4 binários. Para facilitar o uso pelas pessoas, os endereços IPv4 são geralmente expressos em notação decimal com pontos. </p><p>Este sistema decimal usa as potências de dez, ou base 10. Por exemplo, o número 2.146 tem 2 na casa dos milhares, ou dois mil. Tem um 1 na casa das centenas, ou cem. Tem um 4 no lugar das dezenas, ou 40. Tem um 6 no lugar das unidades, ou seis. </p><p>O sistema binário é um sistema numérico de base 2. Cada valor local pode ter um 0 ou um 1. Uma ferramenta útil é a tabela de valores posicionais binários. É comum usar uma tabela com oito espaços reservados. 8 bits equivalem a um byte. </p>",
+        "title": "Sistemas de números binários",
+        "_classes": ""
+      },
+      {
+        "body": "<p>O sistema de numeração hexadecimal é usado em rede para representar endereços IP versão 6 e endereços MAC Ethernet. Esse sistema numérico de base dezesseis usa os dígitos de 0 a 9 e as letras A a F. Binário e hexadecimal funcionam bem juntos porque é mais fácil expressar um valor como um único dígito hexadecimal do que como quatro bits binários. </p><p>Os endereços IPv6 têm 128 bits de comprimento e a cada 4 bits é representado por um único dígito hexadecimal; para um total de 32 valores hexadecimais. Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.</p>",
+        "title": "Sistema de numeração hexadecimal",
+        "_classes": ""
+      }
+    ],
+    "_oldId": "3eb1db34-bd21-4011-b84b-5e33c92ff5e7",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "af46767b-b2a0-4c53-b294-eab47e1bc87a",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "409e68a7-e36b-4600-8e50-69448939a1a9",
+    "instruction": "",
+    "_oldParentId": "af46767b-b2a0-4c53-b294-eab47e1bc87a",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "9edd56dd-e220-434f-99a8-db9a0dcc291a",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "d10fbba1-551f-4750-9d7d-10ab29c2cdb3",
+    "body": "<p>Eu não esperava fazer matemática no meio do meu curso de rede, mas fiquei surpreso com o quão divertido é converter números decimais em seus equivalentes binários e hexadecimais. Eu tenho uma melhor compreensão de por que os endereços IP são representados da maneira que os vemos. Antes de fazer este módulo, o que você sabia sobre sistemas de numeração binários e hexadecimais? Dê uma olhada no endereço MAC da NIC do seu computador. O que você reconhece sobre esse endereço que talvez não tenha antes? </p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "d10fbba1-551f-4750-9d7d-10ab29c2cdb3",
+    "_layout": "left",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "14aa4be6-2fdb-4505-9854-b3471a188a5c",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "106f0c2e-86a9-4130-99c0-7ad33a73fa2f",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "14aa4be6-2fdb-4505-9854-b3471a188a5c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "6630c24f-1ee1-4ab9-9b11-884f0a22ae69",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "9616f369-f0b1-4222-a300-9ea334afcc60",
+    "body": " ",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "9616f369-f0b1-4222-a300-9ea334afcc60",
+    "_layout": "right",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/067c50445e3748f5819eeeed829d75fa.png",
+      "small": "pt-BR/assets/067c50445e3748f5819eeeed829d75fa.png",
+      "attribution": ""
+    },
+    "_parentId": "14aa4be6-2fdb-4505-9854-b3471a188a5c",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "a0809700-d337-4db8-9414-5ee0404d29ec",
+    "instruction": "",
+    "_oldParentId": "14aa4be6-2fdb-4505-9854-b3471a188a5c",
+    "displayTitle": "",
+    "_activityParentId": "6630c24f-1ee1-4ab9-9b11-884f0a22ae69",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "a102cfde-ca6d-4cf2-a176-cb452615ce71",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "a102cfde-ca6d-4cf2-a176-cb452615ce71",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e41589db-0bca-400d-863a-65790d7ed856",
+    "_ariaLevel": 0,
+    "_component": "blank",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "90cf36f4-a7bb-442e-ac3b-87d93a2cad13",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "e41589db-0bca-400d-863a-65790d7ed856",
+    "displayTitle": "",
+    "_activityParentId": "79c9da0a-972e-43c5-9d1c-8b7e68a4c855",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "55109b90-b599-4345-85c5-1d9db4441371",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "55109b90-b599-4345-85c5-1d9db4441371",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Teste de sistemas numéricos",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "1ad2632a-14e8-48b1-a69c-4ba228605c97",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "8e41815e-f5ed-45e6-9fb0-ddc31e43345e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "1ad2632a-14e8-48b1-a69c-4ba228605c97",
+    "displayTitle": "",
+    "_activityParentId": "87526367-2b6e-4f42-8c85-7ed801ef9ec5",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "1087199a2f5a45a6a7d55010bcac2b7c",
+    "body": "Qual é a representação binária para o número decimal 173?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "10100111",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10100101",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10101101",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "10110101",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "1087199a2f5a45a6a7d55010bcac2b7c",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "decimal 173 = 128 + 0 + 32 + 0 + 8 + 4 + 0 + 1",
+      "_incorrect": {
+        "final": "decimal 173 = 128 + 0 + 32 + 0 + 8 + 4 + 0 + 1",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "c7ede75e-a169-4e92-b80f-c121964543ca",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f068f006-a470-4eb9-bf14-5bae70b90ad9",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "c7ede75e-a169-4e92-b80f-c121964543ca",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207485",
+    "_activityParentId": "f5d02f11-0725-4b5a-bc78-d1bc7abe0044",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "26f609b307f14f7ca3c007cbe00e6ba2",
+    "body": "Quantos bits compõem um octeto em um endereço IPv4?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "4",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "8",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "16",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "32",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "26f609b307f14f7ca3c007cbe00e6ba2",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Um endereço IPv4 consiste em uma string de 32 bits dividida em quatro seções chamadas de octetos. Cada octeto tem 8 bits (ou 1 byte) separados por um ponto.",
+      "_incorrect": {
+        "final": "Um endereço IPv4 consiste em uma string de 32 bits dividida em quatro seções chamadas de octetos. Cada octeto tem 8 bits (ou 1 byte) separados por um ponto.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "a3a417e3-6e68-4ef8-a69a-53735ce0d355",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "ad66a58d-9230-40fa-b0ae-707b04957b22",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "a3a417e3-6e68-4ef8-a69a-53735ce0d355",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410527",
+    "_activityParentId": "13fbfc13-d3d7-47ce-8911-0a785869914a",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2a104e2757ad4058a3042a91f2025178",
+    "body": "Qual é o equivalente decimal de 0xC9?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "185",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "200",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "201",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "199",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2a104e2757ad4058a3042a91f2025178",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "0x refere-se ao item como hexadecimal. Converta cada caractere em seu meio byte (nibble) correspondente. Em seguida, combine os meio bytes (Nibbles) juntos e calcule o equivalente decimal resultante. C tem um valor de 12. 12 x 16 = 192. 192 + 9 = 201.",
+      "_incorrect": {
+        "final": "0x refere-se ao item como hexadecimal. Converta cada caractere em seu meio byte (nibble) correspondente. Em seguida, combine os meio bytes (Nibbles) juntos e calcule o equivalente decimal resultante. C tem um valor de 12. 12 x 16 = 192. 192 + 9 = 201.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "95b3559e-4513-429b-b4f7-62b277658d92",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b166f8dc-d1e7-4ed4-ba83-2d0deca560d0",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "95b3559e-4513-429b-b4f7-62b277658d92",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207585",
+    "_activityParentId": "4561c757-270f-4b5f-9a49-0bd166c868ae",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d7d9c8c7d6e249f193b0401a0b2a44db",
+    "body": "Qual é a representação binária de 0xCA?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "10111010",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "11010101",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "11001010",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "11011010",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "d7d9c8c7d6e249f193b0401a0b2a44db",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Depois de convertido, CA em hexadecimal equivale a 11011010 em binário. Uma forma de realizar a conversão é de um nibble por vez, C = 1100 e A = 1010. A combinação dos dois nibbles resulta em 11001010.",
+      "_incorrect": {
+        "final": "Depois de convertido, CA em hexadecimal equivale a 11011010 em binário. Uma forma de realizar a conversão é de um nibble por vez, C = 1100 e A = 1010. A combinação dos dois nibbles resulta em 11001010.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": "Depois de convertido, CA em hexadecimal equivale a 11011010 em binário. Uma forma de realizar a conversão é de um nibble por vez, C = 1100 e A = 1010. A combinação dos dois nibbles resulta em 11001010."
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "3d985b58-195d-41d2-930d-47d1ce42e1b3",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f7965864-df61-4abe-9069-180e1f06083e",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "3d985b58-195d-41d2-930d-47d1ce42e1b3",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "223274",
+    "_activityParentId": "36200818-073b-4bd8-b53f-d38374879841",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "78dad037acab48d7bca8f75a3254ce1e",
+    "body": "Qual é o intervalo de valores hexadecimais que podem ser usados em um hexteto?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "0000 a 1111",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "0000 a ffff",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "1111 para aaaa",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "0000 a 9999",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "78dad037acab48d7bca8f75a3254ce1e",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Um hexteto é um termo usado para se referir a um segmento de 16 bits ou quatro valores hexadecimais. Um único número hexadecimal é composto de 4 bits, portanto, o intervalo de um número hexadecimal é de 0 a f. Um hextet contém 4 números hexadecimais e varia de 0000 a ffff.",
+      "_incorrect": {
+        "final": "Um hexteto é um termo usado para se referir a um segmento de 16 bits ou quatro valores hexadecimais. Um único número hexadecimal é composto de 4 bits, portanto, o intervalo de um número hexadecimal é de 0 a f. Um hextet contém 4 números hexadecimais e varia de 0000 a ffff.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d2a7b972-c75e-44ee-9b91-d1a7ba216bce",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c6638b77-bae2-4112-8294-c56575ad0d17",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d2a7b972-c75e-44ee-9b91-d1a7ba216bce",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410529",
+    "_activityParentId": "f16510bd-8aa7-4099-b6d8-73db0f86fa91",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b7f96e13b8c343ec87ce405bd2e4c38d",
+    "body": "Qual é o equivalente hexadecimal do número binário 10011101?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "85",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "9D",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "D9",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "b7f96e13b8c343ec87ce405bd2e4c38d",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Cada 4 dígitos binários equivale a 1 dígito hexadecimal. <br />1001 = 9<br /> 1101 = 13 (decimal) = D (hexadecimal)",
+      "_incorrect": {
+        "final": "Cada 4 dígitos binários equivale a 1 dígito hexadecimal. <br />1001 = 9<br /> 1101 = 13 (decimal) = D (hexadecimal)",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "e84f82bd-1223-46a5-96f0-d89b25977509",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cfaa08de-bc51-4482-9f26-a0f78fe54b0c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "e84f82bd-1223-46a5-96f0-d89b25977509",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410530",
+    "_activityParentId": "81320bec-c2d3-4c6b-8100-a0ec24232b73",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "636555e7d7b740a398dafd0617e5b5df",
+    "body": "Quantos bits há em um endereço IPv4?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "32",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "64",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "128",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "256",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "636555e7d7b740a398dafd0617e5b5df",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Um endereço IPv4 é composto por 4 octetos de dígitos binários, cada um contendo 8 bits, resultando em um endereço de 32 bits.",
+      "_incorrect": {
+        "final": "Um endereço IPv4 é composto por 4 octetos de dígitos binários, cada um contendo 8 bits, resultando em um endereço de 32 bits.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "cee52dd6-2be1-44e6-a813-3578cc57dddb",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d79e0b18-8628-4e7d-b411-0528ad02ac12",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "cee52dd6-2be1-44e6-a813-3578cc57dddb",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "208944",
+    "_activityParentId": "36857011-432b-464f-8de3-553e3200e5f4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "97baa48845424667b0de2812348dc4a0",
+    "body": "Um engenheiro de rede deseja representar dados confidenciais em formato binário. Quais são os dois valores possíveis que o engenheiro pode usar? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "0",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "1",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "2",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "A",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "F",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "97baa48845424667b0de2812348dc4a0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits.",
+      "_incorrect": {
+        "final": "Binário é um sistema de numeração que consiste nos dígitos 0 e 1 chamados bits.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "98612c4d-baca-44af-9591-bbb51a73a992",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5d2ab064-489d-4847-85b9-a5ec2bf6b9d4",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "98612c4d-baca-44af-9591-bbb51a73a992",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410528",
+    "_activityParentId": "3162a751-5b75-4022-9f2a-551a8ba7ee5f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5de2c21de0b94c91b66f45cfd7dab8c1",
+    "body": "Qual é o equivalente hexadecimal para o número decimal 139?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "8 bilhões",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "92",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "A1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "D7",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "5de2c21de0b94c91b66f45cfd7dab8c1",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O decimal 139 em binário é 10001011. 128 + 8 + 2 + 1 = 139. <br />Cada 4 dígitos binários equivale a 1 dígito hexadecimal. <br />1000 = 8<br /> 1011 = 11 (decimal) = B (hexadecimal)",
+      "_incorrect": {
+        "final": "O decimal 139 em binário é 10001011. 128 + 8 + 2 + 1 = 139. <br />Cada 4 dígitos binários equivale a 1 dígito hexadecimal. <br />1000 = 8<br /> 1011 = 11 (decimal) = B (hexadecimal)",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "d25b245b-5cd0-421d-80b9-df3fa98faed2",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c6abc6d5-4aa9-4319-aa7f-648b2f43b4fb",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "d25b245b-5cd0-421d-80b9-df3fa98faed2",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410531",
+    "_activityParentId": "2d93a128-42c7-45c8-a850-51fc4c684cb1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2db349eabab8406c88e96d28dba0637b",
+    "body": "Qual é um número hexadecimal válido?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "f",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "g",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "h",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "j",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2db349eabab8406c88e96d28dba0637b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "Os números hexadecimais são 0,1,2,3,4,5,6,7,8,9, a, b, c, d, e, f. O número hexadecimal 0 representa 0 em decimal e é representado como 0000 em binário. O número hexadecimal f representa 15 em decimal.",
+      "_incorrect": {
+        "final": "Os números hexadecimais são 0,1,2,3,4,5,6,7,8,9, a, b, c, d, e, f. O número hexadecimal 0 representa 0 em decimal e é representado como 0000 em binário. O número hexadecimal f representa 15 em decimal.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "58c6b676-f85b-49dd-b88a-fa2ec39a302b",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "7571dede-43e9-49be-b0f2-9d78e375e2e5",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "58c6b676-f85b-49dd-b88a-fa2ec39a302b",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "211253",
+    "_activityParentId": "0578608c-51b2-40d9-9fc7-3e5985f825a1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9806343b8de0425f9e309b93aa4821d0",
+    "body": "Qual é o equivalente binário do número decimal 232?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "11101000",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "11000110",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "10011000",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "11110010",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "9806343b8de0425f9e309b93aa4821d0",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "232 em binário é 11101000. 128+64+32+8 = 232",
+      "_incorrect": {
+        "final": "232 em binário é 11101000. 128+64+32+8 = 232",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8d2963c7-ff6e-4dcf-b0fc-6c1cb04b6df7",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "b78d7127-8fcc-4f9e-ad8b-e2797a5932e2",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8d2963c7-ff6e-4dcf-b0fc-6c1cb04b6df7",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "331778",
+    "_activityParentId": "1483ba6c-cea6-46e2-9c26-21b6170282bb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "09bb197fd20149eeab2ee7a6b8cf919a",
+    "body": "Dado o endereço binário de 11101100 00010001 00001100 00001010, qual endereço este representa no formato decimal com pontos?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "234.17.10.9",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "234.16.12.10",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "236.17.12.6",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "236.17.12.10",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "09bb197fd20149eeab2ee7a6b8cf919a",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "O número binário 11101100 00010001 00001100 00001010 traduz para 236.17.12.10.",
+      "_incorrect": {
+        "final": "O número binário 11101100 00010001 00001100 00001010 é traduzido para 236.17.12.10.",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0d86f601-ec40-41fc-8889-09c23afed1dc",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "bb940f49-4967-417e-8e7d-de42fbfdf835",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0d86f601-ec40-41fc-8889-09c23afed1dc",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "223289",
+    "_activityParentId": "aa5f4a3f-2a9e-47ad-baa9-4dcb37924112",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "703e5123-864c-4023-ba0c-1218e75fad9a",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do quiz",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Selecione <em>Reiniciar</em> para retomá-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><strong><span style=\"color:#000000\">Parabéns, você passou no teste!</span></strong></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "703e5123-864c-4023-ba0c-1218e75fad9a",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "45198d01-b3d8-4ce3-b5d2-46f9e5ac30bf",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "7f8c7599-68e4-42e3-9739-48d04c8598c6",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "45198d01-b3d8-4ce3-b5d2-46f9e5ac30bf",
+    "displayTitle": "",
+    "_assessmentId": "e86c96be-e1e9-4987-a721-e592c69c858b",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "5fc35a42-8c28-4992-8ee8-105a6e9514e1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "3fa6943c-1605-4ad1-a6e2-d13f72fa056f",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "3fa6943c-1605-4ad1-a6e2-d13f72fa056f",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "70d545da-5693-4f1a-8b06-d3c4d7ced9bb",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "19fef065-a8f6-4c48-9d8b-fcced84b9e02",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "70d545da-5693-4f1a-8b06-d3c4d7ced9bb",
+    "displayTitle": "",
+    "_activityParentId": "d683684c-9c35-4d02-8a68-424ce197ed6a"
+  }
+]

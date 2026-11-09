@@ -1,0 +1,784 @@
+[
+  {
+    "_id": "67cb3ddfe8984129865ec758801f0a34",
+    "body": "<p><span>Compreensão do endereçamento IPv6.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "67cb3ddfe8984129865ec758801f0a34",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "3d69deef-42bc-4430-8890-d08040626078",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg",
+        "_small": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg",
+        "_medium": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg",
+        "_small": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg",
+        "_medium": "pt-BR/assets/331a3e8551f64bcaa1f4869641d546b8.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "1f9b27b4dae841299f032864e6871275",
+    "body": "<p><span>Comparar os tipos de endereços de rede IPv6.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Tipos de Endereço IPv6",
+    "_oldId": "1f9b27b4dae841299f032864e6871275",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "34865fc4-ea9e-4b2a-aa85-5cb6525fc25b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg",
+        "_small": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg",
+        "_medium": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg",
+        "_small": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg",
+        "_medium": "pt-BR/assets/657bc57009cc4163a188931375c37a34.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.1. Tipos de Endereço IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d7ca0663c48c45019ee413d2b37b309a",
+    "body": "<p><span>Explique como configurar endereços de rede IPv6 globais estáticos e unicast.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Configuração Estática do GUA e do LLA",
+    "_oldId": "d7ca0663c48c45019ee413d2b37b309a",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "2abc0f9f-b31c-4738-abf8-5ccec8854214",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg",
+        "_small": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg",
+        "_medium": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg",
+        "_small": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg",
+        "_medium": "pt-BR/assets/b20a7abba668481a8c058d5de18713c1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.2. Configuração Estática do GUA e do LLA",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a89fb906900a41e09a693f800caa3263",
+    "body": "<p><span>Explicar como configurar endereços unicast globais de forma dinâmica.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Endereçamento dinâmico para GUAs IPv6",
+    "_oldId": "a89fb906900a41e09a693f800caa3263",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "595addac-0948-4104-bbe6-f2f1e242ec26",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg",
+        "_small": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg",
+        "_medium": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg",
+        "_small": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg",
+        "_medium": "pt-BR/assets/1e944b36f2a14092ba7f4511230eacf1.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.3. Endereçamento dinâmico para GUAs IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "21a44b93fae04cb889e0746f1e24ce4f",
+    "body": "<p><span>Configurar endereços link-local dinamicamente.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Endereçamento Dinâmico para LLAs IPv6",
+    "_oldId": "21a44b93fae04cb889e0746f1e24ce4f",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "5f57af80-ea46-419c-9f31-b88ec6ebddd8",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg",
+        "_small": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg",
+        "_medium": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg",
+        "_small": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg",
+        "_medium": "pt-BR/assets/451c5045261547678be5f4c11708ef2b.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.4. Endereçamento Dinâmico para LLAs IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "b8a9dc01940a46208f4a599e307d02a9",
+    "body": "<p><span>Identificando Endereços IPv6.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Endereços IPv6 Multicast",
+    "_oldId": "b8a9dc01940a46208f4a599e307d02a9",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "bb3a0c16-4323-48cd-8e59-9287851c5662",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg",
+        "_small": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg",
+        "_medium": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg",
+        "_small": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg",
+        "_medium": "pt-BR/assets/d13908b7aa09438883b2950ffe8792ed.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.5. Endereços IPv6 Multicast",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "d3e11033e4164ccab3a447dcffcdd463",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.6. Resumo de Endereçamento IPv6",
+    "_oldId": "d3e11033e4164ccab3a447dcffcdd463",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "1455c525-b9f5-4ad5-a3bd-a2e5a72940a9",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg",
+        "_small": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg",
+        "_medium": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg",
+        "_small": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg",
+        "_medium": "pt-BR/assets/367942d05b684dfca68330bbc58bd96f.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "{{_moduleNumber}}.6. Resumo de Endereçamento IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "3fbe00b0-3413-45c3-8806-8ab6a10186b9",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer – Configurando Endereçamento IPv6",
+    "_oldId": "3fbe00b0-3413-45c3-8806-8ab6a10186b9",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "87544286-3434-428b-a3b3-479610f5eee8",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "Packet Tracer – Configurando Endereçamento IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6488e62d-ca35-42e5-9921-66edad1a67c2",
+    "body": "",
+    "_type": "page",
+    "title": "Laboratório – Identificando Endereços IPv6",
+    "_oldId": "6488e62d-ca35-42e5-9921-66edad1a67c2",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 8,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "29bf0317-4a5a-4c53-8c60-200fd48f4ad2",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "8e8cc2d1e3cb4fb5848162165b6ed635",
+    "displayTitle": "Laboratório – Identificando Endereços IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "f7936ad9-cecd-4b51-8a9d-a3301b1776da",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

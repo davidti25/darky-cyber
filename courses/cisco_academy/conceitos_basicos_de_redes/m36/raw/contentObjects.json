@@ -1,0 +1,702 @@
+[
+  {
+    "_id": "c36ecec8-bee5-40ad-bcfc-a4bda96f18c0",
+    "body": "<p><span>Compreendendo a solução de problemas comuns de rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "c36ecec8-bee5-40ad-bcfc-a4bda96f18c0",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "6eba4f4f-ba1c-412d-ade4-ce241fcbda1c",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png",
+        "_small": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png",
+        "_medium": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png",
+        "_small": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png",
+        "_medium": "pt-BR/assets/3db06b7ea0134a149c089741846c8a49.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "8b4e6837-675b-4463-b823-554a0145f04d",
+    "body": "<p><span>Descrever algumas das abordagens usadas para solucionar problemas de redes.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. O Processo de Solução de Problemas",
+    "_oldId": "8b4e6837-675b-4463-b823-554a0145f04d",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "ee32ddf8-dc6c-44b9-b90a-7be4f2870f8c",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png",
+        "_small": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png",
+        "_medium": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png",
+        "_small": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png",
+        "_medium": "pt-BR/assets/f4374faa6f3b482ea31f839fdc9125ca.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.1. O Processo de Solução de Problemas",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "3a95bc53-8153-455d-8ba1-228d4b5db9c1",
+    "body": "<p><span>Descrever o processo de detecção de problemas da camada física.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Problemas de camada física",
+    "_oldId": "3a95bc53-8153-455d-8ba1-228d4b5db9c1",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "d2e5e84e-4db6-40ef-bc35-4a5bb6e9909b",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png",
+        "_small": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png",
+        "_medium": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png",
+        "_small": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png",
+        "_medium": "pt-BR/assets/bff7043e6f4b45b081185d05fca37a89.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.2. Problemas de camada física",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "f55d61ac-4d54-497d-b21f-202abb941869",
+    "body": "<p><span>Solucionar um problema de rede sem fio.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Solucionar problemas de redes sem fio",
+    "_oldId": "f55d61ac-4d54-497d-b21f-202abb941869",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "1844175e-24ac-4035-98ea-85c29aeabf1d",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png",
+        "_small": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png",
+        "_medium": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png",
+        "_small": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png",
+        "_medium": "pt-BR/assets/fddff072f2974386977509c8a99d1024.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.3. Solucionar problemas de redes sem fio",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "0222907d-e3d1-4791-85bc-26035ddee596",
+    "body": "<p><span>Explicar problemas comuns de conectividade com a Internet.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Problemas comuns de conectividade com a Internet",
+    "_oldId": "0222907d-e3d1-4791-85bc-26035ddee596",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "fa4562cb-45da-4a27-801f-d678ca586f82",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png",
+        "_small": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png",
+        "_medium": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png",
+        "_small": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png",
+        "_medium": "pt-BR/assets/456cac6b948d4cc49b7eeb0a80f1f8d0.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.4. Problemas comuns de conectividade com a Internet",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "00d9a50f-2552-4d50-8f35-8c238e531ece",
+    "body": "<p><span>Explicar como usar fontes externas e recursos da Internet para solução de problemas.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.5. Suporte ao cliente",
+    "_oldId": "00d9a50f-2552-4d50-8f35-8c238e531ece",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "b2f89e99-ad39-464d-8016-0325ab042130",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png",
+        "_small": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png",
+        "_medium": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png",
+        "_small": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png",
+        "_medium": "pt-BR/assets/0ea4060eeee549b89316a705450993e0.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.5. Suporte ao cliente",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2547c567-048c-41a9-aac1-cc73711bff10",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.6. Resumo Solução de Problemas Comuns de Rede",
+    "_oldId": "2547c567-048c-41a9-aac1-cc73711bff10",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "db4970e4-5a40-4138-a599-8365dbfe94c3",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png",
+        "_small": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png",
+        "_medium": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png",
+        "_small": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png",
+        "_medium": "pt-BR/assets/eb8c5acf1dc14b48a60eea13dbc5511f.png"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "{{_moduleNumber}}.6. Resumo Solução de Problemas Comuns de Rede",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "44f22ea3-59df-4530-af3d-b029d5a2d370",
+    "body": "",
+    "_type": "page",
+    "title": "Laboratório - Solucionar problemas usando utilitários de rede",
+    "_oldId": "44f22ea3-59df-4530-af3d-b029d5a2d370",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 7,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "67637626-149d-4887-b171-c5646045af85",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "5fe32559743047d5a7f5a9b4c542e0e7",
+    "displayTitle": "Laboratório - Solucionar problemas usando utilitários de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "ae3033ea-c43f-4105-90d2-c342a4b8e13d",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

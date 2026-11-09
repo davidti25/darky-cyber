@@ -1,0 +1,423 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Webster aqui novamente! Eu tenho outra amiga para apresentar a você. O nome dela é Olcay. Olcay é uma profissional de IT em uma empresa de energia na Turquia. Ela está orientando um novo funcionário chamado Abay. Abay vai acompanhar a Olcay durante o próximo mês para se tornar mais eficiente em redes na empresa de energia. Olcay pergunta a Abay o que ele sabe sobre a resolução de endereços. O Abay sabe que para enviar um pacote para outro host na mesma rede IPv4 local, um host deve conhecer o endereço IPv4 e o endereço MAC do dispositivo de destino. Um dispositivo usa ARP para determinar o endereço MAC de destino de um dispositivo local quando conhece seu endereço IPv4.\nSe Abay quiser ser bem-sucedido em seu novo emprego, ele precisa aprender um pouco mais e você também! Sugiro fazer este módulo sobre Resolução de Endereços."
+    },
+    {
+      "type": "text",
+      "title": ".1 ARP",
+      "content": "{{_moduleNumber}}.1 ARP"
+    },
+    {
+      "type": "text",
+      "title": ".1 ARP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Visão geral do ARP",
+      "content": "Se sua rede estiver usando o protocolo de comunicações IPv4, o Protocolo de Resolução de Endereços ou ARP é o que você precisa para mapear endereços IPv4 para endereços MAC. Este tópico explica como o ARP funciona.\nCada dispositivo IP em uma rede Ethernet tem um endereço MAC Ethernet exclusivo. Quando um dispositivo envia um quadro Ethernet Layer 2, ele contém estes dois endereços:\nEndereço MAC de destino - O endereço MAC Ethernet do dispositivo de destino no mesmo segmento de rede local. Se o host de destino estiver em outra rede, o endereço de destino no quadro será o do gateway padrão (ou seja, roteador).\nEndereço MAC de origem - O endereço MAC da Ethernet NIC no host de origem.\nA figura ilustra o problema ao enviar um quadro para outro host no mesmo segmento em uma rede IPv4.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Para enviar um pacote para outro host na mesma rede IPv4 local, um host deve saber o endereço IPv4 e o endereço MAC do dispositivo de destino. Os endereços IPv4 de destino do dispositivo são conhecidos ou resolvidos pelo nome do dispositivo. No entanto, os endereços MAC devem ser descobertos.\nUm dispositivo utiliza o protocolo ARP (Address Resolution Protocol) para determinar o endereço MAC de destino de um dispositivo local quando conhece o endereço IPv4.\nO ARP fornece duas funções básicas:\nResolução de endereços IPv4 em endereços MAC\nManter uma tabela de mapeamentos de endereços IPv4 para MAC"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.6 Remoção de Entradas de uma Tabela ARP",
+      "content": "Em cada dispositivo, um temporizador da cache ARP remove entradas ARP que não tenham sido usadas durante um determinado período. Os horários diferem dependendo do sistema operacional do dispositivo. Por exemplo, os sistemas operacionais Windows mais recentes armazenam entradas da tabela ARP entre 15 e 45 segundos, conforme ilustrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os comandos também podem ser usados para remover manualmente algumas ou todas as entradas na tabela ARP. Após a remoção de uma entrada, o processo de envio de uma requisição ARP e de recebimento de uma resposta ARP deve ocorrer novamente para inserir o mapa na tabela ARP."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.8 Problemas de ARP - broadcast de ARP e falsificação de ARP",
+      "content": "Como um quadro broadcast, uma requisição ARP é recebida e processada por todos os dispositivos na rede local. Em uma rede corporativa típica, esses broadcasts provavelmente teriam impacto mínimo no desempenho da rede. No entanto, se um grande número de dispositivos precisasse ser ligado e todos começassem a acessar serviços de rede ao mesmo tempo, poderia haver alguma redução no desempenho por um curto período, como mostra a figura. Depois que os dispositivos enviarem os broadcasts ARP iniciais e tiverem reconhecido os endereços MAC necessários, qualquer impacto na rede será minimizado.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Em alguns casos, o uso do ARP pode levar a um risco potencial à segurança. Um ator de ameaça pode usar falsificação ARP para realizar um ataque de envenenamento por ARP. Esta é uma técnica usada por um ator de ameaça para responder a uma solicitação ARP de um endereço IPv4 que pertence a outro dispositivo, como o gateway padrão, conforme mostrado na figura. O agente da ameaça envia uma resposta ARP com seu próprio endereço MAC. O destinatário da resposta ARP adicionará o endereço MAC errado à sua tabela ARP e enviará esses pacotes ao agente de ameaça.\nSwitches de nível corporativo incluem técnicas de mitigação conhecidas como inspeção dinâmica ARP (DAI). A DAI não faz parte do escopo deste curso.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo da Resolução de Endereço",
+      "content": "{{_moduleNumber}}.2 Resumo da Resolução de Endereço"
+    },
+    {
+      "type": "text",
+      "title": ".2 Resumo da Resolução de Endereço",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 O que aprendi neste módulo?",
+      "content": "ARP\nPara enviar um pacote para outro host na mesma rede IPv4 local, um host deve conhecer o endereço IPv4 e o endereço MAC do dispositivo de destino. Os endereços IPv4 de destino do dispositivo são conhecidos ou resolvidos pelo nome do dispositivo. No entanto, os endereços MAC devem ser descobertos. Um dispositivo usa ARP para determinar o endereço MAC de destino de um dispositivo local quando conhece seu endereço IPv4. O ARP fornece duas funções básicas: resolver endereços IPv4 para endereços MAC e manter uma tabela de mapeamentos de endereços IPv4 para MAC.\nO dispositivo emissor pesquisará em sua tabela ARP um endereço IPv4 destino correspondente a um endereço MAC.\nSe o endereço IPv4 destino do pacote estiver na mesma rede que o endereço IPv4 origem, o dispositivo pesquisará o endereço IPv4 destino na tabela ARP.\nSe o endereço IPv4 destino do pacote estiver em uma rede diferente do endereço IPv4 origem, o dispositivo pesquisará o endereço IPv4 do gateway padrão na tabela ARP.\nCada entrada (linha) da tabela ARP vincula um endereço IPv4 a um endereço MAC. Chamamos a relação entre os dois valores de um mapa. As mensagens do ARP são encapsuladas diretamente em um quadro Ethernet. Não há cabeçalho IPv4. A requisição ARP é encapsulada em um quadro Ethernet usando as seguintes informações de cabeçalho:\nEndereço MAC de destino – Este é um endereço de broadcast FF-FF-FF-FF-FF-FF que requer todos os NICs Ethernet na LAN para aceitar e processar a solicitação ARP.\nEndereço MAC de origem - Este é o endereço MAC do remetente da solicitação ARP.\nTipo - As mensagens ARP têm um campo de tipo de 0x806. Ele informa à NIC de recebimento que a parte de dados do quadro precisa ser transferida para o processo ARP.\nComo as solicitações de ARP são transmissões, elas são inundadas em todas as portas pelo switch, exceto a porta de recebimento. Somente o dispositivo com o endereço IPv4 de destino associado à solicitação ARP responderá com uma resposta ARP. Depois que a resposta do ARP é recebida, o dispositivo adiciona o endereço IPv4 e o endereço MAC correspondente à sua tabela ARP.\nQuando o endereço IPv4 destino não está na mesma rede que o endereço IPv4 origem, o dispositivo de origem precisa enviar o quadro para o gateway padrão. Essa é a interface do roteador local. Sempre que um dispositivo de origem tiver um pacote com um endereço IPv4 em outra rede, ele encapsulará esse pacote em um quadro usando o endereço MAC de destino do roteador. O endereço IPv4 do gateway padrão é armazenado na configuração IPv4 dos hosts. Se o host de destino não estiver na mesma rede, a origem usará a tabela ARP para obter uma entrada com o endereço IPv4 do gateway padrão. Se não houver uma entrada, ela usará o processo de ARP para determinar um endereço MAC do gateway padrão.\nEm cada dispositivo, um temporizador da cache ARP remove entradas ARP que não tenham sido usadas durante um determinado período. Os horários diferem dependendo do sistema operacional do dispositivo. Os comandos podem ser usados para remover manualmente algumas ou todas as entradas na tabela ARP.\nEm um roteador Cisco, o comando show ip arp é usado para exibir a tabela ARP. Em um PC Windows 10, o comando arp –a é usado para exibir a tabela ARP.\nComo um quadro broadcast, uma requisição ARP é recebida e processada por todos os dispositivos na rede local. Se um grande número de dispositivos fosse ligado e todos começassem a acessar os serviços de rede ao mesmo tempo, poderia haver alguma redução no desempenho por um curto período de tempo. Em alguns casos, o uso do ARP pode levar a um risco potencial à segurança.\nUm ator de ameaça pode usar falsificação ARP para realizar um ataque de envenenamento por ARP. Essa é uma técnica usada por um agente de ameaças para responder a uma solicitação ARP de um endereço IPv4 que pertence a outro dispositivo, como o gateway padrão. O agente da ameaça envia uma resposta ARP com seu próprio endereço MAC. O destinatário da resposta ARP adicionará o endereço MAC errado à sua tabela ARP e enviará esses pacotes ao agente de ameaça."
+    },
+    {
+      "type": "text",
+      "title": ".2.2 Webster - Questões para Reflexão",
+      "content": "Olcay e Abay sabem muito sobre redes, inclusive sobre a resolução de endereços. Antes deste módulo, você entendia ARP e tabelas ARP? Eu nunca tinha pensado em um agente de ameaças usando falsificação de ARP para realizar um ataque de envenenamento de ARP! Você tinha?"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Graphic Widget",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Capturar e analisar dados ARP no Wireshark\n=  Inicie e interrompa a captura de dados do tráfego de ping para os hosts remotos.\n=  Localize as informações sobre o endereço IPv4 e MAC em PDUs capturadas.\n=  Analise o conteúdo das mensagens ARP trocadas entre os dispositivos na LAN.\nParte 2: Visualizar as entradas do cache ARP no PC\n=  Acesse o Prompt de Comando do Windows.\n=  Use o comando arp do Windows para visualizar o cache da tabela ARP local no PC.\nHistórico / Cenário\nO protocolo ARP é usado pelo TCP/IP para mapear um endereço IPv4 da Camada 3 para um endereço MAC da Camada 2. Quando um quadro Ethernet é transmitido na rede, ele deve ter um endereço MAC de destino. Para encontrar de forma dinâmica o endereço MAC de um destino conhecido, um dispositivo de origem transmite uma solicitação ARP na rede local. O dispositivo configurado com o endereço IPv4 de destino responde para a solicitação com uma resposta ARP e o endereço MAC é registrado no cache ARP.\nTodos os dispositivos na LAN mantêm seu próprio cache ARP. O cache ARP é uma pequena área na memória RAM que armazena as respostas ARP. A visualização do cache ARP em um PC exibirá o endereço IPv4 e o endereço MAC de cada dispositivo na LAN com a qual o PC trocou mensagens ARP.\nO Wireshark é um software analisador de protocolo, ou \"packet sniffer\", usado em solução de problemas de rede, análise, desenvolvimento de software e protocolo, e educação. À medida que o fluxo de dados trafega em uma rede, o sniffer \"captura\" cada unidade de dados de protocolo (PDU) e pode decodificar e analisar seu conteúdo de acordo com as especificações adequadas do protocolo.\nO Wireshark é uma ferramenta útil para quem trabalha com redes e pode ser usado, na maioria dos laboratórios dos cursos da Cisco, para análise de dados e solução de problemas. Este laboratório apresenta instruções para baixar e instalar o Wireshark, embora talvez já esteja instalado. Neste laboratório, você usará o Wireshark para capturar trocas de mensagens ARP na rede local.\nRecursos necessários\n=  1 PC (Escolha do sistema operacional com o Wireshark instalado)\n=  PCs ou dispositivos móveis adicionais em uma rede local (LAN) podem ser usados para responder a solicitações de ping. Caso não haja outros PCs na LAN, o endereço de gateway padrão será usado para responder às solicitações de ping.\nInstruções\nParte 1: Capturar e analisar dados locais ARP no Wireshark\nNesta parte, você efetuará ping para outro computador na LAN e capturará solicitações e respostas ARP no Wireshark. Você também verá quadros capturados para obter informações específicas. Essa análise ajudará a esclarecer como os cabeçalhos dos pacotes são usados para transportar os dados até o destino.\nObservação: as instruções foram escritas para PCs que executam o sistema operacional Windows para referência.\nEtapa 1: Consulte os endereços de interface do PC.\nNeste laboratório, você precisará consultar o endereço IPv4 e o endereço MAC do PC. (O comando ifconfig para Linux e MAC OS pode fornecer resultados semelhantes.)\na.  Navegue para a janela de prompt de comando, digite ipconfig /all at the prompt.\nb.  Observe qual adaptador de rede o PC está usando para acessar a rede. Anote o endereço IPv4 e o endereço MAC (endereço físico) da interface do PC.\nC:\\\\Users\\\\Student> ipconfig /all\n<output omitted>\nWireless LAN adapter Wireless Network Connection:\nConnection-specific DNS Suffix  . :\nDescription . . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6205\nPhysical Address. . . . . . . . . : A4-AE-31-AD-78-4C\nDHCP Enabled. . . . . . . . . . . : Yes\nAutoconfiguration Enabled . . . . : Yes\nLink-local IPv6 Address . . . . . : fe80::f9e7:e41d:a772:f993%11(Preferred)\nIPv4 Address. . . . . . . . . . . : 192.168.1.8(Preferred)\nSubnet Mask . . . . . . . . . . . : 255.255.255.0\nLease Obtained. . . . . . . . . . : Thursday, August 04, 2016 05:35:35 PM\nLease Expires . . . . . . . . . . : Friday, August 05, 2016 05:35:35 PM\nDefault Gateway . . . . . . . . . : 192.168.1.1\nDHCP Server . . . . . . . . . . . : 192.168.1.1\nDHCPv6 IAID . . . . . . . . . . . : 245648945\nDHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1B-87-BF-52-A4-4E-31-AD-78-4C\nDNS Servers . . . . . . . . . . . : 192.168.1.1\nNetBIOS over Tcpip. . . . . . . . : Disabled\nc.  No prompt de comando do outro PC, digite o comando  ipconfig.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Observação: se você estiver usando um dispositivo móvel para responder à solicitação de ping, procure as instruções para encontrar o endereço IP e o endereço MAC Wi-Fi do seu dispositivo móvel.\nObservação: se você tiver apenas um dispositivo, o endereço IP do outro PC poderá ser o gateway padrão.\nEtapa 2: Iniciar o Wireshark e começar a capturar os dados.\na.  No seu PC, inicie o Wireshark.\nObservação: como alternativa, a instalação do Wireshark também pode fornecer uma opção do Wireshark antigo. Ela mostra o Wireshark na GUI antiga e mais reconhecida. O restante deste laboratório foi concluído usando a GUI mais recente\nb.  Após iniciar o Wireshark, selecione a interface de rede que você identificou com o comando ipconfig . Insira arp na caixa de filtro. Essa seleção configura o Wireshark para exibir somente os pacotes que fazem parte das trocas ARP entre os dispositivos na rede local. Clique com o botão direito do mouse na interface e clique em Iniciar captura para iniciar a captura de dados.\nAs informações começarão a rolar na seção superior do Wireshark. Cada linha representa uma mensagem sendo enviada entre um dispositivo de origem e destino na rede.\nc.  Em uma janela do prompt de comando, execute ping no gateway padrão para testar a conectividade para o endereço do gateway padrão que foi identificado na etapa anterior (Para sistemas operacionais Linux e MAC, use o comando ping -c 4 192.168.1.1 neste exemplo.)\nC:\\\\Users\\\\Student> ping 192.168.1.1\nPinging 192.168.1.1 with 32 bytes of data:\nReply from 192.168.1.1: bytes=32 time=7ms TTL=64\nReply from 192.168.1.1: bytes=32 time=2ms TTL=64\nReply from 192.168.1.1: bytes=32 time=1ms TTL=64\nReply from 192.168.1.1: bytes=32 time=6ms TTL=64\nPing statistics for 192.168.1.1:\nPackets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\nMinimum = 1ms, Maximum = 7ms, Average = 4ms\nd.  Faça ping nos endereços IPv4 de outros PCs ou dispositivos móveis na LAN que você anotou na etapa anterior.\nObservação: se o outro dispositivo não responde aos pings, pode ser que o firewall esteja bloqueando as solicitações. Pesquise na Internet : desbloquear firewall para o seu sistema operacional\ne.  Pare de capturar dados clicando em Stop Capture (ícone do quadrado vermelho) na barra de ferramentas.\nEtapa 3: Examinar os dados capturados.\nNesta etapa, você examinará os dados gerados pelas solicitações de ping do PC de seu membro da equipe. Os dados do Wireshark são exibidos em três seções:\n1)    A seção superior exibe a lista de quadros PDU capturados com um resumo das informações do pacote IPv4 listadas.\n2)    A seção do meio lista as informações de PDU para o quadro selecionado na parte superior da tela e divide o frame capturado em suas camadas de protocolo.\n3)    A seção inferior mostra os dados brutos de cada camada. Os dados são exibidos em formato hexadecimal e decimal."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Clique nos quadros ARP na seção superior que têm o endereço MAC do seu PC como o endereço de origem e “broadcast” como o destino do quadro.\nc.  Com esse quadro de PDU ainda selecionado na seção superior, vá até a seção do meio. Clique na seta à esquerda da linha Ethernet II para ver os endereços MAC de origem e destino."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Pergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Clique na seta à esquerda da linha Protocolo ARP (solicitação) para visualizar o conteúdo da solicitação ARP."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 4: Localize o quadro da resposta ARP que corresponde à solicitação ARP que você destacou.\na.  Com o endereço IPv4 alvo na solicitação ARP, localize o quadro da resposta ARP na seção superior da tela de captura do Wireshark.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Destaque o quadro de resposta na seção superior da saída do Wireshark. Talvez seja necessário rolar a janela para encontrar o quadro de resposta que corresponde ao endereço IPv4 alvo identificado na etapa anterior. Expanda as linhas Ethernet II e protocolo ARP (resposta) na seção média da tela.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Verifique se o endereço MAC corresponde ao endereço MAC do dispositivo que você selecionou para responder às solicitações de ping.\nParte 2: Examine as entradas do cache ARP no PC\nApós a resposta ARP ser recebida pelo PC, a associação do endereço MAC para o endereço IPv4 é armazenada na memória do cache no PC. Essas entradas permanecerão na memória por um curto período (de 15 a 45 segundos), e, depois, se não forem usadas nesse período, serão removidas do cache. (Observação: pesquise na Internet para encontrar os comandos relacionados ao ARP para um PC com sistema operacional Linux ou MAC.)\na.  Abra uma janela de prompt de comando em um PC. No prompt , entre arp -a e pressione enter\nC:\\\\Users\\\\Student> arp -a\nInterface: 192.168.1.8 --- 0xb\nInternet Address      Physical Address      Type\n192.168.1.1           00-37-73-ea-b1-7a     dynamic\n192.168.1.9           90-4c-e5-be-15-63     dynamic\n192.168.1.13          a4-4e-31-ad-78-4c     dynamic\n224.0.0.5             01-00-5e-00-00-05     static\n224.0.0.6             01-00-5e-00-00-06     static\n224.0.0.22            01-00-5e-00-00-16     static\n224.0.0.252           01-00-5e-00-00-fc     static\n224.0.0.253           01-00-5e-00-00-fd     static\n239.255.255.250       01-00-5e-7f-ff-fa     static\n255.255.255.255       ff-ff-ff-ff-ff-ff     static\nA saída do comando arp –a exibirá as entradas que estão no cache no PC. No exemplo, o PC tem entradas para o gateway padrão (192.168.1.1) e para dois PCs localizados na mesma LAN (192.168.1.9 e 192.168.1.13).\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  O comando arp no PC Windows tem outras funcionalidade.  Digite arp /? no prompt de comando e pressione enter. As opções do comando arp permitem que você visualize, adicione e remova as entradas da tabela ARP, se necessário.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Reflexão"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Tabela de Endereçamento"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Examinar uma Requisição ARP\nParte 2: Examinar a Tabela de Endereços MAC de um Switch\nParte 3: Examinar o Processo ARP em Comunicações Remotas\nHistórico\nEsta atividade é otimizada para a visualização de PDUs. Os dispositivos já estão configurados. Você reunirá informações das PDUs no modo de simulação e responderá a uma série de perguntas sobre os dados coletados.\nInstruções\nParte 1: Examinar uma Requisição ARP\nEtapa 1: Gere requisições ARP enviando ping para 172.16.31.2 de 172.16.31.3.\na.  Clique em 172.16.31.2 e abra o Command Prompt (Prompt de Comando).\nb.  Digite o comando arp -d para limpar a tabela ARP.\nc.  Entre no modo Simulation (Simulação) e insira o comando ping 172.16.31.3. Serão geradas duas PDUs. O comando ping não pode completar o pacote ICMP sem saber o endereço MAC de destino. Por isso, o computador envia um quadro broadcast ARP para localizar o endereço MAC destino.\nd.  Clique uma vez em Capture/Forward (Capturar/Encaminhar). A PDU ARP se moverá para Switch1 quando a PDU do ICMP desaparecer, aguardando a resposta ARP. Abra a PDU e registre o endereço MAC de destino.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Clique em Capture/Forward (Capturar/Encaminhar) para mover a PDU para o próximo dispositivo.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Abra a PDU e examine a Camada 2.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  Clique em Capture/Forward (Capturar/Encaminhar) até que a PDU retorne para 172.16.31.2.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Examinar a tabela ARP.\na.  Observe que o pacote ICMP será exibido novamente. Abra a PDU e examine os endereços MAC.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Volte para o modo Realtime (Tempo real) e o ping será concluído.\nc.  Clique em 172.16.31.2 e insira o comando arp –a.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 2: Examinar a Tabela de Endereços MAC de um Switch\nEtapa 1: Gerar tráfego adicional para preencher a tabela de endereços MAC do switch.\na.  Em 172.16.31.2, insira o comando ping 172.16.31.4.\nb.  Clique em 10.10.10.2 e abra o Prompt de Comando.\nc.  Insira o comando ping 10.10.10.3.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Examinar a tabela de endereços MAC nos switches.\na.  Clique em Switch1 e depois na guia CLI. Insira o comando show mac-address-table.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "b.  Clique em Switch0 e depois na guia CLI. Insira o comando show mac-address-table.\nPerguntas:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Parte 3: Examinar o Processo ARP em Comunicações Remotas\nEtapa 1: Gerar tráfego para produzir tráfego ARP.\na.  Clique em 172.16.31.2 e abra o Prompt de Comando.\nb.  Insira o comando ping 10.10.10.1.\nc.  Digite arp –a.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "d.  Insira arp -d para limpar a tabela ARP e mude para o modo Simulation (Simulação).\ne.  Repita o ping para 10.10.10.1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Clique em Capture/Forward (Capturar/Encaminhar). Clique na PDU que agora está em Switch1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.  O endereço IP destino não é 10.10.10.1.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Etapa 2: Examinar a tabela ARP em Router1.\na.  Alterne para o modo Realtime (Tempo real). Clique em Router1 e depois na guia CLI.\nb.  Entre no modo EXEC privilegiado e insira o comando show mac-address-table.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "c.  Insira o comando show arp.\nPerguntas:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Quais duas funções são fornecidas pelo ARP? (Escolha duas.)",
+      "options": [
+        "Mantém uma tabela de endereços IPv4 para nomes de domínio",
+        "Mantém uma tabela de mapeamentos de endereços IPv4 para MAC",
+        "Mantém uma tabela de mapeamentos de endereços IPv6 para MAC",
+        "Resolve endereços IPv4 para nomes de domínio",
+        "Resolve endereços IPv4 para endereços MAC",
+        "Resolver endereços IPv6 para endereços MAC"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nO ARP tem duas funções principais: manter uma tabela de mapeamentos de endereços IPv4 para MAC e determinar os endereços MAC de endereços IPv4 conhecidos.",
+      "raw_id": "ae83eacc491f4232893d56b7bb8237fa"
+    },
+    {
+      "question": "Onde a tabela ARP é armazenada em um dispositivo?",
+      "options": [
+        "ROM",
+        "flash",
+        "NVRAM",
+        "RAM"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nA tabela ARP é armazenada temporariamente em cache na RAM.",
+      "raw_id": "55b687b537174a8e8e2e0c58c098595f"
+    },
+    {
+      "question": "Qual afirmação é verdadeira sobre o ARP?",
+      "options": [
+        "Um cache ARP não pode ser excluído manualmente.",
+        "As entradas ARP são armazenadas permanentemente em cache.",
+        "As entradas ARP são armazenadas temporariamente em cache."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA tabela ARP é armazenada temporariamente em cache na RAM.",
+      "raw_id": "6649ac365e6041199bb5f3d6f3fc25cc"
+    },
+    {
+      "question": "Qual comando poderia ser usado em um roteador Cisco para exibir sua tabela ARP?",
+      "options": [
+        "arp -a",
+        "arp - d",
+        "show arp table",
+        "show ip arp"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO comando show ip arp é usado em roteadores Cisco para visualizar a tabela ARP.",
+      "raw_id": "e9cc2524c71e4069aca5e6dd4f3cc185"
+    },
+    {
+      "question": "O que é um ataque usando ARP?",
+      "options": [
+        "Transmissões ARP",
+        "Ataques de salto ARP",
+        "Contaminação de ARP",
+        "Privação de ARP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nDois problemas de segurança com as Solicitações ARP são que as mensagens ARP são enviadas como transmissões e podem ser falsificadas.",
+      "raw_id": "6be78a4cf5a04e1093989f3eb0400b96"
+    },
+    {
+      "question": "Qual protocolo é usado para descobrir o endereço de destino que precisa ser adicionado a um quadro Ethernet?",
+      "options": [
+        "ARP",
+        "DNS",
+        "DHCP",
+        "HTTP"
+      ],
+      "correctIndex": 0,
+      "explanation": "Na camada do link de dados, um cabeçalho de quadro é adicionado. O cabeçalho do quadro inclui os endereços MAC de origem e destino.  Para encontrar o endereço MAC do host de destino, o host remetente usa o Address Resolution Protocol (ARP). Se o host de destino não estiver na mesma LAN, o endereço MAC do gateway padrão será usado como o endereço MAC de destino no cabeçalho do quadro.",
+      "raw_id": "5559fca9487649119ac9fa4d858a569d"
+    },
+    {
+      "question": "O que é uma função do protocolo ARP?",
+      "options": [
+        "obtendo um endereço IPv4 automaticamente",
+        "mapeando um nome de domínio para seu endereço IP",
+        "resolvendo um endereço IPv4 para um endereço MAC",
+        "manutenção de uma tabela de nomes de domínio com seus endereços IP resolvidos"
+      ],
+      "correctIndex": 2,
+      "explanation": "As duas principais funções do protocolo ARP são resolver um endereço IPv4 para um endereço MAC e manter uma tabela ARP, que lista os pares resolvidos de endereço IPv4 e endereço MAC. Um dispositivo obtém automaticamente um endereço IP através de DHCP. As funções do DNS incluem resolver (ou mapear) um nome de domínio com seu endereço IP e manter uma tabela para os pares de nome de domínio/IP.",
+      "raw_id": "abc620577be04835ad3b3f437e4d26fd"
+    },
+    {
+      "question": "O roteador GW1 está conectado ao Switch SWA. O switch SWA está conectado ao PC1. O switch SWA está conectado ao PC2. PC1 tem um endereço IP 192.168.10.17 e está localizado na VLAN 10. O PC2 tem um endereço IP 192.168.20.34 e está localizado na VLAN 20. Um envelope ARP está subindo do switch  SWA para o roteador  GW1.\" style=\"min-width: 50%;\">\nConsulte a figura. PC1 na VLAN 10 quer se comunicar com PC2 na VLAN 20. PC1 envia uma solicitação de ARP para seu gateway padrão, GW1. Como o GW1 responde?",
+      "options": [
+        "Ele envia uma resposta ARP para PC2.",
+        "Ele envia uma solicitação de ARP para PC1.",
+        "Ele encaminha a solicitação ARP de PC1 para PC2.",
+        "Ele envia uma resposta ARP ao PC1 com seu próprio endereço MAC."
+      ],
+      "correctIndex": 3,
+      "explanation": "O GW1 é configurado com subinterfaces para acomodar as duas redes diferentes relacionadas à VLAN10 e VLAN20. Se o PC1 não souber o endereço MAC do PC2, ele transmitirá um ARP na rede VLAN10. O GW1 verá o broadcast e determinará que o endereço IP do PC2 está em uma rede diferente. O GW1 enviará seu endereço MAC de volta para PC1.",
+      "raw_id": "bea15e0304ca4a86b27dd596af7fd26d"
+    },
+    {
+      "question": "Que ação o processo ARP executa quando um host precisa criar um quadro, mas o cache ARP não contém um mapeamento de endereço?",
+      "options": [
+        "O processo ARP envia uma solicitação ARP para o endereço de broadcast Ethernet para descobrir o endereço IPv4 do dispositivo de destino.",
+        "O processo ARP envia uma solicitação ARP para o endereço de broadcast IPv4 para descobrir o endereço MAC do dispositivo de destino.",
+        "O processo ARP envia uma solicitação ARP para o endereço de broadcast IPv4 para descobrir o endereço IPv4 do dispositivo de destino.",
+        "O processo ARP envia uma solicitação ARP para o endereço de broadcast Ethernet para descobrir o endereço MAC do dispositivo de destino."
+      ],
+      "correctIndex": 3,
+      "explanation": "O protocolo de resolução de endereços (ARP) mantém no computador local um cache de mapeamentos de endereços MAC para IPv4. Se não houver mapeamento no cache para um endereço IPv4 específico, o processo ARP envia um broadcast Ethernet no link local com o intuito de descobrir o endereço MAC correspondente a um endereço IPV4 de destino.",
+      "raw_id": "6c6b4e4700df4a73b9e707ed59ee87e1"
+    },
+    {
+      "question": "Qual afirmativa descreve o tratamento das requisições ARP no link local?",
+      "options": [
+        "Elas precisam ser encaminhadas por todos os roteadores na rede local.",
+        "Elas são recebidas e processadas por todos os dispositivos na rede local.",
+        "Elas são entregues por todos os switches na rede local.",
+        "Elas são recebidas e processadas somente pelo dispositivo destino."
+      ],
+      "correctIndex": 1,
+      "explanation": "Um dos aspectos negativos das requisições ARP é que são enviadas como broadcast. Isso significa que todos os dispositivos no link local devem receber e processar a requisição.",
+      "raw_id": "8ef98476298640c89d2aefb9c4fa22f7"
+    },
+    {
+      "question": "Qual é o objetivo de um ataque de ARP spoofing?",
+      "options": [
+        "inundar a rede com transmissões de resposta ARP",
+        "preencher as tabelas de endereços MAC do switch com endereços falsos",
+        "associar endereços IP aos endereços MAC incorretos",
+        "sobrecarregar os hosts de rede com solicitações de ARP"
+      ],
+      "correctIndex": 2,
+      "explanation": "Em um ataque de ARP spoofing, um host mal-intencionado intercepta as solicitações de ARP e responde a elas, para que os hosts de rede mapeiem um endereço IP para o endereço MAC do host mal-intencionado.",
+      "raw_id": "19941acc232446f69d9d91fa97f948f5"
+    },
+    {
+      "question": "Um analista de segurança digital acredita que um invasor está anunciando um endereço MAC forjado para os hosts de rede na tentativa de imitar o gateway padrão. Qual comando o analista poderia usar nos hosts de rede para ver qual endereço MAC os hosts estão usando para alcançar o gateway padrão?",
+      "options": [
+        "netsat -r",
+        "route print",
+        "ipconfig/all",
+        "arp -a"
+      ],
+      "correctIndex": 3,
+      "explanation": "O comando arp -a exibirá a tabela de endereços MAC em um PC.",
+      "raw_id": "5c154fd5b4844c74b2b5b7c33b1a7767"
+    },
+    {
+      "question": "O que um host fará primeiro ao preparar uma PDU de Camada 2 para transmissão a um host na mesma rede Ethernet?",
+      "options": [
+        "Ele enviará a PDU para o roteador diretamente conectado à rede.",
+        "Ele consultará o servidor DNS local para o nome do host de destino.",
+        "Ele pesquisará na tabela ARP o endereço MAC do host de destino.",
+        "Ele iniciará uma solicitação ARP para localizar o endereço MAC do host de destino."
+      ],
+      "correctIndex": 2,
+      "explanation": "Para encapsular uma PDU de Camada 3 em um quadro, o host enviando precisa saber o endereço MAC do host de destino. O host de envio verifica primeiro a tabela ARP. Se uma correspondência for encontrada na tabela, o host usará o endereço MAC como o MAC de destino no quadro. Caso contrário, ele iniciará uma solicitação ARP para obter o MAC de destino.",
+      "raw_id": "cd58138a764a48e5aad881030e24bcf1"
+    },
+    {
+      "question": "Qual endereço de destino é usado em um quadro de solicitação ARP?",
+      "options": [
+        "0.0.0.0",
+        "255.255.255.255",
+        "FFFF.FFFF.FFFF",
+        "127.0.0.1",
+        "01-00-5E-00-AA-23"
+      ],
+      "correctIndex": 2,
+      "explanation": "A finalidade de uma solicitação ARP é encontrar o endereço MAC do host de destino em uma LAN Ethernet. O processo ARP envia um broadcast e camada 2 para todos os dispositivos na LAN Ethernet. O quadro contém o endereço IP do destino e o endereço MAC de broadcast, FFFF.FFFF.FFFF.",
+      "raw_id": "63c38aba52a84977b007d92ce39758a5"
+    },
+    {
+      "question": "Qual protocolo é usado por um computador para encontrar o endereço MAC do gateway padrão em uma rede Ethernet?",
+      "options": [
+        "ARP",
+        "TCP",
+        "UDP",
+        "DHCP"
+      ],
+      "correctIndex": 0,
+      "explanation": "O TCP fornece um serviço de entrega confiável. O UDP fornece entrega de dados não confiável. DHCP é usado para a atribuição automática de endereços IP. O ARP é usado para descobrir o endereço MAC de um dispositivo na rede Ethernet.",
+      "raw_id": "6a735cc546604028961a806fbd0c8cbe"
+    },
+    {
+      "question": "Consulte a figura. O PC1 tenta se conectar ao File_server1 e envia uma solicitação ARP para obter um endereço MAC de destino. Qual endereço MAC o PC1 receberá na resposta do ARP?",
+      "options": [
+        "o endereço MAC de S1",
+        "o endereço MAC da interface G0/0 em R1",
+        "o endereço MAC da interface G0/0 no R2",
+        "o endereço MAC de S2",
+        "o endereço MAC de File_server1"
+      ],
+      "correctIndex": 1,
+      "explanation": "O PC1 deve ter um endereço MAC para usar como endereço de destino da Camada 2. PC1 enviará uma solicitação ARP em broadcast e R1 enviará de volta uma resposta ARP com seu endereço MAC da interface G0/0. O PC1 poderá então encaminhar o pacote para o endereço MAC do gateway padrão, R1.",
+      "raw_id": "c229fd8ec77b4e848f419c849d373142"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,609 @@
+[
+  {
+    "_id": "523f6ee9-cf9d-4238-9530-21e63864395e",
+    "body": "<p><span>Entendendo o ICMP.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "523f6ee9-cf9d-4238-9530-21e63864395e",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "f9740cde-8364-4956-b43c-d58d024bd887",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg",
+        "_small": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg",
+        "_medium": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg",
+        "_small": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg",
+        "_medium": "pt-BR/assets/d9274038f3624863a88f974d2953b0ee.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "61d79084-dbc9-46b8-bfcd-76f8c1ec24c7",
+    "body": "<p><span>Explicar como o protocolo ICMP é usado para testar a conectividade da rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. Mensagens ICMP",
+    "_oldId": "61d79084-dbc9-46b8-bfcd-76f8c1ec24c7",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "2ebb59a1-121d-476e-8614-6cdf8012b2f6",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg",
+        "_small": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg",
+        "_medium": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg",
+        "_small": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg",
+        "_medium": "pt-BR/assets/8c42f2c353ed4abe93e8612ba25ddb4e.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "{{_moduleNumber}}.1. Mensagens ICMP",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "bee294b3-9602-4f50-9183-35d70b1bf4c2",
+    "body": "<p><span>Usar utilitários ping e traceroute para testar a conectividade da rede.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. Teste de Ping e Traceroute ",
+    "_oldId": "bee294b3-9602-4f50-9183-35d70b1bf4c2",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "5642ed15-c1e3-44b3-822d-39dd323ef76e",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg",
+        "_small": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg",
+        "_medium": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg",
+        "_small": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg",
+        "_medium": "pt-BR/assets/056beefa6e124122888396641f21b12f.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "{{_moduleNumber}}.2. Teste de Ping e Traceroute ",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2d32aaf9-a25c-4410-bde5-74a62d48b907",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Resumo ICMP",
+    "_oldId": "2d32aaf9-a25c-4410-bde5-74a62d48b907",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "c1c03a99-b03c-4902-8777-3f621c02eb51",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg",
+        "_small": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg",
+        "_medium": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg",
+        "_small": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg",
+        "_medium": "pt-BR/assets/6e7aa00e7ff7458395e400c6d0279d84.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "{{_moduleNumber}}.3. Resumo ICMP",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "839c4c48-9dd9-4674-bf3e-bb7d6ee750e8",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer – Verifique o endereçamento IPv4 e IPv6",
+    "_oldId": "839c4c48-9dd9-4674-bf3e-bb7d6ee750e8",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "ddb47f49-e1a5-4ee3-8645-9887d4a56924",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "Packet Tracer – Verifique o endereçamento IPv4 e IPv6",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c0339b4c-5e81-465a-b16f-c270b502a28d",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Utilizar Ping e Traceroute para testar a conectividade de rede",
+    "_oldId": "c0339b4c-5e81-465a-b16f-c270b502a28d",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "978ce4fd-e298-40ef-9905-5672c1e92181",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "Packet Tracer - Utilizar Ping e Traceroute para testar a conectividade de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "edffa031-5312-4eeb-887d-dd260750e72c",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - use o ICMP para testar e corrigir a conectividade de rede",
+    "_oldId": "edffa031-5312-4eeb-887d-dd260750e72c",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd8805c2c695451fa69273a0295d4aab",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "1f3f3588-908b-411c-a21a-170cda01b984",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "fd8805c2c695451fa69273a0295d4aab",
+    "displayTitle": "Packet Tracer - use o ICMP para testar e corrigir a conectividade de rede",
+    "_isPageTracer": false,
+    "_activityParentId": "9b5ca188-cece-4c9d-85cc-1fd6925fef8c",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

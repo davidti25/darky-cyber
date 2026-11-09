@@ -1,0 +1,466 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Olá novamente! Bob também precisou aprender muito sobre a camada de rede em seus cursos antes de se tornar um especialista em TI. A camada de rede, ou Camada OSI 3, fornece serviços para permitir que dispositivos finais troquem dados entre redes. IPv4 e IPv6 são os principais protocolos de comunicação da camada de rede. Os protocolos da camada de rede realizam quatro operações: endereçamento de dispositivos finais, encapsulamento, roteamento e desencapsulamento.\nIsso parece muita informação para pessoas como Marcy e Vincent, que não têm conhecimento de redes! Parece esmagador para você? Este módulo ajudará você a entender a camada da rede."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".1 Características de camada de rede",
+      "content": "{{_moduleNumber}}.1 Características de camada de rede"
+    },
+    {
+      "type": "text",
+      "title": ".1 Características de camada de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": "Protocolos da Camada de Rede",
+      "content": "A camada de rede, ou Camada OSI 3, fornece serviços para permitir que dispositivos finais troquem dados entre redes. Como mostrado na figura, IP versão 4 (IPv4) e IP versão 6 (IPv6) são os principais protocolos de comunicação de camada de rede. Outros protocolos de camada de rede incluem protocolos de roteamento, como OSPF (Open Shortest Path First) e protocolos de mensagens, como ICMP (Internet Control Message Protocol).\nProtocolos da Camada de Rede",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Encapsulamento IP",
+      "content": "O IP encapsula o segmento da camada de transporte (a camada logo acima da camada de rede) ou outros dados adicionando um cabeçalho IP. O cabeçalho IP é usado para entregar o pacote ao host de destino.\nA figura ilustra como a PDU da camada de transporte é encapsulada pela PDU da camada de rede para criar um pacote IP.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "O processo de encapsulamento camada por camada possibilita o desenvolvimento e a expansão dos serviços nas diferentes camadas sem afetar outras camadas. Isso significa que os segmentos da camada de transporte podem ser imediatamente empacotados por IPv4 , IPv6 ou qualquer protocolo que venha a ser desenvolvido no futuro.\nO cabeçalho IP é examinado por dispositivos de Camada 3 (ou seja, roteadores e switches de Camada 3) à medida que viaja através de uma rede até seu destino. É importante notar que as informações de endereçamento IP permanecem as mesmas desde o momento em que o pacote sai do host de origem até chegar ao host de destino, exceto quando traduzidas pelo dispositivo que executa a Tradução de Endereços de Rede (NAT) para IPv4.\nObservação: O NAT é discutido em módulos posteriores.\nOs roteadores implementam protocolos de roteamento para rotear pacotes entre redes. O roteamento realizado por esses dispositivos intermediários examina o endereçamento da camada de rede no cabeçalho do pacote. Em todos os casos, a parte de dados do pacote, ou seja, a PDU da camada de transporte encapsulada ou outros dados, permanece inalterada durante os processos da camada de rede."
+    },
+    {
+      "type": "text",
+      "title": ".1.4 Características do IP",
+      "content": "O IP foi desenvolvido como um protocolo com baixa sobrecarga. Ele fornece apenas as funções necessárias para enviar um pacote de uma origem a um destino por um sistema interconectado de redes. O protocolo não foi projetado para rastrear e gerenciar o fluxo de pacotes. Essas funções, se exigido, são realizadas por outros protocolos em outras camadas, principalmente TCP na Camada 4.\nEstas são as características básicas da IP:\nSem conexão - Não há conexão com o destino estabelecido antes do envio de pacotes de dados.\nMelhor esforço - o IP é inerentemente não confiável, porque a entrega de pacotes não é garantida.\nIndependente da mídia - A operação é independente do meio (ou seja, cobre, fibra ótica ou sem fio) que carrega os dados."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Sem conexão - Analogia",
+      "content": "O IP não tem conexão, o que significa que nenhuma conexão ponta a ponta dedicada é criada pelo IP antes que os dados sejam enviados. A comunicação sem conexão é conceitualmente semelhante a enviar uma carta a alguém sem notificar o destinatário com antecedência. A figura resume esse ponto-chave.\nSem conexão - Analogia",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Sem conexão - Rede",
+      "content": "As comunicações de dados sem conexão funcionam com o mesmo princípio. Como mostra a figura, o IP não requer troca inicial de informações de controle para estabelecer uma conexão ponto a ponto antes do encaminhamento dos pacotes.\nSem conexão - Rede",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.6 Melhor Esforço",
+      "content": "O IP também não requer campos adicionais no cabeçalho para manter uma conexão estabelecida. Esse processo reduz bastante a sobrecarga do IP. No entanto, sem conexão de ponta a ponta pré-estabelecida, os remetentes não sabem se os dispositivos de destino estão presentes e funcionais ao enviar pacotes, nem sabem se o destino recebe o pacote ou se o dispositivo de destino pode acessar e ler o pacote.\nO protocolo IP não garante que o pacote enviado seja, de fato, recebido. A figura ilustra a característica de entrega não confiável ou de melhor esforço do protocolo IP.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.7 Independente de Mídia",
+      "content": "Não confiável significa que o IP não tem a capacidade de gerenciar e recuperar pacotes não entregues ou corrompidos. Isso ocorre porque, embora os pacotes IP sejam enviados com informações sobre o local da entrega, eles não contêm informações que podem ser processadas para informar ao remetente se a entrega foi bem-sucedida. Os pacotes podem chegar ao destino corrompidos, fora de sequência ou simplesmente não chegar. O IP não tem capacidade de retransmitir os pacotes em caso de erros.\nSe os pacotes forem entregues fora de ordem ou estiver faltando algum pacote, as aplicações que usam os dados, ou serviços de camada superior, deverão resolver esses problemas. Isso permite que o IP funcione de forma bem eficiente. No conjunto de protocolos TCP / IP, a confiabilidade é o papel do protocolo TCP na camada de transporte.\nO IP opera independentemente da mídia que transporta os dados nas camadas inferiores da pilha de protocolos. Conforme mostra a figura, os pacotes IP podem ser comunicados como sinais elétricos por cabo de cobre, sinais ópticos nas fibras ou sinais de rádio em redes sem fio.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "A camada de enlace de dados OSI é responsável por pegar um pacote IP e prepará-lo para transmissão pelo meio de comunicação. Isso significa que a entrega de pacotes IP não se limita a nenhum meio específico.\nHá, no entanto, uma característica muito importante dos meios físicos que a camada de rede considera: o tamanho máximo da PDU que cada meio consegue transportar. Essa característica é chamada de unidade máxima de transmissão (maximum transmission unit - MTU). Parte das comunicações de controle entre a camada de enlace de dados e a camada de rede é a definição de um tamanho máximo para o pacote. A camada de enlace de dados passa o valor da MTU para a camada de rede. A camada de rede então determina o tamanho que os pacotes podem ter.\nEm alguns casos, um dispositivo intermediário, geralmente um roteador, deve dividir um pacote IPv4 ao encaminhá-lo de um meio para outro com uma MTU menor. Esse processo é chamado fragmentação do pacote ou fragmentação. A fragmentação causa latência. Os pacotes IPv6 não podem ser fragmentados pelo roteador."
+    },
+    {
+      "type": "text",
+      "title": ".2 Pacote IPv4",
+      "content": "{{_moduleNumber}}.2 Pacote IPv4"
+    },
+    {
+      "type": "text",
+      "title": ".2 Pacote IPv4",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.1 Cabeçalho do Pacote IPv4",
+      "content": "O IPv4 é um dos principais protocolos de comunicação de camada de rede. O cabeçalho do pacote IPv4 é usado para garantir que esse pacote seja entregue para sua próxima parada no caminho para seu dispositivo final de destino.\nO cabeçalho de um pacote IPv4 consiste em campos com informações importantes sobre o pacote. Esses campos contêm números binários que são examinados pelo processo da Camada 3."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Campos no cabeçalho do pacote IPv4",
+      "content": "Os valores binários de cada campo identificam várias configurações do pacote IP. Os diagramas de cabeçalho de protocolo, cuja leitura é feita da esquerda para a direita, de cima para baixo, disponibilizam uma visualização para consultar ao discutir os campos de protocolo. O diagrama de cabeçalho de protocolo IP na figura identifica os campos de um pacote IPv4.\nCampos no cabeçalho do pacote IPv4",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Campos significativos no cabeçalho IPv4 incluem o seguinte:\nVersão – Contém um valor binário de 4 bits definido como 0100 que identifica que este é um pacote IP versão 4.\nServiços diferenciados ou DiffServ (DS) - Anteriormente chamado de Tipo de Serviço (ToS), o campo DS é um campo de 8 bits usado para determinar a prioridade de cada pacote. Os seis bits mais significativos do campo DiffServ são os bits do ponto de código de serviços diferenciados (DSCP) e os dois últimos são os bits de notificação de congestionamento explícita (ECN).\nTempo de vida (TTL) – TTL contém um valor binário de 8 bits que é usado para limitar a vida útil de um pacote. O dispositivo de origem do pacote IPv4 define o valor TTL inicial. É diminuído em um cada vez que o pacote é processado por um roteador. Se o campo TTL for decrementado até zero, o roteador descartará o pacote e enviará uma mensagem ICMP de tempo excedido para o endereço IP de origem. Como o roteador decrementa o TTL de cada pacote, o roteador também deve recalcular a soma de verificação do cabeçalho.\nProtocolo - Este campo é usado para identificar o protocolo de próximo nível. O valor binário de 8 bits indica o tipo de carga de dados que o pacote está carregando, o que permite que a camada de rede transfira os dados para o protocolo apropriado das camadas superiores. Valores comuns incluem ICMP (1), TCP (6) e UDP (17).\nChecksum de cabeçalho — Isso é usado para detectar corrupção no cabeçalho IPv4.\nEndereço IP Origem – Contém um valor binário de 32 bits que representa o endereço IP origem do pacote. O endereço de origem IPv 4 é sempre um endereço unicast.\nEndereço IP Destino – Contém um valor binário de 32 bits que representa o endereço IP destino do pacote. O endereço IPv4 destino é um endereço unicast, multicast, ou broadcast.\nOs dois campos mais referenciados são os endereços IP de origem e destino. Esses campos identificam a procedência do pacote e para onde ele vai. Normalmente, esses endereços não mudam durante a viagem da origem ao destino.\nOs campos Tamanho do Cabeçalho de Internet (IHL), Tamanho Total e Soma de Verificação do Cabeçalho servem para identificar e validar o pacote.\nOutros campos são usados para reorganizar um pacote fragmentado. O pacote IPv4 usa especificamente os campos Identificação, Flags e Deslocamento do Fragmento para organizar os fragmentos. Um roteador pode precisar fragmentar um pacote IPv4 ao encaminhá-lo de um meio para outro com uma MTU menor.\nOs campos Opções e Preenchimento raramente são usados e estão além do escopo deste módulo."
+    },
+    {
+      "type": "text",
+      "title": ".3 Pacote IPv6",
+      "content": "{{_moduleNumber}}.3 Pacote IPv6"
+    },
+    {
+      "type": "text",
+      "title": ".3 Pacote IPv6",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.1 Limitações do IPv4",
+      "content": "O IPv4 ainda está em uso hoje. Este tópico é sobre IPv6, que eventualmente substituirá o IPv4. Para entender melhor por que você precisa conhecer o protocolo IPv6, ele ajuda a conhecer as limitações do IPv4 e as vantagens do IPv6.\nAo longo dos anos, protocolos e processos adicionais foram desenvolvidos para enfrentar novos desafios. No entanto, mesmo com alterações, ele ainda enfrenta três grandes problemas:\nEsgotamento do endereço IPv4 - O IPv4 tem um número limitado de endereços públicos exclusivos disponíveis. Embora haja aproximadamente 4 bilhões de endereços IPv4, o número crescente de novos dispositivos habilitados para IP, conexões sempre ativas e o potencial de crescimento de regiões menos desenvolvidas têm aumentado a necessidade de mais endereços.\nFalta de conectividade ponto a ponto  - Network Address Translation (NAT) é uma tecnologia comumente implementada em redes IPv4. A NAT é uma forma de vários dispositivos compartilharem um único endereço IPv4 público. No entanto, como o endereço IPv4 público é compartilhado, o endereço IPv4 de um host de rede interna fica oculto. Isso pode ser problemático para tecnologias que exigem conectividade de ponta a ponta.\nMaior complexidade da rede - Embora o NAT tenha ampliado a vida útil do IPv4, ele só se destinava a ser um mecanismo de transição para o IPv6. O NAT em suas várias implementações cria complexidade adicional na rede, criando latência e dificultando a solução de problemas."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Comparação de espaço de endereços IPv4 e IPv6",
+      "content": "No início da década de 90, a Internet Engineering Task Force (IETF) tinha uma preocupação crescente a respeito dos problemas com o IPv4 e começou a procurar um substituto. Isso levou ao desenvolvimento do IP versão 6 (IPv6). O IPv6 supera as limitações do IPv4 e possui recursos que atendem às demandas atuais e previsíveis de rede.\nAs melhorias que o IPv6 fornece incluem o seguinte:\nEspaço de endereço aumentado - Os endereços IPv6 são baseados no endereçamento hierárquico de 128 bits, em oposição ao IPv4 com 32 bits.\nManipulação aprimorada de pacotes - O cabeçalho IPv6 foi simplificado com menos campos.\nElimina a necessidade de NAT - Com um número tão grande de endereços IPv6 públicos, o NAT entre um endereço IPv4 privado e um IPv4 público não é necessário. Isso evita alguns dos problemas induzidos por NAT enfrentados por aplicativos que exigem conectividade de ponta a ponta.\nO espaço de 32 bits de um endereço IPv4 fornece aproximadamente 4,294,967,296 endereços exclusivos. O espaço de endereço IPv6 fornece 340,282,366,920,938,463,463,374,607,431,768,211,456, ou 340 undecilhões de endereços. Isto é aproximadamente equivalente a cada grão de areia na Terra.\nA figura mostra uma comparação visual do espaço de endereços IPv4 e IPv6.\nComparação de espaço de endereços IPv4 e IPv6",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Cabeçalho do Pacote IPv4",
+      "content": "Uma das principais melhorias de design do IPv6 em relação ao IPv4 é o cabeçalho IPv6 simplificado.\nPor exemplo, o cabeçalho IPv4 consiste em um cabeçalho de comprimento variável de 20 octetos (até 60 bytes se o campo Opções for usado) e 12 campos de cabeçalho básicos, sem incluir o campo Opções e o campo Preenchimento.\nPara o IPv6, alguns campos permaneceram os mesmos, alguns campos mudaram de nome e posição e alguns campos do IPv4 não são mais necessários, conforme destacado na figura.\nCabeçalho do Pacote IPv4",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Cabeçalho do Pacote IPv6",
+      "content": "Por outro lado, o cabeçalho simplificado do IPv6 mostrado na figura a seguir consiste em um cabeçalho de comprimento fixo de 40 octetos (em grande parte devido ao comprimento dos endereços IPv6 de origem e de destino).\nO cabeçalho simplificado IPv6 permite um processamento mais eficiente de cabeçalhos IPv6.\nCabeçalho do Pacote IPv6",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "Campos no cabeçalho do pacote IPv6",
+      "content": "O diagrama de cabeçalho de protocolo IP na figura identifica os campos de um pacote IPv6.\nCampos no cabeçalho do pacote IPv6",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Os campos no cabeçalho do pacote IPv6 incluem o seguinte:\nVersão -  Este campo contém um valor binário de 4 bits definido como 0110 que identifica isso como um pacote IP versão 6.\nClasse de tráfego -  Este campo de 8 bits é equivalente ao campo DS (Serviços diferenciados de IPv4).\nEtiqueta de fluxo -  Este campo de 20 bits sugere que todos os pacotes com a mesma etiqueta de fluxo recebam o mesmo tipo de manipulação pelos roteadores.\nComprimento da carga útil -  Este campo de 16 bits indica o comprimento da parte dos dados ou da carga útil do pacote IPv6. Isso não inclui o comprimento do cabeçalho IPv6, que é um cabeçalho fixo de 40 bytes.\nPróximo cabeçalho -  Este campo de 8 bits é equivalente ao campo Protocolo IPv4. Ele exibe o tipo de carga de dados que o pacote está carregando, permitindo que a camada de rede transfira os dados para o protocolo apropriado das camadas superiores.\nLimite de salto  - Este campo de 8 bits substitui o campo TTL IPv4. Esse valor é subtraído de um por cada roteador que encaminha o pacote. Quando o contador atinge 0, o pacote é descartado e uma mensagem de ICMPv6 com tempo excedido é encaminhada para o host de envio. Isso indica que o pacote não atingiu seu destino porque o limite de salto foi excedido. Ao contrário do IPv4, o IPv6 não inclui uma soma de verificação do cabeçalho IPv6, porque esta função é executada nas camadas inferior e superior. Isso significa que a soma de verificação não precisa ser recalculada por cada roteador quando diminui o campo Limite de Hop, o que também melhora o desempenho da rede.\nEndereço IPv6 de origem -  Este campo de 128 bits identifica o endereço IPv6 do host de envio.\nEndereço IPv6 de destino -  Este campo de 128 bits identifica o endereço IPv6 do host de recebimento.\nUm pacote IPv6 pode conter também cabeçalhos de extensão (EH), que fornecem informações de camada de rede. Opcionais, os cabeçalhos de extensão ficam posicionados entre o cabeçalho IPv6 e a carga. Eles são usados para fragmentação, segurança, suporte à mobilidade e muito mais.\nAo contrário de IPv4, os roteadores não fragmentam os pacotes IPv6 roteados."
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo da camada de rede",
+      "content": "{{_moduleNumber}}.4 Resumo da camada de rede"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo da camada de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 O que aprendi neste módulo?",
+      "content": "**Características de camada de rede:** A camada de rede, ou Camada OSI 3, fornece serviços para permitir que dispositivos finais troquem dados entre redes. IPv4 e IPv6 são os principais protocolos de comunicação da camada de rede. Outros protocolos de camada de rede incluem protocolos de roteamento como OSPF e protocolos de mensagens como ICMP.\nOs protocolos da camada de rede realizam quatro operações: endereçamento de dispositivos finais, encapsulamento, roteamento e desencapsulamento. IPv4 e IPv6 especificam a estrutura de pacotes e o processamento usado para transportar os dados de um host para outro host. A operação sem levar em consideração os dados contidos em cada pacote permite que a camada de rede transporte pacotes para diversos tipos de comunicações entre vários hosts.\nO IP encapsula o segmento da camada de transporte ou outros dados adicionando um cabeçalho IP. O cabeçalho IP é usado para entregar o pacote ao host de destino. O cabeçalho IP é examinado por roteadores e switches de camada 3 à medida que percorre uma rede até seu destino. As informações de endereçamento IP permanecem as mesmas desde o momento em que o pacote deixa o host de origem até chegar ao host de destino, exceto quando traduzido pelo dispositivo executando NAT para IPv4.\nAs características básicas do IP são: sem conexão, melhor esforço e independente de mídia. O IP não tem conexão, o que significa que nenhuma conexão ponta a ponta é criada pelo IP antes dos dados enviados. O IP também não requer campos adicionais no cabeçalho para manter uma conexão estabelecida. Esse processo reduz bastante a sobrecarga do IP. Os remetentes não sabem se os dispositivos de destino estão presentes e funcionais ao enviar pacotes, nem sabem se o destino recebe o pacote ou se o dispositivo de destino pode acessar e ler o pacote. O IP opera independentemente da mídia que transporta os dados nas camadas inferiores da pilha de protocolos. Os pacotes IP podem ser comunicados como sinais eletrônicos por cabo de cobre, como sinais ópticos por fibra ou sem fio como sinais de rádio. Uma característica do meio que a camada de rede considera é o tamanho máximo da PDU que cada meio pode transportar, ou MTU.\n\n**Pacote IPv4:** O cabeçalho do pacote IPv4 é usado para garantir que um pacote seja entregue em sua próxima parada no caminho para o dispositivo final de destino. Um cabeçalho de pacote IPv4 consiste em campos contendo números binários que são examinados pelo processo da camada 3. Campos significativos no cabeçalho IPv4 incluem: versão, DS, TTL, protocolo, soma de verificação do cabeçalho, endereço IPv4 de origem e endereço IPv4 de destino.\nOs campos Tamanho do Cabeçalho de Internet (IHL), Tamanho Total e Soma de Verificação do Cabeçalho servem para identificar e validar o pacote. O pacote IPv4 usa os campos Identificação, Sinalizadores e Deslocamento de Fragmento para acompanhar os fragmentos. Um roteador pode precisar fragmentar um pacote IPv4 ao encaminhá-lo de um meio para outro com uma MTU menor.\n\n**Pacote IPv6:** O IPv4 tem limitações, incluindo: esgotamento do endereço IPv4, falta de conectividade de ponta a ponta e maior complexidade da rede. O IPv6 supera as limitações do IPv4. As melhorias que o IPv6 oferece incluem o seguinte: maior espaço de endereçamento, melhor manipulação de pacotes e eliminação da necessidade de NAT.\nO espaço de 32 bits de um endereço IPv4 fornece aproximadamente 4,294,967,296 endereços exclusivos. O espaço de endereço IPv6 fornece 340,282,366,920,938,463,463,374,607,431,768,211,456, ou 340 undecilhões de endereços. Isto é aproximadamente equivalente a cada grão de areia na Terra.\nOs campos de cabeçalho simplificados do IPv6 incluem: versão, classe de tráfego, rótulo de fluxo, comprimento da carga, próximo cabeçalho, limite de salto, endereço IP de origem e endereço IP de destino. Um pacote IPv6 pode conter também cabeçalhos de extensão (EH), que fornece informações opcionais da camada de rede. Opcionais, os cabeçalhos de extensão ficam posicionados entre o cabeçalho IPv6 e a carga. Eles são usados para fragmentação, segurança, suporte à mobilidade e muito mais. Ao contrário de IPv4, os roteadores não fragmentam os pacotes IPv6 roteados."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Mais protocolos! Estou começando a entender que houve muito trabalho para criar esses protocolos. Na camada de rede, os protocolos tratam do endereçamento, encapsulando os dados, roteando os pacotes e, em seguida, desencapsulando os pacotes para que possam ser lidos. Marcy e Vincent não são profissionais de TI, então uma rede em funcionamento pode parecer um pouco misteriosa para eles. Mas ajuda saber o que acontece na camada de rede do modelo OSI. Como esse conhecimento pode ajudá-lo a solucionar problemas da sua própria rede?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "",
+      "image": null
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual camada OSI envia segmentos para serem encapsulados em um pacote IPv4 ou IPv6?",
+      "options": [
+        "camada de enlace de dados",
+        "camada de rede",
+        "camada de transporte",
+        "camada de sessão"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nCamada de Transporte PDUs, chamados de segmentos, são encapsulados na camada de rede por IPv4 e IPv6 em pacotes.",
+      "raw_id": "fe930c44271a4e9a9b3cdac0d4c199d3"
+    },
+    {
+      "question": "Qual camada é responsável por pegar um pacote IP e prepará-lo para transmissão pelo meio de comunicação?",
+      "options": [
+        "camada física",
+        "camada de rede",
+        "camada de enlace de dados",
+        "camada de transporte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nA camada de enlace de dados recebe pacotes IP da camada de rede e os encapsula para transmissão pelo meio.",
+      "raw_id": "31ea928a8792477e9c9a4bfad911af7b"
+    },
+    {
+      "question": "Qual é o termo para dividir um pacote IP ao encaminhá-lo de uma mídia para outra mídia com uma MTU menor?",
+      "options": [
+        "encapsulamento",
+        "fragmentação",
+        "segmentação",
+        "serialização"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nFragmentação é o processo de divisão de pacotes IP para trafegar em um meio com um MTU menor.",
+      "raw_id": "3887fceefee54de9a2fe5aa76c314727"
+    },
+    {
+      "question": "Qual método de entrega não garante que o pacote seja entregue totalmente sem erros?",
+      "options": [
+        "sem conexão",
+        "melhor esforço",
+        "independe de meios físicos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA entrega de melhor esforço não garante que os pacotes serão entregues ao destino.",
+      "raw_id": "49b446e812c34217aa4cd2b307afaef6"
+    },
+    {
+      "question": "Quais são os dois campos mais comumente referenciados em um cabeçalho de pacote IPv4 que indicam de onde o pacote está vindo e para onde ele está indo? (Escolha duas.)",
+      "options": [
+        "endereço IP de destino",
+        "protocol",
+        "Tempo de Vida",
+        "Endereço IP origem",
+        "Serviços diferenciados (DS)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nOs campos de cabeçalho IP que identificam a origem do pacote e para onde ele está indo são Endereço IP de Origem e Endereço IP de Destino.",
+      "raw_id": "bde28037a9864359aa7201b98d167192"
+    },
+    {
+      "question": "Qual instrução está correta sobre campos de cabeçalho de pacote IPv4?",
+      "options": [
+        "Os endereços IPv4 de origem e destino permanecem os mesmos durante a viagem da origem para o destino.",
+        "O campo Time to Live é usado para determinar a prioridade de cada pacote.",
+        "Os campos Comprimento total e soma de verificação de cabeçalho são usados para reordenar um pacote fragmentado.",
+        "O campo Versão identifica o protocolo de nível seguinte."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs endereços IP de origem e de destino no pacote IP não são alterados na rota da origem para o destino.",
+      "raw_id": "596a371f06dd418da3b5d1c5ff48e5b6"
+    },
+    {
+      "question": "Qual campo é usado para detectar corrupção no cabeçalho IPv4?",
+      "options": [
+        "Soma de verificação do cabeçalho",
+        "Tempo de Vida",
+        "Protocolo",
+        "Serviços diferenciados (DS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO campo Checksum de cabeçalho em um cabeçalho IPv4 é usado para detectar pacotes corrompidos.",
+      "raw_id": "e2d3560d5c0244a0a013da77f6a798c6"
+    },
+    {
+      "question": "Qual campo inclui valores comuns como ICMP (1), TCP (6) e UDP (17)?",
+      "options": [
+        "Soma de verificação do cabeçalho",
+        "Tempo de Vida",
+        "Protocolo",
+        "Serviços diferenciados (DS)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO campo protocolo identifica o protocolo da camada superior que é transportado dentro do pacote IP. Protocolos comuns são TCP, UDP e ICMP.",
+      "raw_id": "31829fc4dcd54e3e935b8b7406ca2022"
+    },
+    {
+      "question": "Quais três opções são os principais problemas associados ao IPv4? (Escolha três.)",
+      "options": [
+        "Redução do número de endereços IP disponíveis",
+        "maior complexidade da rede e expansão da tabela de roteamento da Internet",
+        "sempre em conexões",
+        "falta de conectividade de ponta a ponta",
+        "fronteiras globais e políticas",
+        "muitos endereços IPv4 disponíveis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO IPv4 foi padronizado na década de 1980 e tem várias limitações tecnológicas, como a falta de conectividade de ponta a ponta e um espaço de endereços esgotado.",
+      "raw_id": "44383115c9bc4ede95d2939a75488d88"
+    },
+    {
+      "question": "Quais duas opções são as melhorias fornecidas pelo IPv6 em comparação com o IPv4? (Escolha duas.)",
+      "options": [
+        "suporta campos adicionais para pacotes complexos",
+        "aumentou o espaço de endereço IP",
+        "padroniza o uso de NAT",
+        "suporta redes baseadas em classe",
+        "usa um cabeçalho mais simples para fornecer melhor manipulação de pacotes"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nExistem várias melhorias técnicas feitas no IPv6, duas das quais são um pool de endereços IP muito maior e um cabeçalho de protocolo simplificado.",
+      "raw_id": "a8dca0a695704c7c9dff22b6c9338b5f"
+    },
+    {
+      "question": "Qual é o verdadeiro do cabeçalho IPv6? (Escolha duas.)",
+      "options": [
+        "consiste em 20 octetos.",
+        "consiste em 40 octetos.",
+        "contém 8 campos de cabeçalho.",
+        "contém 12 campos de cabeçalho."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nO cabeçalho IPv6 é um comprimento fixo de 40 octetos e contém 8 campos de cabeçalho.",
+      "raw_id": "db72a37a22ca4a8380940dd808221abb"
+    },
+    {
+      "question": "Qual é o verdadeiro do cabeçalho do pacote IPv6?",
+      "options": [
+        "O campo Limite de salto substitui o campo Tempo de vida do IPv4.",
+        "Os endereços IPv6 de origem e destino mudam durante a viagem da origem para o destino.",
+        "O campo Tempo de vida substitui o campo DiffServ.",
+        "O campo Versão identifica o próximo cabeçalho."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nVários campos no cabeçalho IPv6 substituíram campos no cabeçalho IPv4. Por exemplo, o campo Limite de salto substituiu o campo Time to Live do cabeçalho IPv4.",
+      "raw_id": "c4b2c2e2655d477f974f3f10bae1d54e"
+    },
+    {
+      "question": "Qual valor, que está contido em um campo de cabeçalho IPv4, é diminuído por cada roteador que recebe um pacote?",
+      "options": [
+        "Serviços Diferenciados",
+        "Deslocamento do fragmento",
+        "Tamanho do cabeçalho",
+        "Vida útil (TTL)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quando um roteador recebe um pacote, o roteador diminui o campo de vida (TTL) em um. Quando o campo chegar a zero, o roteador receptor descartará o pacote e enviará uma mensagem ICMP Time Exceeded ao remetente.",
+      "raw_id": "6473f593b2124bee81e145986c6c9781"
+    },
+    {
+      "question": "Qual declaração descreve com precisão uma característica do IPv4?",
+      "options": [
+        "Todos os endereços IPv4 podem ser atribuídos a hosts.",
+        "O IPv4 tem um espaço de endereço de 32 bits.",
+        "Um cabeçalho IPv4 tem menos campos do que um cabeçalho IPv6 tem.",
+        "IPv4 suporta nativamente IPsec."
+      ],
+      "correctIndex": 1,
+      "explanation": "O IPv4 tem um espaço de endereçamento de 32 bits, fornecendo 4.294.967.296 endereços únicos, mas apenas 3,7 bilhões são atribuíveis, um limite devido à reserva de endereços para multicast e teste. O IPv4 não fornece suporte nativo para IPsec. O IPv6 tem um cabeçalho simplificado com menos campos do que o IPv4 tem.",
+      "raw_id": "1784102717df46e69c86427ce5568ba3"
+    },
+    {
+      "question": "Qual tecnologia oferece uma solução para o esgotamento de endereços IPv4, permitindo que vários dispositivos compartilhem um endereço IP público?",
+      "options": [
+        "ARP",
+        "DNS",
+        "NAT",
+        "SMB",
+        "DHCP",
+        "HTTP"
+      ],
+      "correctIndex": 2,
+      "explanation": "A conversão de endereços de rede (NAT) é uma tecnologia implementada nas redes IPv4. Uma aplicação do NAT é usar alguns endereços IP públicos para serem compartilhados por muitos hosts de rede internos que usam endereços IP privados. O NAT elimina a necessidade de endereços públicos para cada host interno. O NAT fornece uma solução para retardar o esgotamento de endereços IPv4.",
+      "raw_id": "d24f365dcb7a432b8b61a5334336d45a"
+    },
+    {
+      "question": "Por que o IPv6 foi projetado para substituir o IPv4?",
+      "options": [
+        "porque a maioria dos computadores tem um processador de 64 bits",
+        "porque em breve o espaço de endereço IPv4 estará esgotado",
+        "para permitir que os computadores enderecem mais memória",
+        "para resolver problemas de compatibilidade com dispositivos móveis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Várias projeções mostram que, de 2015 a 2020, não haverá endereços IPv4 públicos disponíveis.",
+      "raw_id": "233ec96c7b88456a88e35920872bdfaa"
+    },
+    {
+      "question": "Qual característica da camada de rede no modelo OSI permite a transferência de pacotes para vários tipos de comunicação entre diversos hosts?",
+      "options": [
+        "o desencapsulamento dos cabeçalhos das camadas inferiores",
+        "a seleção de caminhos para o destino e o direcionamento de pacotes até o destino",
+        "a capacidade de operar sem considerar os dados transportados em cada pacote",
+        "a capacidade de gerenciar o transporte de dados entre os processos em execução nos hosts"
+      ],
+      "correctIndex": 2,
+      "explanation": "A função dos protocolos da camada de rede especifica a estrutura do pacote e o processamento usado para transportar os dados de um host para outro. Os dados da comunicação real são encapsulados na PDU da camada de rede. A característica de sua operação sem considerar os dados transportados em cada pacote permite que a camada de rede transporte pacotes para vários tipos de comunicação.",
+      "raw_id": "c87f56c95f9c41548f56550cbc139f65"
+    },
+    {
+      "question": "Qual afirmação descreve uma característica da camada de rede no modelo OSI?",
+      "options": [
+        "Ela gerencia o transporte de dados entre os processos em execução em cada host.",
+        "No processo de encapsulamento, ele adiciona números de porta de origem e destino ao cabeçalho IP.",
+        "Quando um pacote chega ao host de destino, seu cabeçalho IP é verificado pela camada de rede para determinar para onde o pacote deve ser roteado.",
+        "Seus protocolos especificam a estrutura do pacote e o processamento usado para transportar os dados de um host para outro."
+      ],
+      "correctIndex": 3,
+      "explanation": "A camada de transporte gerencia o transporte de dados entre os processos em execução em cada host. No processo de encapsulamento, a camada de rede adiciona as informações do cabeçalho IP, como o endereço IP dos hosts de origem (de envio) e de destino (de recebimento). Quando um pacote chega à camada de rede do host de destino, o host confere o cabeçalho IP do pacote para verificar se o endereço IP de destino no cabeçalho corresponde ao seu próprio endereço IP.",
+      "raw_id": "c03409df26464a84a59f6d65a7d75f18"
+    },
+    {
+      "question": "Qual camada do modelo OSI é responsável pelo endereçamento lógico dos pacotes?",
+      "options": [
+        "enlace de dados",
+        "rede",
+        "sessão",
+        "transporte"
+      ],
+      "correctIndex": 1,
+      "explanation": "A camada de rede é composta por pacotes que contêm endereçamento lógico (IP).",
+      "raw_id": "8f4a4e222212484fa78ccd8f6c0b30a7"
+    },
+    {
+      "question": "Qual é a ordem de encapsulamento para as unidades de dados de protocolo que passam da aplicação do usuário para baixo na pilha?",
+      "options": [
+        "bits, segmentos, pacotes, quadros, dados",
+        "dados, segmentos, pacotes, quadros, bits",
+        "segmentos, dados, pacotes, quadros, bits",
+        "segmentos, pacotes, quadros, bits, dados"
+      ],
+      "correctIndex": 1,
+      "explanation": "A ordem correta de encapsulamento de unidades de dados de protocolo na pilha de protocolo é a seguinte:\ndados\nsegmentos\npacotes\nquadros\nbits",
+      "raw_id": "8fada71a32c24a84b0cea028b879fb2a"
+    },
+    {
+      "question": "Qual processo envolve colocar uma PDU dentro de outra PDU?",
+      "options": [
+        "encapsulamento",
+        "codificação",
+        "segmentação",
+        "controle de fluxo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quando uma mensagem é colocada dentro de outra mensagem, isso é conhecido como encapsulamento. Em redes, o encapsulamento ocorre quando uma unidade de dados de protocolo é transportada dentro do campo de dados da próxima unidade de dados de protocolo inferior.",
+      "raw_id": "9a964354b2cc4fa5b29e54c3e19a80ff"
+    },
+    {
+      "question": "Quais informações são adicionadas à camada 3 do modelo OSI durante o encapsulamento?",
+      "options": [
+        "Endereços MAC origem e destino",
+        "Protocolo de aplicação origem e destino",
+        "Número da porta de origem e destino",
+        "Endereço IP origem e destino"
+      ],
+      "correctIndex": 3,
+      "explanation": "IP é um protocolo da camada 3. Os dispositivos de camada 3 podem abrir o cabeçalho da camada 3 para inspecionar o cabeçalho da camada que contém informações relativas ao IP, incluindo os endereços IP origem e destino.",
+      "raw_id": "b2dcfbf1edef4a12a4198423bc23d06e"
+    },
+    {
+      "question": "Como a camada de rede usa o valor de MTU?",
+      "options": [
+        "A camada de rede depende das camadas de nível superior para determinar o MTU.",
+        "A camada de rede depende da camada de link de dados para definir o MTU e ajustará a velocidade da transmissão para acomodá-lo.",
+        "O MTU é transmitido para a camada de rede pela camada de link de dados.",
+        "Para aumentar a velocidade de entrega, a camada de rede ignora o MTU."
+      ],
+      "correctIndex": 2,
+      "explanation": "A camada de enlace de dados indica à camada de rede o MTU para o meio que está sendo usado. A camada de rede usa essas informações para determinar o tamanho máximo do pacote para poder ser enviado. Quando os pacotes são recebidos em um meio e enviados em um meio físico com uma MTU menor, o dispositivo da camada de rede pode fragmentar o pacote para acomodar o menor tamanho.",
+      "raw_id": "505db5e5b50845c1af33301049b050d7"
+    }
+  ],
+  "images": []
+}

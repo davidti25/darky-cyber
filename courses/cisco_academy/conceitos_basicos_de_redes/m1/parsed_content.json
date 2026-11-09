@@ -1,0 +1,324 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Comunicação em um mundo conectado Olá, meu nome é Webster! Estarei acompanhando você durante o curso. Deixe-me apresentá-lo ao meu amigo Kishori! Kishori é enfermeira em um hospital em Karnataka, na Índia há cerca de 20 anos. Quando Kishori cursou a escola de enfermagem, não tinha ideia da quantidade de tecnologia de rede que usaria todos os dias. Em casa, ela só tem um laptop, um smartphone e um tablet. No trabalho, ela usa um laptop, um desktop, uma impressora e um equipamento hospitalar conectado à rede. Às vezes, esses dispositivos nem sempre se comunicam. Quando o equipamento não funciona corretamente em um hospital, a vida pode estar em risco! A Kishori gostaria de entender melhor como tudo funciona. E você?Gostaria?"
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de rede",
+      "content": "{{_moduleNumber}}.1 Tipos de Rede"
+    },
+    {
+      "type": "text",
+      "title": ".1 Tipos de rede",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Tudo está online",
+      "content": "\"Oi, Shad, você está on-line?\" \"Claro que estou!\" Quantos de nós ainda verificam se estamos ou não on-line? Esperamos que nossos dispositivos, telefones celulares, tablets, notebooks e computadores desktop estejam sempre conectados à Internet global. Usamos essa rede para interagir com amigos, fazer compras, compartilhar fotos e experiências e aprender. internet se tornou uma parte tão importante da vida cotidiana que quase a tomamos como certa.\nNormalmente, quando as pessoas usam o termo internet, elas não estão se referindo às conexões físicas no mundo real. Na verdade, eles tendem a pensar nisso como um conjunto de conexões. É o \"lugar\" onde as pessoas vão para encontrar ou compartilhar informações.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.3 Quem é o dono da Internet?",
+      "content": "A internet não é de propriedade de nenhum indivíduo ou grupo. A Internet é um conjunto mundial de redes interconectadas (inter-rede ou Internet), que cooperam entre si para trocar informações usando padrões comuns. Através de fios de telefone, cabos de fibra óptica, transmissões sem fio e links de satélite, os usuários da Internet podem trocar informações de várias formas, como mostrado na figura.\nTudo o que você acessa on-line está localizado em algum lugar da Internet global. Sites de mídias sociais, jogos de múltiplos jogadores, centros de mensagens que fornecem e-mail, cursos on-line – todos esses destinos da Internet estão conectados a redes locais que enviam e recebem informações através da Internet.\nPense em todas as interações que você faz durante o dia que exigem que você esteja on-line.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2 Transmissão de dados",
+      "content": "{{_moduleNumber}}.2 Transmissão de Dados"
+    },
+    {
+      "type": "text",
+      "title": ".2 Transmissão de dados",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".2.2 O Bit",
+      "content": "Você sabia que computadores e redes só trabalham com dígitos binários, zeros e uns? Pode ser difícil imaginar que todos os nossos dados são armazenados e transmitidos como uma série de bits. Cada bit pode ter apenas dois valores possíveis: 0 ou 1. O termo bit é uma abreviação de \"dígito binário\" e representa a menor parte de dados. Os seres humanos interpretam palavras e imagens; os computadores interpretam apenas padrões de bits.\nUm bit é armazenado e transmitido como um entre dois estados distintos possíveis. Isso pode incluir duas direções de magnetização, dois níveis diferentes de corrente ou voltagem, dois níveis diferentes de intensidade da luz ou qualquer outro sistema físico com dois estados distintos. Por exemplo, um interruptor de luz pode estar ligado ou desligado; na representação binária, esses estados corresponderiam a 1 e 0, respectivamente.\nCada dispositivo de entrada (mouse, teclado, receptor ativado por voz) converte a interação humana em código binário para a CPU processar e armazenar. Cada dispositivo de saída (impressora, alto-falante, monitor, etc.) converte os dados binários de volta a um formato reconhecido pelos seres humanos. Dentro do computador, todos os dados são processados e armazenados como binários.\nOs computadores usam códigos binários para representar e interpretar letras, números e caracteres especiais com bits. Um código muito usado é o ASCII (American Standard Code for Information Interchange). Com o ASCII, cada caractere é representado por oito bits. Por exemplo:\nLetra maiúscula:  A = 01000001\nNúmero: 9 = 00111001\nCaractere especial: # = 00100011\nCada grupo de oito bits, como as representações de letras e números, corresponde a um byte.\nOs códigos podem ser usados para representar praticamente qualquer tipo de informação digital: dados de computador, gráficos, fotos, voz, vídeo e música.\nNa figura, insira até cinco caracteres no campo Characters. Em seguida, clique no botão Mostre-me ver a conversão de bits do ASCII. Clique no botão Redefinir para inserir um grupo diferente de caracteres."
+    },
+    {
+      "type": "text",
+      "title": ".3 Largura de banda e taxa de transferência",
+      "content": "{{_moduleNumber}}.3 Largura de banda e taxa de transferência"
+    },
+    {
+      "type": "text",
+      "title": ".3 Largura de banda e taxa de transferência",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Taxa de transferência",
+      "content": "Assim como a largura de banda, taxa de transferência é a medida da transferência de bits através do meio físico durante um determinado período. Entretanto, devido a vários fatores, geralmente a taxa de transferência não corresponde à largura de banda especificada. Diversos fatores influenciam o taxa de transferência:\nA quantidade de dados enviados e recebidos pela conexão\nOs tipos de dados transmitidos\nA latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino\nO termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos.\nAs medidas de taxa de transferência não levam em consideração a validade ou a utilidade dos bits transmitidos e recebidos. Muitas mensagens recebidas pela rede não são destinadas a aplicativos específicos de usuário. Por exemplo, as mensagens de controle de rede que regulam o tráfego e corrigem erros.\nEm uma inter-rede ou em uma rede com vários segmentos, a taxa de transferência não pode ser mais rápida do que o link mais lento do caminho entre o dispositivo emissor e o dispositivo receptor. Mesmo que todos os segmentos (ou a maioria deles) tenham largura de banda alta, basta um segmento no caminho com largura de banda mais baixa para provocar lentidão no rendimento da rede inteira.\nExistem muitos testes de velocidade on-line que podem revelar a taxa de transferência de uma conexão com a Internet."
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo Comunicação em um mundo conectado",
+      "content": "{{_moduleNumber}}.4 Resumo Comunicação em um mundo conectado"
+    },
+    {
+      "type": "text",
+      "title": ".4 Resumo Comunicação em um mundo conectado",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".4.1 – O que aprendi neste módulo?",
+      "content": "**Tipos de Rede:** A internet não é de propriedade de nenhum indivíduo ou grupo. A Internet é um conjunto mundial de redes interconectadas (inter-rede ou Internet), que cooperam entre si para trocar informações usando padrões comuns. Através de fios de telefone, cabos de fibra óptica, transmissões sem fio e links de satélite, os usuários da Internet podem trocar informações de várias formas\nAs redes domésticas pequenas conectam alguns computadores entre si e com a Internet. A rede SOHO permite que computadores em um escritório em casa ou em um escritório remoto se conectem a uma rede corporativa, ou acessem recursos compartilhados centralizados. Redes de médio a grande porte, como as usadas por empresas e escolas, podem ter muitos locais com centenas ou milhares de hosts interconectados. A internet é uma rede de redes que conecta centenas de milhões de computadores em todo o mundo.\nExistem dispositivos ao redor com os quais você pode interagir diariamente que também estão conectados à Internet. Isso inclui dispositivos móveis, como smartphones, tablets, smartwatches e smartwatches. Coisas em sua casa podem ser conectadas à Internet, como um sistema de segurança, aparelhos, sua TV inteligente e seu console de jogos. Fora de casa, há carros inteligentes, etiquetas RFID, sensores e atuadores e até dispositivos médicos que podem ser conectados.\n\n**Transmissão de Dados:** As seguintes categorias são usadas para classificar tipos de dados pessoais:\nDados voluntários – São criados e compartilhados explicitamente por indivíduos, como perfis de redes sociais. Esses tipos de dados podem incluir arquivos de vídeo, texto, imagem ou áudio.\nDados observados – São capturados quando indivíduos registram suas atividades, como dados de localização de celulares.\nDados inferidos –  São baseados na análise de dados voluntários ou observados, como uma pontuação de crédito.\nO termo bit é uma abreviação de \"dígito binário\" e representa a menor parte de dados. Cada bit pode ter apenas dois valores possíveis: 0 ou 1.\nExistem três métodos comuns de transmissão de sinal usados em redes:\nSinais elétricos – A transmissão é obtida pela representação dos dados como pulsos elétricos em fios de cobre.\nSinais ópticos – A transmissão é obtida pela conversão dos sinais elétricos em pulsos de luz.\nSinais sem fio –  A transmissão é obtida pelo uso de infravermelho, micro-ondas ou ondas de rádio pelo ar.\n\n**Largura de banda e Taxa de transferência:** Largura de banda é a capacidade de um meio de transportar dados. A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para outro durante um determinado tempo. A largura de banda costuma ser medida pelo número de bits que (teoricamente) podem ser enviados através da mídia em um segundo. Estas são as medidas comuns de largura de banda:\nMilhares de bits por segundo (Kbps)\nMilhões de bits por segundo (Mbps)\nBilhões de bits por segundo (Gbps)\nA taxa de transferência geralmente não corresponde à largura de banda especificada Diversos fatores influenciam o taxa de transferência:\nA quantidade de dados enviados e recebidos pela conexão\nA latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino\nO termo latência se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos."
+    },
+    {
+      "type": "text",
+      "title": ".4.2 Webster - Questões para Reflexão",
+      "content": "Talvez você não trabalhe em um hospital, mas se você está aqui agora é porque, como Kishori, você usa computadores e quer saber mais sobre redes. Você sabia que a Internet é uma rede massiva de redes que são conectadas, direta ou indiretamente, entre si? É como a Web em que eu vivo. Uma parte pode ser quebrada, mas a minha Web não se desfaz; Posso corrigi-la e até fortalecê-la. Você gostaria de fazer isso pela sua rede?"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual tipo de rede permite que computadores em um escritório ou em casa o conectem a uma rede corporativa?",
+      "options": [
+        "rede doméstica inteligente",
+        "rede SOHO",
+        "redes médias a grandes",
+        "rede mundial"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA rede de pequeno escritório / escritório doméstico (SOHO) permite que computadores em um escritório doméstico ou remoto se conectem a uma rede corporativa ou acessem recursos compartilhados centralizados.",
+      "raw_id": "54eb723c87c14ed9afd85695975b118d"
+    },
+    {
+      "question": "O que pode ser colocado dentro ou sobre um pacote para que ele possa ser rastreado?",
+      "options": [
+        "placa de interface de Rede",
+        "sensor",
+        "um atuador",
+        "tag de RFID"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nAs etiquetas de RFID (Identificação por radiofrequência) podem ser colocadas dentro de objetos ou sobre eles para controlá-los ou monitorar sensores em muitas circunstâncias.",
+      "raw_id": "c0b8faa8fdaa450b935b669c2a5e8f19"
+    },
+    {
+      "question": "Uma unidade básica de informação que representa um dos dois estados distintos é conhecida como:",
+      "options": [
+        "bit",
+        "byte",
+        "octeto",
+        "sinal elétrico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm dígito binário (bit) representa um dos dois estados discretos, 0 ou 1.",
+      "raw_id": "87eb6d9615b547a2b4644950caed1b50"
+    },
+    {
+      "question": "Ao usar o cartão de crédito para fazer compras em vários locais, a empresa do cartão de crédito pode usar essas informações para saber mais sobre sua localização e suas preferências. Esse tipo de dados pessoais é conhecido como:",
+      "options": [
+        "dados secretos",
+        "dados voluntários",
+        "dados observados",
+        "dados inferidos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nDados inferidos, como pontuação de crédito, são baseados na análise de dados voluntários ou observados.",
+      "raw_id": "d2e929686c9145c0b61274c541a98bb0"
+    },
+    {
+      "question": "Qual dos seguintes métodos de transmissão de sinal usa frequências ou pulsos de luz?",
+      "options": [
+        "sinais elétricos",
+        "sinais ópticos",
+        "sinais sem fio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nSinais ópticos converte sinais elétricos em pulsos de luz",
+      "raw_id": "89b0fc4fd4c447cea842db5235503b73"
+    },
+    {
+      "question": "A capacidade de um meio físico transportar dados é conhecida como:",
+      "options": [
+        "taxa de transferência",
+        "velocidade",
+        "largura de banda",
+        "taxa de dados"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nLargura de banda é a capacidade de um meio de transportar dados.",
+      "raw_id": "3a426aef173449fd87a2d86838f98474"
+    },
+    {
+      "question": "Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?",
+      "options": [
+        "taxa de transferência",
+        "velocidade",
+        "largura de banda",
+        "taxa de dados"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nA quantidade de dados, o tipo de dados e a latência da rede são combinados para fazer com que a taxa de transferência não corresponda à largura de banda.",
+      "raw_id": "2876ad6b423746e38d08c2cc524f0ff6"
+    },
+    {
+      "question": "Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?",
+      "options": [
+        "número total de bytes",
+        "bytes por segundo",
+        "bytes por milissegundo",
+        "número total de bits",
+        "bits por segundo",
+        "bits por milissegundo"
+      ],
+      "correctIndex": 4,
+      "explanation": "Está certo.\nA largura de banda costuma ser medida pelo número de bits que (teoricamente) podem ser enviados através do meio físico  em um segundo.",
+      "raw_id": "da69cdf3dc0f448bb52bbe367af949c4"
+    },
+    {
+      "question": "O que é a Internet?",
+      "options": [
+        "o tipo de mídia física usada por computadores para acessar a World Wide Web",
+        "uma rede de redes",
+        "um aplicativo usado para acessar a World Wide Web",
+        "uma pequena rede interna isolada de uma empresa"
+      ],
+      "correctIndex": 1,
+      "explanation": "A internet é essencialmente uma rede de redes. Cada usuário se conecta à Internet usando um cabo físico ou por meio de mídia sem fio. Debaixo dessa rede de redes, há um backbone muito real de conexões que levam o mundo aos dispositivos de computação pessoal.",
+      "raw_id": "9bb1814deb1040648c47baede1291aff"
+    },
+    {
+      "question": "Qual das opções é um exemplo de um valor binário da vida cotidiana?",
+      "options": [
+        "temperatura ambiente",
+        "um interruptor de luz simples",
+        "a velocidade de um carro em movimento",
+        "o brilho de uma lâmpada"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um dígito binário (ou bit) tem dois valores possíveis, 0 ou 1. Os estados ligado e desligado de um interruptor simples é um exemplo dos dois estados representados por um bit.",
+      "raw_id": "52d1298d0b9d47399ec60668f160701c"
+    },
+    {
+      "question": "Qual categoria de componentes de rede inclui fios e cabos usados em uma rede com fio?",
+      "options": [
+        "mídias",
+        "dispositivos",
+        "periféricos",
+        "hosts"
+      ],
+      "correctIndex": 0,
+      "explanation": "O termo \"mídia de rede\" descreve os cabos e os fios usados em redes com fio, além das ondas de radiofrequência usadas em redes sem fio.",
+      "raw_id": "da322da983834f829be19d6fab396ab8"
+    },
+    {
+      "question": "Que tipo de dispositivo é capaz de criar movimento físico?",
+      "options": [
+        "um atuador",
+        "sensor",
+        "tag de RFID",
+        "Console"
+      ],
+      "correctIndex": 0,
+      "explanation": "Os atuadores são um tipo de dispositivo usado para produzir movimento físico.",
+      "raw_id": "52c483061219417c9384eeb53cef99b4"
+    },
+    {
+      "question": "Quais são as três opções para transmissão de sinal em uma rede? (Escolha três.)",
+      "options": [
+        "ondas de rádio",
+        "pulsos vibratórios",
+        "ondas sonoras",
+        "pulsos elétricos",
+        "pulsos de luz"
+      ],
+      "correctIndex": 4,
+      "explanation": "Existem três métodos comuns de transmissão de sinal usados em redes:\nSinais elétricos – A transmissão é obtida pela representação dos dados como pulsos elétricos em fios de cobre.\nSinais ópticos – A transmissão é obtida pela conversão dos sinais elétricos em pulsos de luz.\nSinais sem fio – A transmissão é obtida pelo uso de infravermelho, micro-ondas ou ondas de rádio pelo ar.",
+      "raw_id": "0ca898bd778c42d29b376f6e94e948e5"
+    },
+    {
+      "question": "Quem é o dono da Internet?",
+      "options": [
+        "Bill Gates",
+        "Cisco",
+        "O governo",
+        "Nenhuma pessoa ou grupo"
+      ],
+      "correctIndex": 3,
+      "explanation": "A Internet não é de propriedade de nenhuma pessoa, grupo de pessoas ou governo. A Internet é uma coleção de redes interconectadas globalmente",
+      "raw_id": "96071d04e73d49baa8a4b20cbfe6a06f"
+    },
+    {
+      "question": "Que tipo de dispositivo conectado é colocado em objetos para acompanhá-los e monitorá-los?",
+      "options": [
+        "etiquetas RFID",
+        "sensores",
+        "atuadores",
+        "Consoleconsoles"
+      ],
+      "correctIndex": 0,
+      "explanation": "As etiquetas de identificação por radiofrequência (RFID) usam campos eletromagnéticos  para identificar e rastrear objetos.",
+      "raw_id": "834c2b4df1e64c97a557e3cac401a677"
+    },
+    {
+      "question": "Um byte consiste em quantos bits?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um byte é igual a 8 bits.",
+      "raw_id": "b742b7cb096b4247a85c795a3f640bfc"
+    },
+    {
+      "question": "Quais dois números são possíveis valores de um bit? (Escolha duas.)",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "8",
+        "16"
+      ],
+      "correctIndex": 1,
+      "explanation": "Um bit tem apenas dois valores possíveis: 0 e 1.",
+      "raw_id": "ea0e3350be4943eaac81a9919b68da5d"
+    },
+    {
+      "question": "Que medida é usada para indicar milhares de bits por segundo?",
+      "options": [
+        "Kbps",
+        "Mbps",
+        "Tbps",
+        "Gbps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Medições de largura de banda comuns são as seguintes:\nMilhares de bits por segundo (Kbps) ou Kilobits por segundo\nMilhões de bits por segundo (Mbps) ou Megabits por segundo\nBilhões de bits por segundo (Gbps) ou Gigabits por segundo\nTrilhões de bits por segundo (Tbps) ou Terabits por segundo",
+      "raw_id": "194811868c984316bf27b548cc4b5911"
+    },
+    {
+      "question": "Que tipo de rede deve um usuário doméstico acessar para fazer compras on-line?",
+      "options": [
+        "uma rede SOHO",
+        "a Internet",
+        "Uma rede local"
+      ],
+      "correctIndex": 1,
+      "explanation": "Os usuários domésticos vão fazer compras on-line pela Internet porque os fornecedores on-line são acessados pela Internet. Uma rede SOHO permite que computadores em um escritório doméstico ou em um escritório remoto se conectem a uma rede corporativa ou acessem recursos compartilhados e centralizados.",
+      "raw_id": "bba39cfa828d4fca87fb045ffb7ee116"
+    }
+  ],
+  "images": []
+}

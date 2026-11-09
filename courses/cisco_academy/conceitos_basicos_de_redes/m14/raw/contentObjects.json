@@ -1,0 +1,615 @@
+[
+  {
+    "_id": "8f7c6b3c6ab344949035381958e299bc",
+    "body": "<p><span>Entendendo o roteamento entre redes.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.0. Introdução",
+    "_oldId": "8f7c6b3c6ab344949035381958e299bc",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 0,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "847bc421-5038-4c51-9743-544bdacbf4fa",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg",
+        "_small": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg",
+        "_medium": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg",
+        "_small": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg",
+        "_medium": "pt-BR/assets/cc1f39222c2f44379a219f815d319629.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "{{_moduleNumber}}.0. Introdução",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "2c83fd3cf6a7438fb6339a4ce223f609",
+    "body": "<p><span>Explicar a necessidade de roteamento.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.1. A necessidade do Roteamento",
+    "_oldId": "2c83fd3cf6a7438fb6339a4ce223f609",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 1,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "5ea6487b-90a2-4372-afe8-75d067c42ef6",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg",
+        "_small": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg",
+        "_medium": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg",
+        "_small": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg",
+        "_medium": "pt-BR/assets/a9c9a77baea841db835fc5c3767d871d.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "{{_moduleNumber}}.1. A necessidade do Roteamento",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "a5945cdb67344bbfa235a6275ed22af0",
+    "body": "<p><span>Explicar como os roteadores usam tabelas.</span></p>",
+    "_menu": null,
+    "_type": "page",
+    "title": "{{_moduleNumber}}.2. A tabela de roteamento",
+    "_oldId": "a5945cdb67344bbfa235a6275ed22af0",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-image2",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 2,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "e8ec7035-af08-442b-aa9c-ff5fca80cc2e",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg",
+        "_small": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg",
+        "_medium": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg",
+        "_small": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg",
+        "_medium": "pt-BR/assets/0be528cd4f05441e97b2c47b3f7ad641.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "{{_moduleNumber}}.2. A tabela de roteamento",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "b5ea4a19e5e84a44b41c3edfba60dc85",
+    "body": "<p><span>Criar uma rede totalmente conectada.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.3. Criando uma LAN",
+    "_oldId": "b5ea4a19e5e84a44b41c3edfba60dc85",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 3,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "da85c95f-6b7f-4044-ab2b-2abefd1cc8ec",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg",
+        "_small": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg",
+        "_medium": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg",
+        "_small": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg",
+        "_medium": "pt-BR/assets/d31aa8d9e9c441e9b66be9c3fededbfb.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "{{_moduleNumber}}.3. Criando uma LAN",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6c2f7f1dcf8c4b42abecee8a162cb328",
+    "body": "<p><span>Analise e verifique seu conhecimento desses tópicos.</p>",
+    "_type": "page",
+    "title": "{{_moduleNumber}}.4. Resumo de Roteamento entre Redes",
+    "_oldId": "6c2f7f1dcf8c4b42abecee8a162cb328",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": true
+    },
+    "_sortKey": 4,
+    "duration": "",
+    "linkText": "Visualizar",
+    "pageBody": "",
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_activityId": "808c1580-426e-45a1-aa1f-c67a39266efe",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg",
+        "_small": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg",
+        "_medium": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": true,
+      "_redirectToId": "",
+      "_hideBackButton": true,
+      "_hideHomeButton": false
+    },
+    "_isOptional": false,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg",
+        "_small": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg",
+        "_medium": "pt-BR/assets/dd1d7c54b931432cbe3e00785f2533fb.jpg"
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_bookmarking": {
+      "_level": "inherit",
+      "_isEnabled": true
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "{{_moduleNumber}}.4. Resumo de Roteamento entre Redes",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "cf5e8993-f70a-4689-a05a-ed1fe86bfa16",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Observar o fluxo de tráfego em uma rede roteada",
+    "_oldId": "cf5e8993-f70a-4689-a05a-ed1fe86bfa16",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 5,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "accaa048-f918-4933-8add-3db6540978da",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "Packet Tracer - Observar o fluxo de tráfego em uma rede roteada",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c0c13476-57a4-4aa9-b184-d002c258ae61",
+    "body": "",
+    "_type": "page",
+    "title": "Packet Tracer - Criaando uma LAN",
+    "_oldId": "c0c13476-57a4-4aa9-b184-d002c258ae61",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_classes": "",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_sortKey": 6,
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_isHidden": true,
+    "_lockType": "",
+    "_lockedBy": [],
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "7233f37b63424db5b6f794e865535657",
+    "_ciscoMenu": {
+      "_renderAsGroup": false
+    },
+    "_isDeleted": false,
+    "_isVisible": false,
+    "_activityId": "c6240e84-b307-4671-ba6c-55ad688f1777",
+    "_ciscoTheme": {
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_homeButton": {
+      "_isEnabled": false,
+      "_redirectToId": "",
+      "_hideBackButton": false,
+      "_hideHomeButton": false
+    },
+    "_isOptional": true,
+    "_pageHeader": {
+      "_minimumHeights": {
+        "_large": null,
+        "_small": null,
+        "_medium": null
+      },
+      "_backgroundImage": {
+        "_large": "",
+        "_small": "",
+        "_medium": ""
+      },
+      "_backgroundStyles": {
+        "_backgroundSize": null,
+        "_backgroundRepeat": null,
+        "_backgroundPosition": null
+      }
+    },
+    "_isAvailable": true,
+    "_oldParentId": "7233f37b63424db5b6f794e865535657",
+    "displayTitle": "Packet Tracer - Criaando uma LAN",
+    "_isPageTracer": false,
+    "_activityParentId": "477110d6-75f0-4ad8-a268-626b3d6a828f",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_excludeAssessments": false,
+      "_showPageCompletion": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

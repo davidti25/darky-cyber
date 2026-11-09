@@ -1,0 +1,392 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Webster - Por que devo fazer este módulo?",
+      "content": "Kishori estava olhando para seu telefone e notou que seu telefone, na verdade, tem seu próprio endereço IP. Ela foi para casa e percebeu que o endereço IP havia mudado para um valor diferente do endereço que ela tinha no hospital. Ela lembrou que o DHCP fornece endereços aos dispositivos automaticamente, então ela percebe que obtém endereços IP de diferentes locais, dependendo de onde ela esteja. Isso faz sentido para ela porque ela sabe que esses endereços permitem que os dispositivos acessem redes diferentes. Kishori também nota que seu telefone tem um endereço MAC. Ela verificou e notou que o endereço MAC é sempre o mesmo, independentemente da rede onde está conectada. Faz sentido para Kishori que seu endereço IP mude quando ela está conectada a redes diferentes em locais diferentes, mas seu endereço MAC é sempre o mesmo, porque seu telefone é o telefone, não importa onde ela esteja.\nIsso significa que os endereços IP e MAC devem ser necessários para que o telefone receba dados. O endereço IP informa, ao remetente dos dados, onde ela está e, assim que os dados chegam à sua localização, o endereço MAC do telefone permite que o dispositivo receba dados com destino apenas para ela. Pensando mais um pouco, Kishori se pergunta como os endereços MAC podem ser conhecidos pela rede. O DHCP fornece os endereços IP corretos para a rede, mas cada dispositivo tem seu próprio endereço MAC.\nKisori está pronta a aprender mais! E você? Continue lendo!"
+    },
+    {
+      "type": "text",
+      "title": ".1 MAC e IP",
+      "content": "{{_moduleNumber}}.1 MAC e IP"
+    },
+    {
+      "type": "text",
+      "title": ".1 MAC e IP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.1 Destino na mesma rede",
+      "content": "Às vezes, um host deve enviar uma mensagem, mas ele só sabe o endereço IP do dispositivo de destino. O host precisa saber o endereço MAC desse dispositivo, mas como ele pode ser descoberto? É aí que a resolução de endereços se torna crítica.\nDois endereços principais são atribuídos a um dispositivo em uma LAN Ethernet:\nEndereço físico (o endereço MAC) - Usado para comunicações de NIC para NIC na mesma rede Ethernet.\nEndereço lógico (o endereço IP) – Usado para enviar o pacote do dispositivo de origem para o dispositivo de destino. O endereço IP de destino pode estar na mesma rede IP que a origem ou pode estar em uma rede remota.\nOs endereços físicos da camada 2 (ou seja, endereços MAC Ethernet) são usados para entregar o quadro de enlace de dados, contendo o pacote IP encapsulado, a partir de uma NIC para outra NIC que está na mesma rede. Se o endereço IP de destino estiver na mesma rede, o endereço MAC de destino será o do dispositivo de destino.\nConsidere o exemplo a seguir usando representações de endereço MAC simplificadas.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Neste exemplo, PC1 deseja enviar um pacote para PC2. A figura exibe os endereços MAC de destino e de origem da Camada 2 e o endereçamento IPv4 da Camada 3 que seriam incluídos no pacote enviado a partir do PC1.\nO quadro Ethernet da camada 2 contém o seguinte:\nEndereço MAC de destino — Este é o endereço MAC simplificado de PC2, 55-55-55.\nEndereço MAC de origem — Este é o endereço MAC simplificado da NIC Ethernet em PC1, aa-aa-aa .\nO pacote IP da camada 3 contém o seguinte:\nEndereço IPv4 de origem — Este é o endereço IPv4 de PC1, 192.168.10.10 .\nEndereço IPv4 dedestino — Este é o endereço IPv4 de PC2, 192.168.10.11."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".1.2 Destino em uma Rede Remota",
+      "content": "Quando o endereço IP de destino (IPv4 ou IPv6) estiver em uma rede remota, o endereço MAC de destino será o endereço do gateway padrão do host (ou seja, a interface do roteador).\nConsidere o exemplo a seguir usando uma representação de endereço MAC simplificada.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "Neste exemplo, PC1 deseja enviar um pacote para PC2. O PC2 está localizado na rede remota. Como o endereço IPv4 de destino não está na mesma rede local que PC1, o endereço MAC de destino é o do gateway padrão local, no roteador.\nOs roteadores examinam o endereço IPv4 destino para determinar o melhor caminho para encaminhar o pacote IPv4. Quando o roteador recebe o quadro Ethernet, ele desencapsula as informações da Camada 2. Usando o endereço IPv4 de destino, ele determina o dispositivo do próximo salto e, em seguida, encapsula o pacote IPv4 em um novo quadro (da camada de enlace) para a interface de saída.\nNo nosso exemplo, o R1 agora encapsularia o pacote com novas informações de endereço da Camada 2, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": "",
+      "content": "O novo endereço MAC de destino seria o da interface G0/0/1 em R2 e o novo endereço MAC de origem seria o da interface G0/0/1 em R1.\nAo longo de cada link do caminho, um pacote IP é encapsulado em um quadro. O quadro é específico para a tecnologia do enlace associado a esse link, como Ethernet. Se o dispositivo do próximo salto for o destino final, o endereço MAC de destino será o da NIC Ethernet do dispositivo, conforme mostrado na figura.",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Como os endereços IP dos pacotes IP em um fluxo de dados são associados aos endereços MAC em cada link ao longo do caminho até o destino? Para pacotes IPv4, isso é feito através de um processo chamado ARP (Address Resolution Protocol). Para pacotes IPv6, o processo é ICMPv6 Neighbor Discovery (ND)."
+    },
+    {
+      "type": "text",
+      "title": ".2 Contenção de Broadcast",
+      "content": "{{_moduleNumber}}.2 Contenção de Broadcast"
+    },
+    {
+      "type": "text",
+      "title": ".2 Contenção de Broadcast",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.2 Domínios de Broadcast",
+      "content": "Quando um host recebe uma mensagem endereçada ao endereço de broadcast, ele aceita e processa a mensagem como se ela tivesse sido endereçada diretamente a ele. Quando um host envia uma mensagem de broadcast, os switches encaminham a mensagem para cada host conectado na mesma rede local. Por esse motivo, uma rede local (ou seja, uma rede com um ou mais switches Ethernet) também é conhecida como domínio de broadcast.\nSe muitos hosts estiverem conectados ao mesmo domínio de broadcast, o tráfego de broadcast poderá ficar excessivo. O número de hosts e a quantidade de tráfego de rede que pode ser suportada na rede local são limitados pelos recursos dos switches usados para conectá-los. À medida que a rede cresce e mais hosts são adicionados, o tráfego de rede aumenta, inclusive o tráfego de broadcast. Para melhorar o desempenho, geralmente é necessário dividir uma rede local em várias redes (ou seja, domínios de broadcast), como mostrado na figura. Os roteadores são usados para dividir a rede em vários domínios de broadcast.",
+      "image": null
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.3 Comunicação na camada de Acesso",
+      "content": "Em uma rede Ethernet local, uma NIC só aceitará um quadro se o endereço de destino for o endereço MAC de broadcast ou corresponder ao endereço MAC da NIC.\nA maioria dos aplicativos de rede, entretanto, baseiam-se no endereço IP lógico de destino para identificar a localização de servidores e clientes. A figura ilustra o problema de um host emissor ter apenas o endereço IP lógico do host de destino. Como o host emissor determina o endereço MAC de destino a ser colocado no quadro?\nO host emissor pode usar um protocolo IPv4 chamado ARP (Address Resolution Protocol) para descobrir o endereço MAC de qualquer host na mesma rede local. O IPv6 usa um método semelhante conhecido como Descoberta de Vizinhos (Neighbor Discovery).",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3 Resumo da O Processo de ARP",
+      "content": "{{_moduleNumber}}.3 Resumo da O Processo de ARP"
+    },
+    {
+      "type": "text",
+      "title": "Resumo da O Processo de ARP",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".3.1 O que eu aprendi neste módulo?",
+      "content": "**MAC e IP:** Às vezes, um host deve enviar uma mensagem, mas ele só sabe o endereço IP do dispositivo de destino. O host precisa saber o endereço MAC desse dispositivo. O endereço MAC pode ser descoberto usando resolução de endereços. Dois endereços principais são atribuídos a um dispositivo em uma LAN Ethernet:\nEndereço físico (o endereço MAC) - Usado para comunicações de NIC para NIC na mesma rede Ethernet.\nEndereço lógico (o endereço IP) – Usado para enviar o pacote do dispositivo de origem para o dispositivo de destino. O endereço IP de destino pode estar na mesma rede IP que a origem ou pode estar em uma rede remota.\nQuando o endereço IP de destino (IPv4 ou IPv6) estiver em uma rede remota, o endereço MAC de destino será o endereço do gateway padrão do host (ou seja, a interface do roteador). Os roteadores examinam o endereço IPv4 destino para determinar o melhor caminho para encaminhar o pacote IPv4. Quando o roteador recebe o quadro Ethernet, ele desencapsula as informações da Camada 2. Usando o endereço IPv4 de destino, ele determina o dispositivo do próximo salto e, em seguida, encapsula o pacote IPv4 em um novo quadro (da camada de enlace) para a interface de saída. Ao longo de cada link do caminho, um pacote IP é encapsulado em um quadro. O quadro é específico para a tecnologia do enlace associado a esse link, como Ethernet. Se o dispositivo do próximo salto for o destino final, o endereço MAC de destino será o da NIC Ethernet do dispositivo.\n\n**Contenção de Broadcast:** Uma mensagem pode conter apenas um endereço MAC de destino. A resolução de endereços permite que um host envie uma mensagem de broadcast para um endereço MAC exclusivo que é reconhecido por todos os hosts. O endereço MAC de broadcast é um endereço de 48 bits, com todos eles iguais a 1. Os endereços MAC geralmente são representados em notação hexadecimal. O endereço MAC de broadcast em notação hexadecimal é FFFF.FFFF.FFFF. Cada F em notação hexadecimal representa quatro uns em binário.\nQuando um host envia uma mensagem de broadcast, os switches encaminham a mensagem para cada host conectado na mesma rede local. Por esse motivo, uma rede local (ou seja, uma rede com um ou mais switches Ethernet) também é conhecida como domínio de broadcast.\nSe muitos hosts estiverem conectados ao mesmo domínio de broadcast, o tráfego de broadcast poderá ficar excessivo. O número de hosts e a quantidade de tráfego de rede que pode ser suportada na rede local são limitados pelos recursos dos switches usados para conectá-los. Para melhorar o desempenho, pode ser necessário dividir uma rede local em várias redes ou domínios de broadcast. Os roteadores são usados para dividir a rede em vários domínios de broadcast.\nEm uma rede Ethernet local, uma NIC só aceitará um quadro se o endereço de destino for o endereço MAC de broadcast ou corresponder ao endereço MAC da NIC. A maioria dos aplicativos de rede depende do endereço IP de destino lógico para identificar a localização dos servidores e clientes. Como o host emissor determina o endereço MAC de destino a ser colocado no quadro? O host remetente pode fazer uma consulta ARP para descobrir o endereço MAC de qualquer host na mesma rede local.\nO ARP usa um processo de três etapas para descobrir e armazenar o endereço MAC de um host da rede local, quando apenas o endereço IPv4 do host é conhecido:\nO host remetente cria e envia um quadro destinado ao endereço MAC de broadcast. Incluído no quadro, está uma mensagem com o endereço IPv4 do host do destino a ser alcançado.\nCada host na rede recebe o quadro de broadcast e compara o endereço IPv4 na mensagem com o endereço IPv4 configurado. O host com o endereço IPv4 correspondente envia o endereço MAC de volta para o host emissor original.\nO host emissor recebe a mensagem e armazena informações do endereço IPv4 e do endereço MAC em uma tabela chamada de tabela ARP.\nO IPv6 usa um método semelhante conhecido como Descoberta de vizinhos ( Neighbor Discovery)."
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Webster - Questões para Reflexão",
+      "content": "Todos os meus dispositivos (e todos os seus dispositivos) têm um endereço IP e um endereço MAC. Quando alguém deseja enviar uma mensagem para o meu telefone, meu endereço IP informa, ao roteador dele, onde está meu dispositivo. Meu endereço MAC é como meu telefone é conhecido, para me deixar ver a mensagem. Esse roteador também precisa saber meu endereço MAC e usa o ARP para encontrá-lo.  Você sabe como procurar o endereço MAC de cada um dos seus dispositivos conectados?"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Objetivos\nParte 1: Reunir informações de PDU para comunicação em uma Rede Local\nParte 2: Reunir informações de PDU para  comunicação com uma Rede Remota\nBackground\nSe você estiver interessado em uma carreira em administração de redes ou segurança de redes, é importante entender os processos normais de comunicação de rede. Nesta atividade do Packet Tracer, você inspecionará quadros Ethernet e pacotes IP em diferentes pontos da rede à medida que viajam da origem ao destino. Você se concentrará na maneira como os endereços MAC e IP mudam dependendo do destino (local ou remoto) e do local onde as PDUs são capturadas.\nO Packet Tracer possui um modo de simulação que permite investigar detalhes sobre como as PDUs trafegam nas redes. Ele permite que você verifique o endereçamento MAC da camada 2 e o endereçamento IPv4 da camada 3 das PDUs em diferentes locais da rede à medida que as PDUs fluem da origem para o destino.\nEssa atividade é otimizada para a visualização de PDUs enquanto viajam em redes locais e remotas. Você reunirá informações de PDU no modo de simulação PT e responderá uma série de perguntas sobre os dados coletados. Não será necessário configurar os dispositivos.\nInstruções\nParte 1: Reunir informações de PDU para uma comunicação em Rede Local\nNesta parte, você estudará como um dispositivo em uma rede local não precisa de um gateway padrão para se comunicar com outro dispositivo na mesma rede local.\nObservação: revise as Perguntas para Reflexão na Parte 3 antes de prosseguir nesta parte. Ele lhe dará uma idéia do tipo de informação que você precisará coletar.\na.   Clique no host 172.16.31.3 e abra o Command Prompt.\nb.  Digite o comando ping 172.16.31.2. Este comando emitirá uma série de pacotes ICMP echo request para o destino. Se os pacotes chegarem ao destino, ele enviará pacotes echo-reply para a origem dos  ping requests.\nc.  Clique no botão Simulation Mode para alternar para o modo de simulação. Repita o comando ping 172.16.31.2 Um ícone de envelope, que representa uma PDU, aparece próximo a 172.16.31.3.\nd.  Clique na PDU e localize as seguintes informações nas guias OSI Model e Outbound PDU Details. A guia Outbound PDU Details mostra cabeçalhos simplificados de pacotes e quadros para a PDU. Você deve observar os seguintes detalhes sobre o endereçamento da PDU.\n·  No dispositivo: 172.16.31.3\n·  Endereço MAC de origem: 0060.7036.2849\n·  Endereço MAC de destino: 000C:85CC:1DA7\n·  Endereço IP Origem: 172.16.31.3\n·  Endereço IP Destino: 172.16.31.2\ne.  Clique em Capture / Forward (a seta para a direita seguida por uma barra vertical) e a PDU passa para a próxima etapa em sua jornada. Use a guia do modelo OSI para coletar as mesmas informações da Etapa 1d. Repita esse processo até que a PDU chegue ao seu destino. Para cada etapa no caminho até a entrega, registre as informações de cada PDU em uma planilha que usa um formato como mostrado na tabela abaixo. As informações da primeira etapa são mostradas na tabela.\nExemplo em Formato de Planilha"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.  Você vai notar que as informações da PDU de entrada não mudam.\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "g.   Volte ao modo de Realtime.\nParte 2: Reúna informações de PDU para comunicação com uma Rede Remota\nPara se comunicar com redes remotas, é necessário um dispositivo gateway. O dispositivo gateway conecta duas ou mais redes. Nesta parte, você estudará o processo que ocorre quando um dispositivo se comunica com outro dispositivo que está em uma rede remota. Preste muita atenção aos endereços MAC usados.\nObservação: Coloque o mouse sobre o Router. Você verá informações sobre o endereçamento das interfaces do roteador. Consulte esses endereços ao observar o fluxo de PDUs que atravessa o roteador.\na.  Retorne ao Command Prompt de 172.16.31.3.\nb.  Insira o comando ping 10.10.10.2. O primeiro par de pings pode expirar.\nc.  Alterne para o modo Simulation e repita o comando ping 10.10.10.2. Uma PDU aparece ao lado de 172.16.31.3.\nd.  Clique na PDU e observe a guia de informações a seguir:\n·  No dispositivo: 172.16.31.3\n·  Endereço MAC de origem: 0060.7036.2849\n·  Endereço MAC de Destino: 00D0:BA8E:741A\n·  Endereço IP Origem: 172.16.31.3\n·  Endereço IP de Destino: 10.10.10.2\nPergunta:"
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "e.  Clique em Capture/Forward (Capturar/Encaminhar) para mover a PDU para o próximo dispositivo. Colete as mesmas informações da Etapa 1d. Repita esse processo até que a PDU chegue ao seu destino. Registre as informações de PDU, que você coletou com o ping desde 172.16.31.5 para 10.10.10.2, em uma planilha usando um formato como o da tabela de amostra mostrada abaixo. Insira detalhes para ambas PDUs de entrada e saída no roteador."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "f.   Repita o processo para a mensagem echo-reply originada no host 10.10.10.2. Preencha a tabela referente a cada etapa."
+    },
+    {
+      "type": "text",
+      "title": "Text Widget",
+      "content": "Questões para Reflexão\nResponda às perguntas a seguir sobre os dados capturados:"
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Qual endereço MAC de destino seria incluído em um quadro enviado de um dispositivo de origem para um dispositivo de destino na mesma rede local?",
+      "options": [
+        "O endereço MAC de broadcast FF-FF-FF-FF-FF-FF.",
+        "O endereço MAC do dispositivo de destino.",
+        "O endereço MAC da interface do roteador local."
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nAo enviar um quadro para outro dispositivo na mesma rede local, o dispositivo que envia o quadro usará o endereço MAC do dispositivo de destino.",
+      "raw_id": "ba33403d541a4c8bba44b0a87e00577f"
+    },
+    {
+      "question": "Qual endereço MAC de destino seria incluído em um quadro enviado de um dispositivo de origem para um dispositivo de destino em uma rede local remota?",
+      "options": [
+        "O endereço MAC de broadcast FF-FF-FF-FF-FF-FF.",
+        "O endereço MAC do dispositivo de destino.",
+        "O endereço MAC da interface do roteador local."
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nAo enviar um quadro para outro dispositivo em uma rede remota, o dispositivo que envia o quadro usará o endereço MAC da interface do roteador local, que é o gateway padrão.",
+      "raw_id": "482d80c660be46e4912714e1568fbc02"
+    },
+    {
+      "question": "Quais dois protocolos são usados para determinar o endereço MAC de um endereço IP de dispositivo de destino conhecido (IPv4 e IPv6)?",
+      "options": [
+        "DHCP",
+        "ARP",
+        "DNS",
+        "ND"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO Protocolo de Resolução de Endereços (Address Resolution Protocol - ARP) é usado para determinar o endereço MAC de um dispositivo com um endereço IPv4 de destino conhecido. Neighbor Discovery (ND) é usado para determinar o endereço MAC de um dispositivo com um endereço IPv6 de destino conhecido.",
+      "raw_id": "8beea0e740e94cc1a92822e8e87a265e"
+    },
+    {
+      "question": "O endereço MAC de destino de um broadcast Ethernet em hexadecimal é:",
+      "options": [
+        "48 bits iguais a 1",
+        "48 dígitos F",
+        "1111.1111.1111",
+        "FFFF.FFFF.FFFF"
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.\nO endereço MAC de destino para um broadcast Ethernet é FFFF.FFFF.FFFF.",
+      "raw_id": "77f31937e7504870841dfdfc892e5601"
+    },
+    {
+      "question": "Quando um switch Ethernet recebe um quadro que é broadcast, ele:",
+      "options": [
+        "Encaminha o quadro para todas as portas, exceto a porta de entrada.",
+        "Encaminha  o quadro para todas as portas, inclusive a porta de entrada",
+        "Encaminha o quadro apenas para portas que precisam do broadcast.",
+        "Descarta o quadro."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nQuando um switch Ethernet recebe um quadro broadcast, ele encaminhará o quadro para todas as portas, exceto à porta na qual o quadro foi recebido.",
+      "raw_id": "419ebb4def4a44c08b4734b9e64cbb87"
+    },
+    {
+      "question": "O Host-A tem um quadro Ethernet para enviar ao Host-B na mesma rede. O Host-A conhece o endereço IP do Host-B, mas não o endereço MAC. Que mensagem o Host-A enviará para determinar o endereço MAC do Host B?",
+      "options": [
+        "Descoberta ARP",
+        "Solicitação ARP",
+        "Resposta ARP",
+        "Broadcast ARP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nUm host enviará uma solicitação ARP para determinar o endereço MAC de outro dispositivo.",
+      "raw_id": "ee163e5d06b748bda2b72f0b43f3078d"
+    },
+    {
+      "question": "Uma solicitação ARP é enviada como:",
+      "options": [
+        "um broadcast, para que todos os dispositivos na mesma rede recebam.",
+        "um broadcast, para que todos os dispositivos na rede e em outras redes recebam",
+        "um unicast, onde apenas o dispositivo com o endereço IP adequado receba",
+        "um unicast, para que somente o dispositivo com o endereço MAC adequado receba"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUma solicitação ARP é um broadcast, então todos os dispositivos na rede receberão.",
+      "raw_id": "b8447de512ed4f25bc9afda08405da7c"
+    },
+    {
+      "question": "O Host-B recebe uma solicitação ARP. O Host-B retornará uma resposta ARP se:",
+      "options": [
+        "O endereço IP na solicitação ARP corresponder ao seu próprio endereço IP.",
+        "O endereço MAC na solicitação ARP corresponder ao seu próprio endereço MAC.",
+        "Os endereços IP e MAC na solicitação ARP corresponderem a seus próprios endereços IP e MAC."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm host enviará uma resposta ARP se o endereço IP na solicitação ARP corresponder ao seu próprio endereço IP.",
+      "raw_id": "78e9e62d6c5d4c51aeeb040bdc3d6ed0"
+    },
+    {
+      "question": "O Host-A envia uma solicitação ARP e recebe uma resposta ARP do Host-B. O que está na resposta ARP que o Host-A não conhecia e que precisa para se comunicar com o Host-B?",
+      "options": [
+        "Endereço MAC do host B",
+        "Endereço IP do host B",
+        "Endereços IP e MAC do Host B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUma resposta ARP incluirá o endereço IP e MAC do host que enviou a resposta",
+      "raw_id": "c7b2af3d04ea49ebb8e887d2b153f9fc"
+    },
+    {
+      "question": "Qual é uma função do protocolo ARP?",
+      "options": [
+        "obter um endereço IPv4 automaticamente",
+        "mapear um nome de domínio para seu endereço IP",
+        "resolver um endereço IPv4 para um endereço MAC",
+        "manter de uma tabela de nomes de domínio com seus endereços IP resolvidos"
+      ],
+      "correctIndex": 2,
+      "explanation": "As duas principais funções do protocolo ARP são resolver um endereço IPv4 para um endereço MAC e manter uma tabela ARP, que lista os pares resolvidos de endereço IPv4 e endereço MAC. Um dispositivo obtém automaticamente um endereço IP por meio do DHCP. As funções do DNS incluem resolver (ou mapear) um nome de domínio com seu endereço IP e manter uma tabela para os pares nome de domínio/IP.",
+      "raw_id": "1a45cb006ad04ee68f238424364913b7"
+    },
+    {
+      "question": "Qual endereço de destino é usado em um quadro de solicitação ARP?",
+      "options": [
+        "0.0.0.0",
+        "255.255.255.255",
+        "FFFF.FFFF.FFFF",
+        "127.0.0.1",
+        "01-00-5E-00-AA-23"
+      ],
+      "correctIndex": 2,
+      "explanation": "A finalidade de uma solicitação ARP é encontrar o endereço MAC do host de destino em uma LAN Ethernet. O processo ARP envia um broadcast de camada 2 para todos os dispositivos na LAN Ethernet. O quadro contém o endereço IP do destino e o endereço MAC de broadcast, FFFF.FF.FFFF.",
+      "raw_id": "898524de62f6408fae53451a2da2143e"
+    },
+    {
+      "question": "Qual afirmativa descreve o tratamento das requisições ARP no link local?",
+      "options": [
+        "Elas precisam ser encaminhadas por todos os roteadores na rede local.",
+        "Elas são recebidas e processadas por todos os dispositivos na rede local.",
+        "Elas são entregues por todos os switches na rede local.",
+        "Elas são recebidas e processadas somente pelo dispositivo destino."
+      ],
+      "correctIndex": 1,
+      "explanation": "Um dos aspectos negativos das requisições ARP é que são enviadas como broadcast. Isso significa que todos os dispositivos no link local devem receber e processar a requisição.",
+      "raw_id": "08b4741e7f4b45dd83c7d885c0602db5"
+    },
+    {
+      "question": "Que informações importantes são examinadas no cabeçalho do quadro Ethernet por um dispositivo de camada 2 para encaminhar os dados?",
+      "options": [
+        "endereço MAC origem",
+        "endereço IP origem",
+        "endereço MAC destino",
+        "tipo de Ethernet",
+        "endereço IP destino"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um dispositivo de camada 2, como um switch, usa o endereço MAC de destino para determinar qual caminho (interface ou porta) deve ser usado para enviar os dados para o dispositivo de destino.",
+      "raw_id": "a4ef52147f8142e88b203138a5420db4"
+    },
+    {
+      "question": "Quais são as duas funções dos endereços MAC em uma LAN? (Escolha duas.)",
+      "options": [
+        "permitir a transferência de quadros da origem para o destino",
+        "determinar qual host tem prioridade para transferir dados",
+        "indicar o melhor caminho entre redes separadas",
+        "associar a um endereço IP de rede específico",
+        "identificar, de forma exclusiva, um nó em uma rede"
+      ],
+      "correctIndex": 4,
+      "explanation": "Todos os dispositivos de rede Ethernet têm um endereço MAC (Media Access Control) exclusivo que é gravado na placa de rede (NIC). O endereço MAC é usado para direcionar dados de um determinado dispositivo para um destino de rede específico.",
+      "raw_id": "2a6fe51da06a4931937fa7c6717ad26c"
+    },
+    {
+      "question": "Consulte a figura. PC1 emite uma solicitação ARP porque ele precisa enviar um pacote para PC2. Nesse cenário, o que acontecerá a seguir?",
+      "options": [
+        "O PC2 enviará uma resposta ARP com o endereço MAC do PC2.",
+        "RT1 enviará uma resposta ARP com o endereço MAC do RT1 Fa0/0.",
+        "RT1 enviará uma resposta ARP com o endereço MAC do PC2.",
+        "SW1 enviará uma resposta ARP com o endereço MAC do PC2.",
+        "SW1 enviará uma resposta ARP com o endereço MAC do SW1 Fa0/1."
+      ],
+      "correctIndex": 0,
+      "explanation": "Quando um dispositivo de rede deseja se comunicar com outro dispositivo na mesma rede, ele envia uma solicitação ARP em broadcast. Nesse caso, a solicitação conterá o endereço IP do PC2. O dispositivo de destino (PC2) envia uma resposta ARP com o endereço MAC do PC2.",
+      "raw_id": "25f7c59094f94c0d8934b0f5f365ff00"
+    },
+    {
+      "question": "Que endereços são mapeados pelo ARP?",
+      "options": [
+        "Endereço IPv4 para um endereço MAC de destino",
+        "endereço IPv4 de destino para o endereço MAC de origem",
+        "endereço IPv4 de destino para o nome do host de destino",
+        "endereço MAC de destino para o endereço IPv4 de origem"
+      ],
+      "correctIndex": 0,
+      "explanation": "ARP, ou o Address Resolution Protocol, funciona mapeando o endereço IPv4 para um endereço MAC de destino. O host conhece o endereço IPv4 de destino e usa o ARP para resolver o endereço MAC de destino correspondente.",
+      "raw_id": "7009ceb0ca8c46388c9bdc117256a3b5"
+    },
+    {
+      "question": "Consulte a figura. Os switches Sw1 e Sw2 têm tabelas de endereços MAC que são preenchidas com todos os endereços MAC dos host exibidos. Se o host H1 enviar um quadro com o endereço de destino FFFF.FFFF.FFFF, qual será o resultado?",
+      "options": [
+        "Sw1 descartará o quadro.",
+        "Sw1 inundará o quadro em todas as portas, exceto na porta de entrada. O quadro será descartado por Sw2, mas processado pelo host H2.",
+        "Sw1 inundará o quadro em todas as portas, exceto na porta de entrada. O quadro será inundado por Sw2, mas descartado pelos hosts H2, H3 e H4.",
+        "Sw1 inundará o quadro em todas as portas, exceto na porta de entrada. O quadro será inundado por Sw2 e processado pelos hosts H2, H3 e H4."
+      ],
+      "correctIndex": 3,
+      "explanation": "Está certo.",
+      "raw_id": "4aa5d2a5d31b4ae68c2d33c536f5f898"
+    },
+    {
+      "question": "Consulte a figura. O Host A precisa enviar dados para o servidor, mas não sabe o endereço MAC. Quando o host A envia uma solicitação de ARP, que resposta estará na resposta ARP?",
+      "options": [
+        "00:0C:00:B4:00:10",
+        "00:0C:00:B4:00:24",
+        "00:0D:00:B4:12:F3",
+        "00:0D:00:B4:99:AA",
+        "02:C8:00:7D:12:33"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quando um host se comunica com um dispositivo que não está na mesma rede IP local, ele deve enviar o pacote para o gateway padrão.  O gateway padrão para o Host A é a porta Fa0/0 do roteador RTA, que possui o endereço MAC de 00:0C:00:B4:12:F3.",
+      "raw_id": "79105bd839dd4bd99c4adb19edb3296b"
+    },
+    {
+      "question": "Atividade do PT\nAbra a atividade no PT. Execute as tarefas nas instruções da atividade e responda à pergunta.\nQuando o PC0 pinga o servidor web, qual endereço MAC é o endereço MAC de origem no quadro de R2 para o servidor web?",
+      "options": [
+        "0001.43EA.3E03",
+        "0001.9756.6278",
+        "0001.C972.4201",
+        "0001.C972.4202",
+        "0002.16D6.A601"
+      ],
+      "correctIndex": 3,
+      "explanation": "No segmento entre R2 e o servidor web, quando R2 encapsula um quadro a ser enviado ao servidor web, R2 utiliza o endereço MAC de sua interface que está diretamente conectada ao segmento, Fa0/1, como MAC de origem.",
+      "raw_id": "f1a1de805ccd48fc9b6ccbb80732d77e"
+    },
+    {
+      "question": "Que afirmativa descreve uma característica dos endereços MAC?",
+      "options": [
+        "Eles são o endereço físico da NIC ou da interface.",
+        "Eles só podem ser roteados dentro da rede privada.",
+        "Eles são adicionados como parte de uma PDU de camada 3.",
+        "Eles têm um valor binário de 32 bits."
+      ],
+      "correctIndex": 0,
+      "explanation": "Qualquer fornecedor que venda dispositivos Ethernet deve se registrar no IEEE para garantir que possa receber um código exclusivo de 24 bits, que se tornam os primeiros 24 bits do endereço MAC. Os últimos 24 bits do endereço MAC são gerados para cada dispositivo de hardware. Isso ajuda a garantir endereços globalmente únicos para cada dispositivo Ethernet.",
+      "raw_id": "8a265d782ff74b7f8691f011cc8f8bb3"
+    },
+    {
+      "question": "Quais são as duas características que descrevem os endereços MAC? (Escolha duas.)",
+      "options": [
+        "endereço físico atribuído à NIC",
+        "identifica origem e destino no cabeçalho da Camada 2",
+        "endereço lógico atribuído pelo DHCP",
+        "usado pelos roteadores para selecionar o melhor caminho para um destino"
+      ],
+      "correctIndex": 1,
+      "explanation": "O endereço MAC é conhecido como um endereço físico porque é atribuído pelo fabricante à NIC.  Os endereços MAC estão contidos no cabeçalho da camada 2.   Os endereços IP são endereços de Camada 3 e são endereços lógicos atribuídos dinamicamente por DHCP ou configurados manualmente.  Os roteadores usam endereços IP de destino para escolher o melhor caminho para encaminhar os pacotes.",
+      "raw_id": "a8ce0023c51049ce80c91009ca899570"
+    }
+  ],
+  "images": []
+}

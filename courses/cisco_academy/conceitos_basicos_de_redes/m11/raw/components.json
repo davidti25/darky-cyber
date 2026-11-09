@@ -1,0 +1,3323 @@
+[
+  {
+    "_id": "6789c8e99d86451d9eebbf881c21a6fa",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.0 Introdução</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "6789c8e99d86451d9eebbf881c21a6fa",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "93759bd2a44340299ad649bb3d621da8",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c1023fd6-87bd-406e-b88c-65de0b19ce70",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "93759bd2a44340299ad649bb3d621da8",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "ccbe7810-c909-4718-a6b6-5555d17834f1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "dfb2b92a4490421596d5a606bbd19041",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0 Introdução",
+    "_oldId": "dfb2b92a4490421596d5a606bbd19041",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0c3e941427284e5280d39c0bcf549996",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1fda83fd-abb2-47b2-8437-5142968ac470",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0c3e941427284e5280d39c0bcf549996",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "ee95b7ae-cba1-4046-91f1-bf3d2ca6ebb4",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "5686811457d74511b53b1abef3a58ace",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "5686811457d74511b53b1abef3a58ace",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/14ed3c016a3c4593872c3fe07cfea993.png",
+      "small": "pt-BR/assets/14ed3c016a3c4593872c3fe07cfea993.png",
+      "attribution": ""
+    },
+    "_parentId": "aad7505c652f48fbb7e53341ce977e59",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "c4ca9c7e-dbb6-4d7b-9bf8-2cbc17005731",
+    "instruction": "",
+    "_oldParentId": "aad7505c652f48fbb7e53341ce977e59",
+    "displayTitle": "",
+    "_activityParentId": "c528ef29-d854-46cd-8694-592c91e5a121",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "0697370a3bcf42b1b1cbe8dc916ba73c",
+    "body": "<p>A estação de enfermagem de Kishori acabou de receber um novo laptop do departamento de TI. O especialista de TI, Madhav, está preparando a mesa e tentando se conectar à rede. Ele pede a Kishori para fazer login no computador. Ela digita o nome de usuário e a senha e tenta acessar o prontuário do paciente. Ela explica que deve haver um erro de conexão. Madhav senta para investigar. Madhav verifica o cabo e ele está conectado. Em seu tablet, ele exibe a lista de endereços IPv4 de todos os computadores neste andar nessa rede. Ele encontrou o problema! Há um erro no endereço IPv4. Madhav explica que o estagiário em seu departamento pode ter configurado manualmente as informações de rede neste host, em vez de usar o DHCP (Dynamic Host Configuration Protocol). Kishori nunca ouviu falar sobre DHCP. Ela vai ler sobre esse assunto.</p><p>Você está pronto para aprender sobre DHCP? Estou aqui para ajudar! Vamos começar este módulo!</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.1 Webster - Por que devo fazer este módulo?",
+    "_oldId": "0697370a3bcf42b1b1cbe8dc916ba73c",
+    "_layout": "right",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "aad7505c652f48fbb7e53341ce977e59",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "fc65d16e-5aa0-42ef-a19d-4b46fb7e8226",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "aad7505c652f48fbb7e53341ce977e59",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "c528ef29-d854-46cd-8694-592c91e5a121",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "f882e00f00a547a9b098b8009c2e7dc1",
+    "body": "<p><strong>Título do Módulo: </strong>Endereçamento dinâmico com DHCP</p><p><strong>Objetivo do Módulo: </strong>Configurar um servidor DHCP.</p>",
+    "_rows": [
+      {
+        "_cells": [
+          {
+            "text": "Título do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          },
+          {
+            "text": "Objetivo do Tópico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": true
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Endereçamento estático e dinâmico",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Comparar o endereçamento IPv4 estático e dinâmico.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      },
+      {
+        "_cells": [
+          {
+            "text": "Configuração do DHCPv4",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          },
+          {
+            "text": "Configurar um servidor DHCPv4 para atribuir endereços IPv4 de forma dinâmica.",
+            "_classes": "",
+            "_colSpan": "1",
+            "_graphic": {
+              "alt": "",
+              "_src": "",
+              "attribution": ""
+            },
+            "_rowSpan": "1",
+            "_isHeading": false
+          }
+        ],
+        "_classes": ""
+      }
+    ],
+    "_type": "component",
+    "title": "{{_moduleNumber}}.0.2 O que vou aprender neste módulo?",
+    "_oldId": "f882e00f00a547a9b098b8009c2e7dc1",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_minWidth": 800,
+    "_parentId": "58a05a4faa3b4fa7976b2a1ae372a854",
+    "_component": "table",
+    "_isDeleted": false,
+    "_activityId": "5a847892-5a28-4af4-8ad6-925f287a548e",
+    "_oldParentId": "58a05a4faa3b4fa7976b2a1ae372a854",
+    "displayTitle": "",
+    "_columnWidths": [
+      {
+        "_width": 200,
+        "_column": 0
+      }
+    ],
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "431e373d-5dae-4f71-8968-e98b953e5585",
+    "_colHeaderIndexes": "",
+    "_rowHeaderIndexes": "",
+    "mobileInstruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "7fb49f605eaf4d12be00f4d09a166d76",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "7fb49f605eaf4d12be00f4d09a166d76",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "9a2f79bda607497aa57d6a2ae8c17876",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "badac951-1243-4b4e-b5d0-4f35c188aa28",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "9a2f79bda607497aa57d6a2ae8c17876",
+    "displayTitle": "",
+    "_activityParentId": "e538154b-c69f-444d-8649-af4dbe025135"
+  },
+  {
+    "_id": "3b397ef98a6f43e1a4608d32548fc921",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.1 Endereçamento estático e dinâmico</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Endereçamento estático e dinâmico",
+    "_oldId": "3b397ef98a6f43e1a4608d32548fc921",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "33ec5e7d1d37497b9ab373bf75dbc6f5",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "1ebcfabb-dc51-45d5-87bf-109117c679eb",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "33ec5e7d1d37497b9ab373bf75dbc6f5",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "8e2f25ed-d097-4f2d-bf8d-69793692fe29",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b3163620f66547eb9fb96ffee71bd038",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1 Endereçamento estático e dinâmico",
+    "_oldId": "b3163620f66547eb9fb96ffee71bd038",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "89b0ae2c360d4419958b7f33e6364abb",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "a29305fc-6533-4bd9-b32a-27c0de1698f1",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "89b0ae2c360d4419958b7f33e6364abb",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "9216f1c5-4446-41e9-82b5-3a8415f2ae06",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "2d3b4ddd388e4554b0b71712e2d1521a",
+    "body": "<p>Os endereços IPv4 podem ser atribuídos estática ou dinamicamente.</p><p>Com uma atribuição estática, o administrador de rede deve configurar manualmente as informações da rede para um host. No mínimo, isso inclui o seguinte:</p><ul><li><strong>Endereço IP</strong>– Identifica o computador na rede.</li><li><strong>Máscara de Sub-rede</strong> - Identifica a rede à qual o host está conectado</li><li><strong>Gateway padrão</strong> – Identifica o dispositivo de rede que o host usa para acessar a Internet ou outra rede remota. </li></ul><p>Os endereços estáticos têm algumas vantagens. Por exemplo, são úteis para impressoras, servidores e outros dispositivos de rede que precisam estar acessíveis para clientes na rede. Se os hosts normalmente acessam um servidor em um determinado endereço IPv4, não seria bom que esse endereço mudasse.</p><p>Embora a atribuição estática de informações de endereçamento possa proporcionar um controle maior dos recursos de rede, a digitação de informações em cada host pode ficar demorada. Quando os endereços IPv4 são inseridos estaticamente, o host executa apenas verificações básicas de erro no endereço IPv4. Isso aumenta a probabilidade de que ocorram erros.</p><p>Ao usar endereçamento IPv4 estático, é importante manter uma lista precisa de quais endereços IPv4 estão atribuídos a quais dispositivos. Além disso, como são endereços permanentes, normalmente eles não são reutilizados.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.1 Atribuição de endereço IPv4 estático",
+    "_oldId": "2d3b4ddd388e4554b0b71712e2d1521a",
+    "_graphic": {
+      "alt": "The figure shows the Internet Protocol Version 4 (TCP/IPv4) Properties window of a PC.  The configuration settings show that the “Use the following IP address:” option is selected. The static IP address is 192.168.1.32. The Subnet Mask is 255.255.255.0. The Default Gateway is 192.168.1.1. The “Use the following DNS server address:” option is also selected, and the Preferred DNS server is 172.16.33.5 and the Alternate DNS server address is 172.16.33.6.",
+      "large": "media/d3a26b30-e6d9-11ea-aa89-3be44eea6ede/38c5f150-f457-11ea-9498-d1010208a5b7.png",
+      "small": "media/d3a26b30-e6d9-11ea-aa89-3be44eea6ede/38c5f150-f457-11ea-9498-d1010208a5b7.png"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "d0593b7459e549eab00681e34344145c",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "48f5cd18-0db0-4ec1-8237-3c44e6220c0d",
+    "_oldParentId": "d0593b7459e549eab00681e34344145c",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "4cec54c3-cfea-41fe-8122-522e8947af68",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "ef798516a04e430ca50b368821c6e051",
+    "body": "<p>Nas redes locais, geralmente, a população de usuários muda com frequência. Novos usuários chegam com notebooks e precisam de uma conexão. Outros têm novas estações de trabalho que precisam ser conectadas. Em vez de fazer com que o administrador de rede atribua endereços IPv4 em cada estação de trabalho, é mais eficiente ter endereços IPv4 atribuídos automaticamente. Isso é feito com um protocolo conhecido como Dynamic Host Configuration Protocol (DHCP).</p><p>O DHCP fornece um mecanismo para atribuição automática de informações de endereçamento, como endereço IPv4, máscara de sub-rede, gateway padrão e outras informações de configuração, como mostrado na figura.</p><p>O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada.</p><p>Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado. Isso é especialmente útil com usuários móveis que vêm e vão em uma rede.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.2 Atribuição dinâmica de endereço IPv4 ",
+    "_oldId": "ef798516a04e430ca50b368821c6e051",
+    "_graphic": {
+      "alt": "The figure shows the Internet Protocol Version 4 (TCP/IPv4) Properties window of a PC.  The configuration settings show that the “Obtain an IP address automatically:” and the “Obtain DNS server address automatically:” options are chosen.",
+      "large": "media/d3ab44d0-e6d9-11ea-aa89-3be44eea6ede/c29506a0-f457-11ea-b66f-b95607a9bde8.png",
+      "small": "media/d3ab44d0-e6d9-11ea-aa89-3be44eea6ede/c29506a0-f457-11ea-b66f-b95607a9bde8.png"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "8683c95d08ce46c3b5d8c45dbc9862e0",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "1f1f35ea-b5ae-4e82-a4ed-041466b8e975",
+    "_oldParentId": "8683c95d08ce46c3b5d8c45dbc9862e0",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "netacad-media"
+    },
+    "_setCompletionOn": "inview",
+    "_activityParentId": "bc8652f9-7163-4063-81bb-8c006a79a89b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "b729923966f54856a9302623eb391302",
+    "body": "<p>Se você inserir um hotspot sem fio em um aeroporto ou uma lanchonete, o DHCP possibilitará o acesso à Internet. Ao entrar na área, o cliente DHCP de seu laptop entra em contato com o servidor DHCP local via conexão sem fio. O servidor DHCP atribui um endereço IPv4 ao seu notebook.</p><p>Vários tipos de dispositivos podem ser servidores DHCP, desde que executem software de serviço DHCP. Na maioria das redes médias a grandes, o servidor DHCP normalmente é um servidor local dedicado baseado em PC.</p><p>Nas redes residenciais, é provável que o servidor DHCP esteja localizado no ISP. Um host na rede residencial recebe a configuração IPv4 diretamente do ISP, como mostrado na figura.</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.1.3 Servidores DHCP",
+    "_oldId": "b729923966f54856a9302623eb391302",
+    "details": {
+      "uuid": "2e766460-1c25-11ea-a010-eb2108469056",
+      "texts": [
+        {
+          "text": "Internet",
+          "class": "ID_txt01"
+        },
+        {
+          "text": "ISP 2",
+          "class": "ID_txt03"
+        },
+        {
+          "text": "ISP 1",
+          "class": "ID_txt02"
+        },
+        {
+          "text": "ISP 3",
+          "class": "ID_txt04"
+        },
+        {
+          "text": "Servidor DHCP do ISP",
+          "class": "ID_txt05"
+        },
+        {
+          "text": "Servidor DHCP do roteador",
+          "class": "ID_txt06"
+        },
+        {
+          "text": "Funcionário Móvel",
+          "class": "ID_txt14"
+        },
+        {
+          "text": "Rede Domiciliar e de Pequena Empresa",
+          "class": "ID_txt13"
+        },
+        {
+          "text": "Cliente DHCP",
+          "class": "ID_txt07"
+        },
+        {
+          "text": "Rede Corporativa",
+          "class": "ID_txt12"
+        },
+        {
+          "text": "Clientes DHCP",
+          "class": "ID_txt09"
+        },
+        {
+          "text": "Clientes DHCP",
+          "class": "ID_txt08"
+        },
+        {
+          "text": "Servidor DHCP Local",
+          "class": "ID_txt11"
+        },
+        {
+          "text": "Servidor DHCP",
+          "class": "ID_txt10"
+        }
+      ],
+      "images": [
+        {
+          "url": "media/2e766460-1c25-11ea-a010-eb2108469056/2e768b72-1c25-11ea-81a0-ffc2c49b96bc.png",
+          "class": "bag--UUID"
+        },
+        {
+          "url": "media/2e766460-1c25-11ea-a010-eb2108469056/2e768b73-1c25-11ea-81a0-ffc2c49b96bc.png",
+          "class": "lady--UUID"
+        }
+      ],
+      "caption": "",
+      "imageStack": "beforeend",
+      "stylesheet": "media/2e766460-1c25-11ea-a010-eb2108469056/2e768b71-1c25-11ea-81a0-ffc2c49b96bc.css",
+      "aspect_ratio": "680/441",
+      "primary_image": "media/2e766460-1c25-11ea-a010-eb2108469056/2e768b74-1c25-11ea-81a0-ffc2c49b96bc.svg"
+    },
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "0c53201c769c4fc9aa7962200471a054",
+    "_component": "dynamic-graphic",
+    "_isDeleted": false,
+    "_activityId": "62bd3c9b-ad85-4a21-9db5-a0c8eac79095",
+    "_contentBase": "http://netacad-media-dev.s3-website-us-east-1.amazonaws.com/netacad-media/",
+    "_oldParentId": "0c53201c769c4fc9aa7962200471a054",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_wcGraphicsZoom": {
+      "_isEnabled": false,
+      "targetElement": "div.dynamic-graphic-display"
+    },
+    "_setCompletionOn": "inview",
+    "a11y_description": "A figura mostra um servidor DHCP ISP conectado à Internet com três roteadores ISP rotulados ISP1, ISP2, ISP#. Cada reouter ISP está conectado a uma rede diferente. ISP1 conecta-se a uma antena sem fio a um trabalhador móvel que é o cliente DCHP. ISP2 está conectado a um roteador de rede coporate que se conecta a uma LAN coporate com seu próprio servidor DHCP local conectado a um swith conectado a seis clientes DHCP. ISP3 está conectado a um servidor DHCP sem fio para uma rede Home e Small Business os três clientes DHCP conectados.",
+    "_activityParentId": "82266eb7-82f2-423e-8d59-4803da27fada",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "useGlobalAssetsDir": true,
+    "_classes": "undefined"
+  },
+  {
+    "_id": "db138400fb3146a182ea212fe80cc902",
+    "body": "<p>Muitas redes de residências e pequenas empresas usam um modem e um roteador sem fio. Nesse caso, o roteador sem fio é tanto servidor como cliente DHCP. O roteador sem fio atua como cliente para receber a configuração de IPv4 do ISP e atua como servidor DHCP para hosts internos na rede local. O roteador recebe o endereço IPv4 público do ISP e, em sua função como servidor DHCP, distribui endereços privados para os hosts internos.</p><p>Além de servidores baseados em PC e roteadores sem fio, outros tipos de dispositivos de rede (como roteadores dedicados) podem fornecer serviços DHCP aos clientes, embora isso não seja tão comum.</p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "db138400fb3146a182ea212fe80cc902",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "310f1487680f4122aa842142dc414a00",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "2c28ce8a-4eee-4ccd-9106-b1670e589e52",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "310f1487680f4122aa842142dc414a00",
+    "displayTitle": "",
+    "_activityParentId": "94810180-5c7d-4ad8-9ed4-b70e7a0c9545",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "4b9163303de44a24a63235788ca315ce",
+    "body": "",
+    "_type": "component",
+    "title": "Em branco",
+    "_oldId": "4b9163303de44a24a63235788ca315ce",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "29cf30c3120b4d22bbc94995ba8d0a3f",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "d3a74b49-06d9-413d-9b97-2cc7cd742c16",
+    "_isOptional": true,
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "29cf30c3120b4d22bbc94995ba8d0a3f",
+    "displayTitle": "",
+    "_activityParentId": "5e7227d6-e204-4c25-99c8-36d32831b596",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "58e6a78569b84140b51e42d9735417ec",
+    "body": "<p><span style=\"color:#000000\">Quem é responsável por atribuir estaticamente as informações de endereçamento IP?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 1",
+    "_items": [
+      {
+        "text": "o usuário do dispositivo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o fabricante do dispositivo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o sistema operacional instalado no dispositivo",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "o administrador de redes",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "58e6a78569b84140b51e42d9735417ec",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>Embora um usuário possa atribuir informações de endereçamento IP, isso geralmente é de responsabilidade do administrador de rede.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>Embora um usuário possa atribuir informações de endereçamento IP, isso geralmente é de responsabilidade do administrador de rede.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "9cd1825d322f48bf8410be34495a5127",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "4cfd8cf2-a6b5-4895-b62a-9d91c488b214",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "IP estático",
+      "_isEnabled": true,
+      "_onCorrectValue": 50,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "9cd1825d322f48bf8410be34495a5127",
+    "displayTitle": "Pergunta 1",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "58e6a78569b84140b51e42d9735417ec",
+    "_activityParentId": "282c777b-99f0-4e5a-be03-5725d69e3299",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "2ec6189448644a088a537c17d1a09030",
+    "body": "<p><span style=\"color:#000000\">Qual protocolo é responsável pela atribuição automática de informações de endereçamento IP?</span></p>",
+    "_type": "component",
+    "title": "Pergunta 2",
+    "_items": [
+      {
+        "text": "IPv4",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "NAT",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "IETF",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "2ec6189448644a088a537c17d1a09030",
+    "_layout": "full",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false,
+      "_hierarchyLevel": 1
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p dir=\"ltr\">Está certo.</p><p dir=\"ltr\"></p>DHCP (Protocolo de Configuração Dinâmica de Host) é responsável pela atribuição automática de informações de endereçamento IP.",
+      "_incorrect": {
+        "final": "<p dir=\"ltr\">Isso não está correto.</p>DHCP (Protocolo de Configuração Dinâmica de Host) é responsável pela atribuição automática de informações de endereçamento IP.<p dir=\"ltr\">Volte, re-inicie e tente de novo.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isRandom": true,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0fd24a39acba46a5aad80ce9f9c85a4c",
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_activityId": "1eff0b23-acef-4cc3-9d41-966382fe700c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_healthGauge": {
+      "title": "IP dinâmico",
+      "_isEnabled": true,
+      "_onCorrectValue": 50,
+      "_onIncorrectValue": 0,
+      "_onPartiallyCorrectValue": 0
+    },
+    "_isAvailable": true,
+    "_oldParentId": "0fd24a39acba46a5aad80ce9f9c85a4c",
+    "displayTitle": "Pergunta 2",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": true,
+    "_ravennaSourceID": "2ec6189448644a088a537c17d1a09030",
+    "_activityParentId": "edcca8d3-4d50-4a9c-9a0f-c9583e9faae9",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_showAnswerOnSubmit": {
+      "_isEnabled": true
+    },
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "cb192a77df444b7f85c7cdec5c931778",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "cb192a77df444b7f85c7cdec5c931778",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "quick_nav",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "6db401b3e3154bc6bc969a91a9f79396",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "16b8e3b9-9381-46c7-8194-6b691a79e4f6",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "6db401b3e3154bc6bc969a91a9f79396",
+    "displayTitle": "",
+    "_activityParentId": "6c6f6c72-12e7-4f74-8e19-f3668a0c1dca"
+  },
+  {
+    "_id": "f4ec64bc244847399581240f82abc9ad",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.2 Configuração do DHCPv4</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Configuração do DHCPv4",
+    "_oldId": "f4ec64bc244847399581240f82abc9ad",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1e6259dd1d114d14ae0ff5990317fd9a",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c729f71d-71da-417b-b733-9cdc6432c253",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1e6259dd1d114d14ae0ff5990317fd9a",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "43bea18c-4dab-42de-a719-04051995d570",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "30d9f2335d6a49b0ad2375a43d844745",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2 Configuração do DHCPv4",
+    "_oldId": "30d9f2335d6a49b0ad2375a43d844745",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8d5075b2363d4629a61c9d592aed8098",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "41c4cd4e-ab2e-450d-aedb-5f8627af2ce7",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8d5075b2363d4629a61c9d592aed8098",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "55b18822-4d2a-4ad9-a7f0-9499cb068810",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "b38ee96c109d4fd489b13ee4c85da019",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.1 Vídeo - Operação do DHCPv4",
+    "_oldId": "b38ee96c109d4fd489b13ee4c85da019",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250018648001",
+    "videoIds": [
+      "23996f51-0b24-4b59-be7e-fd0da45da118"
+    ],
+    "_parentId": "61ad50f561844b8ab950a90f527b0553",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "1af43ca5-dcbf-4a77-8824-8b8a10ffee96",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "61ad50f561844b8ab950a90f527b0553",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "3d62cda1-5f72-4cf0-8990-e9e89b722e37",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "25198b2371384f0b842c8842d3e93887",
+    "body": "<p><strong>Selecione o botão Reproduzir para assistir ao vídeo.</strong></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.2 Vídeo - Configuração do Serviço DHCP",
+    "_oldId": "25198b2371384f0b842c8842d3e93887",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_videoId": "6250019892001",
+    "videoIds": [
+      "66bd1ad0-fa06-47d1-90e4-de0a0f8840b5"
+    ],
+    "_parentId": "2cf55db10e3e4e6c8eff1455904072c9",
+    "_accountId": "2649925992001",
+    "_component": "media",
+    "_isDeleted": false,
+    "_timestamp": {
+      "label": "Timestamps",
+      "_items": [
+        {
+          "text": "Introdução",
+          "_time": "10"
+        },
+        {
+          "text": "Seção 1",
+          "_time": "20"
+        },
+        {
+          "text": "Seção 2",
+          "_time": "45"
+        }
+      ],
+      "_isEnabled": true
+    },
+    "_activityId": "fe2ee368-f9f9-48b5-855a-31a5e5010196",
+    "instruction": "",
+    "_aspectRatio": "16:9",
+    "_audioPlayer": {
+      "_isEnabled": false,
+      "_posterImage": ""
+    },
+    "_isSignedUrl": true,
+    "_oldParentId": "2cf55db10e3e4e6c8eff1455904072c9",
+    "_videoPlayer": "ZtjDPtmlF",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "ended",
+    "_activityParentId": "12a2cfa7-e142-4d9d-871c-a760ec1747fd",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_signedUrltranscript": {
+      "_isEnabled": true
+    },
+    "_preventControlBarHide": "default"
+  },
+  {
+    "_id": "02801b52d88f441b8ccca2c02e7d68ac",
+    "body": "<p>Nesta atividade, você completará os seguintes objetivos:</p><ul><li>Conectar 3 PCs a um roteador wireless (sem fio)</li><li>Alterar a configuração do DHCP para uma faixa de rede específica</li><li>Configurar os clientes para obter seus endereços por DHCP</li></ul>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.2.3 Packet Tracer – Configuração do DHCP em um Roteador Wireless (sem fio)",
+    "_items": [
+      {
+        "url": "pt-BR/assets/11.2.3--packet-tracer---configure-dhcp-on-a-wireless-router.pka_pt-BR_456dcdf8-932e-496a-8dc1-67fc89b7ea42.pka",
+        "_classes": "",
+        "_buttonText": "Configuração do DHCP em um Roteador Wireless (sem fio)",
+        "fileExtension": "pka",
+        "_closeButtonText": "Fechar",
+        "downloadFileName": "Configuração do DHCP em um Roteador Wireless (sem fio)",
+        "articleRenderingID": "ff37969d-93b7-4a72-9599-7a4666cd374a",
+        "_downloadHtmlButton": "Baixar HTML",
+        "downloadLinkButtonText": "Configuração do DHCP em um Roteador Wireless (sem fio)",
+        "isPageTracerPopupBtnEnable": true,
+        "isPacketTracerDownloadEnable": true
+      }
+    ],
+    "_oldId": "02801b52d88f441b8ccca2c02e7d68ac",
+    "_layout": "full",
+    "_search": {
+      "_isEnabled": true
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "36e94141bf2043d0aa42c194957e901d",
+    "_component": "pageTracer",
+    "_isDeleted": false,
+    "_activityId": "f9c23c26-0fe9-4e64-89c3-22204af06392",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "36e94141bf2043d0aa42c194957e901d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "3de80b15-9c8b-4b2d-b0db-a63809e39ba7",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "cf4c5a126cd14b91af59c025583ae095",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "cf4c5a126cd14b91af59c025583ae095",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "57952c9b1fa342df874de5669748498a",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "75da375a-8c87-459a-92af-267f266a3b7d",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "57952c9b1fa342df874de5669748498a",
+    "displayTitle": "",
+    "_activityParentId": "a1cbe757-031c-4bdf-8ca9-cae31dc513bd"
+  },
+  {
+    "_id": "5b47257bb9114cad82f9f3375be454ce",
+    "body": "<h1><span><span style=\"color:#ffffff\"><span>{{_moduleNumber}}.3 Resumo Endereçamento Dinâmico com DHCP</span></span></span></h1>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo Endereçamento Dinâmico com DHCP",
+    "_oldId": "5b47257bb9114cad82f9f3375be454ce",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "no-element-backgrounds",
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "277349b02bf54faea11b01e914a50686",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "e0ac5b9e-a6fc-415c-a180-7273df8833f8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "277349b02bf54faea11b01e914a50686",
+    "displayTitle": "",
+    "_headingLevel": 1,
+    "_activityParentId": "fa733a59-8726-4a8a-a704-4e43cbbcea5b",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ebc3b42e1a9046bc8fa879900d9b7fe9",
+    "body": "<p><span style=\"color:#ffffff\">Role para comecar <i class=\"fa fa-arrow-circle-down\"> </i> </span></p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3 Resumo Endereçamento Dinâmico com DHCP",
+    "_oldId": "ebc3b42e1a9046bc8fa879900d9b7fe9",
+    "_layout": "left",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": true,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "6c368ff953e141a1b065f247d6d6707d",
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "d96ee3d4-dfea-4f5e-856e-7a915c17f386",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "6c368ff953e141a1b065f247d6d6707d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "16c0266b-186a-400c-a31d-47a4754d22ea",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "9eeae3a68cff4ab9b8f1b0f2fcdb22db",
+    "body": "",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.1 O que aprendi neste módulo?",
+    "_items": [
+      {
+        "body": "<p>Com uma atribuição estática, o administrador de rede deve configurar manualmente as informações da rede para um host. No mínimo, isso inclui o endereço IPv4, a máscara de sub-rede e o gateway padrão do host. Embora a atribuição estática de informações de endereçamento possa proporcionar um controle maior dos recursos de rede, a digitação de informações em cada host pode ficar demorada. Ao usar endereçamento IPv4 estático, é importante manter uma lista precisa de quais endereços IPv4 estão atribuídos a quais dispositivos.</p><p>Os endereços IPv4 podem ser atribuídos automaticamente usando um protocolo conhecido como DHCP. O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada. Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado.</p><p>Assim que você entra na área com um ponto de acesso sem fio, o cliente DHCP do seu notebook entra em contato com o servidor DHCP local por meio de uma conexão sem fio. O servidor DHCP atribui um endereço IPv4 ao seu notebook. Nas redes residenciais, é provável que o servidor DHCP esteja localizado no ISP e um  host na rede residencial recebe a configuração IPv4 diretamente do ISP. Muitas redes de residências e pequenas empresas usam um modem e um roteador sem fio. Nesse caso, o roteador sem fio é tanto servidor como cliente DHCP.</p>",
+        "title": "Endereçamento estático e dinâmico",
+        "_classes": ""
+      },
+      {
+        "body": "<p>O servidor DHCP é configurado com um intervalo (ou pool) de endereços IPv4 que podem ser atribuídos a clientes DHCP. Um cliente que precise de um endereço IPv4 enviará uma mensagem de descoberta DHCP que é um broadcast com o endereço IPv4 de destino 255.255.255.255 (32 uns) e o endereço MAC de destino FF-FF-FF-FF-FF-FF (48 uns). Todos os hosts na rede receberão esse quadro DHCP de broadcast, mas apenas um servidor DHCP responderá. O servidor responderá com uma oferta DHCP, sugerindo um endereço IPv4 para o cliente. O host então envia uma solicitação DHCP pedindo para usar o endereço IPv4 sugerido O servidor responde com um DHCP Acknowledgment.</p><p>Na maioria das redes de residências e pequenas empresas, um roteador sem fio fornece serviços DHCP aos clientes de rede local. Para configurar um roteador sem fio residencial, acesse a interface gráfica Web abrindo o navegador e inserindo o endereço IPv4 padrão do roteador  O endereço IPv4 192.168.0.1 e a máscara de sub-rede 255.255.255.0 são os padrões para a interface interna do roteador. Este é o gateway padrão para todos os hosts na rede local e também o endereço IPv4 interno do servidor DHCP. A maioria dos roteadores sem fio residenciais têm o servidor DHCP ativado por padrão.</p>",
+        "title": "Configuração do DHCPv4",
+        "_classes": ""
+      }
+    ],
+    "_oldId": "9eeae3a68cff4ab9b8f1b0f2fcdb22db",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_parentId": "6803fd795a8b467c947fafc171cdb25d",
+    "_component": "accordion",
+    "_isDeleted": false,
+    "_activityId": "96ab2655-4f30-4cdc-9077-0e286b6039b6",
+    "instruction": "",
+    "_oldParentId": "6803fd795a8b467c947fafc171cdb25d",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "allItems",
+    "_activityParentId": "c3397f0e-aa32-4164-b7e3-57a4d2be9c01",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "c5b0788155e5445299fcfc85848d0fbc",
+    "body": "",
+    "_type": "component",
+    "title": "Graphic Widget",
+    "_oldId": "c5b0788155e5445299fcfc85848d0fbc",
+    "_layout": "left",
+    "_classes": "",
+    "_graphic": {
+      "alt": "Espaço reservado para gráfico",
+      "large": "pt-BR/assets/14ed3c016a3c4593872c3fe07cfea993.png",
+      "small": "pt-BR/assets/14ed3c016a3c4593872c3fe07cfea993.png",
+      "attribution": ""
+    },
+    "_parentId": "4443989c810647028f33b84dab7fd5a1",
+    "_component": "graphic",
+    "_isDeleted": false,
+    "_activityId": "c16ebbd8-da5e-4e1d-a70f-10f53b32b619",
+    "instruction": "",
+    "_oldParentId": "4443989c810647028f33b84dab7fd5a1",
+    "displayTitle": "",
+    "_activityParentId": "ad1bda61-074a-45c3-b0dd-a7d330b56a4b",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "293c51b167bd4684a4a8b03c27f92fc4",
+    "body": "<p>Você inseriu manualmente um endereço IPv4 para todos os dispositivos em sua rede doméstica? Eles são chamados de endereços estáticos. Fiz isso na minha rede doméstica e cometi um erro ao inserir o endereço do tablet. Eu tive que refazê-lo. Você pode imaginar ter que fazer isso em uma grande rede corporativa com centenas ou até milhares de dispositivos? Quais são as outras vantagens de usar o DHCP para endereçamento de dispositivos?</p>",
+    "_type": "component",
+    "title": "{{_moduleNumber}}.3.2 Webster - Questões para Reflexão",
+    "_oldId": "293c51b167bd4684a4a8b03c27f92fc4",
+    "_layout": "right",
+    "_mentor": {
+      "_isEnabled": false,
+      "_registeredMentors": []
+    },
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "background-colour1 remove-padding-top no-element-backgrounds",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4443989c810647028f33b84dab7fd5a1",
+    "_component": "text",
+    "_isDeleted": false,
+    "_activityId": "11b9143e-3991-41e1-af43-6b15ce491cb1",
+    "_isOptional": false,
+    "instruction": "",
+    "_healthGauge": {
+      "_isEnabled": false,
+      "_onCorrectValue": 1,
+      "_onIncorrectValue": 1,
+      "_onPartiallyCorrectValue": 1
+    },
+    "_isAvailable": true,
+    "_oldParentId": "4443989c810647028f33b84dab7fd5a1",
+    "displayTitle": "",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_activityParentId": "ad1bda61-074a-45c3-b0dd-a7d330b56a4b",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "43fdc01f964a45deb09ec096af03699a",
+    "_type": "component",
+    "title": "Blank",
+    "_oldId": "43fdc01f964a45deb09ec096af03699a",
+    "_classes": "",
+    "_parentId": "7640fa4eca964ec1a0e07373fc7651ef",
+    "_component": "blank",
+    "_isDeleted": false,
+    "_activityId": "c8c7638c-5eec-47e9-9a27-c960cf596dff",
+    "_isOptional": true,
+    "_oldParentId": "7640fa4eca964ec1a0e07373fc7651ef",
+    "_activityParentId": "0af39c75-bbf4-47a1-af42-c2f8ed7cba29"
+  },
+  {
+    "_id": "4bdc9e45964b4c96bb7e09d6c58327e7",
+    "body": "",
+    "_type": "component",
+    "title": "Adaptive Intro & End Screen Widget",
+    "_oldId": "4bdc9e45964b4c96bb7e09d6c58327e7",
+    "_labels": {
+      "_introScreen": {
+        "title": "",
+        "bottomIcon": {
+          "alt": "alt text",
+          "src": "./assets/thinking.png"
+        },
+        "description": "",
+        "moduleTitle": "Questionário - Endereçamento dinâmico com DHCP",
+        "instructionDesc": "<p><ul><li>O exame consiste em <b><span class='secure-question-count'>30</span></b> perguntas e <b><span class='secure-passing-score'>70</span></b>% são necessárias para passar.</li><li>Você tem <b><span class='secure-attempt-text'>tentativas</span> <span class='secure-attempts'>ilimitadas</span></b> de concluir o exame.</li> <li class='secure-dynamic-time'>Você <b><span class='secure-time'>não tem nenhuma</span></b> tentativa de concluir o exame.</li><li class='secure-static-intruction'>Você <b>não</b> tem limite de tempo por tentativa para concluir o exame.</li><li class='secure-note'>Suas respostas serão enviadas automaticamente assim que o tempo determinado tiver decorrido.</li></ul></p>",
+        "instructionTitle": "Instruções:",
+        "startTestBtnLabel": "Iniciar"
+      },
+      "_topContainer": {
+        "title": "Parabéns",
+        "topIcon": {
+          "alt": "alt text",
+          "src": "./assets/complete-mark.svg"
+        },
+        "preSubText": "Você pode ver o histórico do My Knowledge Check clicando no",
+        "description": "Você concluiu com êxito a atividade My Knowledge Check.",
+        "afterSubText": "botão.",
+        "preSkillText": "Se você quiser, você pode retomar o",
+        "preSkillTextBtnLabel": "Minha verificação de conhecimento",
+        "viewDiagnosticBtnIcon": {
+          "alt": "alt text",
+          "src": "./assets/bars.svg"
+        },
+        "viewDiagnosticBtnLabel": "Meu histórico de verificação de conhecimento"
+      }
+    },
+    "_layout": "full",
+    "_classes": "assessment-start-screen",
+    "_isHidden": false,
+    "_parentId": "15ad09cdcfbf44aca6a01e5fb96dfca6",
+    "_ariaLevel": 0,
+    "_component": "adaptiveStartScreen",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f9b5baa3-9083-48e6-a563-816f77f7c8ad",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_oldParentId": "15ad09cdcfbf44aca6a01e5fb96dfca6",
+    "displayTitle": "",
+    "_activityParentId": "7b959c1c-f2b4-479f-85a5-e3c2b96a5a33",
+    "secureAssessmentV2": true,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "d1e15b2776a94342a560a430a252b301",
+    "body": "<p>Faça a correspondência de cada descrição com um endereço IP apropriado.</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "answer": "DHCPDISCOVER",
+        "question": "um cliente inicia uma mensagem para encontrar um servidor DHCP",
+        "questionBGColor": "#CBE4F9"
+      },
+      {
+        "answer": "DHCPOFFER",
+        "question": "um servidor DHCP responde à solicitação inicial de um cliente",
+        "questionBGColor": "#CDF5F6"
+      },
+      {
+        "answer": "DHCPREQUEST",
+        "question": "O cliente aceita o endereço IP fornecido pelo servidor DHCP",
+        "questionBGColor": "#EFF9DA"
+      },
+      {
+        "answer": "DHCPACK",
+        "question": "O servidor DHCP confirma que a concessão de endereço foi aceita",
+        "questionBGColor": "#F9EBDF"
+      }
+    ],
+    "_oldId": "d1e15b2776a94342a560a430a252b301",
+    "_layout": "full",
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": 1,
+    "_feedback": {
+      "correct": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>um cliente inicia uma mensagem para encontrar um servidor DHCP</td><td>DHCPDISCOVER</td></tr><tr><td>um servidor DHCP responde à solicitação inicial de um cliente</td><td>DHCPOFFER</td></tr><tr><td>O cliente aceita o endereço IP fornecido pelo servidor DHCP</td><td>DHCPREQUEST</td></tr><tr><td>O servidor DHCP confirma que a concessão de endereço foi aceita</td><td>DHCPACK</td></tr></table>",
+      "_incorrect": {
+        "final": "<p>Coloque as opções na seguinte ordem:</p><table class='table-feedback'><tr><td>um cliente inicia uma mensagem para encontrar um servidor DHCP</td><td>DHCPDISCOVER</td></tr><tr><td>um servidor DHCP responde à solicitação inicial de um cliente</td><td>DHCPOFFER</td></tr><tr><td>O cliente aceita o endereço IP fornecido pelo servidor DHCP</td><td>DHCPREQUEST</td></tr><tr><td>O servidor DHCP confirma que a concessão de endereço foi aceita</td><td>DHCPACK</td></tr></table>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_parentId": "e3e3e7c29bc94d71b8edcc31beb3dd8d",
+    "_component": "objectMatching",
+    "_isDeleted": false,
+    "_activityId": "731ae04f-1370-49f2-8354-1e640c740869",
+    "instruction": "",
+    "placeholder": "Selecione uma opção",
+    "_oldParentId": "e3e3e7c29bc94d71b8edcc31beb3dd8d",
+    "_optionTitle": "Opções:",
+    "displayTitle": "Pergunta",
+    "_categoryTitle": "Categorias:",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_isAnswerRandom": true,
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "d1e15b2776a94342a560a430a252b301",
+    "_activityParentId": "d0c77314-ffec-4813-b260-820c179dbc6e",
+    "_isQuestionRandom": true,
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_defaultAnswerBGColor": "#F2F2F2",
+    "_shouldDisplayAttempts": false
+  },
+  {
+    "_id": "688d753904ef4b739518b1042201dae7",
+    "body": "Quais são os dois motivos que geralmente tornam o DHCP o método preferido de atribuição de endereços IP a hosts em redes grandes? (Escolha duas.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "Ele elimina a maioria dos erros de configuração de endereço",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Ele garante que os endereços sejam aplicados apenas a dispositivos que exigem um endereço permanente.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele garante que cada dispositivo que precisa de um endereço obtenha um.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Ele fornece um endereço apenas para dispositivos autorizados a serem conectados à rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Isso reduz a carga sobre a equipe de suporte de rede.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "688d753904ef4b739518b1042201dae7",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada. No entanto, o próprio DHCP não discrimina entre dispositivos autorizados e não autorizados e atribuirá parâmetros de configuração para todos os dispositivos solicitantes Os servidores DHCP geralmente são configurados para atribuir endereços de um intervalo de sub-rede, então não há garantia de que cada dispositivo que precisa de um endereço obtenha um.</p>",
+      "_incorrect": {
+        "final": "<p>O DHCP em geral é o método preferido de designação de endereços IPv4 para hosts em redes grandes porque reduz a carga sobre a equipe de suporte da rede e praticamente elimina erros de entrada. No entanto, o próprio DHCP não discrimina entre dispositivos autorizados e não autorizados e atribuirá parâmetros de configuração para todos os dispositivos solicitantes Os servidores DHCP geralmente são configurados para atribuir endereços de um intervalo de sub-rede, então não há garantia de que cada dispositivo que precisa de um endereço obtenha um.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "35691a87e1c04e61ad4932925e5e8180",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "41b04387-c845-47d1-b1fe-3e2412e83fb4",
+    "_isOptional": false,
+    "_selectable": 2,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "35691a87e1c04e61ad4932925e5e8180",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "209606",
+    "_activityParentId": "6484f3c8-52c4-422c-8b54-6e432ccf8184",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "623ec4c6ab394e30ba498f7357738c69",
+    "body": "Qual mensagem um host IPv4 usa para responder quando recebe uma mensagem DHCPOFFER de um servidor DHCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "DHCPACK",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCPDISCOVER",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCPOFFER",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "DHCPREQUEST",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "623ec4c6ab394e30ba498f7357738c69",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando o cliente recebe o DHCPOFFER do servidor, ele envia de volta uma mensagem DHCPREQUEST para o endereço de broadcast. Ao receber a mensagem DHCPREQUEST, o servidor responde com uma mensagem DHCPACK unicast.</p>",
+      "_incorrect": {
+        "final": "<p>Quando o cliente recebe o DHCPOFFER do servidor, ele envia de volta uma mensagem DHCPREQUEST para o endereço de broadcast. Ao receber a mensagem DHCPREQUEST, o servidor responde com uma mensagem DHCPACK unicast.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "56d450e340824d0289c1d8d911c81e18",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "259cb47f-e6b1-4dbf-8b78-1b147585056f",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "56d450e340824d0289c1d8d911c81e18",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "210921",
+    "_activityParentId": "a67b4d9c-7bc0-4441-9d92-eee79adfaecd",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "72024afcb9ed4043acd1763a862318c9",
+    "body": "Qual endereço IPv4 destino é usado pelo cliente DHCPv4 para enviar o pacote DHCP Discover inicial quando o cliente está procurando um servidor DHCP?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "127.0.0.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "224.0.0.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "255.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "o endereço IP do gateway padrão.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "72024afcb9ed4043acd1763a862318c9",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>As comunicações de transmissão em uma rede podem ser direcionadas ou limitadas. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Uma broadcast limitado é enviado para 255.255.255.255. Quando um cliente DHCP precisa enviar um pacote DHCP Discover para procurar servidores DHCP, o cliente usará esse endereço IP de 255.255.255.255 como destino no cabeçalho IP porque ele não tem conhecimento quanto aos endereços IP dos servidores DHCP.</p>",
+      "_incorrect": {
+        "final": "<p>As comunicações de transmissão em uma rede podem ser direcionadas ou limitadas. Um broadcast direcionado é enviado para todos os hosts em uma rede específica. Uma broadcast limitado é enviado para 255.255.255.255. Quando um cliente DHCP precisa enviar um pacote DHCP Discover para procurar servidores DHCP, o cliente usará esse endereço IP de 255.255.255.255 como destino no cabeçalho IP porque ele não tem conhecimento quanto aos endereços IP dos servidores DHCP.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "90267402430e4b468e8c0680c2df8584",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9a8e4f13-0691-46c8-a047-f9cc311d2306",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "90267402430e4b468e8c0680c2df8584",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "285515",
+    "_activityParentId": "71fec9fe-a73e-46b8-b8d8-ecf190a2dddb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "6860b6b82d014f9a8f50fd935e60f2c2",
+    "body": "Que tipo de pacote é enviado por um servidor DHCP após receber uma mensagem de DHCP Discover?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "DHCP ACK",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCP Discover",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Oferta de DHCP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Solicitação de DHCP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "6860b6b82d014f9a8f50fd935e60f2c2",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "</p>Quando um servidor DHCP recebe um pacote DHCP Discover de um cliente, o servidor responde com um pacote de Oferta DHCP para informar ao cliente que um endereço IP está disponível e reservado para o cliente.</p>",
+      "_incorrect": {
+        "final": "</p>Quando um servidor DHCP recebe um pacote DHCP Discover de um cliente, o servidor responde com um pacote de Oferta DHCP para informar ao cliente que um endereço IP está disponível e reservado para o cliente.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fe4880a0e47943b6b9acbe8c8fa8c87a",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "875d8b0a-aa01-4166-b457-9175116d6147",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fe4880a0e47943b6b9acbe8c8fa8c87a",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "285516",
+    "_activityParentId": "3e78cbf1-c9a6-468d-87d0-51193bbc35fb",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "7a0888cff1eb4c9ea78a217af93da27b",
+    "body": "Qual é a vantagem de usar o DHCP para atribuir endereços a dispositivos móveis?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "As concessões de endereço são temporárias e retornam ao pool quando o dispositivo é desligado.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Os endereços são atribuídos permanentemente ao dispositivo móvel e são válidos em qualquer rede.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O uso do DHCP cria muito mais endereços IPv4 registrados.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O DHCP permite que vários endereços IPv4 internos usem um único endereço global registrado.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "7a0888cff1eb4c9ea78a217af93da27b",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado. Isso é especialmente útil com usuários móveis que vêm e vão em uma rede.</p>",
+      "_incorrect": {
+        "final": "<p>Outro benefício do DHCP é que o endereço não é permanentemente atribuído a um host, mas é só “alugado” por um período. Se o host é desligado ou retirado da rede, o endereço retorna ao pool para ser reutilizado. Isso é especialmente útil com usuários móveis que vêm e vão em uma rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "30582599f02d4e6a89a718d81de27590",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9b4934ea-e873-4532-8cf6-29c841791d5c",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "30582599f02d4e6a89a718d81de27590",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410473",
+    "_activityParentId": "ddeca6ef-381f-474f-a1c4-9e4662640e30",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "aa733d0bcd044e8a8e4d0c1497774419",
+    "body": "<p><img loading=\"eager\" src=\"pt-BR/assets/ce02d307125e408689a5104095aeda33.png\" alt=\"> Exibir  mostra uma parte da tela de definição da configuração de rede da GUI em um roteador sem fio doméstico. O IP do roteador está definido como 192.168.0.1 máscara de sub-rede  255.255.255.0.  Abaixo das configurações de IP do roteador estão as configurações do servidor DHCP. Servidor DHCP está habilitado Endereço IP inicial é 192.168.0.100. Número máximo de usuários está definido em 50. Faixa de Endereço IP é 192.168.0.100 - 149.\" style=\"min-width: 50%;\"></p><p>Consulte a figura. O roteador doméstico está configurado como um servidor DHCP. A faixa  de endereços IP está configurado para ser 192.168.0.100 - 149.  Qual endereço IP será atribuído automaticamente ao primeiro dispositivo que se conecta ao roteador sem fio?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "192.168.0.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.0.50",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.0.100",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "192.168.0.149",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "aa733d0bcd044e8a8e4d0c1497774419",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando o primeiro dispositivo se conectar ao roteador sem fio, ele receberá o primeiro endereço configurado no pool.  Os dispositivos subsequentes receberão um endereço do pool até que todos os endereços sejam atribuídos.</p>",
+      "_incorrect": {
+        "final": "<p>Quando o primeiro dispositivo se conectar ao roteador sem fio, ele receberá o primeiro endereço configurado no pool.  Os dispositivos subsequentes receberão um endereço do pool até que todos os endereços sejam atribuídos.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "55305337b2c8458fb6e1783dd4dc5e7a",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "9372a940-d8fd-486b-8532-41d0b01075ba",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "55305337b2c8458fb6e1783dd4dc5e7a",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410474",
+    "_activityParentId": "c4c9bfdb-2b0f-497e-8e90-d3dd4bd23eba",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "e86b9030bdfb43bcb5d6ab3cefe77037",
+    "body": "<p><img loading=\"eager\" src=\"pt-BR/assets/9b9223d72d7c46889d4ef7ac1349ff5d.png\" alt=\"Uma rede Ethernet com três dispositivos é exibida. Os três dispositivos são rotulados como PC1, Servidor DHCP e R1 (roteador). Cada dispositivo tem um endereço IP. O endereço IP para PC1 é 192.168.1.130/24, o endereço IP para o servidor DHCP é 192.168.1.8/24 e o endereço IP para a interface FastEthernet 0/1do roteador  é 192.168.1.1/24.\" style=\"min-width: 50%;\"></p><p>Consulte a figura. PC1 foi configurado para obter um endereço IP dinâmico de um servidor DHCP O PC1 foi desligado por duas semanas. Quando o PC1 inicializa e tenta solicitar um endereço IP disponível, qual endereço IP de destino o PC1 colocará no cabeçalho IP?</p>",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "192.168.1.1",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.1.8",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "192.168.1.255",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "255.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "e86b9030bdfb43bcb5d6ab3cefe77037",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando um host é inicializado e foi configurado para endereçamento IP dinâmico, o dispositivo tenta obter um endereço IP válido. Ele envia uma mensagem de DHCPDISCOVER. Esta é uma mensagem de broadcast porque o endereço do servidor DHCP é desconhecido (por padrão). O endereço IP de destino no cabeçalho IP é 255.255.255.255 e o endereço MAC de destino é FF: FF: FF: FF: FF: FF.</p>",
+      "_incorrect": {
+        "final": "<p>Quando um host é inicializado e foi configurado para endereçamento IP dinâmico, o dispositivo tenta obter um endereço IP válido. Ele envia uma mensagem de DHCPDISCOVER. Esta é uma mensagem de broadcast porque o endereço do servidor DHCP é desconhecido (por padrão). O endereço IP de destino no cabeçalho IP é 255.255.255.255 e o endereço MAC de destino é FF: FF: FF: FF: FF: FF.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8469de01fcc149c39c6f68108c4020df",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "f93cdc3b-0f59-45c2-9c64-f2464f693445",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8469de01fcc149c39c6f68108c4020df",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "207537",
+    "_activityParentId": "b995a9dc-c3f8-4068-b050-690589b2f282",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ac9fd7a2583a4d77949986b5690fadcb",
+    "body": "Que tipo de servidor atribui dinamicamente um endereço IP a um host?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "ARP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCP",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "DNS",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "FTP",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "ac9fd7a2583a4d77949986b5690fadcb",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Os servidores DHCP podem ser computadores ou dispositivos de rede configurados para atribuir endereços IPv4 a dispositivos conectados à rede.</p>",
+      "_incorrect": {
+        "final": "<p>Os servidores DHCP podem ser computadores ou dispositivos de rede configurados para atribuir endereços IPv4 a dispositivos conectados à rede.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "8371c5a770164bd9b56974813e18df7f",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "40cd7211-2e9e-460f-8adf-98ebdba1ef34",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "8371c5a770164bd9b56974813e18df7f",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410428",
+    "_activityParentId": "7b32ac84-bd78-4fbd-940e-00ca5cb0472c",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "cc2b612c6b194bdbb37085e57dc722a8",
+    "body": "Quais das três instruções descrevem uma mensagem de descoberta de DHCP? (Escolha três.)",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "O endereço MAC de origem é 48 uns(FF-FF-FF-FF-FF-FF).",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "O endereço IP de destino é  255.255.255.255",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "A mensagem vem de um servidor que oferece um endereço IP.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "A mensagem vem de um cliente que procura um endereço IP.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Todos os hosts recebem a mensagem, mas apenas um servidor DHCP responde.",
+        "feedback": "",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Somente o servidor DHCP recebe a mensagem.",
+        "feedback": "",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_oldId": "cc2b612c6b194bdbb37085e57dc722a8",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando um host configurado para usar DHCP é ligado em uma rede, ele envia uma mensagem DHCPDISCOVER. FF-FF-FF-FF-FF-FF é o endereço broadcast L2. Um servidor DHCP responde com uma mensagem DHCPOFFER unicast de volta ao host.</p>",
+      "_incorrect": {
+        "final": "<p>Quando um host configurado para usar DHCP é ligado em uma rede, ele envia uma mensagem DHCPDISCOVER. FF-FF-FF-FF-FF-FF é o endereço de broadcast L2. Um servidor DHCP responde com uma mensagem DHCPOFFER unicast de volta ao host.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "fd5b974319e348c4b1c85eaf427e6775",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "5a460789-c152-4eaf-9a7f-ff7a2e9389dd",
+    "_isOptional": false,
+    "_selectable": 3,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "fd5b974319e348c4b1c85eaf427e6775",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410480",
+    "_activityParentId": "29665b43-2312-4f5c-89bd-f51707f8ee75",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "eca445bd37fd40fcbff7e947c3d87f0f",
+    "body": "Um PC está tentando conceder um endereço através do DHCP. Que mensagem é enviada pelo servidor para que o cliente saiba que é capaz de usar as informações de IP fornecidas?",
+    "_type": "component",
+    "title": "Pergunta",
+    "_items": [
+      {
+        "text": "DHCPDISCOVER",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCPOFFER",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCPREQUEST",
+        "feedback": "",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "DHCPACK",
+        "feedback": "",
+        "_shouldBeSelected": true
+      }
+    ],
+    "_oldId": "eca445bd37fd40fcbff7e947c3d87f0f",
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_buttons": {
+      "_reset": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_submit": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showFeedback": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_hideCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "_showCorrectAnswer": {
+        "ariaLabel": "",
+        "buttonText": ""
+      },
+      "remainingAttemptText": "",
+      "remainingAttemptsText": ""
+    },
+    "_classes": "background-colour1",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_attempts": -1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>Quando um host usa DHCP para configurar automaticamente um endereço IP, normalmente envia duas mensagens: a mensagem DHCPDISCOVER e a mensagem DHCPREQUEST. Essas duas mensagens geralmente são enviadas como broadcasts para garantir que todos os servidores DHCP irão recebê-las. Os servidores respondem a essas mensagens usando mensagens DHCPOFFER, DHCPACK e DHCPNACK, dependendo da circunstância.</p>",
+      "_incorrect": {
+        "final": "<p>Quando um host usa DHCP para configurar automaticamente um endereço IP, normalmente envia duas mensagens: a mensagem DHCPDISCOVER e a mensagem DHCPREQUEST. Essas duas mensagens geralmente são enviadas como broadcasts para garantir que todos os servidores DHCP irão recebê-las. Os servidores respondem a essas mensagens usando mensagens DHCPOFFER, DHCPACK e DHCPNACK, dependendo da circunstância.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_isHidden": false,
+    "_isRandom": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0e384b5ec4ee415db09f78ab3bb9b7f1",
+    "_ariaLevel": 0,
+    "_component": "mcq",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "c60726a9-3478-40b5-9402-8c3df7f5a441",
+    "_isOptional": false,
+    "_selectable": 1,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0e384b5ec4ee415db09f78ab3bb9b7f1",
+    "displayTitle": "Pergunta",
+    "_canShowMarking": true,
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_questionWeight": 1,
+    "_canShowFeedback": false,
+    "_ravennaSourceID": "410506",
+    "_activityParentId": "ad64d3fe-b50a-4356-8549-52608ba4c768",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_recordInteraction": true,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bb3335dceef54b2bbebf06b88e01fd85",
+    "body": "",
+    "_type": "component",
+    "title": "Feedback do questionário",
+    "_bands": [
+      {
+        "_score": 0,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Você não passou no teste neste momento. Clique em Redefinir para refazê-lo. <span class=\"mobile-instruction-text\">Toque no ícone de saída no canto superior direito ou feche esta guia ou janela.</span></span></p><p style=\"text-align:center\"><span style=\"color:#000000\">Lembre-se de que você pode retornar ao módulo para referência ou refazer o teste a qualquer momento.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#c91111"
+      },
+      {
+        "_score": 70,
+        "_classes": "",
+        "feedback": "<p style=\"text-align:center\"><span style=\"color:#000000\">Parabéns, você passou no teste.</span></p>",
+        "_allowRetry": false,
+        "progressMeterColor": "#1c8e0d"
+      }
+    ],
+    "_oldId": "bb3335dceef54b2bbebf06b88e01fd85",
+    "_retry": {
+      "button": "Teste novamente",
+      "feedback": "",
+      "_routeToAssessment": false
+    },
+    "_layout": "full",
+    "_search": {
+      "keywords": "",
+      "_isEnabled": true,
+      "_drawerOrder": 1
+    },
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "animated pulse infinite",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "1804d87bf56749e4a1e14954ec46c825",
+    "_ariaLevel": 0,
+    "_component": "assessmentResults",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_resetType": "inherit",
+    "_activityId": "3fbc13ee-2c6d-45df-93c2-a51054dc0487",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "1804d87bf56749e4a1e14954ec46c825",
+    "displayTitle": "",
+    "_assessmentId": "dac98f3857ca4dcd9ebc7d66e460f8bf",
+    "_completionBody": "<p style=\"text-align: center;\">Você pontuou {{scoreAsPercent}}%.</p><p style=\"text-align: center;\">{{{feedback}}}</p>",
+    "_courseProgress": {
+      "_isEnabled": true
+    },
+    "_setCompletionOn": "pass",
+    "_activityParentId": "3f346fb3-c9b3-435b-bca5-efed0914859f",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false,
+    "_isVisibleBeforeCompletion": false
+  },
+  {
+    "_id": "97f6cec8bef849eeb617ba1308e9e97f",
+    "body": "",
+    "_type": "component",
+    "title": "Navigation",
+    "_oldId": "97f6cec8bef849eeb617ba1308e9e97f",
+    "_layout": "full",
+    "_buttons": {
+      "_up": {
+        "text": "Voltar ao menu",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Voltar ao menu",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_next": {
+        "text": "Avançar ",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Próxima página",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_root": {
+        "text": "Página inicial",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página inicial",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_close": {
+        "text": "Fechar",
+        "_order": 1,
+        "tooltip": "Fechar janela",
+        "_classes": "",
+        "ariaLabel": "Fechar janela",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_sibling": {
+        "text": "{{inc index}}",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página {{inc index}}",
+        "_iconClass": "",
+        "_isEnabled": false,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      },
+      "_previous": {
+        "text": "Anterior",
+        "_order": 1,
+        "tooltip": "{{displayTitle}}",
+        "_classes": "",
+        "ariaLabel": "Página anterior",
+        "_iconClass": "",
+        "_isEnabled": true,
+        "_showTooltip": false,
+        "_customRouteId": "",
+        "_alignIconRight": false
+      }
+    },
+    "_classes": "",
+    "_comment": "none = disable previous and next buttons at start and end of the pages in the current parent object",
+    "_parentId": "967d52eb4ed0464eac6f9a60cb37c92d",
+    "_component": "quicknav",
+    "_isDeleted": false,
+    "_loopStyle": "siblings",
+    "_activityId": "ffb36ddf-a2da-4037-9034-06ef658bad84",
+    "_isOptional": true,
+    "instruction": "",
+    "_oldParentId": "967d52eb4ed0464eac6f9a60cb37c92d",
+    "displayTitle": "",
+    "_activityParentId": "c203ef47-61b1-432f-afed-4c417d4905fe"
+  },
+  {
+    "_id": "5ac73d72-21bb-4b78-8969-498f5d28f1e5",
+    "body": "<h2><span lang=\"PT-BR\">Objetivos</span></h2> <p><ul><li>Conectar 3 PCs a um roteador sem fio</li><li>Alterar a configuração do DHCP para uma faixa de rede específica</li><li>Configurar os clientes para obter seus endereços por DHCP</li></ul></p><h2><span lang=\"PT-BR\">Histórico/Cenário</span></h2> <p class=\"BodyTextL25\"><span lang=\"PT-BR\">Um usuário doméstico quer usar um roteador sem fio para conectar 3 PCs. Todos os 3 PCs devem obter seus endereços automaticamente a partir do roteador sem fio.</span></p> <h2><span lang=\"PT-BR\">Instruções</span></h2> <h2><span lang=\"PT-BR\">Parte 1: </span><span lang=\"PT-BR\">Configurar a topologia de rede</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Adicione três PCs genéricos.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Conecte cada PC a uma porta Ethernet a um roteador sem fio com cabos diretos.</span></p> <h2><span lang=\"PT-BR\">Parte 2: </span><span lang=\"PT-BR\">Observar as configurações DHCP padrão</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Após as luzes amarelas ficarem verdes, clique em <b>PC0</b>. Clique na guia <b>Desktop</b>. Selecione <b>IP Configuration</b>. Selecione <b>DHCP</b> para receber um endereço IP do roteador<b> habilitado para DHCP.</b></span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "5ac73d72-21bb-4b78-8969-498f5d28f1e5",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "4523559a-49e5-484f-a9ed-a48bf804642d",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "56a072d7-f97a-4b33-b0d5-d137f6f24ff8",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "4523559a-49e5-484f-a9ed-a48bf804642d",
+    "displayTitle": "",
+    "_activityParentId": "52854b01-6601-4499-aba5-8c6b37e22737",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "c2582e65-631d-4261-9f12-cdf742a5e4f5",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "c2582e65-631d-4261-9f12-cdf742a5e4f5",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Anote o endereço IP do gateway padrão.</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "c93b4250-500f-4848-98eb-fecefc70dac4",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"border:none'\"><span style=\"border:none\">192.168.0.1 </span></span></span></p>",
+    "_activityId": "48aad285-cde9-4dc2-9480-2efb70925c3f",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "c93b4250-500f-4848-98eb-fecefc70dac4",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "d2db6834-e349-4c63-b310-080d4db10543",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "fab453a3-8e0a-4077-8329-1d2b395eeeba",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Feche a janela <b>IP Configuration</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Abra um Navegador Web.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Digite o endereço IP do gateway padrão registrado anteriormente no campo URL. Quando solicitado, insira o nome de usuário <b>admin</b> e a senha<b> admin</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Role pela página Configuração Básica para visualizar as configurações padrão, incluindo o endereço IP padrão do roteador sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Observe que o DHCP está ativado, o endereço inicial da faixa DHCP e a faixa dos endereços disponíveis aos clientes.</span></p> <h2><span lang=\"PT-BR\">Parte 3: </span><span lang=\"PT-BR\">Altere os endereços IP padrão do roteador sem fio.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Na seção Configurações do IP do Roteador, altere o endereço IP para: <b>192.168.5.1</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Vá até o final da página e clique em<b> Save Settings </b>(Salvar Configurações).</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Se tudo for feito corretamente, a página Web exibirá uma mensagem de erro. Feche o navegador Web.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em<b> IP Configuration</b> para renovar o endereço IP atribuído. Clique em <b>Static (Estático)</b>. Clique em <b>DHCP </b>para receber novas informações de endereço IP do roteador sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Abra o Navegador Web, digite o endereço IP <b>192.168.5.1 </b>no campo URL. Quando solicitado, insira o nome de usuário <b>admin</b> e a senha<b> admin</b>.</span></p> <h2><span lang=\"PT-BR\">Parte 4: </span><span lang=\"PT-BR\">Altere o intervalo de endereços DHCP padrão.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Observe que o endereço IP inicial do servidor DHCP é atualizado para a mesma rede do IP do roteador.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Altere o endereço IP inicial de 192.168.5.100 para <b>192.168.5.126</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Altere o Número Máximo de Usuários para <b>75</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;Vá até o final da página e clique em<b> Save Settings </b>(Salvar Configurações). Feche o Navegador Web.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique <b>em IP Configuration</b> para renovar o endereço IP atribuído. Clique em <b>&nbsp;Static (Estático)</b>. Clique em <b>DHCP </b>para receber novas informações de endereço IP do roteador sem fio.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Selecione <b>Command Prompt</b>. Insira <b>ipconfig</b>.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "fab453a3-8e0a-4077-8329-1d2b395eeeba",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "0c81a06e-e4b5-4a35-b7e0-3845c39c3328",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "604f5536-22e2-4049-8aba-d13feb98268f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "0c81a06e-e4b5-4a35-b7e0-3845c39c3328",
+    "displayTitle": "",
+    "_activityParentId": "e3af2af7-ff9b-4bf4-89b8-428e7c80db39",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "bbe1e129-082e-4c99-8698-1326f31b4fe7",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "bbe1e129-082e-4c99-8698-1326f31b4fe7",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Anote o endereço IP do PC0:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "5569dbfa-a19c-420a-ab33-d97810d4fb99",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"border:none'\"><span style=\"border:none\">192.168.5.126 </span></span></span></p>",
+    "_activityId": "9b5dc272-f22b-4abe-b094-b117512880e7",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "5569dbfa-a19c-420a-ab33-d97810d4fb99",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "bc282e21-73f3-4509-abb5-dc8e6fb13436",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "ce10b0e6-5b11-44a5-b959-846086af98d3",
+    "body": "<h2><span lang=\"PT-BR\">Parte 5: </span><span lang=\"PT-BR\">Ative o DHCP nos outros PCs.</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em <b>PC1</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Selecione a guia <b>Desktop</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Selecione Configuração de IP.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique em <b>DHCP</b>.</span></p> <h4 class=\"pageTracer-h4-title-hide\"><span lang=\"PT-BR\">Pergunta:</span></h4>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "ce10b0e6-5b11-44a5-b959-846086af98d3",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "f78b9ac6-1bc0-4ad7-909b-3589a1d02814",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "52ce5713-da85-4bf9-b189-2785b905101f",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "f78b9ac6-1bc0-4ad7-909b-3589a1d02814",
+    "displayTitle": "",
+    "_activityParentId": "c3b1f226-0f57-46f6-9ff1-e9b80101f8d1",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "29c28d47-acaa-4c6a-bef8-3fb6101fada3",
+    "body": "",
+    "_type": "component",
+    "title": "Open Text Box Widget",
+    "_oldId": "29c28d47-acaa-4c6a-bef8-3fb6101fada3",
+    "preText": "<p class=\"BodyTextL50\"><span lang=\"PT-BR\">Anote o endereço IP do PC1:</span></p>",
+    "_classes": "",
+    "postText": "",
+    "_isHidden": false,
+    "_parentId": "d54597ca-50f0-4a8b-ab3d-d5071f679e9d",
+    "_ariaLevel": 0,
+    "_component": "openTextBox",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "answerText": "<p class=\"BodyTextL50Answer\"><span class=\"AnswerGray\"><span style=\"border:none'\"><span style=\"border:none\">192.168.5.127 </span></span></span></p>",
+    "_activityId": "80e513e3-6db0-489d-848b-c8d30331a7ec",
+    "_isOptional": false,
+    "placeholder": "Digite suas respostas aqui.",
+    "_isAvailable": true,
+    "_oldParentId": "d54597ca-50f0-4a8b-ab3d-d5071f679e9d",
+    "displayTitle": "",
+    "hideButtonText": "Ocultar resposta",
+    "showButtonText": "Mostrar resposta",
+    "_activityParentId": "79f3f2f7-21ee-4041-8e07-296235934454",
+    "_isResetOnRevisit": false,
+    "legendPlaceHolder": "Área de Resposta",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  },
+  {
+    "_id": "82e49f39-9190-4ac9-aa63-7a033c7e2282",
+    "body": "<p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Feche a janela de configuração de</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Ative o DHCP no <b>PC2</b> seguindo as etapas para o PC1.</span></p> <h2><span lang=\"PT-BR\">Parte 6: </span><span lang=\"PT-BR\">Verifique a conectividade</span></h2> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">a.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Clique no <b>PC2</b> e selecione a guia <b>Desktop</b>.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">b.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Selecione Command Prompt.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">c.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Digite <b>ipconfig</b> no prompt para visualizar a configuração de IP.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">d.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">&nbsp;No prompt, digite <b>ping 192.168.5.1</b> para pingar o roteador wireless.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">e.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Execute o comando <b>ping 192.168.5.126</b> para fazer ping em PC0.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">f.<span>&nbsp;&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">No prompt, digite <b>ping 192.168.5.127</b> para fazer ping em PC1.</span></p> <p class=\"SubStepAlpha\"><span lang=\"PT-BR\">g.<span>&nbsp;&nbsp;</span></span><span lang=\"PT-BR\">Os pings para todos os dispositivos devem ser bem-sucedidos.</span></p>",
+    "_type": "component",
+    "title": "Text Widget",
+    "_oldId": "82e49f39-9190-4ac9-aa63-7a033c7e2282",
+    "_layout": "full",
+    "_classes": "",
+    "_menuTOC": {
+      "_isEnabled": false
+    },
+    "_isHidden": false,
+    "_onScreen": {
+      "_classes": "",
+      "_isEnabled": false,
+      "_percentInviewVertical": 50
+    },
+    "_parentId": "2edc26e5-7670-4e7f-a56f-6bcce538264d",
+    "_searchv3": {
+      "keywords": "",
+      "_isEnabled": true
+    },
+    "_ariaLevel": 0,
+    "_component": "text",
+    "_isDeleted": false,
+    "_isVisible": true,
+    "_activityId": "cb3e35c6-d7ac-4c3e-b435-3f67620e79c2",
+    "_isOptional": false,
+    "instruction": "",
+    "_isAvailable": true,
+    "_oldParentId": "2edc26e5-7670-4e7f-a56f-6bcce538264d",
+    "displayTitle": "",
+    "_activityParentId": "21e9d0c7-3472-4e3c-97e9-df5b9d2230e9",
+    "_isResetOnRevisit": false,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_disableAccessibilityState": false
+  }
+]

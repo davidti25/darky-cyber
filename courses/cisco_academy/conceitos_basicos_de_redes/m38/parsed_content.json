@@ -1,0 +1,667 @@
+{
+  "sections": [
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "{{_moduleNumber}}.0 Introdução"
+    },
+    {
+      "type": "text",
+      "title": ".0 Introdução",
+      "content": "Role para começar"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".0.1 Por que devo fazer este módulo?",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".0.1 Por que devo fazer este módulo?",
+      "content": "É Webster novamente! O help desk da faculdade recebe tíquetes de suporte por vários motivos. O guia de solução de problemas que Lara criou ajudará os técnicos com problemas comuns de computador e rede. Mas, às vezes, esses tíquetes de suporte resultam de malware no computador do usuário. A web tem muito a oferecer, mas os usuários devem ter cuidado porque os malfeitores sempre querem causar estragos ou lucrar com você.\nLara fez um trabalho tão bom criando o guia de solução de problemas de suporte técnico que a faculdade a designou para trabalhar em uma campanha de conscientização sobre segurança cibernética. A campanha deve educar os usuários universitários sobre as ameaças, vulnerabilidades e ataques cibernéticos comuns usados por agentes de ameaças. Também deve incluir informações sobre agentes de ameaças que usam técnicas de engenharia social para enganar os usuários, informações sobre ameaças sem fio comuns e uma explicação das ameaças aos aplicativos.\nEducação é a primeira linha de defesa Se os usuários souberem das coisas ruins que podem acontecer, eles ajudarão defender a faculdade contra eles. Então, vamos nos aprofundar e aprender mais sobre essas ameaças, vulnerabilidades e ataques cibernéticos."
+    },
+    {
+      "type": "text",
+      "title": ".1 Ameaças Comuns",
+      "content": "{{_moduleNumber}}.1 Ameaças Comuns"
+    },
+    {
+      "type": "text",
+      "title": ".1 Ameaças Comuns",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".1.2 Tipos de ameaças cibernéticas",
+      "content": "**Ataques de software:** Um ataque de negação de serviço bem-sucedido (ataque DoS).\nUm vírus de computador.\n\n**Erros de software:** Um bug de software\nUm aplicativo que fica off-line\num script entre sites (xss) ou compartilhamento ilegal de servidor de arquivos\n\n**Sabotagem:** Um usuário autorizado penetra e compromete com sucesso o banco de dados primário de uma organização.\nA desfiguração do site de uma organização.\n\n**Erro humano:** Erros de entrada de dados inadvertidos.\nUma configuração incorreta do firewall.\n\n**Roubo:** Laptops ou equipamentos sendo roubados de uma sala destrancada.\n\n**Falhas de hardware:** Falhas de disco rígido\n\n**Interrupção do utilitário:** Interrupções de energia elétrica\nDanos causados pela água resultantes da falha do sprinkler\n\n**Desastres naturais:** Tempestades severas, como furacões ou tornados.\nTerremotos.\nInundações.\nIncêndios."
+    },
+    {
+      "type": "text",
+      "title": ".1.3 Ameaças internas x externas",
+      "content": "As ameaças podem se originar dentro e fora de uma empresa, com os invasores buscando acesso a informações confidenciais valiosas, como registros pessoais, propriedade intelectual e dados financeiros.\nAs Ameaças Internas são geralmente realizadas por funcionários atuais ou antigos e outros parceiros de contrato que acidentalmente ou intencionalmente manipulam dados confidenciais ou ameaçam as operações de servidores ou dispositivos de infraestrutura de rede ao conectar a mídia infectada ou acessar e-mails ou sites mal-intencionados.\nA fonte de uma ameaça externa geralmente vem de invasores amadores ou qualificados que podem explorar vulnerabilidades em dispositivos de rede ou podem usar técnicas de engenharia social, como truques, para obter acesso aos recursos internos de uma organização."
+    },
+    {
+      "type": "graphic_text",
+      "title": "6b577750-9ca3-11ed-a4d4-0da6ae514d24",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".1.5 Ameaças e vulnerabilidades do usuário",
+      "content": "**Não há conscientização de segurança:** Os usuários devem estar cientes e entender os dados confidenciais de uma organização, políticas e procedimentos de segurança, tecnologias e contramedidas que são implementadas para proteger as informações e os sistemas de informação.\n\n**Políticas de segurança aplicadas incorretamente:** Todos os usuários devem estar cientes e entender as políticas de segurança de uma empresa, bem como as consequências da não conformidade.\n\n**Roubo de dados:** Os dados roubados pelos usuários podem representar uma ameaça financeira significativa para as empresas, tanto em termos dos danos resultantes à sua reputação quanto da responsabilidade legal associada à divulgação de informações confidenciais.\n\n**Downloads e mídias não autorizados:** Muitas infecções e ataques de rede e dispositivos podem ser rastreados de usuários que baixaram e-mails, fotos, músicas, jogos, aplicativos e vídeos não autorizados em seus computadores, redes ou dispositivos de armazenamento. O uso de mídia não autorizada, como discos rígidos externos e unidades USB, também representa uma ameaça.\n\n**Redes privadas virtuais não autorizadas (VPNs):** As VPNs podem ocultar o roubo de informações não autorizadas porque a criptografia normalmente usada para proteger a confidencialidade pode impedir um administrador de rede de rastrear a transmissão de dados (a menos que tenha permissão para fazê-lo).\n\n**Sites não autorizados:** O acesso a sites não autorizados pode representar um risco para os dados e dispositivos de um usuário, bem como para a própria organização. Muitas vezes, esses sites solicitam que os usuários baixem scripts ou plug-ins que contenham código malicioso ou adware. Alguns desses sites podem até assumir dispositivos de usuários, como câmeras e aplicativos.\n\n**Destruição de sistemas, aplicativos ou dados:** A destruição ou sabotagem acidental ou deliberada de sistemas, aplicativos e dados representa um sério risco para todas as organizações. Ativistas, funcionários descontentes e concorrentes do setor podem excluir dados, destruir dispositivos ou tornar dados e sistemas de informação indisponíveis."
+    },
+    {
+      "type": "text",
+      "title": ".1.5 Ameaças e vulnerabilidades do usuário",
+      "content": "Tenha sempre em mente que não existem soluções técnicas, controles ou contramedidas que tornem os sistemas de informação mais seguros do que os comportamentos e processos das pessoas que usam esses sistemas."
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Ameaças aos Dispositivos",
+      "content": "Quaisquer dispositivos deixados ligados e sem supervisãorepresentam o risco de alguém obter acesso não autorizado aos recursos de rede.\nBaixar arquivos, fotos, músicas ou vídeos de fontes não confiáveis pode levar à execução de códigos maliciosos em dispositivos.\nOs criminosos digitais costumam explorar vulnerabilidades de segurança em softwares instalados nos dispositivos de uma empresa para iniciar um ataque.\nAs equipes de segurança da informação de uma empresa devem tentar manter-se atualizadas com a descoberta diária de novos vírus, worms e outros malwares que representam uma ameaça para seus dispositivos."
+    },
+    {
+      "type": "text",
+      "title": ".1.6 Ameaças aos Dispositivos",
+      "content": "Os usuários que inserem unidades USB, CDs ou DVDs não autorizados correm o risco de introduzir malware ou comprometer os dados armazenados em seus dispositivos.\nAs políticas estão em vigor para proteger a infraestrutura de TI de uma organização. Um usuário pode enfrentar graves consequências por violar essas políticas de propósito.\nO uso de hardware ou software desatualizado torna os sistemas e os dados de uma empresa mais vulneráveis a ataques."
+    },
+    {
+      "type": "text",
+      "title": ".1.8 Ameaças à nuvem privada",
+      "content": "O domínio da nuvem privada inclui servidores privados, recursos e infraestrutura de TI disponíveis para membros de uma única organização por meio da Internet. Embora muitas empresas achem que seus dados estão mais seguros em uma nuvem privada, esse domínio ainda apresenta ameaças significativas à segurança, incluindo:\nDetecção de rede não autorizada e varredura de porta\nAcesso não autorizado a recursos\nVulnerabilidades no sistema operacional ou software de roteadores, firewalls ou dispositivos de rede\nErros de configuração em roteadores,firewalls ou dispositivos de rede\nUsuários remotos acessando a infraestrutura de uma organização e baixando dados confidenciais"
+    },
+    {
+      "type": "text",
+      "title": ".1.10 Ameaças aos Aplicativos",
+      "content": "O domínio do aplicativo inclui todos os sistemas, aplicativos e dados críticos usados por uma organização para dar suporte às operações. Cada vez mais, as organizações estão movendo aplicativos como e-mail, monitoramento de segurança e gerenciamento de banco de dados para a nuvem pública.\nAs ameaças comuns aos aplicativos incluem:\nAlguém obtendo acesso não autorizado a data centers, salas de computadores, armários de fiação ou sistemas\nTempo de inatividade do servidor durante períodos de manutenção\nVulnerabilidades de software do sistema operacional de rede\nPerda de dados\nVulnerabilidades de desenvolvimento de aplicativos cliente-servidor ou web"
+    },
+    {
+      "type": "text",
+      "title": ".1.12 Complexidade da Ameaça",
+      "content": "Ameaça persistente avançada (APT) um ataque contínuo que utiliza táticas elaboradas de espionagem envolvendo múltiplos agentes e malware sofisticado.\nOs invasores permanecem indetectáveis por um longo período de tempo, com consequências potencialmente devastadoras. Os APTs normalmente visam governos e organizações de alto nível e geralmente são bem orquestrados e bem financiados."
+    },
+    {
+      "type": "text",
+      "title": ".1.12 Complexidade da Ameaça",
+      "content": "Como o nome sugere, os ataques de algoritmos aproveitam os algoritmos em um software legítimo para gerar comportamentos não desejados. Por exemplo, algoritmos usados para rastrear e relatar quanta energia um computador consome podem ser usados para selecionar alvos ou acionar alertas falsos. Eles também podem desabilitar um computador forçando-o a usar toda a sua RAM ou sobrecarregando sua unidade central de processamento (CPU)."
+    },
+    {
+      "type": "text",
+      "title": ".2 Disfarce",
+      "content": "{{_moduleNumber}}.2 Disfarce"
+    },
+    {
+      "type": "text",
+      "title": ".2 Fraudes",
+      "content": "Role para começar"
+    },
+    {
+      "type": "accordion",
+      "title": ".2.2 Táticas de Engenharia Social",
+      "content": "**Autoridade:** Os invasores atacam o fato de que as pessoas são mais propensas a obedecer quando instruídas por alguém que consideram uma figura de autoridade.\nPor exemplo, um executivo abre o que parece ser um anexo de intimação oficial, mas na verdade é um PDF infectado.\n\n**Intimidação:** Os criminosos cibernéticos muitas vezes obrigam uma vítima a agir que compromete a segurança.\nA secretária de um executivo recebe um telefonema informando que seu chefe está prestes a fazer uma apresentação importante, mas seus arquivos estão corrompidos. O criminoso ao telefone alega que é culpa da secretária e pressiona a secretária a enviar os arquivos imediatamente ou corre o risco de ser demitida.\n\n**Consenso:** Frequentemente chamados de \"prova social\", os ataques de consenso funcionam porque as pessoas tendem a agir da mesma forma que as outras pessoas à sua volta, pensando que algo deve estar certo se os outros estiverem fazendo isso.\nPor exemplo, os cibercriminosos podem publicar uma postagem em mídia social sobre uma falsa oportunidade de negócios e fazer com que dezenas de contas legítimas ou ilegítimas comentem sobre sua validade. Isso encoraja vítimas inocentes a fazer uma compra.\n\n**Escassez:** Uma tática de marketing bem conhecida, os ataques de escassez funcionam porque os invasores sabem que as pessoas tendem a agir quando acham que há uma quantidade limitada de algo disponível.\nPor exemplo, alguém recebe um e-mail sobre um item de luxo que está sendo vendido por muito pouco dinheiro, mas ele afirma que há apenas um punhado disponível a esse preço, em um esforço para estimular a vítima desavisada a agir. Isso pode estimular a vítima desavisada a agir impulsivamente.\n\n**Urgência:** Da mesma forma, as pessoas também tendem a agir quando pensam que há um tempo limitado para isso.\nPor exemplo, os criminosos digitais promovem uma oferta falsa de envio por tempo limitado para tentar levar as vítimas a agir rapidamente.\n\n**Familiaridade:** As pessoas são mais propensas a fazer o que outra pessoa pede se gostarem dela.\nPortanto, os invasores geralmente tentam estabelecer um relacionamento com a vítima para estabelecer um relacionamento. Em outros casos, eles podem clonar o perfil de mídia de um amigo seu para que você pense que está falando com ele.\n\n**Confiança:** Construir confiança em um relacionamento com a vítima pode exigir mais tempo para se estabelecer.\nPor exemplo, um criminoso cibernético disfarçado de especialista em segurança liga para a vítima desavisada para oferecer consultoria. Ao ajudar a vítima, o “especialista em segurança” descobre um “erro grave” que precisa de atenção imediata. A solução oferece ao criminoso digital a oportunidade de violar a segurança da vítima."
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Shoulder Surfing e Dumpster Diving (Busca de informações  na Lixeira)",
+      "content": "O Shoulder Surfing é um ataque simples que envolve observar ou literalmente olhar por cima do ombro de um alvo para obter informações valiosas, como PINs, códigos de acesso ou detalhes de cartão de crédito. Os criminosos nem sempre precisam estar perto de suas vítimas para escapar da onda - eles podem usar binóculos ou câmeras de segurança para obter essas informações.\nEsta é uma razão pela qual uma tela de caixa eletrônico só pode ser vista em determinados ângulos. Esses tipos de proteções dificultam muito o Shoulder Surfing."
+    },
+    {
+      "type": "text",
+      "title": ".2.4 Shoulder Surfing e Dumpster Diving (Busca de informações  na Lixeira)",
+      "content": "Você já deve ter ouvido falar da frase: \"O lixo de um homem é o tesouro de outro homem\". Em nenhum lugar isso é mais verdadeiro do que no mundo do dumpster diving (mergulho em lixeiras) – o processo de examinar o lixo de um alvo para ver quais informações foram descartadas.\nÉ por isso que os documentos que contêm informações confidenciais devem ser triturados ou armazenados em sacos de queima até que possam ser destruídos."
+    },
+    {
+      "type": "text",
+      "title": ".2.6 Pegadinhas (Piggybacking) e utilização não autorizada (Tailgating)",
+      "content": "Piggybacking ou Tailgating ocorre quando um criminoso segue uma pessoa autorizada para obter entrada física em um local seguro ou em uma área restrita. Os criminosos podem conseguir isso:\nDar a impressão de ser escoltado para a instalação por uma pessoa autorizada.\nJuntar-se e fingir ser parte de uma grande multidão que entra na instalação.\nVisar uma pessoa autorizada que não tem cuidado com as regras da instalação.\nUma maneira de evitar isso é usar dois conjuntos de portas. Isso às vezes é chamado de mantrap e significa que os indivíduos entram por uma porta externa, que deve fechar antes que eles possam ter acesso através de uma porta interna."
+    },
+    {
+      "type": "accordion",
+      "title": ".2.7 Outros métodos de fraude",
+      "content": "**Fraude da fatura:** As faturas falsas são enviadas com o objetivo de receber dinheiro de uma vítima solicitando que ela coloque suas credenciais em uma tela de login falsa. A fatura falsa também pode incluir linguagem urgente ou ameaçadora.\n\n**Ataque do regador:** Um ataque watering hole (poço de água) descreve uma exploração na qual um invasor observa ou adivinha quais sites uma empresa usa com mais frequência e infecta um ou mais deles com malware.\n\n**Typosquatting:** Esse tipo de ataque depende de erros comuns, como erros de digitação cometidos por indivíduos ao inserir um endereço de site em seu navegador. A URL incorreta levará os indivíduos a um site legítimo de propriedade do invasor, cujo objetivo é coletar informações pessoais ou financeiras.\n\n**Adendo:** Os invasores podem remover a tag de e-mail “externa” usada pelas empresas para avisar o destinatário de que uma origem externa é originada de um e-mail. Isso leva as pessoas a acreditarem que um e-mail mal-intencionado foi enviado de dentro da empresa.\n\n**Influenciar campanhas:** Frequentemente usadas em guerra cibernética, as campanhas de influência são geralmente muito bem coordenadas e combinam vários métodos, como notícias falsas, campanhas de desinformação e publicações em mídias sociais."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".2.9 Gráfico de defesa contra enganos",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".2.9 Defendendo-se contra fraudes",
+      "content": "As organizações precisam promover a conscientização sobre as táticas de engenharia social e educar adequadamente os funcionários sobre as medidas de prevenção. Aqui estão algumas dicas importantes.\nNunca divulgue informações confidenciais ou credenciais por e-mail, chat, mensagens de texto, pessoalmente ou por telefone para partes desconhecidas.\nResista ao desejo de clicar em e-mails atraentes e links da web.\nDesconfie de downloads não iniciados ou automáticos.\nEstabelecer e educar os funcionários sobre as principais políticas de segurança.\nIncentive os funcionários a assumirem responsabilidade pelos problemas de segurança.\nNão se submeter à pressão de pessoas desconhecidas."
+    },
+    {
+      "type": "text",
+      "title": ".3 Ataques cibernéticos",
+      "content": "{{_moduleNumber}}.3 Ataques cibernéticos"
+    },
+    {
+      "type": "text",
+      "title": ".3 Ataques cibernéticos",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".3.2 Bombas Lógicas",
+      "content": "Uma bomba lógica é um programa malicioso que espera por um gatilho, como uma data especificada ou entrada de banco de dados, para detonar o código malicioso. Até que este evento de disparo aconteça, a bomba lógica permanecerá inativa.\nUma vez ativada, uma bomba lógica implementa um código malicioso que causa danos a um computador de várias maneiras. Ela pode sabotar registros de banco de dados, apagar arquivos e atacar sistemas operacionais ou aplicativos.\nEspecialistas em segurança cibernética descobriram recentemente bombas lógicas que atacam e destroem os componentes de hardware em um dispositivo ou servidor, incluindo ventiladores, unidade central de processamento (CPU), memória, discos rígidos e fontes de alimentação. A bomba lógica sobrecarrega esses componentes até que eles superaqueçam ou falhem."
+    },
+    {
+      "type": "text",
+      "title": ".3.3 Ransomware",
+      "content": "Malware projetado para manter um sistema de computador, ou os dados incluídos nele, presos até que o pagamento seja feito.\nO ransomware geralmente funciona criptografando os dados para que você não possa acessá-los. Conforme as reividicações do ransomware, assim que o resgate for pago por meio de um sistema de pagamento não rastreável, o cibercriminoso fornecerá um programa que descriptografa os arquivos ou envia um código de desbloqueio. Na realidade, muitas vítimas não têm acesso aos seus dados mesmo após terem pago.\nAlgumas versões de ransomware podem tirar proveito de vulnerabilidades específicas do sistema. O ransomware é frequentemente disseminado por e-mails de phishing que o incentivam a baixar um anexo mal-intencionado ou uma vulnerabilidade de software."
+    },
+    {
+      "type": "accordion",
+      "title": ".3.5 Sistema de nomes de domínio",
+      "content": "**Reputação de domínio:** O sistema de nome de domínio (DNS) é usado por servidores DNS para converter um nome de domínio, como www.cisco.com, em um endereço IP numérico para que os computadores possam entendê-lo. Se um servidor DNS não sabe o endereço IP, ele perguntará a outro servidor DNS.\nUma empresa precisa monitorar sua reputação de domínio, incluindo seu endereço IP, para ajudar a proteger contra domínios externos mal-intencionados. A reputação do domínio é usada para classificar e-mails como spam ou possíveis ameaças à segurança.\n\n**DNS spoofing:** A falsificação de DNS ou o envenenamento de cache DNS é um ataque no qual dados falsos são introduzidos em um cache de resolvedor de DNS - o banco de dados temporário no sistema operacional de um computador que registra visitas recentes a sites e outros domínios da Internet.\nEsses ataques exploram uma fraqueza no software de cache DNS que faz com que os servidores DNS redirecionem o tráfego de um domínio legítimo para o endereço IP de um servidor ilícito.\n\n**Sequestro de domínio:** Quando um invasor obtém, por engano, o controle das informações de DNS de um alvo, ele pode fazer alterações não autorizadas. Isso é conhecido como sequestro de domínio.\nA maneira mais comum de sequestrar um nome de domínio é alterar o endereço de e-mail de contato do administrador por meio de engenharia social ou invadir a conta de e-mail do administrador. O endereço de e-mail do administrador pode ser facilmente encontrado pelo registro WHOIS do domínio, que é de registro público.\n\n**Redirecionamento de URL (Localizador Uniforme de Recursos):** Um localizador uniforme de recursos (URL) é um identificador exclusivo para encontrar um recurso específico na Internet. O redirecionamento de uma URL geralmente acontece para fins legítimos.\nPor exemplo, você se conectou a um portal de eLearning para iniciar este curso do Cybersecurity Essentials. Se você sair do portal e retornar a ele outra vez, o portal o redirecionará de volta para a página de login.\nÉ esse tipo de funcionalidade que os invasores podem explorar. Em vez de direcioná-lo para a página de login do eLearning, ele pode redirecioná-lo para um site mal-intencionado."
+    },
+    {
+      "type": "text",
+      "title": ".3.6 Ataques de Camada 2",
+      "content": "A camada 2 refere-se à camada de link de dados no modelo de comunicação de dados Open Systems Interconnection (OSI).\nEssa camada é usada para mover dados por uma rede física vinculada. Os endereços IP são mapeados para cada endereço de dispositivo físico (também conhecido como endereço de controle de acesso de mídia (MAC)) na rede, usando um procedimento chamado protocolo de resolução de endereço (ARP).\nEm seus termos mais simples, o endereço MAC identifica o destinatário de um endereço IP enviado pela rede, e o ARP resolve endereços IP para endereços MAC para transmissão de dados.\nOs invasores geralmente aproveitam as vulnerabilidades nessa segurança de camada 2.\nRole para baixo para descobrir alguns exemplos."
+    },
+    {
+      "type": "text",
+      "title": ".3.6 Ataques de Camada 2",
+      "content": "Spoofing é um ataque de representação e tira proveito de uma relação de confiança entre os dois sistemas.\nA falsificação de endereço MAC ocorre quando um invasor disfarça seu dispositivo como um dispositivo válido na rede e, portanto, pode ignorar o processo de autenticação.\nO ARP spoofing envia mensagens ARP falsificadas através de uma LAN. Isso vincula o endereço MAC de um invasor ao endereço IP de um dispositivo autorizado na rede.\nA falsificação de IP envia pacotes IP de um endereço de origem falsificado para disfarçar a origem do pacote."
+    },
+    {
+      "type": "text",
+      "title": ".3.6 Ataques de Camada 2",
+      "content": "Os dispositivos em uma rede são conectados por um switch de rede usando o switching de pacote para receber e encaminhar dados para o dispositivo de destino. A inundação de MAC compromete os dados transmitidos para um dispositivo. Um invasor inunda a rede com endereços MAC falsos, comprometendo a segurança do switch de rede."
+    },
+    {
+      "type": "text",
+      "title": ".3.9 Ataques de dia zero",
+      "content": "Um ataque de dia zero ou ameaça de dia zero explora vulnerabilidades de software antes que elas se tornem conhecidas, ou antes de serem divulgadas pelo fornecedor do software.\nUma rede é extremamente vulnerável a ataques entre o momento em que um exploit é descoberto (zero hora) e o tempo que leva para o fornecedor do software desenvolver e lançar um patch que corrija esse exploit.\nA defesa contra esses ataques rápidos exige que os profissionais de segurança de rede adotem uma visão mais sofisticada e holística de qualquer arquitetura de rede."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".3.9 Ataques de dia zero",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".3.10 Registro de teclado",
+      "content": "Como o nome sugere, o registro de teclado ou o registro de teclas refere-se à gravação ou ao registro de cada tecla pressionada no teclado de um computador.\nOs cibercriminosos registram as teclas digitadas por meio de software instalado em um sistema de computador ou por meio de dispositivos de hardware conectados fisicamente a um computador. O software keylogger envia o arquivo de log para o criminoso. Por ter registrado todas as teclas pressionadas, esse arquivo de registro pode revelar nomes de usuário, senhas, sites visitados e outras informações confidenciais.\nMuitos pacotes anti-spyware podem detectar e remover keyloggers não autorizados."
+    },
+    {
+      "type": "text",
+      "title": ".3.12 Defesa contra ataques",
+      "content": "As organizações podem tomar várias medidas para se defender contra vários ataques. Estes incluem o seguinte:\nConfigure firewalls para remover quaisquer pacotes de fora da rede que tenham endereços indicando que eles se originaram de dentro da rede.\nVerifique se as correções e atualizações estão atualizadas.\nDistribua cargas de trabalho em vários sistemas de servidor.\nOs dispositivos de rede usam pacotes do Internet Control Message Protocol (ICMP) para enviar mensagens de erro e controle, como se um dispositivo pode ou não se comunicar com outro na rede. Para evitar ataques de DoS e DDoS, as empresas podem bloquear pacotes externos de ICMP com seus firewalls."
+    },
+    {
+      "type": "text",
+      "title": ".4 Ataques a dispositivos móveis e sem fio",
+      "content": "{{_moduleNumber}}.4 Ataques a dispositivos móveis e sem fio"
+    },
+    {
+      "type": "text",
+      "title": ".4 Ataques a dispositivos móveis e sem fio",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".4.1 Grayware e SMiShing",
+      "content": "Grayware é qualquer aplicativo indesejado que se comporta de maneira irritante ou indesejável. E, embora o grayware não tenha nenhum malware reconhecível, ele ainda pode representar um risco para o usuário, por exemplo, acompanhando a sua localização ou disponibilizando publicidade indesejável.\nOs autores de grayware normalmente mantêm a legitimidade ao incluir esses recursos \"cinzas\" nas letras pequenas do contrato de licença do software. Esse fator representa uma ameaça crescente à segurança móvel, em particular, já que muitos usuários de smartphones instalam aplicativos móveis sem levar em consideração essas letras pequenas.\nO serviço de mensagem curta phishing ou SMiShing é outra tática usada pelos invasores para enganá-lo. Mensagens de texto falsas solicitam que você acesse um site mal-intencionado ou ligue para um número de telefone fraudulento, o que pode resultar no download de malware no dispositivo ou no compartilhamento de informações pessoais."
+    },
+    {
+      "type": "graphic_text",
+      "title": ".4.1 Grayware e SMiShing",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": ".4.3 Bloqueio de Frequência de Rádio",
+      "content": "Os sinais sem fio são suscetíveis a interferência eletromagnética (EMI), interferência de radiofrequência (RFI) e até mesmo a raios ou ruídos de luzes fluorescentes.\nOs invasores podem aproveitar esse fato bloqueando deliberadamente a transmissão de uma estação de rádio ou satélite para impedir que um sinal sem fio chegue à estação receptora.\nPara bloquear o sinal com sucesso, a frequência, a modulação e a potência do jammer de RF precisam ser iguais às do dispositivo que o invasor está tentando interromper."
+    },
+    {
+      "type": "text",
+      "title": ".4.5 Ataques contra protocolos Wi-Fi",
+      "content": "Wired Equivalent Privacy (WEP) e Wi-Fi Protected Access (WPA) são protocolos de segurança projetados para proteger redes sem fio.\nO WEP foi desenvolvido para fornecer dados transmitidos por uma rede local sem fio (WLAN) com um nível de proteção comparável ao que é normalmente esperado de uma rede com fio tradicional. Ela agregou segurança às redes sem fio ao criptografar os dados.\nWEP usou uma chave para criptografia. O problema, no entanto, era que o WEP não dispunha de gerenciamento de chaves e, portanto, o número de pessoas que compartilhavam a mesma chave crescia continuamente, dando aos criminosos acesso a uma grande quantidade de dados de tráfego. Além disso, o vetor de inicialização (IV) do WEP, um dos principais componentes de sua chave de criptografia, era muito pequeno, legível e estático.\nPara resolver isso e substituir o WEP, o WPA e o WPA2 foram desenvolvidos como protocolos de segurança aprimorados. Ao contrário do WEP, um invasor não pode recuperar a chave de criptografia do WPA2 observando o tráfego de rede. No entanto, eles ainda podem usar um sniffer de pacotes para analisar os pacotes entre um ponto de acesso e um usuário legítimo."
+    },
+    {
+      "type": "text",
+      "title": ".4.6 Defesa Wi-Fi e dispositivos Móveis",
+      "content": "Existem várias medidas que organizações e usuários precisam implementar para se defender contra ataques a dispositivos móveis e sem fio. Estes incluem o seguinte:\nAproveite os recursos básicos de segurança sem fio, como autenticação e criptografia, alterando as configurações padrão.\nRestrinja o posicionamento de access point colocando esses dispositivos fora do firewall ou em uma zona desmilitarizada - uma rede de perímetro que protege a LAN de uma empresa contra dispositivos não confiáveis.\nUse ferramentas WLAN como NetStumbler para detectar pontos de acesso não autorizados ou estações de trabalho não autorizadas.\nDesenvolva uma política para acesso seguro de convidados à rede Wi-Fi de uma organização.\nOs funcionários de uma organização devem usar uma VPN de acesso remoto para acesso WLAN quando estiverem em redes Wi-Fi públicas."
+    },
+    {
+      "type": "text",
+      "title": ".5 Ataques a aplicativos",
+      "content": "{{_moduleNumber}}.5 Ataques a aplicativos"
+    },
+    {
+      "type": "text",
+      "title": ".5 Ataques à aplicativos",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "text",
+      "title": ".5.1 Script entre sites (Cross-Site Scripting - CSS)",
+      "content": "Os ataques realizados por meio de aplicativos da Web estão se tornando cada vez mais comuns. Atores de ameaças exploram vulnerabilidades na codificação de um aplicativo baseado na Web para obter acesso a um banco de dados ou servidor.\nCross-site scripting (XSS) é uma ameaça comum encontrada em muitos aplicativos da web. Funciona assim:\nOs criminosos digitais exploram a vulnerabilidade XSS ao injetar scripts que contêm código mal-intencionado em uma página da Web.\nA página da Web é acessada pela vítima, e os scripts mal-intencionados passam inadvertidamente para o navegador.\nO script malicioso pode acessar cookies, tokens de sessão ou outras informações sensíveis sobre o usuário, que são enviadas de volta para o cibercriminoso.\nMunido dessas informações, o criminoso digital pode se passar por um usuário."
+    },
+    {
+      "type": "graphic_text",
+      "title": "Novo título do componente",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "accordion",
+      "title": ".5.2 Injeção de Código",
+      "content": "**Ataque de injeção de XML:** Um ataque de injeção de XML pode corromper os dados no banco de dados XML e ameaçar a segurança do site.\nEle funciona ao interferir no processamento de dados XML ou na consulta de uma aplicação inserida por um usuário.\nOs criminosos digitais podem manipular essa consulta ao programá-la para atender às suas necessidades. Isso concederá a eles acesso a todas as informações confidenciais armazenadas no banco de dados e permitirá que eles façam qualquer alteração no site.\n\n**Ataque de injeção de SQL:** Os criminosos digitais podem realizar um ataque de injeção de SQL em sites ou em qualquer banco de dados SQL inserindo uma instrução SQL mal-intencionada em um campo de entrada.\nEsse ataque aproveita uma vulnerabilidade na qual o aplicativo não filtra corretamente os dados inseridos por um usuário por caracteres em uma instrução SQL.\nComo resultado, o criminoso digital pode obter acesso não autorizado a informações armazenadas no banco de dados, das quais pode falsificar uma identidade, modificar dados atuais, destruir dados ou até mesmo se tornar um administrador do próprio servidor de banco de dados.\n\n**Ataque de injeção de DLL:** Um arquivo Dynamic Link Library (DLL) é uma biblioteca que contém um conjunto de códigos e dados para realizar uma determinada atividade no Windows. Os aplicativos usam esse tipo de arquivo para adicionar funcionalidades não incorporadas, quando precisam realizar essa atividade.\nA injeção de DLL permite que um criminoso digital engane um aplicativo para chamar um arquivo DLL mal-intencionado, que é executado como parte do processo de destino.\n\n**Ataque de injeção de LDAP:** O Lightweight Directory Access Protocol (LDAP) é um protocolo aberto para autenticar o acesso do usuário a serviços de diretório.\nUm ataque de injeção de LDAP explora vulnerabilidades de validação de entrada ao injetar e executar consultas a servidores LDAP, dando aos criminosos digitais a oportunidade de extrair informações confidenciais do diretório LDAP de uma empresa."
+    },
+    {
+      "type": "text",
+      "title": ".5.3 Estouro de buffer (Buffer Overflow)",
+      "content": "Os buffers são áreas de memórias alocadas a um aplicativo. Um estouro de buffer ocorre quando os dados são gravados além dos limites de um buffer. Ao alterar os dados além dos limites de um buffer, o aplicativo pode acessar a memória alocada para outros processos. Isso pode levar a uma falha do sistema ou comprometimento de dados, ou fornecer escalação de privilégios.\nEssas falhas de memória também podem oferecer aos invasores controle total sobre o dispositivo de um alvo. Por exemplo, um invasor pode alterar as instruções de uma aplicação vulnerável enquanto o programa está carregando na memória e, como resultado, pode instalar malware e acessar a rede interna do dispositivo infectado."
+    },
+    {
+      "type": "accordion",
+      "title": ".5.5 Outros ataques a aplicativos",
+      "content": "**Cross-site request forgery (CSRF):** O CSRF descreve a exploração mal-intencionada de um site onde os comandos não autorizados são enviados do navegador de um usuário para um aplicativo da Web confiável.\nUm site mal-intencionado pode transmitir esses comandos por meio de marcas de imagem, formulários ocultos ou solicitações de JavaScript especialmente criadas, que podem funcionar sem o conhecimento do usuário.\n\n**Ataque de condição de corrida:** Também conhecido como TOC (tempo de verificação) ou tempo de uso (TOU), um ataque de condição de corrida acontece quando um sistema de computação projetado para lidar com tarefas em uma sequência específica é forçado a executar duas ou mais operações simultaneamente.\nPor exemplo, os sistemas operacionais são compostos de segmentos, a menor sequência de instruções do programa necessária para realizar um processo. Quando dois ou mais encadeamentos acessam dados compartilhados e tentam alterá-los ao mesmo tempo, ocorre um ataque de condição de corrida.\n\n**Ataque de tratamento de entrada inadequado:** Os dados inseridos por um usuário que não é validado corretamente podem afetar o fluxo de dados de um programa e causar vulnerabilidades críticas em sistemas e aplicativos que resultam em estouro de buffer ou ataques de injeção de SQL.\n\n**Ataque de tratamento de erros:** Os invasores podem usar mensagens de erro para extrair informações específicas, como nomes de host de sistemas internos e diretórios ou arquivos que existem em um determinado servidor Web, bem como nomes de bancos de dados, tabelas e campos que podem ser usados para criar ataques de injeção de SQL.\n\n**Ataque à interface de programação de aplicativos (API):** Uma API fornece uma resposta do usuário para um sistema e envia a resposta do sistema de volta para o usuário. Um ataque de API ocorre quando um criminoso digital abusa de um endpoint de API.\n\n**ataques de repetição:** Isso descreve uma situação em que uma transmissão de dados válida é repetida ou retardada de forma mal-intencionada ou fraudulenta por um invasor, que intercepta, altera e reenvia os dados para que o destinatário faça o que quiser.\n\n**Ataque transversal de diretório:** A passagem de diretório ocorre quando um invasor é capaz de ler arquivos no servidor da Web fora do diretório do site. Um invasor pode usar essas informações para baixar arquivos de configuração do servidor que contêm informações confidenciais, expor potencialmente mais vulnerabilidades do servidor ou até mesmo assumir o controle do servidor!\n\n**Ataques de exaustão de recursos:** Esses ataques são exploits de segurança de computadores que travam, paralisam ou interferem em um programa ou sistema específico. Em vez de sobrecarregar a largura de banda de rede como um ataque de DoS, os ataques de exaustão de recursos sobrecarregam os recursos de hardware disponíveis no servidor de destino."
+    },
+    {
+      "type": "text",
+      "title": ".5.7 Defesa contra ataques à Aplicativos",
+      "content": "Existem várias ações que você pode tomar para se defender contra um ataque a aplicativo. Você encontrará alguns deles descritos aqui.\nA primeira linha de defesa contra um ataque a aplicativo é escrever um código sólido.\nPrática prudente de programação envolve tratar e validar todas as entradas de fora de uma função como se fosse hostil.\nUse ferramentas de teste de segurança para avaliar o código-fonte e o software binário continuamente durante o ciclo de vida do desenvolvimento do software.\nMantenha todos os softwares atualizados, incluindo os sistemas operacionais e aplicativos, e não ignore os prompts de atualização. Nem todos os programas são atualizados automaticamente."
+    },
+    {
+      "type": "text",
+      "title": ".5.8 Spam",
+      "content": "Spam, também conhecido como lixo eletrônico, é simplesmente um e-mail não solicitado. Na maioria dos casos, é um método de publicidade. No entanto, muito spam é enviado em massa por computadores infectados por vírus ou worms - e muitas vezes contém links mal-intencionados, malware ou conteúdo enganoso que tem como objetivo enganar os destinatários na divulgação de informações confidenciais, como um número de Previdência Social ou informações de conta bancária.\nQuase todos os provedores de e-mail filtram spam, mas ainda consomem largura de banda. E mesmo se você tiver recursos de segurança implementados, alguns spams ainda podem chegar até você. Fique atento aos seguintes indicadores de spam:\nO e-mail não tem assunto.\nO e-mail solicita que você atualize os detalhes da sua conta.\nO texto do e-mail contém palavras com erros ortográficos ou pontuação e caracteres estranhos.\nLinks no e-mail são longos e/ou incompreensíveis.\nO e-mail parece correspondência de uma empresa legítima, mas há pequenas diferenças - ou contém informações que não parecem relevantes para você.\nO e-mail solicita que você abra um anexo, geralmente com urgência.\nO e-mail se origina de um domínio incomum ou contém links para domínios que provavelmente não pertencem ao remetente identificado.\nSe você receber um e-mail que contenha um ou mais desses indicadores, não abra o e-mail ou qualquer anexo. Muitas empresas têm uma política de e-mail que exige que os funcionários relatem o recebimento desse tipo de e-mail à equipe de segurança digital para investigação adicional. Em caso de dúvida, sempre informe."
+    },
+    {
+      "type": "accordion",
+      "title": ".5.10 Vishing, Pharming e Whaling",
+      "content": "**Vishing:** Muitas vezes chamado de phishing de voz, esse tipo de ataque faz com que os criminosos usem a tecnologia de comunicação por voz para incentivar os usuários a divulgar informações, como detalhes do cartão de crédito.\nOs criminosos podem imitar chamadas telefônicas usando o protocolo de voz sobre internet (VoIP) ou deixar mensagens gravadas para dar a impressão de que são chamadas legítimas.\n\n**Pharming:** Esse tipo de ataque direciona deliberadamente os usuários para uma versão falsa de um site oficial. Enganados com a crença de que estão conectados a um site legítimo, os usuários inserem suas credenciais no site fraudulento.\n\n**Whaling:** Whaling é um ataque de phishing que buscam vítimas de alto perfil em uma empresa, como executivos seniores."
+    },
+    {
+      "type": "text",
+      "title": ".5.12 Defesa contra ataques a email e browser",
+      "content": "Há muitas ações que você pode tomar para se defender contra ataques de e-mail e navegadores. Alguns dos mais importantes estão descritos aqui.\nÉ difícil parar o spam, mas existem maneiras de reduzir seus efeitos:\nA maioria dos provedores de serviços de Internet (ISPs) filtra o spam antes que ele chegue à caixa de entrada do usuário.\nMuitos programas antivírus e de software de e-mail detectam e removem automaticamente spam perigoso de uma caixa de entrada de e-mail.\nAs empresas devem educar os funcionários sobre os perigos dos e-mails não solicitados e conscientizá-los sobre os perigos da abertura de anexos.\nNunca presuma que os anexos de e-mail são seguros, mesmo quando vierem de um contato confiável. Sempre verifique os anexos antes de abri-los.\nTorne-se um membro do Grupo de Trabalho Anti-Phishing (APWG). É uma associação internacional de empresas focada na eliminação de fraudes e roubo de identidade, resultantes de phishing e falsificação de e-mail.\nTodos os softwares devem ser mantidos atualizados, com as correções de segurança mais recentes aplicadas para proteger contra vulnerabilidades de segurança conhecidas."
+    },
+    {
+      "type": "accordion",
+      "title": ". 5.12 Defesa contra ataques a email e browser",
+      "content": "**Ataques físicos:** Os ataques físicos são ações intencionais e ofensivas usadas para destruir, expor, alterar, desativar, roubar ou obter acesso não autorizado à infraestrutura ou ao hardware de uma empresa.\nExemplos de ataques físicos incluem:\nCarregamento de malware em uma unidade flash USB que infecta um dispositivo quando conectado.\nMontagem de cabos e plugues, como cabos USB genéricos, cabos de carregamento de dispositivos móveis e adaptadores de energia ou parede com tecnologias avançadas, como um chip sem fio, para permitir que um invasor controle ou forneça instruções a um dispositivo.\nCopiar ou extrair dados de um cartão de crédito ou débito usando um terminal especializado para criar um cartão clonado, que pode ser usado para obter acesso não autorizado às contas da vítima.\n\n**Ataques adversos à inteligência artificial:** O aprendizado de máquina é um método de automação que permite que os dispositivos realizem análises e executem tarefas sem serem especificamente programados para isso. Ele funciona com muitos dos aplicativos que usamos hoje, como pesquisa na Web, marcação de fotos, detecção de spam, vigilância por vídeo, detecção de fraude e automação de segurança.\nA aprendizagem de máquina usa modelos matemáticos para prever resultados. No entanto, esses modelos dependem dos dados inseridos. Se os dados estiverem infectados, poderão ter um impacto negativo no resultado previsto. Os invasores podem aproveitar isso para realizar ataques contra algoritmos de aprendizagem de máquina. Por exemplo, usar dados corrompidos para enganar um veículo autônomo e interpretar mal as placas de rua.\n\n**Ataques à cadeia de fornecimento:** Muitas empresas interagem com terceiros para gerenciar seus sistemas ou comprar componentes e software. As empresas podem até depender de peças ou componentes de fontes estrangeiras.\nOs invasores geralmente encontram maneiras de interceptar essas cadeias de fornecimento. Por exemplo, o software pode se basear em contratos de suporte específicos e estar sujeito a uma data de fim de vida útil (EOL). Alterar essa data pode significar que uma empresa não está mais qualificada para obter suporte de serviço e manutenção.\n\n**Ataques na nuvem:** Em vez de desenvolver sistemas em suas próprias instalações, mais e mais empresas estão se movendo em direção à computação em nuvem, como discutimos anteriormente neste módulo.\nA vantagem é que o provedor de nuvem vai manter o equipamento, mas isso também abre uma empresa para uma série de ameaças potenciais. Os invasores estão constantemente aproveitando formas de explorar dados confidenciais armazenados na nuvem, bem como aplicações, plataformas e infraestrutura baseada em nuvem, como vimos com SaaS, PaaS e IaaS."
+    },
+    {
+      "type": "text",
+      "title": ".6 Resumo de Ameaças, Vulnerabilidades e Ataques à Segurança Cibernética",
+      "content": "{{_moduleNumber}}.6 Resumo de Ameaças, Vulnerabilidades e Ataques à Segurança Cibernética"
+    },
+    {
+      "type": "text",
+      "title": ": 6 Resumo de Ameaças, Vulnerabilidades e Ataques de Segurança Cibernética",
+      "content": "Role para comecar"
+    },
+    {
+      "type": "accordion",
+      "title": ".6.1 O que aprendi neste módulo?",
+      "content": "**Ameaças comuns:** Um domínio de ameaça é uma área de controle, autoridade ou proteção que os invasores podem explorar para obter acesso a um sistema. Os invasores podem explorar sistemas dentro de um domínio de ameaça obtendo acesso físico a sistemas, invadindo redes sem fio, comprometendo dispositivos Bluetooth e NFC, enviando e-mails maliciosos, examinando contas de mídia social, espalhando software malicioso (malware) por meio de mídia removível ou explorando ambientes de computação em nuvem.\nOs ataques podem explorar bugs de software ou erro humano. Os ataques ameaçam os sistemas físicos por meio de sabotagem ou roubo. Além disso, falhas de equipamentos, interrupções de serviços públicos e desastres naturais podem afetar a disponibilidade de sistemas e recursos. As ameaças internas geralmente são de funcionários antigos ou atuais, enquanto as ameaças externas vêm de invasores amadores ou qualificados.\nUm domínio de usuário inclui qualquer pessoa com acesso ao sistema de informações de uma empresa, incluindo funcionários, clientes e parceiros de contrato. Os usuários são muitas vezes considerados o elo mais fraco nos sistemas de segurança da informação. As ameaças do usuário vêm da falta de conscientização sobre segurança, políticas de segurança mal aplicadas, roubo de dados, downloads e mídia não autorizados, visitas a sites não autorizados ou destruições intencionais de sistemas, aplicativos e dados.\nAmeaças aos dispositivos incluem acesso não autorizado a sistemas autônomos, download de malware e software desatualizado.\nAs ameaças à LAN incluem acesso não autorizado a instalações e equipamentos, vulnerabilidades do sistema operacional, pontos de acesso não autorizados, interceptação de dados em trânsito e práticas de gerenciamento ineficientes. Dispositivos de segurança mal configurados, como firewalls, também podem ser explorados.\nAs ameaças à nuvem privada incluem sondagem de rede e verificação de portas não autorizadas, acesso não autorizado a recursos, vulnerabilidades no software do dispositivo, erros de configuração e acesso não autorizado a recursos internos por meio da nuvem.\nO domínio de aplicação inclui todos os sistemas críticos, aplicativos e dados usados por uma organização para apoiar suas operações. As ameaças ao domínio do aplicativo incluem acesso não autorizado, tempo de inatividade do servidor ou falha de hardware, vulnerabilidades do sistema operacional de rede, perda de dados e vulnerabilidades em aplicativos da Web ou software cliente-servidor.\nAmeaças complexas assumem a forma de ameaças persistentes avançadas (APT) ou ataques de algoritmo. Os APTs ocorrem durante um período prolongado e usam táticas elaboradas e malware. Os ataques de algoritmo exploram processos de software para gerar comportamentos que não foram pretendidos pelos desenvolvedores de software.\nBackdoors, como Netbus ou Back Orifice, são usados para obter acesso contínuo não autorizado a sistemas ignorando os procedimentos normais de autenticação. Eles geralmente envolvem o uso de ferramentas administrativas remotas (RAT) para obter acesso aos sistemas. Os rootkits são um tipo de malware que explora vulnerabilidades para obter acesso não autorizado (escalonamento de privilégios). Os rootkits podem modificar arquivos do sistema e interferir na análise forense do sistema e nas ferramentas de monitoramento. Eles são muito difíceis de detectar e remover.\nO United States Computer Emergency Readiness Team (US-CERT) e o Departamento de Segurança Interna dos EUA patrocinam um banco de dados de vulnerabilidades e exposições comuns (CVE). Os identificadores CVE são uma maneira padrão de se referir a vulnerabilidades de segurança conhecidas. A Dark Web é usada por hackers para trocar informações sobre vulnerabilidades e ameaças e dados roubados. Os profissionais de segurança usam CVEs e recursos da Dark Web para pesquisar ameaças à segurança. Indicadores de comprometimento (IOCs) são as características de ataques que podem ser usadas para identificar explorações. O Compartilhamento Automatizado de Indicadores (AIS) fornece uma maneira padrão para os profissionais de segurança trocarem informações de exploração usando a Expressão Estruturada de Informações sobre Ameaças (STIX) e a Troca Automatizada Confiável de Informações de Inteligência (TAXII).\n\n**Disfarce:** A engenharia social é uma estratégia não técnica que tenta manipular indivíduos para realizar ações específicas ou divulgar informações confidenciais. Pretexting é um ataque de engenharia social em que alguém mente para obter acesso a dados confidenciais. Um ataque \"algo por algo\" usa a oferta de um presente para obter informações confidenciais. Fraude de identificação é o uso de informações confidenciais roubadas de uma pessoa para adquirir bens ou serviços.\nA engenharia social usa várias táticas diferentes para obter informações das vítimas. Os invasores podem fingir ser pessoas com autoridade ou usar a intimidação para obrigar as pessoas a agir de maneira que comprometa a segurança. Eles também podem usar táticas como consenso, escassez, urgência e familiaridade. Os invasores até desenvolverão uma relação de confiança com a vítima para, eventualmente, violar a segurança da vítima.\nShoulder surfing refere-se a olhar por cima do ombro de alguém para obter credenciais como senhas, PINs ou números de cartão de crédito. Dumpster diving (Mergulhar no lixo) significa literalmente vasculhar o lixo de alguém para encontrar informações pessoais confidenciais. Piggybacking e tailgating são maneiras de obter acesso físico não autorizado a áreas restritas.\nOutros meios de fraude são o envio de faturas falsas para obter dinheiro ou credenciais, ataques watering hole nos quais sites populares são infectados com malware,\"typo squatting\" criando URLs que parecem muito próximos de sites populares, anexando ao remover avisos de sites externos por e-mail e campanhas de influência combinadas.\nAs organizações podem se defender contra o engano ensinando os funcionários a nunca fornecer informações confidenciais a terceiros desconhecidos, detectar e-mails suspeitos e resistir a clicar em links, evitar ou encerrar downloads não iniciados ou automáticos e resistir à pressão de indivíduos desconhecidos.\n\n**Ataques cibernéticos:** Malware é um software que pode ser usado para roubar dados, contornar o controle de acesso, ou causar danos ou comprometer um sistema. Os vírus são um tipo de malware que se replica quando executado. Eles podem ser inofensivos ou destrutivos. Worms são programas que se replicam de forma independente nas redes. Cavalos de Tróia são malwares que se disfarçam de outros aplicativos de software ou são distribuídos com aplicativos legítimos. As bombas lógicas são acionadas para agir por data e hora ou outros eventos do sistema. Eles podem danificar o hardware e o software do sistema. Ransomware é um ataque comum que usa software malicioso para criptografar uma unidade de hardware do sistema. Às vezes, mas nem sempre, pagar um resgate reverterá o dano.\nAtaques de negação de serviço (DoS) são um tipo de ataque de rede que afeta a disponibilidade de recursos. Em um tipo de ataque DoS, uma rede ou aplicativo é sobrecarregado com uma enorme quantidade de dados. Isso pode tornar os sistemas lentos ou travar. Em outro ataque DoS, pacotes formatados com códigos maliciosos são enviados para interromper a operação do sistema.\nO Domain Name System (DNS) é essencial para as operações de rede. Os invasores podem prejudicar a reputação de um domínio criando domínios semelhantes falsos ou por meio de notícias falsas. Na falsificação de domínio, os invasores exploram os pontos fracos do DNS para mapear nomes de domínio legítimos para os endereços IP de sites mal-intencionados. Se os invasores obtiverem acesso às informações de registro de DNS de um alvo, eles poderão sequestrar o nome de domínio alterando o nome de domínio para mapeamentos de endereços IP.\nDois tipos comuns de ataques de Camada 2 são spoofing e MAC flooding. A falsificação de endereço MAC ocorre quando um invasor disfarça seu dispositivo como um dispositivo válido na rede e, portanto, pode ignorar o processo de autenticação. O spoofing de ARP envia mensagens falsificadas de ARP através de uma LAN para vincular o endereço MAC do criminoso ao endereço IP de um membro autorizado da rede. O spoofing de IP envia pacotes IP com um endereço de origem falsificado para se disfarçar. No MAC flooding, um invasor inunda a rede com endereços MAC falsos, comprometendo a segurança do switch de rede.\nMan-in-the-Middle (MitM), ou ataques no caminho, acontecem quando um cibercriminoso assume o controle de um dispositivo intermediário na rede ou coloca seu próprio dispositivo em um caminho para interceptar dados do usuário. O invasor pode roubar informações, manipular dados ou transmitir informações falsas. Um ataque Man-in-the-Mobile (MitMo) é uma variação de um ataque MitM em que um dispositivo móvel é infectado com malware que rouba dados do dispositivo.\nOs ataques de dia zero exploram vulnerabilidades de software antes que elas se tornem conhecidas. Uma visão sofisticada e holística da infraestrutura de segurança é necessária para se defender contra esses ataques.\nOs registradores de teclado (keyboard loggers) são tipos de malware que registram cada tecla digitada em um computador. Isso pode revelar informações confidenciais e credenciais de conta.\nVárias diretrizes para se defender contra ataques são configurar firewalls para filtrar pacotes de entrada que parecem ter se originado internamente, garantir que todo software tenha as atualizações e patches mais recentes, distribuir cargas de trabalho entre vários sistemas de servidor e bloquear pacotes ICMP na borda da rede.\n\n**Ataques a dispositivos móveis e sem fio:** Grayware é um aplicativo indesejado que se comporta de maneira irritante ou indesejável. SMiShing é o uso de mensagens SMS falsas para induzir o usuário a visitar um site malicioso ou ligar para um número de telefone fraudulento.\nPontos de acesso não autorizados são instalados em redes sem autorização. Eles podem se disfarçar como pontos de acesso legítimos para induzir os usuários a se associarem a eles. Eles podem ser usados para conduzir ataques MitM desautenticando usuários ou se passando por pontos de acesso legítimos com conexões mais desejáveis em ataques \"evil twin\".\nOs sinais sem fio são suscetíveis a interferências e bloqueios. Os invasores podem negar o serviço sem fio bloqueando os sinais Wi-Fi. O Bluetooth pode ser usado para enviar mensagens não autorizadas através do Bluejacking. O Bluesnarfing ocorre quando um invasor copia informações de um dispositivo móvel por meio de uma conexão Bluetooth maliciosa.\nWired Equivalent Privacy (WEP) e Wi-Fi Protected Access (WPA) são protocolos de segurança projetados para proteger redes sem fio. O WEP não tinha provisão para gerenciamento de chaves e, portanto, era vulnerável a ataques. Para resolver isso e substituir o WEP, o WPA e o WPA2 foram desenvolvidos como protocolos de segurança aprimorados.\nPara aumentar a segurança sem fio, é importante usar pelo menos a criptografia WPA2. Os pontos de acesso devem ser colocados fora do perímetro da rede, se possível. Use ferramentas para detectar access points não autorizados Permitir apenas acesso Wi-Fi seguro para convidados. Por fim, os funcionários devem sempre usar VPN de acesso remoto ao se conectar à rede da organização em redes Wi-Fi públicas.\n\n**Ataques à aplicativos:** Cross-site scripting (XSS) é um ataque de aplicativo da Web comum no qual um código malicioso é inserido em um site legítimo. O navegador da vítima executa o código malicioso que baixa malware, redireciona para um site malicioso ou rouba informações.\nOs ataques de injeção envolvem a exploração de sistemas inserindo dados ou comandos malformados nos campos de entrada do usuário. Eles são especialmente comuns contra bancos de dados. Os ataques de injeção de XML e SQL corrompem bancos de dados ou fazem com que informações confidenciais, como credenciais de usuário, sejam reveladas. As bibliotecas de vínculo dinâmico (DLL) são módulos de software usados por aplicativos para interagir com o Windows. Os invasores podem injetar código malicioso em DLLs que serão executados quando a DLL for usada. Os ataques de injeção de LDAP exploram a validação de entrada para executar consultas em servidores LDAP, potencialmente dando aos invasores acesso a informações confidenciais da conta.\nA execução remota de código permite que um cibercriminoso aproveite as vulnerabilidades do aplicativo para executar qualquer comando com os privilégios do usuário que executa o aplicativo no dispositivo de destino. Outros ataques a aplicativos são falsificações de solicitação entre sites, ataques de condição de corrida, ataques de entrada imprópria do usuário, ataques de tratamento de erros e ataques de interface de programação de aplicativos (API). Ataques adicionais são ataques de repetição, ataques de travessia de diretório e ataques de esgotamento de recursos.\nPara se defender contra ataques a aplicativos, a primeira linha de defesa é escrever um código sólido. Todas as entradas do usuário devem ser validadas. As ferramentas de teste de segurança devem ser usadas para avaliar o código conforme ele é desenvolvido e antes da implantação. Finalmente, todos os softwares, incluindo sistemas operacionais, devem ser mantidos atualizados.\nSpam, também conhecido como lixo eletrônico, é simplesmente um e-mail não solicitado. O spam geralmente é um incômodo, mas pode ser malicioso. Embora os filtros de spam sejam amplamente utilizados, é importante que os usuários saibam como identificar o spam.\nPhishing e spear phishing são ataques que parecem vir de fontes legítimas, mas querem que você baixe arquivos ou envie informações confidenciais. Os ataques de spear phishing são direcionados diretamente a indivíduos específicos. Vishing usa mensagens de voz para atacar. O pharming direciona os usuários para versões falsas de sites legítimos. Whaling é o phishing direcionado a usuários de alto perfil, como executivos, políticos ou celebridades.\nPara se defender contra ataques de e-mail e navegador, as organizações devem usar filtros de spam, implantar software antivírus e educar os usuários sobre segurança de rede."
+    },
+    {
+      "type": "text",
+      "title": ".6.2 Webster - Perguntas para reflexão",
+      "content": "Uau, você sabia sobre todas essas coisas ruins que os agentes de ameaças podem fazer? Eu não sabia, mas estou feliz por saber mais sobre isso agora. A campanha de conscientização deve ajudar os usuários da faculdade a reconhecer as ameaças. Espero que tenha ajudado você também. Mas lembre-se de que os agentes de ameaças tentam constantemente encontrar uma nova maneira de tirar vantagem de você ou de sua empresa. Então, sempre há algo novo para aprender.\nHá algo mais que devemos incluir na campanha de conscientização? Você compartilhará algumas dessas informações com familiares ou outros usuários em sua rede? Como você pode proteger a si mesmo, seu computador e sua empresa contra essas ameaças?"
+    },
+    {
+      "type": "graphic_text",
+      "title": ".6.2 Webster - Perguntas para reflexão",
+      "content": "",
+      "image": null
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Objetivos\nParte 1: Técnicas de Exploração de Engenharia Social\nParte 2: Crie um pôster de conscientização sobre segurança cibernética\nIntrodução\nA segurança cibernética é crítica porque envolve a proteção do acesso não autorizado a dados confidenciais, informações de identificação pessoal (PII), informações de saúde protegidas (PHI), informações pessoais, propriedade intelectual (IP) e sistemas confidenciais. Engenharia social é uma ampla gama de atividades maliciosas realizadas pela manipulação psicológica das pessoas para que realizem ações ou divulguem informações confidenciais. Neste laboratório, você explorará técnicas de engenharia social, às vezes chamadas de hacking humano, que é uma categoria ampla para diferentes tipos de ataques.\nRecursos necessários\nPC ou dispositivo móvel com acesso à internet"
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Histórico/Cenário\nPesquisas recentes revelam que os tipos mais comuns de ataques cibernéticos estão se tornando mais sofisticados e os alvos dos ataques estão crescendo. O objetivo de um ataque é roubar informações, desabilitar sistemas ou serviços críticos, interromper sistemas, atividades e operações. Alguns ataques são projetados para destruir informações ou sistemas de informação, controlar maliciosamente um ambiente de computação ou sua infraestrutura ou destruir a integridade de dados e/ou sistemas de informação. Uma das maneiras mais eficazes de um invasor obter acesso à rede de uma organização é por meio de um simples engano. No mundo da segurança cibernética, isso é chamado de engenharia social.\nAtaques de engenharia social\nOs ataques de engenharia social são muito eficazes porque as pessoas querem confiar em outras pessoas e os ataques de engenharia social não são o tipo de ataque contra o qual o usuário médio se protege; os usuários estão preocupados com botnets, roubo de identidade ou ransomware. Estas são grandes ameaças externas, então eles não pensam em questionar o que parece ser uma mensagem de aparência legítima.\nIscas\nBaiting (isca) depende da curiosidade ou ganância da vítima. O que distingue baiting de outros tipos de engenharia social é a promessa de um item ou bem que os hackers usam para atrair as vítimas. Baiters podem oferecer aos usuários downloads gratuitos de músicas ou filmes se os usuários entregarem suas credenciais de login a um determinado site. Os ataques baiting  não se restringem a esquemas online. Os invasores podem explorar a curiosidade humana com mídia física, como drives USB.\nNavegação bisbilhoteira\nShoulder surfing é literalmente olhar por cima do ombro de alguém para obter informações. Shoulder surfing  é uma maneira eficaz de obter informações em lugares lotados porque é relativamente fácil ficar ao lado de alguém e observar enquanto ele preenche um formulário ou digita um número PIN em um caixa eletrônico. Shoulder surfing também pode ser feito a longa distância com o auxílio de telefones celulares modernos, binóculos ou outros dispositivos que melhoram a visão. Para evitar Shoulder surfing, os especialistas recomendam que você proteja a papelada ou o teclado usando o corpo ou colocando a mão em concha. Existem até escudos de tela que tornam o Shoulder surfing muito mais difícil.\nPretexting\nPretexting é usar o engano para criar um cenário para convencer as vítimas a divulgar informações que não deveriam divulgar. Pretexting costuma ser usado contra organizações que retêm dados de clientes, como dados financeiros, números de cartão de crédito, números de contas de serviços públicos e outras informações confidenciais. Os pretexters geralmente solicitam informações de indivíduos em uma organização representando um supervisor, funcionário do helpdesk ou cliente, geralmente por telefone, e-mail ou texto.\nAtaques de phishing, spear phishing e whaling\nNos ataques de phishing, os invasores tentam obter informações ou dados pessoais, como nome de usuário, senha e detalhes do cartão de crédito, disfarçando-se de entidades confiáveis. O phishing é realizado principalmente por meio de e-mails e telefonemas. Spear phishing é uma versão mais direcionada do phishing em que um invasor escolhe indivíduos ou empresas específicas e, em seguida, personaliza seu ataque de phishing para suas vítimas para torná-lo menos visível. Whaling é quando o alvo específico é um funcionário de alto nível, como um CEO ou CFO.\nScareware e ransomware\nOs ataques de ransomware envolvem a injeção de malware que criptografa os dados críticos da vítima. Os cibercriminosos solicitam o pagamento de um resgate para descriptografar os dados. No entanto, mesmo que um resgate seja pago, não há garantia de que os criminosos cibernéticos descriptografem as informações. O ransomware é um dos tipos de ataque cibernético que mais cresce e afetou milhares de organizações financeiras, agências governamentais, estabelecimentos de saúde e até mesmo escolas e nossos sistemas educacionais.\nO scareware tira proveito do medo do usuário, persuadindo-o a instalar um falso software antivírus.\nTailgating\nUsando truques não autorizados, a vítima ajuda o invasor a obter acesso não autorizado às instalações físicas da organização. O invasor procura entrar em uma área restrita onde o acesso é controlado por dispositivos eletrônicos baseados em software ou guardas humanos. A utilização não autorizada também pode envolver o invasor seguindo um funcionário de perto para passar por uma porta trancada antes que a porta se tranque atrás do funcionário.\nBusca de informações na lixeira\nNo mundo da engenharia social, o dumpster diving é uma técnica utilizada para recuperar informações descartadas jogadas no lixo para realizar um ataque a uma pessoa ou organização. O mergulho no lixo não se limita a procurar no lixo tesouros óbvios, como códigos de acesso ou senhas anotadas em notas adesivas, mas também pode envolver informações eletrônicas deixadas em desktops ou armazenadas em unidades USB."
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Parte 1: Técnicas de Exploração de Engenharia Social\nPasso 1: Explore Baiting, Shoulder Surfing e Pretexting.\nO National Support Center for Systems Security and Information Assurance (CSSIA) hospeda uma atividade Interativa de Engenharia Social. O link atual para o site é https://www.caeepnc.org/social_engineering/. No entanto, se o link mudar, tente pesquisar por \"CSSIA Social Engineering Interactive\".\nClique em Avançar na atividade interativa e use o conteúdo para responder às perguntas a seguir."
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Passo 2: Explorar Phishing, Spear Phishing e Whaling\nO phishing é projetado para fazer com que as vítimas cliquem em links para sites maliciosos, abram anexos que contenham malware ou revelem informações confidenciais. Use a atividade interativa para explorar diferentes técnicas de phishing."
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Passo 3: Explorar Scareware e Ransomware\nScareware é quando as vítimas são levadas a pensar que seu sistema está infectado com malware e recebem alarmes falsos, solicitando que instalem software desnecessário ou que seja um malware. Ransomware é um tipo de malware que ameaça publicar os dados da vítima ou criptografar os dados da vítima, impedindo o acesso ou a capacidade de usar os dados. As vítimas são impedidas de acessar seu sistema ou arquivos pessoais até que façam um pagamento de resgate para recuperar o acesso."
+    },
+    {
+      "type": "text",
+      "title": "Laboratório - Técnicas de Exploração de Engenharia Social",
+      "content": "Parte 2: Crie um pôster de conscientização sobre segurança cibernética\nUse o PowerPoint para criar um pôster que informará outras pessoas sobre as diferentes técnicas de engenharia social usadas para obter acesso não autorizado a uma organização ou aos dados da organização.\nEscolha entre: Baiting, Shoulder Surfing, Pretexting, Phishing, Scareware, Ransomware, Tailgating ou Dumpster Diving.\nO pôster deve descrever as técnicas usadas e como os usuários podem evitar um desses ataques de engenharia social. Inclua também instruções sobre onde o pôster deve ser colocado dentro da organização."
+    }
+  ],
+  "quizzes": [
+    {
+      "question": "Você está investigando um e-mail suspeito que foi enviado a um funcionário que trabalha remotamente Parece que o e-mail foi enviado pelo administrador, pedindo aos funcionários que cliquem em um link para baixar uma rede privada virtual que protegerá a conexão Wi-Fi durante o trabalho em casa. Embora o e-mail pareça legítimo, clicar no link instala malware no dispositivo do funcionário. Que tipo de ataque de engenharia social está sendo usado aqui?",
+      "options": [
+        "Pretexting (pré-dialogo)",
+        "Quid pro quo",
+        "Fraude de identidade",
+        "Phishing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO pretexto ocorre quando um indivíduo mente para obter acesso a dados privilegiados.\nQuid pro quo descreve um ataque que envolve uma solicitação de informações em troca de algo, como um presente.\nA fraude de identidade usa a identidade roubada de uma pessoa para obter dados, bens ou serviços por meio de engano.\nPhishing é um cibercrime no qual um alvo ou alvos são contatados por e-mail, telefone ou mensagem de texto por alguém que se faz passar por uma instituição legítima para induzir indivíduos a fornecer dados confidenciais, como informações de identificação pessoal, dados bancários e de cartão de crédito e senhas.",
+      "raw_id": "63b8459644a74706b1970ea6"
+    },
+    {
+      "question": "Vários funcionários relataram problemas de desempenho em seus computadores, com aplicativos executando anúncios pop-up lentos e notáveis. Como parte da investigação, uma ferramenta de monitoramento de rede é consultada, revelando tráfego anormal na web. Com base nas descobertas, que tipo de ataque está afetando a corporação?",
+      "options": [
+        "Ataques da camada 2",
+        "ataque de DoS",
+        "Ataque DDoS",
+        "Ataques de DNS"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nUm ataque de DoS causa a interrupção de uma rede conectada à Internet, sobrecarregando-a com dados ou pacotes mal-intencionados e mal-intencionados.\nUm ataque de DDoS é semelhante, mas origina-se de um botnet de hosts infectados chamados zumbis. Quando está pronto, o hacker instrui os sistemas controladores para fazer com que o botnet de zumbis execute um ataque de negação de serviço distribuído (DDoS).\nOs ataques de camada 2 visam a camada de enlace de dados que é usada para mover dados através de uma rede física vinculada ignorando protocolos de autenticação.\nOs ataques de DNS visam a vulnerabilidades no sistema de nome de domínio que faz com que ele se comporte de forma inesperada.",
+      "raw_id": "63b84f349ff40a064d7c4eaa"
+    },
+    {
+      "question": "Um funcionário acaba de receber um e-mail do departamento de RH solicitando os detalhes da conta bancária do funcionário, clicando em um link no e-mail. Ressalta que isso deve ser concluído até o final do dia para que o empregado seja incluído na folha de pagamento deste mês. Embora o e-mail pareça ter sido enviado internamente, uma inspeção mais detalhada revela uma pequena variação no domínio de e-mail do endereço do remetente. Que tipo de ataque é esse?",
+      "options": [
+        "Cavalo de Troia",
+        "Representação",
+        "Man-in-the-middle",
+        "Invasão de domínio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA personificação (Impersonation) é enganar alguém para divulgar suas informações pessoais fingindo ser outra pessoa.\nUm ataque man-in-the-middle acontece quando um criminoso digital assume o controle de um dispositivo sem o conhecimento do alvo para interceptar, manipular e transmitir informações falsas entre eles e o destino pretendido.\nO sequestro de domínio(Domain hijacking) descreve um invasor que obtém controle indevidamente e faz alterações não autorizadas nas informações de DNS de um alvo.\nUm Cavalo de Troia é um malware que se liga a arquivos não executáveis, como arquivos de imagem, áudio ou vídeo, agindo como uma isca para prejudicar os sistemas de usuários desavisados",
+      "raw_id": "63ae85f8468c7308507cd681"
+    },
+    {
+      "question": "Verdadeiro ou falso:\nAtaques DoS e DDoS podem ser mitigados pelas empresas através do bloqueio de pacotes ICMP externos com firewalls.",
+      "options": [
+        "Verdadeiro",
+        "Falso"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nOs dispositivos de rede usam pacotes do Internet Control Message Protocol (ICMP) para enviar mensagens de erro e controle, como se um dispositivo pode ou não se comunicar com outro na rede. Para prevenir ataques DoS e DDoS, empresas podem bloquear pacotes ICMP externos com firewalls.",
+      "raw_id": "63cfe31982c839039ac303a0"
+    },
+    {
+      "question": "Você está tomando um café no café local e decide atualizar seus e-mails enquanto espera que seu amigo chegue. A pessoa tenta se conectar ao Wi-Fi do café, mas a conexão parece fraca Felizmente, há um segundo Wi-Fi com um nome semelhante, então a pessoa faz logon. No entanto, um invasor está sentado por perto, tendo criado um ponto de acesso Wi-Fi em seu celular, que emparelhou com seu laptop Eles estão monitorando a atividade online de todos que se conectam a este Wi-Fi.\nQue tipo de ataque é esse?",
+      "options": [
+        "Interferência de Radiofrequência",
+        "Gêmeo do mal",
+        "Bluesnarfing",
+        "Bluejacking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isso mesmo!\nBluejacking e o bluesnarfing usam a tecnologia sem fio Bluetooth para realizar um ataque.\nUm ataque \"evil twin\" descreve uma situação em que o ponto de acesso à Internet de um invasor é configurado para parecer uma opção de conexão melhor para um ponto de acesso legítimo.\nO bloqueio de radiofrequência descreve uma situação em que a transmissão de uma estação de rádio ou satélite é deliberadamente bloqueada para impedir que um sinal sem fio chegue à estação receptora.",
+      "raw_id": "63ae8840e183b10deca03089"
+    },
+    {
+      "question": "Um invasor identificou uma vulnerabilidade no serviço de mensagens online da corporação, que facilita a comunicação entre funcionários que trabalham em diferentes sites. Quando um funcionário faz uma chamada de voz, ela inunda a memória do aplicativo, dando efetivamente ao invasor controle sobre o dispositivo do funcionário. Que tipo de ataque é esse?",
+      "options": [
+        "Ataque de exaustão de recursos",
+        "Execução remota de código",
+        "Buffer overflow",
+        "Script entre sites"
+      ],
+      "correctIndex": 2,
+      "explanation": "Está certo.\nOs ataques de esgotamento de recursos interferem com uma aplicação sobrecarregando os recursos de hardware disponíveis no servidor de destino.\nA execução remota de código ocorre quando os invasores exploram uma vulnerabilidade de aplicativo para executar qualquer comando com os privilégios de destino que executam o aplicativo em seus dispositivos.\nUm buffer overflow ocorre quando os dados são gravados além dos limites de um buffer, permitindo que o aplicativo acesse a memória alocada para outros processos. Isso pode levar à queda do sistema, comprometimento de dados ou fornecer o escalonamento de privilégios.\nOs invasores exploram vulnerabilidades de script entre sites (XSS) injetando scripts contendo código malicioso em uma página da web. Quando a vítima acessa essa página da Web, os scripts mal-intencionados passam sem saber para o navegador, dando aos invasores acesso a informações confidenciais.",
+      "raw_id": "63aeb4dee3064708765c4045"
+    },
+    {
+      "question": "Qual ataque de aplicativo está ocorrendo quando a vítima acessa uma página da Web e scripts maliciosos são passados inadvertidamente para o navegador?",
+      "options": [
+        "Script entre sites (XSS)",
+        "Execução remota de código",
+        "Injeção de XML",
+        "Inserção de SQL"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nScript entre sites ocorre quando a vítima acessa uma página da web e scripts maliciosos são passados inadvertidamente para seu navegador. A execução remota de código permite que um cibercriminoso aproveite as vulnerabilidades do aplicativo para executar qualquer comando com os privilégios do usuário que executa o aplicativo no dispositivo de destino. Um ataque de injeção de XML pode corromper os dados no banco de dados XML e ameaçar a segurança do site. A injeção de SQL é um ataque a sites ou qualquer banco de dados SQL inserindo uma instrução SQL maliciosa em um campo de entrada.",
+      "raw_id": "63d0bdb474d7bc0645c99e87"
+    },
+    {
+      "question": "Qual declaração descreve um ataque de estouro de buffer (buffer overflow)?",
+      "options": [
+        "Os dados são gravados além dos limites da área de memória alocada para um aplicativo.",
+        "Os dados em um banco de dados XML estão corrompidos e ameaçam a segurança de um site.",
+        "Scripts maliciosos em uma página da web são passados inadvertidamente para o navegador da vítima.",
+        "As vulnerabilidades do aplicativo são exploradas para executar comandos com os privilégios do usuário no dispositivo de destino."
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUm ataque de estouro de buffer faz com que os dados sejam gravados além dos limites da área de memória alocada para um aplicativo. Um ataque de injeção de XML pode corromper os dados no banco de dados XML e ameaçar a segurança do site. Script entre sites ocorre quando a vítima acessa uma página da web e scripts maliciosos são passados inadvertidamente para seu navegador. A execução remota de código permite que um cibercriminoso aproveite as vulnerabilidades do aplicativo para executar qualquer comando com os privilégios do usuário que executa o aplicativo no dispositivo de destino.",
+      "raw_id": "63d0c2cb5c981b05c0864dd8"
+    },
+    {
+      "question": "Um cibercriminoso aproveita as vulnerabilidades do aplicativo e executa qualquer comando, no dispositivo de destino, com os privilégios do usuário que está executando o aplicativo. Que tipo de ataque esse cenário descreve?",
+      "options": [
+        "Script entre sites",
+        "Execução remota de código",
+        "Injeção de XML",
+        "Inserção de SQL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Está certo.\nA execução remota de código permite que um cibercriminoso aproveite as vulnerabilidades do aplicativo para executar qualquer comando com os privilégios do usuário que executa o aplicativo no dispositivo de destino. Script entre sites ocorre quando a vítima acessa uma página da web e scripts maliciosos são passados inadvertidamente para seu navegador. Um ataque de injeção de XML pode corromper os dados no banco de dados XML e ameaçar a segurança do site. A injeção de SQL é um ataque a sites ou qualquer banco de dados SQL realizado pela inserção de uma instrução SQL maliciosa em um campo de entrada.",
+      "raw_id": "63d0c34774d7bc0645c99e8a"
+    },
+    {
+      "question": "Qual prática de programação atenuará um ataque a aplicativo?",
+      "options": [
+        "validar todas as entradas de uma função",
+        "certifique-se de que o provedor de serviços de internet filtre todas as mensagens de e-mail",
+        "escanea anexos de e-mail, antes de abri-los",
+        "educar os usuários a não compartilhar informações confidenciais online"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nUma prática de programação específica que ajudará a mitigar ataques de aplicativos é tratar e validar todas as entradas de  uma função como se fossem hostis. Educar os usuários a não compartilhar informações confidenciais on-line, garantir que os provedores de serviços de Internet filtrem todas as mensagens de e-mail e sempre verificar os anexos de e-mail antes de abri-los são defesas contra ataques de e-mail e phishing.",
+      "raw_id": "63d0c3a774d7bc0645c99e8d"
+    },
+    {
+      "question": "Que tipo de ataque é usado para induzir um usuário a compartilhar informações confidenciais, como credenciais de login e números de cartão de crédito?",
+      "options": [
+        "phishing",
+        "pharming",
+        "script entre sites",
+        "execução remota de código"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nO phishing ocorre quando um usuário é contatado por e-mail ou mensagem instantânea e é induzido a instalar malware em seu dispositivo ou a compartilhar informações confidenciais. Pharming (falsificação) redireciona deliberadamente os usuários para uma versão falsa de um site oficial. A execução remota de código permite que um cibercriminoso aproveite as vulnerabilidades do aplicativo para executar qualquer comando com os privilégios do usuário que executa o aplicativo no dispositivo de destino. script entre sites ocorre quando a vítima acessa uma página da web e scripts maliciosos são passados inadvertidamente para seu navegador.",
+      "raw_id": "63d0c42374d7bc0645c99e90"
+    },
+    {
+      "question": "Que tipo de ataque desvia deliberadamente os usuários para uma versão falsa de um site real?",
+      "options": [
+        "pharming",
+        "vishing",
+        "whaling",
+        "spam"
+      ],
+      "correctIndex": 0,
+      "explanation": "Está certo.\nPharming (falsificação) redireciona deliberadamente os usuários para uma versão falsa de um site oficial. Muitas vezes referido como phishing de voz, o vishing vê os criminosos usarem a tecnologia de comunicação de voz para encorajar os usuários a divulgar informações, como detalhes do cartão de crédito. Whaling é um ataque de phishing que visa indivíduos de alto perfil. Spamming é o envio de e-mail não solicitado, muitas vezes enviado em massa por computadores infectados por vírus ou worms e geralmente contendo links maliciosos, malware ou conteúdo enganoso.",
+      "raw_id": "63d0c4ba74d7bc0645c99e93"
+    },
+    {
+      "question": "O que um rootkit modifica?",
+      "options": [
+        "Sistema operacional",
+        "Programas aplicativos",
+        "Protetores de tela",
+        "Bloco de notas",
+        "Microsoft Word"
+      ],
+      "correctIndex": 0,
+      "explanation": "Um rootkit geralmente modifica um sistema operacional para criar um backdoor e ignorar mecanismos de autenticação normais.",
+      "raw_id": "63aec26be183b10deca030ce"
+    },
+    {
+      "question": "Um invasor está sentado em frente a uma loja e copia e-mails e listas de contato por meio de uma conexão sem fio ficando próximo aos dispositivos, sem que eles desconfiem. Que tipo de ataque é esse?",
+      "options": [
+        "bluesnarfing",
+        "smishing",
+        "congestionamento de RF",
+        "bluejacking"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blusnarfing é a cópia de informações do usuário através de transmissões não autorizadas de Bluetooth.",
+      "raw_id": "633a8c4b12b7ea0837b95a21908"
+    },
+    {
+      "question": "Que tipo de ataque é direcionado a um banco de dados SQL usando o campo de entrada de um usuário?",
+      "options": [
+        "Injeção de XML",
+        "Script entre sites",
+        "Inserção de SQL",
+        "Estouro de bufer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um criminoso pode inserir uma declaração de SQL mal-intencionada em um campo de entrada em um site em que o sistema não filtra a entrada do usuário corretamente.",
+      "raw_id": "98633a8c4b12b7ea0837b95a21908"
+    },
+    {
+      "question": "Qual opção é um método não técnico que um criminoso virtual usaria para coletar informações confidenciais de uma empresa?",
+      "options": [
+        "man-in-the-middle",
+        "ransomeware",
+        "engenharia social",
+        "pharming"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um especialista em segurança cibernética precisa estar familiarizado com as características dos diferentes tipos de malware e ataques que ameaçam uma empresa.",
+      "raw_id": "11133a8c4b12b7ea0837b95a21908"
+    },
+    {
+      "question": "Os funcionários de uma empresa recebem um e-mail informando que a senha da conta irá expirar imediatamente, e que é necessário redefinir uma senha dentro de 5 minutos. Qual declaração classificaria esse e-mail?",
+      "options": [
+        "É um hoax.",
+        "É um ataque de imitação.",
+        "É um ataque de carona.",
+        "É um ataque de DDoS."
+      ],
+      "correctIndex": 0,
+      "explanation": "A engenharia social usa várias táticas diferentes para obter informações das vítimas.",
+      "raw_id": "1a8c4b12b7ea0837877b95a21908"
+    },
+    {
+      "question": "Quais são as três melhores práticas que podem ajudar a defender contra-ataques de engenharia social? (Escolha três.)",
+      "options": [
+        "Implantar dispositivos de firewall bem projetados.",
+        "Educar os funcionários sobre políticas.",
+        "Adicionar mais guardas de segurança.",
+        "Não fornecer redefinições de senha em uma janela de atendimento eletrônico.",
+        "Habilitar uma política que afirme que o departamento de TI deve fornecer informações por telefone apenas para os administradores.",
+        "Resistir à tentação de clicar em links da Web atraentes."
+      ],
+      "correctIndex": 5,
+      "explanation": "Um especialista em segurança cibernética deve estar ciente das tecnologias e medidas que são usadas como contramedidas para proteger a organização contra ameaças e vulnerabilidades.",
+      "raw_id": "1a8c4b12b7ea084567b95a21908"
+    },
+    {
+      "question": "Qual é o termo usado quando uma parte mal-intencionada envia um e-mail fraudulento disfarçado de uma fonte legítima e confiável?",
+      "options": [
+        "phishing",
+        "vishing",
+        "backdoor",
+        "cavalo de Troia"
+      ],
+      "correctIndex": 0,
+      "explanation": "O phishing é usado por partes mal-intencionadas que criam mensagens fraudulentas que tentam enganar um usuário para ele compartilhar informações confidenciais ou instalar malware.",
+      "raw_id": "1a8c4b12b7ea084567b95a2190865"
+    },
+    {
+      "question": "Os usuários relatam que um arquivo de banco de dados no servidor principal não pode ser acessado. Um administrador de banco de dados verifica o problema e percebe que o arquivo do banco de dados agora está criptografado. A empresa recebe um e-mail ameaçador exigindo pagamento para a descriptografia do arquivo de banco de dados. Qual tipo de ataque a empresa está sofrendo?",
+      "options": [
+        "ataque de DoS",
+        "ataque man in the middle",
+        "ransomware",
+        "cavalo de Troia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um especialista em segurança cibernética precisa estar familiarizado com as características dos diferentes tipos de malware e ataques que ameaçam uma empresa.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109875"
+    },
+    {
+      "question": "Um criminoso virtual envia uma série de pacotes formatados maliciosamente para o servidor de banco de dados. O servidor não consegue analisar os pacotes e o evento causa a falha do servidor. Qual tipo de ataque o criminoso virtual lançou?",
+      "options": [
+        "Pacote de injeção",
+        "Inserção de SQL",
+        "DoS",
+        "Man-in-the-middle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um especialista em segurança cibernética precisa estar familiarizado com as características dos diferentes tipos de malware e ataques que ameaçam uma empresa.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a71"
+    },
+    {
+      "question": "Os funcionários de uma empresa relatam que o acesso à rede é lento. Uma investigação mais aprofundada revela que um funcionário baixou um programa de digitalização de terceiros para a impressora.\nQue tipo de malware pode ter sido introduzido?",
+      "options": [
+        "cavalo de Troia",
+        "spam",
+        "worm",
+        "phishing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Um worm é um software malicioso que pode se espalhar pela rede e executar sem a participação do usuário. Os worms normalmente deixam a rede mais lenta.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a72"
+    },
+    {
+      "question": "Uma organização adiciona uma tag \"externa\" aos e-mails recebidos de fora do domínio para avisar os usuários internos de que tais e-mails são de fora. Qual método enganoso é usado por um ataque cibernético para induzir os funcionários a acreditar que a organização enviou um e-mail malicioso removendo a tag \"externa\"?",
+      "options": [
+        "ataque watering hole",
+        "typosquatting",
+        "prepending",
+        "invoice scam"
+      ],
+      "correctIndex": 2,
+      "explanation": "No método de fraude precedente (prependng) , os invasores podem remover a tag de e-mail \"externa\" usada pelas organizações para avisar o destinatário de que um e-mail se originou de uma fonte externa. Esse método engana os indivíduos fazendo-os acreditar que a organização enviou o e-mail malicioso.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a74"
+    },
+    {
+      "question": "O Netbus pertence a qual tipo de malware?",
+      "options": [
+        "backdoor",
+        "bomba lógica",
+        "keylogger",
+        "grayware"
+      ],
+      "correctIndex": 0,
+      "explanation": "O Netbus é um programa backdoor usado por cibercriminosos para obter acesso não autorizado a um sistema ignorando os procedimentos de autenticação padrão. Uma bomba lógica é um programa malicioso que espera por um gatilho, como uma data especificada ou entrada de banco de dados, para detonar o código malicioso. O keyboard logging (registro do teclado) refere-se à gravação ou registro de cada tecla pressionada no teclado de um computador. Grayware é qualquer aplicativo indesejado que se comporta de maneira irritante ou indesejável. Ele pode não conter nenhum malware reconhecível, mas ainda pode representar um risco para o usuário ao rastrear sua localização ou fornecer publicidade indesejada.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a75"
+    },
+    {
+      "question": "Por ter ângulos de visão estreitos, um caixa eletrônico mitiga que tipo de ataques?",
+      "options": [
+        "busca de informações na lixeira",
+        "navegação bisbilhoteira",
+        "quid pro quo (algo por algo)",
+        "fraude de identidade"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shoulder surfing é um ataque simples que envolve observar ou olhar por cima do ombro de um alvo para obter informações valiosas, como PINs, códigos de acesso ou detalhes de cartão de crédito. Como resultado, as telas do caixa eletrônico são visíveis apenas em determinados ângulos. Esses tipos de proteções dificultam muito o Shoulder Surfing.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a76"
+    },
+    {
+      "question": "Um usuário reclama do recebimento frequente de mensagens no smartphone que incitam o usuário a visitar diferentes sites de seguros. Se o usuário clicar no link para visitar, uma mensagem de login do usuário aparecerá e solicitará que o usuário se registre primeiro. Qual tipo de taque de dispositivo sem fio e móvel o usuário experimentou?",
+      "options": [
+        "Grayware (Programas Cinzentos)",
+        "SMiShing",
+        "Bluejacking",
+        "Bluesnarfing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phishing de serviços de mensagens curtas ou  SMiShing é uma tática usada pelos invasores para enganar os usuários de dispositivos móveis. Mensagens de texto falsas solicitam que o usuário visite um site malicioso ou ligue para um número de telefone fraudulento, o que pode resultar no download de malware no dispositivo ou no compartilhamento de informações pessoais.",
+      "raw_id": "1a8c4b12b7ea084567b95a2109a78"
+    }
+  ],
+  "images": []
+}
